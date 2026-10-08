@@ -1,5 +1,7 @@
 # Proactive Agentic Orchestration
 
+English | [简体中文](README.zh-CN.md)
+
 **POrchestra** enables SubAgents to proactively request task and resource adjustments during execution. The orchestrator revises the active agent's harness while preserving its local history, allowing execution and adaptation to form one continuous workflow.
 
 The paper also introduces **On-Policy Orchestration Distillation (OPOD)**, which turns execution-grounded feedback into process supervision for learning the orchestration policy.

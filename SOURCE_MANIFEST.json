@@ -4,10 +4,6 @@
     "sha256": "1f16330564fcede04f180736e657c2dec2e1c375516ff0f02b8b44cd5f6574b5"
   },
   {
-    "path": "README.md",
-    "sha256": "b6ff831b1a69f878e17bc821c8a5ffdd81ba0a2e0199a4a1e8dbabce7dc8694e"
-  },
-  {
     "path": ".env.example",
     "sha256": "88ec6bbf526564dccfd3a67889032dc47a6e1bfa4ed1d6ec9f1460167c207190"
   },
@@ -562,5 +558,13 @@
   {
     "path": "bench_gaia2.py",
     "sha256": "978fc3dd9f2b46a7a1711ff84375fa4d7bc6fedec9a0de32f5fc4cb0ce77050e"
+  },
+  {
+    "path": "README.md",
+    "sha256": "12eeb6bfd2af4f82b9bd37f7751bc31734f5594322728eb559d92a3be9ef793a"
+  },
+  {
+    "path": "README.zh-CN.md",
+    "sha256": "b4b94ffacfc31d5d36e9a7e0d735984a280c075f3956823cd678b7a8dd7ffadd"
   }
 ]
