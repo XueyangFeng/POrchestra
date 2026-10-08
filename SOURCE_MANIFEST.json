@@ -561,10 +561,10 @@
   },
   {
     "path": "README.md",
-    "sha256": "39983dcfdbb34bc159c18e380fad976a95b3d1f661301d016a09c0d3526e7b4e"
+    "sha256": "06e1bc8ed61d2e2ef17522e6865992f7ecfe08fead2b6903191dd20c5d06c6ec"
   },
   {
     "path": "README.zh-CN.md",
-    "sha256": "670913d0e385203ef111383e2790a435d27942d852d0be8f8dc541eef2285aec"
+    "sha256": "f63a3848383d9df73a96972df8f8dacc57ee385fd08869bc84c124f7733ab379"
   }
 ]

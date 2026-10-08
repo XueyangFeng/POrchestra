@@ -20,16 +20,6 @@ Each SubAgent is configured with a subgoal, working context, tool set and execut
 
 The orchestrator can revise the active SubAgent, create a new SubAgent, terminate an execution path or complete the task. Applied revisions are recorded in the active agent's history so it can resume with its accumulated state. POrchestra uses one active SubAgent at a time.
 
-```mermaid
-flowchart LR
-    M[Orchestrator] -->|Delegate| S[SubAgent]
-    S -->|Tool action| E[Environment]
-    E -->|Observation| S
-    S -->|State, request, evidence| M
-    M -->|Revise harness and resume| S
-    M --> F[Complete task]
-```
-
 ### OPOD
 
 OPOD combines feedback-guided distillation with outcome supervision:
@@ -41,25 +31,6 @@ OPOD combines feedback-guided distillation with outcome supervision:
 5. Combine distillation with reward-weighted regression on decisions from successful trajectories.
 
 The implemented objective described in Appendix E is `L_OPOD = L_RWR + λ L_OPD`, with `λ = 1` as the default. The attribution model is the frozen base Qwen3.5-9B; the student starts from its SFT checkpoint. SubAgent models remain fixed.
-
-## Results
-
-Task success rates (%) from Table 1 of the paper. All POrchestra inference comparisons use Gemini-3-Flash as the orchestrator; the rows specify the execution backbone.
-
-| Execution backbone | GAIA | GAIA2 | SWE-bench Verified |
-|---|---:|---:|---:|
-| DeepSeek-V3.2 | 71.5 | 47.7 | 71.0 |
-| Gemini-3-Flash | 78.2 | 53.9 | 77.0 |
-| DeepSeek-V4-Flash | 77.6 | 55.5 | 79.0 |
-
-The paper reports an average **9.1% relative improvement** over the strongest inference baseline. For Qwen3.5-9B orchestrators with DeepSeek-V4-Flash execution, Table 2 reports:
-
-| POrchestra optimization | GAIA | GAIA2 |
-|---|---:|---:|
-| SFT | 72.4 | 43.8 |
-| OPOD | **77.9** | **49.2** |
-| Without RWR | 75.8 | 46.1 |
-| Without OPD | 76.1 | 46.1 |
 
 ## Repository layout
 
