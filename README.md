@@ -16,6 +16,7 @@ active session while preserving its progress.
 ```text
 bench_porchestra_gaia.py
 bench_porchestra_swebench.py
+bench_gaia2.py
 porchestra/                 # Proactive orchestration and SAE protocol
 aorchestra/                # Shared orchestration utilities
 base/                      # Agent, model and memory infrastructure
@@ -65,12 +66,20 @@ Both examples select one task with concurrency one. Increase limits explicitly
 for larger runs. These commands make model API calls. Results go to `workspace/`.
 Use `--tasks` to select IDs and `--max_concurrency` to control concurrency.
 
+## GAIA2
+
+GAIA2 includes `porchestra/gaia2_agent/`, its original prompt templates,
+`benchmark/gaia2/`, and ARE startup registration in `sitecustomize.py`.
+See [GAIA2 setup](GAIA2.md) for the separate ARE environment, compatibility patch,
+dataset setup and dry-run command. The example runs the orchestrated `porchestra`
+agent, with explicit MainAgent, SubAgent and judge model settings.
+
 ## Attribution and release status
 
 This is a release draft organized after
 [FoundationAgents/AOrchestra](https://github.com/FoundationAgents/AOrchestra).
 See `THIRD_PARTY.md` for the reference revision, its license and local changes.
-GAIA2, training, checkpoints and experiment datasets are outside this draft's
+Training, checkpoints and experiment datasets are outside this draft's
 documented installation scope.
 
 The original POrchestra code's license has not yet been selected. This draft is

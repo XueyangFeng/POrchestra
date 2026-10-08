@@ -16,3 +16,8 @@ verify the local source history and any additional origins before publication.
 
 No vendored training frameworks, model weights or benchmark datasets are
 included by the exporter. Installed dependencies retain their own licenses.
+
+GAIA2 uses facebookresearch/meta-agents-research-environments at revision
+`7946367413129784139e785ae4c351090002a0bb` (MIT). The local compatibility changes
+are distributed as `integrations/are-compat.patch`; its upstream license is in
+`licenses/ARE-MIT.txt`. See `GAIA2.md` for installation and reproduction limits.

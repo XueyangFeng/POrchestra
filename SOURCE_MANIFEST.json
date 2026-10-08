@@ -5,7 +5,7 @@
   },
   {
     "path": "README.md",
-    "sha256": "7e6e5bc51495f8507706fb0db87558f238de81ff369264347dcc49c7de73c108"
+    "sha256": "aeb70dd429df55b8b68abc3c2022f8283b9ce1d9057b82c55f2079b0c51cda33"
   },
   {
     "path": ".env.example",
@@ -25,15 +25,31 @@
   },
   {
     "path": "THIRD_PARTY.md",
-    "sha256": "6ce2d84649f0498f28915e82c59c914aa85c94ab0188fd801d57394d81650d3f"
+    "sha256": "2528da457a78cb1325dba1ff8b5272ef1e30b2812c48f95566b174049d57d3d1"
   },
   {
     "path": "RELEASE_CHECKLIST.md",
-    "sha256": "6f7b6841727deb205a5653461ccf18a0c1970726aee4debd90a526fb4db0d97c"
+    "sha256": "8f4ff496f158a52a15d49175f4cfd99ae4f2f35912d89fd00f739bbfc057fb76"
+  },
+  {
+    "path": "sitecustomize.py",
+    "sha256": "ca022b5898ba4e85280a1680a491d05b8d959dca85c24986c67b98a9c72dcab8"
+  },
+  {
+    "path": "GAIA2.md",
+    "sha256": "b3e84b2dbc555ec741486016b850b0daf44bd89d48ca3faee32b8a90a81bbe0a"
   },
   {
     "path": "licenses/AOrchestra-Apache-2.0.txt",
     "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "licenses/ARE-MIT.txt",
+    "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+  },
+  {
+    "path": "integrations/are-compat.patch",
+    "sha256": "822bd521a754a7271d6b00962cb7f0cf76b88dcb4c195b66db5feda8b5f38a4f"
   },
   {
     "path": "config/example/model_config.yaml",
@@ -48,8 +64,92 @@
     "sha256": "0e75cf0442f1f06a99ab6208f4fe302ce8733608bc19c7131a3e0ea0d9c5d13b"
   },
   {
+    "path": "config/example/benchmarks/porchestra_gaia2.yaml",
+    "sha256": "ff98db93fca98d48e4d32e1ac49d66775ba4196b3cba6cb8ee6b0ad9ac34a6d3"
+  },
+  {
     "path": "porchestra/__init__.py",
     "sha256": "f60249e540a20b41eee18ef70be8eb2e3cb2e17e500d87f2b498b204916f1430"
+  },
+  {
+    "path": "porchestra/gaia2_agent/__init__.py",
+    "sha256": "f16c470fbf78e074de86c4304abd736919ea05291d6456324250335400ca693b"
+  },
+  {
+    "path": "porchestra/gaia2_agent/agent.py",
+    "sha256": "7156720b29d883db7b5d735e796c47540cee29ebea36df1691608ba696089293"
+  },
+  {
+    "path": "porchestra/gaia2_agent/boundary_trace.py",
+    "sha256": "16d6ea1d605c1e7691ffc911560ac2569471b638224d12e239f8ebdc5543d66a"
+  },
+  {
+    "path": "porchestra/gaia2_agent/budget_boundary.py",
+    "sha256": "e01ac0dfd975a0a29af0cb06e884eafa8c44da2f75ef0f5ef435cdd34242b58c"
+  },
+  {
+    "path": "porchestra/gaia2_agent/cli_judge_prompts.py",
+    "sha256": "b9b3210892637adbdd9d7d1ae0508ad8f638d28628799bea52122316039cc1d8"
+  },
+  {
+    "path": "porchestra/gaia2_agent/completion.py",
+    "sha256": "1e02bd917600fb00637d2a9dda6bb7c8de7404db582e0e1a367f9b6dca499107"
+  },
+  {
+    "path": "porchestra/gaia2_agent/delegation_mask.py",
+    "sha256": "4f1043ee309c882de2238e49f6d65adac959ee4270de8845b8d0dcd7004cc510"
+  },
+  {
+    "path": "porchestra/gaia2_agent/failure_trigger.py",
+    "sha256": "44302ab6de76affd647c9d293e1a2fcc231ca964484763f53c7878df454dbbfe"
+  },
+  {
+    "path": "porchestra/gaia2_agent/json_utils.py",
+    "sha256": "dcf7ba94ed038574d08d2256db7d26d2bb29081632e83561926c42908170491a"
+  },
+  {
+    "path": "porchestra/gaia2_agent/judge_trace.py",
+    "sha256": "42359988d41eafb5061ed6b1faa4de6ace7619cdc23a6e6850b0afd3a89a7b31"
+  },
+  {
+    "path": "porchestra/gaia2_agent/llm_trace.py",
+    "sha256": "5ae12a20519896047847cc0205aaed6a6b9ec727a9c406bcd2e5865a9ffd2a79"
+  },
+  {
+    "path": "porchestra/gaia2_agent/memory.py",
+    "sha256": "9030ceba44846b658ee443689085306b5a589da988ddd1aa0975cc68bd91512f"
+  },
+  {
+    "path": "porchestra/gaia2_agent/polling.py",
+    "sha256": "98f2980e54d757853b584c20802c6fd2b8bff10c0e7423e9e7dff42cb59e4c10"
+  },
+  {
+    "path": "porchestra/gaia2_agent/prompts.py",
+    "sha256": "c4f422fbc8780c19a3f90baded6d0012d7a1462bf2504f9b54dd4909395112b1"
+  },
+  {
+    "path": "porchestra/gaia2_agent/protocol.py",
+    "sha256": "1fc31ddc08a657097efd3baf183cdce9e8090e193c3817d26a931437f419d962"
+  },
+  {
+    "path": "porchestra/gaia2_agent/registration.py",
+    "sha256": "d707bb1e46111c5678aa9133eb6e0ee906bb4a2ef519c01961d936c5ebc905b9"
+  },
+  {
+    "path": "porchestra/gaia2_agent/revision_ablation.py",
+    "sha256": "fb6f387db029d742d7c6ea9ed4e3d3d9c78c239b696fb14a0cd3f0653873bc67"
+  },
+  {
+    "path": "porchestra/gaia2_agent/sae_ablation.py",
+    "sha256": "886d99a0bcb777d67967a52511a72c80a0faa6d006b385793d70e965a975c6b8"
+  },
+  {
+    "path": "porchestra/gaia2_agent/subagent.py",
+    "sha256": "625e217956f6225de1d7c03604c848d8290338ab274fe710ec05996dc7f45466"
+  },
+  {
+    "path": "porchestra/gaia2_agent/tools.py",
+    "sha256": "1baa1a43276b76ea3c269a34507fba7d7623d94a917305af2051b2edfa9c640f"
   },
   {
     "path": "porchestra/gaia2_context_overflow.py",
@@ -150,6 +250,42 @@
   {
     "path": "aorchestra/config.py",
     "sha256": "684b471e9452652774bfcedca864d25949d641cda7431233e1a763b3bcb46fa8"
+  },
+  {
+    "path": "aorchestra/gaia2_agent/__init__.py",
+    "sha256": "361763e61665a9791269b98a49a49d0b8932634f3082a6508268003e5152c725"
+  },
+  {
+    "path": "aorchestra/gaia2_agent/agent.py",
+    "sha256": "a15984bd1beefeb08c2f024ce40a969f888b8130d022ab5293ec4b65dd408bc9"
+  },
+  {
+    "path": "aorchestra/gaia2_agent/error_trigger.py",
+    "sha256": "7f0c4cc11bbe0d93f4513e21364ce9e32ba1e5a2595db3caecc8134d788281ae"
+  },
+  {
+    "path": "aorchestra/gaia2_agent/memory.py",
+    "sha256": "07870d9aefdc3fad1063a2ad851eb5a103c456e5b34e406c0389df95e33fcd81"
+  },
+  {
+    "path": "aorchestra/gaia2_agent/polling.py",
+    "sha256": "0ac82a72cdfe9ce6a2796872887ceb5555da9f22fba9494c83c6c4e160d74144"
+  },
+  {
+    "path": "aorchestra/gaia2_agent/prompts.py",
+    "sha256": "b6aecf6306a151763d37eafb9e9566eb8b4eeb463656f5a69f7e94d0f969be52"
+  },
+  {
+    "path": "aorchestra/gaia2_agent/registration.py",
+    "sha256": "922c80ef2a3c71070162d8bf6ef281f2552a2e11988429be3536aa275c568886"
+  },
+  {
+    "path": "aorchestra/gaia2_agent/subagent.py",
+    "sha256": "2c4890386dc014881fb6cc502c5b7a4286e97876dc44f130d632843c3df46555"
+  },
+  {
+    "path": "aorchestra/gaia2_agent/tools.py",
+    "sha256": "59a162ca874974d6fe7a125f9508ba7960337bfab605dd17562b82e953cad3d6"
   },
   {
     "path": "aorchestra/main_agent.py",
@@ -344,6 +480,14 @@
     "sha256": "572ded6db06c5b059390a931731d5096464ed51ff3e0278fdc0ba04d83b87f3a"
   },
   {
+    "path": "benchmark/gaia2/__init__.py",
+    "sha256": "f92d79786b24c8be303d8cc26fa356f8b5264eb0f9b10e47df35b3f74dece9db"
+  },
+  {
+    "path": "benchmark/gaia2/runner.py",
+    "sha256": "43ccb88a6ac23117dfde0ba58f893030e2e73e79bf05e198095b6656e934d5cd"
+  },
+  {
     "path": "benchmark/orchestra_o1_bench_gaia.py",
     "sha256": "a582b6562113bdcd491fda459ee37caa7c63ffcdfd949c806b33bec1f783f158"
   },
@@ -414,5 +558,9 @@
   {
     "path": "bench_porchestra_swebench.py",
     "sha256": "72d96b348356c10d69033924d2563aca07194385cb06819dd2847ef6a428cfa4"
+  },
+  {
+    "path": "bench_gaia2.py",
+    "sha256": "978fc3dd9f2b46a7a1711ff84375fa4d7bc6fedec9a0de32f5fc4cb0ce77050e"
   }
 ]

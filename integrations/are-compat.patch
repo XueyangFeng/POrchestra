@@ -1,0 +1,575 @@
+diff --git a/are/simulation/agents/default_agent/base_agent.py b/are/simulation/agents/default_agent/base_agent.py
+index 60c1149..8b60b3b 100644
+--- a/are/simulation/agents/default_agent/base_agent.py
++++ b/are/simulation/agents/default_agent/base_agent.py
+@@ -688,20 +688,6 @@ class BaseAgent:
+             self.logger.debug(f"Resuming environment with {offset} offset")
+             self.resume_env(offset)
+ 
+-        # DO NOT REMOVE THIS LINE, IT BREAKS REACT LOOP
+-        self.append_agent_log(
+-            LLMOutputThoughtActionLog(
+-                content=llm_output,
+-                timestamp=self.make_timestamp(),
+-                agent_id=self.agent_id,
+-                prompt_tokens=metadata.get("prompt_tokens", 0),
+-                completion_tokens=metadata.get("completion_tokens", 0),
+-                total_tokens=metadata.get("total_tokens", 0),
+-                reasoning_tokens=metadata.get("reasoning_tokens", 0),
+-                completion_duration=metadata.get("completion_duration", 0),
+-            )
+-        )
+-
+         if format_try_count > self.invalid_format_retries:
+             raise InvalidActionAgentError(
+                 f"LLM did not return a valid output after {format_try_count} iterations: {llm_output}"
+@@ -724,6 +710,22 @@ class BaseAgent:
+             self.logger.debug(f"LLM output: {llm_output}")
+             raise e
+ 
++        logged_llm_output = agent_action.as_llm_output(self.action_token)
++
++        # DO NOT REMOVE THIS LINE, IT BREAKS REACT LOOP
++        self.append_agent_log(
++            LLMOutputThoughtActionLog(
++                content=logged_llm_output,
++                timestamp=self.make_timestamp(),
++                agent_id=self.agent_id,
++                prompt_tokens=metadata.get("prompt_tokens", 0),
++                completion_tokens=metadata.get("completion_tokens", 0),
++                total_tokens=metadata.get("total_tokens", 0),
++                reasoning_tokens=metadata.get("reasoning_tokens", 0),
++                completion_duration=metadata.get("completion_duration", 0),
++            )
++        )
++
+         self.append_agent_log(
+             ThoughtLog(
+                 content=agent_action.rationale,
+diff --git a/are/simulation/agents/default_agent/tools/action_executor.py b/are/simulation/agents/default_agent/tools/action_executor.py
+index 8f2b259..8631548 100644
+--- a/are/simulation/agents/default_agent/tools/action_executor.py
++++ b/are/simulation/agents/default_agent/tools/action_executor.py
+@@ -5,6 +5,7 @@
+ # the root directory of this source tree.
+ 
+ 
++import re
+ from abc import abstractmethod
+ from dataclasses import dataclass
+ from typing import Any, Callable
+@@ -25,6 +26,15 @@ class AgentAction:
+     action: str | None
+     action_type: str | None = None
+ 
++    def as_llm_output(self, split_token: str) -> str:
++        if self.action is None:
++            return self.rationale
++        rationale = self.rationale.strip()
++        action = self.action.strip()
++        if rationale:
++            return f"{rationale}\n\n{split_token}\n{action}"
++        return f"{split_token}\n{action}"
++
+ 
+ @dataclass
+ class ParsedAction:
+@@ -49,26 +59,73 @@ class BaseActionExecutor:
+             else get_parent_logger(__name__)
+         )
+ 
++    def _truncate_to_first_action_block(self, action_text: str) -> str:
++        """Keep only the action block that will actually be executed."""
++        end_positions = [
++            idx + len(token)
++            for token in ("<end_action>", "</end_action>")
++            if (idx := action_text.find(token)) != -1
++        ]
++        if end_positions:
++            return action_text[: min(end_positions)].strip()
++
++        start = action_text.find("{")
++        if start == -1:
++            return action_text.strip()
++
++        depth = 0
++        in_string = False
++        escape = False
++        for idx in range(start, len(action_text)):
++            char = action_text[idx]
++            if escape:
++                escape = False
++                continue
++            if char == "\\":
++                escape = True
++                continue
++            if char == '"':
++                in_string = not in_string
++                continue
++            if in_string:
++                continue
++            if char == "{":
++                depth += 1
++            elif char == "}":
++                depth -= 1
++                if depth == 0:
++                    return action_text[: idx + 1].strip()
++
++        return action_text.strip()
++
+     def extract_action(self, llm_output: str, split_token: str) -> AgentAction:
+         try:
+             split = llm_output.split(split_token)
+             if len(split) < 2:
+-                raise IndexError(
+-                    f"Expected at least 2 parts after splitting by '{split_token}', got {len(split)}"
+-                )
++                json_start = llm_output.find("{")
++                json_end = llm_output.rfind("}")
++                if json_start == -1 or json_end == -1 or json_end <= json_start:
++                    raise IndexError(
++                        f"Expected at least 2 parts after splitting by '{split_token}', got {len(split)}"
++                    )
++                rationale = llm_output[:json_start]
++                action = llm_output[json_start : json_end + 1]
++                return AgentAction(rationale, action)
+             rationale, action = (
+-                split[-2],
+-                split[-1],
++                split[0],
++                split[1],
+             )
++            action = self._truncate_to_first_action_block(action)
+         except Exception as e:
+             self.logger.error(e, exc_info=True)
+             raise InvalidActionAgentError(
+                 f"Error: No '{split_token}' token provided in your output.\nYour output:\n{llm_output}\n. Be sure to include an action, prefaced with '{split_token}'!\nException: {e}"
+             )
+         if len(split) > 2:
+-            raise FormatError(
+-                f"Found multiple actions in output {llm_output} - please provide only one thought and one action"
++            self.logger.warning(
++                "Found multiple actions in output; using the first action block."
+             )
++            rationale = re.sub(r"\s*Thought:\s*$", "", rationale).strip()
+         return AgentAction(rationale, action)
+ 
+     def execute_action(
+diff --git a/are/simulation/agents/default_agent/tools/json_action_executor.py b/are/simulation/agents/default_agent/tools/json_action_executor.py
+index 6b948ab..e9a9dd5 100644
+--- a/are/simulation/agents/default_agent/tools/json_action_executor.py
++++ b/are/simulation/agents/default_agent/tools/json_action_executor.py
+@@ -30,7 +30,25 @@ from are.simulation.tools import Tool
+ from .action_executor import AgentAction, BaseActionExecutor, ParsedAction
+ 
+ 
++def _iter_json_objects(text: str):
++    decoder = json.JSONDecoder(strict=False)
++    for match in re.finditer(r"{", text):
++        try:
++            obj, end = decoder.raw_decode(text[match.start() :])
++        except json.JSONDecodeError:
++            continue
++        if isinstance(obj, dict):
++            yield obj, text[match.start() : match.start() + end]
++
++
+ def parse_json_blob(json_blob: str) -> dict[str, str | dict[str, str]]:
++    json_blob = json_blob.replace("```json", "").replace("```", "")
++    cleaned_blob = json_blob.replace('\\"', "'")
++    cleaned_blob = re.sub(r'"""(.*?)"""', r"'\1'", cleaned_blob, flags=re.DOTALL)
++    candidates = list(_iter_json_objects(cleaned_blob))
++    action_candidates = [obj for obj, _ in candidates if "action" in obj]
++    if action_candidates:
++        return action_candidates[0]
+     try:
+         first_accolade_index = json_blob.find("{")
+         last_accolade_index = [a.start() for a in list(re.finditer("}", json_blob))][-1]
+diff --git a/are/simulation/agents/llm/llm_engine_builder.py b/are/simulation/agents/llm/llm_engine_builder.py
+index 1d5f7b7..95625c3 100644
+--- a/are/simulation/agents/llm/llm_engine_builder.py
++++ b/are/simulation/agents/llm/llm_engine_builder.py
+@@ -93,9 +93,9 @@ class LLMEngineBuilder(AbstractLLMEngineBuilder):
+         :param engine_config: Configuration for the engine.
+         :returns: An instance of the LLM engine.
+         """
+-        from are.simulation.agents.llm.litellm.litellm_engine import (
+-            LiteLLMEngine,
+-            LiteLLMModelConfig,
++        from are.simulation.agents.llm.openai_compat_engine import (
++            OpenAICompatEngine,
++            OpenAICompatModelConfig,
+         )
+ 
+         endpoint = os.environ.get("LLAMA_API_BASE", "https://api.llama.com/compat/v1")
+@@ -103,13 +103,12 @@ class LLMEngineBuilder(AbstractLLMEngineBuilder):
+         if key is None:
+             raise EnvironmentError("LLAMA_API_KEY must be set in the environment")
+ 
+-        model_config = LiteLLMModelConfig(
++        model_config = OpenAICompatModelConfig(
+             model_name=engine_config.model_name,
+-            provider="openai",
+             endpoint=endpoint,
+             api_key=key,
+         )
+-        return LiteLLMEngine(model_config=model_config)
++        return OpenAICompatEngine(model_config=model_config)
+ 
+     def _create_local_engine(self, engine_config: LLMEngineConfig) -> LLMEngine:
+         """
+diff --git a/are/simulation/validation/configs.py b/are/simulation/validation/configs.py
+index 1dc2709..4623a88 100644
+--- a/are/simulation/validation/configs.py
++++ b/are/simulation/validation/configs.py
+@@ -5,6 +5,7 @@
+ # the root directory of this source tree.
+ 
+ 
++import os
+ from dataclasses import dataclass, field
+ from typing import Any, Callable
+ 
+@@ -13,6 +14,7 @@ from are.simulation.validation.constants import (
+     TOOL_ARG_CHECKER_TYPE_REGISTRY,
+     TOOL_EVALUATION_CRITERIA_REGISTRY,
+     TOOL_SOFT_CHECKER_TYPE_REGISTRY,
++    TOOL_SOFT_CHECKER_TYPE_REGISTRY_EVAL,
+     CheckerType,
+     SoftCheckerType,
+     ToolArgCheckerTypeRegistry,
+@@ -40,20 +42,44 @@ def create_judge_engine(
+             endpoint=None,
+         )
+ 
++    final_provider = judge_engine_config.provider or DEFAULT_JUDGE_PROVIDER or "huggingface"
++    endpoint = judge_engine_config.endpoint
++    api_key = None
++    if final_provider == "llama-api":
++        from are.simulation.agents.llm.openai_compat_engine import (
++            OpenAICompatEngine,
++            OpenAICompatModelConfig,
++        )
++
++        endpoint = endpoint or os.environ.get("LLAMA_API_BASE") or os.environ.get("OPENAI_BASE_URL")
++        api_key = (
++            os.environ.get("LLAMA_API_KEY")
++            or os.environ.get("OPENAI_API_KEY")
++            or os.environ.get("OPENAI_COMPAT_API_KEY")
++        )
++        if not endpoint:
++            raise EnvironmentError("LLAMA_API_BASE or OPENAI_BASE_URL must be set for llama-api judge")
++        if not api_key:
++            raise EnvironmentError("LLAMA_API_KEY or OPENAI_API_KEY must be set for llama-api judge")
++
++        judge_config = OpenAICompatModelConfig(
++            model_name=judge_engine_config.model_name,
++            endpoint=endpoint,
++            api_key=api_key,
++        )
++        return OpenAICompatEngine(model_config=judge_config)
++
+     # Use LiteLLM for all other cases (external or internal with overrides)
+     from are.simulation.agents.llm.litellm.litellm_engine import (
+         LiteLLMEngine,
+         LiteLLMModelConfig,
+     )
+ 
+-    final_provider = (
+-        judge_engine_config.provider or DEFAULT_JUDGE_PROVIDER or "huggingface"
+-    )
+-
+     judge_config = LiteLLMModelConfig(
+         model_name=judge_engine_config.model_name,
+         provider=final_provider,
+-        endpoint=judge_engine_config.endpoint,
++        endpoint=endpoint,
++        api_key=api_key,
+     )
+ 
+     return LiteLLMEngine(model_config=judge_config)
+@@ -124,7 +150,7 @@ class AgentEventJudgeConfig(BaseEventJudgeConfig):
+         default_factory=lambda: TOOL_ARG_CHECKER_TYPE_REGISTRY
+     )
+     per_tool_soft_checker_types: ToolSoftCheckerTypeRegistry = field(
+-        default_factory=lambda: TOOL_SOFT_CHECKER_TYPE_REGISTRY
++        default_factory=lambda: TOOL_SOFT_CHECKER_TYPE_REGISTRY_EVAL
+     )
+     engine: Callable = field(default_factory=create_judge_engine)
+     # Scripted checkers related config
+@@ -148,7 +174,7 @@ class GraphPerEventJudgeConfig(BaseJudgeConfig):
+     )
+     engine: Callable = field(default_factory=create_judge_engine)
+     per_tool_soft_checker_types: ToolSoftCheckerTypeRegistry = field(
+-        default_factory=lambda: TOOL_SOFT_CHECKER_TYPE_REGISTRY
++        default_factory=lambda: TOOL_SOFT_CHECKER_TYPE_REGISTRY_EVAL
+     )
+     # Scripted checkers related config
+     # If this field is not `None`, the soft judge will not be used.
+diff --git a/are/simulation/validation/constants.py b/are/simulation/validation/constants.py
+index 740598e..fa328da 100644
+--- a/are/simulation/validation/constants.py
++++ b/are/simulation/validation/constants.py
+@@ -399,6 +399,34 @@ PER_TOOL_TO_SOFT_CHECKER_TYPES = {
+ }
+ 
+ 
++# Eval soft checkers used by gaia2-cli's in-container judge.  This keeps
++# event-level matching identical while avoiding stricter RL-style text checks.
++PER_TOOL_TO_SOFT_CHECKER_TYPES_EVAL = {
++    "CalendarApp__add_calendar_event": [SoftCheckerType.event_checker],
++    "EmailClientApp__send_email": [
++        SoftCheckerType.placeholder_checker,
++        SoftCheckerType.signature_checker,
++        SoftCheckerType.email_checker,
++    ],
++    "EmailClientApp__reply_to_email": [
++        SoftCheckerType.placeholder_checker,
++        SoftCheckerType.signature_checker,
++        SoftCheckerType.email_checker,
++    ],
++    "MessagingApp__send_message": [
++        SoftCheckerType.placeholder_checker,
++        SoftCheckerType.message_checker,
++    ],
++    "CabApp__order_ride": [SoftCheckerType.cab_checker],
++    "AgentUserInterface__send_message_to_user": [
++        SoftCheckerType.user_message_checker,
++    ],
++    "MessagingApp__create_conversation": [
++        SoftCheckerType.content_checker,
++    ],
++}
++
++
+ class ToolSoftCheckerTypeRegistry(ToolArgCheckerTypeRegistry):
+     """
+     A registry for soft checkers.
+@@ -410,3 +438,9 @@ TOOL_SOFT_CHECKER_TYPE_REGISTRY = ToolSoftCheckerTypeRegistry(
+     tool_alias=TOOL_ALIAS,  # type: ignore
+     app_alias=APP_ALIAS,  # type: ignore
+ )
++
++TOOL_SOFT_CHECKER_TYPE_REGISTRY_EVAL = ToolSoftCheckerTypeRegistry(
++    initial_registry=PER_TOOL_TO_SOFT_CHECKER_TYPES_EVAL,
++    tool_alias=TOOL_ALIAS,  # type: ignore
++    app_alias=APP_ALIAS,  # type: ignore
++)
+diff --git a/are/simulation/agents/llm/openai_compat_engine.py b/are/simulation/agents/llm/openai_compat_engine.py
+new file mode 100644
+index 0000000..a4a053b
+--- /dev/null
++++ b/are/simulation/agents/llm/openai_compat_engine.py
+@@ -0,0 +1,212 @@
++# Copyright (c) Meta Platforms, Inc. and affiliates.
++# All rights reserved.
++#
++# This source code is licensed under the terms described in the LICENSE file in
++# the root directory of this source tree.
++
++import hashlib
++import json
++import logging
++import os
++import threading
++import time
++from pathlib import Path
++from typing import Any
++
++import requests
++from pydantic import BaseModel
++
++from are.simulation.agents.llm.llm_engine import LLMEngine, LLMEngineException
++from are.simulation.agents.llm.types import MessageRole
++from are.simulation.agents.multimodal import Attachment
++
++logger = logging.getLogger(__name__)
++
++role_conversions = {"tool-response": "user", "tool-call": "assistant"}
++_raw_trace_lock = threading.Lock()
++
++
++class OpenAICompatModelConfig(BaseModel):
++    model_name: str
++    endpoint: str
++    api_key: str
++    timeout: float = 600.0
++
++
++class OpenAICompatEngine(LLMEngine):
++    """Minimal OpenAI-compatible chat-completions engine for ARE."""
++
++    def __init__(self, model_config: OpenAICompatModelConfig):
++        super().__init__(model_config.model_name)
++        self.model_config = model_config
++
++    def _convert_message(self, message: dict[str, Any]) -> dict[str, Any]:
++        role = MessageRole(message["role"]).value
++        role = role_conversions.get(role, role)
++
++        attachments: list[Attachment] | None = message.get("attachments")
++        content = message.get("content", "")
++        if not attachments:
++            return {"role": role, "content": content}
++
++        content_list: list[dict[str, Any]] = []
++        if content:
++            content_list.append({"type": "text", "text": content})
++        for attachment in attachments:
++            if attachment.mime.startswith("image/"):
++                content_list.append(attachment.to_openai_json())
++            else:
++                logger.warning("Unsupported attachment mime type: %s", attachment.mime)
++        return {"role": role, "content": content_list}
++
++    def chat_completion(
++        self,
++        messages: list[dict[str, Any]],
++        stop_sequences=[],
++        **kwargs,
++    ) -> tuple[str, dict | None]:
++        converted_messages = [self._convert_message(message) for message in messages]
++        url = self.model_config.endpoint.rstrip("/") + "/chat/completions"
++        payload: dict[str, Any] = {
++            "model": self.model_config.model_name,
++            "messages": converted_messages,
++        }
++        if stop_sequences:
++            payload["stop"] = stop_sequences
++
++        headers = {
++            "Authorization": f"Bearer {self.model_config.api_key}",
++            "Content-Type": "application/json",
++        }
++
++        try:
++            started_at = time.time()
++            response = requests.post(
++                url,
++                headers=headers,
++                json=payload,
++                timeout=self.model_config.timeout,
++            )
++        except requests.RequestException as e:
++            raise LLMEngineException(f"OpenAI-compatible request failed: {e}") from e
++
++        raw_text = response.text
++        _write_raw_trace(
++            model=self.model_config.model_name,
++            url=url,
++            payload=payload,
++            response=response,
++            raw_text=raw_text,
++            elapsed_seconds=time.time() - started_at,
++        )
++        if response.status_code >= 400:
++            logger.warning(
++                "OpenAI-compatible API error status=%s body=%s",
++                response.status_code,
++                raw_text[:4000],
++            )
++            raise LLMEngineException(
++                f"OpenAI-compatible API error status={response.status_code}: {raw_text[:1000]}"
++            )
++
++        try:
++            data = response.json()
++        except ValueError as e:
++            logger.warning("OpenAI-compatible API returned non-JSON body=%s", raw_text[:4000])
++            raise LLMEngineException(
++                f"OpenAI-compatible API returned non-JSON body: {raw_text[:1000]}"
++            ) from e
++
++        if data.get("error"):
++            logger.warning("OpenAI-compatible API returned error body=%s", raw_text[:4000])
++            raise LLMEngineException(
++                f"OpenAI-compatible API returned error: {str(data.get('error'))[:1000]}"
++            )
++
++        try:
++            content = data["choices"][0]["message"]["content"]
++        except (KeyError, IndexError, TypeError) as e:
++            logger.warning("OpenAI-compatible API unexpected body=%s", raw_text[:4000])
++            raise LLMEngineException(
++                f"OpenAI-compatible API unexpected body: {raw_text[:1000]}"
++            ) from e
++
++        if content is None:
++            raise LLMEngineException("OpenAI-compatible API returned empty content")
++
++        text = str(content).replace("False", "false").replace("True", "true")
++        for stop_token in stop_sequences:
++            text = text.split(stop_token)[0]
++
++        usage = data.get("usage") if isinstance(data, dict) else None
++        metadata = {"usage": usage} if usage is not None else None
++        return text, metadata
++
++    def simple_call(self, prompt: str) -> str:
++        text, _ = self.chat_completion([{"role": "user", "content": prompt}])
++        return text
++
++
++def _write_raw_trace(
++    *,
++    model: str,
++    url: str,
++    payload: dict[str, Any],
++    response: requests.Response,
++    raw_text: str,
++    elapsed_seconds: float,
++) -> None:
++    trace_dir = os.environ.get("ARE_RAW_LLM_TRACE_DIR")
++    if not trace_dir:
++        return
++
++    try:
++        messages = payload.get("messages") or []
++        message_summaries = []
++        for message in messages:
++            content = message.get("content", "")
++            if isinstance(content, str):
++                content_text = content
++                content_shape = "text"
++            else:
++                content_text = json.dumps(content, ensure_ascii=False, default=str)
++                content_shape = type(content).__name__
++            message_summaries.append(
++                {
++                    "role": message.get("role"),
++                    "content_shape": content_shape,
++                    "content_chars": len(content_text),
++                    "content_sha256": hashlib.sha256(content_text.encode("utf-8")).hexdigest(),
++                    "content_preview": content_text[:500],
++                }
++            )
++
++        record = {
++            "timestamp": time.time(),
++            "model": model,
++            "url": url,
++            "elapsed_seconds": elapsed_seconds,
++            "status_code": response.status_code,
++            "request": {
++                "model": payload.get("model"),
++                "message_count": len(messages),
++                "messages": message_summaries,
++                "stop": payload.get("stop"),
++            },
++            "response": {
++                "headers": {
++                    key: value
++                    for key, value in response.headers.items()
++                    if key.lower() not in {"authorization", "cookie", "set-cookie"}
++                },
++                "body_text": raw_text,
++            },
++        }
++
++        path = Path(trace_dir)
++        path.mkdir(parents=True, exist_ok=True)
++        with _raw_trace_lock:
++            with (path / "openai_compat_raw.jsonl").open("a", encoding="utf-8") as f:
++                f.write(json.dumps(record, ensure_ascii=False) + "\n")
++    except Exception:
++        logger.exception("Failed to write OpenAI-compatible raw trace")
