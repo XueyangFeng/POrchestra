@@ -1,0 +1,4 @@
+-r requirements.txt
+# Local adapter requires the pre-5.x TestSpec API.
+swebench==4.1.0
+chardet==5.2.0

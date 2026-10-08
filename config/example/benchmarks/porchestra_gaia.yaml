@@ -1,0 +1,11 @@
+main_model: gpt-4o
+sub_models: [gpt-4o]
+dataset_path: benchmark/gaia/data/Gaia/2023/validation/metadata.jsonl
+attachments_dir: benchmark/gaia/data/Gaia/2023/validation
+level_filter: null
+max_tasks: 1
+max_steps: 30
+max_attempts: 10
+max_concurrency: 1
+result_folder: workspace/logs/porchestra_gaia
+trajectory_folder: workspace/logs/porchestra_gaia/trajectories

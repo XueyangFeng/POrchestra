@@ -1,0 +1,2 @@
+# Upstream AOrchestra environment; clean-install validation is still pending.
+-r requirements-upstream.txt

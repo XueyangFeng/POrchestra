@@ -1,0 +1,12 @@
+main_model: gpt-4o
+sub_models: [gpt-4o]
+dataset_name: princeton-nlp/SWE-bench_Verified
+split: test
+cache_dir: workspace/cache/huggingface
+max_tasks: 1
+max_steps: 30
+max_total_steps: 100
+max_attempts: 5
+max_concurrency: 1
+docker_timeout: 1800
+result_folder: workspace/logs/porchestra_swebench

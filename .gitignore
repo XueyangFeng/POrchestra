@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+workspace/
+logs/
+*.log
+benchmark/gaia/data/
+config/model_config.yaml
+config/benchmarks/

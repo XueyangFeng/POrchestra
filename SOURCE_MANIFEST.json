@@ -1,0 +1,418 @@
+[
+  {
+    "path": "requirements-upstream.txt",
+    "sha256": "1f16330564fcede04f180736e657c2dec2e1c375516ff0f02b8b44cd5f6574b5"
+  },
+  {
+    "path": "README.md",
+    "sha256": "7e6e5bc51495f8507706fb0db87558f238de81ff369264347dcc49c7de73c108"
+  },
+  {
+    "path": ".env.example",
+    "sha256": "88ec6bbf526564dccfd3a67889032dc47a6e1bfa4ed1d6ec9f1460167c207190"
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "7ccd46dfff6816825a24993c5e4d0c64f7768031e636f909a3c0678487ca5e5e"
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "614fb2ffa8660b7ad6cd31f2e6db08ad3bd948d4d59388552f14d2e03be6c6d3"
+  },
+  {
+    "path": "requirements-swebench.txt",
+    "sha256": "f5e971fe679dc8c35fa313a8b82aec29b891854c4bb5b7ddefa3a54fc55e5108"
+  },
+  {
+    "path": "THIRD_PARTY.md",
+    "sha256": "6ce2d84649f0498f28915e82c59c914aa85c94ab0188fd801d57394d81650d3f"
+  },
+  {
+    "path": "RELEASE_CHECKLIST.md",
+    "sha256": "6f7b6841727deb205a5653461ccf18a0c1970726aee4debd90a526fb4db0d97c"
+  },
+  {
+    "path": "licenses/AOrchestra-Apache-2.0.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "config/example/model_config.yaml",
+    "sha256": "ef61a592dfc0b3af2e41ced43b23e52566a9bba9361a7d1edaa68af7b58115d4"
+  },
+  {
+    "path": "config/example/benchmarks/porchestra_gaia.yaml",
+    "sha256": "209c72479d20cfdba3f16afbcd7edb74e1d1d6a2a2fcd4f87f76167cffb56283"
+  },
+  {
+    "path": "config/example/benchmarks/porchestra_swebench.yaml",
+    "sha256": "0e75cf0442f1f06a99ab6208f4fe302ce8733608bc19c7131a3e0ea0d9c5d13b"
+  },
+  {
+    "path": "porchestra/__init__.py",
+    "sha256": "f60249e540a20b41eee18ef70be8eb2e3cb2e17e500d87f2b498b204916f1430"
+  },
+  {
+    "path": "porchestra/gaia2_context_overflow.py",
+    "sha256": "c9e828975888d0f51de4323301c8adff5900e2c69edb2208164d831713b92fdf"
+  },
+  {
+    "path": "porchestra/gaia2_react_system_ablation.py",
+    "sha256": "7294ac223f76534f5a4ff5e1e959f02df860b960e8617cedac9e867be60faeec"
+  },
+  {
+    "path": "porchestra/judge_marker_parser.py",
+    "sha256": "cfc77f5432338fd4a1b8151a9bb3459bff49d68c8236d910c97528196045ad74"
+  },
+  {
+    "path": "porchestra/live_trace.py",
+    "sha256": "c649c5e4ba5eb65bceeeac3244d68b2dd227acf0e34d53a7439775c7cee7e680"
+  },
+  {
+    "path": "porchestra/main_agent.py",
+    "sha256": "24e7051a660d3626ad48354b2b9a70ec30631c732a05c914f602b5d0661c96c6"
+  },
+  {
+    "path": "porchestra/memory/__init__.py",
+    "sha256": "4b25fbb3c39e96ee1d3e8ab3be1ad45a10548d1cdce162dada4a48af73147ad0"
+  },
+  {
+    "path": "porchestra/memory/bus.py",
+    "sha256": "ccfc8fc8e78079d5f6b4ad424f7cad9c63b3794af72e34408e429ca8590408bb"
+  },
+  {
+    "path": "porchestra/mini_swe_subagent.py",
+    "sha256": "bfdb60ce6ff56e97b808f1be76ac9d9f9da44663d470ac19580ea7f0d62386be"
+  },
+  {
+    "path": "porchestra/prompts/__init__.py",
+    "sha256": "9eba064bdb31da80749ffbd68df6c23d9c6943ae3079418dac09ecde66e10a4c"
+  },
+  {
+    "path": "porchestra/prompts/main_agent.py",
+    "sha256": "677801d393125761f2418e181026ade4edc3a8145fa55bc7945a48da262da879"
+  },
+  {
+    "path": "porchestra/prompts/swebench_main_agent.py",
+    "sha256": "2df4c92aee19439ce57e0d5e5c53a773d16743752c9e26d90a1c104305b16ad8"
+  },
+  {
+    "path": "porchestra/prompts/swebench_mini_subagent.py",
+    "sha256": "0f4b4ff99e1d5b540414a4a916e087a94e25a9307beb08105266df284ee1d59b"
+  },
+  {
+    "path": "porchestra/prompts/swebench_subagent.py",
+    "sha256": "dd602234fd982f06800f5695bc24354f9ccc5da09f9d7dd477193e90bf16da95"
+  },
+  {
+    "path": "porchestra/protocol.py",
+    "sha256": "69778e8bfb3ace7a7e529cd520289597fc499da327f81f14b633c0bf1af310ae"
+  },
+  {
+    "path": "porchestra/runners/__init__.py",
+    "sha256": "6ea0c213f657621cf75072ecc99f303947cc8f2065fc5836142bc2da06dcd614"
+  },
+  {
+    "path": "porchestra/runners/gaia_runner.py",
+    "sha256": "5bc77750591bf550b8b65f35f0c1a4a558a8a25c21e3449f74c39add363a190b"
+  },
+  {
+    "path": "porchestra/runners/swebench_runner.py",
+    "sha256": "ec94b71f5c42fc8337309d5557030e9207e99e7d12bdaeb2f2b46169ceb81df3"
+  },
+  {
+    "path": "porchestra/subagent.py",
+    "sha256": "ae276805fe21ab7a69249826dcd7a302bcba3ca4cfb6ecfd4a1dd084418e862e"
+  },
+  {
+    "path": "porchestra/tools/__init__.py",
+    "sha256": "cde28a2954e5f03361f7120e91bf1022342666f45ba629b2f8daaea0b72705ce"
+  },
+  {
+    "path": "porchestra/tools/delegate.py",
+    "sha256": "11e29100b859debe5add0bcb420c29d328a5775faa1ac1155b98cd057cd34a93"
+  },
+  {
+    "path": "porchestra/tools/swebench_submit.py",
+    "sha256": "4ad7001c283649c5de13beba85b5fe5cbf04561a862493ca87534c2ad1099a1e"
+  },
+  {
+    "path": "aorchestra/__init__.py",
+    "sha256": "c00e1e35a8fd219320bf9edcff79fc59b27f084d83f3ae602f126fd2dd6b1286"
+  },
+  {
+    "path": "aorchestra/common/__init__.py",
+    "sha256": "7dac89437cd3893c5372d88761f8ceb382d6815a69c2d43e4a7bc5f9e51d35e1"
+  },
+  {
+    "path": "aorchestra/common/utils.py",
+    "sha256": "69e6098e656876a45def394913b605df056956c7363b0097a1d02d643b5a5ba8"
+  },
+  {
+    "path": "aorchestra/config.py",
+    "sha256": "684b471e9452652774bfcedca864d25949d641cda7431233e1a763b3bcb46fa8"
+  },
+  {
+    "path": "aorchestra/main_agent.py",
+    "sha256": "cd50bca267c9486348bb359b57a49557ff275654194d00c1febe872003e24689"
+  },
+  {
+    "path": "aorchestra/prompts/__init__.py",
+    "sha256": "c5d10327e137fc5217b5d9ac0d00c4562a667ba443fb2a4db97b763186211225"
+  },
+  {
+    "path": "aorchestra/prompts/gaia.py",
+    "sha256": "c5d23dd1e49f257ab302d0c5d08811ee670f763a54c6110bce8b72e58f82006b"
+  },
+  {
+    "path": "aorchestra/prompts/swebench.py",
+    "sha256": "c153ee51ca8b8afb5d9ce42859688bc2753c20f446799a96a4374ba6a27ba09f"
+  },
+  {
+    "path": "aorchestra/prompts/terminalbench.py",
+    "sha256": "3baa600cda624ffbcafb7ade6dee1b19f0032a55e7e18d1be9396325d98eea15"
+  },
+  {
+    "path": "aorchestra/runners/__init__.py",
+    "sha256": "0960c1e7df13f59855ca91a25080ce94b932ee61ad53b1315d99ce97c514a8b2"
+  },
+  {
+    "path": "aorchestra/runners/gaia_runner.py",
+    "sha256": "b840c5f8d776275450e6f3030d47b5a2f5ded76a9046d707971809cecd39519b"
+  },
+  {
+    "path": "aorchestra/runners/swebench_runner.py",
+    "sha256": "c30172856252509729bbf2b266216b979abdf226e6a1286a05ec10cde90117f3"
+  },
+  {
+    "path": "aorchestra/runners/swebench_subagent_runner.py",
+    "sha256": "e2763dccd01d1281145edb7bb51061c690c7eb3f7869daf8e2a8e50df52fbf50"
+  },
+  {
+    "path": "aorchestra/runners/terminalbench_runner.py",
+    "sha256": "a6fd6de95533543e23f729710caca2559f24e3a4b8b711d4453f499fae33797e"
+  },
+  {
+    "path": "aorchestra/sub_agent.py",
+    "sha256": "ff1c4fdbbec4eed7b1901165aa28574bbdcea3671f12f868e1f6e168069897f3"
+  },
+  {
+    "path": "aorchestra/subagents/__init__.py",
+    "sha256": "7e89d61307a8464877a4375b0662bf4428592fadc5273f23d77fdca7b569c251"
+  },
+  {
+    "path": "aorchestra/subagents/react_agent.py",
+    "sha256": "f6e2d387eb46fcaa1434ec66e198b91294e43afebfe331b0c68258fe6986d0c8"
+  },
+  {
+    "path": "aorchestra/subagents/swebench_agent.py",
+    "sha256": "d8bc79172adb4ff88da46eb58a2939a1eee7362a99623e91769899c1ef39500b"
+  },
+  {
+    "path": "aorchestra/tools/__init__.py",
+    "sha256": "8075d9c6d2954d928d6e45db9e3a72626857f6825b47fbf7190810990567d57c"
+  },
+  {
+    "path": "aorchestra/tools/complete.py",
+    "sha256": "713027fa76612f1daac85272a71bf56f3c54c80a43a7c29cc06be3ede88c5162"
+  },
+  {
+    "path": "aorchestra/tools/delegate.py",
+    "sha256": "4729dc136d53954b439afa5adc673ddef91416134eabd7d1ab636a1fbeea68e1"
+  },
+  {
+    "path": "aorchestra/tools/submit.py",
+    "sha256": "ed520c7716cd696c339233bef93692ca7432da3fc6d0c2adf937c6869d1471bb"
+  },
+  {
+    "path": "aorchestra/tools/trace_formatter.py",
+    "sha256": "de0e905ead6bc106fc4c4ed3f1691589fc60be4b7f2274603d17b7b735c80c2c"
+  },
+  {
+    "path": "base/__init__.py",
+    "sha256": "8b6aab1c6e50cdd35234d36f256c6517516b67a7497ba4646e78712bf207999c"
+  },
+  {
+    "path": "base/agent/__init__.py",
+    "sha256": "db70a2577cbb0a88a30cd7a1fb55843951b159f0d6815ab011c86b3658c9642e"
+  },
+  {
+    "path": "base/agent/base_action.py",
+    "sha256": "c4a57de62affa5a577ce9656c729bb23b91e958f61a1a01902bb1a5330995ab4"
+  },
+  {
+    "path": "base/agent/base_agent.py",
+    "sha256": "6da2583406eb56e41ddfcb2a6c7ca25c09a1cd714203beddf60dc71d200d7cef"
+  },
+  {
+    "path": "base/agent/memory.py",
+    "sha256": "3e26f35b738bf7bf3e6907e86432cf7d19116d408d6dd69d379992d19074f7b5"
+  },
+  {
+    "path": "base/agent/react_agent.py",
+    "sha256": "7a70dc76b45c4809ca5b201153e02b538dfd24359ef6ad9a6a114f3234cdc3c4"
+  },
+  {
+    "path": "base/agent/truncating_memory.py",
+    "sha256": "f976eee5825e00be90f7fc74e784c8cda00516d773ff3c9580510b4a908e6a8e"
+  },
+  {
+    "path": "base/engine/__init__.py",
+    "sha256": "da90fe5905c6d9a94f8391dbde022941b86eb1fed9e88ed59082f11a5d4337a0"
+  },
+  {
+    "path": "base/engine/async_llm.py",
+    "sha256": "4f997e2df395f20816abf0cdfe0683e116cb326a7247075e4d720715caf4b4fd"
+  },
+  {
+    "path": "base/engine/cost_monitor.py",
+    "sha256": "14c5d11fa5cb818e694d985f089bc449f131d0e82594f679773b5be0fb65940a"
+  },
+  {
+    "path": "base/engine/logs.py",
+    "sha256": "6148d46b30a8155d830d9fdce5b2feb1b17d156465aca76e3a43cef2e38f663b"
+  },
+  {
+    "path": "base/engine/utils.py",
+    "sha256": "da85de1f9385a4670ba79db42283768363cb5483d88e8154820fd7292ef22672"
+  },
+  {
+    "path": "benchmark/aorchestra_bench_gaia.py",
+    "sha256": "9361eb8b83f261cf991b3d0e030485556d2fd9d075ce2ab2a04fd173e8d92915"
+  },
+  {
+    "path": "benchmark/bench_gaia.py",
+    "sha256": "0a6ed5c6a74a032397c7ab65cb792981eabe48e4fae5f1757658fd1bc9055d7a"
+  },
+  {
+    "path": "benchmark/bench_swebench.py",
+    "sha256": "2c3a27cc68ae14c397b3c45deba034dcef6f932141286b48f82976dda017f53b"
+  },
+  {
+    "path": "benchmark/bench_terminalbench.py",
+    "sha256": "4f0530124e7a35c9cf5d07ad33188758b859208ac8c5ae8afcd719f9a07e431f"
+  },
+  {
+    "path": "benchmark/benchmark.py",
+    "sha256": "970c1afc4d94b1766cea12bdd540510557b8e23a7df79bc83b7b361f40f3c7c2"
+  },
+  {
+    "path": "benchmark/common/__init__.py",
+    "sha256": "a51f6f8c394bc754b418715338f27cc5a740d5c25a614e12fa42ccead2b2dd3a"
+  },
+  {
+    "path": "benchmark/common/env.py",
+    "sha256": "58ecfa761b67ebc2637982c90466f36d118c998f34d66c1eaabb2263a95a6dd6"
+  },
+  {
+    "path": "benchmark/common/incremental_runner.py",
+    "sha256": "b74ab8986a423b169e03397e7c8a611e80313707676be0b0a07098e2498f5f31"
+  },
+  {
+    "path": "benchmark/common/runner.py",
+    "sha256": "95a2faa2bad921ee86c8a031f64e4069fe125c4208d4126d8608f0127d4d6bc3"
+  },
+  {
+    "path": "benchmark/gaia/__init__.py",
+    "sha256": "6f12dd09d8ef195c6ab9df6fb3178ad2b9740dce851a570ba2e71432ac2c6c66"
+  },
+  {
+    "path": "benchmark/gaia/llm_scorer.py",
+    "sha256": "fd8f656d10c08bc77d12435127f201171cebf642799d02725c4fd0e90398060a"
+  },
+  {
+    "path": "benchmark/gaia/scorer.py",
+    "sha256": "00214c07f9055d618f4ad6b1378efe545a15983026646344e943a20a8975bd3f"
+  },
+  {
+    "path": "benchmark/gaia/tools/__init__.py",
+    "sha256": "67cd94a1d1db150003d995244464792772fe648f70a0b8505cc7a11479f7396e"
+  },
+  {
+    "path": "benchmark/gaia/tools/execute_code.py",
+    "sha256": "602f687c187a7086a72d1da95abd89e996b8e9f8c412856ee4e694cacca3fc2f"
+  },
+  {
+    "path": "benchmark/gaia/tools/extract_url_jina.py",
+    "sha256": "b5f16f26dbc0b73fcb7062516a1fb359e81631a274aa8983784fa0cc0f3f15c3"
+  },
+  {
+    "path": "benchmark/gaia/tools/google_search.py",
+    "sha256": "be24d7f3aa4ac339728c6ac9b6e2592bf96839907058af85d4503c48b9b0d8a0"
+  },
+  {
+    "path": "benchmark/gaia/tools/multimodal_toolkit.py",
+    "sha256": "572ded6db06c5b059390a931731d5096464ed51ff3e0278fdc0ba04d83b87f3a"
+  },
+  {
+    "path": "benchmark/orchestra_o1_bench_gaia.py",
+    "sha256": "a582b6562113bdcd491fda459ee37caa7c63ffcdfd949c806b33bec1f783f158"
+  },
+  {
+    "path": "benchmark/porchestra_bench_gaia.py",
+    "sha256": "76a34f86bb0b2c16ad5d44b8d9ded6d2915ff5fff888df5fff32410115eab072"
+  },
+  {
+    "path": "benchmark/swebench/__init__.py",
+    "sha256": "7d4f99e8340ee1cab5776564ff6647279927f3804e7552cdd69ec1290dd03f39"
+  },
+  {
+    "path": "benchmark/swebench/aci_tools.py",
+    "sha256": "931ceee0f516b90ed27d2bec0e610d95fd944c9ce994c27ed49b11957054d38d"
+  },
+  {
+    "path": "benchmark/swebench/data_loader.py",
+    "sha256": "0b4281c4d6ca54d6e6d37e032da8459f1320f4155ab49f1bfadc995217046ff9"
+  },
+  {
+    "path": "benchmark/swebench/result_reporter.py",
+    "sha256": "ec9f91325c02b5c397806f63e55d5356a4b4c21e2fd89692427f47e1a462615f"
+  },
+  {
+    "path": "benchmark/swebench/swebench_executor.py",
+    "sha256": "bd0d3a8d6ac605508e5841d808ed192158678304f5278cc24607c6ac317b6633"
+  },
+  {
+    "path": "benchmark/swebench/utils.py",
+    "sha256": "cccd613e9688913d35798cb45c794264135e505e85e7e0750768a4509d6edf79"
+  },
+  {
+    "path": "benchmark/terminalbench/__init__.py",
+    "sha256": "40c54ae137c91b1ea0df8e7e5efeb90cad682bc4946598340042d7d01349a514"
+  },
+  {
+    "path": "benchmark/terminalbench/base_executor.py",
+    "sha256": "84d25ce29776b0c97e989b226daba6fb785b4c5d3ededd62f8524f6f7895526f"
+  },
+  {
+    "path": "benchmark/terminalbench/daytona_executor.py",
+    "sha256": "c06e97ac4cac2b5a58c4a193306c41050424a616d6ee4d86136511ad55e8de37"
+  },
+  {
+    "path": "benchmark/terminalbench/docker_executor.py",
+    "sha256": "91cd62e02794a1e5211f08d5fd765baeae5ab2c41cf22df807a0fd6c986a0e5f"
+  },
+  {
+    "path": "benchmark/terminalbench/docker_manager.py",
+    "sha256": "90c78f3da0ed71b7947cc37de2efecfa44cf5dc9f55b555c435b770077dee8f3"
+  },
+  {
+    "path": "benchmark/terminalbench/e2b_executor.py",
+    "sha256": "0659f8e650a281f9674d50f4832a8c4cdba9f04d429bc093d1ed2b22f01bbb04"
+  },
+  {
+    "path": "benchmark/terminalbench/result_reporter.py",
+    "sha256": "4a73572f14f9d487f4d5ce387b018982d8c15e4c7b841c29d82b98d09b4a8078"
+  },
+  {
+    "path": "benchmark/terminalbench/utils.py",
+    "sha256": "6e6c54d630b94726a844e9eecd03ea4e2b0618ebaa6ae3dc1c2e2edcd5fca34c"
+  },
+  {
+    "path": "bench_porchestra_gaia.py",
+    "sha256": "7e7c871055c86ad800561e9009d23e5a8f6aa002c79e9b7d397a7929f990d2e3"
+  },
+  {
+    "path": "bench_porchestra_swebench.py",
+    "sha256": "72d96b348356c10d69033924d2563aca07194385cb06819dd2847ef6a428cfa4"
+  }
+]
