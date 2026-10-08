@@ -6,7 +6,7 @@
 
 论文同时提出 **同策略编排蒸馏（On-Policy Orchestration Distillation，OPOD）**，将基于实际执行的反馈转化为过程监督，用于学习编排策略。
 
-[匿名代码仓库](https://anonymous.4open.science/r/POrchestra-23F3) · [GAIA2 安装说明](GAIA2.md)
+[匿名代码仓库](https://anonymous.4open.science/r/POrchestra-23F3)
 
 ## 方法概览
 
@@ -44,7 +44,7 @@ OPOD 将反馈引导的蒸馏与结果监督结合：
 
 ## 实验结果
 
-以下任务成功率（%）来自所提供论文的表 1。POrchestra 的推理对比均使用 Gemini-3-Flash 作为编排器，各行对应不同的执行模型。
+以下任务成功率（%）来自论文表 1。POrchestra 的推理对比均使用 Gemini-3-Flash 作为编排器，各行对应不同的执行模型。
 
 | 执行模型 | GAIA | GAIA2 | SWE-bench Verified |
 |---|---:|---:|---:|
@@ -60,8 +60,6 @@ OPOD 将反馈引导的蒸馏与结果监督结合：
 | OPOD | **77.9** | **49.2** |
 | 移除 RWR | 75.8 | 46.1 |
 | 移除 OPD | 76.1 | 46.1 |
-
-这些是论文中的结果，并非下方快速开始配置的实测结果。
 
 ## 仓库结构
 
@@ -81,7 +79,7 @@ sitecustomize.py            # ARE 启动注册
 
 ## 安装
 
-请在仓库根目录执行命令。GAIA/SWE-bench 依赖文件沿用 AOrchestra 的 Python 3.13 环境，全新环境的依赖验证尚未完成。GAIA2 使用独立的 ARE 环境，详见 [GAIA2.md](GAIA2.md)。
+使用 Python 3.13，在仓库根目录执行以下命令。
 
 ```bash
 python -m venv .venv
@@ -101,19 +99,19 @@ pip install -r requirements-swebench.txt
 
 ## 数据集
 
-请遵守各数据集的访问条件，单独下载数据。
+通过下方链接下载数据集。
 
 | 基准 | 论文评测范围 | 配置方法 |
 |---|---|---|
 | [GAIA](https://huggingface.co/datasets/gaia-benchmark/GAIA) | 2023 验证集全部 165 个任务 | 将 `metadata.jsonl` 和附件放入 `benchmark/gaia/data/Gaia/2023/validation/` |
-| [GAIA2](https://huggingface.co/datasets/meta-agents/gaia2) | 128 个 mini 场景：Execution、Search、Adaptability、Time 各 32 个 | 参见 [GAIA2.md](GAIA2.md)，明确对齐评测子集 |
+| [GAIA2](https://huggingface.co/datasets/meta-agents/gaia2) | 128 个 mini 场景：Execution、Search、Adaptability、Time 各 32 个 | 参见 [GAIA2.md](GAIA2.md) 中的 ARE 和数据集配置说明 |
 | [SWE-bench Verified](https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified) | 固定的 100 个问题子集 | 配置 `dataset_name`、`split` 及任务 ID 选择 |
 
-GAIA2 的评测和训练数据相互独立：论文使用这四类中剩余的 512 个场景进行训练。GAIA 编排器训练使用 2,339 个 TaskCraft 任务。当前源码快照未附带实验子集清单和训练数据。
+GAIA2 的评测和训练数据相互独立：论文使用这四类中剩余的 512 个场景进行训练。GAIA 编排器训练使用 2,339 个 TaskCraft 任务。
 
 ## 运行 POrchestra
 
-示例配置使用单任务、并发数 1 和 `gpt-4o`，用于演示配置方式。复现实验时，请替换为论文中的模型和评测设置。
+示例配置使用 `gpt-4o`，运行单个任务，并发数为 1。模型和任务数量在各基准的 YAML 文件中配置。GAIA2 使用独立的 ARE 环境，安装步骤见 [GAIA2.md](GAIA2.md)。
 
 ```bash
 # GAIA
@@ -138,26 +136,24 @@ python bench_porchestra_swebench.py --config config/benchmarks/porchestra_sweben
 | 总执行预算 | 300 步 | 500 步 |
 | 子智能体默认预算 | 30 步 | 50 步 |
 
-GAIA 和 GAIA2 最多允许创建 10 个子智能体。API 模型标识为 `gemini-3-flash-preview`、`deepseek-v3.2` 和 `deepseek-v4-flash`；论文实验通过 ChatAnywhere API 访问模型。除智能体代码外，还需对齐数据集 ID、提示词版本、评判模型配置、预算和模型版本。仅运行快速开始命令不能复现论文表格。
+GAIA 和 GAIA2 最多允许创建 10 个子智能体。API 模型标识为 `gemini-3-flash-preview`、`deepseek-v3.2` 和 `deepseek-v4-flash`；论文实验通过 ChatAnywhere API 访问模型。运行论文实验时，使用对应的任务 ID、提示词版本、评判模型设置和执行预算。
 
 ## 提示词
 
-提示词源码保留自本地实现：
+提示词模板位置：
 
 - GAIA：`porchestra/prompts/main_agent.py` 和 `porchestra/subagent.py`。
 - GAIA2：`porchestra/gaia2_agent/prompts.py` 及其通信模块。
 - SWE-bench：`porchestra/prompts/swebench_main_agent.py`、`swebench_subagent.py` 和 `swebench_mini_subagent.py`。
 
-附录 F 展示核心模板，并用占位符表示较长的运行时输入。运行配置和环境变量可以选择不同的提示词分支；源码文件相同，并不意味着不同设置下实际生成的提示词相同。
+附录 F 展示核心模板，并用占位符表示较长的运行时输入。运行配置和环境变量用于选择实际使用的提示词分支。
 
 ## 训练
 
 论文先进行 3 个 epoch 的全参数 SFT，再使用 LoRA（rank 32、alpha 64、dropout 0.05）进行 1 个 epoch 的 OPOD 训练。两者的学习率均为 `1e-5`，有效 batch size 为 16，序列长度设置为 32,768 token。采样、损失归一化和评测细节见附录 E。
 
-当前源码快照包含推理与基准集成。OPOD 训练代码、数据准备流程、训练配置和模型检查点尚未打包到本仓库；上方训练结果仅供参考。
+发布进度：三个基准的推理代码已提供。OPOD 训练代码、数据准备流程、配置和模型检查点将在后续版本补充。
 
-## 致谢与许可证
+## 致谢
 
 本实现基于 [AOrchestra](https://github.com/FoundationAgents/AOrchestra)，GAIA2 使用 [Meta Agents Research Environments](https://github.com/facebookresearch/meta-agents-research-environments)。来源声明与上游许可证保存在 [THIRD_PARTY.md](THIRD_PARTY.md) 和 `licenses/` 中。
-
-POrchestra 原创贡献的许可证尚待确定。待完成的发布和复现检查见 `RELEASE_CHECKLIST.md`。

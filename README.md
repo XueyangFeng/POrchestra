@@ -6,7 +6,7 @@ English | [简体中文](README.zh-CN.md)
 
 The paper also introduces **On-Policy Orchestration Distillation (OPOD)**, which turns execution-grounded feedback into process supervision for learning the orchestration policy.
 
-[Anonymous code repository](https://anonymous.4open.science/r/POrchestra-23F3) · [GAIA2 setup](GAIA2.md)
+[Anonymous code repository](https://anonymous.4open.science/r/POrchestra-23F3)
 
 ## Overview
 
@@ -44,7 +44,7 @@ The implemented objective described in Appendix E is `L_OPOD = L_RWR + λ L_OPD`
 
 ## Results
 
-The following task success rates (%) are reported in the supplied manuscript's Table 1. All POrchestra inference comparisons use Gemini-3-Flash as the orchestrator; the rows specify the execution backbone.
+Task success rates (%) from Table 1 of the paper. All POrchestra inference comparisons use Gemini-3-Flash as the orchestrator; the rows specify the execution backbone.
 
 | Execution backbone | GAIA | GAIA2 | SWE-bench Verified |
 |---|---:|---:|---:|
@@ -60,8 +60,6 @@ The paper reports an average **9.1% relative improvement** over the strongest in
 | OPOD | **77.9** | **49.2** |
 | Without RWR | 75.8 | 46.1 |
 | Without OPD | 76.1 | 46.1 |
-
-These are manuscript results, not measurements from the quick-start configurations below.
 
 ## Repository layout
 
@@ -81,7 +79,7 @@ sitecustomize.py            # ARE startup registration
 
 ## Installation
 
-Run commands from the repository root. The GAIA/SWE-bench dependency file follows AOrchestra's Python 3.13 environment. Clean-environment dependency validation remains pending. GAIA2 uses the separate ARE environment described in [GAIA2.md](GAIA2.md).
+Run commands from the repository root using Python 3.13.
 
 ```bash
 python -m venv .venv
@@ -101,19 +99,19 @@ pip install -r requirements-swebench.txt
 
 ## Datasets
 
-Download datasets separately under their respective access conditions.
+Download the datasets using the links below.
 
 | Benchmark | Paper evaluation | Setup |
 |---|---|---|
 | [GAIA](https://huggingface.co/datasets/gaia-benchmark/GAIA) | All 165 tasks in 2023 validation | Place `metadata.jsonl` and attachments under `benchmark/gaia/data/Gaia/2023/validation/` |
-| [GAIA2](https://huggingface.co/datasets/meta-agents/gaia2) | 128 mini scenarios: 32 each for Execution, Search, Adaptability and Time | See [GAIA2.md](GAIA2.md); match the evaluation subset explicitly |
+| [GAIA2](https://huggingface.co/datasets/meta-agents/gaia2) | 128 mini scenarios: 32 each for Execution, Search, Adaptability and Time | See [GAIA2.md](GAIA2.md) for ARE and dataset setup |
 | [SWE-bench Verified](https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified) | A fixed subset of 100 issues | Configure `dataset_name`, `split` and the task-ID selection |
 
-The GAIA2 evaluation and training pools are distinct: the paper uses the remaining 512 scenarios from the four categories for training. GAIA orchestrator training uses 2,339 TaskCraft tasks. Experiment subset manifests and training data are not bundled in this source snapshot.
+The GAIA2 evaluation and training pools are distinct: the paper uses the remaining 512 scenarios from the four categories for training. GAIA orchestrator training uses 2,339 TaskCraft tasks.
 
 ## Running POrchestra
 
-The example configurations use one task, concurrency one and `gpt-4o` to illustrate setup. Replace these with the paper's models and evaluation settings when reproducing experiments.
+The example configurations run one task with concurrency one using `gpt-4o`. Configure the models and task limits in the benchmark YAML files. GAIA2 uses a separate ARE environment; follow [GAIA2.md](GAIA2.md) to install it.
 
 ```bash
 # GAIA
@@ -138,26 +136,24 @@ Results and trajectories are written to `workspace/`. GAIA and SWE-bench accept 
 | Total execution budget | 300 steps | 500 steps |
 | Default SubAgent budget | 30 steps | 50 steps |
 
-GAIA and GAIA2 allow creation of up to 10 SubAgents. API identifiers are `gemini-3-flash-preview`, `deepseek-v3.2` and `deepseek-v4-flash`; manuscript experiments use ChatAnywhere API access. Match the dataset IDs, prompt variants, judge configuration, budgets and model versions as well as the agent code. Quick-start commands alone do not reproduce the reported tables.
+GAIA and GAIA2 allow creation of up to 10 SubAgents. API identifiers are `gemini-3-flash-preview`, `deepseek-v3.2` and `deepseek-v4-flash`; manuscript experiments use ChatAnywhere API access. For the paper experiments, use the corresponding task IDs, prompt variants, judge settings and execution budgets.
 
 ## Prompts
 
-Prompt sources are retained from the local implementation:
+Prompt templates:
 
 - GAIA: `porchestra/prompts/main_agent.py` and `porchestra/subagent.py`.
 - GAIA2: `porchestra/gaia2_agent/prompts.py` and its communication modules.
 - SWE-bench: `porchestra/prompts/swebench_main_agent.py`, `swebench_subagent.py` and `swebench_mini_subagent.py`.
 
-Appendix F presents the core templates with placeholders for long runtime inputs. Runtime configuration and environment switches can select different prompt variants; identical source files do not imply identical rendered prompts under different settings.
+Appendix F presents the core templates with placeholders for long runtime inputs. Configuration and environment variables select the runtime prompt variants.
 
 ## Training
 
 The paper uses full-parameter SFT for three epochs, followed by one epoch of OPOD with LoRA (rank 32, alpha 64, dropout 0.05). Both use a learning rate of `1e-5`, effective batch size 16 and a 32,768-token sequence setting. See Appendix E for sampling, loss normalization and evaluation details.
 
-This source snapshot contains inference and benchmark integration. OPOD training code, data preparation, training configurations and checkpoints have not yet been packaged here; the reported training results are included above for reference.
+Release status: inference code for all three benchmarks is available. OPOD training code, data preparation, configurations and checkpoints will be added in a subsequent release.
 
-## Acknowledgments and license
+## Acknowledgments
 
 The implementation builds on [AOrchestra](https://github.com/FoundationAgents/AOrchestra), and GAIA2 uses [Meta Agents Research Environments](https://github.com/facebookresearch/meta-agents-research-environments). Source attribution and upstream licenses are preserved in [THIRD_PARTY.md](THIRD_PARTY.md) and `licenses/`.
-
-The license for original POrchestra contributions remains to be selected. See `RELEASE_CHECKLIST.md` for outstanding publication and reproduction checks.

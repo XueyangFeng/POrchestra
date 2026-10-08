@@ -33,7 +33,7 @@
   },
   {
     "path": "GAIA2.md",
-    "sha256": "b3e84b2dbc555ec741486016b850b0daf44bd89d48ca3faee32b8a90a81bbe0a"
+    "sha256": "27be1f7e743c541cd635a24983b87293448d4fa10c361d59e5c0923334825e72"
   },
   {
     "path": "licenses/AOrchestra-Apache-2.0.txt",
@@ -561,10 +561,10 @@
   },
   {
     "path": "README.md",
-    "sha256": "12eeb6bfd2af4f82b9bd37f7751bc31734f5594322728eb559d92a3be9ef793a"
+    "sha256": "39983dcfdbb34bc159c18e380fad976a95b3d1f661301d016a09c0d3526e7b4e"
   },
   {
     "path": "README.zh-CN.md",
-    "sha256": "b4b94ffacfc31d5d36e9a7e0d735984a280c075f3956823cd678b7a8dd7ffadd"
+    "sha256": "670913d0e385203ef111383e2790a435d27942d852d0be8f8dc541eef2285aec"
   }
 ]
