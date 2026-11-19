@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #53 · Main agent: Tool result: call_03_1qwbt1xkxi8pqpmlehgg6n3p (is_error=False)</summary>
+<summary>Source event 53 · Main agent: Tool result: call_03_1qwbt1xkxi8pqpmlehgg6n3p (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #54 · Main agent: Model message
+## Source event 54 · Main agent: Model message
 
 ```text
 Interesting. 110 00 = 20.95+47.02 = 67.97
@@ -102,7 +102,7 @@ Let me first get api call limit and list all apartments.
 
 
 
-## Source event #55 · Main agent: Model tool call: ToolSearch (call_00_mcaedlr9zzk9gd79c496vvd7)
+## Source event 55 · Main agent: Model tool call: ToolSearch (call_00_mcaedlr9zzk9gd79c496vvd7)
 
 ```text
 {
@@ -114,7 +114,7 @@ Let me first get api call limit and list all apartments.
 
 
 <details>
-<summary>Source event #56 · Main agent: Tool result: call_00_mcaedlr9zzk9gd79c496vvd7 (is_error=False)</summary>
+<summary>Source event 56 · Main agent: Tool result: call_00_mcaedlr9zzk9gd79c496vvd7 (is_error=False)</summary>
 
 
 ```text
@@ -134,7 +134,7 @@ Let me first get api call limit and list all apartments.
 </details>
 
 
-## Source event #57 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_all_apartments (call_01_8mxlgyglz3aefeh792cizjld)
+## Source event 57 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_all_apartments (call_01_8mxlgyglz3aefeh792cizjld)
 
 ```text
 {}
@@ -143,7 +143,7 @@ Let me first get api call limit and list all apartments.
 
 
 <details>
-<summary>Source event #58 · Main agent: Tool result: call_01_8mxlgyglz3aefeh792cizjld (is_error=False)</summary>
+<summary>Source event 58 · Main agent: Tool result: call_01_8mxlgyglz3aefeh792cizjld (is_error=False)</summary>
 
 
 ```text
@@ -163,7 +163,7 @@ Preview (first 2KB):
 </details>
 
 
-## Source event #59 · Main agent: Model message
+## Source event 59 · Main agent: Model message
 
 ```text
 Let me read the full output file to find all 110 00 properties. Use Read on the persisted output, or better, search apartments by zip directly. Let me use search_apartments with zip_code "110 00".
@@ -171,7 +171,7 @@ Let me read the full output file to find all 110 00 properties. Use Read on the 
 
 
 
-## Source event #60 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_00_g1hkwlt60jfrqmeru1ftyypt)
+## Source event 60 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_00_g1hkwlt60jfrqmeru1ftyypt)
 
 ```text
 {
@@ -181,7 +181,7 @@ Let me read the full output file to find all 110 00 properties. Use Read on the 
 
 
 
-## Source event #61 · Main agent: Model tool call: mcp__gaia2__City__get_api_call_limit (call_01_7j6ngcf15zdllc2l4bhf3a4a)
+## Source event 61 · Main agent: Model tool call: mcp__gaia2__City__get_api_call_limit (call_01_7j6ngcf15zdllc2l4bhf3a4a)
 
 ```text
 {}
@@ -190,7 +190,7 @@ Let me read the full output file to find all 110 00 properties. Use Read on the 
 
 
 <details>
-<summary>Source event #62 · Main agent: Tool result: call_00_g1hkwlt60jfrqmeru1ftyypt (is_error=False)</summary>
+<summary>Source event 62 · Main agent: Tool result: call_00_g1hkwlt60jfrqmeru1ftyypt (is_error=False)</summary>
 
 
 ```text
@@ -207,7 +207,7 @@ Let me read the full output file to find all 110 00 properties. Use Read on the 
 
 
 <details>
-<summary>Source event #63 · Main agent: Tool result: call_01_7j6ngcf15zdllc2l4bhf3a4a (is_error=False)</summary>
+<summary>Source event 63 · Main agent: Tool result: call_01_7j6ngcf15zdllc2l4bhf3a4a (is_error=False)</summary>
 
 
 ```text
@@ -223,7 +223,7 @@ Let me read the full output file to find all 110 00 properties. Use Read on the 
 </details>
 
 
-## Source event #64 · Main agent: Model message
+## Source event 64 · Main agent: Model message
 
 ```text
 The 110 00 properties have prices: 2500, 2500, 2800, 3500, 2500, 3500, 3500, 2500, 2500. Lowest = 2500.
@@ -266,7 +266,7 @@ Let me grep for "110 00" occurrences in the file.
 
 
 
-## Source event #65 · Main agent: Model tool call: Bash (call_00_a27zawp2edjmpxbnyuw82tn4)
+## Source event 65 · Main agent: Model tool call: Bash (call_00_a27zawp2edjmpxbnyuw82tn4)
 
 ```text
 {
@@ -278,7 +278,7 @@ Let me grep for "110 00" occurrences in the file.
 
 
 <details>
-<summary>Source event #66 · Main agent: Tool result: call_00_a27zawp2edjmpxbnyuw82tn4 (is_error=True)</summary>
+<summary>Source event 66 · Main agent: Tool result: call_00_a27zawp2edjmpxbnyuw82tn4 (is_error=True)</summary>
 
 
 ```text
@@ -308,7 +308,7 @@ ValueError: malformed node or string on line 1: <ast.Call object at 0x7f92bbbcd0
 </details>
 
 
-## Source event #67 · Main agent: Model message
+## Source event 67 · Main agent: Model message
 
 ```text
 The text is a repr with Apartment(...) calls. Simpler: grep zip_code='110 00' occurrences and prices.
@@ -316,7 +316,7 @@ The text is a repr with Apartment(...) calls. Simpler: grep zip_code='110 00' oc
 
 
 
-## Source event #68 · Main agent: Model tool call: Bash (call_00_6m7q7wcdfj1hba8uiuno47xf)
+## Source event 68 · Main agent: Model tool call: Bash (call_00_6m7q7wcdfj1hba8uiuno47xf)
 
 ```text
 {
@@ -328,7 +328,7 @@ The text is a repr with Apartment(...) calls. Simpler: grep zip_code='110 00' oc
 
 
 <details>
-<summary>Source event #69 · Main agent: Tool result: call_00_6m7q7wcdfj1hba8uiuno47xf (is_error=False)</summary>
+<summary>Source event 69 · Main agent: Tool result: call_00_6m7q7wcdfj1hba8uiuno47xf (is_error=False)</summary>
 
 
 ```text
@@ -341,7 +341,7 @@ Counter({'301 00': 23, '602 00': 16, '702 00': 15, '460 01': 12, '110 00': 9, '5
 </details>
 
 
-## Source event #70 · Main agent: Model message
+## Source event 70 · Main agent: Model message
 
 ```text
 9 apartments in 110 00, the search returned all 9. Lowest price = 2500.
@@ -411,7 +411,7 @@ Let me now respond. Load send tool.
 
 
 
-## Source event #71 · Main agent: Model tool call: ToolSearch (call_00_lv5chz55oii18fr09vclaomp)
+## Source event 71 · Main agent: Model tool call: ToolSearch (call_00_lv5chz55oii18fr09vclaomp)
 
 ```text
 {
@@ -423,7 +423,7 @@ Let me now respond. Load send tool.
 
 
 <details>
-<summary>Source event #72 · Main agent: Tool result: call_00_lv5chz55oii18fr09vclaomp (is_error=False)</summary>
+<summary>Source event 72 · Main agent: Tool result: call_00_lv5chz55oii18fr09vclaomp (is_error=False)</summary>
 
 
 ```text
@@ -439,7 +439,7 @@ Let me now respond. Load send tool.
 </details>
 
 
-## Source event #73 · Main agent: Model message
+## Source event 73 · Main agent: Model message
 
 ```text
 Before sending, let me sanity check the crime rates once more and maybe confirm 130 00. Actually I'm confident. But let me reconsider whether the "zip codes of the home addresses of everyone living in the same city" — there might be contacts whose city_living is "Prague" but I should consider the user themselves excluded. Fine.
@@ -465,7 +465,7 @@ Let me send.
 
 
 
-## Source event #74 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_lkfv5li1abd6277kkghs9i5y)
+## Source event 74 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_lkfv5li1abd6277kkghs9i5y)
 
 ```text
 {
@@ -476,7 +476,7 @@ Let me send.
 
 
 <details>
-<summary>Source event #75 · Main agent: Tool result: call_00_lkfv5li1abd6277kkghs9i5y (is_error=False)</summary>
+<summary>Source event 75 · Main agent: Tool result: call_00_lkfv5li1abd6277kkghs9i5y (is_error=False)</summary>
 
 
 ```text
@@ -492,7 +492,7 @@ Let me send.
 </details>
 
 
-## Source event #76 · Main agent: Model message
+## Source event 76 · Main agent: Model message
 
 ```text
 **2500**
@@ -512,7 +512,7 @@ Details:
 
 
 <details>
-<summary>Source event #77 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 77 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -535,7 +535,7 @@ Details:
 
 
 <details>
-<summary>Source event #78 · Judge: Judge rationale</summary>
+<summary>Source event 78 · Judge: Judge rationale</summary>
 
 
 ```text

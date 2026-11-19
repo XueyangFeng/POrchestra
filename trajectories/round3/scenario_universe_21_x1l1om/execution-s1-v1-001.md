@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 I'll start by checking the existing calendar events on 2024-10-21 to identify what's there before creating the new event.
@@ -42,7 +42,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Action:
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Found 2 existing events on 2024-10-21. Now I'll create the new Brand Partnership Meeting event.
@@ -77,7 +77,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -91,7 +91,7 @@ acea4a8d991e2e64e9a43daa76d19dd2
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 New event created with ID `acea4a8d991e2e64e9a43daa76d19dd2`. Now I'll delete the two other events.
@@ -108,7 +108,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -122,7 +122,7 @@ Event 8822dd753a8e4728abe46cbd63977d20 successfully deleted.
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -137,7 +137,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -151,7 +151,7 @@ Event 23ff2e41249940288e488a0fb8f5a756 successfully deleted.
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 Both events deleted. Now let me lookup the Messages user ID for Luís Pimentel.
@@ -168,7 +168,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -182,7 +182,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 The fuzzy lookup returned empty. Let me try alternate approaches to find the user ID.
@@ -199,7 +199,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -213,7 +213,7 @@ None
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Let me try without the accent.
@@ -230,7 +230,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -244,7 +244,7 @@ Action:
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -259,7 +259,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -273,7 +273,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -288,7 +288,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -302,7 +302,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 Now let me verify the calendar state for 2024-10-21.
@@ -322,7 +322,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -336,7 +336,7 @@ Action:
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 Calendar verified — only the new event remains. Now I'll send the confirmation message to the user (creation only, no mention of deletions).
@@ -353,7 +353,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -368,7 +368,7 @@ None
 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 28 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -382,7 +382,7 @@ Environment notifications:
 </details>
 
 
-## Source event #29 · Sub-agent 1: model output
+## Source event 29 · Sub-agent 1: model output
 
 ```text
 I received environment notifications stating two calendar events were deleted by Linnea Åström and Luís Pimentel. Per protocol, I must report this to MainAgent before further side effects. Let me first verify the current calendar state (read-only) to include complete evidence.
@@ -402,7 +402,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 1: tool result</summary>
+<summary>Source event 30 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -416,7 +416,7 @@ Action:
 </details>
 
 
-## Source event #31 · Sub-agent 1: model output
+## Source event 31 · Sub-agent 1: model output
 
 ```text
 The calendar for 2024-10-21 is now empty — the Brand Partnership Meeting has been deleted. This is a significant external update that triggers the user's contingency instructions. I must report this to MainAgent before taking further side effects.
@@ -464,7 +464,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: tool result</summary>
+<summary>Source event 32 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_21_powgzh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_21_powgzh/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_21_powgzh/README.md) · [Codex](../../codex/round1/scenario_universe_21_powgzh/README.md) · [OpenCode](../../opencode/round1/scenario_universe_21_powgzh/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the specific contact based on location, employment status, job title frequency, and calendar event counts for the current month.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #55
+**Initial harness configuration** · Source event 55
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The first SubAgent identified Astrid Svensson (ID: a94c913d707d4c308f086cba42165741) as the target contact based on Stockholm residency, employment, the most common job title (Marketing Manager), and the highest number of shared calendar events in October 2024. Now, I need to compare conversation counts for her in the Messages and Chats apps and retrieve the date of the most recent one-on-one conversation on the winning app.
 
@@ -152,7 +154,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S2 configuration v2
 
-**Harness configuration updated** · Source event #95
+**Harness configuration updated** · Source event 95
 
 **1. Sub-agent revision request**
 
@@ -161,7 +163,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 Probed Messages and Chats list_conversations_by_participant exhaustively with Astrid Svensson's ID 'a94c913d707d4c308f086cba42165741' and many format variants (hyphenated UUID, uppercase, 'user:'/'u_' prefixes; limits 1/4/5; offsets 0/5; explicit and default recent-message params). Every call returned []. Therefore both apps appear to have 0 conversations with her, so no winning app or most recent one-on-one date can be determined.
 ```
 <details>
-<summary>Request and evidence · source event #93</summary>
+<summary>Request and evidence · source event 93</summary>
 
 
 ```text
@@ -215,7 +217,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #3
+`revise_task` · Source event 3
 
 The SubAgent is unable to find conversations for Astrid Svensson using the ID provided by the Contacts app. I will instruct the SubAgent to use the Messages and Chats app-specific ID lookup tools and search tools to find the correct participant reference and identify the conversations.
 

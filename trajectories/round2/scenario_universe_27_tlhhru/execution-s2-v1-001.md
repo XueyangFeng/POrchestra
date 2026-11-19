@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #66 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 66 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Perform the following communication tasks:
 </details>
 
 
-## Source event #67 · Sub-agent 2: model output
+## Source event 67 · Sub-agent 2: model output
 
 ```text
 I'll start by creating the Chats group conversation with the two specified participants.
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 2: tool result</summary>
+<summary>Source event 68 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Action:
 </details>
 
 
-## Source event #69 · Sub-agent 2: model output
+## Source event 69 · Sub-agent 2: model output
 
 ```text
 The Chats group was created with conversation ID `9f674a180b8a45581b8f0e51dcf52fd5`. Now I'll send the message to it.
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 2: tool result</summary>
+<summary>Source event 70 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ Action:
 </details>
 
 
-## Source event #71 · Sub-agent 2: model output
+## Source event 71 · Sub-agent 2: model output
 
 ```text
 Message sent to the Chats group. Now creating the Messages group with the remaining three participants.
@@ -108,7 +108,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 2: tool result</summary>
+<summary>Source event 72 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -122,7 +122,7 @@ d96ffd24fe99eb60e265f1312f4c0bc6
 </details>
 
 
-## Source event #73 · Sub-agent 2: model output
+## Source event 73 · Sub-agent 2: model output
 
 ```text
 The Messages group was created with conversation ID `d96ffd24fe99eb60e265f1312f4c0bc6`. Now sending the message.
@@ -142,7 +142,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 2: tool result</summary>
+<summary>Source event 74 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -156,7 +156,7 @@ d96ffd24fe99eb60e265f1312f4c0bc6
 </details>
 
 
-## Source event #75 · Sub-agent 2: model output
+## Source event 75 · Sub-agent 2: model output
 
 ```text
 Both groups were created and messages sent successfully. Reporting the completion with exact IDs.
@@ -203,7 +203,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 2: tool result</summary>
+<summary>Source event 76 · Sub-agent 2: tool result</summary>
 
 
 ```text

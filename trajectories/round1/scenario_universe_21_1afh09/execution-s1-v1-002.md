@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ ReturnedEmails(emails=[Email(sender='yuting.liang@emarketingpro.com', recipients
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Need to continue fetching all emails. Fetching next batch.
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ ReturnedEmails(emails=[Email(sender='axel.lindqvist@gaia2mail.com', recipients=[
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ ReturnedEmails(emails=[Email(sender='mlsousasilva@gaia2mail.com', recipients=['a
 </details>
 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -100,7 +100,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -114,7 +114,7 @@ ReturnedEmails(emails=[Email(sender='luis.carvalho@gaia2mail.com', recipients=['
 </details>
 
 
-## Source event #43 · Sub-agent 1: model output
+## Source event 43 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -131,7 +131,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -146,7 +146,7 @@ ReturnedEmails(emails=[Email(sender='kasper.ostergaard@gaia2mail.com', recipient
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -164,7 +164,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #46 · Sub-agent 1: model output
+## Source event 46 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -181,7 +181,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result</summary>
+<summary>Source event 47 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -195,7 +195,7 @@ ReturnedEmails(emails=[Email(sender='vigdis.ronne@gaia2mail.com', recipients=['a
 </details>
 
 
-## Source event #48 · Sub-agent 1: model output
+## Source event 48 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -212,7 +212,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: tool result</summary>
+<summary>Source event 49 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -226,7 +226,7 @@ ReturnedEmails(emails=[Email(sender='aureliasilva@gaia2mail.com', recipients=['a
 </details>
 
 
-## Source event #50 · Sub-agent 1: model output
+## Source event 50 · Sub-agent 1: model output
 
 ```text
 Action:

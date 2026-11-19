@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Find the last 'Project Update Meeting' event in October 2024. Reschedule it to 2
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -43,7 +43,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 I'll start by checking the current time and retrieving all October 2024 calendar events.
@@ -58,7 +58,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -72,7 +72,7 @@ Action:
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Now let me retrieve all calendar events in October 2024.
@@ -91,7 +91,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -105,7 +105,7 @@ Action:
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 I found October 2024 events. There are two 'Project Update Meeting' events: one on 2024-10-29 09:00-11:00 and one on 2024-10-31 09:00-11:00. The last one is on 2024-10-31 (event_id `9397196a74844a00b1bb7b8bf2925220`), with description 'Sync on the status of Project X and discuss next steps.', location 'Zoom Meeting', attendees ['Rohan Sengupta', 'Kipenzi Mwanga'].
@@ -130,7 +130,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -144,7 +144,7 @@ acea4a8d991e2e64e9a43daa76d19dd2
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 New event created (id `acea4a8d991e2e64e9a43daa76d19dd2`). Now I'll delete the original event on 2024-10-31.
@@ -161,7 +161,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -175,7 +175,7 @@ Event 9397196a74844a00b1bb7b8bf2925220 successfully deleted.
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 Both operations succeeded. Let me verify the new event is in place.
@@ -194,7 +194,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -208,7 +208,7 @@ Action:
 </details>
 
 
-## Source event #17 · Sub-agent 1: model output
+## Source event 17 · Sub-agent 1: model output
 
 ```text
 The reschedule is verified complete. The new event is confirmed at 2024-11-01 14:00-16:00 with all original details, and the original 2024-10-31 event was deleted.
@@ -251,7 +251,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: tool result</summary>
+<summary>Source event 18 · Sub-agent 1: tool result</summary>
 
 
 ```text

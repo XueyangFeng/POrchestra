@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 I'll start by searching for the costume product and gathering discount codes.
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Action:
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 The exact search returned nothing. Let me try variations.
@@ -64,7 +64,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -78,7 +78,7 @@ Action:
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Found the product. Now let me get all discount codes and product details.
@@ -93,7 +93,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -107,7 +107,7 @@ Action:
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 Three codes appear to apply to this product's variants. Let me get the discount info for each.
@@ -123,7 +123,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ Action:
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -151,7 +151,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -165,7 +165,7 @@ Action:
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -179,7 +179,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -194,7 +194,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -212,7 +212,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Good. I have the three applicable codes. Now let me find the dinner events.
@@ -228,7 +228,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -242,7 +242,7 @@ Action:
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 Found the Sunday dinner attendee: Rohini Naidu. Now the Friday Oct 25 event.
@@ -258,7 +258,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -272,7 +272,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 Two different people: Rohini Naidu (Sunday) and Rohini Kumar (Friday). Let me verify via Contacts and get user IDs.
@@ -288,7 +288,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -302,7 +302,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 Both contacts exist. Now let me get their user IDs and verify via Messages.
@@ -318,7 +318,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -332,7 +332,7 @@ Action:
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -346,7 +346,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -360,7 +360,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Both user IDs obtained. Let me verify the sisters' relationship via Messages.
@@ -376,7 +376,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -390,7 +390,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Too many results. Let me narrow the search.
@@ -406,7 +406,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -420,7 +420,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 Let me verify with broader calendar search and check Messages for sister relationships.
@@ -436,7 +436,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -450,7 +450,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Let me verify these contacts are the user's sisters via Messages.
@@ -466,7 +466,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -480,7 +480,7 @@ Action:
 </details>
 
 
-## Source event #36 · Sub-agent 1: model output
+## Source event 36 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -494,7 +494,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result</summary>
+<summary>Source event 37 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -508,7 +508,7 @@ Action:
 </details>
 
 
-## Source event #38 · Sub-agent 1: model output
+## Source event 38 · Sub-agent 1: model output
 
 ```text
 Let me verify these contacts are the user's sisters via Messages.
@@ -524,7 +524,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: tool result</summary>
+<summary>Source event 39 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -538,7 +538,7 @@ Action:
 </details>
 
 
-## Source event #40 · Sub-agent 1: model output
+## Source event 40 · Sub-agent 1: model output
 
 ```text
 Let me check the conversations with Rohini Kumar and search for "sister".
@@ -554,7 +554,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: tool result</summary>
+<summary>Source event 41 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -568,7 +568,7 @@ Action:
 </details>
 
 
-## Source event #42 · Sub-agent 1: model output
+## Source event 42 · Sub-agent 1: model output
 
 ```text
 Let me get full product details to confirm the variants and prices.
@@ -584,7 +584,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: tool result</summary>
+<summary>Source event 43 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -598,7 +598,7 @@ Product(name="Rubie's Costume Darth Vader Star Wars Classic Deluxe Child Costume
 </details>
 
 
-## Source event #44 · Sub-agent 1: model output
+## Source event 44 · Sub-agent 1: model output
 
 ```text
 I have all the data needed. Let me compile and report.
@@ -686,7 +686,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text

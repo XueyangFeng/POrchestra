@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #36 · Main agent: Tool result: call_03_zcxqogjib5ryb6fqqe1rvqtv (is_error=False)</summary>
+<summary>Source event 36 · Main agent: Tool result: call_03_zcxqogjib5ryb6fqqe1rvqtv (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #37 · Main agent: Model message
+## Source event 37 · Main agent: Model message
 
 ```text
 I've now seen all 108 contacts in pages 0-100. Let me compile all contacts with address containing 9000. But wait, page 0 was offset 0 with 10 entries (0-9). Pages 10-100 cover all. Did I miss any page? Let me list:
@@ -159,7 +159,7 @@ Let me load send_message_to_user.
 
 
 
-## Source event #38 · Main agent: Model tool call: ToolSearch (call_00_p5dl9fs9yuibgzxz1vrxiuoq)
+## Source event 38 · Main agent: Model tool call: ToolSearch (call_00_p5dl9fs9yuibgzxz1vrxiuoq)
 
 ```text
 {
@@ -171,7 +171,7 @@ Let me load send_message_to_user.
 
 
 <details>
-<summary>Source event #39 · Main agent: Tool result: call_00_p5dl9fs9yuibgzxz1vrxiuoq (is_error=False)</summary>
+<summary>Source event 39 · Main agent: Tool result: call_00_p5dl9fs9yuibgzxz1vrxiuoq (is_error=False)</summary>
 
 
 ```text
@@ -187,7 +187,7 @@ Let me load send_message_to_user.
 </details>
 
 
-## Source event #40 · Main agent: Model message
+## Source event 40 · Main agent: Model message
 
 ```text
 Let me double check the month-based filtering with a quick script including all 50 rides and months, to be sure. Already did. One more sanity check: count of all contacts with 9000. Could use a script? I don't have the raw JSON saved. I could re-fetch and parse via... not accessible in bash. I'll trust the manual scan, but let me re-verify by re-reading the relevant pages quickly? I have them in context. Fine.
@@ -199,7 +199,7 @@ Answer: 74.
 
 
 
-## Source event #41 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_ujgdia7o988i5iyfr5cjtouj)
+## Source event 41 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_ujgdia7o988i5iyfr5cjtouj)
 
 ```text
 {
@@ -210,7 +210,7 @@ Answer: 74.
 
 
 <details>
-<summary>Source event #42 · Main agent: Tool result: call_00_ujgdia7o988i5iyfr5cjtouj (is_error=False)</summary>
+<summary>Source event 42 · Main agent: Tool result: call_00_ujgdia7o988i5iyfr5cjtouj (is_error=False)</summary>
 
 
 ```text
@@ -226,7 +226,7 @@ Answer: 74.
 </details>
 
 
-## Source event #43 · Main agent: Model message
+## Source event 43 · Main agent: Model message
 
 ```text
 The oldest age among contacts living in the most frequent destination zip code from last month's cab rides is **74**.
@@ -239,7 +239,7 @@ The oldest age among contacts living in the most frequent destination zip code f
 
 
 <details>
-<summary>Source event #44 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 44 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -255,7 +255,7 @@ The oldest age among contacts living in the most frequent destination zip code f
 
 
 <details>
-<summary>Source event #45 · Judge: Judge rationale</summary>
+<summary>Source event 45 · Judge: Judge rationale</summary>
 
 
 ```text

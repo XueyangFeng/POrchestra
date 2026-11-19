@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #56 · Sub-agent 1: model output</summary>
+<summary>Source event 56 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 1: tool result</summary>
+<summary>Source event 57 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 1: System configuration update</summary>
+<summary>Source event 58 · Sub-agent 1: System configuration update</summary>
 
 
 ```text
@@ -219,7 +219,7 @@ Read at: 2024-10-15 07:00:00
 
 
 <details>
-<summary>Source event #59 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 59 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -240,7 +240,7 @@ So: none of the three attendees responded within the 3-minute window.'
 
 
 <details>
-<summary>Source event #60 · Sub-agent 1: model output</summary>
+<summary>Source event 60 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -259,7 +259,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 1: tool result</summary>
+<summary>Source event 61 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -274,7 +274,7 @@ None
 
 
 <details>
-<summary>Source event #62 · Judge rationale</summary>
+<summary>Source event 62 · Judge rationale</summary>
 
 
 ```text

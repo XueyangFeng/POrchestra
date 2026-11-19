@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #100 · Main agent: Tool result: call_01_81a8jka7wrebkx4p5cyg8z5i (is_error=False)</summary>
+<summary>Source event 100 · Main agent: Tool result: call_01_81a8jka7wrebkx4p5cyg8z5i (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #101 · Main agent: Model message
+## Source event 101 · Main agent: Model message
 
 ```text
 I got page 2 (100-199). Need page 3 (offset 200, limit 100) to get remaining 46.
@@ -53,7 +53,7 @@ Let me do page 3 and searches in parallel.
 
 
 
-## Source event #102 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_lvuivohlf0lkh953iqtwpp4t)
+## Source event 102 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_lvuivohlf0lkh953iqtwpp4t)
 
 ```text
 {
@@ -66,7 +66,7 @@ Let me do page 3 and searches in parallel.
 
 
 
-## Source event #103 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_01_gtmghpz73ynpcshqy8bzd8ef)
+## Source event 103 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_01_gtmghpz73ynpcshqy8bzd8ef)
 
 ```text
 {
@@ -76,7 +76,7 @@ Let me do page 3 and searches in parallel.
 
 
 
-## Source event #104 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_02_sirs2tkuncwusrqn0f6gmb4k)
+## Source event 104 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_02_sirs2tkuncwusrqn0f6gmb4k)
 
 ```text
 {
@@ -86,7 +86,7 @@ Let me do page 3 and searches in parallel.
 
 
 
-## Source event #105 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_03_kxyhlu0kv8pcokt207ylgoto)
+## Source event 105 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_03_kxyhlu0kv8pcokt207ylgoto)
 
 ```text
 {
@@ -96,7 +96,7 @@ Let me do page 3 and searches in parallel.
 
 
 
-## Source event #106 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_04_kiaouoygtzq3mwbfhu1ry23z)
+## Source event 106 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_04_kiaouoygtzq3mwbfhu1ry23z)
 
 ```text
 {
@@ -106,7 +106,7 @@ Let me do page 3 and searches in parallel.
 
 
 
-## Source event #107 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_05_rrej9fy9n9p0hlveic9zzdhc)
+## Source event 107 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_05_rrej9fy9n9p0hlveic9zzdhc)
 
 ```text
 {
@@ -116,7 +116,7 @@ Let me do page 3 and searches in parallel.
 
 
 
-## Source event #108 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_06_mg2jdolpzgpjx025r6rfnzxn)
+## Source event 108 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_06_mg2jdolpzgpjx025r6rfnzxn)
 
 ```text
 {
@@ -126,7 +126,7 @@ Let me do page 3 and searches in parallel.
 
 
 
-## Source event #109 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_07_09x95ilw1a27pwz9q4ngicfj)
+## Source event 109 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_07_09x95ilw1a27pwz9q4ngicfj)
 
 ```text
 {
@@ -137,7 +137,7 @@ Let me do page 3 and searches in parallel.
 
 
 <details>
-<summary>Source event #110 · Main agent: Tool result: call_00_lvuivohlf0lkh953iqtwpp4t (is_error=False)</summary>
+<summary>Source event 110 · Main agent: Tool result: call_00_lvuivohlf0lkh953iqtwpp4t (is_error=False)</summary>
 
 
 ```text
@@ -154,7 +154,7 @@ Let me do page 3 and searches in parallel.
 
 
 <details>
-<summary>Source event #111 · Main agent: Tool result: call_01_gtmghpz73ynpcshqy8bzd8ef (is_error=False)</summary>
+<summary>Source event 111 · Main agent: Tool result: call_01_gtmghpz73ynpcshqy8bzd8ef (is_error=False)</summary>
 
 
 ```text
@@ -171,7 +171,7 @@ Let me do page 3 and searches in parallel.
 
 
 <details>
-<summary>Source event #112 · Main agent: Tool result: call_02_sirs2tkuncwusrqn0f6gmb4k (is_error=False)</summary>
+<summary>Source event 112 · Main agent: Tool result: call_02_sirs2tkuncwusrqn0f6gmb4k (is_error=False)</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ Let me do page 3 and searches in parallel.
 
 
 <details>
-<summary>Source event #113 · Main agent: Tool result: call_03_kxyhlu0kv8pcokt207ylgoto (is_error=False)</summary>
+<summary>Source event 113 · Main agent: Tool result: call_03_kxyhlu0kv8pcokt207ylgoto (is_error=False)</summary>
 
 
 ```text
@@ -205,7 +205,7 @@ Let me do page 3 and searches in parallel.
 
 
 <details>
-<summary>Source event #114 · Main agent: Tool result: call_04_kiaouoygtzq3mwbfhu1ry23z (is_error=False)</summary>
+<summary>Source event 114 · Main agent: Tool result: call_04_kiaouoygtzq3mwbfhu1ry23z (is_error=False)</summary>
 
 
 ```text
@@ -222,7 +222,7 @@ Let me do page 3 and searches in parallel.
 
 
 <details>
-<summary>Source event #115 · Main agent: Tool result: call_05_rrej9fy9n9p0hlveic9zzdhc (is_error=False)</summary>
+<summary>Source event 115 · Main agent: Tool result: call_05_rrej9fy9n9p0hlveic9zzdhc (is_error=False)</summary>
 
 
 ```text
@@ -239,7 +239,7 @@ Let me do page 3 and searches in parallel.
 
 
 <details>
-<summary>Source event #116 · Main agent: Tool result: call_06_mg2jdolpzgpjx025r6rfnzxn (is_error=False)</summary>
+<summary>Source event 116 · Main agent: Tool result: call_06_mg2jdolpzgpjx025r6rfnzxn (is_error=False)</summary>
 
 
 ```text
@@ -256,7 +256,7 @@ Let me do page 3 and searches in parallel.
 
 
 <details>
-<summary>Source event #117 · Main agent: Tool result: call_07_09x95ilw1a27pwz9q4ngicfj (is_error=False)</summary>
+<summary>Source event 117 · Main agent: Tool result: call_07_09x95ilw1a27pwz9q4ngicfj (is_error=False)</summary>
 
 
 ```text
@@ -272,7 +272,7 @@ Let me do page 3 and searches in parallel.
 </details>
 
 
-## Source event #118 · Main agent: Model message
+## Source event 118 · Main agent: Model message
 
 ```text
 Search_events works for attendee names it seems. Results:
@@ -353,7 +353,7 @@ Let me do these.
 
 
 
-## Source event #119 · Main agent: Model tool call: mcp__gaia2__Chats__list_conversations_by_participant (call_00_65p2ddnyqbe0i63lxbym1sf0)
+## Source event 119 · Main agent: Model tool call: mcp__gaia2__Chats__list_conversations_by_participant (call_00_65p2ddnyqbe0i63lxbym1sf0)
 
 ```text
 {
@@ -367,7 +367,7 @@ Let me do these.
 
 
 
-## Source event #120 · Main agent: Model tool call: mcp__gaia2__Chats__list_conversations_by_participant (call_01_7q0b8fa4yolg1ayblia6y2ty)
+## Source event 120 · Main agent: Model tool call: mcp__gaia2__Chats__list_conversations_by_participant (call_01_7q0b8fa4yolg1ayblia6y2ty)
 
 ```text
 {
@@ -381,7 +381,7 @@ Let me do these.
 
 
 
-## Source event #121 · Main agent: Model tool call: mcp__gaia2__Chats__list_conversations_by_participant (call_02_7cp9c0adwzrgtmm16fr4rj43)
+## Source event 121 · Main agent: Model tool call: mcp__gaia2__Chats__list_conversations_by_participant (call_02_7cp9c0adwzrgtmm16fr4rj43)
 
 ```text
 {
@@ -395,7 +395,7 @@ Let me do these.
 
 
 
-## Source event #122 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_03_7bk1ql91byr29yr4oio76qlm)
+## Source event 122 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_03_7bk1ql91byr29yr4oio76qlm)
 
 ```text
 {
@@ -405,7 +405,7 @@ Let me do these.
 
 
 
-## Source event #123 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_04_e5w0cqtmiiy5jy29avrnx9ap)
+## Source event 123 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_04_e5w0cqtmiiy5jy29avrnx9ap)
 
 ```text
 {
@@ -415,7 +415,7 @@ Let me do these.
 
 
 
-## Source event #124 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_05_ttr84su2kcskpse95msowkjx)
+## Source event 124 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_05_ttr84su2kcskpse95msowkjx)
 
 ```text
 {
@@ -425,7 +425,7 @@ Let me do these.
 
 
 
-## Source event #125 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_06_nnqh1li0e25dvjzhxh42d3yt)
+## Source event 125 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_06_nnqh1li0e25dvjzhxh42d3yt)
 
 ```text
 {
@@ -435,7 +435,7 @@ Let me do these.
 
 
 
-## Source event #126 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_07_ypu2ojyuf0r2hj0kqy1y4bf7)
+## Source event 126 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_07_ypu2ojyuf0r2hj0kqy1y4bf7)
 
 ```text
 {
@@ -445,7 +445,7 @@ Let me do these.
 
 
 
-## Source event #127 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_08_idxq6utnyu0o3nep5d8ibhf6)
+## Source event 127 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_08_idxq6utnyu0o3nep5d8ibhf6)
 
 ```text
 {
@@ -455,7 +455,7 @@ Let me do these.
 
 
 
-## Source event #128 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_09_4tkaqt4wjdgdkj5v4a98czat)
+## Source event 128 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_09_4tkaqt4wjdgdkj5v4a98czat)
 
 ```text
 {
@@ -465,7 +465,7 @@ Let me do these.
 
 
 
-## Source event #129 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_10_do6mdoi881c7stoyh1o1ntsy)
+## Source event 129 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_10_do6mdoi881c7stoyh1o1ntsy)
 
 ```text
 {
@@ -475,7 +475,7 @@ Let me do these.
 
 
 
-## Source event #130 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_11_w15idbm7hlwn1lh4x78ebshy)
+## Source event 130 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_11_w15idbm7hlwn1lh4x78ebshy)
 
 ```text
 {
@@ -486,7 +486,7 @@ Let me do these.
 
 
 <details>
-<summary>Source event #131 · Main agent: Tool result: call_00_65p2ddnyqbe0i63lxbym1sf0 (is_error=False)</summary>
+<summary>Source event 131 · Main agent: Tool result: call_00_65p2ddnyqbe0i63lxbym1sf0 (is_error=False)</summary>
 
 
 ```text
@@ -503,7 +503,7 @@ Let me do these.
 
 
 <details>
-<summary>Source event #132 · Main agent: Tool result: call_01_7q0b8fa4yolg1ayblia6y2ty (is_error=False)</summary>
+<summary>Source event 132 · Main agent: Tool result: call_01_7q0b8fa4yolg1ayblia6y2ty (is_error=False)</summary>
 
 
 ```text
@@ -520,7 +520,7 @@ Let me do these.
 
 
 <details>
-<summary>Source event #133 · Main agent: Tool result: call_02_7cp9c0adwzrgtmm16fr4rj43 (is_error=False)</summary>
+<summary>Source event 133 · Main agent: Tool result: call_02_7cp9c0adwzrgtmm16fr4rj43 (is_error=False)</summary>
 
 
 ```text

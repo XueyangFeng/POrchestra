@@ -1,6 +1,8 @@
 # scenario_universe_24_ithv71
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_24_ithv71/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_24_ithv71/README.md) · [Codex](../../codex/round2/scenario_universe_24_ithv71/README.md) · [OpenCode](../../opencode/round2/scenario_universe_24_ithv71/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Identify the target group chat and the specific properties to recommend. This involves finding the most expensive 4+ bedroom properties, saving them, and picking the one with the largest square footage.
 
@@ -89,11 +91,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #20
+**Initial harness configuration** · Source event 20
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The property with the largest square footage among the most expensive 4+ bedroom options has been identified (Geneva Seaside, ID: b1b3b2759fb84a1dbbf6878bdf4135a7). Now I need to message the group chat with its details, notify the user, and then wait for and handle the friends&#x27; responses according to the conditional logic in the task.
 

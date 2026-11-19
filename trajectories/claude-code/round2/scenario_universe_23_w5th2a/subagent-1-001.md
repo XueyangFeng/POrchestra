@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #79 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): User / environment message</summary>
+<summary>Source event 79 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): User / environment message</summary>
 
 
 ```text
@@ -27,7 +27,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 </details>
 
 
-## Source event #80 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: ToolSearch (call_00_x3n13xbnajv1kfi86z16dhkm)
+## Source event 80 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: ToolSearch (call_00_x3n13xbnajv1kfi86z16dhkm)
 
 ```text
 {
@@ -39,7 +39,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #81 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_00_x3n13xbnajv1kfi86z16dhkm (is_error=False)</summary>
+<summary>Source event 81 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_00_x3n13xbnajv1kfi86z16dhkm (is_error=False)</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 </details>
 
 
-## Source event #82 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_p5czjh44061m5hjwt03uwxe4)
+## Source event 82 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_p5czjh44061m5hjwt03uwxe4)
 
 ```text
 {
@@ -65,7 +65,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 
-## Source event #83 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_h0t3kvzd2cpjljf8coup3v83)
+## Source event 83 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_h0t3kvzd2cpjljf8coup3v83)
 
 ```text
 {
@@ -75,7 +75,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 
-## Source event #84 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_38vjvc7vahzoi2fjuds8hfux)
+## Source event 84 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_38vjvc7vahzoi2fjuds8hfux)
 
 ```text
 {
@@ -85,7 +85,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 
-## Source event #85 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_9zabjxq43hq1yzxe5dc41jgr)
+## Source event 85 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_9zabjxq43hq1yzxe5dc41jgr)
 
 ```text
 {
@@ -95,7 +95,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 
-## Source event #86 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_04_99u7c9ofl4p72o21q9vanhpp)
+## Source event 86 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_04_99u7c9ofl4p72o21q9vanhpp)
 
 ```text
 {
@@ -105,7 +105,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 
-## Source event #87 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_05_mo2xf72g7hdh04jpuy9y2bwe)
+## Source event 87 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_05_mo2xf72g7hdh04jpuy9y2bwe)
 
 ```text
 {
@@ -116,7 +116,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #88 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_00_p5czjh44061m5hjwt03uwxe4 (is_error=False)</summary>
+<summary>Source event 88 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_00_p5czjh44061m5hjwt03uwxe4 (is_error=False)</summary>
 
 
 ```text
@@ -133,7 +133,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #89 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_01_h0t3kvzd2cpjljf8coup3v83 (is_error=False)</summary>
+<summary>Source event 89 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_01_h0t3kvzd2cpjljf8coup3v83 (is_error=False)</summary>
 
 
 ```text
@@ -150,7 +150,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #90 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_02_38vjvc7vahzoi2fjuds8hfux (is_error=False)</summary>
+<summary>Source event 90 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_02_38vjvc7vahzoi2fjuds8hfux (is_error=False)</summary>
 
 
 ```text
@@ -167,7 +167,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #91 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_03_9zabjxq43hq1yzxe5dc41jgr (is_error=False)</summary>
+<summary>Source event 91 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_03_9zabjxq43hq1yzxe5dc41jgr (is_error=False)</summary>
 
 
 ```text
@@ -184,7 +184,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #92 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_04_99u7c9ofl4p72o21q9vanhpp (is_error=False)</summary>
+<summary>Source event 92 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_04_99u7c9ofl4p72o21q9vanhpp (is_error=False)</summary>
 
 
 ```text
@@ -201,7 +201,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #93 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_05_mo2xf72g7hdh04jpuy9y2bwe (is_error=False)</summary>
+<summary>Source event 93 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_05_mo2xf72g7hdh04jpuy9y2bwe (is_error=False)</summary>
 
 
 ```text
@@ -217,7 +217,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 </details>
 
 
-## Source event #94 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_vr3e3mqq95wvlx8w1695lt6u)
+## Source event 94 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_vr3e3mqq95wvlx8w1695lt6u)
 
 ```text
 {
@@ -227,7 +227,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 
-## Source event #95 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_9snvjzwkqjn82krrwy4959oo)
+## Source event 95 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_9snvjzwkqjn82krrwy4959oo)
 
 ```text
 {
@@ -237,7 +237,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 
-## Source event #96 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_7kzplm56ysj29c6i9p0qjnrf)
+## Source event 96 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_7kzplm56ysj29c6i9p0qjnrf)
 
 ```text
 {
@@ -247,7 +247,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 
-## Source event #97 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_mpi1ck29496tzx8xc0nippdt)
+## Source event 97 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_mpi1ck29496tzx8xc0nippdt)
 
 ```text
 {
@@ -257,7 +257,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 
-## Source event #98 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_04_hvuzpnvynvuy3s8dv6ceanad)
+## Source event 98 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_04_hvuzpnvynvuy3s8dv6ceanad)
 
 ```text
 {
@@ -267,7 +267,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 
-## Source event #99 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_05_fhp905xqsejae9iez13lqsif)
+## Source event 99 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_05_fhp905xqsejae9iez13lqsif)
 
 ```text
 {
@@ -277,7 +277,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 
-## Source event #100 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_06_lokf4w5p8lo3d5dbawy63rpr)
+## Source event 100 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Model tool call: mcp__gaia2__Contacts__get_contacts (call_06_lokf4w5p8lo3d5dbawy63rpr)
 
 ```text
 {
@@ -288,7 +288,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #101 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_00_vr3e3mqq95wvlx8w1695lt6u (is_error=False)</summary>
+<summary>Source event 101 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_00_vr3e3mqq95wvlx8w1695lt6u (is_error=False)</summary>
 
 
 ```text
@@ -305,7 +305,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #102 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_01_9snvjzwkqjn82krrwy4959oo (is_error=False)</summary>
+<summary>Source event 102 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_01_9snvjzwkqjn82krrwy4959oo (is_error=False)</summary>
 
 
 ```text
@@ -322,7 +322,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #103 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_02_7kzplm56ysj29c6i9p0qjnrf (is_error=False)</summary>
+<summary>Source event 103 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_02_7kzplm56ysj29c6i9p0qjnrf (is_error=False)</summary>
 
 
 ```text
@@ -339,7 +339,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #104 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_03_mpi1ck29496tzx8xc0nippdt (is_error=False)</summary>
+<summary>Source event 104 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_03_mpi1ck29496tzx8xc0nippdt (is_error=False)</summary>
 
 
 ```text
@@ -356,7 +356,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #105 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_04_hvuzpnvynvuy3s8dv6ceanad (is_error=False)</summary>
+<summary>Source event 105 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_04_hvuzpnvynvuy3s8dv6ceanad (is_error=False)</summary>
 
 
 ```text
@@ -373,7 +373,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #106 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_05_fhp905xqsejae9iez13lqsif (is_error=False)</summary>
+<summary>Source event 106 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_05_fhp905xqsejae9iez13lqsif (is_error=False)</summary>
 
 
 ```text
@@ -390,7 +390,7 @@ Double-check that you have seen all contacts (last page's metadata range should 
 
 
 <details>
-<summary>Source event #107 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_06_lokf4w5p8lo3d5dbawy63rpr (is_error=False)</summary>
+<summary>Source event 107 · Subagent (parent call call_00_v8gmhtpisj8uh0k2sb5592s2): Tool result: call_06_lokf4w5p8lo3d5dbawy63rpr (is_error=False)</summary>
 
 
 ```text

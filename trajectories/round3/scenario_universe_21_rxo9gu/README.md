@@ -1,6 +1,8 @@
 # scenario_universe_21_rxo9gu
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_21_rxo9gu/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_21_rxo9gu/README.md) · [Codex](../../codex/round3/scenario_universe_21_rxo9gu/README.md) · [OpenCode](../../opencode/round3/scenario_universe_21_rxo9gu/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to start the shopping and monitoring process immediately as the 3-minute window has begun. I also need to identify the &#x27;Fashion Designer&#x27; friend to send the cost information later.
 
@@ -107,11 +109,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #113
+**Initial harness configuration** · Source event 113
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The 3-minute monitoring window (07:00:00 to 07:03:00) has concluded. The last item was added to the cart at 07:02:40, making the required checkout time 07:03:25. The current time is 07:03:24. The next steps are to wait 1 second, checkout, identify the &#x27;Fashion Designer&#x27; friend (who hasn&#x27;t been found yet), message them the total cost via Chats, and report the total to the user.
 
@@ -198,7 +200,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

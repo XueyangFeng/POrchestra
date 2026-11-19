@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result (continued, part 4)</summary>
+<summary>Source event 24 · Sub-agent 2: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ could collaborate on a project. Perhaps we could even organize a joint lecture o
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result (continued, part 5)</summary>
+<summary>Source event 24 · Sub-agent 2: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -29,7 +29,7 @@ any online courses or resources that you think might be a good fit for Aisling? 
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result (continued, part 6)</summary>
+<summary>Source event 24 · Sub-agent 2: tool result (continued, part 6)</summary>
 
 
 ```text
@@ -42,7 +42,7 @@ s=['akuznetsova@gaia2mail.com'], subject='Exploring Historical Software Simulati
 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: model output</summary>
+<summary>Source event 25 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -62,7 +62,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -76,7 +76,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result (continued, part 2)</summary>
+<summary>Source event 26 · Sub-agent 2: tool result (continued, part 2)</summary>
 
 
 ```text

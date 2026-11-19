@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -26,7 +26,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #4 · Sub-agent 1: model output
+## Source event 4 · Sub-agent 1: model output
 
 ```text
 I'll start by searching for each product in the Shopping app.
@@ -46,7 +46,7 @@ Action:
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: tool result</summary>
+<summary>Source event 5 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -60,7 +60,7 @@ Action:
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 Found the first product. The plastic variant at $15.95 is available and cheapest. Now searching for the second item.
@@ -78,7 +78,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -92,7 +92,7 @@ Action:
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Second item found — only the polycarbonate variant ($47.09) is available. Searching for the third item.
@@ -110,7 +110,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -124,7 +124,7 @@ Action:
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 Third item found — plastic variant at $3.56 is available. Now the fourth item.
@@ -142,7 +142,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -156,7 +156,7 @@ Action:
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Fourth item found — plastic Rainbow variant at $11.88 is available. Now searching the fifth item.
@@ -174,7 +174,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ Action:
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 No results. Let me try a broader search.
@@ -206,7 +206,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -220,7 +220,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 Found the fifth item (named "ParkZone 18A Brushless ESC Vehicle Part"). Let me verify its details to confirm the "for Trucks" variant.
@@ -237,7 +237,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -251,7 +251,7 @@ Product(name='ParkZone 18A Brushless ESC Vehicle Part', product_id='6ef28e43192d
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 All five items identified. The fifth product's "for Trucks" specification corresponds to the Trucks-compatible variant (aluminum, $42.90 — also the cheapest aluminum). Now adding all items to cart.
@@ -269,7 +269,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -283,7 +283,7 @@ c75259d92bac4dcdbc9239550fa687b0
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 First item added. Adding the remaining four items.
@@ -301,7 +301,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -315,7 +315,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 Second item added. Continuing.
@@ -333,7 +333,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -347,7 +347,7 @@ b5eefddb305f4be498ac70c0892842f4
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 Third item added. Continuing.
@@ -365,7 +365,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -379,7 +379,7 @@ Action:
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 Fourth item added. Adding the fifth.
@@ -397,7 +397,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -411,7 +411,7 @@ f076d7a967064849ab7ea77aced9d651
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 All five items added. Let me verify the cart before checkout.
@@ -426,7 +426,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -440,7 +440,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Cart verified — all 5 items with correct materials, all available. Now checking out.
@@ -455,7 +455,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -469,7 +469,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 Order placed (ID: 441bcbf666fa419ca692af2702c5c26f). Now looking up Akira Nakahara's Messages user ID.
@@ -486,7 +486,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -500,7 +500,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Found Akira Nakahara's user ID. Sending the message verbatim.
@@ -518,7 +518,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -532,7 +532,7 @@ Action:
 </details>
 
 
-## Source event #36 · Sub-agent 1: model output
+## Source event 36 · Sub-agent 1: model output
 
 ```text
 Message sent to Akira. Now informing the user.
@@ -549,7 +549,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result</summary>
+<summary>Source event 37 · Sub-agent 1: tool result</summary>
 
 
 ```text

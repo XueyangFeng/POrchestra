@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #14 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 14 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Identify all contacts who live in the zip code 9000. Find the maximum age among 
 </details>
 
 
-## Source event #15 · Sub-agent 2: model output
+## Source event 15 · Sub-agent 2: model output
 
 ```text
 Thought: I need to retrieve the contacts list to find contacts with zip code 9000 and their ages. Starting with offset 0.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 2: tool result</summary>
+<summary>Source event 16 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #17 · Sub-agent 2: model output
+## Source event 17 · Sub-agent 2: model output
 
 ```text
 The first batch of contacts (0-10) shows no one with zip 9000. I need to scroll further to find contacts with that zip code. Continuing to retrieve contacts.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 2: tool result</summary>
+<summary>Source event 18 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Action:
 </details>
 
 
-## Source event #19 · Sub-agent 2: model output
+## Source event 19 · Sub-agent 2: model output
 
 ```text
 Found one contact with zip 9000 so far (Aurélien De Witte, age 60). Continue retrieving all contacts to ensure I don't miss any.
@@ -96,7 +96,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: tool result</summary>
+<summary>Source event 20 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -110,7 +110,7 @@ Action:
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 No additional 9000-zip contacts in this batch. Continuing.
@@ -127,7 +127,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -141,7 +141,7 @@ Action:
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 Found additional 9000-zip contacts. Continuing.
@@ -158,7 +158,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -172,7 +172,7 @@ Action:
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 Found another 9000-zip contact. Continuing to retrieve all contacts.
@@ -189,7 +189,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -203,7 +203,7 @@ Action:
 </details>
 
 
-## Source event #27 · Sub-agent 2: model output
+## Source event 27 · Sub-agent 2: model output
 
 ```text
 Continuing retrieval of contacts.
@@ -220,7 +220,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: tool result</summary>
+<summary>Source event 28 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -234,7 +234,7 @@ Action:
 </details>
 
 
-## Source event #29 · Sub-agent 2: model output
+## Source event 29 · Sub-agent 2: model output
 
 ```text
 Another batch retrieved; no new 9000-zip contacts. Continuing.
@@ -251,7 +251,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 2: tool result</summary>
+<summary>Source event 30 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -265,7 +265,7 @@ Action:
 </details>
 
 
-## Source event #31 · Sub-agent 2: model output
+## Source event 31 · Sub-agent 2: model output
 
 ```text
 Continuing retrieval.
@@ -282,7 +282,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: tool result</summary>
+<summary>Source event 32 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -296,7 +296,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 2: model output
+## Source event 33 · Sub-agent 2: model output
 
 ```text
 Continuing retrieval of the remaining contacts.
@@ -313,7 +313,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -327,7 +327,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 2: model output
+## Source event 35 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -342,7 +342,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -356,7 +356,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 2: model output
+## Source event 37 · Sub-agent 2: model output
 
 ```text
 I have now retrieved all 108 contacts. Let me compile the contacts living in zip code 9000 and their ages:
@@ -384,7 +384,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: tool result</summary>
+<summary>Source event 38 · Sub-agent 2: tool result</summary>
 
 
 ```text

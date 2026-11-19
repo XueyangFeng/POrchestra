@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 I'll start by searching for Kåre Sørensen and retrieving the current user's details.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 Found Kåre. Now let me get the current user's details and check the calendar for that Friday.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -96,7 +96,7 @@ Address: Frognerveien 34, 0266 Oslo, Norway
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Now let me check the calendar for Friday, October 18, 2024.
@@ -115,7 +115,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -129,7 +129,7 @@ Action:
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 No events overlap the 19:30–22:30 window (only 09:00–12:00 and 13:00–15:00 exist). Now I'll add the dinner event.
@@ -150,7 +150,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -164,7 +164,7 @@ dcf191829913b81220f38262b28ec53c
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Dinner event added. Let me verify the calendar state.
@@ -183,7 +183,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -197,7 +197,7 @@ Action:
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 The calendar shows the dinner event added successfully with no conflicts to delete. Let me report completion.
@@ -250,7 +250,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text

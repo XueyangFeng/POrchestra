@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #39 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 39 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #40 · Sub-agent 2: model output
+## Source event 40 · Sub-agent 2: model output
 
 ```text
 I'll start by retrieving crime rates for each of the four zip codes.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 2: tool result</summary>
+<summary>Source event 41 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ CrimeDataPoint(violent_crime=20.95, property_crime=47.02)
 </details>
 
 
-## Source event #42 · Sub-agent 2: model output
+## Source event 42 · Sub-agent 2: model output
 
 ```text
 110 00: violent 20.95 + property 47.02 = 67.97. Next zip code.
@@ -70,7 +70,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: tool result</summary>
+<summary>Source event 43 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -84,7 +84,7 @@ CrimeDataPoint(violent_crime=15.11, property_crime=25.66)
 </details>
 
 
-## Source event #44 · Sub-agent 2: model output
+## Source event 44 · Sub-agent 2: model output
 
 ```text
 118 00: 15.11 + 25.66 = 40.77. Next.
@@ -101,7 +101,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: tool result</summary>
+<summary>Source event 45 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -127,7 +127,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #46 · Sub-agent 2: model output
+## Source event 46 · Sub-agent 2: model output
 
 ```text
 130 00 has no data — exclude it. Now checking 150 00.
@@ -144,7 +144,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result</summary>
+<summary>Source event 47 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -158,7 +158,7 @@ CrimeDataPoint(violent_crime=12.54, property_crime=33.16)
 </details>
 
 
-## Source event #48 · Sub-agent 2: model output
+## Source event 48 · Sub-agent 2: model output
 
 ```text
 150 00: 12.54 + 33.16 = 45.70. Highest sum is 110 00 (67.97). Now searching properties there.
@@ -175,7 +175,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: tool result</summary>
+<summary>Source event 49 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -189,7 +189,7 @@ Action:
 </details>
 
 
-## Source event #50 · Sub-agent 2: model output
+## Source event 50 · Sub-agent 2: model output
 
 ```text
 Lowest price in 110 00 is 2500. Sending to user.
@@ -206,7 +206,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 2: tool result</summary>
+<summary>Source event 51 · Sub-agent 2: tool result</summary>
 
 
 ```text

@@ -4,7 +4,7 @@
 
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
-## Source event #69 · Sub-agent 1: model output
+## Source event 69 · Sub-agent 1: model output
 
 ```text
 I've now replied to all 9 manager contacts' latest emails. Let me double-check my work by verifying all contacts identified as managers and all replies sent.
@@ -56,7 +56,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 1: tool result</summary>
+<summary>Source event 70 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_25_dippkn
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_25_dippkn/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_25_dippkn/README.md) · [Codex](../../codex/round3/scenario_universe_25_dippkn/README.md) · [OpenCode](../../opencode/round3/scenario_universe_25_dippkn/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to attempt the primary purchase first: buying all available vinyl variants of &#x27;Funko Pop! Animation: Missing Link - Link&#x27;. After placing the order, I must notify the user as requested. Then I will check the status of the order to see if it was immediately canceled, which would trigger the fallback plan.
 
@@ -93,7 +95,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #30
+**Harness configuration updated** · Source event 30
 
 **1. Sub-agent revision request**
 
@@ -102,7 +104,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Searched 'Funko Pop! Animation: Missing Link - Link' in Shopping. Added one of each of the 4 available vinyl variants (Standard/Vinyl/Window Box $7.05, Mini/Vinyl/Window Box $5.99, Standard/Vinyl/Blind Box $8.99, Glow-in-the-Dark/Vinyl/Window Box $10.99); excluded Metallic variant (non-vinyl and unavailable). Checkout created order d2900d023b024b03bb0d0d4f976c1f09, total $33.02, status 'processed'. Notified the user via AgentUserInterface__send_message_to_user that the order for 'Funko Pop! Animation: Missing Link - Link' was placed. Environment notification then reported the order cancelled with Id d2900d023b024b03bb0d0d4f976c1f09; get_order_details confirms order_status='cancelled'. No fallback actions taken yet.
 ```
 <details>
-<summary>Request and evidence · source event #28</summary>
+<summary>Request and evidence · source event 28</summary>
 
 
 ```text
@@ -159,7 +161,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The initial order for the Missing Link product was canceled as per the environment notification and SubAgent verification. I am now authorizing the fallback plan specified in the original task: purchasing the &#x27;Funko Pop! TV: The Walking Dead - Daryl&#x27; variants and messaging Rashid Al-Mansoori.
 

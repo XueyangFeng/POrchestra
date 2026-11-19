@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -29,7 +29,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 <｜｜DSML｜｜thought>
@@ -51,7 +51,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ Action:
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -80,7 +80,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -94,7 +94,7 @@ Action:
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -110,7 +110,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -124,7 +124,7 @@ Action:
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 Yes, the first Follow-up call event is 'Follow-up Call with Karel' (Wednesday, 2024-10-16 10:00:00), attendee Karel Vandenberghe. Karel has a Chats account and the outreach message was sent at the current time 2024-10-15 07:00:00? Actually need record exact time. Need get current time soon. Let me continue.
@@ -143,7 +143,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -157,7 +157,7 @@ None
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -172,7 +172,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -186,7 +186,7 @@ Action:
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -203,7 +203,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -217,7 +217,7 @@ e99491546510d319bc33d842063d8b97
 </details>
 
 
-## Source event #17 · Sub-agent 1: model output
+## Source event 17 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -232,7 +232,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: tool result</summary>
+<summary>Source event 18 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -246,7 +246,7 @@ Action:
 </details>
 
 
-## Source event #19 · Sub-agent 1: model output
+## Source event 19 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -262,7 +262,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 1: tool result</summary>
+<summary>Source event 20 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -276,7 +276,7 @@ ffd86db7a7354f04aec3f2c23a309f5a
 </details>
 
 
-## Source event #21 · Sub-agent 1: model output
+## Source event 21 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -289,7 +289,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 1: tool result</summary>
+<summary>Source event 22 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -303,7 +303,7 @@ Action:
 </details>
 
 
-## Source event #23 · Sub-agent 1: model output
+## Source event 23 · Sub-agent 1: model output
 
 ```text
 Now wait 3 minutes (180 seconds) after outreach.
@@ -320,7 +320,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: tool result</summary>
+<summary>Source event 24 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -335,7 +335,7 @@ None
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 25 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -348,7 +348,7 @@ Environment notifications:
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -365,7 +365,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -379,7 +379,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -396,7 +396,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -410,7 +410,7 @@ ReturnedEmails(emails=[Email(sender='nalinee.srisombat@cmu.ac.th', recipients=['
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -427,7 +427,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -441,7 +441,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 No replies detected. Karel and Émile chats contain only our outreach message; Aurélien's inbox has no reply. Rescheduling events now.
@@ -458,7 +458,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -472,7 +472,7 @@ Event a4c127f4a42240c08ec4155b1bfcf344 successfully deleted.
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -493,7 +493,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -507,7 +507,7 @@ e4657cd1b75ef061b9fbfd037e80abd6
 </details>
 
 
-## Source event #36 · Sub-agent 1: model output
+## Source event 36 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -523,7 +523,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result</summary>
+<summary>Source event 37 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -537,7 +537,7 @@ Action:
 </details>
 
 
-## Source event #38 · Sub-agent 1: model output
+## Source event 38 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -552,7 +552,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: tool result</summary>
+<summary>Source event 39 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -566,7 +566,7 @@ Event 8bb53dba3b6849268890472c4b591328 successfully deleted.
 </details>
 
 
-## Source event #40 · Sub-agent 1: model output
+## Source event 40 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -587,7 +587,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: tool result</summary>
+<summary>Source event 41 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -601,7 +601,7 @@ e03b534af959899d9ca5c1d3e342f522
 </details>
 
 
-## Source event #42 · Sub-agent 1: model output
+## Source event 42 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -616,7 +616,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: tool result</summary>
+<summary>Source event 43 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -630,7 +630,7 @@ Action:
 </details>
 
 
-## Source event #44 · Sub-agent 1: model output
+## Source event 44 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -646,7 +646,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -660,7 +660,7 @@ e7cf1a8da9c54f8db30ca5c9f992f711
 </details>
 
 
-## Source event #46 · Sub-agent 1: model output
+## Source event 46 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -675,7 +675,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result</summary>
+<summary>Source event 47 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -689,7 +689,7 @@ Event 1b7292e8923247e988e2f4145035bc87 successfully deleted.
 </details>
 
 
-## Source event #48 · Sub-agent 1: model output
+## Source event 48 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -710,7 +710,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: tool result</summary>
+<summary>Source event 49 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -724,7 +724,7 @@ Action:
 </details>
 
 
-## Source event #50 · Sub-agent 1: model output
+## Source event 50 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -740,7 +740,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 1: tool result</summary>
+<summary>Source event 51 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -754,7 +754,7 @@ ffd86db7a7354f04aec3f2c23a309f5a
 </details>
 
 
-## Source event #52 · Sub-agent 1: model output
+## Source event 52 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -804,7 +804,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 1: tool result</summary>
+<summary>Source event 53 · Sub-agent 1: tool result</summary>
 
 
 ```text

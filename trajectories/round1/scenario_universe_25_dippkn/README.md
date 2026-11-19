@@ -1,6 +1,8 @@
 # scenario_universe_25_dippkn
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_25_dippkn/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_25_dippkn/README.md) · [Codex](../../codex/round1/scenario_universe_25_dippkn/README.md) · [OpenCode](../../opencode/round1/scenario_universe_25_dippkn/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to purchase specific vinyl variants of a product and be notified. If the order is canceled, a fallback purchase and a message to a contact are required. I will first delegate the search and purchase of the primary item and the notification to the user.
 
@@ -94,7 +96,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #29
+**Harness configuration updated** · Source event 29
 
 **1. Sub-agent revision request**
 
@@ -103,7 +105,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Order 45951ff8cb544254a1af01c2106d4580 for Funko Pop! Animation: Missing Link - Link (4 vinyl variants, total $33.02) was placed and user notified; now confirmed cancelled. Waiting for MainAgent direction on the user's fallback plan.
 ```
 <details>
-<summary>Request and evidence · source event #27</summary>
+<summary>Request and evidence · source event 27</summary>
 
 
 ```text
@@ -150,7 +152,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The initial order for &#x27;Missing Link&#x27; was canceled as anticipated. I am now instructing the SubAgent to proceed with the user&#x27;s fallback plan: purchasing the &#x27;Daryl&#x27; variants and messaging Rashid Al-Mansoori.
 

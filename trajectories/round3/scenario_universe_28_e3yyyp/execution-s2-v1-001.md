@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 34 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Process the latest email for each of the following 9 manager contacts. For each 
 </details>
 
 
-## Source event #35 · Sub-agent 2: model output
+## Source event 35 · Sub-agent 2: model output
 
 ```text
 I'll start by exploring the email folders and searching for each contact's emails.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ ReturnedEmails(emails=[Email(sender='rohan.deshpande@adwave.in', recipients=['so
 </details>
 
 
-## Source event #37 · Sub-agent 2: model output
+## Source event 37 · Sub-agent 2: model output
 
 ```text
 I have the first 50 INBOX emails. Let me get the remaining ones and also check the SENT folder.

@@ -1,6 +1,8 @@
 # scenario_universe_27_16f4s4
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_27_16f4s4/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_27_16f4s4/README.md) · [Codex](../../codex/round1/scenario_universe_27_16f4s4/README.md) · [OpenCode](../../opencode/round1/scenario_universe_27_16f4s4/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first part of the user&#x27;s request is to cancel all calendar events scheduled for tomorrow (2024-10-16). I am delegating this specific, verifiable task to a SubAgent.
 
@@ -79,11 +81,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #21
+**Initial harness configuration** · Source event 21
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The first part of the user&#x27;s request (canceling tomorrow&#x27;s events) is complete. Now I need to monitor incoming emails for property viewings for the next four minutes, as per the user&#x27;s instructions. The SubAgent will check for new emails, reply affirmatively, and create calendar events accordingly until 07:04:00.
 
@@ -154,7 +156,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

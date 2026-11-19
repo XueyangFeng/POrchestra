@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #149 · Main agent: Model message
+## Source event 149 · Main agent: Model message
 
 ```text
 Final: 5 properties changed prices during the 4-minute window:
@@ -75,7 +75,7 @@ Let me send email and verify in parallel—email content number is 5 regardless.
 
 
 
-## Source event #150 · Main agent: Model message
+## Source event 150 · Main agent: Model message
 
 ```text
 All polling complete at 07:04:01. **5 properties changed prices** during the 4-minute window: Skyline Oasis, Lakeside Village, Skyview Towers, Cityview Apartments, and Willow Creek Residences. I've added the 4 that were not on the saved list (Skyview Towers was already saved). Sending the email now and verifying the saved list.
@@ -83,7 +83,7 @@ All polling complete at 07:04:01. **5 properties changed prices** during the 4-m
 
 
 
-## Source event #151 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_iw03xaz64red2g1w5736cp9r)
+## Source event 151 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_iw03xaz64red2g1w5736cp9r)
 
 ```text
 {
@@ -97,7 +97,7 @@ All polling complete at 07:04:01. **5 properties changed prices** during the 4-m
 
 
 
-## Source event #152 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_01_izpqf38tko64xk571a6o81uw)
+## Source event 152 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_01_izpqf38tko64xk571a6o81uw)
 
 ```text
 {}
@@ -106,7 +106,7 @@ All polling complete at 07:04:01. **5 properties changed prices** during the 4-m
 
 
 <details>
-<summary>Source event #153 · Main agent: Tool result: call_00_iw03xaz64red2g1w5736cp9r (is_error=False)</summary>
+<summary>Source event 153 · Main agent: Tool result: call_00_iw03xaz64red2g1w5736cp9r (is_error=False)</summary>
 
 
 ```text
@@ -123,7 +123,7 @@ All polling complete at 07:04:01. **5 properties changed prices** during the 4-m
 
 
 <details>
-<summary>Source event #154 · Main agent: Tool result: call_01_izpqf38tko64xk571a6o81uw (is_error=False)</summary>
+<summary>Source event 154 · Main agent: Tool result: call_01_izpqf38tko64xk571a6o81uw (is_error=False)</summary>
 
 
 ```text
@@ -139,7 +139,7 @@ All polling complete at 07:04:01. **5 properties changed prices** during the 4-m
 </details>
 
 
-## Source event #155 · Main agent: Model message
+## Source event 155 · Main agent: Model message
 
 ```text
 Email sent (id returned). Saved list now 30 entries: original 26 + 4 added = 30, and the 4 removed are absent. Verified:
@@ -167,7 +167,7 @@ Let me produce concise final summary.
 
 
 
-## Source event #156 · Main agent: Model message
+## Source event 156 · Main agent: Model message
 
 ```text
 All actions are complete and verified. Here's the summary:
@@ -198,7 +198,7 @@ Saved list final state: 30 properties (26 remaining after removals + 4 newly add
 
 
 <details>
-<summary>Source event #157 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 157 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -232,7 +232,7 @@ Saved list final state: 30 properties (26 remaining after removals + 4 newly add
 
 
 <details>
-<summary>Source event #158 · Judge: Judge rationale</summary>
+<summary>Source event 158 · Judge: Judge rationale</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Retrieve the user's cab ride history, identify the top 3 most expensive rides by
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 Thought: I'll first check the length of the ride history, then retrieve all rides.
@@ -32,7 +32,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -46,7 +46,7 @@ Action:
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Thought: 87 rides total. Let me retrieve them all.
@@ -64,7 +64,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -78,7 +78,7 @@ Action:
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 Thought: Scanning all 87 rides, the three highest prices are:
@@ -152,7 +152,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text

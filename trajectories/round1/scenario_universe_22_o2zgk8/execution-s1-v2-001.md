@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 46 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 I will first search for the existing Wine Ceremony event.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 </details>
 
 
-## Source event #49 · Sub-agent 1: model output
+## Source event 49 · Sub-agent 1: model output
 
 ```text
 No existing Wine Ceremony event was found, so I need to create it.
@@ -72,7 +72,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 1: tool result</summary>
+<summary>Source event 50 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ e4657cd1b75ef061b9fbfd037e80abd6
 </details>
 
 
-## Source event #51 · Sub-agent 1: model output
+## Source event 51 · Sub-agent 1: model output
 
 ```text
 The Wine Ceremony event was created. Now I'll check for conflicting events during that time.
@@ -104,7 +104,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 1: tool result</summary>
+<summary>Source event 52 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -118,7 +118,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 1: model output
+## Source event 53 · Sub-agent 1: model output
 
 ```text
 No conflicting events were found. Now I'll cancel the existing van booking.
@@ -133,7 +133,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 1: tool result</summary>
+<summary>Source event 54 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -147,7 +147,7 @@ Ride has been cancelled, sorry to see you go.
 </details>
 
 
-## Source event #55 · Sub-agent 1: model output
+## Source event 55 · Sub-agent 1: model output
 
 ```text
 The old van booking was cancelled. Now I'll book the new van for 12:00, one hour before the Wine Ceremony.
@@ -167,7 +167,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 1: tool result</summary>
+<summary>Source event 56 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -190,7 +190,7 @@ Ride ID: e192c5fb8a318bdb627cf6d71152ec19
 </details>
 
 
-## Source event #57 · Sub-agent 1: model output
+## Source event 57 · Sub-agent 1: model output
 
 ```text
 The new van is booked. Now I'll inform the user about the calendar and van updates.
@@ -207,7 +207,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 1: tool result</summary>
+<summary>Source event 58 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -222,7 +222,7 @@ None
 
 
 <details>
-<summary>Source event #59 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 59 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -236,7 +236,7 @@ Environment notifications:
 </details>
 
 
-## Source event #60 · Sub-agent 1: model output
+## Source event 60 · Sub-agent 1: model output
 
 ```text
 I will read the conversation to see the new messages.
@@ -254,7 +254,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 1: tool result</summary>
+<summary>Source event 61 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -272,7 +272,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #62 · Sub-agent 1: model output
+## Source event 62 · Sub-agent 1: model output
 
 ```text
 I received new message notifications but no longer have Messages tools available to read them. Per instructions, I must report this external notification to MainAgent before taking further side effects, including the exact notification and prior context needed to decide follow-up.
@@ -322,7 +322,7 @@ Action:
 
 
 <details>
-<summary>Source event #63 · Sub-agent 1: tool result</summary>
+<summary>Source event 63 · Sub-agent 1: tool result</summary>
 
 
 ```text

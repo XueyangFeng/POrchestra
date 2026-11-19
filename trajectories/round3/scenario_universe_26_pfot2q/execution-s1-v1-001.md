@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -24,7 +24,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #4 · Sub-agent 1: model output
+## Source event 4 · Sub-agent 1: model output
 
 ```text
 I'll start by searching for all three contacts in the Contacts app.
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: tool result</summary>
+<summary>Source event 5 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Action:
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 Found Nalinee. Now searching for the other two contacts.
@@ -72,7 +72,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Action:
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Found Rohan. Now searching for Aurélie Desjardins.
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -117,7 +117,7 @@ Action:
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 All three contacts found. Now sending the emails one by one.
@@ -136,7 +136,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -150,7 +150,7 @@ a7a6559237dfccab98f2b1970584c7a3
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Email sent to Nalinee. Now sending to Rohan.
@@ -169,7 +169,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -183,7 +183,7 @@ ce025aebc06aec5cea39dd7fb817bee5
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 Email sent to Rohan. Now sending to Aurélie.
@@ -202,7 +202,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -216,7 +216,7 @@ d5c10c7486bda98ac6f9fb05dd3707df
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 All three emails sent successfully. Now sending the exact message to the user.
@@ -233,7 +233,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -41,7 +41,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 I'll start by retrieving the current user's details and the contacts list.
@@ -56,7 +56,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -84,7 +84,7 @@ Address: Østerbrogade 123, 2100 København Ø, Denmark
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Current user identified: Søren Kjær (ID 865f09f9b22640c5b2a6d00f385e3e1c), age 79. Now let me retrieve all contacts.
@@ -99,7 +99,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Action:
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 There are 104 total contacts and each page shows 10. I need to scroll through all pages.
@@ -128,7 +128,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -142,7 +142,7 @@ Action:
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Continuing to scroll through contacts.
@@ -157,7 +157,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -171,7 +171,7 @@ Action:
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 Continuing.
@@ -186,7 +186,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -201,7 +201,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -219,7 +219,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Retrying the contacts retrieval.
@@ -234,7 +234,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -248,7 +248,7 @@ Action:
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 Continuing to scroll.
@@ -263,7 +263,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -277,7 +277,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 Continuing to scroll through the remaining contacts.
@@ -292,7 +292,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -306,7 +306,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 Continuing.
@@ -321,7 +321,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -335,7 +335,7 @@ Action:
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 Continuing to scroll.
@@ -350,7 +350,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -364,7 +364,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Continuing to the final pages.
@@ -379,7 +379,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -393,7 +393,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Final page of contacts.
@@ -408,7 +408,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -422,7 +422,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 I now have all 104 contacts. Filtering for age ≥ 78 (excluding myself, Søren Kjær, age 79):
@@ -452,7 +452,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -466,7 +466,7 @@ a7a6559237dfccab98f2b1970584c7a3
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Email sent successfully (ID: a7a6559237dfccab98f2b1970584c7a3). Now sending the confirmation message to the user.
@@ -483,7 +483,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -498,7 +498,7 @@ None
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 36 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -511,7 +511,7 @@ Environment notifications:
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -560,7 +560,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text

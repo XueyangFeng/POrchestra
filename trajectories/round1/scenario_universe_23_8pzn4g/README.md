@@ -1,6 +1,8 @@
 # scenario_universe_23_8pzn4g
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_23_8pzn4g/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_23_8pzn4g/README.md) · [Codex](../../codex/round1/scenario_universe_23_8pzn4g/README.md) · [OpenCode](../../opencode/round1/scenario_universe_23_8pzn4g/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Identify the set of people mentioned in the task requirements: participants in group conversations mentioning &#x27;Frantz Fanon&#x27; and senders of emails with &#x27;Power Dynamics&#x27; in the title.
 
@@ -92,11 +94,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #61
+**Initial harness configuration** · Source event 61
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 We need to analyze calendar events from August 1st, 2024 until October 15th, 2024 (today) to calculate the total duration of events listing each of the 7 identified contacts. We must find the person with the most time spent, handle any ties by checking contact ages, and report the first and last name of the person to the user.
 

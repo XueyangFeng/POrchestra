@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #66 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 66 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -32,7 +32,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #67 · Sub-agent 2: model output
+## Source event 67 · Sub-agent 2: model output
 
 ```text
 Thought: I need to determine Åse Kleveland's Chats status first.
@@ -49,7 +49,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 2: tool result</summary>
+<summary>Source event 68 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -63,7 +63,7 @@ Action:
 </details>
 
 
-## Source event #69 · Sub-agent 2: model output
+## Source event 69 · Sub-agent 2: model output
 
 ```text
 Åse Kleveland is on Chats (id 4599fffb...), Messages confirmed None → Chats-only ($10). Now checking Solveig Fjellstad on Messages.
@@ -80,7 +80,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 2: tool result</summary>
+<summary>Source event 70 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -94,7 +94,7 @@ Action:
 </details>
 
 
-## Source event #71 · Sub-agent 2: model output
+## Source event 71 · Sub-agent 2: model output
 
 ```text
 Solveig Fjellstad is on Messages (+4792211654). Now checking Chats.
@@ -111,7 +111,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 2: tool result</summary>
+<summary>Source event 72 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -125,7 +125,7 @@ None
 </details>
 
 
-## Source event #73 · Sub-agent 2: model output
+## Source event 73 · Sub-agent 2: model output
 
 ```text
 Solveig is Messages-only ($15). Budget: Messages-only = Åse Jensen, Kåre Sørensen, Kari Jensen, Solveig Fjellstad = 4×$15 = $60. Chats-only = Kåre Fjellstad, Aurora Jensen, Kåre Østensen, Oleksandr Hrynchenko, Åse Kleveland = 5×$10 = $50. Total = $110. Now searching LEGO products.
@@ -143,7 +143,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 2: tool result</summary>
+<summary>Source event 74 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -157,7 +157,7 @@ Action:
 </details>
 
 
-## Source event #75 · Sub-agent 2: model output
+## Source event 75 · Sub-agent 2: model output
 
 ```text
 Only 3 products returned. Let me check if there are more with an offset.
@@ -176,7 +176,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 2: tool result</summary>
+<summary>Source event 76 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -190,7 +190,7 @@ Action:
 </details>
 
 
-## Source event #77 · Sub-agent 2: model output
+## Source event 77 · Sub-agent 2: model output
 
 ```text
 All LEGO products enumerated (3 products, no more beyond offset 3). Maximum available price is $44.99 (LEGO Storage Brick 4, Lime Green, Large/Plastic variant, item_id 3f120d24eecf4756bc59c323e81d4902). Budget: Messages-only = 4 × $15 = $60 (Åse Jensen, Kåre Sørensen, Kari Jensen, Solveig Fjellstad); Chats-only = 5 × $10 = $50 (Kåre Fjellstad, Aurora Jensen, Kåre Østensen, Oleksandr Hrynchenko, Åse Kleveland). Total = $110. 110 / 44.99 = 2.445 → 2.
@@ -239,7 +239,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 2: tool result</summary>
+<summary>Source event 78 · Sub-agent 2: tool result</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_27_tlhhru
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_27_tlhhru/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_27_tlhhru/README.md) · [Codex](../../codex/round1/scenario_universe_27_tlhhru/README.md) · [OpenCode](../../opencode/round1/scenario_universe_27_tlhhru/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the specific contacts matching the user&#x27;s criteria (Last Name: Müller, Age &lt; 40) and update their location. Once this is done, I will have the list of people to group and message.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #20
+**Initial harness configuration** · Source event 20
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 Identify which of the 5 updated Müller contacts are available on Chats, create a Chats group conversation for them, create a Messages group conversation for the remaining contacts, and send a message in each group asking how they&#x27;re doing in their new city.
 
@@ -163,7 +165,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

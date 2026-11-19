@@ -1,6 +1,8 @@
 # scenario_universe_26_aw29y9
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_26_aw29y9/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_26_aw29y9/README.md) · [Codex](../../codex/round2/scenario_universe_26_aw29y9/README.md) · [OpenCode](../../opencode/round2/scenario_universe_26_aw29y9/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to coordinate the sequence of messages to the husband, wait for the response window, and conditionally handle the lawyer appointment and email. This involves multi-step interaction with Chats, Calendar, Contacts, and Emails over a specific time period.
 
@@ -94,7 +96,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #2</summary>
+<summary>Source event 2</summary>
 
 
 ```text

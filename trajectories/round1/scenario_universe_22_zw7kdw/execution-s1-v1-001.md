@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 6 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Perform the following steps: 1. Retrieve the current user's email address. 2. Se
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 <｜｜DSML｜｜thought>
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -62,7 +62,7 @@ Address: 1234 NW 23rd Ave, Portland, OR 97210
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -77,7 +77,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -91,7 +91,7 @@ Action:
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -104,7 +104,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -118,7 +118,7 @@ Action:
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -135,7 +135,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -150,7 +150,7 @@ e99491546510d319bc33d842063d8b97
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -201,7 +201,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -252,7 +252,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #17 · Sub-agent 1: model output
+## Source event 17 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -294,7 +294,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: tool result</summary>
+<summary>Source event 18 · Sub-agent 1: tool result</summary>
 
 
 ```text

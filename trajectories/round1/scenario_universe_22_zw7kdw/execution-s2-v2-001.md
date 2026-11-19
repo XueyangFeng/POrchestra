@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #51 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 51 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 52 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -35,7 +35,7 @@ Environment notifications updates:
 </details>
 
 
-## Source event #53 · Sub-agent 2: model output
+## Source event 53 · Sub-agent 2: model output
 
 ```text
 I'll check the latest email in the INBOX to see if it's from Kaidën.
@@ -54,7 +54,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 2: tool result</summary>
+<summary>Source event 54 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -68,7 +68,7 @@ ReturnedEmails(emails=[Email(sender='kaiden@rylanrecording.com', recipients=['au
 </details>
 
 
-## Source event #55 · Sub-agent 2: model output
+## Source event 55 · Sub-agent 2: model output
 
 ```text
 The latest email is from Kaidën Rylan with content "Yes! I did!" received at 07:04:43, which is before the 07:05:12 deadline. I'll reply with "Awesome, see you there!" and add the calendar event.
@@ -87,7 +87,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 2: tool result</summary>
+<summary>Source event 56 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -101,7 +101,7 @@ Action:
 </details>
 
 
-## Source event #57 · Sub-agent 2: model output
+## Source event 57 · Sub-agent 2: model output
 
 ```text
 Reply sent. Now adding the wine event to the calendar.
@@ -120,7 +120,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 2: tool result</summary>
+<summary>Source event 58 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -134,7 +134,7 @@ e4657cd1b75ef061b9fbfd037e80abd6
 </details>
 
 
-## Source event #59 · Sub-agent 2: model output
+## Source event 59 · Sub-agent 2: model output
 
 ```text
 The assigned subtask is complete. I checked the latest email, found Kaidën's "Yes!" reply received before the deadline, sent the appropriate reply, and added the calendar event. Handing control back to MainAgent.
@@ -183,7 +183,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 2: tool result</summary>
+<summary>Source event 60 · Sub-agent 2: tool result</summary>
 
 
 ```text

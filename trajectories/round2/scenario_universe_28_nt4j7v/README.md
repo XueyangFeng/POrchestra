@@ -1,6 +1,8 @@
 # scenario_universe_28_nt4j7v
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_28_nt4j7v/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_28_nt4j7v/README.md) · [Codex](../../codex/round2/scenario_universe_28_nt4j7v/README.md) · [OpenCode](../../opencode/round2/scenario_universe_28_nt4j7v/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the eligible contacts and send the initial group email, then notify the user. This establishes the baseline for the waiting period.
 
@@ -83,7 +85,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #38
+**Harness configuration updated** · Source event 38
 
 **1. Sub-agent revision request**
 
@@ -92,7 +94,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Contacts scan complete (104 contacts). User is Søren Kjær (ID 865f09f9b22640c5b2a6d00f385e3e1c, age 79), excluded. Contacts aged 78+: Kirsten Ravnkilde (79, kirsten.ravnkilde@gaia2mail.com), Aisling O'Connor (78, aisling.oconnor@gaia2mail.com), Somchai Wongtrakul (78, somchai.wongtrakul@gaia2mail.com). Group email asking about Christmas gifts sent to all three; email id 26756db772edbbafeb44d7be53d3726f. User notified via AgentUserInterface. New environment notification: EmailClientV2 - New email received.
 ```
 <details>
-<summary>Request and evidence · source event #36</summary>
+<summary>Request and evidence · source event 36</summary>
 
 
 ```text
@@ -144,7 +146,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The first part of the task (sending the initial email and notifying the user) is complete. I now need the agent to handle the wait time, process the replies, order the requested items, and send confirmation emails as per the original requirements. The environment has already indicated a new email has arrived.
 
@@ -253,7 +255,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

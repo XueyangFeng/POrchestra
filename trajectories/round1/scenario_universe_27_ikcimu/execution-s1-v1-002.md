@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 I now see new listings at 07:03:00 that were not present in my baseline from 07:00:11. Several are new 2-bedroom, 1-bathroom condos that appeared during the monitoring window:
@@ -44,7 +44,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -58,7 +58,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -73,7 +73,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -87,7 +87,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -116,7 +116,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -131,7 +131,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -145,7 +145,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 Now I need to wait until exactly one minute after the last save. Let me check the current time to compute the wait duration.
@@ -160,7 +160,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -189,7 +189,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -204,7 +204,7 @@ None
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 36 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -217,7 +217,7 @@ Environment notifications:
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -230,7 +230,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -244,7 +244,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 Now I'll send the message to the user listing the names of all newly saved properties.
@@ -261,7 +261,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 24 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Send a message to the user using AgentUserInterface__send_message_to_user to let
 </details>
 
 
-## Source event #25 · Sub-agent 1: model output
+## Source event 25 · Sub-agent 1: model output
 
 ```text
 The group was created and the initial message sent. Now I need to notify the user that the message has been sent, as instructed by MainAgent.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: tool result</summary>
+<summary>Source event 26 · Sub-agent 1: tool result</summary>
 
 
 ```text

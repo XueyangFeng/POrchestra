@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #4 · Sub-agent 1: model output
+## Source event 4 · Sub-agent 1: model output
 
 ```text
 I'll start by searching for properties in New York with 2 bathrooms under $3000.
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: tool result</summary>
+<summary>Source event 5 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 Found 5 matching properties. Now saving them all to favorites.
@@ -71,7 +71,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -85,7 +85,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Saved the first one. Continuing with the remaining four.
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -116,7 +116,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 Saving the third property.
@@ -133,7 +133,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -147,7 +147,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Saving the fourth property.
@@ -164,7 +164,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -178,7 +178,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 Saving the fifth and final property.
@@ -195,7 +195,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -209,7 +209,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 All 5 properties saved. Now searching for the contacts.
@@ -226,7 +226,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -240,7 +240,7 @@ Action:
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Found Kaitlyn's email. Now searching for Jamila Patel.
@@ -257,7 +257,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -271,7 +271,7 @@ Action:
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 Both contacts found. Now sending the emails individually, starting with Kaitlyn.
@@ -290,7 +290,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -314,7 +314,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 The recipients parameter needs to be a list. Retrying with the correct format.
@@ -333,7 +333,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -347,7 +347,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 Kaitlyn's email sent. Now sending to Jamila.
@@ -366,7 +366,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -380,7 +380,7 @@ e4a308c5815d34fee3f197ba7494923c
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 Both emails sent successfully. Now notifying the user.
@@ -397,7 +397,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text

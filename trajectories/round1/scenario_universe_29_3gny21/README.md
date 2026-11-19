@@ -1,6 +1,8 @@
 # scenario_universe_29_3gny21
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_29_3gny21/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_29_3gny21/README.md) · [Codex](../../codex/round1/scenario_universe_29_3gny21/README.md) · [OpenCode](../../opencode/round1/scenario_universe_29_3gny21/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the last &#x27;Project Update Meeting&#x27; in October 2024, identify the attendees, reschedule it to November 1st, and inform the attendees via email. I will then use the attendee list to proceed with the shopping task in the next step.
 
@@ -93,11 +95,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #21
+**Initial harness configuration** · Source event 21
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 Rescheduling and email notifications are complete. Now, the agent needs to purchase the &#x27;Snake Oil Game&#x27; (English version, PC platform) for the user and the attendees (Rohan Sengupta and Kipenzi Mwanga). We need to search for the product, find a discount code if available, add the correct quantity (3 copies) to the cart, checkout, and notify the user.
 

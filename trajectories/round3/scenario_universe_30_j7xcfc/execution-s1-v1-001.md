@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 Thought: I'll start by retrieving the contacts list from offset 0.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Thought: 132 total contacts, 10 per page. I'll page through all of them.
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Action:
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -96,7 +96,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -110,7 +110,7 @@ Action:
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -125,7 +125,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -139,7 +139,7 @@ Action:
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -154,7 +154,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -168,7 +168,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -183,7 +183,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -197,7 +197,7 @@ Action:
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -212,7 +212,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -226,7 +226,7 @@ Action:
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -241,7 +241,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -255,7 +255,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -270,7 +270,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -284,7 +284,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -299,7 +299,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -313,7 +313,7 @@ Action:
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -329,7 +329,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -343,7 +343,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -359,7 +359,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -373,7 +373,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -389,7 +389,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -403,7 +403,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -419,7 +419,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -433,7 +433,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -449,7 +449,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -477,7 +477,7 @@ Address: 14/2, Marchmont Road, Edinburgh, EH9 1HZ
 </details>
 
 
-## Source event #36 · Sub-agent 1: model output
+## Source event 36 · Sub-agent 1: model output
 
 ```text
 Identified the librarian contacts. Now searching the shopping catalog for the ebook.
@@ -496,7 +496,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result</summary>
+<summary>Source event 37 · Sub-agent 1: tool result</summary>
 
 
 ```text

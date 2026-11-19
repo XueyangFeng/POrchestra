@@ -1,6 +1,8 @@
 # scenario_universe_21_uig9ac
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_21_uig9ac/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_21_uig9ac/README.md) · [Codex](../../codex/round1/scenario_universe_21_uig9ac/README.md) · [OpenCode](../../opencode/round1/scenario_universe_21_uig9ac/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, we will create the contact for Arnold Schwarzenegger and send him the requested email. This is a self-contained subtask that does not depend on other information.
 
@@ -79,11 +81,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #13
+**Initial harness configuration** · Source event 13
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 We need to find the current date to determine the upcoming Sunday, search the saved apartments list for the lowest priced property in zip code 211 43 with a gym, create a calendar event, order a cab ride, send a chat message to Vasco Pinto, and report the property&#x27;s name to the user.
 

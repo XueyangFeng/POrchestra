@@ -1,6 +1,8 @@
 # scenario_universe_24_3rlqyh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_24_3rlqyh/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_24_3rlqyh/README.md) · [Codex](../../codex/round3/scenario_universe_24_3rlqyh/README.md) · [OpenCode](../../opencode/round3/scenario_universe_24_3rlqyh/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the email organization tasks requested by the user: responding to Yumi Nakahara, deleting Katarzyna Zielińska&#x27;s email, and moving Leon Vandenberghe&#x27;s email to trash.
 
@@ -87,11 +89,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #25
+**Initial harness configuration** · Source event 25
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The email organization tasks are complete. Now I need to handle the calendar cancellation for the &#x27;Research Collaboration&#x27; with Kazimierz Wojciechowski scheduled for today, October 15.
 
@@ -154,11 +156,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #37
+**Initial harness configuration** · Source event 37
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The email and calendar tasks are complete. Now I need to handle the shopping requests: ordering the three specified items (Golden Tamarin Lion plush, Ram 2500 Clear Body, and The Ghost of Framsburg Adventure) for Yumi.
 
@@ -226,7 +228,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

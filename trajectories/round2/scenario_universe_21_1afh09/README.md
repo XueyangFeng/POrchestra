@@ -1,6 +1,8 @@
 # scenario_universe_21_1afh09
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_21_1afh09/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_21_1afh09/README.md) · [Codex](../../codex/round2/scenario_universe_21_1afh09/README.md) · [OpenCode](../../opencode/round2/scenario_universe_21_1afh09/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 To solve the user&#x27;s request, I need to identify the most frequent city among all contacts and then find the average age of contacts in that city who have emailed the user. This requires retrieving all contacts and searching email history.
 

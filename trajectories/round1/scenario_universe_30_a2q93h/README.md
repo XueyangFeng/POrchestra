@@ -1,6 +1,8 @@
 # scenario_universe_30_a2q93h
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_30_a2q93h/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_30_a2q93h/README.md) · [Codex](../../codex/round1/scenario_universe_30_a2q93h/README.md) · [OpenCode](../../opencode/round1/scenario_universe_30_a2q93h/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the price of the premium cab quote from August 23, 2024, to calculate the remaining balance.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #11
+**Initial harness configuration** · Source event 11
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The premium cab price has been identified as $25.67. Now I need to find the most expensive &#x27;vinyl&#x27; variant for products with &#x27;action figure&#x27; in the title to calculate the remaining balance from the initial $50.
 

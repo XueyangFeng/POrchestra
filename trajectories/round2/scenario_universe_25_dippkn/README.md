@@ -1,6 +1,8 @@
 # scenario_universe_25_dippkn
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_25_dippkn/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_25_dippkn/README.md) · [Codex](../../codex/round2/scenario_universe_25_dippkn/README.md) · [OpenCode](../../opencode/round2/scenario_universe_25_dippkn/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to purchase one of each available vinyl variant of the &#x27;Funko Pop! Animation: Missing Link - Link&#x27; product and notify the user once the order is placed. I will also need the order ID to monitor for potential cancellation.
 
@@ -92,7 +94,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #26
+**Harness configuration updated** · Source event 26
 
 **1. Sub-agent revision request**
 
@@ -101,7 +103,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Original task completed successfully: searched 'Funko Pop! Animation: Missing Link - Link', identified 4 available vinyl variants, added one of each to cart, checked out (order 4cd0299647364acba13ef1e4ce608d2e), and notified the user. A new environment notification now reports that order 4cd0299647364acba13ef1e4ce608d2e has been CANCELLED. Per the original user task, this cancellation activates the fallback: buy one of each available variant of 'Funko Pop! TV: The Walking Dead - Daryl' and message Rashid Al-Mansoori on Messages that the user is buying that one instead.
 ```
 <details>
-<summary>Request and evidence · source event #24</summary>
+<summary>Request and evidence · source event 24</summary>
 
 
 ```text
@@ -158,7 +160,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The previous order for &#x27;Missing Link - Link&#x27; vinyl variants was cancelled by the system. I am expanding the SubAgent&#x27;s scope to perform the fallback task specified in the original request: buying the &#x27;The Walking Dead - Daryl&#x27; variants and messaging Rashid Al-Mansoori.
 

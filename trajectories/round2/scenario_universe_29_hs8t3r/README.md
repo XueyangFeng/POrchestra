@@ -1,6 +1,8 @@
 # scenario_universe_29_hs8t3r
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_29_hs8t3r/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_29_hs8t3r/README.md) · [Codex](../../codex/round2/scenario_universe_29_hs8t3r/README.md) · [OpenCode](../../opencode/round2/scenario_universe_29_hs8t3r/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify male contacts emailed in October 2024, check their presence in Chats conversations, and calculate the percentage as requested. This involves iterating through sent emails, checking contact details, and then querying the Chats app for each relevant contact.
 
@@ -100,7 +102,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #2</summary>
+<summary>Source event 2</summary>
 
 
 ```text

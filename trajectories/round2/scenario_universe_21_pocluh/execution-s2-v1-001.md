@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 24 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 I'll start by getting the current user's details and the contacts list.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ Address: Östermalmsgatan 12, 114 39 Stockholm, Sweden
 </details>
 
 
-## Source event #27 · Sub-agent 2: model output
+## Source event 27 · Sub-agent 2: model output
 
 ```text
 I'm Astrid Lundqvist (ID: 0d1b1d002eba4fdfa48e04d226bf4425). Now let me retrieve all contacts.
@@ -82,7 +82,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: tool result</summary>
+<summary>Source event 28 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -96,7 +96,7 @@ Action:
 </details>
 
 
-## Source event #29 · Sub-agent 2: model output
+## Source event 29 · Sub-agent 2: model output
 
 ```text
 There are 125 contacts total. I need to page through all of them to find those with zip code '411 19'.
@@ -113,7 +113,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 2: tool result</summary>
+<summary>Source event 30 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -127,7 +127,7 @@ Action:
 </details>
 
 
-## Source event #31 · Sub-agent 2: model output
+## Source event 31 · Sub-agent 2: model output
 
 ```text
 Found Göran Lundström (411 19 Göteborg). Continuing to page through all 125 contacts.
@@ -144,7 +144,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: tool result</summary>
+<summary>Source event 32 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -158,7 +158,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 2: model output
+## Source event 33 · Sub-agent 2: model output
 
 ```text
 Continuing through the contacts.
@@ -175,7 +175,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -189,7 +189,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 2: model output
+## Source event 35 · Sub-agent 2: model output
 
 ```text
 Continuing.
@@ -206,7 +206,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -220,7 +220,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 2: model output
+## Source event 37 · Sub-agent 2: model output
 
 ```text
 Continuing through contacts.
@@ -237,7 +237,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: tool result</summary>
+<summary>Source event 38 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -251,7 +251,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 2: model output
+## Source event 39 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -266,7 +266,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: tool result</summary>
+<summary>Source event 40 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -280,7 +280,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 2: model output
+## Source event 41 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -295,7 +295,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 2: tool result</summary>
+<summary>Source event 42 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -310,7 +310,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: tool result</summary>
+<summary>Source event 43 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -328,7 +328,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #44 · Sub-agent 2: model output
+## Source event 44 · Sub-agent 2: model output
 
 ```text
 The previous call errored. Continuing contact pagination from offset 80.
@@ -345,7 +345,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: tool result</summary>
+<summary>Source event 45 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -359,7 +359,7 @@ Action:
 </details>
 
 
-## Source event #46 · Sub-agent 2: model output
+## Source event 46 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -374,7 +374,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result</summary>
+<summary>Source event 47 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -388,7 +388,7 @@ Action:
 </details>
 
 
-## Source event #48 · Sub-agent 2: model output
+## Source event 48 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -403,7 +403,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: tool result</summary>
+<summary>Source event 49 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -417,7 +417,7 @@ Action:
 </details>
 
 
-## Source event #50 · Sub-agent 2: model output
+## Source event 50 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -432,7 +432,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 2: tool result</summary>
+<summary>Source event 51 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -446,7 +446,7 @@ Action:
 </details>
 
 
-## Source event #52 · Sub-agent 2: model output
+## Source event 52 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -461,7 +461,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 2: tool result</summary>
+<summary>Source event 53 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -475,7 +475,7 @@ Action:
 </details>
 
 
-## Source event #54 · Sub-agent 2: model output
+## Source event 54 · Sub-agent 2: model output
 
 ```text
 All 125 contacts reviewed. Only **Göran Lundström** (`5e7c331fc5014c0fb1bfb13b5c281537`) has zip code **411 19** — address: `Kungsgatan 12, 411 19 Göteborg, Sweden`. Now let me search Messages conversations.
@@ -494,7 +494,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 2: tool result</summary>
+<summary>Source event 55 · Sub-agent 2: tool result</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_30_mx4mzo
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_30_mx4mzo/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_30_mx4mzo/README.md) · [Codex](../../codex/round3/scenario_universe_30_mx4mzo/README.md) · [OpenCode](../../opencode/round3/scenario_universe_30_mx4mzo/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to reschedule a specific meeting and then notify participants via email. This is the first logical step in the sequence of requests.
 
@@ -87,11 +89,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #19
+**Initial harness configuration** · Source event 19
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The calendar rescheduling and email notification are complete. The next step is to book the requested cab for October 20th.
 
@@ -152,11 +154,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #29
+**Initial harness configuration** · Source event 29
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The calendar rescheduling, email notification, and cab booking are finished. Now I need to handle the shopping task: finding the specific variant of &#x27;Airfield Concrete Tarmac Section 1/48&#x27;, adding 2 units of the cheapest one (Resin, Grey) to the cart, and checking out with any applicable discount codes.
 
@@ -231,7 +233,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

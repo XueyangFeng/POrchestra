@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #74 · Sub-agent 2: Initial system configuration</summary>
+<summary>Source event 74 · Sub-agent 2: Initial system configuration</summary>
 
 
 ```text
@@ -159,7 +159,7 @@ This method should only be used when there are no other tasks to perform. Return
 
 
 <details>
-<summary>Source event #75 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 75 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -172,7 +172,7 @@ Wait until exactly 2024-10-15 07:05:00, then send a message to the user identify
 
 
 <details>
-<summary>Source event #76 · Sub-agent 2: tool result</summary>
+<summary>Source event 76 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -196,7 +196,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #77 · Sub-agent 2: model output</summary>
+<summary>Source event 77 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -212,7 +212,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 2: tool result</summary>
+<summary>Source event 78 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -227,7 +227,7 @@ Action:
 
 
 <details>
-<summary>Source event #79 · Sub-agent 2: model output</summary>
+<summary>Source event 79 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -247,7 +247,7 @@ Action:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 2: tool result</summary>
+<summary>Source event 80 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -262,7 +262,7 @@ ReturnedEmails(emails=[Email(sender='h.kruger@web.de', recipients=['rohini.deshp
 
 
 <details>
-<summary>Source event #81 · Sub-agent 2: model output</summary>
+<summary>Source event 81 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -280,7 +280,7 @@ Action:
 
 
 <details>
-<summary>Source event #82 · Sub-agent 2: tool result</summary>
+<summary>Source event 82 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -295,7 +295,7 @@ None
 
 
 <details>
-<summary>Source event #83 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 83 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -309,7 +309,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #84 · Sub-agent 2: model output</summary>
+<summary>Source event 84 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -327,7 +327,7 @@ Action:
 
 
 <details>
-<summary>Source event #85 · Sub-agent 2: tool result</summary>
+<summary>Source event 85 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -342,7 +342,7 @@ None
 
 
 <details>
-<summary>Source event #86 · Judge rationale</summary>
+<summary>Source event 86 · Judge rationale</summary>
 
 
 ```text

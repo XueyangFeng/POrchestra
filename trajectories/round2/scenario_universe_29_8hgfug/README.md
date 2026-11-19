@@ -1,6 +1,8 @@
 # scenario_universe_29_8hgfug
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_29_8hgfug/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_29_8hgfug/README.md) · [Codex](../../codex/round2/scenario_universe_29_8hgfug/README.md) · [OpenCode](../../opencode/round2/scenario_universe_29_8hgfug/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to determine the dates for the two focus group sessions and schedule them. I need to find the first day the user is free at 9 AM for three hours starting from today (2024-10-15) and identify the second Sunday of the next month (November 2024). Once the events are scheduled, I will have the details needed to send the group messages.
 
@@ -85,11 +87,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #23
+**Initial harness configuration** · Source event 23
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The calendar events for the focus group sessions have been successfully scheduled. Now I need to identify the target group chats in the Messages app based on the title and last activity date, and send them the session details.
 
@@ -156,11 +158,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #45
+**Initial harness configuration** · Source event 45
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The calendar events have been scheduled and the messages have been sent. The final remaining task is to purchase the most expensive available &#x27;Mega Bloks Green Race Car Building Set&#x27;.
 
@@ -228,7 +230,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

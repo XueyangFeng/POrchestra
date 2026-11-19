@@ -1,6 +1,8 @@
 # scenario_universe_23_8pzn4g
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_23_8pzn4g/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_23_8pzn4g/README.md) · [Codex](../../codex/round3/scenario_universe_23_8pzn4g/README.md) · [OpenCode](../../opencode/round3/scenario_universe_23_8pzn4g/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify the pool of candidates. This involves finding group conversation participants in Messages/Chats where &#x27;Frantz Fanon&#x27; was mentioned and email senders whose subject includes &#x27;Power Dynamics&#x27;. I&#x27;ll also need the current user&#x27;s details to correctly exclude them.
 
@@ -91,11 +93,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #48
+**Initial harness configuration** · Source event 48
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous agent identified the list of candidates. Now I need to calculate the total time spent with each candidate in calendar events from 2024-08-01 to 2024-10-15 and identify the one with the highest total duration, using age as a tie-breaker.
 
@@ -159,7 +161,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 20 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Perform two subtasks: 1) Send an email to 'klaus.peter.mueller@berlin.de' with C
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 I'll complete the two subtasks: sending the email and booking the cab. Let me start with the email.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 Email sent successfully (id: 26756db772edbbafeb44d7be53d3726f). Now let me verify the cab quotation before ordering.
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -98,7 +98,7 @@ Ride ID: ca5380b0fb5d30db43b4905d14d91312
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 Quotation confirmed (Premium, $24.13). Now placing the actual ride order.
@@ -120,7 +120,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -143,7 +143,7 @@ Ride ID: 07b0699e6eaaa718e6dd4a39fe6dcf42
 </details>
 
 
-## Source event #27 · Sub-agent 2: model output
+## Source event 27 · Sub-agent 2: model output
 
 ```text
 Both subtasks completed successfully.
@@ -194,7 +194,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: tool result</summary>
+<summary>Source event 28 · Sub-agent 2: tool result</summary>
 
 
 ```text

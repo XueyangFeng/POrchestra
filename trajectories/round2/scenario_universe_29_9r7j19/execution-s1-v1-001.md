@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Perform the following actions: 1) Find the email address for 'Ryder McKenzie' an
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 Thought: I'll start by getting the current user's details and searching for Ryder McKenzie.
@@ -32,7 +32,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -60,7 +60,7 @@ Address: 14, Sahyadri Apartments, Bandra West, Mumbai, Maharashtra 400050
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 Thought: I have the user's details. Now let me search for Ryder McKenzie.
@@ -77,7 +77,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -91,7 +91,7 @@ Action:
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Thought: I found Ryder McKenzie's email (ryder.mckenzie@gaia2mail.com) and the user's home address (14, Sahyadri Apartments, Bandra West, Mumbai, Maharashtra 400050). Now I'll book the cab.
@@ -111,7 +111,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -134,7 +134,7 @@ Ride ID: ca5380b0fb5d30db43b4905d14d91312
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 Thought: Cab booked successfully (Ride ID ca5380b0fb5d30db43b4905d14d91312, timestamp 1732442400.0 = Nov 24, 2024 10:00 AM). Now sending the confirmation email to Ryder.
@@ -153,7 +153,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -167,7 +167,7 @@ Action:
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Thought: Email sent successfully (id 26756db772edbbafeb44d7be53d3726f). Now I'll notify the user.
@@ -184,7 +184,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -199,7 +199,7 @@ None
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 15 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -212,7 +212,7 @@ Environment notifications:
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 Thought: A new email has arrived. Per the external update protocol, I must report this to MainAgent before taking any further side effects, preserving the relevant context.
@@ -276,7 +276,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text

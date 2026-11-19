@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #46 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 46 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #47 · Sub-agent 3: model output
+## Source event 47 · Sub-agent 3: model output
 
 ```text
 I'll start by searching for the product in the Shopping app.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 3: tool result</summary>
+<summary>Source event 48 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 </details>
 
 
-## Source event #49 · Sub-agent 3: model output
+## Source event 49 · Sub-agent 3: model output
 
 ```text
 The search returned one product with 5 variants. The highest-priced available variant is $7.99 (item_id 4f945df683e34fa4870ddc2326e4cc85). Let me verify details before adding to cart.
@@ -70,7 +70,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 3: tool result</summary>
+<summary>Source event 50 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -84,7 +84,7 @@ Product(name='Mega Bloks Green Race Car Building Set', product_id='a318c64a86c78
 </details>
 
 
-## Source event #51 · Sub-agent 3: model output
+## Source event 51 · Sub-agent 3: model output
 
 ```text
 Details confirmed. Let me quickly check for additional search results beyond the first page to make sure I'm not missing other matching products.
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 3: tool result</summary>
+<summary>Source event 52 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -117,7 +117,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 3: model output
+## Source event 53 · Sub-agent 3: model output
 
 ```text
 No additional products exist. The most expensive available variant is $7.99. Adding it to cart.
@@ -135,7 +135,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 3: tool result</summary>
+<summary>Source event 54 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -149,7 +149,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 3: model output
+## Source event 55 · Sub-agent 3: model output
 
 ```text
 Item added to cart. Proceeding to checkout.
@@ -164,7 +164,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 3: tool result</summary>
+<summary>Source event 56 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -178,7 +178,7 @@ a938129ae34148aba340f72bdbe33bb5
 </details>
 
 
-## Source event #57 · Sub-agent 3: model output
+## Source event 57 · Sub-agent 3: model output
 
 ```text
 Checkout completed. Order created successfully with the most expensive available variant.
@@ -222,7 +222,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 3: tool result</summary>
+<summary>Source event 58 · Sub-agent 3: tool result</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_26_4qq2y5
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_26_4qq2y5/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_26_4qq2y5/README.md) · [Codex](../../codex/round1/scenario_universe_26_4qq2y5/README.md) · [OpenCode](../../opencode/round1/scenario_universe_26_4qq2y5/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The initial part of the request requires cleaning up saved properties and identifying the specific property to share. Once the property is selected and the first message is sent, I can handle the subsequent waiting and retry logic. This delegation focuses on the data manipulation and the first interaction.
 
@@ -89,11 +91,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #28
+**Initial harness configuration** · Source event 28
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The first SubAgent completed the property deletions, selection, and sent the initial message to Kaitlyn Nakamura at 07:00:16. I now need to delegate the follow-up monitoring and resending logic, which requires waiting for specific intervals (90 seconds, then 30 seconds for 5 more times) and checking for replies. If Kaitlyn does not reply after the 7th message, the user must be informed.
 

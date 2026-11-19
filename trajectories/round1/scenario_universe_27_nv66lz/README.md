@@ -1,6 +1,8 @@
 # scenario_universe_27_nv66lz
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_27_nv66lz/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_27_nv66lz/README.md) · [Codex](../../codex/round1/scenario_universe_27_nv66lz/README.md) · [OpenCode](../../opencode/round1/scenario_universe_27_nv66lz/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the subject the user teaches to proceed with the email search. I will start by checking the user&#x27;s own contact details.
 
@@ -85,11 +87,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #11
+**Initial harness configuration** · Source event 11
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The user teaches &#x27;History&#x27;. I need to find all emails that have &#x27;History&#x27; in their subject line, identify the senders, look up those senders&#x27; cities in the Contacts app, and determine which city is the most common among them.
 
@@ -155,11 +157,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #51
+**Initial harness configuration** · Source event 51
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 Find the title of the oldest conversation in Messages or Chats mentioning the city &#x27;Dublin&#x27;.
 
@@ -233,11 +235,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #114
+**Initial harness configuration** · Source event 114
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 One Chats conversation mentioning &#x27;Dublin&#x27; (ID: 159ee70648544becab789e3d0a62c4a6) was identified but not read in the previous attempt. To ensure the &#x27;oldest&#x27; conversation is correctly identified, this conversation must be checked for the timestamp of its &#x27;Dublin&#x27; mentions and compared against the current oldest known mention (timestamp 1722940200 in &#x27;Catching up with friends&#x27;).
 

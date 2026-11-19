@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Perform the following steps:
 </details>
 
 
-## Source event #4 · Sub-agent 1: model output
+## Source event 4 · Sub-agent 1: model output
 
 ```text
 I'll start by checking the calendar for the brand partnership meeting on 2024-10-14.
@@ -42,7 +42,7 @@ Action:
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: tool result</summary>
+<summary>Source event 5 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Action:
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 Found the Brand Partnership Meeting on 2024-10-14 with attendee Åke Svensson. Now let me look up contacts.
@@ -74,7 +74,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -88,7 +88,7 @@ Action:
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Found Luísa's email. Now let me get the current user's details for the home address.
@@ -104,7 +104,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -132,7 +132,7 @@ Address: Östermalmsgatan 12, 114 39 Stockholm, Sweden
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 I have the user's home address. Now let me schedule the calendar event.
@@ -154,7 +154,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -168,7 +168,7 @@ dcf191829913b81220f38262b28ec53c
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Event created. Now let me book the premium cab.
@@ -189,7 +189,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -212,7 +212,7 @@ Ride ID: ca5380b0fb5d30db43b4905d14d91312
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 Cab booked. Now let me send the confirmation email to Luísa.
@@ -232,7 +232,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -246,7 +246,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 Email sent successfully. Now let me send the confirmation message to the user.
@@ -264,7 +264,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #22 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 22 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -25,7 +25,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #23 · Sub-agent 1: model output
+## Source event 23 · Sub-agent 1: model output
 
 ```text
 Thought: New subtask assigned. I need to first check the new email from nalani.jensen@lawfirm.com to determine relevance, then wait for Deniz Öztürk's confirmation email until the deadline.
@@ -44,7 +44,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: tool result</summary>
+<summary>Source event 24 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -58,7 +58,7 @@ ReturnedEmails(emails=[Email(sender='nalani.jensen@lawfirm.com', recipients=['au
 </details>
 
 
-## Source event #25 · Sub-agent 1: model output
+## Source event 25 · Sub-agent 1: model output
 
 ```text
 Thought: I've checked the new email content from the inbox listing. Nalani's email says "I'll be there on Sunday" — it's Nalani confirming her own presence, not related to Deniz Öztürk's reservation, so I'll ignore it. Now I need to wait for Deniz Öztürk's confirmation until the 07:04:20 deadline.
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: tool result</summary>
+<summary>Source event 26 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -90,7 +90,7 @@ None
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 27 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -103,7 +103,7 @@ Environment notifications:
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Thought: The wait for notifications returned without a notification, but now a new environment notification arrived from aurelia.silvacastro@gaia2mail.com. Per protocol, I must report this external notification to MainAgent before taking further side effects.
@@ -148,7 +148,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 6 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Perform the following two actions: 1) Send an email to amscan-corporate@amscan.c
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 I'll start by searching for both products and sending the sponsorship email.
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Action:
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Found the wig with a Black variant (item_id `bd3f62dd88da4a279405ac5cde66cec1`). Now searching for the mask.
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Action:
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 Both variants identified. Now sending the sponsorship email.
@@ -100,7 +100,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -114,7 +114,7 @@ a7a6559237dfccab98f2b1970584c7a3
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Email sent successfully (ID: a7a6559237dfccab98f2b1970584c7a3). Now adding both items to the cart.
@@ -132,7 +132,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -146,7 +146,7 @@ bd3f62dd88da4a279405ac5cde66cec1
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 Wig (Black variant) added. Now adding the mask's Adult variant.
@@ -164,7 +164,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -178,7 +178,7 @@ Action:
 </details>
 
 
-## Source event #17 · Sub-agent 1: model output
+## Source event 17 · Sub-agent 1: model output
 
 ```text
 Both items added. Verifying the cart before checkout.
@@ -193,7 +193,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: tool result</summary>
+<summary>Source event 18 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -207,7 +207,7 @@ Action:
 </details>
 
 
-## Source event #19 · Sub-agent 1: model output
+## Source event 19 · Sub-agent 1: model output
 
 ```text
 Cart verified: Black wig (color: Black) and Adult mask (Age Range: Adult). Proceeding to checkout.
@@ -222,7 +222,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 1: tool result</summary>
+<summary>Source event 20 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -236,7 +236,7 @@ Action:
 </details>
 
 
-## Source event #21 · Sub-agent 1: model output
+## Source event 21 · Sub-agent 1: model output
 
 ```text
 Both tasks completed successfully. Let me report back.
@@ -283,7 +283,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 1: tool result</summary>
+<summary>Source event 22 · Sub-agent 1: tool result</summary>
 
 
 ```text

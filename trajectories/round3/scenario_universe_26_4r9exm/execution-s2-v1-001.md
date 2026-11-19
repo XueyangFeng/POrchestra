@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #66 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 66 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #67 · Sub-agent 2: model output
+## Source event 67 · Sub-agent 2: model output
 
 ```text
 I'll start by looking up the user IDs for the two contacts not on Messages.
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 2: tool result</summary>
+<summary>Source event 68 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 </details>
 
 
-## Source event #69 · Sub-agent 2: model output
+## Source event 69 · Sub-agent 2: model output
 
 ```text
 Oleksandr Hrynchenko found in Chats. Now looking up Åse Kleveland.
@@ -74,7 +74,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 2: tool result</summary>
+<summary>Source event 70 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -88,7 +88,7 @@ Action:
 </details>
 
 
-## Source event #71 · Sub-agent 2: model output
+## Source event 71 · Sub-agent 2: model output
 
 ```text
 Both verified. Now sending DMs to all 6 contacts.
@@ -109,7 +109,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 2: tool result</summary>
+<summary>Source event 72 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -123,7 +123,7 @@ Action:
 </details>
 
 
-## Source event #73 · Sub-agent 2: model output
+## Source event 73 · Sub-agent 2: model output
 
 ```text
 Message sent to Kåre Sørensen. Now Solveig Fjellstad via Messages.
@@ -144,7 +144,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 2: tool result</summary>
+<summary>Source event 74 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -158,7 +158,7 @@ Action:
 </details>
 
 
-## Source event #75 · Sub-agent 2: model output
+## Source event 75 · Sub-agent 2: model output
 
 ```text
 Now sending to the Chats contacts.
@@ -179,7 +179,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 2: tool result</summary>
+<summary>Source event 76 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -193,7 +193,7 @@ dbc071791593dd4085e85e41968a9208
 </details>
 
 
-## Source event #77 · Sub-agent 2: model output
+## Source event 77 · Sub-agent 2: model output
 
 ```text
 Thought: Send to Kåre Østensen via Chats (f44f8146-eae8-4fb1-801f-77ac3cb87e51).
@@ -212,7 +212,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 2: tool result</summary>
+<summary>Source event 78 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -226,7 +226,7 @@ Action:
 </details>
 
 
-## Source event #79 · Sub-agent 2: model output
+## Source event 79 · Sub-agent 2: model output
 
 ```text
 Thought: Send to Oleksandr Hrynchenko via Chats (daf1c408-8e8b-4e03-b869-87152e0d40c7).
@@ -245,7 +245,7 @@ Action:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 2: tool result</summary>
+<summary>Source event 80 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -259,7 +259,7 @@ Action:
 </details>
 
 
-## Source event #81 · Sub-agent 2: model output
+## Source event 81 · Sub-agent 2: model output
 
 ```text
 Thought: Send to Åse Kleveland via Chats (4599fffb-2cdb-40bb-b135-b5fa17ab33ba).
@@ -278,7 +278,7 @@ Action:
 
 
 <details>
-<summary>Source event #82 · Sub-agent 2: tool result</summary>
+<summary>Source event 82 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -292,7 +292,7 @@ ff0112418827461ab83192617890156d
 </details>
 
 
-## Source event #83 · Sub-agent 2: model output
+## Source event 83 · Sub-agent 2: model output
 
 ```text
 All 6 messages sent. Now creating the calendar event without attendees.
@@ -315,7 +315,7 @@ Action:
 
 
 <details>
-<summary>Source event #84 · Sub-agent 2: tool result</summary>
+<summary>Source event 84 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -329,7 +329,7 @@ acea4a8d991e2e64e9a43daa76d19dd2
 </details>
 
 
-## Source event #85 · Sub-agent 2: model output
+## Source event 85 · Sub-agent 2: model output
 
 ```text
 All tasks complete: both Chats IDs verified, 6 DMs sent (2 via Messages, 4 via Chats), and the calendar event created with no attendees.
@@ -378,7 +378,7 @@ Action:
 
 
 <details>
-<summary>Source event #86 · Sub-agent 2: tool result</summary>
+<summary>Source event 86 · Sub-agent 2: tool result</summary>
 
 
 ```text

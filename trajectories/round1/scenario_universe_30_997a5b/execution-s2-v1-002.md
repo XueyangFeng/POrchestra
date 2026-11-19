@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #58 · Sub-agent 2: tool result</summary>
+<summary>Source event 58 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -28,7 +28,7 @@ Ride ID: 6acbe88d2e50cc6bc7af2e04429d65f0
 </details>
 
 
-## Source event #59 · Sub-agent 2: model output
+## Source event 59 · Sub-agent 2: model output
 
 ```text
 All four assigned subtasks are complete. Handing control back to MainAgent.
@@ -83,7 +83,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 2: tool result</summary>
+<summary>Source event 60 · Sub-agent 2: tool result</summary>
 
 
 ```text

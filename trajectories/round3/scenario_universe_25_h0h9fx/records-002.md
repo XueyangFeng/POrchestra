@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #30 · Sub-agent 1: model output</summary>
+<summary>Source event 30 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -28,7 +28,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -43,7 +43,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: model output</summary>
+<summary>Source event 32 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -61,7 +61,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -90,7 +90,7 @@ Address: Sint-Michielsstraat 23, 3000 Leuven, Belgium
 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: model output</summary>
+<summary>Source event 34 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ Ride ID: c3de44121c4644ae524e7f6470b6f5f7
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: model output</summary>
+<summary>Source event 36 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -159,7 +159,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result</summary>
+<summary>Source event 37 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: model output</summary>
+<summary>Source event 38 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -195,7 +195,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: tool result</summary>
+<summary>Source event 39 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -210,7 +210,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: model output</summary>
+<summary>Source event 40 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -228,7 +228,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: tool result</summary>
+<summary>Source event 41 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -243,7 +243,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: model output</summary>
+<summary>Source event 42 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -263,7 +263,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: tool result</summary>
+<summary>Source event 43 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -278,7 +278,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: model output</summary>
+<summary>Source event 44 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -298,7 +298,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -313,7 +313,7 @@ Successfully saved apartment
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: model output</summary>
+<summary>Source event 46 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -333,7 +333,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result</summary>
+<summary>Source event 47 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -348,7 +348,7 @@ None
 
 
 <details>
-<summary>Source event #48 · Judge rationale</summary>
+<summary>Source event 48 · Judge rationale</summary>
 
 
 ```text

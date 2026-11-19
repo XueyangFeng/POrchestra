@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 27 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 MainAgent has authorized the follow-up. Proceeding with the writes. First, restoring 'Yoga Class' on Oct 16 with the exact original details.
@@ -46,7 +46,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -60,7 +60,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Yoga Class restored (new id `8fce113de00ea4a218ab94f8a582ba16`). Now restoring 'Paper Review'.
@@ -83,7 +83,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -97,7 +97,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 Paper Review restored. Now creating 'Nightly Project' for Thursday, October 17, 2024, 6:00 PM – 11:00 PM.
@@ -118,7 +118,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -132,7 +132,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Nightly Project created for Thursday (`1608a116594956485362e8f2536a82d3`). Now checking Thursday's full schedule to confirm which events overlap 18:00–23:00 before deleting.
@@ -151,7 +151,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -165,7 +165,7 @@ Action:
 </details>
 
 
-## Source event #36 · Sub-agent 1: model output
+## Source event 36 · Sub-agent 1: model output
 
 ```text
 Only 'Dinner with Family' (19:00–21:00) overlaps the 18:00–23:00 window. Deleting it.
@@ -182,7 +182,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result</summary>
+<summary>Source event 37 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -196,7 +196,7 @@ Event 5e1bf77565414199abe87a472c4d56c6 successfully deleted.
 </details>
 
 
-## Source event #38 · Sub-agent 1: model output
+## Source event 38 · Sub-agent 1: model output
 
 ```text
 All authorized writes are complete. Before messaging the user, I'll briefly monitor for the second-cancellation notification.
@@ -213,7 +213,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: tool result</summary>
+<summary>Source event 39 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -228,7 +228,7 @@ None
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 40 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -241,7 +241,7 @@ Environment notifications:
 </details>
 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 No notification received during the wait. Sending the user the confirmation of the restore and Thursday reschedule.
@@ -258,7 +258,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -273,7 +273,7 @@ None
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 43 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -286,7 +286,7 @@ Environment notifications:
 </details>
 
 
-## Source event #44 · Sub-agent 1: model output
+## Source event 44 · Sub-agent 1: model output
 
 ```text
 New notification: an event was deleted by Gerrit van der Meer — likely the rescheduled Thursday Nightly Project, which triggers the final conditional. MainAgent pre-authorized this path. First, read-only verification of the full window Oct 15 – Oct 31.
@@ -305,7 +305,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -319,7 +319,7 @@ Action:
 </details>
 
 
-## Source event #46 · Sub-agent 1: model output
+## Source event 46 · Sub-agent 1: model output
 
 ```text
 Confirmed: the Thursday Nightly Project (`1608a116594956485362e8f2536a82d3`) is gone — deleted by Gerrit van der Meer — while the restored Wed Oct 16 Yoga Class (`8fce113de00ea4a218ab94f8a582ba16`) and Paper Review (`576be8c662bc8988993f0b72e114568a`) remain intact.
@@ -343,7 +343,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result</summary>
+<summary>Source event 47 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -357,7 +357,7 @@ Event d0492712e2c54aceb793e2acc7133095 successfully deleted.
 </details>
 
 
-## Source event #48 · Sub-agent 1: model output
+## Source event 48 · Sub-agent 1: model output
 
 ```text
 Deleting the second qualifying event.
@@ -374,7 +374,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: tool result</summary>
+<summary>Source event 49 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -388,7 +388,7 @@ Event e2a9bb2e01d448b8bc5833da42e0c105 successfully deleted.
 </details>
 
 
-## Source event #50 · Sub-agent 1: model output
+## Source event 50 · Sub-agent 1: model output
 
 ```text
 Deleting the third qualifying event.
@@ -405,7 +405,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 1: tool result</summary>
+<summary>Source event 51 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -419,7 +419,7 @@ Event 6a29004e83f04b009a53b9ded4023ed6 successfully deleted.
 </details>
 
 
-## Source event #52 · Sub-agent 1: model output
+## Source event 52 · Sub-agent 1: model output
 
 ```text
 All three qualifying events deleted. Verifying the final state.
@@ -438,7 +438,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 1: tool result</summary>
+<summary>Source event 53 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -452,7 +452,7 @@ Action:
 </details>
 
 
-## Source event #54 · Sub-agent 1: model output
+## Source event 54 · Sub-agent 1: model output
 
 ```text
 Verification complete: event count went from 63 to 60, and no events between Oct 15–31 now have **both** Helmut Eisenstadt and Gerrit van der Meer as attendees. All authorized writes are done.
@@ -517,7 +517,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 1: tool result</summary>
+<summary>Source event 55 · Sub-agent 1: tool result</summary>
 
 
 ```text

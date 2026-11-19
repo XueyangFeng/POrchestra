@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 17 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ als that highlight the historical significance of environmental conservation. I 
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: model output</summary>
+<summary>Source event 18 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -74,7 +74,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -92,7 +92,7 @@ SUB-AGENT SESSION 2
 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: Initial system configuration</summary>
+<summary>Source event 20 · Sub-agent 2: Initial system configuration</summary>
 
 
 ```text
@@ -281,7 +281,7 @@ Messages are sorted by timestamp, most recent first. Returns: dict
 
 
 <details>
-<summary>Source event #21 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 21 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -299,7 +299,7 @@ Messages are sorted by timestamp, most recent first. Returns: dict
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -320,7 +320,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: model output</summary>
+<summary>Source event 23 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -341,7 +341,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -355,7 +355,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result (continued, part 2)</summary>
+<summary>Source event 24 · Sub-agent 2: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -367,7 +367,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result (continued, part 3)</summary>
+<summary>Source event 24 · Sub-agent 2: tool result (continued, part 3)</summary>
 
 
 ```text

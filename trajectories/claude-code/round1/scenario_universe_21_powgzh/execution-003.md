@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #118 · Main agent: Model message
+## Source event 118 · Main agent: Model message
 
 ```text
 Search doesn't search city/job apparently (only name/phone/email). Fine. My manual scan is reliable.
@@ -77,7 +77,7 @@ Let me send.
 
 
 
-## Source event #119 · Main agent: Model tool call: ToolSearch (call_00_nnxhod9q6u167o87r4jekeha)
+## Source event 119 · Main agent: Model tool call: ToolSearch (call_00_nnxhod9q6u167o87r4jekeha)
 
 ```text
 {
@@ -89,7 +89,7 @@ Let me send.
 
 
 <details>
-<summary>Source event #120 · Main agent: Tool result: call_00_nnxhod9q6u167o87r4jekeha (is_error=False)</summary>
+<summary>Source event 120 · Main agent: Tool result: call_00_nnxhod9q6u167o87r4jekeha (is_error=False)</summary>
 
 
 ```text
@@ -105,7 +105,7 @@ Let me send.
 </details>
 
 
-## Source event #121 · Main agent: Model message
+## Source event 121 · Main agent: Model message
 
 ```text
 Let me verify the counts one more time by re-checking the events list for Astrid Svensson occurrences. I'm confident.
@@ -119,7 +119,7 @@ Final answer. Send message.
 
 
 
-## Source event #122 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_r063dq5bujs73mxl6cdw5rfs)
+## Source event 122 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_r063dq5bujs73mxl6cdw5rfs)
 
 ```text
 {
@@ -130,7 +130,7 @@ Final answer. Send message.
 
 
 <details>
-<summary>Source event #123 · Main agent: Tool result: call_00_r063dq5bujs73mxl6cdw5rfs (is_error=False)</summary>
+<summary>Source event 123 · Main agent: Tool result: call_00_r063dq5bujs73mxl6cdw5rfs (is_error=False)</summary>
 
 
 ```text
@@ -146,7 +146,7 @@ Final answer. Send message.
 </details>
 
 
-## Source event #124 · Main agent: Model message
+## Source event 124 · Main agent: Model message
 
 ```text
 I've completed the analysis and sent the answer.
@@ -162,7 +162,7 @@ I've completed the analysis and sent the answer.
 
 
 <details>
-<summary>Source event #125 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 125 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -181,7 +181,7 @@ I've completed the analysis and sent the answer.
 
 
 <details>
-<summary>Source event #126 · Judge: Judge rationale</summary>
+<summary>Source event 126 · Judge: Judge rationale</summary>
 
 
 ```text

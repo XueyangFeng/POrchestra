@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #68 · Sub-agent 3: tool result (continued, part 5)</summary>
+<summary>Source event 68 · Sub-agent 3: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ c41aa081f8f1c86e212', is_user=False, gender=<Gender.FEMALE: 'Female'>, age=73, n
 </details>
 
 
-## Source event #69 · Sub-agent 3: model output
+## Source event 69 · Sub-agent 3: model output
 
 ```text
 Found the social media strategist: Luísa Silva e Sousa (contact_id 48c02e5e494a46daac9d475d7746642f). Now looking up her Messages user id.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 3: tool result</summary>
+<summary>Source event 70 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #71 · Sub-agent 3: model output
+## Source event 71 · Sub-agent 3: model output
 
 ```text
 Now sending the message to the strategist that the Amscan deal has been secured.
@@ -66,7 +66,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 3: tool result</summary>
+<summary>Source event 72 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ Action:
 </details>
 
 
-## Source event #73 · Sub-agent 3: model output
+## Source event 73 · Sub-agent 3: model output
 
 ```text
 All tasks complete. Amscan agreed at ≈07:03:32 (within the 4-minute window), so I executed the secured-deal path: replied to Amscan, created both review events at the first free slots ≥13:00, and messaged the social media strategist.
@@ -130,7 +130,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 3: tool result</summary>
+<summary>Source event 74 · Sub-agent 3: tool result</summary>
 
 
 ```text

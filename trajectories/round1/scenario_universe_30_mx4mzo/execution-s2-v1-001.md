@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 20 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -32,7 +32,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -60,7 +60,7 @@ Address: 34, Storey's Way, Cambridge CB3 0DT
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -78,7 +78,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -101,7 +101,7 @@ Ride ID: 6acbe88d2e50cc6bc7af2e04429d65f0
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -116,7 +116,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -130,7 +130,7 @@ Action:
 </details>
 
 
-## Source event #27 · Sub-agent 2: model output
+## Source event 27 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -146,7 +146,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: tool result</summary>
+<summary>Source event 28 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -160,7 +160,7 @@ Action:
 </details>
 
 
-## Source event #29 · Sub-agent 2: model output
+## Source event 29 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -173,7 +173,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 2: tool result</summary>
+<summary>Source event 30 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -187,7 +187,7 @@ Action:
 </details>
 
 
-## Source event #31 · Sub-agent 2: model output
+## Source event 31 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -200,7 +200,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: tool result</summary>
+<summary>Source event 32 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -214,7 +214,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 2: model output
+## Source event 33 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -227,7 +227,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -241,7 +241,7 @@ f705afda297541009f1f765ab4d321fb
 </details>
 
 
-## Source event #35 · Sub-agent 2: model output
+## Source event 35 · Sub-agent 2: model output
 
 ```text
 Cab booked, item added to cart, and checkout completed. No discount code applied since none of the available codes applies to the purchased item (22a2e159083b41c18bbb2ea3b0d38513).
@@ -292,7 +292,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text

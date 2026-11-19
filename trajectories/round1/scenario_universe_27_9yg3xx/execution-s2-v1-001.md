@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #10 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 10 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Find the youngest contact who lives in Saint Petersburg. Then, find all emails r
 
 
 <details>
-<summary>Source event #11 · Sub-agent 2: tool result</summary>
+<summary>Source event 11 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -36,7 +36,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #12 · Sub-agent 2: model output
+## Source event 12 · Sub-agent 2: model output
 
 ```text
 I'll start by retrieving the list of contacts to find those living in Saint Petersburg.
@@ -53,7 +53,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 2: tool result</summary>
+<summary>Source event 13 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -67,7 +67,7 @@ Action:
 </details>
 
 
-## Source event #14 · Sub-agent 2: model output
+## Source event 14 · Sub-agent 2: model output
 
 ```text
 I need to continue retrieving contacts to find those living in Saint Petersburg.
@@ -84,7 +84,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 2: tool result</summary>
+<summary>Source event 15 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -98,7 +98,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 2: model output
+## Source event 16 · Sub-agent 2: model output
 
 ```text
 No Saint Petersburg contacts yet. I'll continue fetching contacts.
@@ -115,7 +115,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result</summary>
+<summary>Source event 17 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -129,7 +129,7 @@ Action:
 </details>
 
 
-## Source event #18 · Sub-agent 2: model output
+## Source event 18 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -144,7 +144,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 2: tool result</summary>
+<summary>Source event 19 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -158,7 +158,7 @@ Action:
 </details>
 
 
-## Source event #20 · Sub-agent 2: model output
+## Source event 20 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -173,7 +173,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 2: tool result</summary>
+<summary>Source event 21 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -187,7 +187,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 2: model output
+## Source event 22 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -202,7 +202,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result</summary>
+<summary>Source event 23 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -216,7 +216,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 2: model output
+## Source event 24 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -231,7 +231,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: tool result</summary>
+<summary>Source event 25 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -245,7 +245,7 @@ Action:
 </details>
 
 
-## Source event #26 · Sub-agent 2: model output
+## Source event 26 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -260,7 +260,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 2: tool result</summary>
+<summary>Source event 27 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -274,7 +274,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 2: model output
+## Source event 28 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -289,7 +289,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: tool result</summary>
+<summary>Source event 29 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -303,7 +303,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 2: model output
+## Source event 30 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -318,7 +318,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: tool result</summary>
+<summary>Source event 31 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -332,7 +332,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 2: model output
+## Source event 32 · Sub-agent 2: model output
 
 ```text
 Found one Saint Petersburg contact: Natalya Kuznetsova (age 62). I need to continue fetching to ensure I find all contacts in Saint Petersburg, including possibly younger ones.
@@ -349,7 +349,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result</summary>
+<summary>Source event 33 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -363,7 +363,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 2: model output
+## Source event 34 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -378,7 +378,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: tool result</summary>
+<summary>Source event 35 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -392,7 +392,7 @@ Action:
 </details>
 
 
-## Source event #36 · Sub-agent 2: model output
+## Source event 36 · Sub-agent 2: model output
 
 ```text
 I found all contacts. There are two contacts living in Saint Petersburg: Natalya Kuznetsova (age 62) and Viktor Kuznetsov (age 54). The youngest is Viktor Kuznetsov (contact_id='853c15ce69e84583ad9a14720187dba9', email='vkuznetsov54@mail.ru'). Now I'll search for emails received from him.
@@ -410,7 +410,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: tool result</summary>
+<summary>Source event 37 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -424,7 +424,7 @@ Action:
 </details>
 
 
-## Source event #38 · Sub-agent 2: model output
+## Source event 38 · Sub-agent 2: model output
 
 ```text
 I found the youngest Saint Petersburg contact: Viktor Kuznetsov (54). The search found one email. Let me verify there are no other emails from him by listing the INBOX.

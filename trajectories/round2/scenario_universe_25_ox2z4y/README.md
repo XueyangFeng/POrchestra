@@ -1,6 +1,8 @@
 # scenario_universe_25_ox2z4y
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_25_ox2z4y/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_25_ox2z4y/README.md) · [Codex](../../codex/round2/scenario_universe_25_ox2z4y/README.md) · [OpenCode](../../opencode/round2/scenario_universe_25_ox2z4y/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the Messages conversations with &#x27;Net-Zero Energy&#x27; in the title from the last five days (2024-10-10 to 2024-10-14) and collect all unique participant IDs (excluding the current user).
 
@@ -86,11 +88,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #34
+**Initial harness configuration** · Source event 34
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous agent identified 13 unique participants in the relevant Messages conversations. Now I need to determine their locations to find the most common country and then apply the conditional logic regarding the number of contacts in that country.
 
@@ -158,7 +160,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

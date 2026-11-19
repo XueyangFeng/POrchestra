@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 25 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Identify which participant sent the most emails. If there is a tie, sort the tie
 </details>
 
 
-## Source event #26 · Sub-agent 2: model output
+## Source event 26 · Sub-agent 2: model output
 
 ```text
 I'll search for emails from each of the three participants in the inbox.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 2: tool result</summary>
+<summary>Source event 27 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 2: model output
+## Source event 28 · Sub-agent 2: model output
 
 ```text
 Found 1 email from Aurélie. Now searching for Nadja and Kiyoshi.
@@ -66,7 +66,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: tool result</summary>
+<summary>Source event 29 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 2: model output
+## Source event 30 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -93,7 +93,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: tool result</summary>
+<summary>Source event 31 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -107,7 +107,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 2: model output
+## Source event 32 · Sub-agent 2: model output
 
 ```text
 Each search returned one email. I need to verify counts and timestamps — let me list all inbox emails to check for additional emails and confirm dates.
@@ -122,7 +122,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result</summary>
+<summary>Source event 33 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -136,7 +136,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result (continued, part 2)</summary>
+<summary>Source event 33 · Sub-agent 2: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -148,7 +148,7 @@ ReturnedEmails(emails=[Email(sender='aurelie.wyss@ethz.ch', recipients=['ursula.
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result (continued, part 3)</summary>
+<summary>Source event 33 · Sub-agent 2: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -160,7 +160,7 @@ ow it might intersect with our initiatives?\n\nBest regards,\nKatarzyna Kwiatkow
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result (continued, part 4)</summary>
+<summary>Source event 33 · Sub-agent 2: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -172,7 +172,7 @@ egards,\nKrzysztof Zieliński", email_id='14b1295db1224debaddcf264c7f3d891', par
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result (continued, part 5)</summary>
+<summary>Source event 33 · Sub-agent 2: tool result (continued, part 5)</summary>
 
 
 ```text

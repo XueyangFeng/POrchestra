@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -25,7 +25,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #4 · Sub-agent 1: model output
+## Source event 4 · Sub-agent 1: model output
 
 ```text
 I'll start by reading today's calendar events and getting the current user's details.
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: tool result</summary>
+<summary>Source event 5 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 Found the Staff Meeting at 09:00 with attendees Aurélien LaFleur, Nalani Jensen, Kaia Nakamura. Now let me get the current user's details and the full event details.
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -97,7 +97,7 @@ Address: 1234 NW 23rd Ave, Portland, OR 97210
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Current user is Aurélien LaFleur — so attendees excluding the user are Nalani Jensen and Kaia Nakamura. Let me verify the full event details before booking.
@@ -114,7 +114,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -135,7 +135,7 @@ Attendees: Aurélien LaFleur, Nalani Jensen, Kaia Nakamura
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 Meeting starts at 09:00, so pickup must be at 08:30. Now booking the premium cab.
@@ -155,7 +155,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -178,7 +178,7 @@ Ride ID: c3de44121c4644ae524e7f6470b6f5f7
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Ride booked. Ride shows a trivial delay of 0.067 mins (~4 seconds), status BOOKED. Now let me look up contact IDs for the attendees for Messages/Chats.
@@ -195,7 +195,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -209,7 +209,7 @@ Action:
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 Nalani Jensen has Messages ID +15037654321. Now looking up Kaia Nakamura.
@@ -226,7 +226,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -240,7 +240,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 Now checking Chats IDs for the attendees as well, for completeness of contact info.
@@ -257,7 +257,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -271,7 +271,7 @@ Action:
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Nalani Jensen isn't on Chats. Checking Kaia Nakamura on Chats.
@@ -288,7 +288,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -302,7 +302,7 @@ Action:
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 Both attendees are only on Messages (not Chats). Now sending the user the attendee names as instructed.
@@ -319,7 +319,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text

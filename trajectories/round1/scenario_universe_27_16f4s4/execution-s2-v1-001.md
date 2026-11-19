@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 22 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Continue checking/waiting for emails until the 4-minute window has expired. Do n
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -33,7 +33,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: tool result</summary>
+<summary>Source event 25 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #26 · Sub-agent 2: model output
+## Source event 26 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -90,7 +90,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 2: tool result</summary>
+<summary>Source event 27 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -104,7 +104,7 @@ ReturnedEmails(emails=[Email(sender='sutanto.wijaya@gaia2mail.com', recipients=[
 </details>
 
 
-## Source event #28 · Sub-agent 2: model output
+## Source event 28 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -119,7 +119,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: tool result</summary>
+<summary>Source event 29 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -134,7 +134,7 @@ None
 
 
 <details>
-<summary>Source event #30 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 30 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -147,7 +147,7 @@ Environment notifications:
 </details>
 
 
-## Source event #31 · Sub-agent 2: model output
+## Source event 31 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -164,7 +164,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: tool result</summary>
+<summary>Source event 32 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -178,7 +178,7 @@ ReturnedEmails(emails=[Email(sender='carlos@bluerealty.com\n', recipients=['akuz
 </details>
 
 
-## Source event #33 · Sub-agent 2: model output
+## Source event 33 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -195,7 +195,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -209,7 +209,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 2: model output
+## Source event 35 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -229,7 +229,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -243,7 +243,7 @@ e4657cd1b75ef061b9fbfd037e80abd6
 </details>
 
 
-## Source event #37 · Sub-agent 2: model output
+## Source event 37 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -258,7 +258,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: tool result</summary>
+<summary>Source event 38 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -273,7 +273,7 @@ None
 
 
 <details>
-<summary>Source event #39 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 39 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -286,7 +286,7 @@ Environment notifications:
 </details>
 
 
-## Source event #40 · Sub-agent 2: model output
+## Source event 40 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -303,7 +303,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 2: tool result</summary>
+<summary>Source event 41 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -317,7 +317,7 @@ ReturnedEmails(emails=[Email(sender='marla@marlaleases.com', recipients=['akuzne
 </details>
 
 
-## Source event #42 · Sub-agent 2: model output
+## Source event 42 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -334,7 +334,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: tool result</summary>
+<summary>Source event 43 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -348,7 +348,7 @@ abf753b5376a2a642c52f6e20594e628
 </details>
 
 
-## Source event #44 · Sub-agent 2: model output
+## Source event 44 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -367,7 +367,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: tool result</summary>
+<summary>Source event 45 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -381,7 +381,7 @@ e03b534af959899d9ca5c1d3e342f522
 </details>
 
 
-## Source event #46 · Sub-agent 2: model output
+## Source event 46 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -396,7 +396,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result</summary>
+<summary>Source event 47 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -411,7 +411,7 @@ None
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 48 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -424,7 +424,7 @@ Environment notifications:
 </details>
 
 
-## Source event #49 · Sub-agent 2: model output
+## Source event 49 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -441,7 +441,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: tool result</summary>
+<summary>Source event 50 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -455,7 +455,7 @@ ReturnedEmails(emails=[Email(sender='nkuznetsova@gaia2mail.com', recipients=['ak
 </details>
 
 
-## Source event #51 · Sub-agent 2: model output
+## Source event 51 · Sub-agent 2: model output
 
 ```text
 The new email from nkuznetsova@gaia2mail.com is a dinner invitation, not a property viewing request, so no action is needed for it. Continuing to monitor for property viewing requests until 07:04:00.
@@ -472,7 +472,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: tool result</summary>
+<summary>Source event 52 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -487,7 +487,7 @@ None
 
 
 <details>
-<summary>Source event #53 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 53 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -500,7 +500,7 @@ Environment notifications:
 </details>
 
 
-## Source event #54 · Sub-agent 2: model output
+## Source event 54 · Sub-agent 2: model output
 
 ```text
 Action:

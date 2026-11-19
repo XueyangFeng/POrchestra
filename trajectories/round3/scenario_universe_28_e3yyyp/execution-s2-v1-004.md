@@ -4,7 +4,7 @@
 
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
-## Source event #85 · Sub-agent 2: model output
+## Source event 85 · Sub-agent 2: model output
 
 ```text
 All 9 replies are verified in SENT with correct recipients, subjects (Re: original subject), and parent_id links to the correct original emails. Total SENT count went from 104 → 113 (exactly 9 new replies).
@@ -55,7 +55,7 @@ Action:
 
 
 <details>
-<summary>Source event #86 · Sub-agent 2: tool result</summary>
+<summary>Source event 86 · Sub-agent 2: tool result</summary>
 
 
 ```text

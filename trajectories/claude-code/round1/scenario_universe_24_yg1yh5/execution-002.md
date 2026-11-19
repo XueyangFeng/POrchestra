@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #28 · Main agent: Tool result: call_02_0vvxda412fpovr274es0ruk7 (is_error=False)</summary>
+<summary>Source event 28 · Main agent: Tool result: call_02_0vvxda412fpovr274es0ruk7 (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #29 · Main agent: Tool result: call_03_23vka94bdq7udpbi745wobca (is_error=False)</summary>
+<summary>Source event 29 · Main agent: Tool result: call_03_23vka94bdq7udpbi745wobca (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #30 · Main agent: Tool result: call_04_128q4urx4dr93ji1092fvtqt (is_error=False)</summary>
+<summary>Source event 30 · Main agent: Tool result: call_04_128q4urx4dr93ji1092fvtqt (is_error=False)</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #31 · Main agent: Tool result: call_05_0tyuvcdohdt3mqdrjn2iyl8n (is_error=False)</summary>
+<summary>Source event 31 · Main agent: Tool result: call_05_0tyuvcdohdt3mqdrjn2iyl8n (is_error=False)</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #32 · Main agent: Tool result: call_06_o2twuv7z47wwxltfn2zll5xz (is_error=False)</summary>
+<summary>Source event 32 · Main agent: Tool result: call_06_o2twuv7z47wwxltfn2zll5xz (is_error=False)</summary>
 
 
 ```text
@@ -90,7 +90,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #33 · Main agent: Tool result: call_07_b9zuq3elin2ld0uvpz4ar4k8 (is_error=False)</summary>
+<summary>Source event 33 · Main agent: Tool result: call_07_b9zuq3elin2ld0uvpz4ar4k8 (is_error=False)</summary>
 
 
 ```text
@@ -107,7 +107,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #34 · Main agent: Tool result: call_08_r22apxxysvoguy5sydoax2et (is_error=False)</summary>
+<summary>Source event 34 · Main agent: Tool result: call_08_r22apxxysvoguy5sydoax2et (is_error=False)</summary>
 
 
 ```text
@@ -123,7 +123,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #35 · Main agent: Model message
+## Source event 35 · Main agent: Model message
 
 ```text
 Now let me find contacts living in zip codes 3011, 4051, 1201.
@@ -360,7 +360,7 @@ Let me verify contacts with a search to be thorough. Load search_contacts.
 
 
 
-## Source event #36 · Main agent: Model tool call: ToolSearch (call_00_vt6soms220nypfscqkddxjty)
+## Source event 36 · Main agent: Model tool call: ToolSearch (call_00_vt6soms220nypfscqkddxjty)
 
 ```text
 {
@@ -372,7 +372,7 @@ Let me verify contacts with a search to be thorough. Load search_contacts.
 
 
 <details>
-<summary>Source event #37 · Main agent: Tool result: call_00_vt6soms220nypfscqkddxjty (is_error=False)</summary>
+<summary>Source event 37 · Main agent: Tool result: call_00_vt6soms220nypfscqkddxjty (is_error=False)</summary>
 
 
 ```text
@@ -388,7 +388,7 @@ Let me verify contacts with a search to be thorough. Load search_contacts.
 </details>
 
 
-## Source event #38 · Main agent: Model message
+## Source event 38 · Main agent: Model message
 
 ```text
 Let me search contacts by zip/address. Search "1201", "3011", "4051". The search looks in first name, last name, phone, email — per tool description "partial matches in first name, last name, phone number, and email." Not address! So searching won't find zip. Hmm. But maybe it searches address too in practice. Let me try anyway.
@@ -451,7 +451,7 @@ Let me call search_apartments for zip 1201 and 3011 and 4051.
 
 
 
-## Source event #39 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_00_bt6qiukqcxe1nkulcjgyzsbm)
+## Source event 39 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_00_bt6qiukqcxe1nkulcjgyzsbm)
 
 ```text
 {
@@ -461,7 +461,7 @@ Let me call search_apartments for zip 1201 and 3011 and 4051.
 
 
 
-## Source event #40 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_01_5oq6191gxqf2ng725m4b2cy8)
+## Source event 40 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_01_5oq6191gxqf2ng725m4b2cy8)
 
 ```text
 {
@@ -471,7 +471,7 @@ Let me call search_apartments for zip 1201 and 3011 and 4051.
 
 
 
-## Source event #41 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_02_r32aomit68b70wwifdgwx4yi)
+## Source event 41 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_02_r32aomit68b70wwifdgwx4yi)
 
 ```text
 {
@@ -482,7 +482,7 @@ Let me call search_apartments for zip 1201 and 3011 and 4051.
 
 
 <details>
-<summary>Source event #42 · Main agent: Tool result: call_00_bt6qiukqcxe1nkulcjgyzsbm (is_error=False)</summary>
+<summary>Source event 42 · Main agent: Tool result: call_00_bt6qiukqcxe1nkulcjgyzsbm (is_error=False)</summary>
 
 
 ```text
@@ -499,7 +499,7 @@ Let me call search_apartments for zip 1201 and 3011 and 4051.
 
 
 <details>
-<summary>Source event #43 · Main agent: Tool result: call_01_5oq6191gxqf2ng725m4b2cy8 (is_error=False)</summary>
+<summary>Source event 43 · Main agent: Tool result: call_01_5oq6191gxqf2ng725m4b2cy8 (is_error=False)</summary>
 
 
 ```text
@@ -516,7 +516,7 @@ Let me call search_apartments for zip 1201 and 3011 and 4051.
 
 
 <details>
-<summary>Source event #44 · Main agent: Tool result: call_02_r32aomit68b70wwifdgwx4yi (is_error=False)</summary>
+<summary>Source event 44 · Main agent: Tool result: call_02_r32aomit68b70wwifdgwx4yi (is_error=False)</summary>
 
 
 ```text
@@ -532,7 +532,7 @@ Let me call search_apartments for zip 1201 and 3011 and 4051.
 </details>
 
 
-## Source event #45 · Main agent: Model message
+## Source event 45 · Main agent: Model message
 
 ```text
 Confirmed. Max in 1201 is 4000: Geneva Seaside and Geneva Luxury. Tie → alphabetically first "Geneva Luxury".
@@ -576,7 +576,7 @@ I'll present final answer.
 
 
 
-## Source event #46 · Main agent: Model message
+## Source event 46 · Main agent: Model message
 
 ```text
 **Answer: Geneva Luxury**
@@ -606,7 +606,7 @@ Therefore, the most expensive available housing unit is **Geneva Luxury**.
 
 
 <details>
-<summary>Source event #47 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 47 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -639,7 +639,7 @@ Therefore, the most expensive available housing unit is **Geneva Luxury**.
 
 
 <details>
-<summary>Source event #48 · Judge: Judge rationale</summary>
+<summary>Source event 48 · Judge: Judge rationale</summary>
 
 
 ```text

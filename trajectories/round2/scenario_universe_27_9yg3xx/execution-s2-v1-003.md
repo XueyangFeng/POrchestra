@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result (continued, part 7)</summary>
+<summary>Source event 47 · Sub-agent 2: tool result (continued, part 7)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #48 · Sub-agent 2: model output
+## Source event 48 · Sub-agent 2: model output
 
 ```text
 Only one email from Viktor found (email_id=61ebe88305c645eb8eb3888c51d1854e, timestamp=1724912936.71). Let me verify there are no others in TRASH.
@@ -33,7 +33,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: tool result</summary>
+<summary>Source event 49 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: tool result</summary>
+<summary>Source event 50 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -66,7 +66,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #51 · Sub-agent 2: model output
+## Source event 51 · Sub-agent 2: model output
 
 ```text
 Only one email exists from Viktor Kuznetsov (email_id `61ebe88305c645eb8eb3888c51d1854e`, timestamp `1724912936.71`). Converting the timestamp: 1724912936.71 = 2024-08-29 06:28:56 UTC (09:28:56 Saint Petersburg time) → **August 29, 2024**.
@@ -90,7 +90,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: tool result</summary>
+<summary>Source event 52 · Sub-agent 2: tool result</summary>
 
 
 ```text

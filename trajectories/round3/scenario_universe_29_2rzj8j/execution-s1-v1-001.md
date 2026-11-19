@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -26,7 +26,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #4 · Sub-agent 1: model output
+## Source event 4 · Sub-agent 1: model output
 
 ```text
 I'll start by gathering the property details, user details, and current time.
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: tool result</summary>
+<summary>Source event 5 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Action:
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 Found two 4-bedroom properties, but only Royal Residences is in the Mumbai area. Let me get full details and the user's info.
@@ -72,7 +72,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Apartment(name='Royal Residences', location='Plot 123, Sector 15, CBD Belapur, N
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Royal Residences is the 4-bedroom Mumbai property. Now let me get the user's home address.
@@ -101,7 +101,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -129,7 +129,7 @@ Address: 14, Sahyadri Apartments, Bandra West, Mumbai, Maharashtra 400050
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 User home: 14, Sahyadri Apartments, Bandra West, Mumbai, Maharashtra 400050. Property address: Plot 123, Sector 15, CBD Belapur, Navi Mumbai 400614.
@@ -149,7 +149,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -163,7 +163,7 @@ acea4a8d991e2e64e9a43daa76d19dd2
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Event created (ID: acea4a8d991e2e64e9a43daa76d19dd2). Now ordering the Default cab.
@@ -183,7 +183,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -206,7 +206,7 @@ Ride ID: c3de44121c4644ae524e7f6470b6f5f7
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 The cab is delayed (0.1 mins). Proceeding with cleanup — reading today's events first.
@@ -221,7 +221,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -235,7 +235,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 Three events start before 12:00: Property Viewing (07:45), Project Update (09:00), NGO Meeting (11:00). Deleting all three.
@@ -252,7 +252,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -266,7 +266,7 @@ Event acea4a8d991e2e64e9a43daa76d19dd2 successfully deleted.
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -281,7 +281,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -295,7 +295,7 @@ Event beb5fcf7a2bf4be0909d6d50aefe5981 successfully deleted.
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -310,7 +310,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -324,7 +324,7 @@ Event b0003901c5e04eedaedba7865054e13b successfully deleted.
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 All three events deleted. Now rescheduling the Property Viewing to 08:45–09:45.
@@ -344,7 +344,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -358,7 +358,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 Cab was delayed (0.1 mins). Events deleted and Property Viewing rescheduled. Now sending individual apology emails to attendees of the deleted events (excluding the user himself). Note: the deleted Property Viewing had no attendees, so no email needed for it.
@@ -377,7 +377,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -401,7 +401,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 The email tool needs actual email addresses, not names. Let me construct the standard company address format.
@@ -420,7 +420,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -434,7 +434,7 @@ ce025aebc06aec5cea39dd7fb817bee5
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Email sent. Continuing with the remaining attendees — Kaida Jensen (Project Update).
@@ -453,7 +453,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -467,7 +467,7 @@ d5c10c7486bda98ac6f9fb05dd3707df
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Now the NGO Meeting attendees — Žiga Kovačič.
@@ -486,7 +486,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -500,7 +500,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 Now Kaitlyn Nwosu (NGO Meeting).
@@ -519,7 +519,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -533,7 +533,7 @@ da9454bfdd5ccd0849ec96fe31091323
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 All apology emails have been sent. Now informing the user of the property's name and price.
@@ -550,7 +550,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text

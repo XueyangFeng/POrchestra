@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Contacts total is 124. I'll page through all of them to get gender/age for every sender and to determine the oldest per gender.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 I have the date window identified. Now I need the full contact list (124 contacts) to resolve genders/ages. Continuing paging.
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 Continuing to page through all 124 contacts to build the gender/age lookup.
@@ -98,7 +98,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -112,7 +112,7 @@ Action:
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Continuing to collect all contacts.
@@ -129,7 +129,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -143,7 +143,7 @@ Action:
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 Continuing to page through all contacts (124 total).
@@ -160,7 +160,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 Continuing contact paging.
@@ -191,7 +191,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -206,7 +206,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: tool result</summary>
+<summary>Source event 24 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -224,7 +224,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #25 · Sub-agent 1: model output
+## Source event 25 · Sub-agent 1: model output
 
 ```text
 Continuing to page through the contacts (I need the full list to find the oldest contact per gender).
@@ -241,7 +241,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: tool result</summary>
+<summary>Source event 26 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -255,7 +255,7 @@ Action:
 </details>
 
 
-## Source event #27 · Sub-agent 1: model output
+## Source event 27 · Sub-agent 1: model output
 
 ```text
 Continuing through the contact list.
@@ -272,7 +272,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: tool result</summary>
+<summary>Source event 28 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -286,7 +286,7 @@ Action:
 </details>
 
 
-## Source event #29 · Sub-agent 1: model output
+## Source event 29 · Sub-agent 1: model output
 
 ```text
 Continuing through the contact list.
@@ -303,7 +303,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 1: tool result</summary>
+<summary>Source event 30 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -317,7 +317,7 @@ Action:
 </details>
 
 
-## Source event #31 · Sub-agent 1: model output
+## Source event 31 · Sub-agent 1: model output
 
 ```text
 Continuing through the contact list.
@@ -334,7 +334,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: tool result</summary>
+<summary>Source event 32 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -348,7 +348,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 1: model output
+## Source event 33 · Sub-agent 1: model output
 
 ```text
 Continuing through the final contacts.
@@ -365,7 +365,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: tool result</summary>
+<summary>Source event 34 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -379,7 +379,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 1: model output
+## Source event 35 · Sub-agent 1: model output
 
 ```text
 Getting the last contacts.
@@ -396,7 +396,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -410,7 +410,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 I now have the complete picture. Let me verify my analysis:
@@ -435,7 +435,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text

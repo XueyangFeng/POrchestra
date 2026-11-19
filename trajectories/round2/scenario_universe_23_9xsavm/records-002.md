@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #56 · Sub-agent 1: tool result</summary>
+<summary>Source event 56 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #57 · Sub-agent 1: model output</summary>
+<summary>Source event 57 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -71,7 +71,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 1: tool result</summary>
+<summary>Source event 58 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Action:
 
 
 <details>
-<summary>Source event #59 · Sub-agent 1: System configuration update</summary>
+<summary>Source event 59 · Sub-agent 1: System configuration update</summary>
 
 
 ```text
@@ -256,7 +256,7 @@ This is the only way to send a message to a single person.
 
 
 <details>
-<summary>Source event #60 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 60 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -273,7 +273,7 @@ This is the only way to send a message to a single person.
 
 
 <details>
-<summary>Source event #61 · Sub-agent 1: model output</summary>
+<summary>Source event 61 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -293,7 +293,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 1: tool result</summary>
+<summary>Source event 62 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -308,7 +308,7 @@ Event dcf191829913b81220f38262b28ec53c successfully deleted.
 
 
 <details>
-<summary>Source event #63 · Sub-agent 1: model output</summary>
+<summary>Source event 63 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -328,7 +328,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 1: tool result</summary>
+<summary>Source event 64 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -343,7 +343,7 @@ Event b5620c9f60084846a4cbfa76c0c5d423 successfully deleted.
 
 
 <details>
-<summary>Source event #65 · Sub-agent 1: model output</summary>
+<summary>Source event 65 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -367,7 +367,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 1: tool result</summary>
+<summary>Source event 66 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -382,7 +382,7 @@ f7af3c683953f40822cf7da5a5df7046
 
 
 <details>
-<summary>Source event #67 · Sub-agent 1: model output</summary>
+<summary>Source event 67 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -403,7 +403,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 1: tool result</summary>
+<summary>Source event 68 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -418,7 +418,7 @@ Action:
 
 
 <details>
-<summary>Source event #69 · Sub-agent 1: model output</summary>
+<summary>Source event 69 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -437,7 +437,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 1: tool result</summary>
+<summary>Source event 70 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -452,7 +452,7 @@ d81a5f3cd56841c1ba683f00b0a9401c
 
 
 <details>
-<summary>Source event #71 · Sub-agent 1: model output</summary>
+<summary>Source event 71 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -471,7 +471,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 1: tool result</summary>
+<summary>Source event 72 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -486,7 +486,7 @@ ca8fab096e914453bde69f472a23fdd8
 
 
 <details>
-<summary>Source event #73 · Sub-agent 1: model output</summary>
+<summary>Source event 73 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -509,7 +509,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 1: tool result</summary>
+<summary>Source event 74 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -528,7 +528,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #75 · Sub-agent 1: model output</summary>
+<summary>Source event 75 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -575,7 +575,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 1: tool result</summary>
+<summary>Source event 76 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -590,7 +590,7 @@ Action:
 
 
 <details>
-<summary>Source event #77 · Judge rationale</summary>
+<summary>Source event 77 · Judge rationale</summary>
 
 
 ```text

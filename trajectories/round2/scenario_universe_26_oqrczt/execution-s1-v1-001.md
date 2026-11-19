@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 I'll start by verifying the current date and retrieving calendar events for the week.
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Action:
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Current date confirmed: Tuesday 2024-10-15. Now retrieving all events for the week (2024-10-14 00:00:00 to 2024-10-20 23:59:59).
@@ -72,7 +72,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Action:
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 Events per day: Mon 10/14 = 4, **Tue 10/15 = 5**, Wed 10/16 = 4, Thu 10/17 = 3, Fri 10/18 = 2, Sat 10/19 = 3, Sun 10/20 = 0 (total 21 ✓). Tuesday 2024-10-15 has the most events. Deleting all 5 Tuesday events now.
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -117,7 +117,7 @@ Event d27e1c81056547a4b5211378c3a10441 successfully deleted.
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 First Tuesday event deleted. Continuing with the remaining four Tuesday 2024-10-15 events.
@@ -134,7 +134,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -149,7 +149,7 @@ Event 1198daea687b4b3e88df58c2fac37d26 successfully deleted.
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -167,7 +167,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 Two Tuesday events deleted successfully. Now retrying with the remaining three Tuesday 2024-10-15 events, starting with the Film Criticism Workshop.
@@ -184,7 +184,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -198,7 +198,7 @@ Event 6d8000de6c1c44c7b917c62ba594b78d successfully deleted.
 </details>
 
 
-## Source event #17 · Sub-agent 1: model output
+## Source event 17 · Sub-agent 1: model output
 
 ```text
 Three of five deleted. Continuing with the fourth Tuesday event.
@@ -215,7 +215,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: tool result</summary>
+<summary>Source event 18 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -229,7 +229,7 @@ Event 604e9633b4eb4d079ff9bebd1d0e03bb successfully deleted.
 </details>
 
 
-## Source event #19 · Sub-agent 1: model output
+## Source event 19 · Sub-agent 1: model output
 
 ```text
 Four of five deleted. Deleting the final Tuesday event.
@@ -246,7 +246,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 1: tool result</summary>
+<summary>Source event 20 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -260,7 +260,7 @@ Event 3790ec1152374736ab6ff9723cdc694a successfully deleted.
 </details>
 
 
-## Source event #21 · Sub-agent 1: model output
+## Source event 21 · Sub-agent 1: model output
 
 ```text
 All 5 Tuesday events deleted. Verifying Tuesday is now empty.
@@ -280,7 +280,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 1: tool result</summary>
+<summary>Source event 22 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -294,7 +294,7 @@ Action:
 </details>
 
 
-## Source event #23 · Sub-agent 1: model output
+## Source event 23 · Sub-agent 1: model output
 
 ```text
 Verification confirms Tuesday 2024-10-15 now has zero events. The calendar subtask is complete.
@@ -368,7 +368,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: tool result</summary>
+<summary>Source event 24 · Sub-agent 1: tool result</summary>
 
 
 ```text

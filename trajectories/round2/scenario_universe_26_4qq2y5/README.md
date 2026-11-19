@@ -1,6 +1,8 @@
 # scenario_universe_26_4qq2y5
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_26_4qq2y5/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_26_4qq2y5/README.md) · [Codex](../../codex/round2/scenario_universe_26_4qq2y5/README.md) · [OpenCode](../../opencode/round2/scenario_universe_26_4qq2y5/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to clean up the saved properties by deleting those with fewer than 2 bedrooms and then identify the specific property to share with Kaitlyn Nakamura based on the square footage, price, and alphabetical criteria. I also need to find Kaitlyn&#x27;s contact information in the Messages app.
 
@@ -85,11 +87,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #25
+**Initial harness configuration** · Source event 25
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 SubAgent 1 has successfully cleaned the saved properties and identified &#x27;Trondheim Luxury Apartments&#x27; as the one meeting all criteria (highest square footage of 1800, highest price of 3000 in case of tie). It also found Kaitlyn Nakamura&#x27;s ID (+14034567890). Now I need a SubAgent to handle the messaging and the specific retry/monitoring logic requested by the user.
 

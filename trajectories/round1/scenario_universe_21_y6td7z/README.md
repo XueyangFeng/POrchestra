@@ -1,6 +1,8 @@
 # scenario_universe_21_y6td7z
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_21_y6td7z/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_21_y6td7z/README.md) · [Codex](../../codex/round1/scenario_universe_21_y6td7z/README.md) · [OpenCode](../../opencode/round1/scenario_universe_21_y6td7z/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the specific emails, schedule the corresponding calendar events for the next three days, and send the replies as requested. This is the first logical step of the multi-phase task.
 
@@ -90,7 +92,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #26
+**Harness configuration updated** · Source event 26
 
 **1. Sub-agent revision request**
 
@@ -99,7 +101,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Initial subtask complete: found 3 most recent Collaboration emails, created 3 Zoom events (2024-10-16, 10-17, 10-18 at 07:00-08:00), sent 3 replies, and sent the user confirmation. New replies then arrived from all 3 attendees: Yuting Liang cannot meet Oct 16 and proposes Oct 19 10-11 am; Astrid Kjeldsen cannot meet Oct 18 and proposes Oct 20 10-11 am; João Silva cannot attend at all due to family issues.
 ```
 <details>
-<summary>Request and evidence · source event #24</summary>
+<summary>Request and evidence · source event 24</summary>
 
 
 ```text
@@ -148,7 +150,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 All three recipients have responded to the initial meeting invitations. Per the original task, I must now reschedule meetings for Yuting Liang and Astrid Kjeldsen to their proposed times (Oct 19 and Oct 20, 10-11 AM respectively), delete any existing calendar events that conflict with those new times, and cancel João Silva&#x27;s meeting since he cannot attend. Additionally, since all three individuals responded, I must add three copies (one for each responder) of the specified &#x27;Num Noms&#x27; product to the cart and proceed with checkout.
 

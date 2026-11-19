@@ -1,6 +1,8 @@
 # scenario_universe_26_f4zp2l
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_26_f4zp2l/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_26_f4zp2l/README.md) · [Codex](../../codex/round3/scenario_universe_26_f4zp2l/README.md) · [OpenCode](../../opencode/round3/scenario_universe_26_f4zp2l/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find all calendar events related to &#x27;lunch&#x27; in 2024 up to October 15th, calculate the total duration spent at each location, and determine which location has the highest total time. If there is a tie, I will sort alphabetically.
 
@@ -83,7 +85,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #11
+**Harness configuration updated** · Source event 11
 
 **1. Sub-agent revision request**
 
@@ -92,7 +94,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Retrieved all 226 calendar events from 2024-01-01 00:00:00 to 2024-10-15 07:00:00 and cross-checked with a 'lunch' search. Found 25 events in range with 'lunch' in title/description. Summed durations per location: Lysverket 30600s (8.5h) is the maximum; ties/near-runners are Restaurant in Grünerløkka 16200s and Café Opus 16200s. Distinct-string 'Lysverket Restaurant' adds 10800s (merged total 41400s) but the winner is unchanged either way. No tie at the top.
 ```
 <details>
-<summary>Request and evidence · source event #9</summary>
+<summary>Request and evidence · source event 9</summary>
 
 
 ```text
@@ -170,7 +172,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent has successfully calculated the total lunch durations for each location in 2024 and identified &#x27;Lysverket&#x27; as the top location. It now needs the &#x27;AgentUserInterface__send_message_to_user&#x27; tool to report this final result to the user as per the task requirements.
 

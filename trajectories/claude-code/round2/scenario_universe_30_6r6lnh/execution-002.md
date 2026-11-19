@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #80 · Main agent: Tool result: call_02_4mrrxil8gp9jo9j1qbjylzea (is_error=False)</summary>
+<summary>Source event 80 · Main agent: Tool result: call_02_4mrrxil8gp9jo9j1qbjylzea (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #81 · Main agent: Tool result: call_03_0p5x99d6v8onupuh1ujq5aiz (is_error=False)</summary>
+<summary>Source event 81 · Main agent: Tool result: call_03_0p5x99d6v8onupuh1ujq5aiz (is_error=False)</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #82 · Main agent: Model message
+## Source event 82 · Main agent: Model message
 
 ```text
 Chats app seems to be a separate dataset with different IDs (uuid) and different participants (Rohini Deshpande as f299...?). Hmm interesting: Chats may be a different world/instance. The Messages app is our primary. The Chats app may be a duplicate or an alternative. Task says Messages. Good.
@@ -65,7 +65,7 @@ One concern: maybe sending user message ends the task entirely if no further not
 
 
 
-## Source event #83 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_2nnl190ygaaft5b5hhxuezyi)
+## Source event 83 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_2nnl190ygaaft5b5hhxuezyi)
 
 ```text
 {
@@ -76,7 +76,7 @@ One concern: maybe sending user message ends the task entirely if no further not
 
 
 <details>
-<summary>Source event #84 · Main agent: Tool result: call_00_2nnl190ygaaft5b5hhxuezyi (is_error=False)</summary>
+<summary>Source event 84 · Main agent: Tool result: call_00_2nnl190ygaaft5b5hhxuezyi (is_error=False)</summary>
 
 
 ```text
@@ -92,7 +92,7 @@ One concern: maybe sending user message ends the task entirely if no further not
 </details>
 
 
-## Source event #85 · Main agent: Model message
+## Source event 85 · Main agent: Model message
 
 ```text
 Turn ended. Now I should continue? The tool result is None. Maybe the environment will deliver notification. I can call wait_for_notification again? But my turn is supposed to end. However, in this harness, I can keep making tool calls. The user message is sent. Let me now wait for notification (as the environment may generate Akira's reply). We have "New GAIA2 environment notifications" appear with app observations. Let me call wait_for_notification with 60s again.
@@ -100,7 +100,7 @@ Turn ended. Now I should continue? The tool result is None. Maybe the environmen
 
 
 
-## Source event #86 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_gvhdp3x8vqdqjdca6udzwgyr)
+## Source event 86 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_gvhdp3x8vqdqjdca6udzwgyr)
 
 ```text
 {
@@ -111,7 +111,7 @@ Turn ended. Now I should continue? The tool result is None. Maybe the environmen
 
 
 <details>
-<summary>Source event #87 · Main agent: Tool result: call_00_gvhdp3x8vqdqjdca6udzwgyr (is_error=True)</summary>
+<summary>Source event 87 · Main agent: Tool result: call_00_gvhdp3x8vqdqjdca6udzwgyr (is_error=True)</summary>
 
 
 ```text
@@ -122,7 +122,7 @@ The ARE user turn has ended. Return your final response; further app actions are
 </details>
 
 
-## Source event #88 · Main agent: Model message
+## Source event 88 · Main agent: Model message
 
 ```text
 The turn has ended and no more app actions are available in this turn. But the harness lets me produce final response. However, presumably a new turn will begin when a notification arrives. I should output my final response for this turn. But the system says "Return your final response; further app actions are unavailable in this turn." So I need to end with text. Then likely environment notification triggers next turn.
@@ -134,7 +134,7 @@ I'm slightly worried the task won't continue. But the instruction mentioned noti
 
 
 
-## Source event #89 · Main agent: Model message
+## Source event 89 · Main agent: Model message
 
 ```text
 I've completed the initial steps:
@@ -148,7 +148,7 @@ I'm awaiting her reply and will handle the follow-up if she names a different ci
 
 
 <details>
-<summary>Source event #90 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 90 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -165,7 +165,7 @@ I'm awaiting her reply and will handle the follow-up if she names a different ci
 
 
 <details>
-<summary>Source event #91 · Judge: Judge rationale</summary>
+<summary>Source event 91 · Judge: Judge rationale</summary>
 
 
 ```text

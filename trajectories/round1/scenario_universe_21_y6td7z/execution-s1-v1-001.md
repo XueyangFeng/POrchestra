@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 Thought: Need find the three most recent emails with 'Collaboration' in subject. Searching INBOX.
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 6 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -64,7 +64,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 6 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -76,7 +76,7 @@ orite Portuguese recipes. Let me know if this is something that interests you, a
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 6 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -88,7 +88,7 @@ tention.\n\nI'm reaching out to propose a collaboration opportunity that I belie
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 The three most recent emails with 'Collaboration' in the subject, in order, are:
@@ -114,7 +114,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -128,7 +128,7 @@ e4657cd1b75ef061b9fbfd037e80abd6
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Now scheduling the second meeting on 2024-10-17.
@@ -149,7 +149,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -163,7 +163,7 @@ e03b534af959899d9ca5c1d3e342f522
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 Now scheduling the third meeting on 2024-10-18.
@@ -184,7 +184,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -198,7 +198,7 @@ Action:
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Now replying to the first email (Swedish Fashion Brands).
@@ -217,7 +217,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -231,7 +231,7 @@ e99491546510d319bc33d842063d8b97
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 Now replying to the second email (Social Media Campaign).
@@ -250,7 +250,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -264,7 +264,7 @@ Action:
 </details>
 
 
-## Source event #17 · Sub-agent 1: model output
+## Source event 17 · Sub-agent 1: model output
 
 ```text
 Now replying to the third email (Public Health).
@@ -283,7 +283,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: tool result</summary>
+<summary>Source event 18 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -297,7 +297,7 @@ eac429b410b76e2c8d5408beefc4019b
 </details>
 
 
-## Source event #19 · Sub-agent 1: model output
+## Source event 19 · Sub-agent 1: model output
 
 ```text
 All three replies sent successfully. Now sending the confirmation message to the user.
@@ -314,7 +314,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 1: tool result</summary>
+<summary>Source event 20 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -329,7 +329,7 @@ None
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 21 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -344,7 +344,7 @@ Environment notifications:
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 Three new emails have arrived, likely replies from the attendees. Before taking any further side effects, I need to gather their details so I can report the follow-up to MainAgent. Let me search for the newest Collaboration-related emails.
@@ -362,7 +362,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -376,7 +376,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 23 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text

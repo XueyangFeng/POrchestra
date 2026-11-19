@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #91 · Main agent: Model message
+## Source event 91 · Main agent: Model message
 
 ```text
 No email/message. So cab quote is from ride history. Confirmed.
@@ -83,7 +83,7 @@ Let me send.
 
 
 
-## Source event #92 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_kctnyfn8sgr9mcy8fstft631)
+## Source event 92 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_kctnyfn8sgr9mcy8fstft631)
 
 ```text
 {
@@ -94,7 +94,7 @@ Let me send.
 
 
 <details>
-<summary>Source event #93 · Main agent: Tool result: call_00_kctnyfn8sgr9mcy8fstft631 (is_error=False)</summary>
+<summary>Source event 93 · Main agent: Tool result: call_00_kctnyfn8sgr9mcy8fstft631 (is_error=False)</summary>
 
 
 ```text
@@ -110,7 +110,7 @@ Let me send.
 </details>
 
 
-## Source event #94 · Main agent: Model message
+## Source event 94 · Main agent: Model message
 
 ```text
 I've sent the answer. Let me give final summary to user? The tool ends turn. The response is displayed? I already sent. Now I should provide final text maybe. But AgentUserInterface ends the turn. I'll output a brief confirmation maybe not needed. I'll answer.
@@ -118,7 +118,7 @@ I've sent the answer. Let me give final summary to user? The tool ends turn. The
 
 
 
-## Source event #95 · Main agent: Model message
+## Source event 95 · Main agent: Model message
 
 ```text
 $7
@@ -127,7 +127,7 @@ $7
 
 
 <details>
-<summary>Source event #96 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 96 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -139,7 +139,7 @@ $7
 
 
 <details>
-<summary>Source event #97 · Judge: Judge rationale</summary>
+<summary>Source event 97 · Judge: Judge rationale</summary>
 
 
 ```text

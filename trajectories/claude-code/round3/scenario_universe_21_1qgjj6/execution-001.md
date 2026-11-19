@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #1 · Main agent: Model message
+## Source event 1 · Main agent: Model message
 
 ```text
 Let me start by exploring the environment. I need to find saved properties in RentAFlat, remove those with zip codes starting with 1, create a group chat with Aurélie Dumont and Vasco Sousa via Messages, and send a message. Let me load the necessary tools.
@@ -14,7 +14,7 @@ Let me first get the saved apartments and user details.
 
 
 
-## Source event #2 · Main agent: Model tool call: ToolSearch (call_00_91jzd92cn4a0g1xxpv5rr6q7)
+## Source event 2 · Main agent: Model tool call: ToolSearch (call_00_91jzd92cn4a0g1xxpv5rr6q7)
 
 ```text
 {
@@ -26,7 +26,7 @@ Let me first get the saved apartments and user details.
 
 
 <details>
-<summary>Source event #3 · Main agent: Tool result: call_00_91jzd92cn4a0g1xxpv5rr6q7 (is_error=False)</summary>
+<summary>Source event 3 · Main agent: Tool result: call_00_91jzd92cn4a0g1xxpv5rr6q7 (is_error=False)</summary>
 
 
 ```text
@@ -66,7 +66,7 @@ Let me first get the saved apartments and user details.
 </details>
 
 
-## Source event #4 · Main agent: Model message
+## Source event 4 · Main agent: Model message
 
 ```text
 Let me list saved apartments and look up users.
@@ -74,7 +74,7 @@ Let me list saved apartments and look up users.
 
 
 
-## Source event #5 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_00_fqp7ky8atjx73nqx2nughavb)
+## Source event 5 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_00_fqp7ky8atjx73nqx2nughavb)
 
 ```text
 {}
@@ -82,7 +82,7 @@ Let me list saved apartments and look up users.
 
 
 
-## Source event #6 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_01_lm1ietf9i5mf1d8l2s1ierup)
+## Source event 6 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_01_lm1ietf9i5mf1d8l2s1ierup)
 
 ```text
 {
@@ -92,7 +92,7 @@ Let me list saved apartments and look up users.
 
 
 
-## Source event #7 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_02_be0u25a74wcagldgej9gmwpm)
+## Source event 7 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_02_be0u25a74wcagldgej9gmwpm)
 
 ```text
 {
@@ -103,7 +103,7 @@ Let me list saved apartments and look up users.
 
 
 <details>
-<summary>Source event #8 · Main agent: Tool result: call_00_fqp7ky8atjx73nqx2nughavb (is_error=False)</summary>
+<summary>Source event 8 · Main agent: Tool result: call_00_fqp7ky8atjx73nqx2nughavb (is_error=False)</summary>
 
 
 ```text
@@ -120,7 +120,7 @@ Let me list saved apartments and look up users.
 
 
 <details>
-<summary>Source event #9 · Main agent: Tool result: call_01_lm1ietf9i5mf1d8l2s1ierup (is_error=False)</summary>
+<summary>Source event 9 · Main agent: Tool result: call_01_lm1ietf9i5mf1d8l2s1ierup (is_error=False)</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ Let me list saved apartments and look up users.
 
 
 <details>
-<summary>Source event #10 · Main agent: Tool result: call_02_be0u25a74wcagldgej9gmwpm (is_error=False)</summary>
+<summary>Source event 10 · Main agent: Tool result: call_02_be0u25a74wcagldgej9gmwpm (is_error=False)</summary>
 
 
 ```text
@@ -153,7 +153,7 @@ Let me list saved apartments and look up users.
 </details>
 
 
-## Source event #11 · Main agent: Model message
+## Source event 11 · Main agent: Model message
 
 ```text
 I need to find apartments with zip codes starting with "1". Let me list:
@@ -206,7 +206,7 @@ Let me remove.
 
 
 
-## Source event #12 · Main agent: Model message
+## Source event 12 · Main agent: Model message
 
 ```text
 I found the saved properties with zip codes starting with "1": Stockholm Serenity (114 39), Stockholm Haven (118 26), and Stockholm City (111 60). Let me remove them.
@@ -214,7 +214,7 @@ I found the saved properties with zip codes starting with "1": Stockholm Serenit
 
 
 
-## Source event #13 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_00_sqb1arflhusl3jmez0j8ieo5)
+## Source event 13 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_00_sqb1arflhusl3jmez0j8ieo5)
 
 ```text
 {
@@ -224,7 +224,7 @@ I found the saved properties with zip codes starting with "1": Stockholm Serenit
 
 
 
-## Source event #14 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_01_fma2c6va4c5pyv5wgflqj7ow)
+## Source event 14 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_01_fma2c6va4c5pyv5wgflqj7ow)
 
 ```text
 {
@@ -234,7 +234,7 @@ I found the saved properties with zip codes starting with "1": Stockholm Serenit
 
 
 
-## Source event #15 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_02_ez0zkku845nbc8c49dr13rfl)
+## Source event 15 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_02_ez0zkku845nbc8c49dr13rfl)
 
 ```text
 {
@@ -245,7 +245,7 @@ I found the saved properties with zip codes starting with "1": Stockholm Serenit
 
 
 <details>
-<summary>Source event #16 · Main agent: Tool result: call_00_sqb1arflhusl3jmez0j8ieo5 (is_error=False)</summary>
+<summary>Source event 16 · Main agent: Tool result: call_00_sqb1arflhusl3jmez0j8ieo5 (is_error=False)</summary>
 
 
 ```text
@@ -262,7 +262,7 @@ I found the saved properties with zip codes starting with "1": Stockholm Serenit
 
 
 <details>
-<summary>Source event #17 · Main agent: Tool result: call_01_fma2c6va4c5pyv5wgflqj7ow (is_error=False)</summary>
+<summary>Source event 17 · Main agent: Tool result: call_01_fma2c6va4c5pyv5wgflqj7ow (is_error=False)</summary>
 
 
 ```text
@@ -279,7 +279,7 @@ I found the saved properties with zip codes starting with "1": Stockholm Serenit
 
 
 <details>
-<summary>Source event #18 · Main agent: Tool result: call_02_ez0zkku845nbc8c49dr13rfl (is_error=False)</summary>
+<summary>Source event 18 · Main agent: Tool result: call_02_ez0zkku845nbc8c49dr13rfl (is_error=False)</summary>
 
 
 ```text
@@ -295,7 +295,7 @@ I found the saved properties with zip codes starting with "1": Stockholm Serenit
 </details>
 
 
-## Source event #19 · Main agent: Model message
+## Source event 19 · Main agent: Model message
 
 ```text
 Now create group conversation. Let me also verify user ids via get_user_id maybe. Let me load Chats/Messages get_user_id? Actually I have lookup_user_id. Let me just create.
@@ -303,7 +303,7 @@ Now create group conversation. Let me also verify user ids via get_user_id maybe
 
 
 
-## Source event #20 · Main agent: Model tool call: mcp__gaia2__Messages__create_group_conversation (call_00_ir1k5k36984kxxu0vr360ice)
+## Source event 20 · Main agent: Model tool call: mcp__gaia2__Messages__create_group_conversation (call_00_ir1k5k36984kxxu0vr360ice)
 
 ```text
 {
@@ -318,7 +318,7 @@ Now create group conversation. Let me also verify user ids via get_user_id maybe
 
 
 <details>
-<summary>Source event #21 · Main agent: Tool result: call_00_ir1k5k36984kxxu0vr360ice (is_error=False)</summary>
+<summary>Source event 21 · Main agent: Tool result: call_00_ir1k5k36984kxxu0vr360ice (is_error=False)</summary>
 
 
 ```text
@@ -334,7 +334,7 @@ Now create group conversation. Let me also verify user ids via get_user_id maybe
 </details>
 
 
-## Source event #22 · Main agent: Model message
+## Source event 22 · Main agent: Model message
 
 ```text
 Now send the message.
@@ -342,7 +342,7 @@ Now send the message.
 
 
 
-## Source event #23 · Main agent: Model tool call: mcp__gaia2__Messages__send_message_to_group_conversation (call_00_ugtta2smzsuvpgvb4hw2bri3)
+## Source event 23 · Main agent: Model tool call: mcp__gaia2__Messages__send_message_to_group_conversation (call_00_ugtta2smzsuvpgvb4hw2bri3)
 
 ```text
 {
@@ -354,7 +354,7 @@ Now send the message.
 
 
 <details>
-<summary>Source event #24 · Main agent: Tool result: call_00_ugtta2smzsuvpgvb4hw2bri3 (is_error=False)</summary>
+<summary>Source event 24 · Main agent: Tool result: call_00_ugtta2smzsuvpgvb4hw2bri3 (is_error=False)</summary>
 
 
 ```text
@@ -370,7 +370,7 @@ Now send the message.
 </details>
 
 
-## Source event #25 · Main agent: Model message
+## Source event 25 · Main agent: Model message
 
 ```text
 Message sent. Now I should notify the user that the message has been sent, and then wait for responses. The task says "Let me know when the message has been sent. If either of them respond ... please do so."
@@ -392,7 +392,7 @@ Let me call wait_for_notification to see if replies come. Load tools.
 
 
 
-## Source event #26 · Main agent: Model tool call: ToolSearch (call_00_16cd5xvnr3qhvtr1f990ruwz)
+## Source event 26 · Main agent: Model tool call: ToolSearch (call_00_16cd5xvnr3qhvtr1f990ruwz)
 
 ```text
 {
@@ -404,7 +404,7 @@ Let me call wait_for_notification to see if replies come. Load tools.
 
 
 <details>
-<summary>Source event #27 · Main agent: Tool result: call_00_16cd5xvnr3qhvtr1f990ruwz (is_error=False)</summary>
+<summary>Source event 27 · Main agent: Tool result: call_00_16cd5xvnr3qhvtr1f990ruwz (is_error=False)</summary>
 
 
 ```text
@@ -428,7 +428,7 @@ Let me call wait_for_notification to see if replies come. Load tools.
 </details>
 
 
-## Source event #28 · Main agent: Model message
+## Source event 28 · Main agent: Model message
 
 ```text
 Let me wait for notification to see replies.
@@ -436,7 +436,7 @@ Let me wait for notification to see replies.
 
 
 
-## Source event #29 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_4pszxxvd0x046yxgaqfnbzix)
+## Source event 29 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_4pszxxvd0x046yxgaqfnbzix)
 
 ```text
 {
@@ -447,7 +447,7 @@ Let me wait for notification to see replies.
 
 
 <details>
-<summary>Source event #30 · Main agent: Tool result: call_00_4pszxxvd0x046yxgaqfnbzix (is_error=False)</summary>
+<summary>Source event 30 · Main agent: Tool result: call_00_4pszxxvd0x046yxgaqfnbzix (is_error=False)</summary>
 
 
 ```text
@@ -467,7 +467,7 @@ Let me wait for notification to see replies.
 </details>
 
 
-## Source event #31 · Main agent: Model message
+## Source event 31 · Main agent: Model message
 
 ```text
 No replies yet. Maybe the replies come after some wait. Let me read conversation to confirm. Then perhaps wait longer.
@@ -475,7 +475,7 @@ No replies yet. Maybe the replies come after some wait. Let me read conversation
 
 
 
-## Source event #32 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_mymrauuh3plcjrv5h19kyef9)
+## Source event 32 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_mymrauuh3plcjrv5h19kyef9)
 
 ```text
 {
@@ -487,7 +487,7 @@ No replies yet. Maybe the replies come after some wait. Let me read conversation
 
 
 <details>
-<summary>Source event #33 · Main agent: Tool result: call_00_mymrauuh3plcjrv5h19kyef9 (is_error=False)</summary>
+<summary>Source event 33 · Main agent: Tool result: call_00_mymrauuh3plcjrv5h19kyef9 (is_error=False)</summary>
 
 
 ```text
@@ -503,7 +503,7 @@ No replies yet. Maybe the replies come after some wait. Let me read conversation
 </details>
 
 
-## Source event #34 · Main agent: Model message
+## Source event 34 · Main agent: Model message
 
 ```text
 No replies yet. Maybe replies come after a longer simulated wait. Let me wait again, maybe 60s. GAIA2 environment time advances when waiting. The replies may be triggered after some time. Let me wait 60.
@@ -511,7 +511,7 @@ No replies yet. Maybe replies come after a longer simulated wait. Let me wait ag
 
 
 
-## Source event #35 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_adhxqmyjnkkuo4rny4xxbojt)
+## Source event 35 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_adhxqmyjnkkuo4rny4xxbojt)
 
 ```text
 {
@@ -522,7 +522,7 @@ No replies yet. Maybe replies come after a longer simulated wait. Let me wait ag
 
 
 <details>
-<summary>Source event #36 · Main agent: Tool result: call_00_adhxqmyjnkkuo4rny4xxbojt (is_error=False)</summary>
+<summary>Source event 36 · Main agent: Tool result: call_00_adhxqmyjnkkuo4rny4xxbojt (is_error=False)</summary>
 
 
 ```text
@@ -542,7 +542,7 @@ No replies yet. Maybe replies come after a longer simulated wait. Let me wait ag
 </details>
 
 
-## Source event #37 · Main agent: Model message
+## Source event 37 · Main agent: Model message
 
 ```text
 No reply. Maybe replies take longer or need more waiting. Let me try reading conversation again after waiting. Actually maybe the app doesn't auto-respond, and the task's conditional part never occurs. But GAIA2 tasks usually have triggered notifications at specific times. Let me wait more, e.g., 120s.
@@ -550,7 +550,7 @@ No reply. Maybe replies take longer or need more waiting. Let me try reading con
 
 
 
-## Source event #38 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_os9suwjjfvx5g2q4v6hn7cqb)
+## Source event 38 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_os9suwjjfvx5g2q4v6hn7cqb)
 
 ```text
 {
@@ -561,7 +561,7 @@ No reply. Maybe replies take longer or need more waiting. Let me try reading con
 
 
 <details>
-<summary>Source event #39 · Main agent: Tool result: call_00_os9suwjjfvx5g2q4v6hn7cqb (is_error=False)</summary>
+<summary>Source event 39 · Main agent: Tool result: call_00_os9suwjjfvx5g2q4v6hn7cqb (is_error=False)</summary>
 
 
 ```text
@@ -581,7 +581,7 @@ No reply. Maybe replies take longer or need more waiting. Let me try reading con
 </details>
 
 
-## Source event #40 · Main agent: Model message
+## Source event 40 · Main agent: Model message
 
 ```text
 No replies after ~3.5 min. Maybe the replies come as messages in conversation, not necessarily notification. Let me read conversation again.
@@ -589,7 +589,7 @@ No replies after ~3.5 min. Maybe the replies come as messages in conversation, n
 
 
 
-## Source event #41 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_66zz79uh8jgfqyuji0q00y4n)
+## Source event 41 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_66zz79uh8jgfqyuji0q00y4n)
 
 ```text
 {
@@ -601,7 +601,7 @@ No replies after ~3.5 min. Maybe the replies come as messages in conversation, n
 
 
 <details>
-<summary>Source event #42 · Main agent: Tool result: call_00_66zz79uh8jgfqyuji0q00y4n (is_error=False)</summary>
+<summary>Source event 42 · Main agent: Tool result: call_00_66zz79uh8jgfqyuji0q00y4n (is_error=False)</summary>
 
 
 ```text
@@ -617,7 +617,7 @@ No replies after ~3.5 min. Maybe the replies come as messages in conversation, n
 </details>
 
 
-## Source event #43 · Main agent: Model message
+## Source event 43 · Main agent: Model message
 
 ```text
 Still nothing. Maybe replies are triggered by the user turn after I report. Or perhaps there are no replies and the conditional branch is not executed. But the task likely has a designed environment where Aurélie and Vasco respond. Maybe the notification arrives in a later simulated time — perhaps the environment only advances when I call wait, but maybe replies were scheduled after e.g. 1 hour. Let me wait longer increments, e.g., 300s. But careful about time budget.
@@ -635,7 +635,7 @@ Maybe replies are scheduled at e.g. 07:10. Let me wait more. Use 180s increments
 
 
 
-## Source event #44 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_dujl9bqwdr8pyjluote9qygp)
+## Source event 44 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_dujl9bqwdr8pyjluote9qygp)
 
 ```text
 {
@@ -646,7 +646,7 @@ Maybe replies are scheduled at e.g. 07:10. Let me wait more. Use 180s increments
 
 
 <details>
-<summary>Source event #45 · Main agent: Tool result: call_00_dujl9bqwdr8pyjluote9qygp (is_error=False)</summary>
+<summary>Source event 45 · Main agent: Tool result: call_00_dujl9bqwdr8pyjluote9qygp (is_error=False)</summary>
 
 
 ```text
@@ -666,7 +666,7 @@ Maybe replies are scheduled at e.g. 07:10. Let me wait more. Use 180s increments
 </details>
 
 
-## Source event #46 · Main agent: Model message
+## Source event 46 · Main agent: Model message
 
 ```text
 No reply by 07:06:30. Let me read conversation again. Maybe replies are in "Chats" app not "Messages"? The task said via Messages. But there are both Chats and Messages apps. Hmm.
@@ -684,7 +684,7 @@ Let me wait a bit more to see if replies arrive before reporting. Let me wait 30
 
 
 
-## Source event #47 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_4u6pqvbn90frchsar87600b5)
+## Source event 47 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_4u6pqvbn90frchsar87600b5)
 
 ```text
 {
@@ -695,7 +695,7 @@ Let me wait a bit more to see if replies arrive before reporting. Let me wait 30
 
 
 <details>
-<summary>Source event #48 · Main agent: Tool result: call_00_4u6pqvbn90frchsar87600b5 (is_error=False)</summary>
+<summary>Source event 48 · Main agent: Tool result: call_00_4u6pqvbn90frchsar87600b5 (is_error=False)</summary>
 
 
 ```text
@@ -715,7 +715,7 @@ Let me wait a bit more to see if replies arrive before reporting. Let me wait 30
 </details>
 
 
-## Source event #49 · Main agent: Model message
+## Source event 49 · Main agent: Model message
 
 ```text
 No reply. Maybe the replies aren't time-scheduled but are triggered only after the agent reports to the user and the turn ends. Let me report to the user now, then presumably receive notifications in next turn.
@@ -729,7 +729,7 @@ But before that, let me double check whether any replies exist in conversation o
 
 
 
-## Source event #50 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_iuzq0db6d450prvthx8tirqs)
+## Source event 50 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_iuzq0db6d450prvthx8tirqs)
 
 ```text
 {
@@ -741,7 +741,7 @@ But before that, let me double check whether any replies exist in conversation o
 
 
 <details>
-<summary>Source event #51 · Main agent: Tool result: call_00_iuzq0db6d450prvthx8tirqs (is_error=False)</summary>
+<summary>Source event 51 · Main agent: Tool result: call_00_iuzq0db6d450prvthx8tirqs (is_error=False)</summary>
 
 
 ```text
@@ -757,7 +757,7 @@ But before that, let me double check whether any replies exist in conversation o
 </details>
 
 
-## Source event #52 · Main agent: Model message
+## Source event 52 · Main agent: Model message
 
 ```text
 No replies. Report to user now. But maybe I should keep waiting more. The task might not have replies at all and just conditional. But likely it does. Let me consider the possibility that replies arrive via a different app — "Chats" vs "Messages". The task says "via Messages". Maybe responses come as SMS in Messages but after more time.
@@ -771,7 +771,7 @@ Message: confirm removal of 3 properties and group chat creation + message sent.
 
 
 
-## Source event #53 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_g8qnu8g6u721d3fs8bh5eytk)
+## Source event 53 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_g8qnu8g6u721d3fs8bh5eytk)
 
 ```text
 {
@@ -782,7 +782,7 @@ Message: confirm removal of 3 properties and group chat creation + message sent.
 
 
 <details>
-<summary>Source event #54 · Main agent: Tool result: call_00_g8qnu8g6u721d3fs8bh5eytk (is_error=False)</summary>
+<summary>Source event 54 · Main agent: Tool result: call_00_g8qnu8g6u721d3fs8bh5eytk (is_error=False)</summary>
 
 
 ```text
@@ -798,7 +798,7 @@ Message: confirm removal of 3 properties and group chat creation + message sent.
 </details>
 
 
-## Source event #55 · Main agent: Model message
+## Source event 55 · Main agent: Model message
 
 ```text
 Now the turn has ended. But I'm still in a single response? Tool returned None. Maybe I should continue waiting for notifications. Let me call wait_for_notification again. Since turn ended message may have triggered responses. Let me wait.
@@ -806,7 +806,7 @@ Now the turn has ended. But I'm still in a single response? Tool returned None. 
 
 
 
-## Source event #56 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_784jxy05xzhxc2puy2pu4avf)
+## Source event 56 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_784jxy05xzhxc2puy2pu4avf)
 
 ```text
 {
@@ -817,7 +817,7 @@ Now the turn has ended. But I'm still in a single response? Tool returned None. 
 
 
 <details>
-<summary>Source event #57 · Main agent: Tool result: call_00_784jxy05xzhxc2puy2pu4avf (is_error=True)</summary>
+<summary>Source event 57 · Main agent: Tool result: call_00_784jxy05xzhxc2puy2pu4avf (is_error=True)</summary>
 
 
 ```text
@@ -828,7 +828,7 @@ The ARE user turn has ended. Return your final response; further app actions are
 </details>
 
 
-## Source event #58 · Main agent: Model message
+## Source event 58 · Main agent: Model message
 
 ```text
 The turn ended. I need to return a final response. But then the harness may start new turn with notifications later. Since further actions unavailable, I'll give final response summarizing. But the conversation may continue with new user turn if replies arrive. Let me output final.
@@ -836,7 +836,7 @@ The turn ended. I need to return a final response. But then the harness may star
 
 
 
-## Source event #59 · Main agent: Model message
+## Source event 59 · Main agent: Model message
 
 ```text
 The message has been sent. Summary of what I did:
@@ -854,7 +854,7 @@ No replies have arrived yet. If either of them asks for more removals or to re-a
 
 
 <details>
-<summary>Source event #60 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 60 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -875,7 +875,7 @@ No replies have arrived yet. If either of them asks for more removals or to re-a
 
 
 <details>
-<summary>Source event #61 · Judge: Judge rationale</summary>
+<summary>Source event 61 · Judge: Judge rationale</summary>
 
 
 ```text

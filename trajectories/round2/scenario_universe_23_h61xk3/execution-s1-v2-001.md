@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 26 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -24,7 +24,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #27 · Sub-agent 1: model output
+## Source event 27 · Sub-agent 1: model output
 
 ```text
 I'll check the inbox for a reply from Eliška.
@@ -45,7 +45,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: tool result</summary>
+<summary>Source event 28 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -59,7 +59,7 @@ ReturnedEmails(emails=[Email(sender='lucie.novakova@kosmetika.cz', recipients=['
 </details>
 
 
-## Source event #29 · Sub-agent 1: model output
+## Source event 29 · Sub-agent 1: model output
 
 ```text
 Eliška has replied — she says the purchased balloons were wrong and points to a different product. Let me read her email properly to mark it as read.
@@ -79,7 +79,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 1: tool result</summary>
+<summary>Source event 30 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -99,7 +99,7 @@ You were actually meant to purchase every variant of the PIONEER BALLOON COMPANY
 </details>
 
 
-## Source event #31 · Sub-agent 1: model output
+## Source event 31 · Sub-agent 1: model output
 
 ```text
 Eliška says the correct item is every available variant of the PIONEER BALLOON COMPANY 68810 Bubble Balloon, 24", Multi. First, I'll cancel the original order.
@@ -119,7 +119,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: tool result</summary>
+<summary>Source event 32 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -133,7 +133,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 1: model output
+## Source event 33 · Sub-agent 1: model output
 
 ```text
 Order cancelled. Now searching for the product Eliška recommended.
@@ -153,7 +153,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: tool result</summary>
+<summary>Source event 34 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -167,7 +167,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 1: model output
+## Source event 35 · Sub-agent 1: model output
 
 ```text
 Exact search returned no results. Let me try a broader search.
@@ -187,7 +187,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -201,7 +201,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Eliška says the correct purchase is **every available variant** of the PIONEER BALLOON COMPANY 68810 Bubble Balloon, 24", Multi. Available variants: Multi/24"/Latex/Single, Pastel/24"/Latex/Single, Multi/36"/Latex/Single, and Multi/24"/Latex/Pack of 6 (the Mylar one is unavailable). Adding each available variant.
@@ -222,7 +222,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -236,7 +236,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 Thought: Add the second available variant (Pastel, 24", Latex, Single).
@@ -255,7 +255,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -269,7 +269,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 Thought: Add the third available variant (Multi, 36", Latex, Single).
@@ -288,7 +288,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -302,7 +302,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 1: model output
+## Source event 43 · Sub-agent 1: model output
 
 ```text
 Thought: Add the fourth available variant (Multi, 24", Latex, Pack of 6).
@@ -321,7 +321,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -335,7 +335,7 @@ cde619ff216d4f999ac12e733ba2583f
 </details>
 
 
-## Source event #45 · Sub-agent 1: model output
+## Source event 45 · Sub-agent 1: model output
 
 ```text
 All four available variants are in the cart. Completing checkout.
@@ -353,7 +353,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -367,7 +367,7 @@ cec65e8317e14a46b8e04cbecd7c66e3
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 New order created. Now informing the user.
@@ -387,7 +387,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text

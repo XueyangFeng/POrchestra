@@ -1,6 +1,8 @@
 # scenario_universe_21_ycoch2
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_21_ycoch2/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_21_ycoch2/README.md) · [Codex](../../codex/round3/scenario_universe_21_ycoch2/README.md) · [OpenCode](../../opencode/round3/scenario_universe_21_ycoch2/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to create the group conversation first and notify the user as requested. I&#x27;ll also need to identify the participants&#x27; IDs to monitor their messages later.
 
@@ -86,7 +88,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #22
+**Harness configuration updated** · Source event 22
 
 **1. Sub-agent revision request**
 
@@ -95,7 +97,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Subtask complete: all 5 user IDs resolved, group conversation 'Happy Astrid Day!' created, and user notified. A new environment notification reports an incoming message in conversation ID fbcc8b1b3a6444ebad021e424ec7bd2c (note: differs from the ID returned at creation, 99430469ecc438818c4d18e2045fa10d).
 ```
 <details>
-<summary>Request and evidence · source event #20</summary>
+<summary>Request and evidence · source event 20</summary>
 
 
 ```text
@@ -145,7 +147,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The group conversation has been created, and we are now in the 5-minute monitoring window (07:00 to 07:05). An incoming message has already been detected. The SubAgent needs to verify the correct conversation ID, track distinct senders within the time limit, and execute the conditional van ride, group message, and calendar cleanup if the &#x27;3 distinct people&#x27; threshold is met.
 

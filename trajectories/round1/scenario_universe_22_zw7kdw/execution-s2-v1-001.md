@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 20 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Perform the following scheduled tasks: 1. Send four more emails to aurelien.lafl
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 I'll start by checking the current time to calculate the appropriate wait durations.
@@ -32,7 +32,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -46,7 +46,7 @@ Action:
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 Current time is 07:00:26. I need to wait 46 seconds until 07:01:12 to send the first reminder email of the batch of four.
@@ -63,7 +63,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -78,7 +78,7 @@ None
 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 25 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -91,7 +91,7 @@ Environment notifications:
 </details>
 
 
-## Source event #26 · Sub-agent 2: model output
+## Source event 26 · Sub-agent 2: model output
 
 ```text
 Wait complete. Now sending the first reminder email at 07:01:12.
@@ -110,7 +110,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 2: tool result</summary>
+<summary>Source event 27 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -124,7 +124,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 2: model output
+## Source event 28 · Sub-agent 2: model output
 
 ```text
 First reminder email sent. Waiting 60 seconds for the next one at 07:02:12.
@@ -141,7 +141,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: tool result</summary>
+<summary>Source event 29 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -156,7 +156,7 @@ None
 
 
 <details>
-<summary>Source event #30 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 30 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -169,7 +169,7 @@ Environment notifications:
 </details>
 
 
-## Source event #31 · Sub-agent 2: model output
+## Source event 31 · Sub-agent 2: model output
 
 ```text
 Wait complete. Sending the second reminder email at 07:02:12.
@@ -188,7 +188,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: tool result</summary>
+<summary>Source event 32 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -202,7 +202,7 @@ eac429b410b76e2c8d5408beefc4019b
 </details>
 
 
-## Source event #33 · Sub-agent 2: model output
+## Source event 33 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -217,7 +217,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -232,7 +232,7 @@ None
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 35 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -245,7 +245,7 @@ Environment notifications:
 </details>
 
 
-## Source event #36 · Sub-agent 2: model output
+## Source event 36 · Sub-agent 2: model output
 
 ```text
 Wait complete. Sending the third reminder email at 07:03:12.
@@ -264,7 +264,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: tool result</summary>
+<summary>Source event 37 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -278,7 +278,7 @@ abf753b5376a2a642c52f6e20594e628
 </details>
 
 
-## Source event #38 · Sub-agent 2: model output
+## Source event 38 · Sub-agent 2: model output
 
 ```text
 Third reminder sent. Waiting 60 seconds until 07:04:12.
@@ -295,7 +295,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 2: tool result</summary>
+<summary>Source event 39 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -310,7 +310,7 @@ None
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 40 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -323,7 +323,7 @@ Environment notifications:
 </details>
 
 
-## Source event #41 · Sub-agent 2: model output
+## Source event 41 · Sub-agent 2: model output
 
 ```text
 Wait complete. Now sending the fourth reminder email and the email to Kaidën Rylan at 07:04:12.
@@ -342,7 +342,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 2: tool result</summary>
+<summary>Source event 42 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -356,7 +356,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 2: model output
+## Source event 43 · Sub-agent 2: model output
 
 ```text
 Fourth reminder sent. Now sending email to Kaidën Rylan.
@@ -375,7 +375,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: tool result</summary>
+<summary>Source event 44 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -389,7 +389,7 @@ da5d5697217549f5df5fe0363e7b36ce
 </details>
 
 
-## Source event #45 · Sub-agent 2: model output
+## Source event 45 · Sub-agent 2: model output
 
 ```text
 Email to Kaidën sent. Now notifying the user.
@@ -406,7 +406,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: tool result</summary>
+<summary>Source event 46 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -421,7 +421,7 @@ None
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 47 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -434,7 +434,7 @@ Environment notifications:
 </details>
 
 
-## Source event #48 · Sub-agent 2: model output
+## Source event 48 · Sub-agent 2: model output
 
 ```text
 I've completed the assigned scheduled tasks. A new email notification arrived after my user notification — this could be Kaidën's reply, which the original turn says requires conditional follow-up actions (replying and adding a calendar event). I don't have an email-reading tool, so I'll report this handoff to MainAgent.
@@ -480,7 +480,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: tool result</summary>
+<summary>Source event 49 · Sub-agent 2: tool result</summary>
 
 
 ```text

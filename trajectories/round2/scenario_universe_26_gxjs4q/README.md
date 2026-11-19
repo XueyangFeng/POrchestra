@@ -1,6 +1,8 @@
 # scenario_universe_26_gxjs4q
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_26_gxjs4q/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_26_gxjs4q/README.md) · [Codex](../../codex/round2/scenario_universe_26_gxjs4q/README.md) · [OpenCode](../../opencode/round2/scenario_universe_26_gxjs4q/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the current variants of products with &#x27;Great Eastern Entertainment&#x27; in their names to establish a baseline. Then, I need to wait until 3.5 minutes have passed (07:03:30) to check for and purchase any new qualifying variants.
 
@@ -95,11 +97,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #33
+**Initial harness configuration** · Source event 33
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The shopping part is complete: 5 new variants were bought for a total of 122.27. Now I need to identify the contacts from Trondheim and send them a group email as requested by the user.
 
@@ -166,7 +168,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

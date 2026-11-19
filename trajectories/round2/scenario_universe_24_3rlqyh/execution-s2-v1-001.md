@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 28 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Find the calendar event titled 'Research Collaboration with Kazimierz Wojciechow
 </details>
 
 
-## Source event #29 · Sub-agent 2: model output
+## Source event 29 · Sub-agent 2: model output
 
 ```text
 I'll start by verifying the current date and searching for the event.
@@ -32,7 +32,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 2: tool result</summary>
+<summary>Source event 30 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -46,7 +46,7 @@ Action:
 </details>
 
 
-## Source event #31 · Sub-agent 2: model output
+## Source event 31 · Sub-agent 2: model output
 
 ```text
 Current date confirmed as 2024-10-15. Now searching for the event.
@@ -63,7 +63,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: tool result</summary>
+<summary>Source event 32 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -77,7 +77,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 2: model output
+## Source event 33 · Sub-agent 2: model output
 
 ```text
 Found the event scheduled today 14:00–16:00. Deleting it now.
@@ -94,7 +94,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -108,7 +108,7 @@ Event 31a215b1f9e748d293de354354e4efc1 successfully deleted.
 </details>
 
 
-## Source event #35 · Sub-agent 2: model output
+## Source event 35 · Sub-agent 2: model output
 
 ```text
 Deletion reported successful. Verifying the event is gone from today's schedule.
@@ -128,7 +128,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -142,7 +142,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 2: model output
+## Source event 37 · Sub-agent 2: model output
 
 ```text
 The event titled 'Research Collaboration with Kazimierz Wojciechowski' (14:00–16:00 today) is no longer present in today's schedule. Remaining events are Lecture Preparation, Coffee Break with Aurélien Van der Straeten, and Yoga Class. Deletion confirmed.
@@ -189,7 +189,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: tool result</summary>
+<summary>Source event 38 · Sub-agent 2: tool result</summary>
 
 
 ```text

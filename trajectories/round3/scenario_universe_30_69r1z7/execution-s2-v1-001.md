@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #14 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 14 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Count the total number of 1:1 direct message threads with Gerrit van der Meer ac
 </details>
 
 
-## Source event #15 · Sub-agent 2: model output
+## Source event 15 · Sub-agent 2: model output
 
 ```text
 I'll look up Gerrit van der Meer's user ID in both apps.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 2: tool result</summary>
+<summary>Source event 16 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #17 · Sub-agent 2: model output
+## Source event 17 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -63,7 +63,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 2: tool result</summary>
+<summary>Source event 18 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -77,7 +77,7 @@ None
 </details>
 
 
-## Source event #19 · Sub-agent 2: model output
+## Source event 19 · Sub-agent 2: model output
 
 ```text
 Messages has an ID; Chats exact lookup returned None. Let me try a fuzzy lookup in Chats and list Messages conversations.
@@ -94,7 +94,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: tool result</summary>
+<summary>Source event 20 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -108,7 +108,7 @@ Action:
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 Chats has no match. Now let's list Messages conversations.
@@ -127,7 +127,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -141,7 +141,7 @@ Action:
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 All three so far are group threads. Let me paginate for more.
@@ -161,7 +161,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -175,7 +175,7 @@ Action:
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 Messages shows only 3 group threads and no 1:1. Let me verify Chats with a broader search.
@@ -192,7 +192,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -206,7 +206,7 @@ Action:
 </details>
 
 
-## Source event #27 · Sub-agent 2: model output
+## Source event 27 · Sub-agent 2: model output
 
 ```text
 Chats has no user named "Gerrit van der Meer" (only a different person, "Gerrit Janssen"), so Chats contributes 0. Messages has 3 threads with Gerrit, all group conversations (3–4 participants each), with pagination confirming no additional threads. Total 1:1 count = 0 → "None".
@@ -223,7 +223,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: tool result</summary>
+<summary>Source event 28 · Sub-agent 2: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 25 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #26 · Sub-agent 2: model output
+## Source event 26 · Sub-agent 2: model output
 
 ```text
 I'll start by finding Linnea Svensson's user ID and checking the current time.
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 2: tool result</summary>
+<summary>Source event 27 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 2: model output
+## Source event 28 · Sub-agent 2: model output
 
 ```text
 Found Linnea Svensson's ID: `+46700234567`. Now let me check the current time.
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: tool result</summary>
+<summary>Source event 29 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 2: model output
+## Source event 30 · Sub-agent 2: model output
 
 ```text
 Current time is 07:00:30. I need to monitor until 07:04:00. Let me first search for current apartment listings in Stockholm within the price range to establish a baseline.
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: tool result</summary>
+<summary>Source event 31 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -116,7 +116,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 2: model output
+## Source event 32 · Sub-agent 2: model output
 
 ```text
 All 6 current listings are already-processed IDs. Now I'll monitor for new listings until 07:04:00. Current time is 07:00:30.
@@ -133,7 +133,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result</summary>
+<summary>Source event 33 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -148,7 +148,7 @@ None
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 34 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -161,7 +161,7 @@ Environment notifications:
 </details>
 
 
-## Source event #35 · Sub-agent 2: model output
+## Source event 35 · Sub-agent 2: model output
 
 ```text
 Timeout reached. Let me check the current time and search for any new listings.
@@ -176,7 +176,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -190,7 +190,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 2: model output
+## Source event 37 · Sub-agent 2: model output
 
 ```text
 Time is 07:01:31. Let me check for new listings.
@@ -209,7 +209,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: tool result</summary>
+<summary>Source event 38 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -223,7 +223,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 2: model output
+## Source event 39 · Sub-agent 2: model output
 
 ```text
 A new property `b07df1a4515fbd111da9a66793e12da1` (Vasastan Serenity, 1800.0) appeared. I'll send a message to Linnea and save it.
@@ -241,7 +241,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: tool result</summary>
+<summary>Source event 40 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -255,7 +255,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 2: model output
+## Source event 41 · Sub-agent 2: model output
 
 ```text
 Message sent. Now saving the property.
@@ -272,7 +272,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 2: tool result</summary>
+<summary>Source event 42 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -286,7 +286,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #43 · Sub-agent 2: model output
+## Source event 43 · Sub-agent 2: model output
 
 ```text
 Property saved. Continuing to monitor until 07:04:00.
@@ -303,7 +303,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: tool result</summary>
+<summary>Source event 44 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -318,7 +318,7 @@ None
 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 45 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -331,7 +331,7 @@ Environment notifications:
 </details>
 
 
-## Source event #46 · Sub-agent 2: model output
+## Source event 46 · Sub-agent 2: model output
 
 ```text
 Checking time and searching for new listings.
@@ -346,7 +346,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result</summary>
+<summary>Source event 47 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -360,7 +360,7 @@ Action:
 </details>
 
 
-## Source event #48 · Sub-agent 2: model output
+## Source event 48 · Sub-agent 2: model output
 
 ```text
 Time is 07:02:31. Searching for new listings.
@@ -379,7 +379,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: tool result</summary>
+<summary>Source event 49 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -393,7 +393,7 @@ Action:
 </details>
 
 
-## Source event #50 · Sub-agent 2: model output
+## Source event 50 · Sub-agent 2: model output
 
 ```text
 New property `1dd456cf7b6ae7c72f9bb9d536a000f6` (Södermalm Heaven, 1600.0) found. Sending message to Linnea and saving.
@@ -412,7 +412,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 2: tool result</summary>
+<summary>Source event 51 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -426,7 +426,7 @@ Action:
 </details>
 
 
-## Source event #52 · Sub-agent 2: model output
+## Source event 52 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -441,7 +441,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 2: tool result</summary>
+<summary>Source event 53 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -455,7 +455,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #54 · Sub-agent 2: model output
+## Source event 54 · Sub-agent 2: model output
 
 ```text
 Property saved. Continuing to monitor.
@@ -472,7 +472,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 2: tool result</summary>
+<summary>Source event 55 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -487,7 +487,7 @@ None
 
 
 <details>
-<summary>Source event #56 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 56 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -501,7 +501,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 2: tool result</summary>
+<summary>Source event 57 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -519,7 +519,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #58 · Sub-agent 2: model output
+## Source event 58 · Sub-agent 2: model output
 
 ```text
 Retrying the time check after that transient API error.
@@ -534,7 +534,7 @@ Action:
 
 
 <details>
-<summary>Source event #59 · Sub-agent 2: tool result</summary>
+<summary>Source event 59 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -548,7 +548,7 @@ Action:
 </details>
 
 
-## Source event #60 · Sub-agent 2: model output
+## Source event 60 · Sub-agent 2: model output
 
 ```text
 Time is 07:03:31, still within the window. Searching for new listings.
@@ -568,7 +568,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 2: tool result</summary>
+<summary>Source event 61 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -582,7 +582,7 @@ Action:
 </details>
 
 
-## Source event #62 · Sub-agent 2: model output
+## Source event 62 · Sub-agent 2: model output
 
 ```text
 No new listings. Waiting for the remaining time until 07:04:00.
@@ -599,7 +599,7 @@ Action:
 
 
 <details>
-<summary>Source event #63 · Sub-agent 2: tool result</summary>
+<summary>Source event 63 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -614,7 +614,7 @@ None
 
 
 <details>
-<summary>Source event #64 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 64 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -627,7 +627,7 @@ Environment notifications:
 </details>
 
 
-## Source event #65 · Sub-agent 2: model output
+## Source event 65 · Sub-agent 2: model output
 
 ```text
 Checking the time to confirm we've passed the deadline.
@@ -643,7 +643,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 2: tool result</summary>
+<summary>Source event 66 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -657,7 +657,7 @@ Action:
 </details>
 
 
-## Source event #67 · Sub-agent 2: model output
+## Source event 67 · Sub-agent 2: model output
 
 ```text
 Time is 07:04:16, past the deadline. Let me do a final search to catch anything that appeared between 07:03:31 and 07:04:00.
@@ -677,7 +677,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 2: tool result</summary>
+<summary>Source event 68 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -691,7 +691,7 @@ Action:
 </details>
 
 
-## Source event #69 · Sub-agent 2: model output
+## Source event 69 · Sub-agent 2: model output
 
 ```text
 Monitoring complete. The deadline (07:04:00) has passed with no further new listings. Let me hand off.
@@ -766,7 +766,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 2: tool result</summary>
+<summary>Source event 70 · Sub-agent 2: tool result</summary>
 
 
 ```text

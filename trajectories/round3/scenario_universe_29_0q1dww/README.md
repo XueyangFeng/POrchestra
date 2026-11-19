@@ -1,6 +1,8 @@
 # scenario_universe_29_0q1dww
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_29_0q1dww/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_29_0q1dww/README.md) · [Codex](../../codex/round3/scenario_universe_29_0q1dww/README.md) · [OpenCode](../../opencode/round3/scenario_universe_29_0q1dww/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the target product, its price, and all applicable discount codes to determine the &#x27;best&#x27; sequence of codes. I also need to identify the two sisters mentioned in the task based on the specified dinner dates to be prepared for the conditional messaging requirement.
 
@@ -98,11 +100,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #46
+**Initial harness configuration** · Source event 46
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The product, available variants, ranked discount codes, and the contact information for the two sisters have been identified. Now the agent needs to perform the actual purchase, monitor for cancellations, and handle the required communications with the user and the group chat.
 

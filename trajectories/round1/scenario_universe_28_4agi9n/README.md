@@ -1,6 +1,8 @@
 # scenario_universe_28_4agi9n
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_28_4agi9n/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_28_4agi9n/README.md) · [Codex](../../codex/round1/scenario_universe_28_4agi9n/README.md) · [OpenCode](../../opencode/round1/scenario_universe_28_4agi9n/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 Acknowledge the wait timeout notification. The agent should continue monitoring the product availability and waiting until 07:02:30 to perform the purchase if available.
 
@@ -113,7 +115,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #26
+**Harness configuration updated** · Source event 26
 
 **1. Sub-agent revision request**
 
@@ -122,7 +124,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Monitoring blue Abacus with Clock; currently unavailable at 07:01:11 (last search). Received a wait-for-notification timeout notification.
 ```
 <details>
-<summary>Request and evidence · source event #24</summary>
+<summary>Request and evidence · source event 24</summary>
 
 
 ```text
@@ -209,7 +211,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #1</summary>
+<summary>Source event 1</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_22_ottdy5
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_22_ottdy5/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_22_ottdy5/README.md) · [Codex](../../codex/round1/scenario_universe_22_ottdy5/README.md) · [OpenCode](../../opencode/round1/scenario_universe_22_ottdy5/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify all unique zip codes where properties are located, determine their crime rates to find the 5 with the lowest property crime, and then save all properties in those zip codes. This requires interacting with RentAFlat and City apps.
 
@@ -91,11 +93,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #108
+**Initial harness configuration** · Source event 108
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous agent collected property crime rates for 47 out of 77 zip codes. I need a new SubAgent to complete the lookups for the remaining 30 zip codes, identify the final top 5 lowest-crime zip codes, save all properties in those zip codes in RentAFlat, and message Nalani Jensen as requested.
 
@@ -165,7 +167,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

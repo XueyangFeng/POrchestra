@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result (continued, part 5)</summary>
+<summary>Source event 37 · Sub-agent 1: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ ring AI Applications for Sustainable Architecture', content="Dear Liesbeth,\n\nI
 </details>
 
 
-## Source event #38 · Sub-agent 1: model output
+## Source event 38 · Sub-agent 1: model output
 
 ```text
 I need to check for the newly received email from Nalinee. Let me re-list the top of the inbox to see if a reply from her has arrived.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: tool result</summary>
+<summary>Source event 39 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ ReturnedEmails(emails=[Email(sender='seamus.vandenberghe@gaia2mail.com', recipie
 </details>
 
 
-## Source event #40 · Sub-agent 1: model output
+## Source event 40 · Sub-agent 1: model output
 
 ```text
 The 10/20 calendar event has been created (id e03b534af959899d9ca5c1d3e342f522). No new reply email from Nalinee Srisombat is present in the inbox; the deletion notification is the signal that 10/20 is preferred. I will proceed with the associated conditional actions, starting by getting the user's home address.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: tool result</summary>
+<summary>Source event 41 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -93,7 +93,7 @@ Address: Sint-Michielsstraat 23, 3000 Leuven, Belgium
 </details>
 
 
-## Source event #42 · Sub-agent 1: model output
+## Source event 42 · Sub-agent 1: model output
 
 ```text
 The user's home address is Sint-Michielsstraat 23, 3000 Leuven, Belgium. Now I'll book the premium cab for 2024-10-20 at 12:00 to Sint-Pietersnieuwstraat 133, 9000 Gent.
@@ -113,7 +113,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: tool result</summary>
+<summary>Source event 43 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -136,7 +136,7 @@ Ride ID: 6acbe88d2e50cc6bc7af2e04429d65f0
 </details>
 
 
-## Source event #44 · Sub-agent 1: model output
+## Source event 44 · Sub-agent 1: model output
 
 ```text
 The cab is booked. Now I'll search for the Stephen Joseph Mini Sidekick Backpack in the shopping app.
@@ -153,7 +153,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -167,7 +167,7 @@ Action:
 </details>
 
 
-## Source event #46 · Sub-agent 1: model output
+## Source event 46 · Sub-agent 1: model output
 
 ```text
 The green variant is available (item_id 17dc3efa36244db1804dec060bf7ce53). I'll add one to the cart.
@@ -185,7 +185,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result</summary>
+<summary>Source event 47 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -199,7 +199,7 @@ Action:
 </details>
 
 
-## Source event #48 · Sub-agent 1: model output
+## Source event 48 · Sub-agent 1: model output
 
 ```text
 The green backpack has been added to the cart. Now I'll complete the checkout.
@@ -214,7 +214,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: tool result</summary>
+<summary>Source event 49 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -228,7 +228,7 @@ Action:
 </details>
 
 
-## Source event #50 · Sub-agent 1: model output
+## Source event 50 · Sub-agent 1: model output
 
 ```text
 The backpack is ordered. Now I'll search for 'Brussels Bliss' in the RentAFlat app.
@@ -245,7 +245,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 1: tool result</summary>
+<summary>Source event 51 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -259,7 +259,7 @@ Action:
 </details>
 
 
-## Source event #52 · Sub-agent 1: model output
+## Source event 52 · Sub-agent 1: model output
 
 ```text
 The apartment "Brussels Bliss" was found with id 75399f53f3e34a4da86b8636065f26e3. I'll save it to favorites.
@@ -276,7 +276,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 1: tool result</summary>
+<summary>Source event 53 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -290,7 +290,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #54 · Sub-agent 1: model output
+## Source event 54 · Sub-agent 1: model output
 
 ```text
 All assigned follow-up actions are complete. I will hand off to MainAgent with the results.
@@ -333,7 +333,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 1: tool result</summary>
+<summary>Source event 55 · Sub-agent 1: tool result</summary>
 
 
 ```text

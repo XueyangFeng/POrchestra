@@ -1,6 +1,8 @@
 # scenario_universe_25_qlrsjj
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_25_qlrsjj/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_25_qlrsjj/README.md) · [Codex](../../codex/round2/scenario_universe_25_qlrsjj/README.md) · [OpenCode](../../opencode/round2/scenario_universe_25_qlrsjj/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify and reply to the relevant emails received in the specified 5-day window and also schedule the calendar event. I will start by delegating the email processing.
 
@@ -88,11 +90,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #24
+**Initial harness configuration** · Source event 24
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The email replies for the specified period (Oct 10 - Oct 14) have been successfully sent. Now, I need to schedule the corresponding time in the calendar as requested by the user.
 
@@ -152,7 +154,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

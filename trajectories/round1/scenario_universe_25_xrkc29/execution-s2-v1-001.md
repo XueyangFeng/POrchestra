@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 29 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #30 · Sub-agent 2: model output
+## Source event 30 · Sub-agent 2: model output
 
 ```text
 Thought: I need to find the contact who is a former pediatric nurse. First, I'll retrieve the list of contacts to inspect their fields.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: tool result</summary>
+<summary>Source event 31 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 2: model output
+## Source event 32 · Sub-agent 2: model output
 
 ```text
 I need to browse more contacts to find the former pediatric nurse. Let me continue scrolling.
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result</summary>
+<summary>Source event 33 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 2: model output
+## Source event 34 · Sub-agent 2: model output
 
 ```text
 I found the former pediatric nurse: Fatima Al-Khaja (email: fatima.alkhaja@gaia2mail.com). Now I'll send the email with subject 'Items Ordered' confirming the purchase and including the total price.
@@ -100,7 +100,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: tool result</summary>
+<summary>Source event 35 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -114,7 +114,7 @@ e99491546510d319bc33d842063d8b97
 </details>
 
 
-## Source event #36 · Sub-agent 2: model output
+## Source event 36 · Sub-agent 2: model output
 
 ```text
 The subtask is complete. I found the former pediatric nurse (Fatima Al-Khaja) and sent the email with subject 'Items Ordered', confirming the purchase and including the total price $109.57. The email was sent successfully (message ID: e99491546510d319bc33d842063d8b97).
@@ -159,7 +159,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: tool result</summary>
+<summary>Source event 37 · Sub-agent 2: tool result</summary>
 
 
 ```text

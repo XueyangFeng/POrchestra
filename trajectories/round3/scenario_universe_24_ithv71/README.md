@@ -1,6 +1,8 @@
 # scenario_universe_24_ithv71
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_24_ithv71/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_24_ithv71/README.md) · [Codex](../../codex/round3/scenario_universe_24_ithv71/README.md) · [OpenCode](../../opencode/round3/scenario_universe_24_ithv71/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the target group chat, find and save the most expensive 4+ bedroom properties, and send the initial recommendation to the group. I need to gather the property details and message the group as requested, then notify the user that this has been done.
 
@@ -97,7 +99,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #28
+**Harness configuration updated** · Source event 28
 
 **1. Sub-agent revision request**
 
@@ -106,7 +108,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Steps 1-6 of the assigned subtask are complete: identified group chat 'Swiss Technology and Culture' (id 2edff086aeea40e3ab5ba8fde24e5a8b) with friends Aurélien (5372bd96-e0a7-4e88-90e7-eedf40d318e4), Katarzyna (83019f81-edd3-43fa-a12b-214427d17483), Ursula Zwygart (5f1945c2-122f-4d30-b705-2d6f8326fb13); found highest-priced 4+ bedroom properties at 4000 CHF (Geneva Seaside 2500 sqft; Geneva Luxury 2000 sqft, already saved); saved Geneva Seaside (b1b3b2759fb84a1dbbf6878bdf4135a7); sent group message recommending Geneva Seaside; messaged user. NEW: all three friends replied rejecting the property, each stating requirements, so the conditional follow-up in the original task is now triggered.
 ```
 <details>
-<summary>Request and evidence · source event #26</summary>
+<summary>Request and evidence · source event 26</summary>
 
 
 ```text
@@ -163,7 +165,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The friends have rejected the recommended property and provided specific requirements. The SubAgent needs to proceed with the second branch of the original task: removing the rejected property from the saved list, finding and saving properties that meet all the friends&#x27; new specifications (Price &lt;= 3500, Dogs allowed, Unfurnished or Semi-furnished), informing the group chat of these properties, and reporting the final saved count to the user.
 

@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #68 · Sub-agent 1: System configuration update</summary>
+<summary>Source event 68 · Sub-agent 1: System configuration update</summary>
 
 
 ```text
@@ -217,7 +217,7 @@ The search looks for partial matches in title, description, location, and attend
 
 
 <details>
-<summary>Source event #69 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 69 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -236,7 +236,7 @@ The search looks for partial matches in title, description, location, and attend
 
 
 <details>
-<summary>Source event #70 · Sub-agent 1: model output</summary>
+<summary>Source event 70 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -280,7 +280,7 @@ Action:
 
 
 <details>
-<summary>Source event #71 · Sub-agent 1: tool result</summary>
+<summary>Source event 71 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -295,7 +295,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 1: System configuration update</summary>
+<summary>Source event 72 · Sub-agent 1: System configuration update</summary>
 
 
 ```text
@@ -515,7 +515,7 @@ The search looks for partial matches in title, description, location, and attend
 
 
 <details>
-<summary>Source event #73 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 73 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -534,7 +534,7 @@ The search looks for partial matches in title, description, location, and attend
 
 
 <details>
-<summary>Source event #74 · Sub-agent 1: model output</summary>
+<summary>Source event 74 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -578,7 +578,7 @@ Action:
 
 
 <details>
-<summary>Source event #75 · Sub-agent 1: tool result</summary>
+<summary>Source event 75 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -593,7 +593,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 1: System configuration update</summary>
+<summary>Source event 76 · Sub-agent 1: System configuration update</summary>
 
 
 ```text
@@ -822,7 +822,7 @@ The search looks for partial matches in title, description, location, and attend
 
 
 <details>
-<summary>Source event #77 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 77 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -842,7 +842,7 @@ The search looks for partial matches in title, description, location, and attend
 
 
 <details>
-<summary>Source event #78 · Sub-agent 1: model output</summary>
+<summary>Source event 78 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -898,7 +898,7 @@ Action:
 
 
 <details>
-<summary>Source event #79 · Sub-agent 1: tool result</summary>
+<summary>Source event 79 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -916,7 +916,7 @@ SUB-AGENT SESSION 2
 
 
 <details>
-<summary>Source event #80 · Sub-agent 2: Initial system configuration</summary>
+<summary>Source event 80 · Sub-agent 2: Initial system configuration</summary>
 
 
 ```text
@@ -1102,7 +1102,7 @@ The search looks for partial matches in title, description, location, and attend
 
 
 <details>
-<summary>Source event #81 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 81 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -1115,7 +1115,7 @@ Read the conversation 'a962d7b4611143c9b9ffb494533ae0f3' using Messages tools. D
 
 
 <details>
-<summary>Source event #82 · Sub-agent 2: model output</summary>
+<summary>Source event 82 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -1136,7 +1136,7 @@ Action:
 
 
 <details>
-<summary>Source event #83 · Sub-agent 2: tool result</summary>
+<summary>Source event 83 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -1151,7 +1151,7 @@ Action:
 
 
 <details>
-<summary>Source event #84 · Sub-agent 2: model output</summary>
+<summary>Source event 84 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -1173,7 +1173,7 @@ Action:
 
 
 <details>
-<summary>Source event #85 · Sub-agent 2: tool result</summary>
+<summary>Source event 85 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -1188,7 +1188,7 @@ Action:
 
 
 <details>
-<summary>Source event #86 · Sub-agent 2: model output</summary>
+<summary>Source event 86 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -1208,7 +1208,7 @@ Action:
 
 
 <details>
-<summary>Source event #87 · Sub-agent 2: tool result</summary>
+<summary>Source event 87 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -1223,7 +1223,7 @@ Action:
 
 
 <details>
-<summary>Source event #88 · Sub-agent 2: model output</summary>
+<summary>Source event 88 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -1245,7 +1245,7 @@ Action:
 
 
 <details>
-<summary>Source event #89 · Sub-agent 2: tool result</summary>
+<summary>Source event 89 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -1260,7 +1260,7 @@ Action:
 
 
 <details>
-<summary>Source event #90 · Sub-agent 2: model output</summary>
+<summary>Source event 90 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -1282,7 +1282,7 @@ Action:
 
 
 <details>
-<summary>Source event #91 · Sub-agent 2: tool result</summary>
+<summary>Source event 91 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -1297,7 +1297,7 @@ Action:
 
 
 <details>
-<summary>Source event #92 · Sub-agent 2: model output</summary>
+<summary>Source event 92 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -1319,7 +1319,7 @@ Action:
 
 
 <details>
-<summary>Source event #93 · Sub-agent 2: tool result</summary>
+<summary>Source event 93 · Sub-agent 2: tool result</summary>
 
 
 ```text

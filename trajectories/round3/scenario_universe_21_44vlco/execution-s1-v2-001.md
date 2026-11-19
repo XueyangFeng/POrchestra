@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 31 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -25,7 +25,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 I'll start by listing the inbox to find the new emails.
@@ -44,7 +44,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -58,7 +58,7 @@ ReturnedEmails(emails=[Email(sender='luisa.silvaesousa@gaia2mail.com', recipient
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Luísa says the correct location is "42 Valhallavägen 30, Stockholm" and the time is **7am–8am**, not 7pm–8pm — so corrections are needed. Let me check if there's a property listing matching Valhallavägen 30 for the exact address format.
@@ -76,7 +76,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -94,7 +94,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #36 · Sub-agent 1: model output
+## Source event 36 · Sub-agent 1: model output
 
 ```text
 Luísa says the correct location is "42 Valhallavägen 30, Stockholm" and the time is **7am–8am** — so corrections are needed. (Kasper's email asks about moving to Saturday, but that's an unconfirmed request, not a confirmation, so I'll only report it.) I'll delete the old event first.
@@ -112,7 +112,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result</summary>
+<summary>Source event 37 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -126,7 +126,7 @@ Event acea4a8d991e2e64e9a43daa76d19dd2 successfully deleted.
 </details>
 
 
-## Source event #38 · Sub-agent 1: model output
+## Source event 38 · Sub-agent 1: model output
 
 ```text
 Old event deleted. Let me verify the current ride before canceling.
@@ -145,7 +145,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: tool result</summary>
+<summary>Source event 39 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -159,7 +159,7 @@ Action:
 </details>
 
 
-## Source event #40 · Sub-agent 1: model output
+## Source event 40 · Sub-agent 1: model output
 
 ```text
 The old ride isn't in the first page of history, but `Cabs__user_cancel_ride` cancels the current ride. Let me cancel it.
@@ -175,7 +175,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: tool result</summary>
+<summary>Source event 41 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -189,7 +189,7 @@ Ride has been cancelled, sorry to see you go.
 </details>
 
 
-## Source event #42 · Sub-agent 1: model output
+## Source event 42 · Sub-agent 1: model output
 
 ```text
 Ride canceled. Now creating the new calendar event with corrected details (7am–8am, Valhallavägen 30 location).
@@ -213,7 +213,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: tool result</summary>
+<summary>Source event 43 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -227,7 +227,7 @@ Action:
 </details>
 
 
-## Source event #44 · Sub-agent 1: model output
+## Source event 44 · Sub-agent 1: model output
 
 ```text
 New event created (id: 8fce113de00ea4a218ab94f8a582ba16). Now booking the new premium ride 20 minutes before the new 07:00 start time — 06:40.
@@ -248,7 +248,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -271,7 +271,7 @@ Ride ID: f2b176c2b9442bcd8166419c847a3869
 </details>
 
 
-## Source event #46 · Sub-agent 1: model output
+## Source event 46 · Sub-agent 1: model output
 
 ```text
 Now I'll send the final confirmation message to the user.
@@ -289,7 +289,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result</summary>
+<summary>Source event 47 · Sub-agent 1: tool result</summary>
 
 
 ```text

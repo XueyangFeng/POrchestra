@@ -1,6 +1,8 @@
 # scenario_universe_22_slbnzx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_22_slbnzx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_22_slbnzx/README.md) · [Codex](../../codex/round1/scenario_universe_22_slbnzx/README.md) · [OpenCode](../../opencode/round1/scenario_universe_22_slbnzx/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to identify future events with &#x27;Wine&#x27; in the title for the rest of the week, check their attendees, delete the ones that only have the user (or no other attendees), replace them with a &#x27;Private Project&#x27; event of the same time and duration, and report the count of created events to the user.
 

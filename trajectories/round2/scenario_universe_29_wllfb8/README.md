@@ -1,6 +1,8 @@
 # scenario_universe_29_wllfb8
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_29_wllfb8/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_29_wllfb8/README.md) · [Codex](../../codex/round2/scenario_universe_29_wllfb8/README.md) · [OpenCode](../../opencode/round2/scenario_universe_29_wllfb8/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial setup: creating the group chat, adding items to the cart, sending the initial message, and scheduling the calendar event. I will also check for and resolve any calendar conflicts during this setup phase.
 
@@ -97,11 +99,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #66
+**Initial harness configuration** · Source event 66
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous attempt failed to locate the participants in the Messages app directory. I need a SubAgent to exhaustively look for Kaito Rao, Kavita Rao, and Žiga Kovačič using exact names from Contacts, phone numbers, and emails. Once found, the SubAgent will perform the setup actions: creating the group chat, adding items to the cart, sending the initial group message, and scheduling the calendar event (including conflict resolution).
 

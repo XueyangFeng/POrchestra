@@ -1,6 +1,8 @@
 # scenario_universe_22_ottdy5
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_22_ottdy5/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_22_ottdy5/README.md) · [Codex](../../codex/round2/scenario_universe_22_ottdy5/README.md) · [OpenCode](../../opencode/round2/scenario_universe_22_ottdy5/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify all available properties and their zip codes, then find the 5 zip codes with the lowest property crime rates among them. Finally, I will save those properties and message Nalani Jensen with the results.
 
@@ -95,7 +97,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #30
+**Harness configuration updated** · Source event 30
 
 **1. Sub-agent revision request**
 
@@ -104,7 +106,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Retrieved all 76 apartments (76 unique zip codes). API limit=100, current call count=0 before starting; queried 7 zip codes so far: 60654 property_crime=22.67, 77042=15.09, 10013=28.07, 85053=33.03, 92101=25.96, 75204=48.83, 90013=46.87. 69 zip code queries remain, plus saving all apartments in the 5 lowest-crime zips, plus user lookup and message send.
 ```
 <details>
-<summary>Request and evidence · source event #28</summary>
+<summary>Request and evidence · source event 28</summary>
 
 
 ```text
@@ -156,7 +158,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent needs more steps to process all 76 unique zip codes (69 remaining) and save the corresponding properties. The API limit allows for this sequence within a single turn, but the step budget needs to be increased to accommodate the volume of calls.
 
@@ -264,7 +266,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 8 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 I'll start by checking the current time, retrieving tomorrow's calendar events, and checking the inbox.
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Action:
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -70,7 +70,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -84,7 +84,7 @@ Action:
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -99,7 +99,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Event a53652c40da840b491a63ac6a8b0b692 successfully deleted.
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -128,7 +128,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -142,7 +142,7 @@ Event 075c5ad969d14f468c3b0ea09d11d89a successfully deleted.
 </details>
 
 
-## Source event #17 · Sub-agent 1: model output
+## Source event 17 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -157,7 +157,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: tool result</summary>
+<summary>Source event 18 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -171,7 +171,7 @@ Event 4de7beb5cd2346ea805429f22a421921 successfully deleted.
 </details>
 
 
-## Source event #19 · Sub-agent 1: model output
+## Source event 19 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -186,7 +186,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 1: tool result</summary>
+<summary>Source event 20 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -200,7 +200,7 @@ Event 8041c881d0134e24b6c8c4bf1b39e3a7 successfully deleted.
 </details>
 
 
-## Source event #21 · Sub-agent 1: model output
+## Source event 21 · Sub-agent 1: model output
 
 ```text
 Now checking the inbox for property viewing emails.
@@ -219,7 +219,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 1: tool result</summary>
+<summary>Source event 22 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -233,7 +233,7 @@ ReturnedEmails(emails=[Email(sender='sutanto.wijaya@gaia2mail.com', recipients=[
 </details>
 
 
-## Source event #23 · Sub-agent 1: model output
+## Source event 23 · Sub-agent 1: model output
 
 ```text
 No property viewing emails yet in the inbox. I'll wait for new arrivals.
@@ -250,7 +250,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: tool result</summary>
+<summary>Source event 24 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -265,7 +265,7 @@ None
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 25 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -278,7 +278,7 @@ Environment notifications:
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 Thought: An environment notification block arrived announcing a new email from carlos@bluerealty.com. Per my role instructions, I must report this to MainAgent before taking further side effects (reading the email marks it read, and replying/adding events are side effects).
@@ -327,7 +327,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text

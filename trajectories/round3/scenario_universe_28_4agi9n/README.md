@@ -1,6 +1,8 @@
 # scenario_universe_28_4agi9n
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_28_4agi9n/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_28_4agi9n/README.md) · [Codex](../../codex/round3/scenario_universe_28_4agi9n/README.md) · [OpenCode](../../opencode/round3/scenario_universe_28_4agi9n/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires monitoring a product&#x27;s availability for a specific duration (2.5 minutes) and performing a purchase at a precise timestamp (07:02:30). I am delegating the monitoring, the timed addition to the cart, and the purchase to the first SubAgent. This agent will also need to capture the price and the exact time of purchase to satisfy the subsequent &#x27;wait exactly 1 minute&#x27; requirement.
 
@@ -92,11 +94,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #61
+**Initial harness configuration** · Source event 61
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The product has been purchased. Now I need to wait 1 minute, message specific contacts, wait another minute, and notify the user.
 

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #94 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 94 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #95 · Sub-agent 2: tool result</summary>
+<summary>Source event 95 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -40,7 +40,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #96 · Sub-agent 2: model output
+## Source event 96 · Sub-agent 2: model output
 
 ```text
 I'll start by searching for the Fashion Designer contact.
@@ -55,7 +55,7 @@ Action:
 
 
 <details>
-<summary>Source event #97 · Sub-agent 2: tool result</summary>
+<summary>Source event 97 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -69,7 +69,7 @@ Action:
 </details>
 
 
-## Source event #98 · Sub-agent 2: model output
+## Source event 98 · Sub-agent 2: model output
 
 ```text
 No direct match. Let me list all contacts to find one with a "Fashion Designer" role.
@@ -84,7 +84,7 @@ Action:
 
 
 <details>
-<summary>Source event #99 · Sub-agent 2: tool result</summary>
+<summary>Source event 99 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -98,7 +98,7 @@ Action:
 </details>
 
 
-## Source event #100 · Sub-agent 2: model output
+## Source event 100 · Sub-agent 2: model output
 
 ```text
 This page doesn't show a Fashion Designer. Let me search by job keywords.
@@ -113,7 +113,7 @@ Action:
 
 
 <details>
-<summary>Source event #101 · Sub-agent 2: tool result</summary>
+<summary>Source event 101 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -127,7 +127,7 @@ Action:
 </details>
 
 
-## Source event #102 · Sub-agent 2: model output
+## Source event 102 · Sub-agent 2: model output
 
 ```text
 Contact search doesn't match job fields well. Let me check Chats for a user named "Fashion Designer".
@@ -142,7 +142,7 @@ Action:
 
 
 <details>
-<summary>Source event #103 · Sub-agent 2: tool result</summary>
+<summary>Source event 103 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -156,7 +156,7 @@ Action:
 </details>
 
 
-## Source event #104 · Sub-agent 2: model output
+## Source event 104 · Sub-agent 2: model output
 
 ```text
 Let me try searching contacts by "Designer" and also check Chats conversations.
@@ -171,7 +171,7 @@ Action:
 
 
 <details>
-<summary>Source event #105 · Sub-agent 2: tool result</summary>
+<summary>Source event 105 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -196,7 +196,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #106 · Sub-agent 2: model output
+## Source event 106 · Sub-agent 2: model output
 
 ```text
 Limit must be under 5. Retrying with limit=5.
@@ -211,7 +211,7 @@ Action:
 
 
 <details>
-<summary>Source event #107 · Sub-agent 2: tool result</summary>
+<summary>Source event 107 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -225,7 +225,7 @@ Action:
 </details>
 
 
-## Source event #108 · Sub-agent 2: model output
+## Source event 108 · Sub-agent 2: model output
 
 ```text
 The conversations don't show a Fashion Designer yet. I need to page through all 125 contacts to find one with job 'Fashion Designer'.
@@ -240,7 +240,7 @@ Action:
 
 
 <details>
-<summary>Source event #109 · Sub-agent 2: tool result</summary>
+<summary>Source event 109 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -254,7 +254,7 @@ Action:
 </details>
 
 
-## Source event #110 · Sub-agent 2: model output
+## Source event 110 · Sub-agent 2: model output
 
 ```text
 No Fashion Designer yet. Let me continue paging through contacts.
@@ -269,7 +269,7 @@ Action:
 
 
 <details>
-<summary>Source event #111 · Sub-agent 2: tool result</summary>
+<summary>Source event 111 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -283,7 +283,7 @@ Action:
 </details>
 
 
-## Source event #112 · Sub-agent 2: model output
+## Source event 112 · Sub-agent 2: model output
 
 ```text
 Continuing to page through contacts.
@@ -298,7 +298,7 @@ Action:
 
 
 <details>
-<summary>Source event #113 · Sub-agent 2: tool result</summary>
+<summary>Source event 113 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -312,7 +312,7 @@ Action:
 </details>
 
 
-## Source event #114 · Sub-agent 2: model output
+## Source event 114 · Sub-agent 2: model output
 
 ```text
 Continuing paging.
@@ -327,7 +327,7 @@ Action:
 
 
 <details>
-<summary>Source event #115 · Sub-agent 2: tool result</summary>
+<summary>Source event 115 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -341,7 +341,7 @@ Action:
 </details>
 
 
-## Source event #116 · Sub-agent 2: model output
+## Source event 116 · Sub-agent 2: model output
 
 ```text
 Continuing to page through contacts.
@@ -356,7 +356,7 @@ Action:
 
 
 <details>
-<summary>Source event #117 · Sub-agent 2: tool result</summary>
+<summary>Source event 117 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -370,7 +370,7 @@ Action:
 </details>
 
 
-## Source event #118 · Sub-agent 2: model output
+## Source event 118 · Sub-agent 2: model output
 
 ```text
 Found the Fashion Designer: Zhaolong Liang (contact_id 852066cf3f384f64bf58a6528309dff9). Now I need his Chats user ID.
@@ -385,7 +385,7 @@ Action:
 
 
 <details>
-<summary>Source event #119 · Sub-agent 2: tool result</summary>
+<summary>Source event 119 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -399,7 +399,7 @@ Action:
 </details>
 
 
-## Source event #120 · Sub-agent 2: model output
+## Source event 120 · Sub-agent 2: model output
 
 ```text
 Found the Chats user ID. Now sending the message.
@@ -414,7 +414,7 @@ Action:
 
 
 <details>
-<summary>Source event #121 · Sub-agent 2: tool result</summary>
+<summary>Source event 121 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -428,7 +428,7 @@ d46960822cc74d4b8170cc865ffe492a
 </details>
 
 
-## Source event #122 · Sub-agent 2: model output
+## Source event 122 · Sub-agent 2: model output
 
 ```text
 Message sent with message_id `d46960822cc74d4b8170cc865ffe492a`. Now verifying by listing recent conversations.
@@ -443,7 +443,7 @@ Action:
 
 
 <details>
-<summary>Source event #123 · Sub-agent 2: tool result</summary>
+<summary>Source event 123 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -457,7 +457,7 @@ Action:
 </details>
 
 
-## Source event #124 · Sub-agent 2: model output
+## Source event 124 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -497,7 +497,7 @@ Action:
 
 
 <details>
-<summary>Source event #125 · Sub-agent 2: tool result</summary>
+<summary>Source event 125 · Sub-agent 2: tool result</summary>
 
 
 ```text

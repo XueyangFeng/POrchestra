@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #111 · Main agent: Model message
+## Source event 111 · Main agent: Model message
 
 ```text
 Calendar now has 3 events; Research Collaboration removed. Good.
@@ -46,7 +46,7 @@ Let me finalize.
 
 
 
-## Source event #112 · Main agent: Model message
+## Source event 112 · Main agent: Model message
 
 ```text
 All tasks are complete and verified. Let me send a confirmation summary to the user.
@@ -54,7 +54,7 @@ All tasks are complete and verified. Let me send a confirmation summary to the u
 
 
 
-## Source event #113 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_hsnoro0bx5kxskse0kcl882q)
+## Source event 113 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_hsnoro0bx5kxskse0kcl882q)
 
 ```text
 {
@@ -65,7 +65,7 @@ All tasks are complete and verified. Let me send a confirmation summary to the u
 
 
 <details>
-<summary>Source event #114 · Main agent: Tool result: call_00_hsnoro0bx5kxskse0kcl882q (is_error=False)</summary>
+<summary>Source event 114 · Main agent: Tool result: call_00_hsnoro0bx5kxskse0kcl882q (is_error=False)</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ All tasks are complete and verified. Let me send a confirmation summary to the u
 </details>
 
 
-## Source event #115 · Main agent: Model message
+## Source event 115 · Main agent: Model message
 
 ```text
 The message sent. I'm done. Let me give a final answer summary in text too (since send_message ends the turn, but I still can output text). Actually the tool call ended the turn? It returned None. I'll provide final text.
@@ -91,7 +91,7 @@ Let me just summarize.
 
 
 
-## Source event #116 · Main agent: Model message
+## Source event 116 · Main agent: Model message
 
 ```text
 I've completed all the requested tasks:
@@ -115,7 +115,7 @@ One note: the app's `delete_email` is implemented as a move to Trash, so Katarzy
 
 
 <details>
-<summary>Source event #117 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 117 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -142,7 +142,7 @@ One note: the app's `delete_email` is implemented as a move to Trash, so Katarzy
 
 
 <details>
-<summary>Source event #118 · Judge: Judge rationale</summary>
+<summary>Source event 118 · Judge: Judge rationale</summary>
 
 
 ```text

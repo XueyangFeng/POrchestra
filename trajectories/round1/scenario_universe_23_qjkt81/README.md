@@ -1,6 +1,8 @@
 # scenario_universe_23_qjkt81
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_23_qjkt81/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_23_qjkt81/README.md) · [Codex](../../codex/round1/scenario_universe_23_qjkt81/README.md) · [OpenCode](../../opencode/round1/scenario_universe_23_qjkt81/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Identify the person from the &#x27;Coffee Break&#x27; event yesterday, get her contact details and address, find the user&#x27;s home address, then send the email, order the figure, and book the cab as requested.
 
@@ -103,7 +105,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #27
+**Harness configuration updated** · Source event 27
 
 **1. Sub-agent revision request**
 
@@ -112,7 +114,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed assigned subtask: found Coffee Break event attendee (Šárka Nováková), sent email to her about movie on Friday 18:00, ordered resin figure and checked out, booked Default cab for 2024-10-18 17:00 from user's home to her address, and notified user. Notified user already - turn ended. Received new email notifications afterwards.
 ```
 <details>
-<summary>Request and evidence · source event #25</summary>
+<summary>Request and evidence · source event 25</summary>
 
 
 ```text
@@ -158,7 +160,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The previous subtask successfully completed the initial setup (invitation, gift order, and cab booking). New emails have arrived, possibly containing a response from Šárka Nováková. I need the agent to check for a decline and, if so, execute the contingency plan: cancel the order, find the best friend, message him, and update the cab destination.
 

@@ -1,6 +1,8 @@
 # scenario_universe_26_jkd7el
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_26_jkd7el/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_26_jkd7el/README.md) · [Codex](../../codex/round1/scenario_universe_26_jkd7el/README.md) · [OpenCode](../../opencode/round1/scenario_universe_26_jkd7el/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to calculate the total budget based on the user&#x27;s contacts in Oslo and their presence on Messages and Chats. Then I need to find the most expensive LEGO item to calculate the final answer.
 

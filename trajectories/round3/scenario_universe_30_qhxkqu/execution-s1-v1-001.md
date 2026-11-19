@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -24,7 +24,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -44,7 +44,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 I'll start by confirming the current date and finding the events scheduled for tomorrow, October 16, 2024.
@@ -59,7 +59,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ Action:
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Current date confirmed: 2024-10-15 (Tuesday). Now let's find the events for tomorrow, October 16, 2024.
@@ -92,7 +92,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -106,7 +106,7 @@ Action:
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 Found both events. Recording full details for the follow-up report, then deleting them.
@@ -127,7 +127,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -141,7 +141,7 @@ Event 8180386637544c6bbe9440df687d219d successfully deleted.
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Yoga Class deleted. Now deleting Paper Review.
@@ -158,7 +158,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -172,7 +172,7 @@ Event 5d8b2184e3f44755baf7a75e0b354d4b successfully deleted.
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 Both events deleted. Now creating the 'Nightly Project' event for 2024-10-16, 18:00–23:00.
@@ -193,7 +193,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -207,7 +207,7 @@ acea4a8d991e2e64e9a43daa76d19dd2
 </details>
 
 
-## Source event #17 · Sub-agent 1: model output
+## Source event 17 · Sub-agent 1: model output
 
 ```text
 Event created with ID `acea4a8d991e2e64e9a43daa76d19dd2`. Let me verify it exists with correct details before messaging the user.
@@ -226,7 +226,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: tool result</summary>
+<summary>Source event 18 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -240,7 +240,7 @@ Action:
 </details>
 
 
-## Source event #19 · Sub-agent 1: model output
+## Source event 19 · Sub-agent 1: model output
 
 ```text
 Event verified: 'Nightly Project' on Wednesday, 2024-10-16, 18:00–23:00, at University of Cambridge, Department of Physics, with both attendees. Now sending the confirmation to the user.
@@ -257,7 +257,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 1: tool result</summary>
+<summary>Source event 20 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -272,7 +272,7 @@ None
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 21 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -286,7 +286,7 @@ Environment notifications:
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 Environment notifications received: two calendar events were deleted — one by Saskia Müller, one by Helmut Eisenstadt. Before taking any further side effects, I'll gather read-only state so I can report accurately to MainAgent.
@@ -305,7 +305,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -319,7 +319,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 The Nightly Project event I created is gone, and Lab Meeting on Oct 16 is also gone. Reporting to MainAgent before any further side effects.
@@ -375,7 +375,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text

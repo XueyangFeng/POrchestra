@@ -1,6 +1,8 @@
 # scenario_universe_22_zw7kdw
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_22_zw7kdw/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_22_zw7kdw/README.md) · [Codex](../../codex/round1/scenario_universe_22_zw7kdw/README.md) · [OpenCode](../../opencode/round1/scenario_universe_22_zw7kdw/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to get the user&#x27;s email address, Kaidën Rylan&#x27;s contact email, verify the current time, and send the first reminder email to the user immediately.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #19
+**Initial harness configuration** · Source event 19
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The first reminder email has been sent. I now need a SubAgent to handle the remaining four reminder emails at one-minute intervals, send the follow-up email to Kaidën Rylan exactly four minutes after the first email, and then notify the user as requested. This sequence involves time-sensitive waits and multiple email actions.
 
@@ -150,7 +152,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S2 configuration v2
 
-**Harness configuration updated** · Source event #50
+**Harness configuration updated** · Source event 50
 
 **1. Sub-agent revision request**
 
@@ -159,7 +161,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 All assigned tasks done: 4 reminder emails sent to aurelien.lafleur@gaia2mail.com at 07:01:12, 07:02:12, 07:03:12, 07:04:12; email to Kaidën Rylan sent at 07:04:12; user notified. Then an EmailClientV2 'New email received' notification arrived, possibly Kaidën's reply.
 ```
 <details>
-<summary>Request and evidence · source event #48</summary>
+<summary>Request and evidence · source event 48</summary>
 
 
 ```text
@@ -208,7 +210,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #3
+`revise_task` · Source event 3
 
 A new email has been received, which is likely Kaidën&#x27;s response within the one-minute window. The SubAgent needs to read this email and, based on its content (&#x27;yes&#x27; or &#x27;no&#x27;), send the specific reply and add the wine event to the calendar on the first Sunday of December (December 1st, 2024) from 9am to 5pm.
 
@@ -311,7 +313,7 @@ Full system configuration: [Part 1](config-s2-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

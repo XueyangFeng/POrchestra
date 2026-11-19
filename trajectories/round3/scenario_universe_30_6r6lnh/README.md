@@ -1,6 +1,8 @@
 # scenario_universe_30_6r6lnh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_30_6r6lnh/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_30_6r6lnh/README.md) · [Codex](../../codex/round3/scenario_universe_30_6r6lnh/README.md) · [OpenCode](../../opencode/round3/scenario_universe_30_6r6lnh/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The initial part of the request requires cleaning up saved apartments in Liverpool and contacting Akira Tanaka. I need to identify the saved Liverpool apartments, remove them, identify Akira Tanaka&#x27;s communication channel, send the specific confirmation message, and then notify the user that the message has been sent. After that, we must wait for her response to handle the conditional part of the user&#x27;s request.
 
@@ -101,7 +103,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #45
+**Harness configuration updated** · Source event 45
 
 **1. Sub-agent revision request**
 
@@ -110,7 +112,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Liverpool properties removed; message sent to Akira Tanaka; her reply received: 'No, it was Cardiff!' — so Liverpool must be restored and Cardiff removed. Cardiff (52faf42e1ffe4a5997d1bdb6e6cc46be) has been removed. Liverpool restore is BLOCKED: no RentAFlat save/add tool exists in my toolset (only list_saved_apartments and remove_saved_apartment).
 ```
 <details>
-<summary>Request and evidence · source event #43</summary>
+<summary>Request and evidence · source event 43</summary>
 
 
 ```text
@@ -166,7 +168,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent successfully identified that Akira Tanaka&#x27;s &#x27;scary city&#x27; was Cardiff, removed the Cardiff property, but is blocked from restoring the Liverpool properties because the &#x27;RentAFlat__save_apartment&#x27; tool was not provided in the initial delegation. I am now providing that tool and instructing the SubAgent to complete the restoration.
 
@@ -280,7 +282,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

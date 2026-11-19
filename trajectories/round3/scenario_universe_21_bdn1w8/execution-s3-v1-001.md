@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #42 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 42 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -27,7 +27,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #43 · Sub-agent 3: model output
+## Source event 43 · Sub-agent 3: model output
 
 ```text
 I'll start by checking the current time and the inbox for new emails.
@@ -42,7 +42,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 3: tool result</summary>
+<summary>Source event 44 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 3: model output
+## Source event 45 · Sub-agent 3: model output
 
 ```text
 Now let me check the inbox for emails received after 07:01:30.
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 3: tool result</summary>
+<summary>Source event 46 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ ReturnedEmails(emails=[Email(sender='SCHLEICH-corporate@SCHLEICH.com', recipient
 </details>
 
 
-## Source event #47 · Sub-agent 3: model output
+## Source event 47 · Sub-agent 3: model output
 
 ```text
 The Amscan email arrived at timestamp 1728975812.4 (≈07:03:32), which is within the 4-minute window (by 07:05:30). Let me read it in full to confirm it's an agreement.
@@ -107,7 +107,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 3: tool result</summary>
+<summary>Source event 48 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -125,7 +125,7 @@ Content: We would love to sponsorship you in return for reviews of our products.
 </details>
 
 
-## Source event #49 · Sub-agent 3: model output
+## Source event 49 · Sub-agent 3: model output
 
 ```text
 Amscan agreed at ~07:03:32, within the window. Now I'll check the calendar for existing events on Oct 19 and Oct 26 to find available slots.
@@ -144,7 +144,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 3: tool result</summary>
+<summary>Source event 50 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -158,7 +158,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 3: model output
+## Source event 51 · Sub-agent 3: model output
 
 ```text
 Oct 19 error16:00 busy; 13:00–14:00 is free. Now checking Oct 26.
@@ -177,7 +177,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 3: tool result</summary>
+<summary>Source event 52 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -191,7 +191,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 3: model output
+## Source event 53 · Sub-agent 3: model output
 
 ```text
 Oct 26 has 13:00–14:00 busy, so first free slot is 14:00–15:00. Now I'll reply to Amscan.
@@ -210,7 +210,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 3: tool result</summary>
+<summary>Source event 54 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -225,7 +225,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 3: tool result</summary>
+<summary>Source event 55 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -244,7 +244,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #56 · Sub-agent 3: tool result</summary>
+<summary>Source event 56 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -262,7 +262,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #57 · Sub-agent 3: model output
+## Source event 57 · Sub-agent 3: model output
 
 ```text
 The email reply succeeded (id 3922f07cb1bb878b6cfbc79849ffd038). Now creating the 'Reviewing Wig' event on Oct 19 at 13:00–14:00.
@@ -281,7 +281,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 3: tool result</summary>
+<summary>Source event 58 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -295,7 +295,7 @@ acea4a8d991e2e64e9a43daa76d19dd2
 </details>
 
 
-## Source event #59 · Sub-agent 3: model output
+## Source event 59 · Sub-agent 3: model output
 
 ```text
 Wig event created. Now the 'Reviewing Mask' event on Oct 26 at 14:00–15:00.
@@ -314,7 +314,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 3: tool result</summary>
+<summary>Source event 60 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -328,7 +328,7 @@ Action:
 </details>
 
 
-## Source event #61 · Sub-agent 3: model output
+## Source event 61 · Sub-agent 3: model output
 
 ```text
 Both events created. Now searching contacts for the social media strategist.
@@ -345,7 +345,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 3: tool result</summary>
+<summary>Source event 62 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -359,7 +359,7 @@ Action:
 </details>
 
 
-## Source event #63 · Sub-agent 3: model output
+## Source event 63 · Sub-agent 3: model output
 
 ```text
 Empty result. Let me try alternative queries.
@@ -376,7 +376,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 3: tool result</summary>
+<summary>Source event 64 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -390,7 +390,7 @@ Action:
 </details>
 
 
-## Source event #65 · Sub-agent 3: model output
+## Source event 65 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -405,7 +405,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 3: tool result</summary>
+<summary>Source event 66 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -419,7 +419,7 @@ Action:
 </details>
 
 
-## Source event #67 · Sub-agent 3: model output
+## Source event 67 · Sub-agent 3: model output
 
 ```text
 Let me try broader searches to enumerate contacts.
@@ -436,7 +436,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 3: tool result</summary>
+<summary>Source event 68 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -450,7 +450,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 3: tool result (continued, part 2)</summary>
+<summary>Source event 68 · Sub-agent 3: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -462,7 +462,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 3: tool result (continued, part 3)</summary>
+<summary>Source event 68 · Sub-agent 3: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -474,7 +474,7 @@ mmunity, often volunteering at local libraries and literacy programs. Her love f
 
 
 <details>
-<summary>Source event #68 · Sub-agent 3: tool result (continued, part 4)</summary>
+<summary>Source event 68 · Sub-agent 3: tool result (continued, part 4)</summary>
 
 
 ```text

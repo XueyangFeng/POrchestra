@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 24 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #25 · Sub-agent 1: model output
+## Source event 25 · Sub-agent 1: model output
 
 ```text
 I'll list the inbox emails to find Sydow's response.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: tool result</summary>
+<summary>Source event 26 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ ReturnedEmails(emails=[Email(sender='jonitossydow@gaia2mail.com', recipients=['a
 </details>
 
 
-## Source event #27 · Sub-agent 1: model output
+## Source event 27 · Sub-agent 1: model output
 
 ```text
 I found Sydow's reply (email_id 3922f07cb1bb878b6cfbc79849ffd038, parent_id matches my sent email a7a6559237dfccab98f2b1970584c7a3). He says the order is NOT correct and requests 4 different items. Let me read his email to confirm and mark it read.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: tool result</summary>
+<summary>Source event 28 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -91,7 +91,7 @@ Content: No! I'm going to send you the correct list of what you need to buy.
 </details>
 
 
-## Source event #29 · Sub-agent 1: model output
+## Source event 29 · Sub-agent 1: model output
 
 ```text
 Sydow says the order is NOT correct and requests 4 different items. First, I'll cancel the current order.
@@ -108,7 +108,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 1: tool result</summary>
+<summary>Source event 30 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -122,7 +122,7 @@ Action:
 </details>
 
 
-## Source event #31 · Sub-agent 1: model output
+## Source event 31 · Sub-agent 1: model output
 
 ```text
 Order cancelled. Now searching for the 4 requested products. Starting with The Walking Dead - Daryl.
@@ -140,7 +140,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: tool result</summary>
+<summary>Source event 32 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -154,7 +154,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 1: model output
+## Source event 33 · Sub-agent 1: model output
 
 ```text
 Daryl's cheapest is 8.92 (item 2afbe7d736c44553a66d88ef7601e62d), only one at that price. Adding 1 unit.
@@ -172,7 +172,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: tool result</summary>
+<summary>Source event 34 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -186,7 +186,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 1: model output
+## Source event 35 · Sub-agent 1: model output
 
 ```text
 Daryl added. Now adding 1 unit of the cheapest Trunks variant (8.99, item bc721c97d4ca40ccb291cbbbdd553565 — only one at that price).
@@ -205,7 +205,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -219,7 +219,7 @@ bc721c97d4ca40ccb291cbbbdd553565
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Now searching for Big Bang Theory - Amy.
@@ -237,7 +237,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -251,7 +251,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 Amy's cheapest is 7.84 (item 8852633600ae419dbb409cb6ed2ac909), only one at that price. Adding 1 unit.
@@ -270,7 +270,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -284,7 +284,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 Now searching for Black Panther (Chrome).
@@ -303,7 +303,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -317,7 +317,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 1: model output
+## Source event 43 · Sub-agent 1: model output
 
 ```text
 Black Panther's cheapest is 7.99 (item 904dc47ca043429aaa1babdc1ed942ee), only one at that price. Adding 1 unit.
@@ -336,7 +336,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -350,7 +350,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 1: model output
+## Source event 45 · Sub-agent 1: model output
 
 ```text
 All 4 requested items are in the cart. Now checking out.
@@ -366,7 +366,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -380,7 +380,7 @@ f7265e019c5d4be3ab28add1d0b58dde
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 New order placed successfully. Now sending the final status update to the user.
@@ -398,7 +398,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text

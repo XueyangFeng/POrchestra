@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 33 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Continue monitoring the RentAFlat app for the 8000 zip code every second until 2
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Continuing per-second monitoring. Waiting 1 second before next poll.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ None
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 36 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -62,7 +62,7 @@ Environment notifications:
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Continuing monitoring. Polling zip 8000 again.
@@ -79,7 +79,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -93,7 +93,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 Per-second monitoring to 07:04:00 requires ~228 more search+wait iterations (~456 tool calls) after this poll, plus the 1-minute post-save delay if new apartments appear. Continuing naively will exhaust the budget. I must report the status and request additional budget before proceeding.
@@ -133,7 +133,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text

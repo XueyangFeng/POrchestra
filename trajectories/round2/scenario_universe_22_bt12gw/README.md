@@ -1,6 +1,8 @@
 # scenario_universe_22_bt12gw
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_22_bt12gw/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_22_bt12gw/README.md) · [Codex](../../codex/round2/scenario_universe_22_bt12gw/README.md) · [OpenCode](../../opencode/round2/scenario_universe_22_bt12gw/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the contact who has the job title &#x27;College Mathematics Professor&#x27; to know their email address and name, as several parts of the task depend on this specific contact.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #29
+**Initial harness configuration** · Source event 29
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 I have identified the &#x27;College Mathematics Professor&#x27; as Luísa Silva e Sousa (luisa.silva.sousa@fc.up.pt). Now I need to monitor incoming emails and execute the conditional responses, calendar events, and timeout logic as specified in the original task.
 
@@ -161,7 +163,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

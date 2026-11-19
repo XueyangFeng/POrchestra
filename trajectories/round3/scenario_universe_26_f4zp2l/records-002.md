@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: model output</summary>
+<summary>Source event 9 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -98,7 +98,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: System configuration update</summary>
+<summary>Source event 11 · Sub-agent 1: System configuration update</summary>
 
 
 ```text
@@ -259,7 +259,7 @@ Read at: 2024-10-15 07:00:00
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 12 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -272,7 +272,7 @@ Use the AgentUserInterface__send_message_to_user tool to inform the user that 'L
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: model output</summary>
+<summary>Source event 13 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -290,7 +290,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -305,7 +305,7 @@ None
 
 
 <details>
-<summary>Source event #15 · Judge rationale</summary>
+<summary>Source event 15 · Judge rationale</summary>
 
 
 ```text

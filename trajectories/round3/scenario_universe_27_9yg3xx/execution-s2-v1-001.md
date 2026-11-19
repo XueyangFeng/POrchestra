@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #11 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 11 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Find the youngest contact who lives in 'Saint Petersburg'. Once identified, retr
 </details>
 
 
-## Source event #12 · Sub-agent 2: model output
+## Source event 12 · Sub-agent 2: model output
 
 ```text
 I'll start by retrieving the contacts list to find those living in Saint Petersburg.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 2: tool result</summary>
+<summary>Source event 13 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #14 · Sub-agent 2: model output
+## Source event 14 · Sub-agent 2: model output
 
 ```text
 There are 121 contacts total. Let me continue scrolling through them.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 2: tool result</summary>
+<summary>Source event 15 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 2: model output
+## Source event 16 · Sub-agent 2: model output
 
 ```text
 Continuing through the contacts list.
@@ -96,7 +96,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result</summary>
+<summary>Source event 17 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -110,7 +110,7 @@ Action:
 </details>
 
 
-## Source event #18 · Sub-agent 2: model output
+## Source event 18 · Sub-agent 2: model output
 
 ```text
 Continuing to scroll through the contacts.
@@ -127,7 +127,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 2: tool result</summary>
+<summary>Source event 19 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -141,7 +141,7 @@ Action:
 </details>
 
 
-## Source event #20 · Sub-agent 2: model output
+## Source event 20 · Sub-agent 2: model output
 
 ```text
 No Saint Petersburg contacts yet. Continuing.
@@ -158,7 +158,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 2: tool result</summary>
+<summary>Source event 21 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -172,7 +172,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 2: model output
+## Source event 22 · Sub-agent 2: model output
 
 ```text
 Still no Saint Petersburg contacts. Continuing through the list.
@@ -189,7 +189,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result</summary>
+<summary>Source event 23 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -203,7 +203,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 2: model output
+## Source event 24 · Sub-agent 2: model output
 
 ```text
 Continuing to search for Saint Petersburg contacts.
@@ -220,7 +220,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: tool result</summary>
+<summary>Source event 25 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -234,7 +234,7 @@ Action:
 </details>
 
 
-## Source event #26 · Sub-agent 2: model output
+## Source event 26 · Sub-agent 2: model output
 
 ```text
 Continuing the search through remaining contacts.
@@ -251,7 +251,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 2: tool result</summary>
+<summary>Source event 27 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -265,7 +265,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 2: model output
+## Source event 28 · Sub-agent 2: model output
 
 ```text
 No Saint Petersburg contacts yet. Continuing.
@@ -282,7 +282,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: tool result</summary>
+<summary>Source event 29 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -296,7 +296,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 2: model output
+## Source event 30 · Sub-agent 2: model output
 
 ```text
 Continuing scroll through remaining contacts.
@@ -313,7 +313,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: tool result</summary>
+<summary>Source event 31 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -327,7 +327,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 2: model output
+## Source event 32 · Sub-agent 2: model output
 
 ```text
 Found one Saint Petersburg contact (Natalya Kuznetsova, age 62). Let me check the remaining contacts for any others in Saint Petersburg.
@@ -344,7 +344,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result</summary>
+<summary>Source event 33 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -358,7 +358,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 2: model output
+## Source event 34 · Sub-agent 2: model output
 
 ```text
 Let me check the final batch of contacts.
@@ -375,7 +375,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: tool result</summary>
+<summary>Source event 35 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -389,7 +389,7 @@ Action:
 </details>
 
 
-## Source event #36 · Sub-agent 2: model output
+## Source event 36 · Sub-agent 2: model output
 
 ```text
 Found a second Saint Petersburg contact (Viktor Kuznetsov, age 54). Let me get the last contact.
@@ -407,7 +407,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: tool result</summary>
+<summary>Source event 37 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -421,7 +421,7 @@ Action:
 </details>
 
 
-## Source event #38 · Sub-agent 2: model output
+## Source event 38 · Sub-agent 2: model output
 
 ```text
 All 121 contacts reviewed. The Saint Petersburg contacts are:
@@ -444,7 +444,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 2: tool result</summary>
+<summary>Source event 39 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -458,7 +458,7 @@ Action:
 </details>
 
 
-## Source event #40 · Sub-agent 2: model output
+## Source event 40 · Sub-agent 2: model output
 
 ```text
 Found one email from Viktor. Let me verify there are no other emails from him using alternate searches.
@@ -477,7 +477,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 2: tool result</summary>
+<summary>Source event 41 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -491,7 +491,7 @@ Action:
 </details>
 
 
-## Source event #42 · Sub-agent 2: model output
+## Source event 42 · Sub-agent 2: model output
 
 ```text
 Found one email from Viktor. Let me check more broadly to ensure I capture all emails from him, and also verify Natalya's emails in case of comparison needs.
@@ -510,7 +510,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: tool result</summary>
+<summary>Source event 43 · Sub-agent 2: tool result</summary>
 
 
 ```text

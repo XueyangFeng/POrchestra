@@ -1,6 +1,8 @@
 # scenario_universe_21_bdn1w8
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_21_bdn1w8/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_21_bdn1w8/README.md) · [Codex](../../codex/round1/scenario_universe_21_bdn1w8/README.md) · [OpenCode](../../opencode/round1/scenario_universe_21_bdn1w8/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to send the email to amscan-corporate@amscan.com and purchase the two items: the black version of &#x27;Amscan Glamourous Party Wig Costume, White&#x27; and the adult version of &#x27;Amscan Super Hero Mask, Party Accessory, White&#x27;. After both actions are done, we must wait exactly 1 minute and then notify the user that these tasks are complete. We also need to get the exact time the email was sent to monitor the 4-minute window for a reply.
 
@@ -97,7 +99,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #35
+**Harness configuration updated** · Source event 35
 
 **1. Sub-agent revision request**
 
@@ -106,7 +108,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Subtask complete: sponsorship email sent to amscan-corporate@amscan.com, black wig and adult mask purchased via checkout, 60-second wait completed, user confirmation message sent. External notification received: new email from SCHLEICH-corporate@SCHLEICH.com.
 ```
 <details>
-<summary>Request and evidence · source event #33</summary>
+<summary>Request and evidence · source event 33</summary>
 
 
 ```text
@@ -155,7 +157,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent correctly performed the initial email, purchase, and 1-minute wait. A non-Amscan email was received, which the user explicitly asked to ignore. The next phase is to wait for Amscan&#x27;s reply until the 4-minute deadline (approximately 07:05:12) and then handle the response by replying, scheduling calendar events, and messaging the social media strategist accordingly.
 
@@ -273,7 +275,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

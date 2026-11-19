@@ -1,6 +1,8 @@
 # scenario_universe_23_w5th2a
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_23_w5th2a/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_23_w5th2a/README.md) · [Codex](../../codex/round3/scenario_universe_23_w5th2a/README.md) · [OpenCode](../../opencode/round3/scenario_universe_23_w5th2a/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 To solve the user&#x27;s request, I need to analyze emails from a specific period (Sep 1st - 15th), identify the genders of the senders, and then determine the age of the oldest contact based on the count results. I will delegate this to a SubAgent who can access both the Emails and Contacts apps.
 

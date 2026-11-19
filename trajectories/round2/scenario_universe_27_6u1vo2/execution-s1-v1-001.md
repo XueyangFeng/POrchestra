@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -25,7 +25,7 @@ Keep a record of the original office hours' details (start/end time) in case the
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 I'll start by verifying the current time and checking the calendar for tomorrow's events.
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Current time confirmed. Now let me check the calendar for tomorrow's events.
@@ -72,7 +72,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Action:
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 Office Hours found: 2024-10-16 14:00–16:00. Now I'll delete it and search for Helga Müller.
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -117,7 +117,7 @@ Event 075c5ad969d14f468c3b0ea09d11d89a successfully deleted.
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Office Hours deleted. Now searching contacts for Helga Müller.
@@ -134,7 +134,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -148,7 +148,7 @@ Action:
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 Exact match found: Helga Müller (contact_id 942b830307e0438aa6b27b691f9894a2). Now I'll look up her messaging ID.
@@ -165,7 +165,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -180,7 +180,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -198,7 +198,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #17 · Sub-agent 1: model output
+## Source event 17 · Sub-agent 1: model output
 
 ```text
 The messaging ID lookup succeeded: Helga Müller → +498912345978. Let me verify the calendar state before creating the new meeting (to ensure the prior error didn't create a duplicate).
@@ -216,7 +216,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: tool result</summary>
+<summary>Source event 18 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -230,7 +230,7 @@ Action:
 </details>
 
 
-## Source event #19 · Sub-agent 1: model output
+## Source event 19 · Sub-agent 1: model output
 
 ```text
 Office Hours is confirmed deleted (no duplicates). Now creating the new meeting with Helga Müller in the same slot.
@@ -253,7 +253,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 1: tool result</summary>
+<summary>Source event 20 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -267,7 +267,7 @@ dcf191829913b81220f38262b28ec53c
 </details>
 
 
-## Source event #21 · Sub-agent 1: model output
+## Source event 21 · Sub-agent 1: model output
 
 ```text
 Meeting created (id dcf191829913b81220f38262b28ec53c). Let me verify it, then send the message to Helga.
@@ -285,7 +285,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 1: tool result</summary>
+<summary>Source event 22 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -299,7 +299,7 @@ Action:
 </details>
 
 
-## Source event #23 · Sub-agent 1: model output
+## Source event 23 · Sub-agent 1: model output
 
 ```text
 Meeting confirmed at 14:00–16:00 with Helga Müller. Now sending the message to her.
@@ -317,7 +317,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: tool result</summary>
+<summary>Source event 24 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -331,7 +331,7 @@ Action:
 </details>
 
 
-## Source event #25 · Sub-agent 1: model output
+## Source event 25 · Sub-agent 1: model output
 
 ```text
 Message sent to Helga Müller (message id 81c6c8da192240959b29545344878050). Now confirming to the user.
@@ -348,7 +348,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: tool result</summary>
+<summary>Source event 26 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -363,7 +363,7 @@ None
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 27 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -377,7 +377,7 @@ Environment notifications:
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -430,7 +430,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 22 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 I'll start by checking the current time and fetching the baseline saved properties list.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 Now let me fetch the baseline saved properties list.
@@ -66,7 +66,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ Action:
 </details>
 
 
-## Source event #27 · Sub-agent 2: model output
+## Source event 27 · Sub-agent 2: model output
 
 ```text
 Baseline saved list captured (26 properties at 07:00:18). Now I'll monitor for price change notifications until 07:04:00.
@@ -97,7 +97,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: tool result</summary>
+<summary>Source event 28 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -112,7 +112,7 @@ None
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 29 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -125,7 +125,7 @@ Environment notifications:
 </details>
 
 
-## Source event #30 · Sub-agent 2: model output
+## Source event 30 · Sub-agent 2: model output
 
 ```text
 No notification in the first 60 seconds. Continuing to monitor.
@@ -142,7 +142,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: tool result</summary>
+<summary>Source event 31 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -157,7 +157,7 @@ None
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 32 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ Environment notifications:
 </details>
 
 
-## Source event #33 · Sub-agent 2: model output
+## Source event 33 · Sub-agent 2: model output
 
 ```text
 Continuing to monitor (approximately 07:01:18 now).
@@ -187,7 +187,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -202,7 +202,7 @@ None
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 35 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -215,7 +215,7 @@ Environment notifications:
 </details>
 
 
-## Source event #36 · Sub-agent 2: model output
+## Source event 36 · Sub-agent 2: model output
 
 ```text
 Continuing to monitor (approximately 07:02:18 now).
@@ -232,7 +232,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: tool result</summary>
+<summary>Source event 37 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -247,7 +247,7 @@ None
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 38 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -261,7 +261,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 2: tool result</summary>
+<summary>Source event 39 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -279,7 +279,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #40 · Sub-agent 2: model output
+## Source event 40 · Sub-agent 2: model output
 
 ```text
 Let me check the current time to see where we are in the monitoring window.
@@ -294,7 +294,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 2: tool result</summary>
+<summary>Source event 41 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -308,7 +308,7 @@ Action:
 </details>
 
 
-## Source event #42 · Sub-agent 2: model output
+## Source event 42 · Sub-agent 2: model output
 
 ```text
 The monitoring window (07:00:18 → 07:04:18) passed with 4 wait cycles and no price-change notifications were received. Current time is 07:04:18, just past the 07:04:00 deadline. Since zero properties experienced price changes, nothing needed to be saved to favorites, and the count is 0. Now I'll send the email to Kaitlyn.
@@ -327,7 +327,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: tool result</summary>
+<summary>Source event 43 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -341,7 +341,7 @@ a7a6559237dfccab98f2b1970584c7a3
 </details>
 
 
-## Source event #44 · Sub-agent 2: model output
+## Source event 44 · Sub-agent 2: model output
 
 ```text
 Email sent successfully. Let me verify the saved list remains unchanged (no additions needed since no price changes occurred).
@@ -356,7 +356,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: tool result</summary>
+<summary>Source event 45 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -370,7 +370,7 @@ Action:
 </details>
 
 
-## Source event #46 · Sub-agent 2: model output
+## Source event 46 · Sub-agent 2: model output
 
 ```text
 Important discovery: the re-fetched saved list shows Skyview Towers (apartment_id `358aa7470d854687bb8c8a1a3659a9ee`) changed price from **2200 → 1400.0** during the monitoring window. It was already in the baseline saved list, so it must NOT be added, but it counts as a price-changing property. The correct count is therefore **1**, not 0. I'll send a corrected email to Kaitlyn.
@@ -389,7 +389,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result</summary>
+<summary>Source event 47 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -403,7 +403,7 @@ ce025aebc06aec5cea39dd7fb817bee5
 </details>
 
 
-## Source event #48 · Sub-agent 2: model output
+## Source event 48 · Sub-agent 2: model output
 
 ```text
 The correction email was sent. Let me do one short final wait to confirm no further pending price-change notifications exist.
@@ -420,7 +420,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: tool result</summary>
+<summary>Source event 49 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -435,7 +435,7 @@ None
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 50 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -448,7 +448,7 @@ Environment notifications:
 </details>
 
 
-## Source event #51 · Sub-agent 2: model output
+## Source event 51 · Sub-agent 2: model output
 
 ```text
 Let me do one more check for any pending notifications before finalizing.
@@ -465,7 +465,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: tool result</summary>
+<summary>Source event 52 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -480,7 +480,7 @@ None
 
 
 <details>
-<summary>Source event #53 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 53 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -493,7 +493,7 @@ Environment notifications:
 </details>
 
 
-## Source event #54 · Sub-agent 2: model output
+## Source event 54 · Sub-agent 2: model output
 
 ```text
 Monitoring is complete with no further activity. Here is my final state.
@@ -549,7 +549,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 2: tool result</summary>
+<summary>Source event 55 · Sub-agent 2: tool result</summary>
 
 
 ```text

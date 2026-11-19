@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #13 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 13 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #14 · Sub-agent 2: model output
+## Source event 14 · Sub-agent 2: model output
 
 ```text
 I'll start by searching for the three attendees to retrieve their ages.
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 2: tool result</summary>
+<summary>Source event 15 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 2: model output
+## Source event 16 · Sub-agent 2: model output
 
 ```text
 Astrid Rasmussen is 27. Now searching for Rohan Deshpande.
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result</summary>
+<summary>Source event 17 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ Action:
 </details>
 
 
-## Source event #18 · Sub-agent 2: model output
+## Source event 18 · Sub-agent 2: model output
 
 ```text
 Rohan Deshpande is 60. Now searching for Aurélien Vandenberghe.
@@ -100,7 +100,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 2: tool result</summary>
+<summary>Source event 19 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -114,7 +114,7 @@ Action:
 </details>
 
 
-## Source event #20 · Sub-agent 2: model output
+## Source event 20 · Sub-agent 2: model output
 
 ```text
 Ages: 27, 60, 31. Sum = 118, average = 39.33 → rounded to **39**. Now retrieving all contacts.
@@ -129,7 +129,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 2: tool result</summary>
+<summary>Source event 21 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -143,7 +143,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 2: model output
+## Source event 22 · Sub-agent 2: model output
 
 ```text
 There are 104 total contacts; I need to page through them all. Rounded average = (27+60+31)/3 = 39.33 → **39**. Range to count: 36–42 inclusive.
@@ -160,7 +160,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result</summary>
+<summary>Source event 23 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 2: model output
+## Source event 24 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -189,7 +189,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: tool result</summary>
+<summary>Source event 25 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -203,7 +203,7 @@ Action:
 </details>
 
 
-## Source event #26 · Sub-agent 2: model output
+## Source event 26 · Sub-agent 2: model output
 
 ```text
 Tracking: in range 36–42 so far — Aoife Ní Chonchobhair (36), Nongnuch Panya (38), Aurélie De Clercq (42). Continuing.
@@ -220,7 +220,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 2: tool result</summary>
+<summary>Source event 27 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -234,7 +234,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 2: model output
+## Source event 28 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -249,7 +249,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: tool result</summary>
+<summary>Source event 29 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -263,7 +263,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 2: model output
+## Source event 30 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -278,7 +278,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: tool result</summary>
+<summary>Source event 31 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -292,7 +292,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 2: model output
+## Source event 32 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -307,7 +307,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result</summary>
+<summary>Source event 33 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -321,7 +321,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 2: model output
+## Source event 34 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -336,7 +336,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: tool result</summary>
+<summary>Source event 35 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -350,7 +350,7 @@ Action:
 </details>
 
 
-## Source event #36 · Sub-agent 2: model output
+## Source event 36 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -365,7 +365,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: tool result</summary>
+<summary>Source event 37 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -379,7 +379,7 @@ Action:
 </details>
 
 
-## Source event #38 · Sub-agent 2: model output
+## Source event 38 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -394,7 +394,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 2: tool result</summary>
+<summary>Source event 39 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -408,7 +408,7 @@ Action:
 </details>
 
 
-## Source event #40 · Sub-agent 2: model output
+## Source event 40 · Sub-agent 2: model output
 
 ```text
 Final page (4 contacts remain).
@@ -425,7 +425,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 2: tool result</summary>
+<summary>Source event 41 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -439,7 +439,7 @@ Action:
 </details>
 
 
-## Source event #42 · Sub-agent 2: model output
+## Source event 42 · Sub-agent 2: model output
 
 ```text
 I've now retrieved all 104 contacts. Computing the count of contacts with ages in the range 36–42 (average 118/3 = 39.33 → 39, ±3 years inclusive):
@@ -466,7 +466,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: tool result</summary>
+<summary>Source event 43 · Sub-agent 2: tool result</summary>
 
 
 ```text

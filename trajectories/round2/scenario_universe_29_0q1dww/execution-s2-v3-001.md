@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #82 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 82 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #83 · Sub-agent 2: model output
+## Source event 83 · Sub-agent 2: model output
 
 ```text
 Checking the cart state first.
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #84 · Sub-agent 2: tool result</summary>
+<summary>Source event 84 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Action:
 </details>
 
 
-## Source event #85 · Sub-agent 2: model output
+## Source event 85 · Sub-agent 2: model output
 
 ```text
 Cart is empty. Adding 3 units of the final variant.
@@ -71,7 +71,7 @@ Action:
 
 
 <details>
-<summary>Source event #86 · Sub-agent 2: tool result</summary>
+<summary>Source event 86 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -85,7 +85,7 @@ Action:
 </details>
 
 
-## Source event #87 · Sub-agent 2: model output
+## Source event 87 · Sub-agent 2: model output
 
 ```text
 Cart updated with the final variant. Checking out with the final code.
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #88 · Sub-agent 2: tool result</summary>
+<summary>Source event 88 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -117,7 +117,7 @@ Action:
 </details>
 
 
-## Source event #89 · Sub-agent 2: model output
+## Source event 89 · Sub-agent 2: model output
 
 ```text
 Order placed. Getting the total before sending messages.
@@ -135,7 +135,7 @@ Action:
 
 
 <details>
-<summary>Source event #90 · Sub-agent 2: tool result</summary>
+<summary>Source event 90 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -149,7 +149,7 @@ Order(order_status='processed', order_date=datetime.datetime(2024, 10, 15, 7, 3,
 </details>
 
 
-## Source event #91 · Sub-agent 2: model output
+## Source event 91 · Sub-agent 2: model output
 
 ```text
 Order placed: $98.67 total, status 'processed'. Sending the final group message to the sisters first (before the turn-ending user message).
@@ -168,7 +168,7 @@ Action:
 
 
 <details>
-<summary>Source event #92 · Sub-agent 2: tool result</summary>
+<summary>Source event 92 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -182,7 +182,7 @@ d96ffd24fe99eb60e265f1312f4c0bc6
 </details>
 
 
-## Source event #93 · Sub-agent 2: model output
+## Source event 93 · Sub-agent 2: model output
 
 ```text
 Group message sent. Verifying order status now.
@@ -200,7 +200,7 @@ Action:
 
 
 <details>
-<summary>Source event #94 · Sub-agent 2: tool result</summary>
+<summary>Source event 94 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -214,7 +214,7 @@ Order(order_status='processed', order_date=datetime.datetime(2024, 10, 15, 7, 3,
 </details>
 
 
-## Source event #95 · Sub-agent 2: model output
+## Source event 95 · Sub-agent 2: model output
 
 ```text
 Order still 'processed'. Waiting 30s to monitor for a cancellation notification for this final order.
@@ -232,7 +232,7 @@ Action:
 
 
 <details>
-<summary>Source event #96 · Sub-agent 2: tool result</summary>
+<summary>Source event 96 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -247,7 +247,7 @@ None
 
 
 <details>
-<summary>Source event #97 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 97 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -260,7 +260,7 @@ Environment notifications:
 </details>
 
 
-## Source event #98 · Sub-agent 2: model output
+## Source event 98 · Sub-agent 2: model output
 
 ```text
 Timeout reached with no cancellation notification for the final order — order remains 'processed'. Now sending the user the final report (all other side effects are complete).
@@ -278,7 +278,7 @@ Action:
 
 
 <details>
-<summary>Source event #99 · Sub-agent 2: tool result</summary>
+<summary>Source event 99 · Sub-agent 2: tool result</summary>
 
 
 ```text

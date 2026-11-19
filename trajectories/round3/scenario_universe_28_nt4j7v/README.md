@@ -1,6 +1,8 @@
 # scenario_universe_28_nt4j7v
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_28_nt4j7v/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_28_nt4j7v/README.md) · [Codex](../../codex/round3/scenario_universe_28_nt4j7v/README.md) · [OpenCode](../../opencode/round3/scenario_universe_28_nt4j7v/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the contacts who meet the criteria (age 78 or older, excluding the user themselves), send them the initial group email, and notify the user once this is done. This fulfills the first part of the request and sets the stage for the 3-minute wait.
 
@@ -86,7 +88,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #39
+**Harness configuration updated** · Source event 39
 
 **1. Sub-agent revision request**
 
@@ -95,7 +97,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Subtask complete: identified current user Søren Kjær (865f09f9b22640c5b2a6d00f385e3e1c, age 79), scanned all 104 contacts via offsets 0-100, filtered 3 contacts aged >=78 (Kirsten Ravnkilde 79, Aisling O'Connor 78, Somchai Wongtrakul 78), sent group email 'Christmas Wishlist' (email id a7a6559237dfccab98f2b1970584c7a3) to kirsten.ravnkilde@gaia2mail.com, aisling.oconnor@gaia2mail.com, somchai.wongtrakul@gaia2mail.com, and sent user confirmation message. A new environment notification (EmailClientV2: New email received) arrived after these side effects; no further action taken by me per safety instructions.
 ```
 <details>
-<summary>Request and evidence · source event #37</summary>
+<summary>Request and evidence · source event 37</summary>
 
 
 ```text
@@ -147,7 +149,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The initial subtask of sending the group email and notifying the user is complete. Now, according to the original task, the agent must wait 3 minutes before checking for replies and processing product requests. A new email notification has already arrived, but the 3-minute wait must still be respected. I am providing the necessary tools and instructions to complete the remaining steps of the turn: waiting, processing replies, purchasing the requested items, and notifying the requesters.
 
@@ -258,7 +260,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

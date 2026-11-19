@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #15 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 15 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Perform the following actions: 1) Add a 1-hour calendar event titled 'Viewing Ap
 
 
 <details>
-<summary>Source event #16 · Sub-agent 2: tool result</summary>
+<summary>Source event 16 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -45,7 +45,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result</summary>
+<summary>Source event 17 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -72,7 +72,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #18 · Sub-agent 2: tool result</summary>
+<summary>Source event 18 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -98,7 +98,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #19 · Sub-agent 2: model output
+## Source event 19 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -116,7 +116,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: tool result</summary>
+<summary>Source event 20 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -130,7 +130,7 @@ e4657cd1b75ef061b9fbfd037e80abd6
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -147,7 +147,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ Ride ID: 6acbe88d2e50cc6bc7af2e04429d65f0
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -183,7 +183,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -206,7 +206,7 @@ Ride ID: 6acbe88d2e50cc6bc7af2e04429d65f0
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -221,7 +221,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text

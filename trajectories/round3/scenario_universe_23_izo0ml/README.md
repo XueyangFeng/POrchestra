@@ -1,6 +1,8 @@
 # scenario_universe_23_izo0ml
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_23_izo0ml/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_23_izo0ml/README.md) · [Codex](../../codex/round3/scenario_universe_23_izo0ml/README.md) · [OpenCode](../../opencode/round3/scenario_universe_23_izo0ml/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to schedule an event and be notified immediately. I will assign a SubAgent to handle the scheduling of the &#x27;Reading Session&#x27; for this Friday and the initial notification to the user.
 
@@ -84,7 +86,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #15
+**Harness configuration updated** · Source event 15
 
 **1. Sub-agent revision request**
 
@@ -93,7 +95,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Confirmed current datetime 2024-10-15 07:01:10 (Tuesday); created calendar event 'Reading Session' on 2024-10-18 14:00:00–16:00:00 with attendee Eliška Nováková (event id acea4a8d991e2e64e9a43daa76d19dd2); sent user message that the event was scheduled. New environment notifications report calendar events deleted by Šárka Nováková and Eliška Nováková — possibly including the newly created event or unrelated events.
 ```
 <details>
-<summary>Request and evidence · source event #13</summary>
+<summary>Request and evidence · source event 13</summary>
 
 
 ```text
@@ -141,7 +143,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The environment notification indicates that Eliška Nováková deleted a calendar event. Based on the user&#x27;s conditional instructions, I must now execute the follow-up branch: message Eliška to ask for a convenient time, schedule two new reading sessions for the user on Friday, and email Fatima Al-Khateeb about the 8pm session.
 
@@ -257,7 +259,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

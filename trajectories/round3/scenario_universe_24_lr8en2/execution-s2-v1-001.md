@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #21 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 21 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #22 · Sub-agent 2: model output
+## Source event 22 · Sub-agent 2: model output
 
 ```text
 I'll start by looking up the contacts to get their email addresses.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result</summary>
+<summary>Source event 23 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 2: model output
+## Source event 24 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: tool result</summary>
+<summary>Source event 25 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ Action:
 </details>
 
 
-## Source event #26 · Sub-agent 2: model output
+## Source event 26 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -97,7 +97,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 2: tool result</summary>
+<summary>Source event 27 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -111,7 +111,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 2: model output
+## Source event 28 · Sub-agent 2: model output
 
 ```text
 Now let me get the user IDs for the Messages app.
@@ -128,7 +128,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: tool result</summary>
+<summary>Source event 29 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -142,7 +142,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 2: model output
+## Source event 30 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -157,7 +157,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: tool result</summary>
+<summary>Source event 31 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -171,7 +171,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 2: model output
+## Source event 32 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -186,7 +186,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result</summary>
+<summary>Source event 33 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -200,7 +200,7 @@ None
 </details>
 
 
-## Source event #34 · Sub-agent 2: model output
+## Source event 34 · Sub-agent 2: model output
 
 ```text
 Saskia returned None for Messages. Let me check the Chats app IDs.
@@ -217,7 +217,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: tool result</summary>
+<summary>Source event 35 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -231,7 +231,7 @@ None
 </details>
 
 
-## Source event #36 · Sub-agent 2: model output
+## Source event 36 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -246,7 +246,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: tool result</summary>
+<summary>Source event 37 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -260,7 +260,7 @@ None
 </details>
 
 
-## Source event #38 · Sub-agent 2: model output
+## Source event 38 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -275,7 +275,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 2: tool result</summary>
+<summary>Source event 39 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -289,7 +289,7 @@ Action:
 </details>
 
 
-## Source event #40 · Sub-agent 2: model output
+## Source event 40 · Sub-agent 2: model output
 
 ```text
 Now let me check existing Messages conversations for Aurélien.
@@ -307,7 +307,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 2: tool result</summary>
+<summary>Source event 41 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -321,7 +321,7 @@ Action:
 </details>
 
 
-## Source event #42 · Sub-agent 2: model output
+## Source event 42 · Sub-agent 2: model output
 
 ```text
 Aurélien has Messages conversations. Now checking Aurélie.
@@ -339,7 +339,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: tool result</summary>
+<summary>Source event 43 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -353,7 +353,7 @@ Action:
 </details>
 
 
-## Source event #44 · Sub-agent 2: model output
+## Source event 44 · Sub-agent 2: model output
 
 ```text
 Aurélien (+32475231142) and Aurélie (+41784562319) both have Messages conversations. Saskia has no Messages ID but has a Chats ID (4d0df692-4a94-46ed-9146-68b3bd9f23a0). Now sending the group email.
@@ -372,7 +372,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: tool result</summary>
+<summary>Source event 45 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -386,7 +386,7 @@ a7a6559237dfccab98f2b1970584c7a3
 </details>
 
 
-## Source event #46 · Sub-agent 2: model output
+## Source event 46 · Sub-agent 2: model output
 
 ```text
 Email sent. Now creating a new group Messages conversation with Aurélien and Aurélie.
@@ -404,7 +404,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result</summary>
+<summary>Source event 47 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -418,7 +418,7 @@ Action:
 </details>
 
 
-## Source event #48 · Sub-agent 2: model output
+## Source event 48 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -434,7 +434,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: tool result</summary>
+<summary>Source event 49 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -449,7 +449,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: tool result</summary>
+<summary>Source event 50 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -467,7 +467,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #51 · Sub-agent 2: model output
+## Source event 51 · Sub-agent 2: model output
 
 ```text
 The group message was sent successfully. Now sending the Chats message to Saskia (who has no Messages presence).
@@ -485,7 +485,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: tool result</summary>
+<summary>Source event 52 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -499,7 +499,7 @@ a6fa7fbbc8254ae394e93448ee3411b7
 </details>
 
 
-## Source event #53 · Sub-agent 2: model output
+## Source event 53 · Sub-agent 2: model output
 
 ```text
 All notifications sent successfully. Let me finish.
@@ -545,7 +545,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 2: tool result</summary>
+<summary>Source event 54 · Sub-agent 2: tool result</summary>
 
 
 ```text

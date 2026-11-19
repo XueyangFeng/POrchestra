@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #45 · Main agent: Model message
+## Source event 45 · Main agent: Model message
 
 ```text
 Now I have all 104 contacts (pages 0-10,10-20,...,100-104). But page 50-60 output looks truncated — it showed 9 contacts? Let me check: page 50-60: Nonglak Suthisakul, Viggo Rasmussen, Kaidën Vandermeulen, Pichaya Wongthip, Nonglak Suthisarn, Nalinee Srisombat, Karel Vandenberghe, Koenraad Vandenberghe, Narong Wongsombat, Kaatje De Smet = 10. OK.
@@ -171,7 +171,7 @@ Let me poll now: get_current_time + get_product_details.
 
 
 
-## Source event #46 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_70vnaq1yoece6ptz73jpx8rn)
+## Source event 46 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_70vnaq1yoece6ptz73jpx8rn)
 
 ```text
 {}
@@ -179,7 +179,7 @@ Let me poll now: get_current_time + get_product_details.
 
 
 
-## Source event #47 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_01_haiqvstl14z15zve1p84h9y3)
+## Source event 47 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_01_haiqvstl14z15zve1p84h9y3)
 
 ```text
 {
@@ -190,7 +190,7 @@ Let me poll now: get_current_time + get_product_details.
 
 
 <details>
-<summary>Source event #48 · Main agent: Tool result: call_00_70vnaq1yoece6ptz73jpx8rn (is_error=False)</summary>
+<summary>Source event 48 · Main agent: Tool result: call_00_70vnaq1yoece6ptz73jpx8rn (is_error=False)</summary>
 
 
 ```text
@@ -207,7 +207,7 @@ Let me poll now: get_current_time + get_product_details.
 
 
 <details>
-<summary>Source event #49 · Main agent: Tool result: call_01_haiqvstl14z15zve1p84h9y3 (is_error=False)</summary>
+<summary>Source event 49 · Main agent: Tool result: call_01_haiqvstl14z15zve1p84h9y3 (is_error=False)</summary>
 
 
 ```text
@@ -223,7 +223,7 @@ Let me poll now: get_current_time + get_product_details.
 </details>
 
 
-## Source event #50 · Main agent: Model message
+## Source event 50 · Main agent: Model message
 
 ```text
 Time 07:00:15. Need to wait until 07:02:30 — that's 135 seconds from now.
@@ -239,7 +239,7 @@ Total wait ~135s. Let's do 4 x 30s waits + checks.
 
 
 
-## Source event #51 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_5f84rwctbqf2yy8qh29q1tdc)
+## Source event 51 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_5f84rwctbqf2yy8qh29q1tdc)
 
 ```text
 {
@@ -250,7 +250,7 @@ Total wait ~135s. Let's do 4 x 30s waits + checks.
 
 
 <details>
-<summary>Source event #52 · Main agent: Tool result: call_00_5f84rwctbqf2yy8qh29q1tdc (is_error=False)</summary>
+<summary>Source event 52 · Main agent: Tool result: call_00_5f84rwctbqf2yy8qh29q1tdc (is_error=False)</summary>
 
 
 ```text
@@ -270,7 +270,7 @@ Total wait ~135s. Let's do 4 x 30s waits + checks.
 </details>
 
 
-## Source event #53 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_11gk40sb5jtrhouuo7ufkk3g)
+## Source event 53 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_11gk40sb5jtrhouuo7ufkk3g)
 
 ```text
 {
@@ -281,7 +281,7 @@ Total wait ~135s. Let's do 4 x 30s waits + checks.
 
 
 <details>
-<summary>Source event #54 · Main agent: Tool result: call_00_11gk40sb5jtrhouuo7ufkk3g (is_error=False)</summary>
+<summary>Source event 54 · Main agent: Tool result: call_00_11gk40sb5jtrhouuo7ufkk3g (is_error=False)</summary>
 
 
 ```text
@@ -301,7 +301,7 @@ Total wait ~135s. Let's do 4 x 30s waits + checks.
 </details>
 
 
-## Source event #55 · Main agent: Model message
+## Source event 55 · Main agent: Model message
 
 ```text
 Now 07:01:15. Check product availability (and time).
@@ -309,7 +309,7 @@ Now 07:01:15. Check product availability (and time).
 
 
 
-## Source event #56 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_00_bmjrn73cpco2ewla2k43has7)
+## Source event 56 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_00_bmjrn73cpco2ewla2k43has7)
 
 ```text
 {
@@ -319,7 +319,7 @@ Now 07:01:15. Check product availability (and time).
 
 
 
-## Source event #57 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_01_ebto0wm9so4fmy0o38reg9ad)
+## Source event 57 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_01_ebto0wm9so4fmy0o38reg9ad)
 
 ```text
 {}
@@ -328,7 +328,7 @@ Now 07:01:15. Check product availability (and time).
 
 
 <details>
-<summary>Source event #58 · Main agent: Tool result: call_00_bmjrn73cpco2ewla2k43has7 (is_error=False)</summary>
+<summary>Source event 58 · Main agent: Tool result: call_00_bmjrn73cpco2ewla2k43has7 (is_error=False)</summary>
 
 
 ```text
@@ -345,7 +345,7 @@ Now 07:01:15. Check product availability (and time).
 
 
 <details>
-<summary>Source event #59 · Main agent: Tool result: call_01_ebto0wm9so4fmy0o38reg9ad (is_error=False)</summary>
+<summary>Source event 59 · Main agent: Tool result: call_01_ebto0wm9so4fmy0o38reg9ad (is_error=False)</summary>
 
 
 ```text
@@ -361,7 +361,7 @@ Now 07:01:15. Check product availability (and time).
 </details>
 
 
-## Source event #60 · Main agent: Model message
+## Source event 60 · Main agent: Model message
 
 ```text
 Still unavailable at 07:01:16. Continue waiting. Next check ~07:01:46, 07:02:16, then 07:02:30 exact.
@@ -371,7 +371,7 @@ Wait 30s.
 
 
 
-## Source event #61 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_sa534nxv6pvs5vyq7cq3o0sz)
+## Source event 61 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_sa534nxv6pvs5vyq7cq3o0sz)
 
 ```text
 {
@@ -382,7 +382,7 @@ Wait 30s.
 
 
 <details>
-<summary>Source event #62 · Main agent: Tool result: call_00_sa534nxv6pvs5vyq7cq3o0sz (is_error=False)</summary>
+<summary>Source event 62 · Main agent: Tool result: call_00_sa534nxv6pvs5vyq7cq3o0sz (is_error=False)</summary>
 
 
 ```text
@@ -402,7 +402,7 @@ Wait 30s.
 </details>
 
 
-## Source event #63 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_00_o1n0oyr9zmke86lgxbs9fo9r)
+## Source event 63 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_00_o1n0oyr9zmke86lgxbs9fo9r)
 
 ```text
 {
@@ -413,7 +413,7 @@ Wait 30s.
 
 
 <details>
-<summary>Source event #64 · Main agent: Tool result: call_00_o1n0oyr9zmke86lgxbs9fo9r (is_error=False)</summary>
+<summary>Source event 64 · Main agent: Tool result: call_00_o1n0oyr9zmke86lgxbs9fo9r (is_error=False)</summary>
 
 
 ```text
@@ -429,7 +429,7 @@ Wait 30s.
 </details>
 
 
-## Source event #65 · Main agent: Model message
+## Source event 65 · Main agent: Model message
 
 ```text
 07:01:46, still unavailable. Need to wait until 07:02:30 (44 more seconds). Let me wait ~30s then ~14s.
@@ -437,7 +437,7 @@ Wait 30s.
 
 
 
-## Source event #66 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_rgotrqcl1qfvhlkjcnwmhlcg)
+## Source event 66 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_rgotrqcl1qfvhlkjcnwmhlcg)
 
 ```text
 {
@@ -448,7 +448,7 @@ Wait 30s.
 
 
 <details>
-<summary>Source event #67 · Main agent: Tool result: call_00_rgotrqcl1qfvhlkjcnwmhlcg (is_error=False)</summary>
+<summary>Source event 67 · Main agent: Tool result: call_00_rgotrqcl1qfvhlkjcnwmhlcg (is_error=False)</summary>
 
 
 ```text
@@ -468,7 +468,7 @@ Wait 30s.
 </details>
 
 
-## Source event #68 · Main agent: Model message
+## Source event 68 · Main agent: Model message
 
 ```text
 07:02:16. Need 14 more seconds to 07:02:30. Let me wait 13s to land near 07:02:29, then check product availability and add to cart at/after :30.
@@ -480,7 +480,7 @@ Let's wait 13.5s -> 07:02:30. Then check.
 
 
 
-## Source event #69 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_gjjdn0t0cdr6st5dvc1xxeuk)
+## Source event 69 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_gjjdn0t0cdr6st5dvc1xxeuk)
 
 ```text
 {
@@ -491,7 +491,7 @@ Let's wait 13.5s -> 07:02:30. Then check.
 
 
 <details>
-<summary>Source event #70 · Main agent: Tool result: call_00_gjjdn0t0cdr6st5dvc1xxeuk (is_error=False)</summary>
+<summary>Source event 70 · Main agent: Tool result: call_00_gjjdn0t0cdr6st5dvc1xxeuk (is_error=False)</summary>
 
 
 ```text
@@ -511,7 +511,7 @@ Let's wait 13.5s -> 07:02:30. Then check.
 </details>
 
 
-## Source event #71 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_00_a80iey7mwcdf209ult5ojyur)
+## Source event 71 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_00_a80iey7mwcdf209ult5ojyur)
 
 ```text
 {
@@ -521,7 +521,7 @@ Let's wait 13.5s -> 07:02:30. Then check.
 
 
 
-## Source event #72 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_01_nf02apmud0vorrx1g2097rt7)
+## Source event 72 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_01_nf02apmud0vorrx1g2097rt7)
 
 ```text
 {}
@@ -530,7 +530,7 @@ Let's wait 13.5s -> 07:02:30. Then check.
 
 
 <details>
-<summary>Source event #73 · Main agent: Tool result: call_00_a80iey7mwcdf209ult5ojyur (is_error=False)</summary>
+<summary>Source event 73 · Main agent: Tool result: call_00_a80iey7mwcdf209ult5ojyur (is_error=False)</summary>
 
 
 ```text
@@ -547,7 +547,7 @@ Let's wait 13.5s -> 07:02:30. Then check.
 
 
 <details>
-<summary>Source event #74 · Main agent: Tool result: call_01_nf02apmud0vorrx1g2097rt7 (is_error=False)</summary>
+<summary>Source event 74 · Main agent: Tool result: call_01_nf02apmud0vorrx1g2097rt7 (is_error=False)</summary>
 
 
 ```text
@@ -563,7 +563,7 @@ Let's wait 13.5s -> 07:02:30. Then check.
 </details>
 
 
-## Source event #75 · Main agent: Model message
+## Source event 75 · Main agent: Model message
 
 ```text
 Blue variant is now available at 07:02:29. It's the 2.5 min mark (07:02:30 approximately). Add to cart now.
@@ -573,7 +573,7 @@ Should I wait 1 second to be exactly at :30? The mark is 2.5 minutes = 07:02:30.
 
 
 
-## Source event #76 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_uqncbnfhddhdzjlybbllftt0)
+## Source event 76 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_uqncbnfhddhdzjlybbllftt0)
 
 ```text
 {
@@ -585,7 +585,7 @@ Should I wait 1 second to be exactly at :30? The mark is 2.5 minutes = 07:02:30.
 
 
 <details>
-<summary>Source event #77 · Main agent: Tool result: call_00_uqncbnfhddhdzjlybbllftt0 (is_error=False)</summary>
+<summary>Source event 77 · Main agent: Tool result: call_00_uqncbnfhddhdzjlybbllftt0 (is_error=False)</summary>
 
 
 ```text
@@ -601,7 +601,7 @@ Should I wait 1 second to be exactly at :30? The mark is 2.5 minutes = 07:02:30.
 </details>
 
 
-## Source event #78 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_9e63qc9j2kzdg2jipsyex9dt)
+## Source event 78 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_9e63qc9j2kzdg2jipsyex9dt)
 
 ```text
 {}
@@ -609,7 +609,7 @@ Should I wait 1 second to be exactly at :30? The mark is 2.5 minutes = 07:02:30.
 
 
 
-## Source event #79 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_01_76o8jglsjnitegyeeb2uqs49)
+## Source event 79 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_01_76o8jglsjnitegyeeb2uqs49)
 
 ```text
 {}
@@ -618,7 +618,7 @@ Should I wait 1 second to be exactly at :30? The mark is 2.5 minutes = 07:02:30.
 
 
 <details>
-<summary>Source event #80 · Main agent: Tool result: call_00_9e63qc9j2kzdg2jipsyex9dt (is_error=False)</summary>
+<summary>Source event 80 · Main agent: Tool result: call_00_9e63qc9j2kzdg2jipsyex9dt (is_error=False)</summary>
 
 
 ```text
@@ -635,7 +635,7 @@ Should I wait 1 second to be exactly at :30? The mark is 2.5 minutes = 07:02:30.
 
 
 <details>
-<summary>Source event #81 · Main agent: Tool result: call_01_76o8jglsjnitegyeeb2uqs49 (is_error=False)</summary>
+<summary>Source event 81 · Main agent: Tool result: call_01_76o8jglsjnitegyeeb2uqs49 (is_error=False)</summary>
 
 
 ```text
@@ -651,7 +651,7 @@ Should I wait 1 second to be exactly at :30? The mark is 2.5 minutes = 07:02:30.
 </details>
 
 
-## Source event #82 · Main agent: Model message
+## Source event 82 · Main agent: Model message
 
 ```text
 Cart has the blue item. Now purchase it — checkout. Then wait 1 minute, send chats messages with the price ($14.99) to 3 contacts, then 1 minute later notify user.
@@ -663,7 +663,7 @@ Checkout now.
 
 
 
-## Source event #83 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_4xhhzhf1s3kv5azp7jp3d2zp)
+## Source event 83 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_4xhhzhf1s3kv5azp7jp3d2zp)
 
 ```text
 {}
@@ -672,7 +672,7 @@ Checkout now.
 
 
 <details>
-<summary>Source event #84 · Main agent: Tool result: call_00_4xhhzhf1s3kv5azp7jp3d2zp (is_error=False)</summary>
+<summary>Source event 84 · Main agent: Tool result: call_00_4xhhzhf1s3kv5azp7jp3d2zp (is_error=False)</summary>
 
 
 ```text
@@ -688,7 +688,7 @@ Checkout now.
 </details>
 
 
-## Source event #85 · Main agent: Model tool call: ToolSearch (call_00_byqlgs3ob25m2uk6pu9fp7pv)
+## Source event 85 · Main agent: Model tool call: ToolSearch (call_00_byqlgs3ob25m2uk6pu9fp7pv)
 
 ```text
 {
@@ -700,7 +700,7 @@ Checkout now.
 
 
 <details>
-<summary>Source event #86 · Main agent: Tool result: call_00_byqlgs3ob25m2uk6pu9fp7pv (is_error=False)</summary>
+<summary>Source event 86 · Main agent: Tool result: call_00_byqlgs3ob25m2uk6pu9fp7pv (is_error=False)</summary>
 
 
 ```text
@@ -724,7 +724,7 @@ Checkout now.
 </details>
 
 
-## Source event #87 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_01_bstf05oj404zpfugjt4xnk5e)
+## Source event 87 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_01_bstf05oj404zpfugjt4xnk5e)
 
 ```text
 {
@@ -735,7 +735,7 @@ Checkout now.
 
 
 <details>
-<summary>Source event #88 · Main agent: Tool result: call_01_bstf05oj404zpfugjt4xnk5e (is_error=False)</summary>
+<summary>Source event 88 · Main agent: Tool result: call_01_bstf05oj404zpfugjt4xnk5e (is_error=False)</summary>
 
 
 ```text
@@ -751,7 +751,7 @@ Checkout now.
 </details>
 
 
-## Source event #89 · Main agent: Model message
+## Source event 89 · Main agent: Model message
 
 ```text
 Order processed at 07:02:29 with blue item, total 14.99. 
@@ -773,7 +773,7 @@ Let me check chats lookup.
 
 
 
-## Source event #90 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_00_i0k6femfk5hkzsrm5l1cu2l0)
+## Source event 90 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_00_i0k6femfk5hkzsrm5l1cu2l0)
 
 ```text
 {
@@ -783,7 +783,7 @@ Let me check chats lookup.
 
 
 
-## Source event #91 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_01_dra7xt5dhfr11wwe5svy31t9)
+## Source event 91 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_01_dra7xt5dhfr11wwe5svy31t9)
 
 ```text
 {
@@ -793,7 +793,7 @@ Let me check chats lookup.
 
 
 
-## Source event #92 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_02_c0r1plyigpf0jgl0l64vv8pd)
+## Source event 92 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_02_c0r1plyigpf0jgl0l64vv8pd)
 
 ```text
 {
@@ -804,7 +804,7 @@ Let me check chats lookup.
 
 
 <details>
-<summary>Source event #93 · Main agent: Tool result: call_00_i0k6femfk5hkzsrm5l1cu2l0 (is_error=False)</summary>
+<summary>Source event 93 · Main agent: Tool result: call_00_i0k6femfk5hkzsrm5l1cu2l0 (is_error=False)</summary>
 
 
 ```text
@@ -821,7 +821,7 @@ Let me check chats lookup.
 
 
 <details>
-<summary>Source event #94 · Main agent: Tool result: call_01_dra7xt5dhfr11wwe5svy31t9 (is_error=False)</summary>
+<summary>Source event 94 · Main agent: Tool result: call_01_dra7xt5dhfr11wwe5svy31t9 (is_error=False)</summary>
 
 
 ```text
@@ -838,7 +838,7 @@ Let me check chats lookup.
 
 
 <details>
-<summary>Source event #95 · Main agent: Tool result: call_02_c0r1plyigpf0jgl0l64vv8pd (is_error=False)</summary>
+<summary>Source event 95 · Main agent: Tool result: call_02_c0r1plyigpf0jgl0l64vv8pd (is_error=False)</summary>
 
 
 ```text
@@ -854,7 +854,7 @@ Let me check chats lookup.
 </details>
 
 
-## Source event #96 · Main agent: Model message
+## Source event 96 · Main agent: Model message
 
 ```text
 Good, chat user IDs obtained. Now wait exactly 60 seconds.
@@ -864,7 +864,7 @@ Purchase completed 07:02:29.79. Wait 60s → 07:03:29.79. I'll wait 60s.
 
 
 
-## Source event #97 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_zpa5kekbmxeafi93m7gznydx)
+## Source event 97 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_zpa5kekbmxeafi93m7gznydx)
 
 ```text
 {
@@ -875,7 +875,7 @@ Purchase completed 07:02:29.79. Wait 60s → 07:03:29.79. I'll wait 60s.
 
 
 <details>
-<summary>Source event #98 · Main agent: Tool result: call_00_zpa5kekbmxeafi93m7gznydx (is_error=False)</summary>
+<summary>Source event 98 · Main agent: Tool result: call_00_zpa5kekbmxeafi93m7gznydx (is_error=False)</summary>
 
 
 ```text
@@ -895,7 +895,7 @@ Purchase completed 07:02:29.79. Wait 60s → 07:03:29.79. I'll wait 60s.
 </details>
 
 
-## Source event #99 · Main agent: Model message
+## Source event 99 · Main agent: Model message
 
 ```text
 07:03:30 — exactly 1 minute after purchase. Now send individual messages with the price ($14.99) to the 3 contacts.
@@ -907,7 +907,7 @@ Send three separate messages.
 
 
 
-## Source event #100 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_00_7mdlhy9fkb668hja0m6dm76l)
+## Source event 100 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_00_7mdlhy9fkb668hja0m6dm76l)
 
 ```text
 {
@@ -918,7 +918,7 @@ Send three separate messages.
 
 
 
-## Source event #101 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_01_j02nbpgfezs4judwcd0g2ikt)
+## Source event 101 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_01_j02nbpgfezs4judwcd0g2ikt)
 
 ```text
 {
@@ -929,7 +929,7 @@ Send three separate messages.
 
 
 
-## Source event #102 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_02_eg32ryqq0clgsjoi2hxum9nc)
+## Source event 102 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_02_eg32ryqq0clgsjoi2hxum9nc)
 
 ```text
 {
@@ -941,7 +941,7 @@ Send three separate messages.
 
 
 <details>
-<summary>Source event #103 · Main agent: Tool result: call_00_7mdlhy9fkb668hja0m6dm76l (is_error=False)</summary>
+<summary>Source event 103 · Main agent: Tool result: call_00_7mdlhy9fkb668hja0m6dm76l (is_error=False)</summary>
 
 
 ```text
@@ -958,7 +958,7 @@ Send three separate messages.
 
 
 <details>
-<summary>Source event #104 · Main agent: Tool result: call_01_j02nbpgfezs4judwcd0g2ikt (is_error=False)</summary>
+<summary>Source event 104 · Main agent: Tool result: call_01_j02nbpgfezs4judwcd0g2ikt (is_error=False)</summary>
 
 
 ```text
@@ -975,7 +975,7 @@ Send three separate messages.
 
 
 <details>
-<summary>Source event #105 · Main agent: Tool result: call_02_eg32ryqq0clgsjoi2hxum9nc (is_error=False)</summary>
+<summary>Source event 105 · Main agent: Tool result: call_02_eg32ryqq0clgsjoi2hxum9nc (is_error=False)</summary>
 
 
 ```text
@@ -991,7 +991,7 @@ Send three separate messages.
 </details>
 
 
-## Source event #106 · Main agent: Model message
+## Source event 106 · Main agent: Model message
 
 ```text
 All three sent. Now wait exactly 1 minute, then notify the user.
@@ -1003,7 +1003,7 @@ Let me verify the messages appear correctly? Could read conversations but no nee
 
 
 
-## Source event #107 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_33vt87mykvfgmnv08tq2m4s5)
+## Source event 107 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_33vt87mykvfgmnv08tq2m4s5)
 
 ```text
 {
@@ -1014,7 +1014,7 @@ Let me verify the messages appear correctly? Could read conversations but no nee
 
 
 <details>
-<summary>Source event #108 · Main agent: Tool result: call_00_33vt87mykvfgmnv08tq2m4s5 (is_error=False)</summary>
+<summary>Source event 108 · Main agent: Tool result: call_00_33vt87mykvfgmnv08tq2m4s5 (is_error=False)</summary>
 
 
 ```text
@@ -1034,7 +1034,7 @@ Let me verify the messages appear correctly? Could read conversations but no nee
 </details>
 
 
-## Source event #109 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_gneot93yilj8jsdx4qvyd671)
+## Source event 109 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_gneot93yilj8jsdx4qvyd671)
 
 ```text
 {
@@ -1045,7 +1045,7 @@ Let me verify the messages appear correctly? Could read conversations but no nee
 
 
 <details>
-<summary>Source event #110 · Main agent: Tool result: call_00_gneot93yilj8jsdx4qvyd671 (is_error=False)</summary>
+<summary>Source event 110 · Main agent: Tool result: call_00_gneot93yilj8jsdx4qvyd671 (is_error=False)</summary>
 
 
 ```text
@@ -1061,7 +1061,7 @@ Let me verify the messages appear correctly? Could read conversations but no nee
 </details>
 
 
-## Source event #111 · Main agent: Model message
+## Source event 111 · Main agent: Model message
 
 ```text
 Task completed:
@@ -1078,7 +1078,7 @@ Task completed:
 
 
 <details>
-<summary>Source event #112 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 112 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -1098,7 +1098,7 @@ Task completed:
 
 
 <details>
-<summary>Source event #113 · Judge: Judge rationale</summary>
+<summary>Source event 113 · Judge: Judge rationale</summary>
 
 
 ```text

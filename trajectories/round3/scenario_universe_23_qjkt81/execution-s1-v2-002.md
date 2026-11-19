@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #55 · Sub-agent 1: tool result</summary>
+<summary>Source event 55 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #56 · Sub-agent 1: model output
+## Source event 56 · Sub-agent 1: model output
 
 ```text
 Almost done — let me get the last contacts.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 1: tool result</summary>
+<summary>Source event 57 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #58 · Sub-agent 1: model output
+## Source event 58 · Sub-agent 1: model output
 
 ```text
 All 124 contacts scanned. Male contacts living in Prague: Kryštof Nováček (41), František Šťastný (42), Zbyněk Šťastný (57). Closest to Matěj's age (19) is **Kryštof Nováček (41)**. Note: Kvido Nováček (20) is closest in age but lives in Brno, not Prague. Let me look up Kryštof's Messages user ID.
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #59 · Sub-agent 1: tool result</summary>
+<summary>Source event 59 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ Action:
 </details>
 
 
-## Source event #60 · Sub-agent 1: model output
+## Source event 60 · Sub-agent 1: model output
 
 ```text
 Now sending the message to Kryštof.
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 1: tool result</summary>
+<summary>Source event 61 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -116,7 +116,7 @@ Action:
 </details>
 
 
-## Source event #62 · Sub-agent 1: model output
+## Source event 62 · Sub-agent 1: model output
 
 ```text
 Message sent. Now cancelling the figure order and the cab ride.
@@ -134,7 +134,7 @@ Action:
 
 
 <details>
-<summary>Source event #63 · Sub-agent 1: tool result</summary>
+<summary>Source event 63 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -148,7 +148,7 @@ Action:
 </details>
 
 
-## Source event #64 · Sub-agent 1: model output
+## Source event 64 · Sub-agent 1: model output
 
 ```text
 Order canceled. Now cancelling the existing cab ride.
@@ -164,7 +164,7 @@ Action:
 
 
 <details>
-<summary>Source event #65 · Sub-agent 1: tool result</summary>
+<summary>Source event 65 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -178,7 +178,7 @@ Ride has been cancelled, sorry to see you go.
 </details>
 
 
-## Source event #66 · Sub-agent 1: model output
+## Source event 66 · Sub-agent 1: model output
 
 ```text
 Ride cancelled. Now ordering the new cab to Kryštof's address.
@@ -199,7 +199,7 @@ Action:
 
 
 <details>
-<summary>Source event #67 · Sub-agent 1: tool result</summary>
+<summary>Source event 67 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -222,7 +222,7 @@ Ride ID: f2b176c2b9442bcd8166419c847a3869
 </details>
 
 
-## Source event #68 · Sub-agent 1: model output
+## Source event 68 · Sub-agent 1: model output
 
 ```text
 All conditional actions completed. Now sending the final status report to the user.
@@ -240,7 +240,7 @@ Action:
 
 
 <details>
-<summary>Source event #69 · Sub-agent 1: tool result</summary>
+<summary>Source event 69 · Sub-agent 1: tool result</summary>
 
 
 ```text

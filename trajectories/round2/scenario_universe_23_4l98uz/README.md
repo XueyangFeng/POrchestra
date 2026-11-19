@@ -1,6 +1,8 @@
 # scenario_universe_23_4l98uz
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_23_4l98uz/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_23_4l98uz/README.md) · [Codex](../../codex/round2/scenario_universe_23_4l98uz/README.md) · [OpenCode](../../opencode/round2/scenario_universe_23_4l98uz/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to update a specific calendar event location and book a premium ride departing after the event. I need to find the event on the specified date, retrieve contact information for Bohumil and other attendees, update the event, call the taxi service, and confirm to the user.
 
@@ -98,7 +100,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #25
+**Harness configuration updated** · Source event 25
 
 **1. Sub-agent revision request**
 
@@ -107,7 +109,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Initial flow completed: deleted event 8b999799feca4bc1bd25ec59f55f1174 and recreated 'Dinner with Family' (new id dcf191829913b81220f38262b28ec53c) at Bohumil's address '14, Lidická 123, 602 00 Brno, Czech Republic'; booked Premium ride ca5380b0fb5d30db43b4905d14d91312 from that address to 'Božetěchova 5, 602 00 Brno, Czech Republic' departing 2024-10-17 21:05; user notified. Then environment notification arrived: Calendar event deleted by Bohumil Nováček. Verification shows the recreated 'Dinner with Family' event is indeed gone from 2024-10-17; the remaining 5 events are unrelated. Cancellation follow-up branch is now triggered.
 ```
 <details>
-<summary>Request and evidence · source event #23</summary>
+<summary>Request and evidence · source event 23</summary>
 
 
 ```text
@@ -155,7 +157,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 Bohumil Nováček cancelled the dinner event, triggering the conditional logic in the original task. The SubAgent needs Email and Chats tools to notify attendees and recreate the event at the other attendee&#x27;s address, as well as the ability to cancel and re-book the taxi.
 

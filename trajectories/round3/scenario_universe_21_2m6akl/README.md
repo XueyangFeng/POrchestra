@@ -1,6 +1,8 @@
 # scenario_universe_21_2m6akl
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_21_2m6akl/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_21_2m6akl/README.md) · [Codex](../../codex/round3/scenario_universe_21_2m6akl/README.md) · [OpenCode](../../opencode/round3/scenario_universe_21_2m6akl/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the current user&#x27;s details (name and city) and find the specific file in the news folder to satisfy the requirements for friend identification and file handling.
 
@@ -79,11 +81,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #26
+**Initial harness configuration** · Source event 26
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The first SubAgent identified the user as Astrid Lundqvist (initials A.L., last name initial L) living in Stockholm, and found three candidate files for the &#x27;Copa América 2024&#x27; news in &#x27;/Documents/news&#x27;. I now need to confirm the file content, identify the specific friends in Contacts, send the file via Messages or Chats as requested, move the file, and then perform the cleanup and counting in the Family folder.
 

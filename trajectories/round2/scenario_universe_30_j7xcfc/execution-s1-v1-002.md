@@ -4,7 +4,7 @@
 
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 Recipients must be a list. Retrying.
@@ -25,7 +25,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 1: model output
+## Source event 43 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -58,7 +58,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -72,7 +72,7 @@ e4a308c5815d34fee3f197ba7494923c
 </details>
 
 
-## Source event #45 · Sub-agent 1: model output
+## Source event 45 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -91,7 +91,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -105,7 +105,7 @@ Action:
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -125,7 +125,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -139,7 +139,7 @@ a4f5e12ba68bde67b36bb6304f06e8b2
 </details>
 
 
-## Source event #49 · Sub-agent 1: model output
+## Source event 49 · Sub-agent 1: model output
 
 ```text
 Bridget MacTavish's listed email contains a space (`bmac tavish@gaia2mail.com`). Let me try sending as listed.
@@ -161,7 +161,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 1: tool result</summary>
+<summary>Source event 50 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -175,7 +175,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 1: model output
+## Source event 51 · Sub-agent 1: model output
 
 ```text
 All 5 librarian contacts identified, 5 ebook copies purchased, and 5 emails sent. Reporting completion.
@@ -230,7 +230,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 1: tool result</summary>
+<summary>Source event 52 · Sub-agent 1: tool result</summary>
 
 
 ```text

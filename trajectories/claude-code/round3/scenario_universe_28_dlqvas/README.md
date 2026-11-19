@@ -1,6 +1,8 @@
 # Claude Code · scenario_universe_28_dlqvas
 
-[Round index](../README.md) · [Claude Code rounds](../../README.md) · [PORCHESTRA task](../../../round3/scenario_universe_28_dlqvas/README.md)
+[Round index](../README.md) · [Claude Code rounds](../../README.md)
+
+**Compare systems:** [PORCHESTRA](../../../round3/scenario_universe_28_dlqvas/README.md) · Claude Code · [Codex](../../../codex/round3/scenario_universe_28_dlqvas/README.md) · [OpenCode](../../../opencode/round3/scenario_universe_28_dlqvas/README.md)
 
 **Domain:** Search · **Result:** Correct · **Duration:** 16.2 seconds
 

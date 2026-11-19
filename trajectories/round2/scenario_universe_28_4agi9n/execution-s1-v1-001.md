@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #4 · Sub-agent 1: model output
+## Source event 4 · Sub-agent 1: model output
 
 ```text
 I'll start by checking the current time and searching for the product.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: tool result</summary>
+<summary>Source event 5 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 Current time is 07:00:22. Let me search for the product.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ Action:
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Empty result. Let me try a broader search.
@@ -99,7 +99,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Action:
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 Found the product. The Blue variant is currently unavailable. Let me check product details.
@@ -130,7 +130,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -144,7 +144,7 @@ Product(name='BRIO 30447 Abacus with Clock | Fun Preschool Toy for Kids Ages 3 a
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Blue variant (item_id `9b600a8f2d504732a004fd497f7b8921`, price 14.99) is currently unavailable. I'll monitor until 07:02:30.
@@ -161,7 +161,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -176,7 +176,7 @@ None
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 14 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -189,7 +189,7 @@ Environment notifications:
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -202,7 +202,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -216,7 +216,7 @@ Action:
 </details>
 
 
-## Source event #17 · Sub-agent 1: model output
+## Source event 17 · Sub-agent 1: model output
 
 ```text
 Time is 07:00:53. About 97 seconds remain until 07:02:30. Continuing monitoring.
@@ -233,7 +233,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: tool result</summary>
+<summary>Source event 18 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -248,7 +248,7 @@ None
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 19 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -261,7 +261,7 @@ Environment notifications:
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -274,7 +274,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -288,7 +288,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 Time is 07:01:23. Let me re-check product availability.
@@ -305,7 +305,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -319,7 +319,7 @@ Product(name='BRIO 30447 Abacus with Clock | Fun Preschool Toy for Kids Ages 3 a
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 Still unavailable. Continuing to wait.
@@ -336,7 +336,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -351,7 +351,7 @@ None
 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 26 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -364,7 +364,7 @@ Environment notifications:
 </details>
 
 
-## Source event #27 · Sub-agent 1: model output
+## Source event 27 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -377,7 +377,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: tool result</summary>
+<summary>Source event 28 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -391,7 +391,7 @@ Action:
 </details>
 
 
-## Source event #29 · Sub-agent 1: model output
+## Source event 29 · Sub-agent 1: model output
 
 ```text
 Time is 07:01:53. Let me check availability again.
@@ -408,7 +408,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 1: tool result</summary>
+<summary>Source event 30 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -422,7 +422,7 @@ Product(name='BRIO 30447 Abacus with Clock | Fun Preschool Toy for Kids Ages 3 a
 </details>
 
 
-## Source event #31 · Sub-agent 1: model output
+## Source event 31 · Sub-agent 1: model output
 
 ```text
 Still unavailable at 07:01:53. Waiting the remaining time.
@@ -439,7 +439,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: tool result</summary>
+<summary>Source event 32 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -454,7 +454,7 @@ None
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 33 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -468,7 +468,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: tool result</summary>
+<summary>Source event 34 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -488,7 +488,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #35 · Sub-agent 1: model output
+## Source event 35 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -501,7 +501,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -515,7 +515,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Time is 07:02:23. Checking availability just before the 2.5 minute mark.
@@ -532,7 +532,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -546,7 +546,7 @@ Product(name='BRIO 30447 Abacus with Clock | Fun Preschool Toy for Kids Ages 3 a
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 The blue variant is now available (price 14.99). It's 07:02:23 — I need to wait ~7 seconds until exactly 07:02:30.
@@ -563,7 +563,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -578,7 +578,7 @@ None
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 41 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -591,7 +591,7 @@ Environment notifications:
 </details>
 
 
-## Source event #42 · Sub-agent 1: model output
+## Source event 42 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -604,7 +604,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: tool result</summary>
+<summary>Source event 43 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -618,7 +618,7 @@ Action:
 </details>
 
 
-## Source event #44 · Sub-agent 1: model output
+## Source event 44 · Sub-agent 1: model output
 
 ```text
 Exactly 07:02:30. The product became available within the window. Adding to cart now.
@@ -636,7 +636,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -650,7 +650,7 @@ Action:
 </details>
 
 
-## Source event #46 · Sub-agent 1: model output
+## Source event 46 · Sub-agent 1: model output
 
 ```text
 Added to cart. Now checking out.
@@ -665,7 +665,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result</summary>
+<summary>Source event 47 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -679,7 +679,7 @@ Action:
 </details>
 
 
-## Source event #48 · Sub-agent 1: model output
+## Source event 48 · Sub-agent 1: model output
 
 ```text
 Checkout successful (order 934b82037dff4d358541dc175f70768b). Now getting time to establish wait baseline.
@@ -694,7 +694,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: tool result</summary>
+<summary>Source event 49 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -708,7 +708,7 @@ Action:
 </details>
 
 
-## Source event #50 · Sub-agent 1: model output
+## Source event 50 · Sub-agent 1: model output
 
 ```text
 Waiting 60 seconds after checkout (until ~07:03:30).
@@ -725,7 +725,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 1: tool result</summary>
+<summary>Source event 51 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -740,7 +740,7 @@ None
 
 
 <details>
-<summary>Source event #52 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 52 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -753,7 +753,7 @@ Environment notifications:
 </details>
 
 
-## Source event #53 · Sub-agent 1: model output
+## Source event 53 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -766,7 +766,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 1: tool result</summary>
+<summary>Source event 54 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -780,7 +780,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 1: model output
+## Source event 55 · Sub-agent 1: model output
 
 ```text
 Exactly 60 seconds elapsed (07:03:30). Now retrieving contacts.
@@ -797,7 +797,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 1: tool result</summary>
+<summary>Source event 56 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -811,7 +811,7 @@ Action:
 </details>
 
 
-## Source event #57 · Sub-agent 1: model output
+## Source event 57 · Sub-agent 1: model output
 
 ```text
 Retrieved first 10 of 104 contacts. Continuing to page through all contacts.
@@ -828,7 +828,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 1: tool result</summary>
+<summary>Source event 58 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -842,7 +842,7 @@ Action:
 </details>
 
 
-## Source event #59 · Sub-agent 1: model output
+## Source event 59 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -857,7 +857,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 1: tool result</summary>
+<summary>Source event 60 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -871,7 +871,7 @@ Action:
 </details>
 
 
-## Source event #61 · Sub-agent 1: model output
+## Source event 61 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -886,7 +886,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 1: tool result</summary>
+<summary>Source event 62 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -900,7 +900,7 @@ Action:
 </details>
 
 
-## Source event #63 · Sub-agent 1: model output
+## Source event 63 · Sub-agent 1: model output
 
 ```text
 Found a match (Thanakorn Suthipong — 'economic' in description). Continuing pagination.
@@ -917,7 +917,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 1: tool result</summary>
+<summary>Source event 64 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -931,7 +931,7 @@ Action:
 </details>
 
 
-## Source event #65 · Sub-agent 1: model output
+## Source event 65 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -946,7 +946,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 1: tool result</summary>
+<summary>Source event 66 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -960,7 +960,7 @@ Action:
 </details>
 
 
-## Source event #67 · Sub-agent 1: model output
+## Source event 67 · Sub-agent 1: model output
 
 ```text
 Found more matches (Viggo Rasmussen — finance). Continuing.
@@ -977,7 +977,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 1: tool result</summary>
+<summary>Source event 68 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -991,7 +991,7 @@ Action:
 </details>
 
 
-## Source event #69 · Sub-agent 1: model output
+## Source event 69 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -1006,7 +1006,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 1: tool result</summary>
+<summary>Source event 70 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1020,7 +1020,7 @@ Action:
 </details>
 
 
-## Source event #71 · Sub-agent 1: model output
+## Source event 71 · Sub-agent 1: model output
 
 ```text
 Found Colette Van der Meulen — 'Economist (Retired)' (job). Continuing.
@@ -1037,7 +1037,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 1: tool result</summary>
+<summary>Source event 72 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1051,7 +1051,7 @@ Action:
 </details>
 
 
-## Source event #73 · Sub-agent 1: model output
+## Source event 73 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -1066,7 +1066,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 1: tool result</summary>
+<summary>Source event 74 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1080,7 +1080,7 @@ Action:
 </details>
 
 
-## Source event #75 · Sub-agent 1: model output
+## Source event 75 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -1095,7 +1095,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 1: tool result</summary>
+<summary>Source event 76 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1109,7 +1109,7 @@ Action:
 </details>
 
 
-## Source event #77 · Sub-agent 1: model output
+## Source event 77 · Sub-agent 1: model output
 
 ```text
 I've now retrieved all 104 contacts. Exact keyword matches ('economist', 'economic', 'finance') are:
@@ -1131,7 +1131,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 1: tool result</summary>
+<summary>Source event 78 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1145,7 +1145,7 @@ Action:
 </details>
 
 
-## Source event #79 · Sub-agent 1: model output
+## Source event 79 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -1160,7 +1160,7 @@ Action:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 1: tool result</summary>
+<summary>Source event 80 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1174,7 +1174,7 @@ Action:
 </details>
 
 
-## Source event #81 · Sub-agent 1: model output
+## Source event 81 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -1189,7 +1189,7 @@ Action:
 
 
 <details>
-<summary>Source event #82 · Sub-agent 1: tool result</summary>
+<summary>Source event 82 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1203,7 +1203,7 @@ Action:
 </details>
 
 
-## Source event #83 · Sub-agent 1: model output
+## Source event 83 · Sub-agent 1: model output
 
 ```text
 All contacts scanned. Three matches: Thanakorn Suthipong (description: "economic"), Viggo Rasmussen (description: "finance"), Colette Van der Meulen (job: "Economist"). Sending individual messages with the price 14.99.
@@ -1221,7 +1221,7 @@ Action:
 
 
 <details>
-<summary>Source event #84 · Sub-agent 1: tool result</summary>
+<summary>Source event 84 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1235,7 +1235,7 @@ f5a52f795771435b9f5399ac92472a88
 </details>
 
 
-## Source event #85 · Sub-agent 1: model output
+## Source event 85 · Sub-agent 1: model output
 
 ```text
 Message sent to Thanakorn. Now Viggo.
@@ -1253,7 +1253,7 @@ Action:
 
 
 <details>
-<summary>Source event #86 · Sub-agent 1: tool result</summary>
+<summary>Source event 86 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1267,7 +1267,7 @@ Action:
 </details>
 
 
-## Source event #87 · Sub-agent 1: model output
+## Source event 87 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -1283,7 +1283,7 @@ Action:
 
 
 <details>
-<summary>Source event #88 · Sub-agent 1: tool result</summary>
+<summary>Source event 88 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1297,7 +1297,7 @@ Action:
 </details>
 
 
-## Source event #89 · Sub-agent 1: model output
+## Source event 89 · Sub-agent 1: model output
 
 ```text
 All three messages sent. Let me check the current time before the final 60-second wait.
@@ -1312,7 +1312,7 @@ Action:
 
 
 <details>
-<summary>Source event #90 · Sub-agent 1: tool result</summary>
+<summary>Source event 90 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1326,7 +1326,7 @@ Action:
 </details>
 
 
-## Source event #91 · Sub-agent 1: model output
+## Source event 91 · Sub-agent 1: model output
 
 ```text
 Time is 07:03:30. Now waiting exactly 60 seconds before notifying the user.
@@ -1343,7 +1343,7 @@ Action:
 
 
 <details>
-<summary>Source event #92 · Sub-agent 1: tool result</summary>
+<summary>Source event 92 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1358,7 +1358,7 @@ None
 
 
 <details>
-<summary>Source event #93 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 93 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -1371,7 +1371,7 @@ Environment notifications:
 </details>
 
 
-## Source event #94 · Sub-agent 1: model output
+## Source event 94 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -1384,7 +1384,7 @@ Action:
 
 
 <details>
-<summary>Source event #95 · Sub-agent 1: tool result</summary>
+<summary>Source event 95 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1398,7 +1398,7 @@ Action:
 </details>
 
 
-## Source event #96 · Sub-agent 1: model output
+## Source event 96 · Sub-agent 1: model output
 
 ```text
 The 60-second wait after sending messages is complete (07:03:30 → 07:04:30). Now notifying the user.
@@ -1415,7 +1415,7 @@ Action:
 
 
 <details>
-<summary>Source event #97 · Sub-agent 1: tool result</summary>
+<summary>Source event 97 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #188 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_jw6z9k4vm2qdaqdfdb1aa1wg)
+## Source event 188 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_jw6z9k4vm2qdaqdfdb1aa1wg)
 
 ```text
 {
@@ -15,7 +15,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #189 · Main agent: Tool result: call_00_jw6z9k4vm2qdaqdfdb1aa1wg (is_error=False)</summary>
+<summary>Source event 189 · Main agent: Tool result: call_00_jw6z9k4vm2qdaqdfdb1aa1wg (is_error=False)</summary>
 
 
 ```text
@@ -31,7 +31,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #190 · Main agent: Model message
+## Source event 190 · Main agent: Model message
 
 ```text
 The message is sent. Turn ends. Now I wait for a possible notification/user message. But as the assistant, after tool call, I should perhaps continue? The tool returned None. In this harness, the turn may end after send_message_to_user. But I can still act? The instruction says it ends the current ARE turn. Likely the task runner will inject a new message.
@@ -49,7 +49,7 @@ Actually, hmm. Maybe "send_message_to_user sends a real user reply and ends the 
 
 
 
-## Source event #191 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_1sw55j0w7t93wydpdo3cnrap)
+## Source event 191 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_1sw55j0w7t93wydpdo3cnrap)
 
 ```text
 {
@@ -60,7 +60,7 @@ Actually, hmm. Maybe "send_message_to_user sends a real user reply and ends the 
 
 
 <details>
-<summary>Source event #192 · Main agent: Tool result: call_00_1sw55j0w7t93wydpdo3cnrap (is_error=True)</summary>
+<summary>Source event 192 · Main agent: Tool result: call_00_1sw55j0w7t93wydpdo3cnrap (is_error=True)</summary>
 
 
 ```text
@@ -71,7 +71,7 @@ The ARE user turn has ended. Return your final response; further app actions are
 </details>
 
 
-## Source event #193 · Main agent: Model message
+## Source event 193 · Main agent: Model message
 
 ```text
 The turn has ended. So I must return final response. The task will presumably continue in a new turn when the user/Luísa replies. But for now, final response.
@@ -85,7 +85,7 @@ Let me output a brief summary.
 
 
 
-## Source event #194 · Main agent: Model message
+## Source event 194 · Main agent: Model message
 
 ```text
 I've completed the initial scheduling and sent the confirmation email:
@@ -100,7 +100,7 @@ I'll update the calendar event and cab booking if Luísa's reply differs from th
 
 
 <details>
-<summary>Source event #195 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 195 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -118,7 +118,7 @@ I'll update the calendar event and cab booking if Luísa's reply differs from th
 
 
 <details>
-<summary>Source event #196 · Judge: Judge rationale</summary>
+<summary>Source event 196 · Judge: Judge rationale</summary>
 
 
 ```text

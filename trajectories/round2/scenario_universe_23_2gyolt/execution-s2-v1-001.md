@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 28 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #29 · Sub-agent 2: model output
+## Source event 29 · Sub-agent 2: model output
 
 ```text
 I'll start by reading today's calendar events to find the Global Governance Seminar start time.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 2: tool result</summary>
+<summary>Source event 30 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #31 · Sub-agent 2: model output
+## Source event 31 · Sub-agent 2: model output
 
 ```text
 The seminar starts at 09:00 on 2024-10-15, so the ride time is 08:30. Now let me get the user's details for the home address.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: tool result</summary>
+<summary>Source event 32 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -93,7 +93,7 @@ Address: Božetěchova 3, 110 00 Prague 1
 </details>
 
 
-## Source event #33 · Sub-agent 2: model output
+## Source event 33 · Sub-agent 2: model output
 
 ```text
 Seminar starts at 09:00, so ride time is 08:30 on 2024-10-15. Booking the Default cab from the user's home address.
@@ -113,7 +113,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -136,7 +136,7 @@ Ride ID: ca5380b0fb5d30db43b4905d14d91312
 </details>
 
 
-## Source event #35 · Sub-agent 2: model output
+## Source event 35 · Sub-agent 2: model output
 
 ```text
 The ride was booked successfully with timestamp 1728981000.0, which corresponds to 2024-10-15 08:30:00 (exactly 30 minutes before the 09:00 seminar start). The task is complete.
@@ -188,7 +188,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text

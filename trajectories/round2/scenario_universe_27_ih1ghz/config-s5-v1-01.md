@@ -2,7 +2,7 @@
 
 [Configuration history](README.md)
 
-Source event #231. System configuration.
+Source event 231. System configuration.
 
 ```text
 You are a specialized SubAgent in POrchestra for GAIA2.

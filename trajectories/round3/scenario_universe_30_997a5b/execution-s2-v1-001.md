@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 37 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: tool result</summary>
+<summary>Source event 38 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -41,7 +41,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #39 · Sub-agent 2: model output
+## Source event 39 · Sub-agent 2: model output
 
 ```text
 I'll start by searching contacts for 'climatologist'.
@@ -58,7 +58,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: tool result</summary>
+<summary>Source event 40 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -72,7 +72,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 2: model output
+## Source event 41 · Sub-agent 2: model output
 
 ```text
 Contact search doesn't cover descriptions. Let me search emails for 'climatologist'.
@@ -90,7 +90,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 2: tool result</summary>
+<summary>Source event 42 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -104,7 +104,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 2: model output
+## Source event 43 · Sub-agent 2: model output
 
 ```text
 Found the email from Helga Müller-Krüger describing herself as a "retired climatologist." Let me verify she's in contacts.
@@ -121,7 +121,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: tool result</summary>
+<summary>Source event 44 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -135,7 +135,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 2: model output
+## Source event 45 · Sub-agent 2: model output
 
 ```text
 Confirmed the contact: Helga Müller-Krüger, "Former Climatologist", email helga.mueller-krueger@web.de — matching the inbox sender. Now replying with the required exact content.
@@ -154,7 +154,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: tool result</summary>
+<summary>Source event 46 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -168,7 +168,7 @@ d5c10c7486bda98ac6f9fb05dd3707df
 </details>
 
 
-## Source event #47 · Sub-agent 2: model output
+## Source event 47 · Sub-agent 2: model output
 
 ```text
 Reply sent successfully. Handing back to MainAgent.
@@ -212,7 +212,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: tool result</summary>
+<summary>Source event 48 · Sub-agent 2: tool result</summary>
 
 
 ```text

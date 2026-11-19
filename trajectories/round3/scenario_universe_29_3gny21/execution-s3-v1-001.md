@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #30 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 30 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #31 · Sub-agent 3: model output
+## Source event 31 · Sub-agent 3: model output
 
 ```text
 I'll start by searching for the 'Snake Oil Game' in the shopping catalog.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 3: tool result</summary>
+<summary>Source event 32 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 3: model output
+## Source event 33 · Sub-agent 3: model output
 
 ```text
 I found the product. The PC + English version is item_id `59872cee2c104071be43cb9a1dc0c1d2` (price 15.94). Now let me check available discount codes.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 3: tool result</summary>
+<summary>Source event 34 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 3: model output
+## Source event 35 · Sub-agent 3: model output
 
 ```text
 I found a discount code `E62OXOH7RQ` whose item list includes `59872cee2c104071be43cb9a1dc0c1d2` — our PC/English variant. Let me verify the discount details.
@@ -99,7 +99,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 3: tool result</summary>
+<summary>Source event 36 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 3: model output
+## Source event 37 · Sub-agent 3: model output
 
 ```text
 The discount code `E62OXOH7RQ` applies to our exact item (`59872cee2c104071be43cb9a1dc0c1d2`) with a 94% discount. Now I'll add 3 copies to the cart.
@@ -131,7 +131,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 3: tool result</summary>
+<summary>Source event 38 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -145,7 +145,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 3: model output
+## Source event 39 · Sub-agent 3: model output
 
 ```text
 Added. Let me verify the cart contents before checkout.
@@ -160,7 +160,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 3: tool result</summary>
+<summary>Source event 40 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 3: model output
+## Source event 41 · Sub-agent 3: model output
 
 ```text
 Cart is correct: 3 × PC/English Standard @ 15.94. Proceeding to checkout with the discount code.
@@ -191,7 +191,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 3: tool result</summary>
+<summary>Source event 42 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -205,7 +205,7 @@ cfc9b4e4c9d041dcada7ab4a8a864b99
 </details>
 
 
-## Source event #43 · Sub-agent 3: model output
+## Source event 43 · Sub-agent 3: model output
 
 ```text
 Checkout succeeded (order id `cfc9b4e4c9d041dcada7ab4a8a864b99`). Now I'll notify the user.
@@ -222,7 +222,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 3: tool result</summary>
+<summary>Source event 44 · Sub-agent 3: tool result</summary>
 
 
 ```text

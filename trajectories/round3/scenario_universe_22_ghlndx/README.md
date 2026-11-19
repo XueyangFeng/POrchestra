@@ -1,6 +1,8 @@
 # scenario_universe_22_ghlndx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_22_ghlndx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_22_ghlndx/README.md) · [Codex](../../codex/round3/scenario_universe_22_ghlndx/README.md) · [OpenCode](../../opencode/round3/scenario_universe_22_ghlndx/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the staff meeting scheduled for this morning, determine the attendees, and book the premium cab at the appropriate time. Following that, I need to provide the user with the names of the attendees.
 

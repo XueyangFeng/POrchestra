@@ -1,6 +1,8 @@
 # scenario_universe_24_ithv71
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_24_ithv71/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_24_ithv71/README.md) · [Codex](../../codex/round1/scenario_universe_24_ithv71/README.md) · [OpenCode](../../opencode/round1/scenario_universe_24_ithv71/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the group chat participants, find and save the most expensive 4+ bedroom properties, and then communicate the best option to the friends and the user.
 
@@ -97,7 +99,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #26
+**Harness configuration updated** · Source event 26
 
 **1. Sub-agent revision request**
 
@@ -106,7 +108,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Steps 1-7 of the assigned subtask are complete: identified most recent group chat (Swiss Technology and Culture, conversation_id=2edff086aeea40e3ab5ba8fde24e5a8b, participants excluding user: 5372bd96-e0a7-4e88-90e7-eedf40d318e4, 5f1945c2-122f-4d30-b705-2d6f8326fb13, 83019f81-edd3-43fa-a12b-214427d17483). Found 4+ bedroom properties; most expensive were Geneva Seaside and Geneva Luxury (both 4000). Saved Geneva Seaside (was not saved); Geneva Luxury was already saved. Among all saved, Geneva Seaside has largest square footage (2500). Sent message to group with its details and asked if they are happy or have specs. Notified user via AgentUserInterface. New notifications: 3 replies in group chat, all rejecting Geneva Seaside with specs. Need follow-up execution per original task (remove rejected property from saved, save not-already-saved properties meeting all specs with >=4 bedrooms, reply to group with matching property names, tell user final saved count).
 ```
 <details>
-<summary>Request and evidence · source event #24</summary>
+<summary>Request and evidence · source event 24</summary>
 
 
 ```text
@@ -161,7 +163,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent requested follow-up steps after the friends rejected the recommended property. The tool RentAFlat__remove_saved_apartment is available in the current toolset, so the SubAgent can remove the rejected property and save the new ones, then message the group and notify the user of the final saved count.
 

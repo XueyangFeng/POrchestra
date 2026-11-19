@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #194 · Main agent: Tool result: call_00_seyce8d5xxv5cjg32qsuhxhy (is_error=False)</summary>
+<summary>Source event 194 · Main agent: Tool result: call_00_seyce8d5xxv5cjg32qsuhxhy (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #195 · Main agent: Tool result: call_01_s9le8c6m46bbv4pvnl8lkcbp (is_error=False)</summary>
+<summary>Source event 195 · Main agent: Tool result: call_01_s9le8c6m46bbv4pvnl8lkcbp (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #196 · Main agent: Tool result: call_02_8gkn44tx0z8q09gmo9h4ao3u (is_error=False)</summary>
+<summary>Source event 196 · Main agent: Tool result: call_02_8gkn44tx0z8q09gmo9h4ao3u (is_error=False)</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #197 · Main agent: Tool result: call_03_323ebk14vac477nkze0k50vi (is_error=False)</summary>
+<summary>Source event 197 · Main agent: Tool result: call_03_323ebk14vac477nkze0k50vi (is_error=False)</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #198 · Main agent: Tool result: call_04_ywn38bnt8ty704stu819jbio (is_error=False)</summary>
+<summary>Source event 198 · Main agent: Tool result: call_04_ywn38bnt8ty704stu819jbio (is_error=False)</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #199 · Main agent: Model message
+## Source event 199 · Main agent: Model message
 
 ```text
 The extra "Rukmini" conversations all involve sender ae6191fe-516f-4458-b03f-3c0f13137c3f, who is Rukmini Sutanto (the entrepreneur/equestrian supplement company owner). Not Rukmini Widyastuti. So our count stands: only 6 conversations for Rukmini Widyastuti.
@@ -336,7 +336,7 @@ Let me send.
 
 
 
-## Source event #200 · Main agent: Model message
+## Source event 200 · Main agent: Model message
 
 ```text
 I've found the three oldest contacts and counted their sent messages across both Chats and Messages. Let me send the total.
@@ -344,7 +344,7 @@ I've found the three oldest contacts and counted their sent messages across both
 
 
 
-## Source event #201 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_m9j3aeztwafc9ej4x0jubm03)
+## Source event 201 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_m9j3aeztwafc9ej4x0jubm03)
 
 ```text
 {
@@ -355,7 +355,7 @@ I've found the three oldest contacts and counted their sent messages across both
 
 
 <details>
-<summary>Source event #202 · Main agent: Tool result: call_00_m9j3aeztwafc9ej4x0jubm03 (is_error=False)</summary>
+<summary>Source event 202 · Main agent: Tool result: call_00_m9j3aeztwafc9ej4x0jubm03 (is_error=False)</summary>
 
 
 ```text
@@ -371,7 +371,7 @@ I've found the three oldest contacts and counted their sent messages across both
 </details>
 
 
-## Source event #203 · Main agent: Model message
+## Source event 203 · Main agent: Model message
 
 ```text
 I sent the message. Let me maybe verify the message was sent? Usually returns None. The task is complete. But before final answer, let me reconsider whether I should double-check anything else. The user asked "Send me a message with only the total messages sent by all of them." We sent "49".
@@ -422,7 +422,7 @@ I'll finalize.
 
 
 
-## Source event #204 · Main agent: Model message
+## Source event 204 · Main agent: Model message
 
 ```text
 I found the oldest contacts by continent and sent the total messages they've sent me via the Agent UI.
@@ -437,7 +437,7 @@ Total messages sent by all three: **49** (sent to you as a message).
 
 
 <details>
-<summary>Source event #205 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 205 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -455,7 +455,7 @@ Total messages sent by all three: **49** (sent to you as a message).
 
 
 <details>
-<summary>Source event #206 · Judge: Judge rationale</summary>
+<summary>Source event 206 · Judge: Judge rationale</summary>
 
 
 ```text

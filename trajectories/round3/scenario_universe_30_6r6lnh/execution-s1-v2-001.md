@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 46 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 I now have the save tool. Restoring the three Liverpool apartments.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #49 · Sub-agent 1: model output
+## Source event 49 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 1: tool result</summary>
+<summary>Source event 50 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #51 · Sub-agent 1: model output
+## Source event 51 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -97,7 +97,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 1: tool result</summary>
+<summary>Source event 52 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -111,7 +111,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #53 · Sub-agent 1: model output
+## Source event 53 · Sub-agent 1: model output
 
 ```text
 All three Liverpool apartments restored. Now verifying the saved list for any remaining Cardiff properties.
@@ -127,7 +127,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 1: tool result</summary>
+<summary>Source event 54 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -141,7 +141,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 1: model output
+## Source event 55 · Sub-agent 1: model output
 
 ```text
 Verification complete: all 29 saved apartments are correct — the three Liverpool properties are back (saved=true), and no Cardiff properties remain (Cardiff Bay Apartments was removed and is absent from the list).
@@ -197,7 +197,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 1: tool result</summary>
+<summary>Source event 56 · Sub-agent 1: tool result</summary>
 
 
 ```text

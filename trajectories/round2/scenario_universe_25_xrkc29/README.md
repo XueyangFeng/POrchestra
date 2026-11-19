@@ -1,6 +1,8 @@
 # scenario_universe_25_xrkc29
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_25_xrkc29/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_25_xrkc29/README.md) · [Codex](../../codex/round2/scenario_universe_25_xrkc29/README.md) · [OpenCode](../../opencode/round2/scenario_universe_25_xrkc29/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires complex filtering of products based on variants and prices, placing a specific order, and then identifying a specific contact to send an email. I will start by delegating the product selection, ordering, and contact identification to a SubAgent.
 
@@ -99,7 +101,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #49
+**Harness configuration updated** · Source event 49
 
 **1. Sub-agent revision request**
 
@@ -108,7 +110,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 All 6 'Star Wars' products had a unique highest-price available variant, so none excluded. Cart was empty (checked before adding). Added 1 unit each: POP C2-B5 Metal 3.75in (3.25), Force Awakens Trooper Costume Medium Cotton (15.99), Rubie's Glovelettes Latex (8.08), Bandai Darth Vader 1/12 (22.27), Legion Dice Pack Collector's Box (24.99), Chewie Sheet Set Cotton 400TC (34.99). Checkout without discount succeeded: order ID 4ff144dd89b045ecabd8f9ba3e8293a5, total 109.57. Identified contact: Fatima Al-Khaja, job 'Former Pediatric Nurse', email fatima.alkhaja@gaia2mail.com, phone +97141234567, Dubai, UAE.
 ```
 <details>
-<summary>Request and evidence · source event #47</summary>
+<summary>Request and evidence · source event 47</summary>
 
 
 ```text
@@ -154,7 +156,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent successfully identified the correct Star Wars products and variants, placed the order for $109.57, and found the correct contact (Fatima Al-Khaja). It now needs the email tool to complete the final requirement of the task: sending the confirmation email to the contact.
 
@@ -258,7 +260,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

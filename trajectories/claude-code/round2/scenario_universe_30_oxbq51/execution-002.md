@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #45 · Main agent: Tool result: call_00_duo3uuftt8914wqp7mwwrnih (is_error=False)</summary>
+<summary>Source event 45 · Main agent: Tool result: call_00_duo3uuftt8914wqp7mwwrnih (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #46 · Main agent: Model message
+## Source event 46 · Main agent: Model message
 
 ```text
 offset 100-110:
@@ -41,7 +41,7 @@ Continue offset 110, 120, 130.
 
 
 
-## Source event #47 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_i925gsb5sj6cii5ppw81o9nn)
+## Source event 47 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_i925gsb5sj6cii5ppw81o9nn)
 
 ```text
 {
@@ -52,7 +52,7 @@ Continue offset 110, 120, 130.
 
 
 <details>
-<summary>Source event #48 · Main agent: Tool result: call_00_i925gsb5sj6cii5ppw81o9nn (is_error=False)</summary>
+<summary>Source event 48 · Main agent: Tool result: call_00_i925gsb5sj6cii5ppw81o9nn (is_error=False)</summary>
 
 
 ```text
@@ -68,7 +68,7 @@ Continue offset 110, 120, 130.
 </details>
 
 
-## Source event #49 · Main agent: Model message
+## Source event 49 · Main agent: Model message
 
 ```text
 offset 110-120:
@@ -90,7 +90,7 @@ Continue offset 120, 130.
 
 
 
-## Source event #50 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_m625egrnlmnxxxvxyyae04fr)
+## Source event 50 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_m625egrnlmnxxxvxyyae04fr)
 
 ```text
 {
@@ -101,7 +101,7 @@ Continue offset 120, 130.
 
 
 <details>
-<summary>Source event #51 · Main agent: Tool result: call_00_m625egrnlmnxxxvxyyae04fr (is_error=False)</summary>
+<summary>Source event 51 · Main agent: Tool result: call_00_m625egrnlmnxxxvxyyae04fr (is_error=False)</summary>
 
 
 ```text
@@ -117,7 +117,7 @@ Continue offset 120, 130.
 </details>
 
 
-## Source event #52 · Main agent: Model message
+## Source event 52 · Main agent: Model message
 
 ```text
 offset 120-130:
@@ -139,7 +139,7 @@ Offset 130.
 
 
 
-## Source event #53 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_zttmq4isb1tukkvbg3dff9wc)
+## Source event 53 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_zttmq4isb1tukkvbg3dff9wc)
 
 ```text
 {
@@ -150,7 +150,7 @@ Offset 130.
 
 
 <details>
-<summary>Source event #54 · Main agent: Tool result: call_00_zttmq4isb1tukkvbg3dff9wc (is_error=False)</summary>
+<summary>Source event 54 · Main agent: Tool result: call_00_zttmq4isb1tukkvbg3dff9wc (is_error=False)</summary>
 
 
 ```text
@@ -166,7 +166,7 @@ Offset 130.
 </details>
 
 
-## Source event #55 · Main agent: Model message
+## Source event 55 · Main agent: Model message
 
 ```text
 131 Saskia Janssen - Groningen
@@ -244,7 +244,7 @@ Send "12".
 
 
 
-## Source event #56 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_tj89m35mak5dbkjx3r329rjg)
+## Source event 56 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_tj89m35mak5dbkjx3r329rjg)
 
 ```text
 {
@@ -255,7 +255,7 @@ Send "12".
 
 
 <details>
-<summary>Source event #57 · Main agent: Tool result: call_00_tj89m35mak5dbkjx3r329rjg (is_error=False)</summary>
+<summary>Source event 57 · Main agent: Tool result: call_00_tj89m35mak5dbkjx3r329rjg (is_error=False)</summary>
 
 
 ```text
@@ -271,7 +271,7 @@ Send "12".
 </details>
 
 
-## Source event #58 · Main agent: Model message
+## Source event 58 · Main agent: Model message
 
 ```text
 Answer sent: **12**
@@ -280,7 +280,7 @@ Answer sent: **12**
 
 
 <details>
-<summary>Source event #59 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 59 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -292,7 +292,7 @@ Answer sent: **12**
 
 
 <details>
-<summary>Source event #60 · Judge: Judge rationale</summary>
+<summary>Source event 60 · Judge: Judge rationale</summary>
 
 
 ```text

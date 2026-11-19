@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 35 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #36 · Sub-agent 1: model output
+## Source event 36 · Sub-agent 1: model output
 
 ```text
 I'll start by looking up each family member's contact record to get their email addresses.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result</summary>
+<summary>Source event 37 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #38 · Sub-agent 1: model output
+## Source event 38 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: tool result</summary>
+<summary>Source event 39 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Action:
 </details>
 
 
-## Source event #40 · Sub-agent 1: model output
+## Source event 40 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -93,7 +93,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: tool result</summary>
+<summary>Source event 41 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -107,7 +107,7 @@ Action:
 </details>
 
 
-## Source event #42 · Sub-agent 1: model output
+## Source event 42 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -121,7 +121,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: tool result</summary>
+<summary>Source event 43 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -135,7 +135,7 @@ Action:
 </details>
 
 
-## Source event #44 · Sub-agent 1: model output
+## Source event 44 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -149,7 +149,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -163,7 +163,7 @@ Action:
 </details>
 
 
-## Source event #46 · Sub-agent 1: model output
+## Source event 46 · Sub-agent 1: model output
 
 ```text
 All five email addresses found. Now sending the group email.
@@ -183,7 +183,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result</summary>
+<summary>Source event 47 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -197,7 +197,7 @@ Action:
 </details>
 
 
-## Source event #48 · Sub-agent 1: model output
+## Source event 48 · Sub-agent 1: model output
 
 ```text
 Email sent. Now searching for the police contact.
@@ -213,7 +213,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: tool result</summary>
+<summary>Source event 49 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -227,7 +227,7 @@ Action:
 </details>
 
 
-## Source event #50 · Sub-agent 1: model output
+## Source event 50 · Sub-agent 1: model output
 
 ```text
 No match with the full phrase (search only covers name/phone/email). Trying broader queries.
@@ -243,7 +243,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 1: tool result</summary>
+<summary>Source event 51 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -257,7 +257,7 @@ Action:
 </details>
 
 
-## Source event #52 · Sub-agent 1: model output
+## Source event 52 · Sub-agent 1: model output
 
 ```text
 The search only covers name/phone/email fields. Let me try Czech terms and likely police domains.
@@ -273,7 +273,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 1: tool result</summary>
+<summary>Source event 53 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -287,7 +287,7 @@ Action:
 </details>
 
 
-## Source event #54 · Sub-agent 1: model output
+## Source event 54 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -301,7 +301,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 1: tool result</summary>
+<summary>Source event 55 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -315,7 +315,7 @@ Action:
 </details>
 
 
-## Source event #56 · Sub-agent 1: model output
+## Source event 56 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -329,7 +329,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 1: tool result</summary>
+<summary>Source event 57 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -343,7 +343,7 @@ Action:
 </details>
 
 
-## Source event #58 · Sub-agent 1: model output
+## Source event 58 · Sub-agent 1: model output
 
 ```text
 Search only matches name/phone/email. Let me try a broad phone-prefix query to list Czech contacts and scan for a police employee.
@@ -359,7 +359,7 @@ Action:
 
 
 <details>
-<summary>Source event #59 · Sub-agent 1: tool result</summary>
+<summary>Source event 59 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -373,7 +373,7 @@ Action:
 </details>
 
 
-## Source event #60 · Sub-agent 1: model output
+## Source event 60 · Sub-agent 1: model output
 
 ```text
 Found the police contact: **Vladimíra Nováková, Detective Inspector, Prague Police Department**. Now checking if she's on Chats.
@@ -389,7 +389,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 1: tool result</summary>
+<summary>Source event 61 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -403,7 +403,7 @@ Action:
 </details>
 
 
-## Source event #62 · Sub-agent 1: model output
+## Source event 62 · Sub-agent 1: model output
 
 ```text
 Vladimíra Nováková is on Chats. Sending the private message now.
@@ -422,7 +422,7 @@ Action:
 
 
 <details>
-<summary>Source event #63 · Sub-agent 1: tool result</summary>
+<summary>Source event 63 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -436,7 +436,7 @@ Action:
 </details>
 
 
-## Source event #64 · Sub-agent 1: model output
+## Source event 64 · Sub-agent 1: model output
 
 ```text
 All actions completed successfully. Now reporting the summary to the user.
@@ -454,7 +454,7 @@ Action:
 
 
 <details>
-<summary>Source event #65 · Sub-agent 1: tool result</summary>
+<summary>Source event 65 · Sub-agent 1: tool result</summary>
 
 
 ```text

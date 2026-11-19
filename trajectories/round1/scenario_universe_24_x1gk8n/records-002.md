@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #15 · Sub-agent 1: model output</summary>
+<summary>Source event 15 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -76,7 +76,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -94,7 +94,7 @@ SUB-AGENT SESSION 2
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: Initial system configuration</summary>
+<summary>Source event 17 · Sub-agent 2: Initial system configuration</summary>
 
 
 ```text
@@ -248,7 +248,7 @@ If you exceed this limit, you have to wait for 30 minutes to make more calls. Re
 
 
 <details>
-<summary>Source event #18 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 18 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -261,7 +261,7 @@ If you exceed this limit, you have to wait for 30 minutes to make more calls. Re
 
 
 <details>
-<summary>Source event #19 · Sub-agent 2: model output</summary>
+<summary>Source event 19 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -279,7 +279,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: tool result</summary>
+<summary>Source event 20 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -294,7 +294,7 @@ CrimeDataPoint(violent_crime=49.94, property_crime=1.1)
 
 
 <details>
-<summary>Source event #21 · Sub-agent 2: model output</summary>
+<summary>Source event 21 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -312,7 +312,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -327,7 +327,7 @@ CrimeDataPoint(violent_crime=7.96, property_crime=44.56)
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: model output</summary>
+<summary>Source event 23 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -345,7 +345,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -360,7 +360,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: model output</summary>
+<summary>Source event 25 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -378,7 +378,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -393,7 +393,7 @@ None
 
 
 <details>
-<summary>Source event #27 · Judge rationale</summary>
+<summary>Source event 27 · Judge rationale</summary>
 
 
 ```text

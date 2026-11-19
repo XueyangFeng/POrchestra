@@ -1,6 +1,8 @@
 # scenario_universe_30_erta5d
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_30_erta5d/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_30_erta5d/README.md) · [Codex](../../codex/round1/scenario_universe_30_erta5d/README.md) · [OpenCode](../../opencode/round1/scenario_universe_30_erta5d/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to monitor messages for a specific 4-minute window (07:00 to 07:04) and perform various actions based on the content of those messages (Calendar management, Email notification, Shopping, and Automated replies). A SubAgent is needed to handle the iterative checking and the complex conditional logic for each message received during this period.
 
@@ -121,11 +123,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #117
+**Initial harness configuration** · Source event 117
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent monitored messages until 07:03:42. The original request specified monitoring for four minutes (until 07:04:00). I need a final check to cover the remaining time (07:03:42 to 07:04:00) and process any late-arriving messages according to the user&#x27;s rules.
 
@@ -225,7 +227,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

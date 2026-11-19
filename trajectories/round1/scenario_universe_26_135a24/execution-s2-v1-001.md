@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 22 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result</summary>
+<summary>Source event 23 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -46,7 +46,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #24 · Sub-agent 2: model output
+## Source event 24 · Sub-agent 2: model output
 
 ```text
 I'll send the first invitation email to Kåre Sørensen.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: tool result</summary>
+<summary>Source event 25 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #26 · Sub-agent 2: model output
+## Source event 26 · Sub-agent 2: model output
 
 ```text
 I'll retry sending the email to Kåre Sørensen with the correct recipient format.
@@ -108,7 +108,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 2: tool result</summary>
+<summary>Source event 27 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -122,7 +122,7 @@ e99491546510d319bc33d842063d8b97
 </details>
 
 
-## Source event #28 · Sub-agent 2: model output
+## Source event 28 · Sub-agent 2: model output
 
 ```text
 The first email to Kåre was sent successfully. Now sending the invitation email to Nalinee Srisuk.
@@ -141,7 +141,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: tool result</summary>
+<summary>Source event 29 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -155,7 +155,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 2: model output
+## Source event 30 · Sub-agent 2: model output
 
 ```text
 Both emails were sent successfully. Now I'll add the Appetizer/Dessert Cups to the cart.
@@ -173,7 +173,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: tool result</summary>
+<summary>Source event 31 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -187,7 +187,7 @@ e6a28b9591674875819577e8fff89358
 </details>
 
 
-## Source event #32 · Sub-agent 2: model output
+## Source event 32 · Sub-agent 2: model output
 
 ```text
 The cups were added to the cart. Now I'll add the Dinner Plates to the cart.
@@ -205,7 +205,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result</summary>
+<summary>Source event 33 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -219,7 +219,7 @@ d808649fdf3f47d6b8fb3f85c3c01e88
 </details>
 
 
-## Source event #34 · Sub-agent 2: model output
+## Source event 34 · Sub-agent 2: model output
 
 ```text
 Both items are in the cart. Now I'll check out the order.
@@ -234,7 +234,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: tool result</summary>
+<summary>Source event 35 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -248,7 +248,7 @@ be3a578086c346b39e1a0c30dd1ef500
 </details>
 
 
-## Source event #36 · Sub-agent 2: model output
+## Source event 36 · Sub-agent 2: model output
 
 ```text
 All actions are completed successfully. Now I'll send a confirmation message to the user.
@@ -265,7 +265,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: tool result</summary>
+<summary>Source event 37 · Sub-agent 2: tool result</summary>
 
 
 ```text

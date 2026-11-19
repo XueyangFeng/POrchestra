@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #33 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 33 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Purchase the 'Rubie's Adult Star Wars Stormtrooper Glovelettes' in latex materia
 </details>
 
 
-## Source event #34 · Sub-agent 3: model output
+## Source event 34 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -32,7 +32,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 3: tool result</summary>
+<summary>Source event 35 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -47,7 +47,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 3: tool result</summary>
+<summary>Source event 36 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #37 · Sub-agent 3: model output
+## Source event 37 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -81,7 +81,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 3: tool result</summary>
+<summary>Source event 38 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -95,7 +95,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 3: model output
+## Source event 39 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -108,7 +108,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 3: tool result</summary>
+<summary>Source event 40 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -122,7 +122,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 3: model output
+## Source event 41 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -135,7 +135,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 3: tool result</summary>
+<summary>Source event 42 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -149,7 +149,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 3: model output
+## Source event 43 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -190,7 +190,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 3: tool result</summary>
+<summary>Source event 44 · Sub-agent 3: tool result</summary>
 
 
 ```text

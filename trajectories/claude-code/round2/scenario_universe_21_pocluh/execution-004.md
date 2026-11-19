@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #180 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 180 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ One judgment call: I interpreted "one unit to each participant" as one unit per 
 
 
 <details>
-<summary>Source event #181 · Judge: Judge rationale</summary>
+<summary>Source event 181 · Judge: Judge rationale</summary>
 
 
 ```text

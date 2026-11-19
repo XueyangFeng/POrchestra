@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 50 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Schedule two 2-hour calendar events titled 'Band Practice'. One event should be 
 </details>
 
 
-## Source event #51 · Sub-agent 2: model output
+## Source event 51 · Sub-agent 2: model output
 
 ```text
 I'll check the existing calendar events for both dates to find available slots.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: tool result</summary>
+<summary>Source event 52 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 2: model output
+## Source event 53 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 2: tool result</summary>
+<summary>Source event 54 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 2: model output
+## Source event 55 · Sub-agent 2: model output
 
 ```text
 Nov 1 has a 09:00-12:00 conflict, so the first free 2-hour slot is 12:00-14:00. Dec 1 is free from 09:00. Creating both events now.
@@ -100,7 +100,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 2: tool result</summary>
+<summary>Source event 56 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -114,7 +114,7 @@ acea4a8d991e2e64e9a43daa76d19dd2
 </details>
 
 
-## Source event #57 · Sub-agent 2: model output
+## Source event 57 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -131,7 +131,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 2: tool result</summary>
+<summary>Source event 58 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -145,7 +145,7 @@ Action:
 </details>
 
 
-## Source event #59 · Sub-agent 2: model output
+## Source event 59 · Sub-agent 2: model output
 
 ```text
 Both events created. Let me verify them.
@@ -164,7 +164,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 2: tool result</summary>
+<summary>Source event 60 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -178,7 +178,7 @@ Action:
 </details>
 
 
-## Source event #61 · Sub-agent 2: model output
+## Source event 61 · Sub-agent 2: model output
 
 ```text
 The verification list is missing my Nov 1 event. Let me re-check both dates specifically.
@@ -197,7 +197,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 2: tool result</summary>
+<summary>Source event 62 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -211,7 +211,7 @@ Action:
 </details>
 
 
-## Source event #63 · Sub-agent 2: model output
+## Source event 63 · Sub-agent 2: model output
 
 ```text
 Nov 1 event confirmed. Now verifying Dec 1.
@@ -230,7 +230,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 2: tool result</summary>
+<summary>Source event 64 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -244,7 +244,7 @@ Action:
 </details>
 
 
-## Source event #65 · Sub-agent 2: model output
+## Source event 65 · Sub-agent 2: model output
 
 ```text
 Both events are verified. The subtask is complete.
@@ -286,7 +286,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 2: tool result</summary>
+<summary>Source event 66 · Sub-agent 2: tool result</summary>
 
 
 ```text

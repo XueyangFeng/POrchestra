@@ -1,6 +1,8 @@
 # scenario_universe_28_nfnpyk
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_28_nfnpyk/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_28_nfnpyk/README.md) · [Codex](../../codex/round3/scenario_universe_28_nfnpyk/README.md) · [OpenCode](../../opencode/round3/scenario_universe_28_nfnpyk/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to organize files in the Downloads folder. I will first handle creating the &#x27;Attachments&#x27; folder and moving the PNG files.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #19
+**Initial harness configuration** · Source event 19
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The file organization subtask is complete. I now need to handle the email cleanup and communication subtasks: trashing specific emails from this month and replying to the Social Media Manager.
 
@@ -157,7 +159,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

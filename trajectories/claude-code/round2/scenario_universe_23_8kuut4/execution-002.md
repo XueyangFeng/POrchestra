@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #50 · Main agent: Tool result: call_01_43r93iap7icvjinrze3hsxyg (is_error=False)</summary>
+<summary>Source event 50 · Main agent: Tool result: call_01_43r93iap7icvjinrze3hsxyg (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #51 · Main agent: Tool result: call_02_jtt4uglpwmfist90jr3nz1rc (is_error=False)</summary>
+<summary>Source event 51 · Main agent: Tool result: call_02_jtt4uglpwmfist90jr3nz1rc (is_error=False)</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #52 · Main agent: Model message
+## Source event 52 · Main agent: Model message
 
 ```text
 130 00 not in database → excluded (no available crime rates). 
@@ -55,7 +55,7 @@ Now find lowest price among all available properties in zip code 110 00. Use Ren
 
 
 
-## Source event #53 · Main agent: Model message
+## Source event 53 · Main agent: Model message
 
 ```text
 The highest combined crime rate is in zip **110 00** (20.95 + 47.02 = 67.97). Now let me find available properties there.
@@ -63,7 +63,7 @@ The highest combined crime rate is in zip **110 00** (20.95 + 47.02 = 67.97). No
 
 
 
-## Source event #54 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_00_814o7g7u0zh8g2mpvmkfknqk)
+## Source event 54 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_00_814o7g7u0zh8g2mpvmkfknqk)
 
 ```text
 {
@@ -73,7 +73,7 @@ The highest combined crime rate is in zip **110 00** (20.95 + 47.02 = 67.97). No
 
 
 
-## Source event #55 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_all_apartments (call_01_8csu9tu1k8whrei2zco6ifdm)
+## Source event 55 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_all_apartments (call_01_8csu9tu1k8whrei2zco6ifdm)
 
 ```text
 {}
@@ -82,7 +82,7 @@ The highest combined crime rate is in zip **110 00** (20.95 + 47.02 = 67.97). No
 
 
 <details>
-<summary>Source event #56 · Main agent: Tool result: call_00_814o7g7u0zh8g2mpvmkfknqk (is_error=False)</summary>
+<summary>Source event 56 · Main agent: Tool result: call_00_814o7g7u0zh8g2mpvmkfknqk (is_error=False)</summary>
 
 
 ```text
@@ -99,7 +99,7 @@ The highest combined crime rate is in zip **110 00** (20.95 + 47.02 = 67.97). No
 
 
 <details>
-<summary>Source event #57 · Main agent: Tool result: call_01_8csu9tu1k8whrei2zco6ifdm (is_error=False)</summary>
+<summary>Source event 57 · Main agent: Tool result: call_01_8csu9tu1k8whrei2zco6ifdm (is_error=False)</summary>
 
 
 ```text
@@ -119,7 +119,7 @@ Preview (first 2KB):
 </details>
 
 
-## Source event #58 · Main agent: Model message
+## Source event 58 · Main agent: Model message
 
 ```text
 The search returned 9 apartments in 110 00, all with price 2500 or higher. Lowest = 2500. But list_all_apartments may include more; the search should be reliable. However, "all available properties" — maybe search_apartments returns all in zip. Let me verify by checking full list for any 110 00 apartments not in the search results (perhaps there are duplicates or different formatting "Praha 1"). The search tool filtered by zip_code exactly. Some apartments might have zip 118 00 etc. But we need 110 00.
@@ -131,7 +131,7 @@ Let me grep the saved file.
 
 
 
-## Source event #59 · Main agent: Model tool call: Bash (call_00_2g8vjye1v81fbe9nacwbgdni)
+## Source event 59 · Main agent: Model tool call: Bash (call_00_2g8vjye1v81fbe9nacwbgdni)
 
 ```text
 {
@@ -143,7 +143,7 @@ Let me grep the saved file.
 
 
 <details>
-<summary>Source event #60 · Main agent: Tool result: call_00_2g8vjye1v81fbe9nacwbgdni (is_error=False)</summary>
+<summary>Source event 60 · Main agent: Tool result: call_00_2g8vjye1v81fbe9nacwbgdni (is_error=False)</summary>
 
 
 ```text
@@ -162,7 +162,7 @@ Vltava Views', location='Křižovnické náměstí, Prague', zip_code='110 00', 
 </details>
 
 
-## Source event #61 · Main agent: Model message
+## Source event 61 · Main agent: Model message
 
 ```text
 All 9 apartments match the search results. Lowest price = 2500.
@@ -196,7 +196,7 @@ Actually, as an agent, my final text response may be shown? In GAIA2 tasks, typi
 
 
 
-## Source event #62 · Main agent: Model message
+## Source event 62 · Main agent: Model message
 
 ```text
 All Prague contacts' zip codes were checked; 110 00 has the highest combined crime rate, and its lowest available property price is 2500. Let me report this to the user.
@@ -204,7 +204,7 @@ All Prague contacts' zip codes were checked; 110 00 has the highest combined cri
 
 
 
-## Source event #63 · Main agent: Model tool call: ToolSearch (call_00_hvoj53tbey77e7zs31wxzdzz)
+## Source event 63 · Main agent: Model tool call: ToolSearch (call_00_hvoj53tbey77e7zs31wxzdzz)
 
 ```text
 {
@@ -216,7 +216,7 @@ All Prague contacts' zip codes were checked; 110 00 has the highest combined cri
 
 
 <details>
-<summary>Source event #64 · Main agent: Tool result: call_00_hvoj53tbey77e7zs31wxzdzz (is_error=False)</summary>
+<summary>Source event 64 · Main agent: Tool result: call_00_hvoj53tbey77e7zs31wxzdzz (is_error=False)</summary>
 
 
 ```text
@@ -232,7 +232,7 @@ All Prague contacts' zip codes were checked; 110 00 has the highest combined cri
 </details>
 
 
-## Source event #65 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_0a6nq9pgh7dyzs3rbrh68q7l)
+## Source event 65 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_0a6nq9pgh7dyzs3rbrh68q7l)
 
 ```text
 {
@@ -243,7 +243,7 @@ All Prague contacts' zip codes were checked; 110 00 has the highest combined cri
 
 
 <details>
-<summary>Source event #66 · Main agent: Tool result: call_00_0a6nq9pgh7dyzs3rbrh68q7l (is_error=False)</summary>
+<summary>Source event 66 · Main agent: Tool result: call_00_0a6nq9pgh7dyzs3rbrh68q7l (is_error=False)</summary>
 
 
 ```text
@@ -259,7 +259,7 @@ All Prague contacts' zip codes were checked; 110 00 has the highest combined cri
 </details>
 
 
-## Source event #67 · Main agent: Model message
+## Source event 67 · Main agent: Model message
 
 ```text
 Done. Summarize for the user in my response text too.
@@ -267,7 +267,7 @@ Done. Summarize for the user in my response text too.
 
 
 
-## Source event #68 · Main agent: Model message
+## Source event 68 · Main agent: Model message
 
 ```text
 **2500**
@@ -282,7 +282,7 @@ Details of the reasoning:
 
 
 <details>
-<summary>Source event #69 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 69 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -300,7 +300,7 @@ Details of the reasoning:
 
 
 <details>
-<summary>Source event #70 · Judge: Judge rationale</summary>
+<summary>Source event 70 · Judge: Judge rationale</summary>
 
 
 ```text

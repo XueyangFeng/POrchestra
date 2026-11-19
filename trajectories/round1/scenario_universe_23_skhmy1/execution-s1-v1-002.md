@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 Let me continue listing more conversations.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 1: model output
+## Source event 43 · Sub-agent 1: model output
 
 ```text
 Let me continue listing more conversations to find all 1:1 chats.
@@ -73,7 +73,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -87,7 +87,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 1: model output
+## Source event 45 · Sub-agent 1: model output
 
 ```text
 Let me continue listing more conversations.
@@ -107,7 +107,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -121,7 +121,7 @@ Action:
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 Let me continue listing more conversations.
@@ -141,7 +141,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -155,7 +155,7 @@ Action:
 </details>
 
 
-## Source event #49 · Sub-agent 1: model output
+## Source event 49 · Sub-agent 1: model output
 
 ```text
 Let me continue listing more conversations.
@@ -175,7 +175,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 1: tool result</summary>
+<summary>Source event 50 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -189,7 +189,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 1: model output
+## Source event 51 · Sub-agent 1: model output
 
 ```text
 Let me continue listing more conversations.
@@ -209,7 +209,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 1: tool result</summary>
+<summary>Source event 52 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -223,7 +223,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 1: model output
+## Source event 53 · Sub-agent 1: model output
 
 ```text
 Let me continue listing more conversations to find all 1:1 chats.
@@ -243,7 +243,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 1: tool result</summary>
+<summary>Source event 54 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -257,7 +257,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 1: model output
+## Source event 55 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -275,7 +275,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 1: tool result</summary>
+<summary>Source event 56 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -289,7 +289,7 @@ Action:
 </details>
 
 
-## Source event #57 · Sub-agent 1: model output
+## Source event 57 · Sub-agent 1: model output
 
 ```text
 Let me continue listing more conversations.
@@ -309,7 +309,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 1: tool result</summary>
+<summary>Source event 58 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -323,7 +323,7 @@ Action:
 </details>
 
 
-## Source event #59 · Sub-agent 1: model output
+## Source event 59 · Sub-agent 1: model output
 
 ```text
 Let me continue listing more conversations.
@@ -343,7 +343,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 1: tool result</summary>
+<summary>Source event 60 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -357,7 +357,7 @@ Action:
 </details>
 
 
-## Source event #61 · Sub-agent 1: model output
+## Source event 61 · Sub-agent 1: model output
 
 ```text
 Let me continue listing more conversations.
@@ -377,7 +377,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 1: tool result</summary>
+<summary>Source event 62 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -391,7 +391,7 @@ Action:
 </details>
 
 
-## Source event #63 · Sub-agent 1: model output
+## Source event 63 · Sub-agent 1: model output
 
 ```text
 Let me continue listing more conversations to find all 1:1 chats.
@@ -411,7 +411,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 1: tool result</summary>
+<summary>Source event 64 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -425,7 +425,7 @@ Action:
 </details>
 
 
-## Source event #65 · Sub-agent 1: model output
+## Source event 65 · Sub-agent 1: model output
 
 ```text
 Let me continue listing more conversations.
@@ -445,7 +445,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 1: tool result</summary>
+<summary>Source event 66 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -459,7 +459,7 @@ Action:
 </details>
 
 
-## Source event #67 · Sub-agent 1: model output
+## Source event 67 · Sub-agent 1: model output
 
 ```text
 Let me continue listing conversations.
@@ -479,7 +479,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 1: tool result</summary>
+<summary>Source event 68 · Sub-agent 1: tool result</summary>
 
 
 ```text

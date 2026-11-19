@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #68 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 68 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #69 · Sub-agent 2: model output
+## Source event 69 · Sub-agent 2: model output
 
 ```text
 I'll complete both tasks. First, create the calendar event.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 2: tool result</summary>
+<summary>Source event 70 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ dcf191829913b81220f38262b28ec53c
 </details>
 
 
-## Source event #71 · Sub-agent 2: model output
+## Source event 71 · Sub-agent 2: model output
 
 ```text
 Calendar event created. Now searching for plates.
@@ -71,7 +71,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 2: tool result</summary>
+<summary>Source event 72 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -85,7 +85,7 @@ Action:
 </details>
 
 
-## Source event #73 · Sub-agent 2: model output
+## Source event 73 · Sub-agent 2: model output
 
 ```text
 Found a matching product with variants. Let me check for other options to be safe.
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 2: tool result</summary>
+<summary>Source event 74 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -117,7 +117,7 @@ Action:
 </details>
 
 
-## Source event #75 · Sub-agent 2: model output
+## Source event 75 · Sub-agent 2: model output
 
 ```text
 The first search found the right product. The matching variant is Paper, Round, Count 50 (item_id `ef6ecb8ce734454b94e06ad1c9d0ec47`). Adding it to cart.
@@ -135,7 +135,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 2: tool result</summary>
+<summary>Source event 76 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -149,7 +149,7 @@ ef6ecb8ce734454b94e06ad1c9d0ec47
 </details>
 
 
-## Source event #77 · Sub-agent 2: model output
+## Source event 77 · Sub-agent 2: model output
 
 ```text
 Added the 50-count pack (which contains 50 plates). Let me verify the cart before checkout.
@@ -164,7 +164,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 2: tool result</summary>
+<summary>Source event 78 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -178,7 +178,7 @@ Action:
 </details>
 
 
-## Source event #79 · Sub-agent 2: model output
+## Source event 79 · Sub-agent 2: model output
 
 ```text
 Cart has 1 pack of 50-count round paper dinner plates (exactly 50 plates). Now checking out.
@@ -193,7 +193,7 @@ Action:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 2: tool result</summary>
+<summary>Source event 80 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -207,7 +207,7 @@ Action:
 </details>
 
 
-## Source event #81 · Sub-agent 2: model output
+## Source event 81 · Sub-agent 2: model output
 
 ```text
 Both tasks are complete. Let me hand off with evidence.
@@ -264,7 +264,7 @@ Action:
 
 
 <details>
-<summary>Source event #82 · Sub-agent 2: tool result</summary>
+<summary>Source event 82 · Sub-agent 2: tool result</summary>
 
 
 ```text

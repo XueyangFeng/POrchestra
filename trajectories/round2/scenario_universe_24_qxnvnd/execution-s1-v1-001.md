@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 Thought: I need to identify the current user first, then list recent Messages conversations.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -64,7 +64,7 @@ Address: Mittlere Strasse 12, 4058 Basel, Switzerland
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 Thought: Current user is Ursula Wiederkehr (ID bbaa6b76af014220a764ca01b0203121). Now listing recent Messages conversations.
@@ -84,7 +84,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -109,7 +109,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Thought: Limit must be under 5. Retrying with limit 5.
@@ -129,7 +129,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -143,7 +143,7 @@ Action:
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 Thought: The most recent conversation is 'Swiss-Japanese Relations and Cultural Exchange' (ea59470b...) with 4 participants. Excluding Ursula (+41764562317), participants are +81312345278, +41794562317, +33678452312. Now resolve their names.
@@ -160,7 +160,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ Kiyoshi Nakahara
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Thought: Kiyoshi Nakahara is +81312345278. Now the next.
@@ -191,7 +191,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -205,7 +205,7 @@ Nadja Ramadanović
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -220,7 +220,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -234,7 +234,7 @@ Aurélie Dumont
 </details>
 
 
-## Source event #17 · Sub-agent 1: model output
+## Source event 17 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -249,7 +249,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: tool result</summary>
+<summary>Source event 18 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -263,7 +263,7 @@ Action:
 </details>
 
 
-## Source event #19 · Sub-agent 1: model output
+## Source event 19 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -278,7 +278,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 1: tool result</summary>
+<summary>Source event 20 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -306,7 +306,7 @@ Address: 3-14-15 Shimokitazawa, Setagaya-ku, Tokyo 155-0031, Japan
 </details>
 
 
-## Source event #21 · Sub-agent 1: model output
+## Source event 21 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -321,7 +321,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 1: tool result</summary>
+<summary>Source event 22 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -335,7 +335,7 @@ Action:
 </details>
 
 
-## Source event #23 · Sub-agent 1: model output
+## Source event 23 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -350,7 +350,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: tool result</summary>
+<summary>Source event 24 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -378,7 +378,7 @@ Address: Mittelstrasse 12, 3011 Bern, Switzerland
 </details>
 
 
-## Source event #25 · Sub-agent 1: model output
+## Source event 25 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -393,7 +393,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: tool result</summary>
+<summary>Source event 26 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -407,7 +407,7 @@ Action:
 </details>
 
 
-## Source event #27 · Sub-agent 1: model output
+## Source event 27 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -422,7 +422,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: tool result</summary>
+<summary>Source event 28 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -450,7 +450,7 @@ Address: 14 Rue de la République, 69002 Lyon, France
 </details>
 
 
-## Source event #29 · Sub-agent 1: model output
+## Source event 29 · Sub-agent 1: model output
 
 ```text
 Thought: I have all needed information. The most recent group conversation is 'Swiss-Japanese Relations and Cultural Exchange' (4 participants, last_updated 1728821700), and the three non-user participants are Kiyoshi Nakahara, Nadja Ramadanović, and Aurélie Dumont with their emails.
@@ -493,7 +493,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 1: tool result</summary>
+<summary>Source event 30 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_26_gxjs4q
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_26_gxjs4q/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_26_gxjs4q/README.md) · [Codex](../../codex/round1/scenario_universe_26_gxjs4q/README.md) · [OpenCode](../../opencode/round1/scenario_universe_26_gxjs4q/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 To identify &#x27;new variants&#x27; added in the next 3.5 minutes, I first need to establish a baseline of existing products associated with &#x27;Great Eastern Entertainment&#x27;.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #14
+**Initial harness configuration** · Source event 14
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 I need to establish the baseline of existing variants for the three identified products, wait for the 3.5-minute window to pass (until 2024-10-15 07:03:30), and then identify and checkout any new variants that cost less than $34.5.
 
@@ -160,11 +162,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #52
+**Initial harness configuration** · Source event 52
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The monitoring and purchasing phase is complete with 5 new variants bought for a total of $122.27. Now I need to identify contacts from Trondheim, send them a group email about the 5 new products, and finally notify the user of the purchase details.
 

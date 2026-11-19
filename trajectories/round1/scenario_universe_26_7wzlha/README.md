@@ -1,6 +1,8 @@
 # scenario_universe_26_7wzlha
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_26_7wzlha/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_26_7wzlha/README.md) · [Codex](../../codex/round1/scenario_universe_26_7wzlha/README.md) · [OpenCode](../../opencode/round1/scenario_universe_26_7wzlha/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the user&#x27;s city, the cousin&#x27;s house address, the list of retired contacts in the same city, and the next day the user is free after 4 PM. This information is required to send the invitations.
 
@@ -93,11 +95,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #48
+**Initial harness configuration** · Source event 48
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 Information gathering is complete. I now need a SubAgent to handle the invitation process, real-time monitoring of replies for 4 minutes, and the conditional logic for booking cabs, creating calendar events, and messaging the cousin based on those replies.
 

@@ -1,6 +1,8 @@
 # scenario_universe_30_997a5b
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_30_997a5b/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_30_997a5b/README.md) · [Codex](../../codex/round3/scenario_universe_30_997a5b/README.md) · [OpenCode](../../opencode/round3/scenario_universe_30_997a5b/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #8
+**Initial harness configuration** · Source event 8
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first part of the user&#x27;s request involves managing calendar events and sending a group email to the attendees. This requires interacting with both the Calendar and Email applications.
 
@@ -86,7 +88,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #22
+**Harness configuration updated** · Source event 22
 
 **1. Sub-agent revision request**
 
@@ -95,7 +97,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Both 'Meeting with Students' events in 2024-10-15 07:00:00–2024-10-31 23:59:59 have been deleted successfully. Attendees across them: Evangelia Papadopoulos, Kaidën Nakamura (event feabca495da74c33b947de57eec34f32, Thu 2024-10-17 09:00–11:00) and Kaspar Eisenstadt, Akira Kaur (event a94ec48e7af84a898b178c546191560b, Tue 2024-10-22 10:00–12:00). Sending the group email failed: Emails__send_email rejects bare names ('Invalid email address: Evangelia Papadopoulos'), and no tool is available to resolve attendee names to email addresses.
 ```
 <details>
-<summary>Request and evidence · source event #20</summary>
+<summary>Request and evidence · source event 20</summary>
 
 
 ```text
@@ -141,7 +143,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent successfully deleted the calendar events but is blocked on sending the group email because it only has the attendees&#x27; names. I need to provide a tool to search for their email addresses in the contacts.
 
@@ -247,11 +249,11 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #36
+**Initial harness configuration** · Source event 36
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The calendar deletion and group email tasks are complete. Now I need to handle the email reply to the former climatologist.
 
@@ -319,11 +321,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #49
+**Initial harness configuration** · Source event 49
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 The calendar and email tasks are complete. I now need to handle the file system cleanup and the personal contact update.
 
@@ -387,11 +389,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #67
+**Initial harness configuration** · Source event 67
 
 **Initial delegation**
 
-`delegate_task` · Source event #5
+`delegate_task` · Source event 5
 
 The calendar, email, file, and contact update tasks are complete. I now need to purchase the cheapest &#x27;Wordspiel Card Game&#x27; for adults.
 
@@ -460,11 +462,11 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 
 ### S5 configuration v1
 
-**Initial harness configuration** · Source event #83
+**Initial harness configuration** · Source event 83
 
 **Initial delegation**
 
-`delegate_task` · Source event #6
+`delegate_task` · Source event 6
 
 The final remaining task is to order a premium cab for tomorrow at 7 AM. The destination is the location of a three-bedroom property listing in London, which needs to be looked up in the RentAFlat app.
 
@@ -531,7 +533,7 @@ Full system configuration: [Part 1](config-s5-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #7</summary>
+<summary>Source event 7</summary>
 
 
 ```text

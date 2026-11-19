@@ -1,6 +1,8 @@
 # scenario_universe_23_w5th2a
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_23_w5th2a/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_23_w5th2a/README.md) · [Codex](../../codex/round2/scenario_universe_23_w5th2a/README.md) · [OpenCode](../../opencode/round2/scenario_universe_23_w5th2a/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires analyzing emails from a specific period (Sept 1-15), identifying the gender of the senders using contact information, counting them to find the &#x27;winning&#x27; gender, and then finding the age of the oldest contact associated with that gender (or the oldest overall if tied).
 

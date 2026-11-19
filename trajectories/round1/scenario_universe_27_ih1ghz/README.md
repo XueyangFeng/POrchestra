@@ -1,6 +1,8 @@
 # scenario_universe_27_ih1ghz
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_27_ih1ghz/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_27_ih1ghz/README.md) · [Codex](../../codex/round1/scenario_universe_27_ih1ghz/README.md) · [OpenCode](../../opencode/round1/scenario_universe_27_ih1ghz/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires searching through contacts to find the oldest individual in North America, Asia, and Europe (treating Russia as Europe), and then counting the total messages those specific individuals sent to the user across two different messaging apps (Chats and Messages). Finally, the total sum must be reported to the user. I am delegating this entire flow to a SubAgent with access to the Contacts, Messages, and Chats apps.
 
@@ -102,11 +104,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #112
+**Initial harness configuration** · Source event 112
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 We need to find the oldest contact in North America, Asia, and Europe (treating Russia as Europe), resolve their user/participant IDs in Messages and Chats, count the total messages they sent to the user across all conversations in both apps (excluding messages sent by others/user), and send a message containing ONLY the total count to the user.
 
@@ -185,11 +187,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #205
+**Initial harness configuration** · Source event 205
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The oldest contacts in each region have been identified and most of their messaging IDs found. I need to complete the counting of messages sent by these three individuals across Messages and Chats, sum them up, and report the total to the user.
 

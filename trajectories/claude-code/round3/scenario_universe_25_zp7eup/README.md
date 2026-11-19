@@ -1,6 +1,8 @@
 # Claude Code · scenario_universe_25_zp7eup
 
-[Round index](../README.md) · [Claude Code rounds](../../README.md) · [PORCHESTRA task](../../../round3/scenario_universe_25_zp7eup/README.md)
+[Round index](../README.md) · [Claude Code rounds](../../README.md)
+
+**Compare systems:** [PORCHESTRA](../../../round3/scenario_universe_25_zp7eup/README.md) · Claude Code · [Codex](../../../codex/round3/scenario_universe_25_zp7eup/README.md) · [OpenCode](../../../opencode/round3/scenario_universe_25_zp7eup/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Duration:** 168.5 seconds
 

@@ -1,6 +1,8 @@
 # scenario_universe_25_zp7eup
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_25_zp7eup/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_25_zp7eup/README.md) · [Codex](../../codex/round3/scenario_universe_25_zp7eup/README.md) · [OpenCode](../../opencode/round3/scenario_universe_25_zp7eup/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the specific contact associated with the personal phone call tomorrow, identify their city, and then delete all other contacts in that same city. The number of deletions is required for subsequent steps.
 
@@ -87,11 +89,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #54
+**Initial harness configuration** · Source event 54
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent successfully identified the &#x27;phone call&#x27; attendee (Khalifa Al-Mansoori), their city (Dubai), and deleted 7 other contacts from that city. Now I need a SubAgent to handle the communication part: emailing the project update meeting attendees about the deletion and forwarding emails from Khalifa to a retired lawyer.
 

@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #53 · Sub-agent 1: tool result</summary>
+<summary>Source event 53 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #54 · Sub-agent 1: model output</summary>
+<summary>Source event 54 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -88,7 +88,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 1: tool result</summary>
+<summary>Source event 55 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Judge rationale</summary>
+<summary>Source event 56 · Judge rationale</summary>
 
 
 ```text

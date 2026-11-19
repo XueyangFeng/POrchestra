@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #76 · Main agent: Model message
+## Source event 76 · Main agent: Model message
 
 ```text
 Count not saved among candidates:
@@ -105,7 +105,7 @@ Let me load both regex_search tools.
 
 
 
-## Source event #77 · Main agent: Model tool call: ToolSearch (call_00_6rgfj19kmehwwc463zy9rndi)
+## Source event 77 · Main agent: Model tool call: ToolSearch (call_00_6rgfj19kmehwwc463zy9rndi)
 
 ```text
 {
@@ -117,7 +117,7 @@ Let me load both regex_search tools.
 
 
 <details>
-<summary>Source event #78 · Main agent: Tool result: call_00_6rgfj19kmehwwc463zy9rndi (is_error=False)</summary>
+<summary>Source event 78 · Main agent: Tool result: call_00_6rgfj19kmehwwc463zy9rndi (is_error=False)</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ Let me load both regex_search tools.
 </details>
 
 
-## Source event #79 · Main agent: Model message
+## Source event 79 · Main agent: Model message
 
 ```text
 Cross-check with regex search. Use query "Ireland" case-insensitive. regex_search might do regex matching. Let's call.
@@ -145,7 +145,7 @@ Cross-check with regex search. Use query "Ireland" case-insensitive. regex_searc
 
 
 
-## Source event #80 · Main agent: Model tool call: mcp__gaia2__Messages__regex_search (call_00_qr5qn8dq68q3ldhkslj2g4y5)
+## Source event 80 · Main agent: Model tool call: mcp__gaia2__Messages__regex_search (call_00_qr5qn8dq68q3ldhkslj2g4y5)
 
 ```text
 {
@@ -155,7 +155,7 @@ Cross-check with regex search. Use query "Ireland" case-insensitive. regex_searc
 
 
 
-## Source event #81 · Main agent: Model tool call: mcp__gaia2__Chats__regex_search (call_01_xw2dlopq6bnfjf641gzgr7m5)
+## Source event 81 · Main agent: Model tool call: mcp__gaia2__Chats__regex_search (call_01_xw2dlopq6bnfjf641gzgr7m5)
 
 ```text
 {
@@ -166,7 +166,7 @@ Cross-check with regex search. Use query "Ireland" case-insensitive. regex_searc
 
 
 <details>
-<summary>Source event #82 · Main agent: Tool result: call_00_qr5qn8dq68q3ldhkslj2g4y5 (is_error=False)</summary>
+<summary>Source event 82 · Main agent: Tool result: call_00_qr5qn8dq68q3ldhkslj2g4y5 (is_error=False)</summary>
 
 
 ```text
@@ -183,7 +183,7 @@ Cross-check with regex search. Use query "Ireland" case-insensitive. regex_searc
 
 
 <details>
-<summary>Source event #83 · Main agent: Tool result: call_01_xw2dlopq6bnfjf641gzgr7m5 (is_error=False)</summary>
+<summary>Source event 83 · Main agent: Tool result: call_01_xw2dlopq6bnfjf641gzgr7m5 (is_error=False)</summary>
 
 
 ```text
@@ -199,7 +199,7 @@ Cross-check with regex search. Use query "Ireland" case-insensitive. regex_searc
 </details>
 
 
-## Source event #84 · Main agent: Model message
+## Source event 84 · Main agent: Model message
 
 ```text
 Counts confirmed 6 and 13. Difference 7.
@@ -273,7 +273,7 @@ Let me load AgentUserInterface tool.
 
 
 
-## Source event #85 · Main agent: Model tool call: ToolSearch (call_00_nzvhvqz3i77vgga7krh0a1ah)
+## Source event 85 · Main agent: Model tool call: ToolSearch (call_00_nzvhvqz3i77vgga7krh0a1ah)
 
 ```text
 {
@@ -285,7 +285,7 @@ Let me load AgentUserInterface tool.
 
 
 <details>
-<summary>Source event #86 · Main agent: Tool result: call_00_nzvhvqz3i77vgga7krh0a1ah (is_error=False)</summary>
+<summary>Source event 86 · Main agent: Tool result: call_00_nzvhvqz3i77vgga7krh0a1ah (is_error=False)</summary>
 
 
 ```text
@@ -301,7 +301,7 @@ Let me load AgentUserInterface tool.
 </details>
 
 
-## Source event #87 · Main agent: Model message
+## Source event 87 · Main agent: Model message
 
 ```text
 Before sending, let me do a final verification of the price multiple counts by also considering that "cost" might be the monthly price but perhaps there's another cost field. Apartment model only has price. Good.
@@ -325,7 +325,7 @@ Use send_message_to_user. This ends turn.
 
 
 
-## Source event #88 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_aqopbw7uve3awtrydb2wm2sq)
+## Source event 88 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_aqopbw7uve3awtrydb2wm2sq)
 
 ```text
 {
@@ -336,7 +336,7 @@ Use send_message_to_user. This ends turn.
 
 
 <details>
-<summary>Source event #89 · Main agent: Tool result: call_00_aqopbw7uve3awtrydb2wm2sq (is_error=False)</summary>
+<summary>Source event 89 · Main agent: Tool result: call_00_aqopbw7uve3awtrydb2wm2sq (is_error=False)</summary>
 
 
 ```text
@@ -352,7 +352,7 @@ Use send_message_to_user. This ends turn.
 </details>
 
 
-## Source event #90 · Main agent: Model message
+## Source event 90 · Main agent: Model message
 
 ```text
 **Answer: 7**
@@ -369,7 +369,7 @@ Use send_message_to_user. This ends turn.
 
 
 <details>
-<summary>Source event #91 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 91 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -389,7 +389,7 @@ Use send_message_to_user. This ends turn.
 
 
 <details>
-<summary>Source event #92 · Judge: Judge rationale</summary>
+<summary>Source event 92 · Judge: Judge rationale</summary>
 
 
 ```text

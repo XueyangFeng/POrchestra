@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 24 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -26,7 +26,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 25 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -41,7 +41,7 @@ Environment notifications updates:
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 New messages have arrived in the group conversation. Let me check the current time and read the conversation to identify senders.
@@ -60,7 +60,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -74,7 +74,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Only one message so far (Lianhua Wei). Let me check the current time and wait for more notifications.
@@ -89,7 +89,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -103,7 +103,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Current time is 07:01:22. I'll wait for more notifications until around 07:05:00.
@@ -120,7 +120,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -135,7 +135,7 @@ None
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 32 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -148,7 +148,7 @@ Environment notifications:
 </details>
 
 
-## Source event #33 · Sub-agent 1: model output
+## Source event 33 · Sub-agent 1: model output
 
 ```text
 Another message arrived. Let me read the conversation again.
@@ -167,7 +167,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: tool result</summary>
+<summary>Source event 34 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -181,7 +181,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 1: model output
+## Source event 35 · Sub-agent 1: model output
 
 ```text
 Two distinct senders so far (Lianhua Wei, Åsa Lundgren). Need one more. Checking time and waiting.
@@ -196,7 +196,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -210,7 +210,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 It's 07:01:29. I'll wait for further notifications.
@@ -227,7 +227,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -242,7 +242,7 @@ None
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 39 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -255,7 +255,7 @@ Environment notifications:
 </details>
 
 
-## Source event #40 · Sub-agent 1: model output
+## Source event 40 · Sub-agent 1: model output
 
 ```text
 Another message arrived. Reading the conversation.
@@ -274,7 +274,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: tool result</summary>
+<summary>Source event 41 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -288,7 +288,7 @@ Action:
 </details>
 
 
-## Source event #42 · Sub-agent 1: model output
+## Source event 42 · Sub-agent 1: model output
 
 ```text
 Three distinct senders confirmed (Lianhua Wei, Åsa Lundgren, Akira Lundström) — condition met! Now retrieving the user's home address.
@@ -303,7 +303,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: tool result</summary>
+<summary>Source event 43 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -331,7 +331,7 @@ Address: Östermalmsgatan 12, 114 39 Stockholm, Sweden
 </details>
 
 
-## Source event #44 · Sub-agent 1: model output
+## Source event 44 · Sub-agent 1: model output
 
 ```text
 Home address retrieved. Now ordering the Van ride for 21:30.
@@ -351,7 +351,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -374,7 +374,7 @@ Ride ID: ca5380b0fb5d30db43b4905d14d91312
 </details>
 
 
-## Source event #46 · Sub-agent 1: model output
+## Source event 46 · Sub-agent 1: model output
 
 ```text
 Van ride booked successfully. Now sending the message to the group conversation.
@@ -392,7 +392,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result</summary>
+<summary>Source event 47 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -406,7 +406,7 @@ Action:
 </details>
 
 
-## Source event #48 · Sub-agent 1: model output
+## Source event 48 · Sub-agent 1: model output
 
 ```text
 Message sent successfully. Now checking calendar events for tonight at or after 8pm.
@@ -425,7 +425,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: tool result</summary>
+<summary>Source event 49 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -439,7 +439,7 @@ Action:
 </details>
 
 
-## Source event #50 · Sub-agent 1: model output
+## Source event 50 · Sub-agent 1: model output
 
 ```text
 Found one event at 20:00. Deleting it.
@@ -456,7 +456,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 1: tool result</summary>
+<summary>Source event 51 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -470,7 +470,7 @@ Event 9daa4008ccb14c48a7fd156b953b5c3a successfully deleted.
 </details>
 
 
-## Source event #52 · Sub-agent 1: model output
+## Source event 52 · Sub-agent 1: model output
 
 ```text
 All actions completed. Let me verify no remaining events at or after 8pm.
@@ -489,7 +489,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 1: tool result</summary>
+<summary>Source event 53 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -503,7 +503,7 @@ Action:
 </details>
 
 
-## Source event #54 · Sub-agent 1: model output
+## Source event 54 · Sub-agent 1: model output
 
 ```text
 All actions completed successfully. Reporting final status.
@@ -564,7 +564,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 1: tool result</summary>
+<summary>Source event 55 · Sub-agent 1: tool result</summary>
 
 
 ```text

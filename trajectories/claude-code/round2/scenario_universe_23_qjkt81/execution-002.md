@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #88 · Main agent: Tool result: call_01_60fo9eaj9j84l3y21lx0lchk (is_error=False)</summary>
+<summary>Source event 88 · Main agent: Tool result: call_01_60fo9eaj9j84l3y21lx0lchk (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #89 · Main agent: Tool result: call_02_t4t2jx8m2v9afyfvfdbw307x (is_error=False)</summary>
+<summary>Source event 89 · Main agent: Tool result: call_02_t4t2jx8m2v9afyfvfdbw307x (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #90 · Main agent: Tool result: call_03_4puicmphbuerf7jzhlxitnmj (is_error=False)</summary>
+<summary>Source event 90 · Main agent: Tool result: call_03_4puicmphbuerf7jzhlxitnmj (is_error=False)</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #91 · Main agent: Tool result: call_04_4hnoovx2p97hrtxfp1ldolf7 (is_error=False)</summary>
+<summary>Source event 91 · Main agent: Tool result: call_04_4hnoovx2p97hrtxfp1ldolf7 (is_error=False)</summary>
 
 
 ```text
@@ -72,7 +72,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #92 · Main agent: Model message
+## Source event 92 · Main agent: Model message
 
 ```text
 I need to continue through offsets 60-124. So far male contacts in Prague:
@@ -85,7 +85,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 
-## Source event #93 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_6vp7sxvehxv3sikvjujg7umt)
+## Source event 93 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_6vp7sxvehxv3sikvjujg7umt)
 
 ```text
 {
@@ -95,7 +95,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 
-## Source event #94 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_bm05t2r6v667p4g4krqlclh1)
+## Source event 94 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_bm05t2r6v667p4g4krqlclh1)
 
 ```text
 {
@@ -105,7 +105,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 
-## Source event #95 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_sdciqu47um1b625h7pnjxi6a)
+## Source event 95 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_sdciqu47um1b625h7pnjxi6a)
 
 ```text
 {
@@ -115,7 +115,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 
-## Source event #96 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_s6zf3ew8huqhaygtg4szvoec)
+## Source event 96 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_s6zf3ew8huqhaygtg4szvoec)
 
 ```text
 {
@@ -125,7 +125,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 
-## Source event #97 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_04_fp63pubnm7dtv9v9fjoy02jq)
+## Source event 97 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_04_fp63pubnm7dtv9v9fjoy02jq)
 
 ```text
 {
@@ -135,7 +135,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 
-## Source event #98 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_05_ar26g8u5hf1f49g6m6xwegu8)
+## Source event 98 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_05_ar26g8u5hf1f49g6m6xwegu8)
 
 ```text
 {
@@ -145,7 +145,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 
-## Source event #99 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_06_md02pvncf0ksg2g0nkw8gb3u)
+## Source event 99 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_06_md02pvncf0ksg2g0nkw8gb3u)
 
 ```text
 {
@@ -156,7 +156,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 <details>
-<summary>Source event #100 · Main agent: Tool result: call_00_6vp7sxvehxv3sikvjujg7umt (is_error=False)</summary>
+<summary>Source event 100 · Main agent: Tool result: call_00_6vp7sxvehxv3sikvjujg7umt (is_error=False)</summary>
 
 
 ```text
@@ -173,7 +173,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 <details>
-<summary>Source event #101 · Main agent: Tool result: call_01_bm05t2r6v667p4g4krqlclh1 (is_error=False)</summary>
+<summary>Source event 101 · Main agent: Tool result: call_01_bm05t2r6v667p4g4krqlclh1 (is_error=False)</summary>
 
 
 ```text
@@ -190,7 +190,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 <details>
-<summary>Source event #102 · Main agent: Tool result: call_02_sdciqu47um1b625h7pnjxi6a (is_error=False)</summary>
+<summary>Source event 102 · Main agent: Tool result: call_02_sdciqu47um1b625h7pnjxi6a (is_error=False)</summary>
 
 
 ```text
@@ -207,7 +207,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 <details>
-<summary>Source event #103 · Main agent: Tool result: call_03_s6zf3ew8huqhaygtg4szvoec (is_error=False)</summary>
+<summary>Source event 103 · Main agent: Tool result: call_03_s6zf3ew8huqhaygtg4szvoec (is_error=False)</summary>
 
 
 ```text
@@ -224,7 +224,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 <details>
-<summary>Source event #104 · Main agent: Tool result: call_04_fp63pubnm7dtv9v9fjoy02jq (is_error=False)</summary>
+<summary>Source event 104 · Main agent: Tool result: call_04_fp63pubnm7dtv9v9fjoy02jq (is_error=False)</summary>
 
 
 ```text
@@ -241,7 +241,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 <details>
-<summary>Source event #105 · Main agent: Tool result: call_05_ar26g8u5hf1f49g6m6xwegu8 (is_error=False)</summary>
+<summary>Source event 105 · Main agent: Tool result: call_05_ar26g8u5hf1f49g6m6xwegu8 (is_error=False)</summary>
 
 
 ```text
@@ -258,7 +258,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 
 
 <details>
-<summary>Source event #106 · Main agent: Tool result: call_06_md02pvncf0ksg2g0nkw8gb3u (is_error=False)</summary>
+<summary>Source event 106 · Main agent: Tool result: call_06_md02pvncf0ksg2g0nkw8gb3u (is_error=False)</summary>
 
 
 ```text
@@ -274,7 +274,7 @@ Let me continue. Offsets 60,70,80,90,100,110,120.
 </details>
 
 
-## Source event #107 · Main agent: Model message
+## Source event 107 · Main agent: Model message
 
 ```text
 Now compile all male contacts living in Prague.
@@ -514,7 +514,7 @@ Let me check Messages recent conversations.
 
 
 
-## Source event #108 · Main agent: Model message
+## Source event 108 · Main agent: Model message
 
 ```text
 While waiting for Šárka's reply, let me examine the Messages app to understand the best-friend contact.
@@ -522,7 +522,7 @@ While waiting for Šárka's reply, let me examine the Messages app to understand
 
 
 
-## Source event #109 · Main agent: Model tool call: mcp__gaia2__Messages__list_recent_conversations (call_00_iahd7kcqbxeviyjwm4vqf52p)
+## Source event 109 · Main agent: Model tool call: mcp__gaia2__Messages__list_recent_conversations (call_00_iahd7kcqbxeviyjwm4vqf52p)
 
 ```text
 {
@@ -535,7 +535,7 @@ While waiting for Šárka's reply, let me examine the Messages app to understand
 
 
 <details>
-<summary>Source event #110 · Main agent: Tool result: call_00_iahd7kcqbxeviyjwm4vqf52p (is_error=True)</summary>
+<summary>Source event 110 · Main agent: Tool result: call_00_iahd7kcqbxeviyjwm4vqf52p (is_error=True)</summary>
 
 
 ```text
@@ -553,7 +553,7 @@ e.g. list_recent_conversations(0, 5) will list the 5 most recent conversations. 
 </details>
 
 
-## Source event #111 · Main agent: Model message
+## Source event 111 · Main agent: Model message
 
 ```text
 View limit 5 for limit_recent_messages? Actually "Limit must be smaller than the view limit of 5" — likely limit_recent_messages_per_conversation max <5, or limit max 5. Let me use limit 3, messages per conv 3.
@@ -561,7 +561,7 @@ View limit 5 for limit_recent_messages? Actually "Limit must be smaller than the
 
 
 
-## Source event #112 · Main agent: Model tool call: mcp__gaia2__Messages__list_recent_conversations (call_00_gatmurz8bgvvhl85w7yckbd4)
+## Source event 112 · Main agent: Model tool call: mcp__gaia2__Messages__list_recent_conversations (call_00_gatmurz8bgvvhl85w7yckbd4)
 
 ```text
 {
@@ -574,7 +574,7 @@ View limit 5 for limit_recent_messages? Actually "Limit must be smaller than the
 
 
 <details>
-<summary>Source event #113 · Main agent: Tool result: call_00_gatmurz8bgvvhl85w7yckbd4 (is_error=False)</summary>
+<summary>Source event 113 · Main agent: Tool result: call_00_gatmurz8bgvvhl85w7yckbd4 (is_error=False)</summary>
 
 
 ```text
@@ -590,7 +590,7 @@ View limit 5 for limit_recent_messages? Actually "Limit must be smaller than the
 </details>
 
 
-## Source event #114 · Main agent: Model message
+## Source event 114 · Main agent: Model message
 
 ```text
 Interesting. Conversations: first is group with +436991134567 (Lukas Pichler), +420723456789 (Eliška Nováková), +420725123456 (Matěj). Title 'Catch-up and Plans'. They discuss hiking, chess, cookies.
@@ -679,7 +679,7 @@ Let me wait and see. I'll do 180s.
 
 
 
-## Source event #115 · Main agent: Model message
+## Source event 115 · Main agent: Model message
 
 ```text
 Let me continue waiting for Šárka's response.
@@ -687,7 +687,7 @@ Let me continue waiting for Šárka's response.
 
 
 
-## Source event #116 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_k9dn3blbvu1lq9h4vyatbzcp)
+## Source event 116 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_k9dn3blbvu1lq9h4vyatbzcp)
 
 ```text
 {
@@ -698,7 +698,7 @@ Let me continue waiting for Šárka's response.
 
 
 <details>
-<summary>Source event #117 · Main agent: Tool result: call_00_k9dn3blbvu1lq9h4vyatbzcp (is_error=False)</summary>
+<summary>Source event 117 · Main agent: Tool result: call_00_k9dn3blbvu1lq9h4vyatbzcp (is_error=False)</summary>
 
 
 ```text

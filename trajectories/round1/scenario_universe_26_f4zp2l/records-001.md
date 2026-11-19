@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #1 · Main agent — decision 1: delegate_task</summary>
+<summary>Source event 1 · Main agent — decision 1: delegate_task</summary>
 
 
 ```text
@@ -30,7 +30,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #2 · Main agent — decision 2: delegate_task</summary>
+<summary>Source event 2 · Main agent — decision 2: delegate_task</summary>
 
 
 ```text
@@ -57,7 +57,7 @@ SUB-AGENT SESSION 1
 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: Initial system configuration</summary>
+<summary>Source event 3 · Sub-agent 1: Initial system configuration</summary>
 
 
 ```text
@@ -203,7 +203,7 @@ The search looks for partial matches in title, description, location, and attend
 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -216,7 +216,7 @@ Identify the location where the user spent the most cumulative time for 'lunch' 
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: model output</summary>
+<summary>Source event 5 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -237,7 +237,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -252,7 +252,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -276,7 +276,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: model output</summary>
+<summary>Source event 8 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -297,7 +297,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -312,7 +312,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: model output</summary>
+<summary>Source event 10 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -333,7 +333,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -348,7 +348,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: model output</summary>
+<summary>Source event 12 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -396,7 +396,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -414,7 +414,7 @@ SUB-AGENT SESSION 2
 
 
 <details>
-<summary>Source event #14 · Sub-agent 2: Initial system configuration</summary>
+<summary>Source event 14 · Sub-agent 2: Initial system configuration</summary>
 
 
 ```text
@@ -550,7 +550,7 @@ Read at: 2024-10-15 07:00:00
 
 
 <details>
-<summary>Source event #15 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 15 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -563,7 +563,7 @@ Send a message to the user stating that 'Lysverket' is the location where they s
 
 
 <details>
-<summary>Source event #16 · Sub-agent 2: model output</summary>
+<summary>Source event 16 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -583,7 +583,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result</summary>
+<summary>Source event 17 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -598,7 +598,7 @@ None
 
 
 <details>
-<summary>Source event #18 · Judge rationale</summary>
+<summary>Source event 18 · Judge rationale</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 19 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Search the inbox for an email from emma.sommeliers84@winemail.com. If found, ret
 
 
 <details>
-<summary>Source event #20 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 20 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -32,7 +32,7 @@ Environment notifications updates:
 </details>
 
 
-## Source event #21 · Sub-agent 1: model output
+## Source event 21 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -48,7 +48,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 1: tool result</summary>
+<summary>Source event 22 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -62,7 +62,7 @@ Action:
 </details>
 
 
-## Source event #23 · Sub-agent 1: model output
+## Source event 23 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -106,7 +106,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: tool result</summary>
+<summary>Source event 24 · Sub-agent 1: tool result</summary>
 
 
 ```text

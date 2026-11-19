@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #57 · Main agent: Tool result: call_01_5lctqgegrq1hpmjbo1530ewb (is_error=False)</summary>
+<summary>Source event 57 · Main agent: Tool result: call_01_5lctqgegrq1hpmjbo1530ewb (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #58 · Main agent: Model message
+## Source event 58 · Main agent: Model message
 
 ```text
 There is a separate Chats app with separate conversations (UUIDs). The "Wine, Art and Technology" conversation might be in Chats too. The task says "Send a Messages message in the Wine, Art and Technology conversation" — so use Messages app (which I found: "Wine, Art, and Technology").
@@ -53,7 +53,7 @@ Let me check Files app.
 
 
 
-## Source event #59 · Main agent: Model tool call: ToolSearch (call_00_t4tvwi0jbgxjosti0vfto4w2)
+## Source event 59 · Main agent: Model tool call: ToolSearch (call_00_t4tvwi0jbgxjosti0vfto4w2)
 
 ```text
 {
@@ -65,7 +65,7 @@ Let me check Files app.
 
 
 <details>
-<summary>Source event #60 · Main agent: Tool result: call_00_t4tvwi0jbgxjosti0vfto4w2 (is_error=False)</summary>
+<summary>Source event 60 · Main agent: Tool result: call_00_t4tvwi0jbgxjosti0vfto4w2 (is_error=False)</summary>
 
 
 ```text
@@ -93,7 +93,7 @@ Let me check Files app.
 </details>
 
 
-## Source event #61 · Main agent: Model tool call: mcp__gaia2__Files__tree (call_00_lj48s472mwutsm46pvrct6r5)
+## Source event 61 · Main agent: Model tool call: mcp__gaia2__Files__tree (call_00_lj48s472mwutsm46pvrct6r5)
 
 ```text
 {
@@ -104,7 +104,7 @@ Let me check Files app.
 
 
 <details>
-<summary>Source event #62 · Main agent: Tool result: call_00_lj48s472mwutsm46pvrct6r5 (is_error=False)</summary>
+<summary>Source event 62 · Main agent: Tool result: call_00_lj48s472mwutsm46pvrct6r5 (is_error=False)</summary>
 
 
 ```text
@@ -120,7 +120,7 @@ Let me check Files app.
 </details>
 
 
-## Source event #63 · Main agent: Model message
+## Source event 63 · Main agent: Model message
 
 ```text
 No Wine Ceremony doc. So the calendar doesn't have a Wine Ceremony event. Hmm.
@@ -156,7 +156,7 @@ Let's also check current ride status to see if one exists already.
 
 
 
-## Source event #64 · Main agent: Model tool call: mcp__gaia2__Cabs__get_current_ride_status (call_00_4h8hcqe8o637rif0uhf8tijg)
+## Source event 64 · Main agent: Model tool call: mcp__gaia2__Cabs__get_current_ride_status (call_00_4h8hcqe8o637rif0uhf8tijg)
 
 ```text
 {}
@@ -164,7 +164,7 @@ Let's also check current ride status to see if one exists already.
 
 
 
-## Source event #65 · Main agent: Model tool call: mcp__gaia2__Messages__send_message_to_group_conversation (call_01_5m0ocaxu3v189k3dtl4hcuad)
+## Source event 65 · Main agent: Model tool call: mcp__gaia2__Messages__send_message_to_group_conversation (call_01_5m0ocaxu3v189k3dtl4hcuad)
 
 ```text
 {
@@ -176,7 +176,7 @@ Let's also check current ride status to see if one exists already.
 
 
 <details>
-<summary>Source event #66 · Main agent: Tool result: call_00_4h8hcqe8o637rif0uhf8tijg (is_error=True)</summary>
+<summary>Source event 66 · Main agent: Tool result: call_00_4h8hcqe8o637rif0uhf8tijg (is_error=True)</summary>
 
 
 ```text
@@ -194,7 +194,7 @@ As a reminder, this tool's description is the following:
 
 
 <details>
-<summary>Source event #67 · Main agent: Tool result: call_01_5m0ocaxu3v189k3dtl4hcuad (is_error=False)</summary>
+<summary>Source event 67 · Main agent: Tool result: call_01_5m0ocaxu3v189k3dtl4hcuad (is_error=False)</summary>
 
 
 ```text
@@ -210,7 +210,7 @@ As a reminder, this tool's description is the following:
 </details>
 
 
-## Source event #68 · Main agent: Model message
+## Source event 68 · Main agent: Model message
 
 ```text
 The message was sent. Now let me book the van and check for replies.
@@ -222,7 +222,7 @@ Now book the van.
 
 
 
-## Source event #69 · Main agent: Model tool call: mcp__gaia2__Cabs__order_ride (call_00_zcqzhnyjlz55od9d6yj5ub8z)
+## Source event 69 · Main agent: Model tool call: mcp__gaia2__Cabs__order_ride (call_00_zcqzhnyjlz55od9d6yj5ub8z)
 
 ```text
 {
@@ -235,7 +235,7 @@ Now book the van.
 
 
 
-## Source event #70 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_01_tnhk9b0rgu9ig68yagodl4cw)
+## Source event 70 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_01_tnhk9b0rgu9ig68yagodl4cw)
 
 ```text
 {
@@ -248,7 +248,7 @@ Now book the van.
 
 
 <details>
-<summary>Source event #71 · Main agent: Tool result: call_00_zcqzhnyjlz55od9d6yj5ub8z (is_error=False)</summary>
+<summary>Source event 71 · Main agent: Tool result: call_00_zcqzhnyjlz55od9d6yj5ub8z (is_error=False)</summary>
 
 
 ```text
@@ -265,7 +265,7 @@ Now book the van.
 
 
 <details>
-<summary>Source event #72 · Main agent: Tool result: call_01_tnhk9b0rgu9ig68yagodl4cw (is_error=False)</summary>
+<summary>Source event 72 · Main agent: Tool result: call_01_tnhk9b0rgu9ig68yagodl4cw (is_error=False)</summary>
 
 
 ```text
@@ -281,7 +281,7 @@ Now book the van.
 </details>
 
 
-## Source event #73 · Main agent: Model message
+## Source event 73 · Main agent: Model message
 
 ```text
 Van booked. Message sent. Now need to wait for replies. Use SystemApp__wait_for_notification.
@@ -291,7 +291,7 @@ Let me load that tool.
 
 
 
-## Source event #74 · Main agent: Model tool call: ToolSearch (call_00_reg2qu0br09dfcg58vzbmp91)
+## Source event 74 · Main agent: Model tool call: ToolSearch (call_00_reg2qu0br09dfcg58vzbmp91)
 
 ```text
 {
@@ -303,7 +303,7 @@ Let me load that tool.
 
 
 <details>
-<summary>Source event #75 · Main agent: Tool result: call_00_reg2qu0br09dfcg58vzbmp91 (is_error=False)</summary>
+<summary>Source event 75 · Main agent: Tool result: call_00_reg2qu0br09dfcg58vzbmp91 (is_error=False)</summary>
 
 
 ```text
@@ -323,7 +323,7 @@ Let me load that tool.
 </details>
 
 
-## Source event #76 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_i58evwit3fm6ufual6x6zawy)
+## Source event 76 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_i58evwit3fm6ufual6x6zawy)
 
 ```text
 {
@@ -334,7 +334,7 @@ Let me load that tool.
 
 
 <details>
-<summary>Source event #77 · Main agent: Tool result: call_00_i58evwit3fm6ufual6x6zawy (is_error=False)</summary>
+<summary>Source event 77 · Main agent: Tool result: call_00_i58evwit3fm6ufual6x6zawy (is_error=False)</summary>
 
 
 ```text
@@ -354,7 +354,7 @@ Let me load that tool.
 </details>
 
 
-## Source event #78 · Main agent: Model message
+## Source event 78 · Main agent: Model message
 
 ```text
 No reply yet. Let me wait more. Maybe replies come after some time. Let's wait 60s.
@@ -362,7 +362,7 @@ No reply yet. Let me wait more. Maybe replies come after some time. Let's wait 6
 
 
 
-## Source event #79 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_aavyihtbzzm0lff5d2dutp8w)
+## Source event 79 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_aavyihtbzzm0lff5d2dutp8w)
 
 ```text
 {
@@ -373,7 +373,7 @@ No reply yet. Let me wait more. Maybe replies come after some time. Let's wait 6
 
 
 <details>
-<summary>Source event #80 · Main agent: Tool result: call_00_aavyihtbzzm0lff5d2dutp8w (is_error=False)</summary>
+<summary>Source event 80 · Main agent: Tool result: call_00_aavyihtbzzm0lff5d2dutp8w (is_error=False)</summary>
 
 
 ```text
@@ -393,7 +393,7 @@ No reply yet. Let me wait more. Maybe replies come after some time. Let's wait 6
 </details>
 
 
-## Source event #81 · Main agent: Model message
+## Source event 81 · Main agent: Model message
 
 ```text
 No notifications. Maybe replies just appear in the messages conversation without notification. Let me re-read the conversation to check for new messages.
@@ -401,7 +401,7 @@ No notifications. Maybe replies just appear in the messages conversation without
 
 
 
-## Source event #82 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_egwcgl1mpgpvs7chga06ngrm)
+## Source event 82 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_egwcgl1mpgpvs7chga06ngrm)
 
 ```text
 {
@@ -414,7 +414,7 @@ No notifications. Maybe replies just appear in the messages conversation without
 
 
 <details>
-<summary>Source event #83 · Main agent: Tool result: call_00_egwcgl1mpgpvs7chga06ngrm (is_error=False)</summary>
+<summary>Source event 83 · Main agent: Tool result: call_00_egwcgl1mpgpvs7chga06ngrm (is_error=False)</summary>
 
 
 ```text
@@ -430,7 +430,7 @@ No notifications. Maybe replies just appear in the messages conversation without
 </details>
 
 
-## Source event #84 · Main agent: Model message
+## Source event 84 · Main agent: Model message
 
 ```text
 No replies yet. Maybe replies arrive when time advances. GAIA2 notifications may come at scheduled simulated times. Perhaps I need to wait longer, e.g., several minutes. The environment clock advances with waits: wait 30s -> clock advanced 30s. So waiting 60s advanced 1 min. Replies might come at e.g. 07:05 or 07:10.
@@ -440,7 +440,7 @@ Let me wait several minutes. Use timeout 300. But each wait is at most? Let's do
 
 
 
-## Source event #85 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_vt9e1f0dog9kgnefnstd6pvl)
+## Source event 85 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_vt9e1f0dog9kgnefnstd6pvl)
 
 ```text
 {
@@ -451,7 +451,7 @@ Let me wait several minutes. Use timeout 300. But each wait is at most? Let's do
 
 
 <details>
-<summary>Source event #86 · Main agent: Tool result: call_00_vt9e1f0dog9kgnefnstd6pvl (is_error=False)</summary>
+<summary>Source event 86 · Main agent: Tool result: call_00_vt9e1f0dog9kgnefnstd6pvl (is_error=False)</summary>
 
 
 ```text
@@ -471,7 +471,7 @@ Let me wait several minutes. Use timeout 300. But each wait is at most? Let's do
 </details>
 
 
-## Source event #87 · Main agent: Model message
+## Source event 87 · Main agent: Model message
 
 ```text
 Time now 07:04:32. Still no replies. Let me check the other conversations — maybe participants reply in a different conversation? No.
@@ -499,7 +499,7 @@ Let me search Chats app for "Ceremony".
 
 
 
-## Source event #88 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_00_wrzbod0xnbctid90pn2a3qe0)
+## Source event 88 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_00_wrzbod0xnbctid90pn2a3qe0)
 
 ```text
 {
@@ -509,7 +509,7 @@ Let me search Chats app for "Ceremony".
 
 
 
-## Source event #89 · Main agent: Model tool call: mcp__gaia2__Messages__search (call_01_fnnpqxxmx66tkxvi2xo5y092)
+## Source event 89 · Main agent: Model tool call: mcp__gaia2__Messages__search (call_01_fnnpqxxmx66tkxvi2xo5y092)
 
 ```text
 {
@@ -520,7 +520,7 @@ Let me search Chats app for "Ceremony".
 
 
 <details>
-<summary>Source event #90 · Main agent: Tool result: call_00_wrzbod0xnbctid90pn2a3qe0 (is_error=False)</summary>
+<summary>Source event 90 · Main agent: Tool result: call_00_wrzbod0xnbctid90pn2a3qe0 (is_error=False)</summary>
 
 
 ```text
@@ -537,7 +537,7 @@ Let me search Chats app for "Ceremony".
 
 
 <details>
-<summary>Source event #91 · Main agent: Tool result: call_01_fnnpqxxmx66tkxvi2xo5y092 (is_error=False)</summary>
+<summary>Source event 91 · Main agent: Tool result: call_01_fnnpqxxmx66tkxvi2xo5y092 (is_error=False)</summary>
 
 
 ```text
@@ -553,7 +553,7 @@ Let me search Chats app for "Ceremony".
 </details>
 
 
-## Source event #92 · Main agent: Model message
+## Source event 92 · Main agent: Model message
 
 ```text
 Messages search for "Wine Ceremony" returns our conversation only (our sent message). So no prior mention.
@@ -567,7 +567,7 @@ Actually, I could also check whether other users might send emails. Let's wait.
 
 
 
-## Source event #93 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_0cq8m7i4kh2citilwd66mewh)
+## Source event 93 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_0cq8m7i4kh2citilwd66mewh)
 
 ```text
 {
@@ -578,7 +578,7 @@ Actually, I could also check whether other users might send emails. Let's wait.
 
 
 <details>
-<summary>Source event #94 · Main agent: Tool result: call_00_0cq8m7i4kh2citilwd66mewh (is_error=False)</summary>
+<summary>Source event 94 · Main agent: Tool result: call_00_0cq8m7i4kh2citilwd66mewh (is_error=False)</summary>
 
 
 ```text
@@ -598,7 +598,7 @@ Actually, I could also check whether other users might send emails. Let's wait.
 </details>
 
 
-## Source event #95 · Main agent: Model message
+## Source event 95 · Main agent: Model message
 
 ```text
 Now 07:09:32. Still nothing. Let me check the conversation again and also other apps (emails may have arrived).
@@ -610,7 +610,7 @@ Let me re-read conversation and list emails.
 
 
 
-## Source event #96 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_rekryafvoy3hp13o1ac9p3tt)
+## Source event 96 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_rekryafvoy3hp13o1ac9p3tt)
 
 ```text
 {
@@ -622,7 +622,7 @@ Let me re-read conversation and list emails.
 
 
 
-## Source event #97 · Main agent: Model tool call: mcp__gaia2__Messages__list_recent_conversations (call_01_1ja756l42o1o8bi3w9scn2s0)
+## Source event 97 · Main agent: Model tool call: mcp__gaia2__Messages__list_recent_conversations (call_01_1ja756l42o1o8bi3w9scn2s0)
 
 ```text
 {
@@ -634,7 +634,7 @@ Let me re-read conversation and list emails.
 
 
 <details>
-<summary>Source event #98 · Main agent: Tool result: call_00_rekryafvoy3hp13o1ac9p3tt (is_error=False)</summary>
+<summary>Source event 98 · Main agent: Tool result: call_00_rekryafvoy3hp13o1ac9p3tt (is_error=False)</summary>
 
 
 ```text
@@ -651,7 +651,7 @@ Let me re-read conversation and list emails.
 
 
 <details>
-<summary>Source event #99 · Main agent: Tool result: call_01_1ja756l42o1o8bi3w9scn2s0 (is_error=False)</summary>
+<summary>Source event 99 · Main agent: Tool result: call_01_1ja756l42o1o8bi3w9scn2s0 (is_error=False)</summary>
 
 
 ```text
@@ -667,7 +667,7 @@ Let me re-read conversation and list emails.
 </details>
 
 
-## Source event #100 · Main agent: Model message
+## Source event 100 · Main agent: Model message
 
 ```text
 No replies. Hmm.
@@ -695,7 +695,7 @@ Let's wait for reply. Wait 600s.
 
 
 
-## Source event #101 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_zwq43e2gdm8j0krwzvshvsqq)
+## Source event 101 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_zwq43e2gdm8j0krwzvshvsqq)
 
 ```text
 {
@@ -706,7 +706,7 @@ Let's wait for reply. Wait 600s.
 
 
 <details>
-<summary>Source event #102 · Main agent: Tool result: call_00_zwq43e2gdm8j0krwzvshvsqq (is_error=False)</summary>
+<summary>Source event 102 · Main agent: Tool result: call_00_zwq43e2gdm8j0krwzvshvsqq (is_error=False)</summary>
 
 
 ```text
@@ -726,7 +726,7 @@ Let's wait for reply. Wait 600s.
 </details>
 
 
-## Source event #103 · Main agent: Model message
+## Source event 103 · Main agent: Model message
 
 ```text
 07:19:32. Still nothing. Hmm.
@@ -751,7 +751,7 @@ I need to load email tools.
 
 
 
-## Source event #104 · Main agent: Model tool call: ToolSearch (call_00_11ibjn8pjcez6y4s2knu1vgg)
+## Source event 104 · Main agent: Model tool call: ToolSearch (call_00_11ibjn8pjcez6y4s2knu1vgg)
 
 ```text
 {
@@ -763,7 +763,7 @@ I need to load email tools.
 
 
 <details>
-<summary>Source event #105 · Main agent: Tool result: call_00_11ibjn8pjcez6y4s2knu1vgg (is_error=False)</summary>
+<summary>Source event 105 · Main agent: Tool result: call_00_11ibjn8pjcez6y4s2knu1vgg (is_error=False)</summary>
 
 
 ```text
@@ -787,7 +787,7 @@ I need to load email tools.
 </details>
 
 
-## Source event #106 · Main agent: Model tool call: mcp__gaia2__Emails__list_emails (call_00_nug2l7ljkecv8x7xymluwam5)
+## Source event 106 · Main agent: Model tool call: mcp__gaia2__Emails__list_emails (call_00_nug2l7ljkecv8x7xymluwam5)
 
 ```text
 {
@@ -800,7 +800,7 @@ I need to load email tools.
 
 
 <details>
-<summary>Source event #107 · Main agent: Tool result: call_00_nug2l7ljkecv8x7xymluwam5 (is_error=False)</summary>
+<summary>Source event 107 · Main agent: Tool result: call_00_nug2l7ljkecv8x7xymluwam5 (is_error=False)</summary>
 
 
 ```text
@@ -816,7 +816,7 @@ I need to load email tools.
 </details>
 
 
-## Source event #108 · Main agent: Model message
+## Source event 108 · Main agent: Model message
 
 ```text
 Emails are generic. No updates.
@@ -846,7 +846,7 @@ Let me continue waiting a couple of rounds.
 
 
 
-## Source event #109 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_90qbxx5l61twpaedo80ivtyf)
+## Source event 109 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_90qbxx5l61twpaedo80ivtyf)
 
 ```text
 {
@@ -857,7 +857,7 @@ Let me continue waiting a couple of rounds.
 
 
 <details>
-<summary>Source event #110 · Main agent: Tool result: call_00_90qbxx5l61twpaedo80ivtyf (is_error=False)</summary>
+<summary>Source event 110 · Main agent: Tool result: call_00_90qbxx5l61twpaedo80ivtyf (is_error=False)</summary>
 
 
 ```text
@@ -877,7 +877,7 @@ Let me continue waiting a couple of rounds.
 </details>
 
 
-## Source event #111 · Main agent: Model message
+## Source event 111 · Main agent: Model message
 
 ```text
 Nothing. Hmm. Maybe the reply notifications never come and the task is self-contained: participant replies may already exist in the conversation but our read only shows 11 messages... no.
@@ -891,7 +891,7 @@ Let me check Chats for that title.
 
 
 
-## Source event #112 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_00_mqzzrm49c4ir3di4bn3ql2qt)
+## Source event 112 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_00_mqzzrm49c4ir3di4bn3ql2qt)
 
 ```text
 {
@@ -901,7 +901,7 @@ Let me check Chats for that title.
 
 
 
-## Source event #113 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_01_m9pdclj6wdngmcd6nx0t5j7d)
+## Source event 113 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_01_m9pdclj6wdngmcd6nx0t5j7d)
 
 ```text
 {
@@ -912,7 +912,7 @@ Let me check Chats for that title.
 
 
 <details>
-<summary>Source event #114 · Main agent: Tool result: call_00_mqzzrm49c4ir3di4bn3ql2qt (is_error=False)</summary>
+<summary>Source event 114 · Main agent: Tool result: call_00_mqzzrm49c4ir3di4bn3ql2qt (is_error=False)</summary>
 
 
 ```text
@@ -929,7 +929,7 @@ Let me check Chats for that title.
 
 
 <details>
-<summary>Source event #115 · Main agent: Tool result: call_01_m9pdclj6wdngmcd6nx0t5j7d (is_error=False)</summary>
+<summary>Source event 115 · Main agent: Tool result: call_01_m9pdclj6wdngmcd6nx0t5j7d (is_error=False)</summary>
 
 
 ```text
@@ -945,7 +945,7 @@ Let me check Chats for that title.
 </details>
 
 
-## Source event #116 · Main agent: Model message
+## Source event 116 · Main agent: Model message
 
 ```text
 Chats doesn't have it. So Messages it is.
@@ -957,7 +957,7 @@ Hmm, maybe the reply generation occurs but only when the task engine runs a "not
 
 
 
-## Source event #117 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_dwszlr24rjpanciq8n65oexf)
+## Source event 117 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_dwszlr24rjpanciq8n65oexf)
 
 ```text
 {}
@@ -966,7 +966,7 @@ Hmm, maybe the reply generation occurs but only when the task engine runs a "not
 
 
 <details>
-<summary>Source event #118 · Main agent: Tool result: call_00_dwszlr24rjpanciq8n65oexf (is_error=False)</summary>
+<summary>Source event 118 · Main agent: Tool result: call_00_dwszlr24rjpanciq8n65oexf (is_error=False)</summary>
 
 
 ```text
@@ -982,7 +982,7 @@ Hmm, maybe the reply generation occurs but only when the task engine runs a "not
 </details>
 
 
-## Source event #119 · Main agent: Model message
+## Source event 119 · Main agent: Model message
 
 ```text
 Clock is advanced. So waits do advance the simulated clock.
@@ -1023,7 +1023,7 @@ Let me try a longer wait: 1800s (30 min) → 07:59:32. If timeout max is 600? Ea
 
 
 
-## Source event #120 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_i0gvhup1w7j6bj6n6v0ccbcy)
+## Source event 120 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_i0gvhup1w7j6bj6n6v0ccbcy)
 
 ```text
 {
@@ -1034,7 +1034,7 @@ Let me try a longer wait: 1800s (30 min) → 07:59:32. If timeout max is 600? Ea
 
 
 <details>
-<summary>Source event #121 · Main agent: Tool result: call_00_i0gvhup1w7j6bj6n6v0ccbcy (is_error=False)</summary>
+<summary>Source event 121 · Main agent: Tool result: call_00_i0gvhup1w7j6bj6n6v0ccbcy (is_error=False)</summary>
 
 
 ```text
@@ -1051,7 +1051,7 @@ Let me try a longer wait: 1800s (30 min) → 07:59:32. If timeout max is 600? Ea
 
 
 <details>
-<summary>Source event #122 · Judge: Judge rationale</summary>
+<summary>Source event 122 · Judge: Judge rationale</summary>
 
 
 ```text

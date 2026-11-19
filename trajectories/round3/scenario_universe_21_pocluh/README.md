@@ -1,6 +1,8 @@
 # scenario_universe_21_pocluh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_21_pocluh/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_21_pocluh/README.md) · [Codex](../../codex/round3/scenario_universe_21_pocluh/README.md) · [OpenCode](../../opencode/round3/scenario_universe_21_pocluh/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #9
+**Initial harness configuration** · Source event 9
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the zip code of the starting location of the user&#x27;s most expensive cab ride in October 2024 to proceed with the property search and conversation filtering.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #21
+**Initial harness configuration** · Source event 21
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 Identify the largest property by square footage in the target zip code (411 19) and save it to favorites. This fulfills the property-saving part of the user request.
 
@@ -146,11 +148,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #29
+**Initial harness configuration** · Source event 29
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 We have identified the zip code (411 19) and the largest property (&#x27;Göteborg Glamour&#x27;, price 1500). Now we need to identify which conversations in Messages and Chats have participants living in that zip code, and find the specific &#x27;Herbaceous&#x27; variant to order.
 
@@ -221,7 +223,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S3 configuration v2
 
-**Harness configuration updated** · Source event #68
+**Harness configuration updated** · Source event 68
 
 **1. Sub-agent revision request**
 
@@ -230,7 +232,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 Current user is Astrid Lundqvist (contact id '0d1b1d002eba4fdfa48e04d226bf4425', phone '+46734567890', address 'Östermalmsgatan 12, 114 39 Stockholm, Sweden'). Messages conversations use phone-number participant_ids; Chats conversations use dashed-GUID participant_ids. Contacts__get_contact fails for both a Messages phone number ('+351912344678') and a Chats GUID ('c6ce31b7-6dde-4350-b488-245ad088b18b'), so there is no way to map conversation participants to contacts/addresses with currently available tools.
 ```
 <details>
-<summary>Request and evidence · source event #66</summary>
+<summary>Request and evidence · source event 66</summary>
 
 
 ```text
@@ -275,7 +277,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #4
+`revise_task` · Source event 4
 
 The SubAgent needs tools to list and search contacts to map conversation participants (phone numbers and GUIDs) to home addresses. It also needs shopping tools to perform the order.
 
@@ -390,11 +392,11 @@ Full system configuration: [Part 1](config-s3-v2-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #149
+**Initial harness configuration** · Source event 149
 
 **Initial delegation**
 
-`delegate_task` · Source event #5
+`delegate_task` · Source event 5
 
 The previous SubAgent identified the target zip code (411 19), the largest property (&#x27;Göteborg Glamour&#x27;, price 1500, saved), and scanned all contacts (finding only Göran Lundström in zip 411 19). It also scanned all 138 Messages conversations and found no matches for Göran&#x27;s phone number. I now need a SubAgent to finish scanning Chats conversations, identify those containing Göran Lundström, send the required message, and order the &#x27;Herbaceous&#x27; gifts for all participants in those qualifying conversations.
 
@@ -473,11 +475,11 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 
 ### S5 configuration v1
 
-**Initial harness configuration** · Source event #211
+**Initial harness configuration** · Source event 211
 
 **Initial delegation**
 
-`delegate_task` · Source event #6
+`delegate_task` · Source event 6
 
 The previous SubAgent identified the target contact (Göran Lundström, zip 411 19) and his Chats GUID (bd3df2f2-0d69-4026-bc4b-ac516b86250c). It scanned most of the Chats list and found 6 qualifying conversations, but a gap (offsets 20-30) remains. No messages have been sent and no purchases have been made. I need to complete the scanning, send the messages, and perform the required gift purchases.
 
@@ -558,11 +560,11 @@ Full system configuration: [Part 1](config-s5-v1-01.md)
 
 ### S6 configuration v1
 
-**Initial harness configuration** · Source event #273
+**Initial harness configuration** · Source event 273
 
 **Initial delegation**
 
-`delegate_task` · Source event #7
+`delegate_task` · Source event 7
 
 The qualifying conversations have been identified (6 in Chats, 0 in Messages) and the recipient count for gifts has been calculated (12 units total). I now need a SubAgent to perform the final side effects: sending the specific message to each conversation and purchasing the gifts.
 
@@ -632,7 +634,7 @@ Full system configuration: [Part 1](config-s6-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #8</summary>
+<summary>Source event 8</summary>
 
 
 ```text

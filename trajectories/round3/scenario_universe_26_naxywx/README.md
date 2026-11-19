@@ -1,6 +1,8 @@
 # scenario_universe_26_naxywx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_26_naxywx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_26_naxywx/README.md) · [Codex](../../codex/round3/scenario_universe_26_naxywx/README.md) · [OpenCode](../../opencode/round3/scenario_universe_26_naxywx/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial immediate requests: find Kofi&#x27;s ID, send the chat message, report the message content to the user, and order the initial cab to the specified address. I also need to retrieve the user&#x27;s home address to use as the cab&#x27;s starting point.
 
@@ -94,7 +96,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #18
+**Harness configuration updated** · Source event 18
 
 **1. Sub-agent revision request**
 
@@ -103,7 +105,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed assigned subtask steps 1–6 so far: retrieved user address, found Kofi's chat ID, sent chat message to Kofi, reported exact message to User, and ordered the Default cab (Status: BOOKED) from Frognerveien 34, 0266 Oslo, Norway to Fosswinckels gate 10, Bergen at 2024-10-15 12:00:00. New environment notifications report two calendar events added (by Kofi Ogunlesi and Kofi Owusu), which may trigger the original turn's conditional logic (check 'apartment search' event location; if different from cab destination, cancel/rebook, email Kofi, notify User).
 ```
 <details>
-<summary>Request and evidence · source event #16</summary>
+<summary>Request and evidence · source event 16</summary>
 
 
 ```text
@@ -158,7 +160,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent successfully completed the first part of the task (sending the chat message, reporting it to the user, and booking the initial cab). Environment notifications now indicate that Kofi Ogunlesi has added a calendar event, which triggers the conditional logic in the original request. The SubAgent needs additional tools and instructions to inspect the calendar, potentially cancel/rebook the cab, and send the follow-up email.
 

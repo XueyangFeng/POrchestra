@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #12 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 12 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -24,7 +24,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #13 · Sub-agent 2: model output
+## Source event 13 · Sub-agent 2: model output
 
 ```text
 I'll start by booking the premium cab and looking up Åsa's user ID.
@@ -46,7 +46,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 2: tool result</summary>
+<summary>Source event 14 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -69,7 +69,7 @@ Ride ID: c3de44121c4644ae524e7f6470b6f5f7
 </details>
 
 
-## Source event #15 · Sub-agent 2: model output
+## Source event 15 · Sub-agent 2: model output
 
 ```text
 The cab is booked successfully with status BOOKED. Now let me find Åsa's user ID.
@@ -86,7 +86,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 2: tool result</summary>
+<summary>Source event 16 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -100,7 +100,7 @@ Action:
 </details>
 
 
-## Source event #17 · Sub-agent 2: model output
+## Source event 17 · Sub-agent 2: model output
 
 ```text
 Two matches found. The task references 'Åsa Lindgren', so I'll use user ID '+46707123456'. The booking succeeded (Status: BOOKED), so I'll send the message to Åsa now.
@@ -118,7 +118,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 2: tool result</summary>
+<summary>Source event 18 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -132,7 +132,7 @@ a7068a8ebfa1491a88ea92e241f5a0ea
 </details>
 
 
-## Source event #19 · Sub-agent 2: model output
+## Source event 19 · Sub-agent 2: model output
 
 ```text
 Message sent. Now let me check the current status of the cab to verify whether it's still booked or canceled.
@@ -147,7 +147,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: tool result</summary>
+<summary>Source event 20 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ Ride ID: c3de44121c4644ae524e7f6470b6f5f7
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 The ride status is still BOOKED, not canceled. So the success path applies: I've sent the message to Åsa, and now I'll notify the user.
@@ -187,7 +187,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #396 · Sub-agent 7: user / environment input</summary>
+<summary>Source event 396 · Sub-agent 7: user / environment input</summary>
 
 
 ```text
@@ -24,7 +24,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #397 · Sub-agent 7: tool result</summary>
+<summary>Source event 397 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #398 · Sub-agent 7: tool result</summary>
+<summary>Source event 398 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -77,7 +77,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #399 · Sub-agent 7: model output
+## Source event 399 · Sub-agent 7: model output
 
 ```text
 <SAE_control_action>
@@ -93,7 +93,7 @@ Action:
 
 
 <details>
-<summary>Source event #400 · Sub-agent 7: tool result</summary>
+<summary>Source event 400 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -107,7 +107,7 @@ Action:
 </details>
 
 
-## Source event #401 · Sub-agent 7: model output
+## Source event 401 · Sub-agent 7: model output
 
 ```text
 <SAE_control_action>
@@ -123,7 +123,7 @@ Action:
 
 
 <details>
-<summary>Source event #402 · Sub-agent 7: tool result</summary>
+<summary>Source event 402 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ Action:
 </details>
 
 
-## Source event #403 · Sub-agent 7: model output
+## Source event 403 · Sub-agent 7: model output
 
 ```text
 <SAE_control_action>
@@ -153,7 +153,7 @@ Action:
 
 
 <details>
-<summary>Source event #404 · Sub-agent 7: tool result</summary>
+<summary>Source event 404 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -167,7 +167,7 @@ Action:
 </details>
 
 
-## Source event #405 · Sub-agent 7: model output
+## Source event 405 · Sub-agent 7: model output
 
 ```text
 <SAE_control_action>
@@ -183,7 +183,7 @@ Action:
 
 
 <details>
-<summary>Source event #406 · Sub-agent 7: tool result</summary>
+<summary>Source event 406 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -197,7 +197,7 @@ Action:
 </details>
 
 
-## Source event #407 · Sub-agent 7: model output
+## Source event 407 · Sub-agent 7: model output
 
 ```text
 <SAE_control_action>
@@ -213,7 +213,7 @@ Action:
 
 
 <details>
-<summary>Source event #408 · Sub-agent 7: tool result</summary>
+<summary>Source event 408 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -227,7 +227,7 @@ Action:
 </details>
 
 
-## Source event #409 · Sub-agent 7: model output
+## Source event 409 · Sub-agent 7: model output
 
 ```text
 <SAE_control_action>
@@ -243,7 +243,7 @@ Action:
 
 
 <details>
-<summary>Source event #410 · Sub-agent 7: tool result</summary>
+<summary>Source event 410 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -257,7 +257,7 @@ Action:
 </details>
 
 
-## Source event #411 · Sub-agent 7: model output
+## Source event 411 · Sub-agent 7: model output
 
 ```text
 <SAE_control_action>
@@ -273,7 +273,7 @@ Action:
 
 
 <details>
-<summary>Source event #412 · Sub-agent 7: tool result</summary>
+<summary>Source event 412 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -287,7 +287,7 @@ Action:
 </details>
 
 
-## Source event #413 · Sub-agent 7: model output
+## Source event 413 · Sub-agent 7: model output
 
 ```text
 <SAE_control_action>
@@ -303,7 +303,7 @@ Action:
 
 
 <details>
-<summary>Source event #414 · Sub-agent 7: tool result</summary>
+<summary>Source event 414 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -317,7 +317,7 @@ Action:
 </details>
 
 
-## Source event #415 · Sub-agent 7: model output
+## Source event 415 · Sub-agent 7: model output
 
 ```text
 <SAE_control_action>
@@ -333,7 +333,7 @@ Action:
 
 
 <details>
-<summary>Source event #416 · Sub-agent 7: tool result</summary>
+<summary>Source event 416 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -347,7 +347,7 @@ Action:
 </details>
 
 
-## Source event #417 · Sub-agent 7: model output
+## Source event 417 · Sub-agent 7: model output
 
 ```text
 <SAE_control_action>
@@ -363,7 +363,7 @@ Action:
 
 
 <details>
-<summary>Source event #418 · Sub-agent 7: tool result</summary>
+<summary>Source event 418 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -377,7 +377,7 @@ Action:
 </details>
 
 
-## Source event #419 · Sub-agent 7: model output
+## Source event 419 · Sub-agent 7: model output
 
 ```text
 <SAE_control_action>
@@ -393,7 +393,7 @@ Action:
 
 
 <details>
-<summary>Source event #420 · Sub-agent 7: tool result</summary>
+<summary>Source event 420 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -407,7 +407,7 @@ Action:
 </details>
 
 
-## Source event #421 · Sub-agent 7: model output
+## Source event 421 · Sub-agent 7: model output
 
 ```text
 UK contacts verified: Alethea Fothergill (alethea.fothergill@gaia2mail.com) and Elara von Allmen (elara.vonallmen@edinburgh.ac.uk). Now searching files for the saved Aberdeen Wikipedia .txt. Starting with /Documents.
@@ -422,7 +422,7 @@ Action:
 
 
 <details>
-<summary>Source event #422 · Sub-agent 7: tool result</summary>
+<summary>Source event 422 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -436,7 +436,7 @@ Action:
 </details>
 
 
-## Source event #423 · Sub-agent 7: model output
+## Source event 423 · Sub-agent 7: model output
 
 ```text
 Now inspect the wiki directory for the saved Wikipedia files.
@@ -451,7 +451,7 @@ Action:
 
 
 <details>
-<summary>Source event #424 · Sub-agent 7: tool result</summary>
+<summary>Source event 424 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -465,7 +465,7 @@ Action:
 </details>
 
 
-## Source event #425 · Sub-agent 7: model output
+## Source event 425 · Sub-agent 7: model output
 
 ```text
 No Aberdeen-named file visible yet. Check /Documents/news and /Documents/benchmarks directories.

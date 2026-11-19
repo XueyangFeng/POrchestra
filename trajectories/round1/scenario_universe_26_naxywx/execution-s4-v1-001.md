@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #202 · Sub-agent 4: user / environment input</summary>
+<summary>Source event 202 · Sub-agent 4: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Execute the following conditional steps: 1) Cancel the currently booked cab ride
 </details>
 
 
-## Source event #203 · Sub-agent 4: model output
+## Source event 203 · Sub-agent 4: model output
 
 ```text
 Action:
@@ -30,7 +30,7 @@ Action:
 
 
 <details>
-<summary>Source event #204 · Sub-agent 4: tool result</summary>
+<summary>Source event 204 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -44,7 +44,7 @@ Ride has been cancelled, sorry to see you go.
 </details>
 
 
-## Source event #205 · Sub-agent 4: model output
+## Source event 205 · Sub-agent 4: model output
 
 ```text
 Action:
@@ -62,7 +62,7 @@ Action:
 
 
 <details>
-<summary>Source event #206 · Sub-agent 4: tool result</summary>
+<summary>Source event 206 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -85,7 +85,7 @@ Ride ID: e192c5fb8a318bdb627cf6d71152ec19
 </details>
 
 
-## Source event #207 · Sub-agent 4: model output
+## Source event 207 · Sub-agent 4: model output
 
 ```text
 Action:
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #208 · Sub-agent 4: tool result</summary>
+<summary>Source event 208 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -116,7 +116,7 @@ e99491546510d319bc33d842063d8b97
 </details>
 
 
-## Source event #209 · Sub-agent 4: model output
+## Source event 209 · Sub-agent 4: model output
 
 ```text
 All conditional steps are now authorized and the prerequisite side effects are complete: the old ride was cancelled, the new ride was booked, and the email was sent. Only the user notification remains, which is the turn-boundary tool, so I am sending it now.
@@ -133,7 +133,7 @@ Action:
 
 
 <details>
-<summary>Source event #210 · Sub-agent 4: tool result</summary>
+<summary>Source event 210 · Sub-agent 4: tool result</summary>
 
 
 ```text

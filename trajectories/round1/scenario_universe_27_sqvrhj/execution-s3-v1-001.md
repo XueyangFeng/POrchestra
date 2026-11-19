@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #132 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 132 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Complete the final delivery steps of the task:
 
 
 <details>
-<summary>Source event #133 · Sub-agent 3: tool result</summary>
+<summary>Source event 133 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #134 · Sub-agent 3: tool result</summary>
+<summary>Source event 134 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -77,7 +77,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #135 · Sub-agent 3: model output
+## Source event 135 · Sub-agent 3: model output
 
 ```text
 Thought: The three phone numbers are confirmed as Messages user IDs. I'll create the group, send the file to it, then email Aidan O'Connor with the same attachment.
@@ -99,7 +99,7 @@ Action:
 
 
 <details>
-<summary>Source event #136 · Sub-agent 3: tool result</summary>
+<summary>Source event 136 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Action:
 </details>
 
 
-## Source event #137 · Sub-agent 3: model output
+## Source event 137 · Sub-agent 3: model output
 
 ```text
 Group created successfully (id: 4e11770c965b3d23247e58a802fa3cc7). Now sending the file to the group.
@@ -132,7 +132,7 @@ Action:
 
 
 <details>
-<summary>Source event #138 · Sub-agent 3: tool result</summary>
+<summary>Source event 138 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -146,7 +146,7 @@ Action:
 </details>
 
 
-## Source event #139 · Sub-agent 3: model output
+## Source event 139 · Sub-agent 3: model output
 
 ```text
 Group message sent successfully. Now sending the email to Aidan O'Connor with the file attached.
@@ -166,7 +166,7 @@ Action:
 
 
 <details>
-<summary>Source event #140 · Sub-agent 3: tool result</summary>
+<summary>Source event 140 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -180,7 +180,7 @@ Action:
 </details>
 
 
-## Source event #141 · Sub-agent 3: model output
+## Source event 141 · Sub-agent 3: model output
 
 ```text
 Both final delivery steps are complete. The group conversation was created and the file was sent to it, and the email to Aidan O'Connor was sent with the attachment.
@@ -222,7 +222,7 @@ Action:
 
 
 <details>
-<summary>Source event #142 · Sub-agent 3: tool result</summary>
+<summary>Source event 142 · Sub-agent 3: tool result</summary>
 
 
 ```text

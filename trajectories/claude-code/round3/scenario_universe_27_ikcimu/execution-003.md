@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #78 · Main agent: Tool result: call_00_3c2xp1kr6hfal10vm8jh2fbc (is_error=False)</summary>
+<summary>Source event 78 · Main agent: Tool result: call_00_3c2xp1kr6hfal10vm8jh2fbc (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #79 · Main agent: Model message
+## Source event 79 · Main agent: Model message
 
 ```text
 At ~07:03:00, the set: 22 baseline + 3 (Round House, Roundhouse, Triumph Palace) + 1 (Narkomfin Building) = 26. All four new ones are saved=True now. No further new.
@@ -51,7 +51,7 @@ Let me call get_current_time.
 
 
 
-## Source event #80 · Main agent: Model message
+## Source event 80 · Main agent: Model message
 
 ```text
 All four new 2BR/1BA condos are saved. The 3-minute window has closed. I'll verify the time and then wait until one minute after the last save before reporting.
@@ -59,7 +59,7 @@ All four new 2BR/1BA condos are saved. The 3-minute window has closed. I'll veri
 
 
 
-## Source event #81 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_er0nzn4s4gkpyb73s1eux9y6)
+## Source event 81 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_er0nzn4s4gkpyb73s1eux9y6)
 
 ```text
 {}
@@ -67,7 +67,7 @@ All four new 2BR/1BA condos are saved. The 3-minute window has closed. I'll veri
 
 
 
-## Source event #82 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_01_xklxq3tyhqevqeiuvph63rl7)
+## Source event 82 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_01_xklxq3tyhqevqeiuvph63rl7)
 
 ```text
 {}
@@ -76,7 +76,7 @@ All four new 2BR/1BA condos are saved. The 3-minute window has closed. I'll veri
 
 
 <details>
-<summary>Source event #83 · Main agent: Tool result: call_00_er0nzn4s4gkpyb73s1eux9y6 (is_error=False)</summary>
+<summary>Source event 83 · Main agent: Tool result: call_00_er0nzn4s4gkpyb73s1eux9y6 (is_error=False)</summary>
 
 
 ```text
@@ -93,7 +93,7 @@ All four new 2BR/1BA condos are saved. The 3-minute window has closed. I'll veri
 
 
 <details>
-<summary>Source event #84 · Main agent: Tool result: call_01_xklxq3tyhqevqeiuvph63rl7 (is_error=False)</summary>
+<summary>Source event 84 · Main agent: Tool result: call_01_xklxq3tyhqevqeiuvph63rl7 (is_error=False)</summary>
 
 
 ```text
@@ -109,7 +109,7 @@ All four new 2BR/1BA condos are saved. The 3-minute window has closed. I'll veri
 </details>
 
 
-## Source event #85 · Main agent: Model message
+## Source event 85 · Main agent: Model message
 
 ```text
 Wait, get_current_time says 07:02:56 — hmm, this is odd. Earlier notification at 07:02:56 came after wait, and this get_current_time also says 07:02:56. But the search poll happened before this? Actually the sequence: notification at 07:02:56 (after wait 30s from 07:02:26). Then I called search. Then get_current_time says 07:02:56.6. So the wait ended exactly at 07:02:56 (notification timestamp is when timeout reached). So current time is ~07:02:56, and the final search happened around 07:02:57-58.
@@ -135,7 +135,7 @@ Let me wait 6 sec then search.
 
 
 
-## Source event #86 · Main agent: Model message
+## Source event 86 · Main agent: Model message
 
 ```text
 The saved list confirms all four new condos are saved and both 1-bedroom condos are gone. Let me do one final check right at the end of the 3-minute window.
@@ -143,7 +143,7 @@ The saved list confirms all four new condos are saved and both 1-bedroom condos 
 
 
 
-## Source event #87 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_gwtvxem4bkqiyuno6n1m3g11)
+## Source event 87 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_gwtvxem4bkqiyuno6n1m3g11)
 
 ```text
 {
@@ -154,7 +154,7 @@ The saved list confirms all four new condos are saved and both 1-bedroom condos 
 
 
 <details>
-<summary>Source event #88 · Main agent: Tool result: call_00_gwtvxem4bkqiyuno6n1m3g11 (is_error=False)</summary>
+<summary>Source event 88 · Main agent: Tool result: call_00_gwtvxem4bkqiyuno6n1m3g11 (is_error=False)</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ The saved list confirms all four new condos are saved and both 1-bedroom condos 
 </details>
 
 
-## Source event #89 · Main agent: Model message
+## Source event 89 · Main agent: Model message
 
 ```text
 Now ~07:03:02. Window over. Final poll to ensure no last-second additions. Let me call search once more.
@@ -182,7 +182,7 @@ Now ~07:03:02. Window over. Final poll to ensure no last-second additions. Let m
 
 
 
-## Source event #90 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_00_2moofka5c60zx1hycyqq1ef9)
+## Source event 90 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_00_2moofka5c60zx1hycyqq1ef9)
 
 ```text
 {
@@ -195,7 +195,7 @@ Now ~07:03:02. Window over. Final poll to ensure no last-second additions. Let m
 
 
 <details>
-<summary>Source event #91 · Main agent: Tool result: call_00_2moofka5c60zx1hycyqq1ef9 (is_error=False)</summary>
+<summary>Source event 91 · Main agent: Tool result: call_00_2moofka5c60zx1hycyqq1ef9 (is_error=False)</summary>
 
 
 ```text
@@ -211,7 +211,7 @@ Now ~07:03:02. Window over. Final poll to ensure no last-second additions. Let m
 </details>
 
 
-## Source event #92 · Main agent: Model message
+## Source event 92 · Main agent: Model message
 
 ```text
 No further new listings at 07:03:02. Monitoring complete. Now 26 total 2/1 condos, 22 baseline + 4 new, all new saved.
@@ -233,7 +233,7 @@ Let me wait.
 
 
 
-## Source event #93 · Main agent: Model message
+## Source event 93 · Main agent: Model message
 
 ```text
 No further listings appeared. Monitoring window is closed. Waiting until one minute after the final save (Narkomfin Building, saved ~07:02:29) before reporting.
@@ -241,7 +241,7 @@ No further listings appeared. Monitoring window is closed. Waiting until one min
 
 
 
-## Source event #94 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_9cy5e5ewy942qhx09k0z2y3k)
+## Source event 94 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_9cy5e5ewy942qhx09k0z2y3k)
 
 ```text
 {
@@ -252,7 +252,7 @@ No further listings appeared. Monitoring window is closed. Waiting until one min
 
 
 <details>
-<summary>Source event #95 · Main agent: Tool result: call_00_9cy5e5ewy942qhx09k0z2y3k (is_error=False)</summary>
+<summary>Source event 95 · Main agent: Tool result: call_00_9cy5e5ewy942qhx09k0z2y3k (is_error=False)</summary>
 
 
 ```text
@@ -272,7 +272,7 @@ No further listings appeared. Monitoring window is closed. Waiting until one min
 </details>
 
 
-## Source event #96 · Main agent: Model message
+## Source event 96 · Main agent: Model message
 
 ```text
 Now 07:03:29, one minute after the last save (~07:02:29). Time to send the user the names of all newly saved property listings.
@@ -292,7 +292,7 @@ Note the name "Round House\n" has a trailing newline — I'll present as "Round 
 
 
 
-## Source event #97 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_2t6dzndqxhx178eyoump2y97)
+## Source event 97 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_2t6dzndqxhx178eyoump2y97)
 
 ```text
 {
@@ -303,7 +303,7 @@ Note the name "Round House\n" has a trailing newline — I'll present as "Round 
 
 
 <details>
-<summary>Source event #98 · Main agent: Tool result: call_00_2t6dzndqxhx178eyoump2y97 (is_error=False)</summary>
+<summary>Source event 98 · Main agent: Tool result: call_00_2t6dzndqxhx178eyoump2y97 (is_error=False)</summary>
 
 
 ```text
@@ -319,7 +319,7 @@ Note the name "Round House\n" has a trailing newline — I'll present as "Round 
 </details>
 
 
-## Source event #99 · Main agent: Model message
+## Source event 99 · Main agent: Model message
 
 ```text
 The message was sent successfully (returns None). Task complete.
@@ -329,7 +329,7 @@ Let me summarize for the user in the final text.
 
 
 
-## Source event #100 · Main agent: Model message
+## Source event 100 · Main agent: Model message
 
 ```text
 Task complete. Here's what I did:
@@ -352,7 +352,7 @@ I waited one minute after the final save (Narkomfin Building, ~07:02:29) and sen
 
 
 <details>
-<summary>Source event #101 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 101 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -378,7 +378,7 @@ I waited one minute after the final save (Narkomfin Building, ~07:02:29) and sen
 
 
 <details>
-<summary>Source event #102 · Judge: Judge rationale</summary>
+<summary>Source event 102 · Judge: Judge rationale</summary>
 
 
 ```text

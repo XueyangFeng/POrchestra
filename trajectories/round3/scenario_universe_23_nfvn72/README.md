@@ -1,6 +1,8 @@
 # scenario_universe_23_nfvn72
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_23_nfvn72/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_23_nfvn72/README.md) · [Codex](../../codex/round3/scenario_universe_23_nfvn72/README.md) · [OpenCode](../../opencode/round3/scenario_universe_23_nfvn72/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to find Aino Kukkonen&#x27;s ID, send the initial message with the specified content, and create the calendar event. After these actions are complete, I need to notify the user as requested.
 
@@ -95,7 +97,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #24
+**Harness configuration updated** · Source event 24
 
 **1. Sub-agent revision request**
 
@@ -104,7 +106,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Subtasks 1-4 complete: Aino Kukkonen user_id=6f04407c-2700-40b9-b21c-758039aea195; message sent (conversation bee31ddecb254b8eac405bdce9355c4a, message_id 99430469ecc438818c4d18e2045fa10d); calendar event 'Holiday with Aino' created 2024-12-24 08:00:00 to 2024-12-25 20:00:00 (id acea4a8d991e2e64e9a43daa76d19dd2); user confirmation sent. Then a notification arrived: Aino replied NO with an alternative time (2024-12-31 21:00 to 2025-01-01 17:00), which ends before 2025-01-02 09:00. That triggers the original task's reschedule+acknowledge branch, which is outside my assigned scope.
 ```
 <details>
-<summary>Request and evidence · source event #22</summary>
+<summary>Request and evidence · source event 22</summary>
 
 
 ```text
@@ -165,7 +167,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 Aino Kukkonen responded with an alternative time (Dec 31 9PM - Jan 1 5PM) which ends before the Jan 2 9AM cutoff. Per the original task, I must now reschedule the &#x27;Holiday with Aino&#x27; event, confirm the new time with Aino, and provide Aino&#x27;s exact response to the user. I am providing the delete tool and explicit instructions for this branch.
 

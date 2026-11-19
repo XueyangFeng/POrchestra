@@ -1,6 +1,8 @@
 # scenario_universe_24_lr8en2
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_24_lr8en2/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_24_lr8en2/README.md) · [Codex](../../codex/round3/scenario_universe_24_lr8en2/README.md) · [OpenCode](../../opencode/round3/scenario_universe_24_lr8en2/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the calendar events scheduled from today (2024-10-15) until the end of the month (2024-10-31) that are tagged &#x27;Social&#x27; and occur entirely before 12 PM. After identifying them, I need to collect the attendee names/details and delete the events.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #20
+**Initial harness configuration** · Source event 20
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The calendar events have been successfully identified and deleted. Now I need to notify the unique attendees (Aurélien Van der Straeten, Aurélie Wyss, and Saskia Wyss) via email and messaging platforms according to the user&#x27;s specific conditions regarding conversation history.
 
@@ -166,7 +168,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

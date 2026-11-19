@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: tool result</summary>
+<summary>Source event 45 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ ReturnedEmails(emails=[Email(sender='aidanflynn@gaia2mail.com', recipients=['aku
 </details>
 
 
-## Source event #46 · Sub-agent 2: model output
+## Source event 46 · Sub-agent 2: model output
 
 ```text
 I have identified the youngest contact living in Saint Petersburg: Viktor Kuznetsov (age 54, email: vkuznetsov54@mail.ru). I found exactly one email received from him in the INBOX (email_id '61ebe88305c645eb8eb3888c51d1854e') with timestamp 1724912936.71, which corresponds to 2024-08-29. No other emails from him were found in TRASH or elsewhere in INBOX. Now I will send the date to the user.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result</summary>
+<summary>Source event 47 · Sub-agent 2: tool result</summary>
 
 
 ```text

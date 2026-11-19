@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #52 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_03_ixuxubqri8a22c5t3lhyup4s)
+## Source event 52 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_03_ixuxubqri8a22c5t3lhyup4s)
 
 ```text
 {
@@ -18,7 +18,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 
-## Source event #53 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_04_5nsne26dzi8yanjc5fq3txxa)
+## Source event 53 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_04_5nsne26dzi8yanjc5fq3txxa)
 
 ```text
 {
@@ -32,7 +32,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 
-## Source event #54 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_05_68yqnc6jx6qjt21aa387upxs)
+## Source event 54 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_05_68yqnc6jx6qjt21aa387upxs)
 
 ```text
 {
@@ -47,7 +47,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #55 · Main agent: Tool result: call_00_n5hcic1xm8xuhj9x5ueqlo39 (is_error=False)</summary>
+<summary>Source event 55 · Main agent: Tool result: call_00_n5hcic1xm8xuhj9x5ueqlo39 (is_error=False)</summary>
 
 
 ```text
@@ -64,7 +64,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #56 · Main agent: Tool result: call_01_dxj2o8a5mivnsajb092qsesm (is_error=False)</summary>
+<summary>Source event 56 · Main agent: Tool result: call_01_dxj2o8a5mivnsajb092qsesm (is_error=False)</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #57 · Main agent: Tool result: call_02_xobk3b57kbuokfjor24svfax (is_error=False)</summary>
+<summary>Source event 57 · Main agent: Tool result: call_02_xobk3b57kbuokfjor24svfax (is_error=False)</summary>
 
 
 ```text
@@ -98,7 +98,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #58 · Main agent: Tool result: call_03_ixuxubqri8a22c5t3lhyup4s (is_error=False)</summary>
+<summary>Source event 58 · Main agent: Tool result: call_03_ixuxubqri8a22c5t3lhyup4s (is_error=False)</summary>
 
 
 ```text
@@ -115,7 +115,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #59 · Main agent: Tool result: call_04_5nsne26dzi8yanjc5fq3txxa (is_error=False)</summary>
+<summary>Source event 59 · Main agent: Tool result: call_04_5nsne26dzi8yanjc5fq3txxa (is_error=False)</summary>
 
 
 ```text
@@ -132,7 +132,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #60 · Main agent: Tool result: call_05_68yqnc6jx6qjt21aa387upxs (is_error=False)</summary>
+<summary>Source event 60 · Main agent: Tool result: call_05_68yqnc6jx6qjt21aa387upxs (is_error=False)</summary>
 
 
 ```text
@@ -148,7 +148,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #61 · Main agent: Model message
+## Source event 61 · Main agent: Model message
 
 ```text
 All done. Let me verify the calendar events are correct by fetching again — maybe not necessary, but a quick check is cheap. Let me just report.
@@ -243,7 +243,7 @@ Done. Report.
 
 
 
-## Source event #62 · Main agent: Model message
+## Source event 62 · Main agent: Model message
 
 ```text
 Done. Summary of what I did:
@@ -269,7 +269,7 @@ Notes on selection: I went through all 124 contacts. I excluded people who merel
 
 
 <details>
-<summary>Source event #63 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 63 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -298,7 +298,7 @@ Notes on selection: I went through all 124 contacts. I excluded people who merel
 
 
 <details>
-<summary>Source event #64 · Judge: Judge rationale</summary>
+<summary>Source event 64 · Judge: Judge rationale</summary>
 
 
 ```text

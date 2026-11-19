@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Contact 4c70fddc098b45b9b7f84cc540128175 successfully deleted.
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -53,7 +53,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -67,7 +67,7 @@ Contact c2d1ba32ff93419dbeaddc283878abe7 successfully deleted.
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -82,7 +82,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -96,7 +96,7 @@ Contact e84e36b0111346febff44ff52629ec47 successfully deleted.
 </details>
 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -111,7 +111,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -125,7 +125,7 @@ Contact 788d5a82be654684aac08e2f23338549 successfully deleted.
 </details>
 
 
-## Source event #43 · Sub-agent 1: model output
+## Source event 43 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -140,7 +140,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -154,7 +154,7 @@ Contact 2babb882fa734adc85f3b9b933aa57bd successfully deleted.
 </details>
 
 
-## Source event #45 · Sub-agent 1: model output
+## Source event 45 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -169,7 +169,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -183,7 +183,7 @@ Contact 879a90102f4a4ea184cfa632697df473 successfully deleted.
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 7 contacts deleted. Now finding the next upcoming project update meeting.
@@ -200,7 +200,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -214,7 +214,7 @@ Action:
 </details>
 
 
-## Source event #49 · Sub-agent 1: model output
+## Source event 49 · Sub-agent 1: model output
 
 ```text
 Next upcoming project update meeting is on 2024-10-19 with attendees Aurélien Dumont and Karel Vandenberghe. Let me confirm their email addresses.
@@ -231,7 +231,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 1: tool result</summary>
+<summary>Source event 50 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -245,7 +245,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 1: model output
+## Source event 51 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -262,7 +262,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 1: tool result</summary>
+<summary>Source event 52 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -286,7 +286,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #53 · Sub-agent 1: model output
+## Source event 53 · Sub-agent 1: model output
 
 ```text
 Thought: Need to retry with recipients as a list of strings.
@@ -305,7 +305,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 1: tool result</summary>
+<summary>Source event 54 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -319,7 +319,7 @@ e99491546510d319bc33d842063d8b97
 </details>
 
 
-## Source event #55 · Sub-agent 1: model output
+## Source event 55 · Sub-agent 1: model output
 
 ```text
 First email sent to Aurélien Dumont. Now sending to Karel Vandenberghe.
@@ -338,7 +338,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 1: tool result</summary>
+<summary>Source event 56 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -352,7 +352,7 @@ Action:
 </details>
 
 
-## Source event #57 · Sub-agent 1: model output
+## Source event 57 · Sub-agent 1: model output
 
 ```text
 Both emails sent successfully. Now I need to report the results.
@@ -396,7 +396,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 1: tool result</summary>
+<summary>Source event 58 · Sub-agent 1: tool result</summary>
 
 
 ```text

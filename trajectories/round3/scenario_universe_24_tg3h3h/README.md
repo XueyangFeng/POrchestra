@@ -1,6 +1,8 @@
 # scenario_universe_24_tg3h3h
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_24_tg3h3h/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_24_tg3h3h/README.md) · [Codex](../../codex/round3/scenario_universe_24_tg3h3h/README.md) · [OpenCode](../../opencode/round3/scenario_universe_24_tg3h3h/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #6
+**Initial harness configuration** · Source event 6
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I will start by addressing the email portion of the request: finding the Aberdeen Wikipedia file in .txt format, identifying contacts in the United Kingdom, and sending them the requested emails.
 
@@ -89,11 +91,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #72
+**Initial harness configuration** · Source event 72
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The calendar, messaging, and cab booking tasks are distinct from the email/file task and have clear execution steps based on the current date. Identifying the trip weekend and airport is a prerequisite for the modifications.
 
@@ -171,11 +173,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #134
+**Initial harness configuration** · Source event 134
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 SubAgent Attempt 2 already identified the trip weekend (Oct 26-27), created the trip event, and deleted conflicting events. However, it failed to send the apology message to &#x27;Anastasiya Zolotova&#x27; (lookup failed) and did not book the cab. I need a SubAgent to find a way to contact Anastasiya (by checking the Contacts app for her details or phone number) to ensure the apology message is sent, and to complete the cab reservation. This resolves the urgent side effects from the calendar changes.
 
@@ -244,11 +246,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #172
+**Initial harness configuration** · Source event 172
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 The calendar, cab booking, and attendee messaging tasks are complete. Remaining tasks are: (1) Identify the specific &#x27;.txt&#x27; Wikipedia file about Aberdeen (Attempt 1 found many generic &#x27;wikipedia_N.txt&#x27; files that appeared empty; I need to find the correct one, possibly by searching all directories or trying different read methods), (2) Identify all contacts living in the &#x27;United Kingdom&#x27; by checking the remaining contacts (offsets 30-101), and (3) Send separate emails to these UK contacts with the Aberdeen file attached, asking about their experience of Aberdeen.
 
@@ -319,7 +321,7 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #5</summary>
+<summary>Source event 5</summary>
 
 
 ```text

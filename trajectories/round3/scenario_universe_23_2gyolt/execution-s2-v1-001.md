@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 29 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Execute the following environment-interaction steps:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 2: tool result</summary>
+<summary>Source event 30 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -43,7 +43,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #31 · Sub-agent 2: model output
+## Source event 31 · Sub-agent 2: model output
 
 ```text
 I'll start by booking the cab, then search for the book.
@@ -63,7 +63,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: tool result</summary>
+<summary>Source event 32 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Ride ID: c3de44121c4644ae524e7f6470b6f5f7
 </details>
 
 
-## Source event #33 · Sub-agent 2: model output
+## Source event 33 · Sub-agent 2: model output
 
 ```text
 Cab booked successfully. Now searching for the book.
@@ -104,7 +104,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -118,7 +118,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 2: model output
+## Source event 35 · Sub-agent 2: model output
 
 ```text
 Found the book. The hardcover variant is available ($21.18, item_id a6e215dc9c044e58a6633b6f9ef1290d). Adding it to cart.
@@ -136,7 +136,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -150,7 +150,7 @@ a6e215dc9c044e58a6633b6f9ef1290d
 </details>
 
 
-## Source event #37 · Sub-agent 2: model output
+## Source event 37 · Sub-agent 2: model output
 
 ```text
 Added to cart. Now let me verify the cart and complete checkout.
@@ -165,7 +165,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: tool result</summary>
+<summary>Source event 38 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -179,7 +179,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 2: model output
+## Source event 39 · Sub-agent 2: model output
 
 ```text
 Cart confirmed with the correct hardcover item. Completing checkout.
@@ -194,7 +194,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: tool result</summary>
+<summary>Source event 40 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -208,7 +208,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 2: model output
+## Source event 41 · Sub-agent 2: model output
 
 ```text
 Checkout complete. Let me verify the cart is now empty (order placed).
@@ -223,7 +223,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 2: tool result</summary>
+<summary>Source event 42 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -237,7 +237,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 2: model output
+## Source event 43 · Sub-agent 2: model output
 
 ```text
 Both actions completed successfully. Reporting back to MainAgent.
@@ -289,7 +289,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: tool result</summary>
+<summary>Source event 44 · Sub-agent 2: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 46 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #47 · Sub-agent 2: model output
+## Source event 47 · Sub-agent 2: model output
 
 ```text
 I'll start by retrieving the contacts list to identify all contacts living in Dubai.
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: tool result</summary>
+<summary>Source event 48 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Action:
 </details>
 
 
-## Source event #49 · Sub-agent 2: model output
+## Source event 49 · Sub-agent 2: model output
 
 ```text
 I retrieved the first 10 of 108 contacts. Rashid Al-Mansoori (Dubai) is a deletion candidate. Let me continue iterating.
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: tool result</summary>
+<summary>Source event 50 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 2: model output
+## Source event 51 · Sub-agent 2: model output
 
 ```text
 Found more Dubai contacts: Rashid Al-Mansoori and Fatima Al-Khaja. Continuing iteration.
@@ -100,7 +100,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: tool result</summary>
+<summary>Source event 52 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -114,7 +114,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 2: model output
+## Source event 53 · Sub-agent 2: model output
 
 ```text
 Khalifa Al-Mansoori confirmed (Dubai — must keep). Continuing through remaining contacts.
@@ -131,7 +131,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 2: tool result</summary>
+<summary>Source event 54 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -145,7 +145,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 2: model output
+## Source event 55 · Sub-agent 2: model output
 
 ```text
 No Dubai contacts in this batch. Continuing.
@@ -162,7 +162,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 2: tool result</summary>
+<summary>Source event 56 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -176,7 +176,7 @@ Action:
 </details>
 
 
-## Source event #57 · Sub-agent 2: model output
+## Source event 57 · Sub-agent 2: model output
 
 ```text
 No Dubai contacts here. Continuing iteration.
@@ -193,7 +193,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 2: tool result</summary>
+<summary>Source event 58 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -207,7 +207,7 @@ Action:
 </details>
 
 
-## Source event #59 · Sub-agent 2: model output
+## Source event 59 · Sub-agent 2: model output
 
 ```text
 Found Zayed Al-Mansoori (Dubai). Continuing.
@@ -224,7 +224,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 2: tool result</summary>
+<summary>Source event 60 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -238,7 +238,7 @@ Action:
 </details>
 
 
-## Source event #61 · Sub-agent 2: model output
+## Source event 61 · Sub-agent 2: model output
 
 ```text
 No Dubai contacts here. Continuing.
@@ -255,7 +255,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 2: tool result</summary>
+<summary>Source event 62 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -269,7 +269,7 @@ Action:
 </details>
 
 
-## Source event #63 · Sub-agent 2: model output
+## Source event 63 · Sub-agent 2: model output
 
 ```text
 No Dubai contacts in this batch. Continuing to the remaining contacts.
@@ -286,7 +286,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 2: tool result</summary>
+<summary>Source event 64 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -300,7 +300,7 @@ Action:
 </details>
 
 
-## Source event #65 · Sub-agent 2: model output
+## Source event 65 · Sub-agent 2: model output
 
 ```text
 Found Amira Al-Khateeb (Dubai). Continuing.
@@ -317,7 +317,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 2: tool result</summary>
+<summary>Source event 66 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -331,7 +331,7 @@ Action:
 </details>
 
 
-## Source event #67 · Sub-agent 2: model output
+## Source event 67 · Sub-agent 2: model output
 
 ```text
 Found Amal Al-Mansoori and Rashid Al-Khateeb (Dubai). Retrieving the final batch.
@@ -348,7 +348,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 2: tool result</summary>
+<summary>Source event 68 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -362,7 +362,7 @@ Action:
 </details>
 
 
-## Source event #69 · Sub-agent 2: model output
+## Source event 69 · Sub-agent 2: model output
 
 ```text
 I've now scanned all 108 contacts. Dubai residents found (excluding Khalifa who must be kept):
@@ -389,7 +389,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 2: tool result</summary>
+<summary>Source event 70 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -403,7 +403,7 @@ Contact 5aa9b33655d74946a50aaca598586f07 successfully deleted.
 </details>
 
 
-## Source event #71 · Sub-agent 2: model output
+## Source event 71 · Sub-agent 2: model output
 
 ```text
 Contact 1 deleted. Continuing with the remaining Dubai contacts.
@@ -420,7 +420,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 2: tool result</summary>
+<summary>Source event 72 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -434,7 +434,7 @@ Contact 4c70fddc098b45b9b7f84cc540128175 successfully deleted.
 </details>
 
 
-## Source event #73 · Sub-agent 2: model output
+## Source event 73 · Sub-agent 2: model output
 
 ```text
 2 deleted. Continuing.
@@ -451,7 +451,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 2: tool result</summary>
+<summary>Source event 74 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -465,7 +465,7 @@ Contact c2d1ba32ff93419dbeaddc283878abe7 successfully deleted.
 </details>
 
 
-## Source event #75 · Sub-agent 2: model output
+## Source event 75 · Sub-agent 2: model output
 
 ```text
 3 deleted. Continuing.
@@ -482,7 +482,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 2: tool result</summary>
+<summary>Source event 76 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -496,7 +496,7 @@ Contact e84e36b0111346febff44ff52629ec47 successfully deleted.
 </details>
 
 
-## Source event #77 · Sub-agent 2: model output
+## Source event 77 · Sub-agent 2: model output
 
 ```text
 4 deleted. Continuing.
@@ -513,7 +513,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 2: tool result</summary>
+<summary>Source event 78 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -527,7 +527,7 @@ Contact 788d5a82be654684aac08e2f23338549 successfully deleted.
 </details>
 
 
-## Source event #79 · Sub-agent 2: model output
+## Source event 79 · Sub-agent 2: model output
 
 ```text
 5 deleted. Continuing.
@@ -544,7 +544,7 @@ Action:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 2: tool result</summary>
+<summary>Source event 80 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -558,7 +558,7 @@ Contact 2babb882fa734adc85f3b9b933aa57bd successfully deleted.
 </details>
 
 
-## Source event #81 · Sub-agent 2: model output
+## Source event 81 · Sub-agent 2: model output
 
 ```text
 6 deleted. Deleting the final Dubai contact.
@@ -575,7 +575,7 @@ Action:
 
 
 <details>
-<summary>Source event #82 · Sub-agent 2: tool result</summary>
+<summary>Source event 82 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -589,7 +589,7 @@ Contact 879a90102f4a4ea184cfa632697df473 successfully deleted.
 </details>
 
 
-## Source event #83 · Sub-agent 2: model output
+## Source event 83 · Sub-agent 2: model output
 
 ```text
 All 7 Dubai contacts deleted (Khalifa Al-Mansoori preserved). Now sending separate emails to the two project meeting attendees.
@@ -608,7 +608,7 @@ Action:
 
 
 <details>
-<summary>Source event #84 · Sub-agent 2: tool result</summary>
+<summary>Source event 84 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -622,7 +622,7 @@ Action:
 </details>
 
 
-## Source event #85 · Sub-agent 2: model output
+## Source event 85 · Sub-agent 2: model output
 
 ```text
 Email to Aurélien sent. Now the separate email to Karel.
@@ -641,7 +641,7 @@ Action:
 
 
 <details>
-<summary>Source event #86 · Sub-agent 2: tool result</summary>
+<summary>Source event 86 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -655,7 +655,7 @@ e4a308c5815d34fee3f197ba7494923c
 </details>
 
 
-## Source event #87 · Sub-agent 2: model output
+## Source event 87 · Sub-agent 2: model output
 
 ```text
 Both notification emails sent. Now searching for emails received from Khalifa Al-Mansoori.
@@ -673,7 +673,7 @@ Action:
 
 
 <details>
-<summary>Source event #88 · Sub-agent 2: tool result</summary>
+<summary>Source event 88 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -687,7 +687,7 @@ Action:
 </details>
 
 
-## Source event #89 · Sub-agent 2: model output
+## Source event 89 · Sub-agent 2: model output
 
 ```text
 Found 1 email. Let me verify with a broader search by name to ensure I capture all received emails.
@@ -705,7 +705,7 @@ Action:
 
 
 <details>
-<summary>Source event #90 · Sub-agent 2: tool result</summary>
+<summary>Source event 90 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -719,7 +719,7 @@ Action:
 </details>
 
 
-## Source event #91 · Sub-agent 2: model output
+## Source event 91 · Sub-agent 2: model output
 
 ```text
 Only 1 email found (email_id: `74bd4c0171a5493ca38a66256c59bb11`). Now forwarding it to the retired lawyer, Somsak Wongcharee.
@@ -739,7 +739,7 @@ Action:
 
 
 <details>
-<summary>Source event #92 · Sub-agent 2: tool result</summary>
+<summary>Source event 92 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -753,7 +753,7 @@ Action:
 </details>
 
 
-## Source event #93 · Sub-agent 2: model output
+## Source event 93 · Sub-agent 2: model output
 
 ```text
 The email has been forwarded successfully (forwarded email ID: `61739a5960595268f98661fc1b76cd73`). Now sending the final confirmation message to the user.
@@ -771,7 +771,7 @@ Action:
 
 
 <details>
-<summary>Source event #94 · Sub-agent 2: tool result</summary>
+<summary>Source event 94 · Sub-agent 2: tool result</summary>
 
 
 ```text

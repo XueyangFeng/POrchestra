@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #110 · Main agent: Tool result: call_00_85rtr7xj68c4vzw75ts3w6yl (is_error=False)</summary>
+<summary>Source event 110 · Main agent: Tool result: call_00_85rtr7xj68c4vzw75ts3w6yl (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #111 · Main agent: Model message
+## Source event 111 · Main agent: Model message
 
 ```text
 Confirmed: B (85b94f...) only in KK5MNXMN8Q and AAJUZ938RK. C (8c1faf...) only in 6YCFMQRCGE. A, D, E appear nowhere. So the last code for this product is 6YCFMQRCGE (6%) on variant C.
@@ -41,7 +41,7 @@ Proceed.
 
 
 
-## Source event #112 · Main agent: Model message
+## Source event 112 · Main agent: Model message
 
 ```text
 Confirmed the final available code is 6% off the Large polyester variant. Placing the last attempt.
@@ -49,7 +49,7 @@ Confirmed the final available code is 6% off the Large polyester variant. Placin
 
 
 
-## Source event #113 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_11bb0qddmv8rybw61upnrry4)
+## Source event 113 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_11bb0qddmv8rybw61upnrry4)
 
 ```text
 {
@@ -61,7 +61,7 @@ Confirmed the final available code is 6% off the Large polyester variant. Placin
 
 
 <details>
-<summary>Source event #114 · Main agent: Tool result: call_00_11bb0qddmv8rybw61upnrry4 (is_error=False)</summary>
+<summary>Source event 114 · Main agent: Tool result: call_00_11bb0qddmv8rybw61upnrry4 (is_error=False)</summary>
 
 
 ```text
@@ -77,7 +77,7 @@ Confirmed the final available code is 6% off the Large polyester variant. Placin
 </details>
 
 
-## Source event #115 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_oczotsvpcnrdg7rrp5ge0j4l)
+## Source event 115 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_oczotsvpcnrdg7rrp5ge0j4l)
 
 ```text
 {
@@ -88,7 +88,7 @@ Confirmed the final available code is 6% off the Large polyester variant. Placin
 
 
 <details>
-<summary>Source event #116 · Main agent: Tool result: call_00_oczotsvpcnrdg7rrp5ge0j4l (is_error=False)</summary>
+<summary>Source event 116 · Main agent: Tool result: call_00_oczotsvpcnrdg7rrp5ge0j4l (is_error=False)</summary>
 
 
 ```text
@@ -104,7 +104,7 @@ Confirmed the final available code is 6% off the Large polyester variant. Placin
 </details>
 
 
-## Source event #117 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_7xo06fxh4a52vzx9stt79tqv)
+## Source event 117 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_7xo06fxh4a52vzx9stt79tqv)
 
 ```text
 {
@@ -115,7 +115,7 @@ Confirmed the final available code is 6% off the Large polyester variant. Placin
 
 
 <details>
-<summary>Source event #118 · Main agent: Tool result: call_00_7xo06fxh4a52vzx9stt79tqv (is_error=False)</summary>
+<summary>Source event 118 · Main agent: Tool result: call_00_7xo06fxh4a52vzx9stt79tqv (is_error=False)</summary>
 
 
 ```text
@@ -131,7 +131,7 @@ Confirmed the final available code is 6% off the Large polyester variant. Placin
 </details>
 
 
-## Source event #119 · Main agent: Model message
+## Source event 119 · Main agent: Model message
 
 ```text
 Order 3 placed: 6% discount, total $98.67. Now:
@@ -147,7 +147,7 @@ Let me send group message.
 
 
 
-## Source event #120 · Main agent: Model message
+## Source event 120 · Main agent: Model message
 
 ```text
 Final order placed (6%, $98.67). Sending the "Last try" message to the group chat, then updating the user.
@@ -155,7 +155,7 @@ Final order placed (6%, $98.67). Sending the "Last try" message to the group cha
 
 
 
-## Source event #121 · Main agent: Model tool call: mcp__gaia2__Messages__send_message_to_group_conversation (call_00_2u4rgtgj2ss580r2cfd4ugzd)
+## Source event 121 · Main agent: Model tool call: mcp__gaia2__Messages__send_message_to_group_conversation (call_00_2u4rgtgj2ss580r2cfd4ugzd)
 
 ```text
 {
@@ -167,7 +167,7 @@ Final order placed (6%, $98.67). Sending the "Last try" message to the group cha
 
 
 <details>
-<summary>Source event #122 · Main agent: Tool result: call_00_2u4rgtgj2ss580r2cfd4ugzd (is_error=False)</summary>
+<summary>Source event 122 · Main agent: Tool result: call_00_2u4rgtgj2ss580r2cfd4ugzd (is_error=False)</summary>
 
 
 ```text
@@ -183,7 +183,7 @@ Final order placed (6%, $98.67). Sending the "Last try" message to the group cha
 </details>
 
 
-## Source event #123 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_2as5v4j81waat68h9vkel5tg)
+## Source event 123 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_2as5v4j81waat68h9vkel5tg)
 
 ```text
 {
@@ -194,7 +194,7 @@ Final order placed (6%, $98.67). Sending the "Last try" message to the group cha
 
 
 <details>
-<summary>Source event #124 · Main agent: Tool result: call_00_2as5v4j81waat68h9vkel5tg (is_error=False)</summary>
+<summary>Source event 124 · Main agent: Tool result: call_00_2as5v4j81waat68h9vkel5tg (is_error=False)</summary>
 
 
 ```text
@@ -210,7 +210,7 @@ Final order placed (6%, $98.67). Sending the "Last try" message to the group cha
 </details>
 
 
-## Source event #125 · Main agent: Model message
+## Source event 125 · Main agent: Model message
 
 ```text
 Turn ends. Return final response. But we should consider: this third order may also get cancelled. If so, no more codes. What then? The user didn't say what to do if the last code order is cancelled — just send the "Last try" message. But maybe we should then... hmm. The task says "Repeat as necessary, until you have tried the last discount code." So after last code attempt, we stop. We may need to report. But if it also cancels, we've done all we can.
@@ -224,7 +224,7 @@ Final response.
 
 
 
-## Source event #126 · Main agent: Model message
+## Source event 126 · Main agent: Model message
 
 ```text
 All attempts are complete:
@@ -238,7 +238,7 @@ I've messaged you after each order with the discount and total, noting when a re
 
 
 <details>
-<summary>Source event #127 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 127 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -255,7 +255,7 @@ I've messaged you after each order with the discount and total, noting when a re
 
 
 <details>
-<summary>Source event #128 · Judge: Judge rationale</summary>
+<summary>Source event 128 · Judge: Judge rationale</summary>
 
 
 ```text

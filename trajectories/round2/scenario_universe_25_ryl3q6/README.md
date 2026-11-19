@@ -1,6 +1,8 @@
 # scenario_universe_25_ryl3q6
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_25_ryl3q6/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_25_ryl3q6/README.md) · [Codex](../../codex/round2/scenario_universe_25_ryl3q6/README.md) · [OpenCode](../../opencode/round2/scenario_universe_25_ryl3q6/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the target zip code by analyzing the user&#x27;s cab ride history from last month (September 2024). I need to find the destination zip code that appears most frequently, using the lowest numerical value as a tie-breaker.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #12
+**Initial harness configuration** · Source event 12
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent identified 9000 as the most frequent destination zip code from the user&#x27;s cab rides in September 2024. Now I need to find the contacts living in that zip code and determine the oldest age among them.
 

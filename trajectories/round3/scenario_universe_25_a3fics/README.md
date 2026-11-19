@@ -1,6 +1,8 @@
 # scenario_universe_25_a3fics
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_25_a3fics/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_25_a3fics/README.md) · [Codex](../../codex/round3/scenario_universe_25_a3fics/README.md) · [OpenCode](../../opencode/round3/scenario_universe_25_a3fics/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the 9am meeting scheduled for today and reschedule it to 10am at the specified location with the correct attendees from the Messages group, then send an invite and confirm the first phase to the user.
 
@@ -95,7 +97,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #61
+**Harness configuration updated** · Source event 61
 
 **1. Sub-agent revision request**
 
@@ -104,7 +106,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed initial task: found 9am 'Project Planning Meeting' (2024-10-15 09:00-11:00, Zoom), identified group 'Net-Zero Energy Buildings and Sustainable Communities' (conversation_id 6f8b9123dbb04fee9b103afc1de1254f) with participants Liesbeth Vandenberghe (user, +32472123456), Astrid Svensson (+4621234567), Astrid Lindqvist (+46734567890). Created new event acea4a8d991e2e64e9a43daa76d19dd2 at 2024-10-15 10:00-11:00 in main conference room with attendees Aurélien Dumont, Liesbeth Vandenberghe, Astrid Svensson, Astrid Lindqvist; deleted old event 85640861b39240959e25ed7feb8e96ed; sent group invite message and confirmed to user. NEW: environment notification says Astrid Svensson deleted a calendar event, and verification shows event acea4a8d991e2e64e9a43daa76d19dd2 no longer exists — the conditional 'attendee cancels' branch is now triggered.
 ```
 <details>
-<summary>Request and evidence · source event #59</summary>
+<summary>Request and evidence · source event 59</summary>
 
 
 ```text
@@ -175,7 +177,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 A group attendee (Astrid Svensson) canceled the rescheduled meeting, triggering the conditional logic in the user&#x27;s request. The SubAgent needs to reschedule the meeting for next week at 2 PM. To do this correctly, it must be able to inspect the calendar for that future date to identify and remove any conflicting events as requested. I am providing the necessary tool and instructing the SubAgent to proceed with the secondary rescheduling branch.
 

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ ReturnedEmails(emails=[Email(sender='rohankumar.advocate@gaia2mail.com', recipie
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 Now the remaining 11 emails.
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ ReturnedEmails(emails=[Email(sender='rohankumar.advocate@gaia2mail.com', recipie
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 I now have all 111 SENT emails. Based on timestamps, emails from 2024-10-01 00:00 UTC (1727740800) onward are the first 18 emails. Let me verify the boundary and then explore the Contacts app.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Action:
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 I have all 111 SENT emails. Based on timestamps (Oct 1, 2024 00:00 UTC = 1727740800), the October 1–15 emails are the 18 most recent ones (from `aurelientremblay@gaia2mail.com` at 1728882329.03 down to `rohan.deshpande.mp@gaia2mail.com` at 1727887089.92; the next older email is 1727706656.55 = Sep 30). Now I need gender data for all contacts. The Contacts app has 112 contacts with a 10-per-page view limit, so I'll page through all of them.
@@ -95,7 +95,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -109,7 +109,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 I've identified 18 emails in October (Oct 1–15 window; email #19 is Sep 30 14:30 UTC). I now need the gender of each recipient's contact. I'll page through the full Contacts list to build an exact email→gender map.
@@ -125,7 +125,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -139,7 +139,7 @@ Action:
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Now I'll page through the remaining contacts to get gender for every recipient email.
@@ -155,7 +155,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -169,7 +169,7 @@ Action:
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 Action:

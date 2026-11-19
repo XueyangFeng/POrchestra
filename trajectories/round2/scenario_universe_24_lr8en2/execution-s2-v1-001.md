@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 48 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Send the required notifications to the attendees of the canceled events.
 </details>
 
 
-## Source event #49 · Sub-agent 2: model output
+## Source event 49 · Sub-agent 2: model output
 
 ```text
 I'll start by checking the existing Messages conversations for each attendee with a Messages ID.
@@ -44,7 +44,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: tool result</summary>
+<summary>Source event 50 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -58,7 +58,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 2: model output
+## Source event 51 · Sub-agent 2: model output
 
 ```text
 Aurélien has existing conversations. Now checking Aurélie's Messages conversations.
@@ -81,7 +81,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: tool result</summary>
+<summary>Source event 52 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -95,7 +95,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 2: model output
+## Source event 53 · Sub-agent 2: model output
 
 ```text
 Both Aurélien and Aurélie have existing Messages conversations; Saskia has none (no Messages account). Now sending the group email to all three.
@@ -116,7 +116,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 2: tool result</summary>
+<summary>Source event 54 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -130,7 +130,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 2: model output
+## Source event 55 · Sub-agent 2: model output
 
 ```text
 Email sent. Now sending Saskia (no Messages account) an individual Chats message.
@@ -150,7 +150,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 2: tool result</summary>
+<summary>Source event 56 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -164,7 +164,7 @@ a6fa7fbbc8254ae394e93448ee3411b7
 </details>
 
 
-## Source event #57 · Sub-agent 2: model output
+## Source event 57 · Sub-agent 2: model output
 
 ```text
 Saskia's Chats message sent. Now creating a new group Messages conversation with Aurélien and Aurélie (both have existing Messages conversations).
@@ -183,7 +183,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 2: tool result</summary>
+<summary>Source event 58 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -197,7 +197,7 @@ d96ffd24fe99eb60e265f1312f4c0bc6
 </details>
 
 
-## Source event #59 · Sub-agent 2: model output
+## Source event 59 · Sub-agent 2: model output
 
 ```text
 Thought: The group conversation was created (d96ffd24fe99eb60e265f1312f4c0bc6), but the available Messages tools only include `send_message` (single recipient) and `create_group_conversation`. There is no tool to post a message into an existing conversation by conversation_id, which is required to deliver the content in the new group conversation.
@@ -239,7 +239,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 2: tool result</summary>
+<summary>Source event 60 · Sub-agent 2: tool result</summary>
 
 
 ```text

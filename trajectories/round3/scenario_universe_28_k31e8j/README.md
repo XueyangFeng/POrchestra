@@ -1,6 +1,8 @@
 # scenario_universe_28_k31e8j
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_28_k31e8j/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_28_k31e8j/README.md) · [Codex](../../codex/round3/scenario_universe_28_k31e8j/README.md) · [OpenCode](../../opencode/round3/scenario_universe_28_k31e8j/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires monitoring calendar events for a specific weekend for cancellations over a 4-minute period, messaging the person who canceled them, and potentially notifying the user after a specific delay. I need a SubAgent to fetch the initial state of the calendar, perform the monitoring, handle the messaging logic, and manage the timing.
 

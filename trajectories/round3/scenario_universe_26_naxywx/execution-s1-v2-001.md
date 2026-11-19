@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 19 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -26,7 +26,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 I'll search for the 'apartment search' calendar event.
@@ -43,7 +43,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -57,7 +57,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 Found the event: 'Event created by Kofi Ogunlesi: Apartment Search' at location 'Filipstad Brygge 2, Oslo' — different from 'Fosswinckels gate 10, Bergen'. First, I'll cancel the current ride.
@@ -72,7 +72,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Ride has been cancelled, sorry to see you go.
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 Ride cancelled. Now ordering a new Default cab to the event location 'Filipstad Brygge 2, Oslo'.
@@ -106,7 +106,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -129,7 +129,7 @@ Ride ID: f2b176c2b9442bcd8166419c847a3869
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 New cab booked to 'Filipstad Brygge 2, Oslo' (ID f2b176c2b9442bcd8166419c847a3869). Now finding Kofi's email address.
@@ -146,7 +146,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -160,7 +160,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Found Kofi's email: kofi.ogunlesi@gaia2mail.com. Sending the email about the new cab destination.
@@ -179,7 +179,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -193,7 +193,7 @@ a7a6559237dfccab98f2b1970584c7a3
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Email sent to Kofi. Now informing the User of the new destination.
@@ -210,7 +210,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text

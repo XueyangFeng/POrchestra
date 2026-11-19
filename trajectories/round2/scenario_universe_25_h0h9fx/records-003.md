@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 47 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ nAurélien Van den Broeck", email_id='f955edfaf1404526905bb62bb112811f', parent_
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 47 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -29,7 +29,7 @@ il_id='b3369dd552764b14a0882e5f87a5716a', parent_id=None, cc=[], attachments={},
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result (continued, part 5)</summary>
+<summary>Source event 47 · Sub-agent 1: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -42,7 +42,7 @@ make a positive impact on our community.\n\nAs someone who has dedicated their l
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: model output</summary>
+<summary>Source event 48 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -98,7 +98,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: tool result</summary>
+<summary>Source event 49 · Sub-agent 1: tool result</summary>
 
 
 ```text

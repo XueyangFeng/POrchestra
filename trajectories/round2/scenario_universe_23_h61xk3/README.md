@@ -1,6 +1,8 @@
 # scenario_universe_23_h61xk3
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_23_h61xk3/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_23_h61xk3/README.md) · [Codex](../../codex/round2/scenario_universe_23_h61xk3/README.md) · [OpenCode](../../opencode/round2/scenario_universe_23_h61xk3/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to purchase the initial items and send the inquiry email as requested by the user. I need to find the specific balloons, complete the purchase, find Eliška&#x27;s contact information, send the email, and then inform the user that these steps are done.
 
@@ -91,7 +93,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #25
+**Harness configuration updated** · Source event 25
 
 **1. Sub-agent revision request**
 
@@ -100,7 +102,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Balloons purchased and email sent to Eliška; UI message already delivered to user. New email notifications arrived afterwards: EmailClientV2 new emails, incl. from tereza.novakova@gaia2mail.com and lucie.novakova@kosmetika.cz. My toolset has no email-reading or order-cancellation tool.
 ```
 <details>
-<summary>Request and evidence · source event #23</summary>
+<summary>Request and evidence · source event 23</summary>
 
 
 ```text
@@ -156,7 +158,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent successfully performed the initial purchase and sent the email to Eliška, but new emails have arrived and the SubAgent lacks the tools to read them or cancel the order if needed. I am expanding the toolset to include email reading, order cancellation, and waiting, and updating the task to handle Eliška&#x27;s potential reply as per the original requirement.
 

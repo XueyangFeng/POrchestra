@@ -1,6 +1,8 @@
 # scenario_universe_28_238kfx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_28_238kfx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_28_238kfx/README.md) · [Codex](../../codex/round2/scenario_universe_28_238kfx/README.md) · [OpenCode](../../opencode/round2/scenario_universe_28_238kfx/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the city where the user took a cab on the 5th of this month (October 5, 2024). This information is required to perform the subsequent property searches and updates.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #16
+**Initial harness configuration** · Source event 16
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The city has been identified as Odense. Now I need to search for all properties in Odense priced at $1800 and save them. Additionally, I must identify all currently saved properties in Odense and remove any that are not priced at $1800. Finally, I will notify the user.
 

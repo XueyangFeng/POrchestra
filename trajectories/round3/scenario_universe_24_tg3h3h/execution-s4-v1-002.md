@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #214 · Sub-agent 4: tool result</summary>
+<summary>Source event 214 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #215 · Sub-agent 4: model output
+## Source event 215 · Sub-agent 4: model output
 
 ```text
 Found UK contact: Elara von Allmen. Checking the last contact at offset 100.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #216 · Sub-agent 4: tool result</summary>
+<summary>Source event 216 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #217 · Sub-agent 4: model output
+## Source event 217 · Sub-agent 4: model output
 
 ```text
 Both UK contacts identified (Alethea Fothergill, Elara von Allmen). Now back to the file issue — let me probe a couple more files for content.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #218 · Sub-agent 4: tool result</summary>
+<summary>Source event 218 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ b''
 </details>
 
 
-## Source event #219 · Sub-agent 4: model output
+## Source event 219 · Sub-agent 4: model output
 
 ```text
 Let me probe whether the filesystem root is what I expect (testing path traversal and alternate roots).
@@ -100,7 +100,7 @@ Action:
 
 
 <details>
-<summary>Source event #220 · Sub-agent 4: tool result</summary>
+<summary>Source event 220 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -124,7 +124,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #221 · Sub-agent 4: model output
+## Source event 221 · Sub-agent 4: model output
 
 ```text
 Let me check the sandbox root as seen by the Files app.
@@ -142,7 +142,7 @@ Action:
 
 
 <details>
-<summary>Source event #222 · Sub-agent 4: tool result</summary>
+<summary>Source event 222 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -156,7 +156,7 @@ Action:
 </details>
 
 
-## Source event #223 · Sub-agent 4: model output
+## Source event 223 · Sub-agent 4: model output
 
 ```text
 Let me verify whether any file in the sandbox has real content (to distinguish "all files empty" from "only wiki files empty").
@@ -174,7 +174,7 @@ Action:
 
 
 <details>
-<summary>Source event #224 · Sub-agent 4: tool result</summary>
+<summary>Source event 224 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ b''
 </details>
 
 
-## Source event #225 · Sub-agent 4: model output
+## Source event 225 · Sub-agent 4: model output
 
 ```text
 All 101 contacts checked. UK contacts found: **Alethea Fothergill** (offset 50) and **Elara von Allmen** (offset 90). Now sending the emails with the Aberdeen .txt attachment.
@@ -208,7 +208,7 @@ Action:
 
 
 <details>
-<summary>Source event #226 · Sub-agent 4: tool result</summary>
+<summary>Source event 226 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -222,7 +222,7 @@ a7a6559237dfccab98f2b1970584c7a3
 </details>
 
 
-## Source event #227 · Sub-agent 4: model output
+## Source event 227 · Sub-agent 4: model output
 
 ```text
 Email 1 sent. Now sending to the second UK contact, Elara von Allmen.
@@ -243,7 +243,7 @@ Action:
 
 
 <details>
-<summary>Source event #228 · Sub-agent 4: tool result</summary>
+<summary>Source event 228 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -257,7 +257,7 @@ ce025aebc06aec5cea39dd7fb817bee5
 </details>
 
 
-## Source event #229 · Sub-agent 4: model output
+## Source event 229 · Sub-agent 4: model output
 
 ```text
 Both emails sent. Let me make one final attempt to force-read file content via kwargs, to verify the attachment file truly has no content.
@@ -276,7 +276,7 @@ Action:
 
 
 <details>
-<summary>Source event #230 · Sub-agent 4: tool result</summary>
+<summary>Source event 230 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -290,7 +290,7 @@ b''
 </details>
 
 
-## Source event #231 · Sub-agent 4: model output
+## Source event 231 · Sub-agent 4: model output
 
 ```text
 Action:
@@ -307,7 +307,7 @@ Action:
 
 
 <details>
-<summary>Source event #232 · Sub-agent 4: tool result</summary>
+<summary>Source event 232 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -321,7 +321,7 @@ b''
 </details>
 
 
-## Source event #233 · Sub-agent 4: model output
+## Source event 233 · Sub-agent 4: model output
 
 ```text
 Both emails sent successfully. Let me record the complete findings.
@@ -368,7 +368,7 @@ Action:
 
 
 <details>
-<summary>Source event #234 · Sub-agent 4: tool result</summary>
+<summary>Source event 234 · Sub-agent 4: tool result</summary>
 
 
 ```text

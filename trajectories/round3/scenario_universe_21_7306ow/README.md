@@ -1,6 +1,8 @@
 # scenario_universe_21_7306ow
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_21_7306ow/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_21_7306ow/README.md) · [Codex](../../codex/round3/scenario_universe_21_7306ow/README.md) · [OpenCode](../../opencode/round3/scenario_universe_21_7306ow/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the city where the contact &#x27;Axel&#x27; lives to proceed with searching for rental properties in that location.
 
@@ -79,11 +81,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #12
+**Initial harness configuration** · Source event 12
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 Now that we know Axel lives in Stockholm, the next step is to find the rental properties in Stockholm, check their crime indices, and identify the most expensive one with a violent crime index below 25.
 
@@ -154,7 +156,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ````text

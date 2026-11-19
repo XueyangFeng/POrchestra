@@ -1,6 +1,8 @@
 # scenario_universe_25_ox2z4y
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_25_ox2z4y/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_25_ox2z4y/README.md) · [Codex](../../codex/round1/scenario_universe_25_ox2z4y/README.md) · [OpenCode](../../opencode/round1/scenario_universe_25_ox2z4y/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the participants in specific Messages conversations, determine their locations and ages, and then apply the logic to find either the country or the oldest person. The task involves cross-referencing Messages and Contacts data.
 
@@ -100,11 +102,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #109
+**Initial harness configuration** · Source event 109
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent identified 13 unique non-user participants in relevant &#x27;Net-Zero Energy&#x27; conversations between 2024-10-10 and 2024-10-14. 10 of these are resolved: Thailand (6), Belgium (2), Sweden (1), Saudi Arabia (1). Thailand is the leading country. I need to resolve the remaining 3 participants, confirm the leading country, check if the user has more than ten contacts total in that country, and apply the oldest-person/tie-break logic if necessary before reporting the final result.
 

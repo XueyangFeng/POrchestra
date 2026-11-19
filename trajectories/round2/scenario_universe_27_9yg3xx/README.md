@@ -1,6 +1,8 @@
 # scenario_universe_27_9yg3xx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_27_9yg3xx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_27_9yg3xx/README.md) · [Codex](../../codex/round2/scenario_universe_27_9yg3xx/README.md) · [OpenCode](../../opencode/round2/scenario_universe_27_9yg3xx/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the target property based on the user&#x27;s specific criteria (4 bedrooms, penthouse, most expensive, tie-breaker: Apartment type) to determine the city for the next steps.
 
@@ -79,11 +81,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #14
+**Initial harness configuration** · Source event 14
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The property city has been identified as Saint Petersburg. The next steps are to find the youngest contact in that city, retrieve their emails, and report the most recent email date to the user.
 

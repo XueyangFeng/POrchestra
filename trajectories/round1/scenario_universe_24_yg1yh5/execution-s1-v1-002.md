@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #50 · Sub-agent 1: tool result</summary>
+<summary>Source event 50 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #51 · Sub-agent 1: tool result</summary>
+<summary>Source event 51 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #52 · Sub-agent 1: model output
+## Source event 52 · Sub-agent 1: model output
 
 ```text
 Thought: I have retrieved all 87 rides and all 101 contacts. The top 3 most expensive rides are 120.6 (start Bahnhofplatz 10, Bern 3011), 80.9 (start St. Peterhofstatt 1, Basel 4051), and 67.9 (start Rue de Lausanne 35, Geneva 1201). Among all contact addresses, the Swiss zip codes 1201 and 3011 appear, but 4051 does not. Therefore the intersection is {1201, 3011}. No side effects were performed; only read operations were made. The subtask is complete, so I finish.
@@ -115,7 +115,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 1: tool result</summary>
+<summary>Source event 53 · Sub-agent 1: tool result</summary>
 
 
 ```text

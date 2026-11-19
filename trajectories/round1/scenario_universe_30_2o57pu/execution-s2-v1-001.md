@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #75 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 75 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Wait until exactly 2024-10-15 07:05:00, then send a message to the user identify
 
 
 <details>
-<summary>Source event #76 · Sub-agent 2: tool result</summary>
+<summary>Source event 76 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -41,7 +41,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #77 · Sub-agent 2: model output
+## Source event 77 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -54,7 +54,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 2: tool result</summary>
+<summary>Source event 78 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -68,7 +68,7 @@ Action:
 </details>
 
 
-## Source event #79 · Sub-agent 2: model output
+## Source event 79 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -85,7 +85,7 @@ Action:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 2: tool result</summary>
+<summary>Source event 80 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -99,7 +99,7 @@ ReturnedEmails(emails=[Email(sender='h.kruger@web.de', recipients=['rohini.deshp
 </details>
 
 
-## Source event #81 · Sub-agent 2: model output
+## Source event 81 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -114,7 +114,7 @@ Action:
 
 
 <details>
-<summary>Source event #82 · Sub-agent 2: tool result</summary>
+<summary>Source event 82 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -129,7 +129,7 @@ None
 
 
 <details>
-<summary>Source event #83 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 83 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -142,7 +142,7 @@ Environment notifications:
 </details>
 
 
-## Source event #84 · Sub-agent 2: model output
+## Source event 84 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -157,7 +157,7 @@ Action:
 
 
 <details>
-<summary>Source event #85 · Sub-agent 2: tool result</summary>
+<summary>Source event 85 · Sub-agent 2: tool result</summary>
 
 
 ```text

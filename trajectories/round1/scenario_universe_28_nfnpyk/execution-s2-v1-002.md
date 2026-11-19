@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ ReturnedEmails(emails=[Email(sender='prasert.suthipong@gaia2mail.com', recipient
 </details>
 
 
-## Source event #27 · Sub-agent 2: model output
+## Source event 27 · Sub-agent 2: model output
 
 ```text
 I now have all emails. Let me identify the 'Social Media Manager' contact to confirm which email to reply to.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: tool result</summary>
+<summary>Source event 28 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #29 · Sub-agent 2: model output
+## Source event 29 · Sub-agent 2: model output
 
 ```text
 Let me try searching contacts with a broader query to find the Social Media Manager.
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 2: tool result</summary>
+<summary>Source event 30 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Action:
 </details>
 
 
-## Source event #31 · Sub-agent 2: model output
+## Source event 31 · Sub-agent 2: model output
 
 ```text
 The contact Astrid Rasmussen has job 'Social Media Manager' with email astrid.rasmussen@gaia2mail.com. The email with sender 'astrid.rasmussen@gaia2mail.com' in INBOX has email_id '4e1c13536293452ca9376183d46f7f3b'.
@@ -114,7 +114,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: tool result</summary>
+<summary>Source event 32 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -128,7 +128,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 2: model output
+## Source event 33 · Sub-agent 2: model output
 
 ```text
 Moving the second 'Seeking advice' email (Mobile App Security) to TRASH.
@@ -147,7 +147,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -161,7 +161,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 2: model output
+## Source event 35 · Sub-agent 2: model output
 
 ```text
 Moving the third 'Seeking advice' email (storytelling in entrepreneurship) to TRASH.
@@ -180,7 +180,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -194,7 +194,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 2: model output
+## Source event 37 · Sub-agent 2: model output
 
 ```text
 Moving the fourth 'Seeking advice' email (Unfair Business Practices) to TRASH.
@@ -213,7 +213,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: tool result</summary>
+<summary>Source event 38 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -227,7 +227,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 2: model output
+## Source event 39 · Sub-agent 2: model output
 
 ```text
 Moving the fifth 'Seeking advice' email (Startup Strategy) to TRASH.
@@ -246,7 +246,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: tool result</summary>
+<summary>Source event 40 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -260,7 +260,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 2: model output
+## Source event 41 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -277,7 +277,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 2: tool result</summary>
+<summary>Source event 42 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -291,7 +291,7 @@ ae0921925c214d2c9babed7331fa63fe
 </details>
 
 
-## Source event #43 · Sub-agent 2: model output
+## Source event 43 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -308,7 +308,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: tool result</summary>
+<summary>Source event 44 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -322,7 +322,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 2: model output
+## Source event 45 · Sub-agent 2: model output
 
 ```text
 Now replying to the Social Media Manager's email with the required message.
@@ -341,7 +341,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: tool result</summary>
+<summary>Source event 46 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -355,7 +355,7 @@ e99491546510d319bc33d842063d8b97
 </details>
 
 
-## Source event #47 · Sub-agent 2: model output
+## Source event 47 · Sub-agent 2: model output
 
 ```text
 All assigned actions are complete. Let me report the completion status with the evidence.
@@ -397,7 +397,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: tool result</summary>
+<summary>Source event 48 · Sub-agent 2: tool result</summary>
 
 
 ```text

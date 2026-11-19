@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #186 · Sub-agent 2: tool result (continued, part 3)</summary>
+<summary>Source event 186 · Sub-agent 2: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #186 · Sub-agent 2: tool result (continued, part 4)</summary>
+<summary>Source event 186 · Sub-agent 2: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -29,7 +29,7 @@ arts can be used to convey complex historical narratives. Your work as a graphic
 
 
 <details>
-<summary>Source event #186 · Sub-agent 2: tool result (continued, part 5)</summary>
+<summary>Source event 186 · Sub-agent 2: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -41,7 +41,7 @@ b032d816246c69963a1dc35025daf', parent_id=None, cc=[], attachments={}, timestamp
 
 
 <details>
-<summary>Source event #186 · Sub-agent 2: tool result (continued, part 6)</summary>
+<summary>Source event 186 · Sub-agent 2: tool result (continued, part 6)</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ b032d816246c69963a1dc35025daf', parent_id=None, cc=[], attachments={}, timestamp
 
 
 <details>
-<summary>Source event #187 · Sub-agent 2: model output</summary>
+<summary>Source event 187 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ Action:
 
 
 <details>
-<summary>Source event #188 · Sub-agent 2: tool result</summary>
+<summary>Source event 188 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -88,7 +88,7 @@ Action:
 
 
 <details>
-<summary>Source event #189 · Sub-agent 2: model output</summary>
+<summary>Source event 189 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -107,7 +107,7 @@ Action:
 
 
 <details>
-<summary>Source event #190 · Sub-agent 2: tool result</summary>
+<summary>Source event 190 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -122,7 +122,7 @@ b''
 
 
 <details>
-<summary>Source event #191 · Sub-agent 2: model output</summary>
+<summary>Source event 191 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -139,7 +139,7 @@ Action:
 
 
 <details>
-<summary>Source event #192 · Sub-agent 2: tool result</summary>
+<summary>Source event 192 · Sub-agent 2: tool result</summary>
 
 
 ```text

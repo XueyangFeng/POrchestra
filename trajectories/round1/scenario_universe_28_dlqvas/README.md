@@ -1,6 +1,8 @@
 # scenario_universe_28_dlqvas
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_28_dlqvas/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_28_dlqvas/README.md) · [Codex](../../codex/round1/scenario_universe_28_dlqvas/README.md) · [OpenCode](../../opencode/round1/scenario_universe_28_dlqvas/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 To solve this request, I need to collect information from the Calendar and Contacts apps. First, I need to know the user&#x27;s own country and age to filter results later. Then, I need to retrieve all calendar events from the first week of September (September 1st to September 7th, 2024) to calculate time spent with each person. Finally, I need to look up those people in the Contacts app to find their countries and ages to determine the target email address.
 
@@ -94,11 +96,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #26
+**Initial harness configuration** · Source event 26
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 We need to verify the calendar events for the first week of September 2024, identify the attendee details (country and age), calculate the total time per country excluding the user&#x27;s country, find the country with the highest total time, identify the person closest in age to the user from that country, and send their email address to the user using AgentUserInterface__send_message_to_user.
 

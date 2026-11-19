@@ -4,7 +4,7 @@
 
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 All three friends have responded — they all rejected the recommendation and each gave specifications. Per the External Updates protocol, I must report this to MainAgent before taking further side effects (removing the property, saving new ones, replying to the group, and reporting the final count).
@@ -58,7 +58,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text

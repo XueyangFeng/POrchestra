@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #1 · Main agent: Model message
+## Source event 1 · Main agent: Model message
 
 ```text
 Let me start by understanding the task. I need to:
@@ -22,7 +22,7 @@ Let me load schemas.
 
 
 
-## Source event #2 · Main agent: Model message
+## Source event 2 · Main agent: Model message
 
 ```text
 I'll start by loading the relevant GAIA2 tools and finding the calendar event.
@@ -30,7 +30,7 @@ I'll start by loading the relevant GAIA2 tools and finding the calendar event.
 
 
 
-## Source event #3 · Main agent: Model tool call: ToolSearch (call_00_xpn2vng16a101c36ey6iigxk)
+## Source event 3 · Main agent: Model tool call: ToolSearch (call_00_xpn2vng16a101c36ey6iigxk)
 
 ```text
 {
@@ -42,7 +42,7 @@ I'll start by loading the relevant GAIA2 tools and finding the calendar event.
 
 
 <details>
-<summary>Source event #4 · Main agent: Tool result: call_00_xpn2vng16a101c36ey6iigxk (is_error=False)</summary>
+<summary>Source event 4 · Main agent: Tool result: call_00_xpn2vng16a101c36ey6iigxk (is_error=False)</summary>
 
 
 ```text
@@ -78,7 +78,7 @@ I'll start by loading the relevant GAIA2 tools and finding the calendar event.
 </details>
 
 
-## Source event #5 · Main agent: Model tool call: ToolSearch (call_01_fmyq27xpamy4yt93xqujftre)
+## Source event 5 · Main agent: Model tool call: ToolSearch (call_01_fmyq27xpamy4yt93xqujftre)
 
 ```text
 {
@@ -90,7 +90,7 @@ I'll start by loading the relevant GAIA2 tools and finding the calendar event.
 
 
 <details>
-<summary>Source event #6 · Main agent: Tool result: call_01_fmyq27xpamy4yt93xqujftre (is_error=False)</summary>
+<summary>Source event 6 · Main agent: Tool result: call_01_fmyq27xpamy4yt93xqujftre (is_error=False)</summary>
 
 
 ```text
@@ -130,7 +130,7 @@ I'll start by loading the relevant GAIA2 tools and finding the calendar event.
 </details>
 
 
-## Source event #7 · Main agent: Model tool call: ToolSearch (call_02_so87px3eu2ywsurqs2f98826)
+## Source event 7 · Main agent: Model tool call: ToolSearch (call_02_so87px3eu2ywsurqs2f98826)
 
 ```text
 {
@@ -142,7 +142,7 @@ I'll start by loading the relevant GAIA2 tools and finding the calendar event.
 
 
 <details>
-<summary>Source event #8 · Main agent: Tool result: call_02_so87px3eu2ywsurqs2f98826 (is_error=False)</summary>
+<summary>Source event 8 · Main agent: Tool result: call_02_so87px3eu2ywsurqs2f98826 (is_error=False)</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ I'll start by loading the relevant GAIA2 tools and finding the calendar event.
 </details>
 
 
-## Source event #9 · Main agent: Model message
+## Source event 9 · Main agent: Model message
 
 ```text
 Now let me search for the "Project Update Meeting" events in October 2024.
@@ -182,7 +182,7 @@ Now let me search for the "Project Update Meeting" events in October 2024.
 
 
 
-## Source event #10 · Main agent: Model message
+## Source event 10 · Main agent: Model message
 
 ```text
 Now let me find the "Project Update Meeting" events in October 2024.
@@ -190,7 +190,7 @@ Now let me find the "Project Update Meeting" events in October 2024.
 
 
 
-## Source event #11 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_63612sald28l34qdsfylm5pa)
+## Source event 11 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_63612sald28l34qdsfylm5pa)
 
 ```text
 {
@@ -200,7 +200,7 @@ Now let me find the "Project Update Meeting" events in October 2024.
 
 
 
-## Source event #12 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_01_g8hg2osyc2fu0vbb0xug7csd)
+## Source event 12 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_01_g8hg2osyc2fu0vbb0xug7csd)
 
 ```text
 {
@@ -212,7 +212,7 @@ Now let me find the "Project Update Meeting" events in October 2024.
 
 
 
-## Source event #13 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_02_593qjh4fz2c5mlpigkeveh1h)
+## Source event 13 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_02_593qjh4fz2c5mlpigkeveh1h)
 
 ```text
 {}
@@ -221,7 +221,7 @@ Now let me find the "Project Update Meeting" events in October 2024.
 
 
 <details>
-<summary>Source event #14 · Main agent: Tool result: call_00_63612sald28l34qdsfylm5pa (is_error=False)</summary>
+<summary>Source event 14 · Main agent: Tool result: call_00_63612sald28l34qdsfylm5pa (is_error=False)</summary>
 
 
 ```text
@@ -238,7 +238,7 @@ Now let me find the "Project Update Meeting" events in October 2024.
 
 
 <details>
-<summary>Source event #15 · Main agent: Tool result: call_01_g8hg2osyc2fu0vbb0xug7csd (is_error=False)</summary>
+<summary>Source event 15 · Main agent: Tool result: call_01_g8hg2osyc2fu0vbb0xug7csd (is_error=False)</summary>
 
 
 ```text
@@ -255,7 +255,7 @@ Now let me find the "Project Update Meeting" events in October 2024.
 
 
 <details>
-<summary>Source event #16 · Main agent: Tool result: call_02_593qjh4fz2c5mlpigkeveh1h (is_error=False)</summary>
+<summary>Source event 16 · Main agent: Tool result: call_02_593qjh4fz2c5mlpigkeveh1h (is_error=False)</summary>
 
 
 ```text
@@ -271,7 +271,7 @@ Now let me find the "Project Update Meeting" events in October 2024.
 </details>
 
 
-## Source event #17 · Main agent: Model message
+## Source event 17 · Main agent: Model message
 
 ```text
 The last "Project Update Meeting" event this month (October 2024) is on Thursday, 2024-10-31 09:00-11:00, event_id 9397196a74844a00b1bb7b8bf2925220. There's a November 2 one but that's next month, and Oct 29 one. The last in October is Oct 31.
@@ -293,7 +293,7 @@ Let me do contact search and product search in parallel.
 
 
 
-## Source event #18 · Main agent: Model message
+## Source event 18 · Main agent: Model message
 
 ```text
 The last "Project Update Meeting" in October is Thursday, 2024-10-31 09:00–11:00 (id `9397196a...`), with attendees Rohan Sengupta and Kipenzi Mwanga. Let me look up their contact details and the game product.
@@ -301,7 +301,7 @@ The last "Project Update Meeting" in October is Thursday, 2024-10-31 09:00–11:
 
 
 
-## Source event #19 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_051wlxcf2a5fd23erfa1g5x7)
+## Source event 19 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_051wlxcf2a5fd23erfa1g5x7)
 
 ```text
 {
@@ -311,7 +311,7 @@ The last "Project Update Meeting" in October is Thursday, 2024-10-31 09:00–11:
 
 
 
-## Source event #20 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_01_giy0tscc6uws9w0dr3h5uv46)
+## Source event 20 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_01_giy0tscc6uws9w0dr3h5uv46)
 
 ```text
 {
@@ -323,7 +323,7 @@ The last "Project Update Meeting" in October is Thursday, 2024-10-31 09:00–11:
 
 
 <details>
-<summary>Source event #21 · Main agent: Tool result: call_00_051wlxcf2a5fd23erfa1g5x7 (is_error=False)</summary>
+<summary>Source event 21 · Main agent: Tool result: call_00_051wlxcf2a5fd23erfa1g5x7 (is_error=False)</summary>
 
 
 ```text
@@ -340,7 +340,7 @@ The last "Project Update Meeting" in October is Thursday, 2024-10-31 09:00–11:
 
 
 <details>
-<summary>Source event #22 · Main agent: Tool result: call_01_giy0tscc6uws9w0dr3h5uv46 (is_error=False)</summary>
+<summary>Source event 22 · Main agent: Tool result: call_01_giy0tscc6uws9w0dr3h5uv46 (is_error=False)</summary>
 
 
 ```text
@@ -356,7 +356,7 @@ The last "Project Update Meeting" in October is Thursday, 2024-10-31 09:00–11:
 </details>
 
 
-## Source event #23 · Main agent: Model message
+## Source event 23 · Main agent: Model message
 
 ```text
 The product: PC, English, Standard = item_id 59872cee2c104071be43cb9a1dc0c1d2, price 15.94.
@@ -370,7 +370,7 @@ Let me load Contacts__search_contacts.
 
 
 
-## Source event #24 · Main agent: Model tool call: ToolSearch (call_00_kn5oju37k8key607rt7zk4tv)
+## Source event 24 · Main agent: Model tool call: ToolSearch (call_00_kn5oju37k8key607rt7zk4tv)
 
 ```text
 {
@@ -382,7 +382,7 @@ Let me load Contacts__search_contacts.
 
 
 <details>
-<summary>Source event #25 · Main agent: Tool result: call_00_kn5oju37k8key607rt7zk4tv (is_error=False)</summary>
+<summary>Source event 25 · Main agent: Tool result: call_00_kn5oju37k8key607rt7zk4tv (is_error=False)</summary>
 
 
 ```text
@@ -410,7 +410,7 @@ Let me load Contacts__search_contacts.
 </details>
 
 
-## Source event #26 · Main agent: Model tool call: mcp__gaia2__Shopping__get_all_discount_codes (call_01_vzb0098daly7mflm8v59thse)
+## Source event 26 · Main agent: Model tool call: mcp__gaia2__Shopping__get_all_discount_codes (call_01_vzb0098daly7mflm8v59thse)
 
 ```text
 {}
@@ -418,7 +418,7 @@ Let me load Contacts__search_contacts.
 
 
 
-## Source event #27 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_02_kumv5dmd5nfe9mhhrlixkaox)
+## Source event 27 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_02_kumv5dmd5nfe9mhhrlixkaox)
 
 ```text
 {
@@ -429,7 +429,7 @@ Let me load Contacts__search_contacts.
 
 
 <details>
-<summary>Source event #28 · Main agent: Tool result: call_01_vzb0098daly7mflm8v59thse (is_error=False)</summary>
+<summary>Source event 28 · Main agent: Tool result: call_01_vzb0098daly7mflm8v59thse (is_error=False)</summary>
 
 
 ```text
@@ -446,7 +446,7 @@ Let me load Contacts__search_contacts.
 
 
 <details>
-<summary>Source event #29 · Main agent: Tool result: call_02_kumv5dmd5nfe9mhhrlixkaox (is_error=False)</summary>
+<summary>Source event 29 · Main agent: Tool result: call_02_kumv5dmd5nfe9mhhrlixkaox (is_error=False)</summary>
 
 
 ```text
@@ -462,7 +462,7 @@ Let me load Contacts__search_contacts.
 </details>
 
 
-## Source event #30 · Main agent: Model message
+## Source event 30 · Main agent: Model message
 
 ```text
 Discount code E62OXOH7RQ includes item 59872cee... (the PC English Standard). Need to check the discount percentage. Let me call get_discount_code_info for E62OXOH7RQ. But careful: checkout applies discount only if valid for ALL items in cart. We're only buying the same item x3, so fine. But need to ensure code applies to the item. Let me check.
@@ -474,7 +474,7 @@ Let me do those in parallel.
 
 
 
-## Source event #31 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_00_6d29tpbhnngzit5g60m39f45)
+## Source event 31 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_00_6d29tpbhnngzit5g60m39f45)
 
 ```text
 {
@@ -484,7 +484,7 @@ Let me do those in parallel.
 
 
 
-## Source event #32 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_01_ixgqcuj5q01uc2cpb9n1p4un)
+## Source event 32 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_01_ixgqcuj5q01uc2cpb9n1p4un)
 
 ```text
 {
@@ -494,7 +494,7 @@ Let me do those in parallel.
 
 
 
-## Source event #33 · Main agent: Model tool call: mcp__gaia2__Shopping__get_discount_code_info (call_02_r3d7uslxgynych8heosevngp)
+## Source event 33 · Main agent: Model tool call: mcp__gaia2__Shopping__get_discount_code_info (call_02_r3d7uslxgynych8heosevngp)
 
 ```text
 {
@@ -505,7 +505,7 @@ Let me do those in parallel.
 
 
 <details>
-<summary>Source event #34 · Main agent: Tool result: call_00_6d29tpbhnngzit5g60m39f45 (is_error=False)</summary>
+<summary>Source event 34 · Main agent: Tool result: call_00_6d29tpbhnngzit5g60m39f45 (is_error=False)</summary>
 
 
 ```text
@@ -522,7 +522,7 @@ Let me do those in parallel.
 
 
 <details>
-<summary>Source event #35 · Main agent: Tool result: call_01_ixgqcuj5q01uc2cpb9n1p4un (is_error=False)</summary>
+<summary>Source event 35 · Main agent: Tool result: call_01_ixgqcuj5q01uc2cpb9n1p4un (is_error=False)</summary>
 
 
 ```text
@@ -539,7 +539,7 @@ Let me do those in parallel.
 
 
 <details>
-<summary>Source event #36 · Main agent: Tool result: call_02_r3d7uslxgynych8heosevngp (is_error=False)</summary>
+<summary>Source event 36 · Main agent: Tool result: call_02_r3d7uslxgynych8heosevngp (is_error=False)</summary>
 
 
 ```text
@@ -555,7 +555,7 @@ Let me do those in parallel.
 </details>
 
 
-## Source event #37 · Main agent: Model message
+## Source event 37 · Main agent: Model message
 
 ```text
 Discount code E62OXOH7RQ applies 94% off to the PC English Standard item (59872cee...). 
@@ -574,7 +574,7 @@ Let me add event.
 
 
 
-## Source event #38 · Main agent: Model message
+## Source event 38 · Main agent: Model message
 
 ```text
 Discount code `E62OXOH7RQ` gives 94% off this exact item. Now I'll reschedule the event (create the new one, then remove the old one).
@@ -582,7 +582,7 @@ Discount code `E62OXOH7RQ` gives 94% off this exact item. Now I'll reschedule th
 
 
 
-## Source event #39 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_00_j55f5jghotb34pr4p91it52k)
+## Source event 39 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_00_j55f5jghotb34pr4p91it52k)
 
 ```text
 {
@@ -602,7 +602,7 @@ Discount code `E62OXOH7RQ` gives 94% off this exact item. Now I'll reschedule th
 
 
 <details>
-<summary>Source event #40 · Main agent: Tool result: call_00_j55f5jghotb34pr4p91it52k (is_error=False)</summary>
+<summary>Source event 40 · Main agent: Tool result: call_00_j55f5jghotb34pr4p91it52k (is_error=False)</summary>
 
 
 ```text
@@ -618,7 +618,7 @@ Discount code `E62OXOH7RQ` gives 94% off this exact item. Now I'll reschedule th
 </details>
 
 
-## Source event #41 · Main agent: Model message
+## Source event 41 · Main agent: Model message
 
 ```text
 New event id 7ebe19c1d471cfb46beba977edb0bdea. Now delete old event 9397196a74844a00b1bb7b8bf2925220.
@@ -626,7 +626,7 @@ New event id 7ebe19c1d471cfb46beba977edb0bdea. Now delete old event 9397196a7484
 
 
 
-## Source event #42 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_00_c9rppisbhuyoa1ua5h2dnbe8)
+## Source event 42 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_00_c9rppisbhuyoa1ua5h2dnbe8)
 
 ```text
 {
@@ -637,7 +637,7 @@ New event id 7ebe19c1d471cfb46beba977edb0bdea. Now delete old event 9397196a7484
 
 
 <details>
-<summary>Source event #43 · Main agent: Tool result: call_00_c9rppisbhuyoa1ua5h2dnbe8 (is_error=False)</summary>
+<summary>Source event 43 · Main agent: Tool result: call_00_c9rppisbhuyoa1ua5h2dnbe8 (is_error=False)</summary>
 
 
 ```text
@@ -653,7 +653,7 @@ New event id 7ebe19c1d471cfb46beba977edb0bdea. Now delete old event 9397196a7484
 </details>
 
 
-## Source event #44 · Main agent: Model message
+## Source event 44 · Main agent: Model message
 
 ```text
 Now send email to attendees. Subject e.g. "Project Update Meeting Rescheduled to Nov 1, 2-4 PM". Content asking confirmation of attendance.
@@ -669,7 +669,7 @@ Let me send email and add to cart simultaneously.
 
 
 
-## Source event #45 · Main agent: Model message
+## Source event 45 · Main agent: Model message
 
 ```text
 Now I'll email the attendees and start the purchase.
@@ -677,7 +677,7 @@ Now I'll email the attendees and start the purchase.
 
 
 
-## Source event #46 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_air8a4hm8i7ew52x6ldrpa3z)
+## Source event 46 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_air8a4hm8i7ew52x6ldrpa3z)
 
 ```text
 {
@@ -692,7 +692,7 @@ Now I'll email the attendees and start the purchase.
 
 
 
-## Source event #47 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_01_7rm7wow3yioxyfd661kp7e4m)
+## Source event 47 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_01_7rm7wow3yioxyfd661kp7e4m)
 
 ```text
 {
@@ -704,7 +704,7 @@ Now I'll email the attendees and start the purchase.
 
 
 <details>
-<summary>Source event #48 · Main agent: Tool result: call_00_air8a4hm8i7ew52x6ldrpa3z (is_error=False)</summary>
+<summary>Source event 48 · Main agent: Tool result: call_00_air8a4hm8i7ew52x6ldrpa3z (is_error=False)</summary>
 
 
 ```text
@@ -721,7 +721,7 @@ Now I'll email the attendees and start the purchase.
 
 
 <details>
-<summary>Source event #49 · Main agent: Tool result: call_01_7rm7wow3yioxyfd661kp7e4m (is_error=False)</summary>
+<summary>Source event 49 · Main agent: Tool result: call_01_7rm7wow3yioxyfd661kp7e4m (is_error=False)</summary>
 
 
 ```text
@@ -737,7 +737,7 @@ Now I'll email the attendees and start the purchase.
 </details>
 
 
-## Source event #50 · Main agent: Model message
+## Source event 50 · Main agent: Model message
 
 ```text
 Email sent. Cart has 3x item. Let me verify cart and then checkout with discount.
@@ -745,7 +745,7 @@ Email sent. Cart has 3x item. Let me verify cart and then checkout with discount
 
 
 
-## Source event #51 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_lsrn6ume6xyecwsst1afh4gh)
+## Source event 51 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_lsrn6ume6xyecwsst1afh4gh)
 
 ```text
 {}
@@ -754,7 +754,7 @@ Email sent. Cart has 3x item. Let me verify cart and then checkout with discount
 
 
 <details>
-<summary>Source event #52 · Main agent: Tool result: call_00_lsrn6ume6xyecwsst1afh4gh (is_error=False)</summary>
+<summary>Source event 52 · Main agent: Tool result: call_00_lsrn6ume6xyecwsst1afh4gh (is_error=False)</summary>
 
 
 ```text
@@ -770,7 +770,7 @@ Email sent. Cart has 3x item. Let me verify cart and then checkout with discount
 </details>
 
 
-## Source event #53 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_uln38c8u0k04ddgo30ax4frm)
+## Source event 53 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_uln38c8u0k04ddgo30ax4frm)
 
 ```text
 {
@@ -781,7 +781,7 @@ Email sent. Cart has 3x item. Let me verify cart and then checkout with discount
 
 
 <details>
-<summary>Source event #54 · Main agent: Tool result: call_00_uln38c8u0k04ddgo30ax4frm (is_error=False)</summary>
+<summary>Source event 54 · Main agent: Tool result: call_00_uln38c8u0k04ddgo30ax4frm (is_error=False)</summary>
 
 
 ```text
@@ -797,7 +797,7 @@ Email sent. Cart has 3x item. Let me verify cart and then checkout with discount
 </details>
 
 
-## Source event #55 · Main agent: Model message
+## Source event 55 · Main agent: Model message
 
 ```text
 Checkout succeeded with order id 16db9ddeddfa46fb818b14a3c0e1fd74. Let me get order details to confirm price and discount.
@@ -807,7 +807,7 @@ Also verify calendar event exists correctly. Let me do both.
 
 
 
-## Source event #56 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_spvpykvf2xei9pgd2ugvazv7)
+## Source event 56 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_spvpykvf2xei9pgd2ugvazv7)
 
 ```text
 {
@@ -817,7 +817,7 @@ Also verify calendar event exists correctly. Let me do both.
 
 
 
-## Source event #57 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_event (call_01_k8yb216wv5k1sqyazlztz4s6)
+## Source event 57 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_event (call_01_k8yb216wv5k1sqyazlztz4s6)
 
 ```text
 {
@@ -828,7 +828,7 @@ Also verify calendar event exists correctly. Let me do both.
 
 
 <details>
-<summary>Source event #58 · Main agent: Tool result: call_00_spvpykvf2xei9pgd2ugvazv7 (is_error=False)</summary>
+<summary>Source event 58 · Main agent: Tool result: call_00_spvpykvf2xei9pgd2ugvazv7 (is_error=False)</summary>
 
 
 ```text
@@ -845,7 +845,7 @@ Also verify calendar event exists correctly. Let me do both.
 
 
 <details>
-<summary>Source event #59 · Main agent: Tool result: call_01_k8yb216wv5k1sqyazlztz4s6 (is_error=False)</summary>
+<summary>Source event 59 · Main agent: Tool result: call_01_k8yb216wv5k1sqyazlztz4s6 (is_error=False)</summary>
 
 
 ```text
@@ -861,7 +861,7 @@ Also verify calendar event exists correctly. Let me do both.
 </details>
 
 
-## Source event #60 · Main agent: Model message
+## Source event 60 · Main agent: Model message
 
 ```text
 All done. Order total $2.87 (3 × $15.94 = $47.82, 94% off → $2.8692). Good.
@@ -875,7 +875,7 @@ Let me load and call send_message_to_user.
 
 
 
-## Source event #61 · Main agent: Model tool call: ToolSearch (call_00_fav7pkwz98qv4p0x17sctpah)
+## Source event 61 · Main agent: Model tool call: ToolSearch (call_00_fav7pkwz98qv4p0x17sctpah)
 
 ```text
 {
@@ -887,7 +887,7 @@ Let me load and call send_message_to_user.
 
 
 <details>
-<summary>Source event #62 · Main agent: Tool result: call_00_fav7pkwz98qv4p0x17sctpah (is_error=False)</summary>
+<summary>Source event 62 · Main agent: Tool result: call_00_fav7pkwz98qv4p0x17sctpah (is_error=False)</summary>
 
 
 ```text
@@ -903,7 +903,7 @@ Let me load and call send_message_to_user.
 </details>
 
 
-## Source event #63 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_n6ceqlyos95kyxq97lqup7lv)
+## Source event 63 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_n6ceqlyos95kyxq97lqup7lv)
 
 ```text
 {
@@ -914,7 +914,7 @@ Let me load and call send_message_to_user.
 
 
 <details>
-<summary>Source event #64 · Main agent: Tool result: call_00_n6ceqlyos95kyxq97lqup7lv (is_error=False)</summary>
+<summary>Source event 64 · Main agent: Tool result: call_00_n6ceqlyos95kyxq97lqup7lv (is_error=False)</summary>
 
 
 ```text
@@ -930,7 +930,7 @@ Let me load and call send_message_to_user.
 </details>
 
 
-## Source event #65 · Main agent: Model message
+## Source event 65 · Main agent: Model message
 
 ```text
 The message was sent. Task complete. I should provide final response text too. Since send_message_to_user ends the turn and sends real reply, I can just summarize briefly here (text outside tool). The user sees it perhaps. Let me write concise summary.
@@ -938,7 +938,7 @@ The message was sent. Task complete. I should provide final response text too. S
 
 
 
-## Source event #66 · Main agent: Model message
+## Source event 66 · Main agent: Model message
 
 ```text
 Task complete:
@@ -951,7 +951,7 @@ Task complete:
 
 
 <details>
-<summary>Source event #67 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 67 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -967,7 +967,7 @@ Task complete:
 
 
 <details>
-<summary>Source event #68 · Judge: Judge rationale</summary>
+<summary>Source event 68 · Judge: Judge rationale</summary>
 
 
 ```text

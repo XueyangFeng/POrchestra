@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #50 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 50 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #51 · Sub-agent 3: model output
+## Source event 51 · Sub-agent 3: model output
 
 ```text
 I'll start by checking the file system to locate the 'news' directory.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 3: tool result</summary>
+<summary>Source event 52 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 3: model output
+## Source event 53 · Sub-agent 3: model output
 
 ```text
 The root only shows Documents, Downloads, and Pictures. Let me check Documents for the 'news' directory.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 3: tool result</summary>
+<summary>Source event 54 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 3: model output
+## Source event 55 · Sub-agent 3: model output
 
 ```text
 Found `/Documents/news`. Now deleting it recursively.
@@ -100,7 +100,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 3: tool result</summary>
+<summary>Source event 56 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -114,7 +114,7 @@ None
 </details>
 
 
-## Source event #57 · Sub-agent 3: model output
+## Source event 57 · Sub-agent 3: model output
 
 ```text
 Deleted. Now let me verify the deletion and get the current user's contact details.
@@ -132,7 +132,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 3: tool result</summary>
+<summary>Source event 58 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -146,7 +146,7 @@ Action:
 </details>
 
 
-## Source event #59 · Sub-agent 3: model output
+## Source event 59 · Sub-agent 3: model output
 
 ```text
 The 'news' directory is confirmed removed. Now retrieving the current user's contact details.
@@ -161,7 +161,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 3: tool result</summary>
+<summary>Source event 60 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -189,7 +189,7 @@ Address: 34, Storey's Way, Cambridge CB3 0DT
 </details>
 
 
-## Source event #61 · Sub-agent 3: model output
+## Source event 61 · Sub-agent 3: model output
 
 ```text
 Retrieved the user's contact (ID: `aefb3ded75854e6ead022efb1e3b9bcf`). Now updating the 'job' field.
@@ -209,7 +209,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 3: tool result</summary>
+<summary>Source event 62 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -223,7 +223,7 @@ Contact aefb3ded75854e6ead022efb1e3b9bcf updated successfully.
 </details>
 
 
-## Source event #63 · Sub-agent 3: model output
+## Source event 63 · Sub-agent 3: model output
 
 ```text
 Update successful. Let me verify the change.
@@ -238,7 +238,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 3: tool result</summary>
+<summary>Source event 64 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -266,7 +266,7 @@ Address: 34, Storey's Way, Cambridge CB3 0DT
 </details>
 
 
-## Source event #65 · Sub-agent 3: model output
+## Source event 65 · Sub-agent 3: model output
 
 ```text
 Both subtasks are complete and verified.
@@ -312,7 +312,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 3: tool result</summary>
+<summary>Source event 66 · Sub-agent 3: tool result</summary>
 
 
 ```text

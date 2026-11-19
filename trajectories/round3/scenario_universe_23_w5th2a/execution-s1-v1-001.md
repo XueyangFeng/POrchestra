@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -24,7 +24,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: tool result</summary>
+<summary>Source event 4 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -45,7 +45,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: tool result</summary>
+<summary>Source event 5 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 I'll start by listing the emails in the INBOX to find those received between September 1-15, 2024.
@@ -84,7 +84,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -98,7 +98,7 @@ ReturnedEmails(emails=[Email(sender='juhani.korhonen@fbl.fi', recipients=['matej
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 The first 50 emails are all from mid-September onwards (latest ~Oct 13, oldest of this page ~Sep 18). I need to continue paging to reach September 1–15.
@@ -117,7 +117,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -131,7 +131,7 @@ ReturnedEmails(emails=[Email(sender='aino.korhonen@aalto.fi', recipients=['matej
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 I now have the key window. The September 1–15 emails are in the offset 50–100 page (timestamps 1725148800–1726444800). Let me get the full contacts list to resolve senders.

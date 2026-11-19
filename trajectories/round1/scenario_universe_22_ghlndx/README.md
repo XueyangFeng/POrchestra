@@ -1,6 +1,8 @@
 # scenario_universe_22_ghlndx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_22_ghlndx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_22_ghlndx/README.md) · [Codex](../../codex/round1/scenario_universe_22_ghlndx/README.md) · [OpenCode](../../opencode/round1/scenario_universe_22_ghlndx/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the &#x27;staff meeting&#x27; scheduled for this morning, identify the attendees, determine the pickup time (30 minutes before the meeting), and book the premium cab. I also need to identify the user&#x27;s name to exclude it when reporting the attendees to the user as requested.
 

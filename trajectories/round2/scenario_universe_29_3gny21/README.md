@@ -1,6 +1,8 @@
 # scenario_universe_29_3gny21
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_29_3gny21/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_29_3gny21/README.md) · [Codex](../../codex/round2/scenario_universe_29_3gny21/README.md) · [OpenCode](../../opencode/round2/scenario_universe_29_3gny21/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the correct calendar event, reschedule it, and notify the attendees. This information (attendee list) is also crucial for the subsequent shopping task.
 
@@ -92,7 +94,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #17
+**Harness configuration updated** · Source event 17
 
 **1. Sub-agent revision request**
 
@@ -101,7 +103,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Identified the last October 2024 'Project Update Meeting': event_id 9397196a74844a00b1bb7b8bf2925220, Thursday 2024-10-31 09:00:00–11:00:00, tag Work, location 'Zoom Meeting', description 'Sync on the status of Project X and discuss next steps.', attendees ['Rohan Sengupta', 'Kipenzi Mwanga']. Deleted it and created replacement event_id dcf191829913b81220f38262b28ec53c at 2024-11-01 14:00:00–16:00:00 with identical title/tag/description/location/attendees. Email step blocked: Emails__send_email returned 'Invalid email address: Rohan Sengupta' because recipients require real email addresses and no contacts-lookup tool is available.
 ```
 <details>
-<summary>Request and evidence · source event #15</summary>
+<summary>Request and evidence · source event 15</summary>
 
 
 ```text
@@ -153,7 +155,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent successfully rescheduled the calendar event but failed to send the email because it lacked the email addresses for the attendees. I am providing the Contacts app tools so the SubAgent can search for the email addresses and proceed with the email and the subsequent shopping task.
 

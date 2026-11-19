@@ -1,6 +1,8 @@
 # scenario_universe_23_izo0ml
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_23_izo0ml/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_23_izo0ml/README.md) · [Codex](../../codex/round2/scenario_universe_23_izo0ml/README.md) · [OpenCode](../../opencode/round2/scenario_universe_23_izo0ml/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to get the current date to identify &#x27;this Friday&#x27; and then schedule the &#x27;Reading Session&#x27; as requested. After scheduling, I must inform the user.
 
@@ -84,11 +86,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #14
+**Initial harness configuration** · Source event 14
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The initial attendee, Eliška Nováková, has canceled the &#x27;Reading Session&#x27;. I must now execute the fallback instructions: message her for a convenient time, schedule two new sessions for Friday at 3:00 PM and 8:00 PM, and email Fatima Al-Khateeb regarding the late session.
 

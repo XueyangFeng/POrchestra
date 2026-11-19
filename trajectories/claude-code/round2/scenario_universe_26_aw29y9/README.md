@@ -1,6 +1,8 @@
 # Claude Code · scenario_universe_26_aw29y9
 
-[Round index](../README.md) · [Claude Code rounds](../../README.md) · [PORCHESTRA task](../../../round2/scenario_universe_26_aw29y9/README.md)
+[Round index](../README.md) · [Claude Code rounds](../../README.md)
+
+**Compare systems:** [PORCHESTRA](../../../round2/scenario_universe_26_aw29y9/README.md) · Claude Code · [Codex](../../../codex/round2/scenario_universe_26_aw29y9/README.md) · [OpenCode](../../../opencode/round2/scenario_universe_26_aw29y9/README.md)
 
 **Domain:** Time · **Result:** Correct · **Duration:** 270.4 seconds
 

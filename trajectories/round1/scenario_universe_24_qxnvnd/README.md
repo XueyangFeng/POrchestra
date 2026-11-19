@@ -1,6 +1,8 @@
 # scenario_universe_24_qxnvnd
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_24_qxnvnd/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_24_qxnvnd/README.md) · [Codex](../../codex/round1/scenario_universe_24_qxnvnd/README.md) · [OpenCode](../../opencode/round1/scenario_universe_24_qxnvnd/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the most recently updated group conversation in the Messages app and retrieve the contact details (specifically names and email addresses) of its participants, excluding the current user. This information is required to subsequently count emails for each participant.
 
@@ -85,11 +87,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #19
+**Initial harness configuration** · Source event 19
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 Identify the participant who sent the most emails in October 2024 among the identified group conversation participants (Aurélie Dumont: adumont@lyon-career-advice.fr, Kiyoshi Nakahara: knakahara70@gaia2mail.com, Nadja Ramadanović: nramadanovic@kulturverein.ch), resolve ties alphabetically, and report the first name to the user.
 

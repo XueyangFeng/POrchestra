@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #48 · Sub-agent 4: user / environment input</summary>
+<summary>Source event 48 · Sub-agent 4: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Remove Åke Svensson from the contact list. First, search for the contact to fin
 </details>
 
 
-## Source event #49 · Sub-agent 4: model output
+## Source event 49 · Sub-agent 4: model output
 
 ```text
 I'll start by searching for the contact Åke Svensson to find their ID.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 4: tool result</summary>
+<summary>Source event 50 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 4: model output
+## Source event 51 · Sub-agent 4: model output
 
 ```text
 Found the contact with ID `f24fbd0903d140cd9f1e9052a81ddc1c`. Now deleting it.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 4: tool result</summary>
+<summary>Source event 52 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Contact f24fbd0903d140cd9f1e9052a81ddc1c successfully deleted.
 </details>
 
 
-## Source event #53 · Sub-agent 4: model output
+## Source event 53 · Sub-agent 4: model output
 
 ```text
 Deletion succeeded. Now verifying the contact is gone.
@@ -96,7 +96,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 4: tool result</summary>
+<summary>Source event 54 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -110,7 +110,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 4: model output
+## Source event 55 · Sub-agent 4: model output
 
 ```text
 The contact is no longer in the list. Task complete.
@@ -151,7 +151,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 4: tool result</summary>
+<summary>Source event 56 · Sub-agent 4: tool result</summary>
 
 
 ```text

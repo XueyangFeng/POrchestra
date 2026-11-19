@@ -1,9 +1,11 @@
 # GAIA2 trajectories
 
-| System | Rounds | Trajectories | Browse |
-| --- | ---: | ---: | --- |
-| PORCHESTRA | 3 | 384 | [Configuration and execution](#porchestra) |
-| Claude Code | 3 | 384 | [Execution traces](claude-code/README.md) |
+| System | Rounds | Trajectories | Browse | Download |
+| --- | ---: | ---: | --- | --- |
+| PORCHESTRA | 3 | 384 | [Trajectories](#porchestra) | [HTML/TXT](source/README.md) |
+| Claude Code | 3 | 384 | [Trajectories](claude-code/README.md) | [HTML/TXT](claude-code/source/README.md) |
+| Codex | 3 | 384 | [Trajectories](codex/README.md) | [HTML/TXT](codex/source/README.md) |
+| OpenCode | 3 | 384 | [Trajectories](opencode/README.md) | [HTML/TXT](opencode/source/README.md) |
 
 ## PORCHESTRA
 

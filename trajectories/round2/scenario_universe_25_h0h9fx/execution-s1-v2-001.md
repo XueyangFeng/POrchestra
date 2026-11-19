@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #51 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 51 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #52 · Sub-agent 1: model output
+## Source event 52 · Sub-agent 1: model output
 
 ```text
 I'll start by creating the 10/20 lunch event and retrieving the user's details.
@@ -43,7 +43,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 1: tool result</summary>
+<summary>Source event 53 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -57,7 +57,7 @@ f7af3c683953f40822cf7da5a5df7046
 </details>
 
 
-## Source event #54 · Sub-agent 1: model output
+## Source event 54 · Sub-agent 1: model output
 
 ```text
 Event created. Now retrieving the user's details.
@@ -73,7 +73,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 1: tool result</summary>
+<summary>Source event 55 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -102,7 +102,7 @@ Address: Sint-Michielsstraat 23, 3000 Leuven, Belgium
 
 
 <details>
-<summary>Source event #56 · Sub-agent 1: tool result</summary>
+<summary>Source event 56 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -120,7 +120,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #57 · Sub-agent 1: model output
+## Source event 57 · Sub-agent 1: model output
 
 ```text
 Retrying the cab booking with the retrieved home address.
@@ -141,7 +141,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 1: tool result</summary>
+<summary>Source event 58 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -164,7 +164,7 @@ Ride ID: ca5380b0fb5d30db43b4905d14d91312
 </details>
 
 
-## Source event #59 · Sub-agent 1: model output
+## Source event 59 · Sub-agent 1: model output
 
 ```text
 Premium cab booked. Now searching for the backpack.
@@ -182,7 +182,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 1: tool result</summary>
+<summary>Source event 60 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -196,7 +196,7 @@ Action:
 </details>
 
 
-## Source event #61 · Sub-agent 1: model output
+## Source event 61 · Sub-agent 1: model output
 
 ```text
 Found the green variant (available, $23.99). Adding 1 to cart.
@@ -215,7 +215,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 1: tool result</summary>
+<summary>Source event 62 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -229,7 +229,7 @@ Action:
 </details>
 
 
-## Source event #63 · Sub-agent 1: model output
+## Source event 63 · Sub-agent 1: model output
 
 ```text
 Item added. Now checking out.
@@ -245,7 +245,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 1: tool result</summary>
+<summary>Source event 64 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -259,7 +259,7 @@ c2bb596dd0814fba8987e3abbf271bad
 </details>
 
 
-## Source event #65 · Sub-agent 1: model output
+## Source event 65 · Sub-agent 1: model output
 
 ```text
 Order placed. Now searching for the 'Brussels Bliss' property.
@@ -277,7 +277,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 1: tool result</summary>
+<summary>Source event 66 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -291,7 +291,7 @@ Action:
 </details>
 
 
-## Source event #67 · Sub-agent 1: model output
+## Source event 67 · Sub-agent 1: model output
 
 ```text
 Found 'Brussels Bliss'. Saving it now.
@@ -309,7 +309,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 1: tool result</summary>
+<summary>Source event 68 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -323,7 +323,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #69 · Sub-agent 1: model output
+## Source event 69 · Sub-agent 1: model output
 
 ```text
 All actions complete. Sending the final confirmation message.
@@ -341,7 +341,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 1: tool result</summary>
+<summary>Source event 70 · Sub-agent 1: tool result</summary>
 
 
 ```text

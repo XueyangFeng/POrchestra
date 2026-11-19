@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #130 · Sub-agent 2: tool result</summary>
+<summary>Source event 130 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #131 · Sub-agent 2: model output</summary>
+<summary>Source event 131 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #132 · Sub-agent 2: tool result</summary>
+<summary>Source event 132 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 
 
 <details>
-<summary>Source event #133 · Sub-agent 2: model output</summary>
+<summary>Source event 133 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -71,7 +71,7 @@ Action:
 
 
 <details>
-<summary>Source event #134 · Sub-agent 2: tool result</summary>
+<summary>Source event 134 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Action:
 
 
 <details>
-<summary>Source event #135 · Sub-agent 2: model output</summary>
+<summary>Source event 135 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -104,7 +104,7 @@ Action:
 
 
 <details>
-<summary>Source event #136 · Sub-agent 2: tool result</summary>
+<summary>Source event 136 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -119,7 +119,7 @@ Action:
 
 
 <details>
-<summary>Source event #137 · Sub-agent 2: model output</summary>
+<summary>Source event 137 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ Action:
 
 
 <details>
-<summary>Source event #138 · Sub-agent 2: tool result</summary>
+<summary>Source event 138 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -152,7 +152,7 @@ Action:
 
 
 <details>
-<summary>Source event #139 · Sub-agent 2: model output</summary>
+<summary>Source event 139 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -176,7 +176,7 @@ Action:
 
 
 <details>
-<summary>Source event #140 · Sub-agent 2: tool result</summary>
+<summary>Source event 140 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -191,7 +191,7 @@ None
 
 
 <details>
-<summary>Source event #141 · Judge rationale</summary>
+<summary>Source event 141 · Judge rationale</summary>
 
 
 ```text

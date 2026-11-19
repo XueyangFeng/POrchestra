@@ -4,7 +4,7 @@
 
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
-## Source event #51 · Sub-agent 1: model output
+## Source event 51 · Sub-agent 1: model output
 
 ```text
 I've now reviewed all 124 contacts. Prague males by closest age to 19: Kryštof Nováček (41), František Šťastný (42), Zbyněk Šťastný (57). Best friend = Kryštof Nováček. Now let me send the confirmation message to the user.
@@ -22,7 +22,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 1: tool result</summary>
+<summary>Source event 52 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -37,7 +37,7 @@ None
 
 
 <details>
-<summary>Source event #53 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 53 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Environment notifications:
 </details>
 
 
-## Source event #54 · Sub-agent 1: model output
+## Source event 54 · Sub-agent 1: model output
 
 ```text
 Three new email notifications arrived. Per protocol, I must report to MainAgent before taking any further side effects (the original turn has a conditional branch if Šárka declines, and I also have no email-reading tool available).
@@ -157,7 +157,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 1: tool result</summary>
+<summary>Source event 55 · Sub-agent 1: tool result</summary>
 
 
 ```text

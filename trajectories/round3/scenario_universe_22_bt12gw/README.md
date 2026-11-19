@@ -1,6 +1,8 @@
 # scenario_universe_22_bt12gw
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_22_bt12gw/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_22_bt12gw/README.md) · [Codex](../../codex/round3/scenario_universe_22_bt12gw/README.md) · [OpenCode](../../opencode/round3/scenario_universe_22_bt12gw/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Identify the &#x27;College Mathematics Professor&#x27; in the user&#x27;s contacts to get their name and email address, as several parts of the task depend on this information.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #27
+**Initial harness configuration** · Source event 27
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 I have identified the &#x27;College Mathematics Professor&#x27; as Luísa Silva e Sousa (luisa.silva.sousa@fc.up.pt). Now I need to monitor emails and perform the conditional actions requested by the user: replying to project-related or professor emails (with specific logic for update requests), creating calendar events for dates mentioned by the professor, sending a record of replies to the user&#x27;s email, and sending a follow-up email if no emails are received within 5 minutes of 07:00:00.
 
@@ -164,7 +166,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

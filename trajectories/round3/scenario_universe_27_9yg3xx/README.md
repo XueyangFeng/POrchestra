@@ -1,6 +1,8 @@
 # scenario_universe_27_9yg3xx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_27_9yg3xx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_27_9yg3xx/README.md) · [Codex](../../codex/round3/scenario_universe_27_9yg3xx/README.md) · [OpenCode](../../opencode/round3/scenario_universe_27_9yg3xx/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify the specific property listing that matches the user&#x27;s criteria (4-bedroom penthouse, most expensive, tie-breaker: Apartment type). Once the property is found, I need to know its city to proceed with the contact search.
 
@@ -77,11 +79,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #10
+**Initial harness configuration** · Source event 10
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent identified the most expensive 4-bedroom penthouse property as &#x27;Saint Petersburg Palace&#x27; located in &#x27;Saint Petersburg&#x27;. Now I need to find the youngest contact in that city, check their emails, and report the most recent email date to the user.
 

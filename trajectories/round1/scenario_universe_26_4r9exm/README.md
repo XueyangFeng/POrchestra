@@ -1,6 +1,8 @@
 # scenario_universe_26_4r9exm
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_26_4r9exm/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_26_4r9exm/README.md) · [Codex](../../codex/round1/scenario_universe_26_4r9exm/README.md) · [OpenCode](../../opencode/round1/scenario_universe_26_4r9exm/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Identify the user&#x27;s city, filter contacts aged 40 and older living in that city, and send them invitations using Messages (or Chats if not on Messages).
 
@@ -96,11 +98,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #71
+**Initial harness configuration** · Source event 71
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The messaging component of the original task is complete. I now need to create the calendar event for the watch-along as requested.
 
@@ -157,11 +159,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #78
+**Initial harness configuration** · Source event 78
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The messaging and calendar subtasks are complete. The final requirement is to purchase 50 round paper dinner plates.
 
@@ -227,7 +229,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

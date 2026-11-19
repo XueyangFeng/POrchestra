@@ -1,6 +1,8 @@
 # scenario_universe_25_h0h9fx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_25_h0h9fx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_25_h0h9fx/README.md) · [Codex](../../codex/round1/scenario_universe_25_h0h9fx/README.md) · [OpenCode](../../opencode/round1/scenario_universe_25_h0h9fx/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the immediate calendar and email actions. This includes finding the contact Nalinee Srisombat, creating the lunch event for 10/26/24, replying to her email from 10/13/24 with the specified instructions, and notifying the user when the reply is sent.
 
@@ -91,7 +93,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #26
+**Harness configuration updated** · Source event 26
 
 **1. Sub-agent revision request**
 
@@ -100,7 +102,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed assigned subtask: searched contact for Nalinee Srisombat, created 2024-10-26 lunch event, found and replied to her 2024-10-13 email, and messaged the user. Received external notifications: Calendar event deleted by Nalinee Srisombat; new email received. Awaiting MainAgent direction before any further side effects.
 ```
 <details>
-<summary>Request and evidence · source event #24</summary>
+<summary>Request and evidence · source event 24</summary>
 
 
 ```text
@@ -146,7 +148,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The calendar event for 10/26 was deleted, triggering the conditional logic in the original task to reschedule for 10/20 and perform the associated bookings and purchases. A new email was also received, which must be checked for context. I am expanding the SubAgent&#x27;s scope to handle the 10/20 event creation, cab booking (after retrieving the user&#x27;s home address), shopping for the backpack, and saving the property.
 
@@ -259,7 +261,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

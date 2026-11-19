@@ -4,7 +4,7 @@
 
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
-## Source event #69 · Sub-agent 1: model output
+## Source event 69 · Sub-agent 1: model output
 
 ```text
 Thought: I have not completed the assigned subtask because the step boundary was reached mid-enumeration. I identified many 1:1 candidate conversations but did not yet read full message histories to compute word counts for their first 6 messages. I will hand off with the exact candidates and IDs found so far so MainAgent can continue.

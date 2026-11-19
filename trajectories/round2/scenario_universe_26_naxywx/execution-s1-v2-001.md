@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 21 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Verify the 'apartment search' calendar event location. If it differs from the in
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 I'll start by searching for the 'apartment search' calendar event.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 The event is found with location 'Filipstad Brygge 2, Oslo' — different from the cab's destination. Let me check today's events to confirm there's no conflicting event from the other notification (Kofi Owusu).
@@ -63,7 +63,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -77,7 +77,7 @@ Action:
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 The Apartment Search event added by Kofi Ogunlesi is at 'Filipstad Brygge 2, Oslo' — different from the cab destination. Let me check the Kofi Owusu event mentioned in the notification to avoid confusion.
@@ -94,7 +94,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -108,7 +108,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Confirmed: the Apartment Search event (Kofi Ogunlesi) is at 'Filipstad Brygge 2, Oslo', which differs from 'Fosswinckels gate 10, Bergen'. The Kofi Owusu event is unrelated (Lunch on 2024-10-16). Now I'll cancel the existing ride.
@@ -123,7 +123,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ Ride has been cancelled, sorry to see you go.
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 The existing ride has been cancelled. Now I'll book a new Default cab to the event location.
@@ -157,7 +157,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -180,7 +180,7 @@ Ride ID: 07b0699e6eaaa718e6dd4a39fe6dcf42
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 New ride booked successfully. Now I'll email Kofi Ogunlesi.
@@ -199,7 +199,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -213,7 +213,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Email sent. Now I'll inform the user of the new cab destination.
@@ -230,7 +230,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text

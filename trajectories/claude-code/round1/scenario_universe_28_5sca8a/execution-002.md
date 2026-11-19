@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #115 · Main agent: Tool result: call_00_u9rg8f8qa6iqn6r26qhmgfy3 (is_error=False)</summary>
+<summary>Source event 115 · Main agent: Tool result: call_00_u9rg8f8qa6iqn6r26qhmgfy3 (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #116 · Main agent: Model message
+## Source event 116 · Main agent: Model message
 
 ```text
 Participants: +2571234567 (me), +32479123455 (Zephyrine De Smet), +4331123456 (Birgitta), +919820125456 (Rohan Mehta).
@@ -35,7 +35,7 @@ Let me search contacts by phone/name.
 
 
 
-## Source event #117 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_00_z3932a2v4dc34ctpr9s2nk9t)
+## Source event 117 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_00_z3932a2v4dc34ctpr9s2nk9t)
 
 ```text
 {
@@ -45,7 +45,7 @@ Let me search contacts by phone/name.
 
 
 
-## Source event #118 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_01_v01g80n7wgqnk296rrkz43of)
+## Source event 118 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_01_v01g80n7wgqnk296rrkz43of)
 
 ```text
 {
@@ -55,7 +55,7 @@ Let me search contacts by phone/name.
 
 
 
-## Source event #119 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_02_u0srv62qenrozgh23w1s7kux)
+## Source event 119 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_02_u0srv62qenrozgh23w1s7kux)
 
 ```text
 {
@@ -65,7 +65,7 @@ Let me search contacts by phone/name.
 
 
 
-## Source event #120 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_03_vnu1vtsunyyqgr5rxues69fy)
+## Source event 120 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_03_vnu1vtsunyyqgr5rxues69fy)
 
 ```text
 {
@@ -75,7 +75,7 @@ Let me search contacts by phone/name.
 
 
 
-## Source event #121 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_04_h0zcrq3d9zjidnm4mhz38ujl)
+## Source event 121 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_04_h0zcrq3d9zjidnm4mhz38ujl)
 
 ```text
 {
@@ -85,7 +85,7 @@ Let me search contacts by phone/name.
 
 
 
-## Source event #122 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_05_bzuc2qlod645dqgzhpvkttlt)
+## Source event 122 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_05_bzuc2qlod645dqgzhpvkttlt)
 
 ```text
 {
@@ -96,7 +96,7 @@ Let me search contacts by phone/name.
 
 
 <details>
-<summary>Source event #123 · Main agent: Tool result: call_00_z3932a2v4dc34ctpr9s2nk9t (is_error=False)</summary>
+<summary>Source event 123 · Main agent: Tool result: call_00_z3932a2v4dc34ctpr9s2nk9t (is_error=False)</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Let me search contacts by phone/name.
 
 
 <details>
-<summary>Source event #124 · Main agent: Tool result: call_01_v01g80n7wgqnk296rrkz43of (is_error=False)</summary>
+<summary>Source event 124 · Main agent: Tool result: call_01_v01g80n7wgqnk296rrkz43of (is_error=False)</summary>
 
 
 ```text
@@ -130,7 +130,7 @@ Let me search contacts by phone/name.
 
 
 <details>
-<summary>Source event #125 · Main agent: Tool result: call_02_u0srv62qenrozgh23w1s7kux (is_error=False)</summary>
+<summary>Source event 125 · Main agent: Tool result: call_02_u0srv62qenrozgh23w1s7kux (is_error=False)</summary>
 
 
 ```text
@@ -147,7 +147,7 @@ Let me search contacts by phone/name.
 
 
 <details>
-<summary>Source event #126 · Main agent: Tool result: call_03_vnu1vtsunyyqgr5rxues69fy (is_error=False)</summary>
+<summary>Source event 126 · Main agent: Tool result: call_03_vnu1vtsunyyqgr5rxues69fy (is_error=False)</summary>
 
 
 ```text
@@ -164,7 +164,7 @@ Let me search contacts by phone/name.
 
 
 <details>
-<summary>Source event #127 · Main agent: Tool result: call_04_h0zcrq3d9zjidnm4mhz38ujl (is_error=False)</summary>
+<summary>Source event 127 · Main agent: Tool result: call_04_h0zcrq3d9zjidnm4mhz38ujl (is_error=False)</summary>
 
 
 ```text
@@ -181,7 +181,7 @@ Let me search contacts by phone/name.
 
 
 <details>
-<summary>Source event #128 · Main agent: Tool result: call_05_bzuc2qlod645dqgzhpvkttlt (is_error=False)</summary>
+<summary>Source event 128 · Main agent: Tool result: call_05_bzuc2qlod645dqgzhpvkttlt (is_error=False)</summary>
 
 
 ```text
@@ -197,7 +197,7 @@ Let me search contacts by phone/name.
 </details>
 
 
-## Source event #129 · Main agent: Model message
+## Source event 129 · Main agent: Model message
 
 ```text
 Important: +919820125456 is Rohan Sengupta, not Rohan Mehta. The conversation participant is +919820125456.
@@ -232,7 +232,7 @@ Let me save apartments now.
 
 
 
-## Source event #130 · Main agent: Model message
+## Source event 130 · Main agent: Model message
 
 ```text
 Participants identified. Now saving the unsaved properties in zip 9000.
@@ -240,7 +240,7 @@ Participants identified. Now saving the unsaved properties in zip 9000.
 
 
 
-## Source event #131 · Main agent: Model tool call: mcp__gaia2__RentAFlat__save_apartment (call_00_otkobz20pjpimi2u56lw4pkg)
+## Source event 131 · Main agent: Model tool call: mcp__gaia2__RentAFlat__save_apartment (call_00_otkobz20pjpimi2u56lw4pkg)
 
 ```text
 {
@@ -250,7 +250,7 @@ Participants identified. Now saving the unsaved properties in zip 9000.
 
 
 
-## Source event #132 · Main agent: Model tool call: mcp__gaia2__RentAFlat__save_apartment (call_01_6up8kpo5khx4qzrlp45nvcag)
+## Source event 132 · Main agent: Model tool call: mcp__gaia2__RentAFlat__save_apartment (call_01_6up8kpo5khx4qzrlp45nvcag)
 
 ```text
 {
@@ -260,7 +260,7 @@ Participants identified. Now saving the unsaved properties in zip 9000.
 
 
 
-## Source event #133 · Main agent: Model tool call: mcp__gaia2__RentAFlat__save_apartment (call_02_csxj5cgf83kw7qbagstqpwm5)
+## Source event 133 · Main agent: Model tool call: mcp__gaia2__RentAFlat__save_apartment (call_02_csxj5cgf83kw7qbagstqpwm5)
 
 ```text
 {
@@ -270,7 +270,7 @@ Participants identified. Now saving the unsaved properties in zip 9000.
 
 
 
-## Source event #134 · Main agent: Model tool call: mcp__gaia2__RentAFlat__save_apartment (call_03_xacnk6e5poi64nozfkmnq91a)
+## Source event 134 · Main agent: Model tool call: mcp__gaia2__RentAFlat__save_apartment (call_03_xacnk6e5poi64nozfkmnq91a)
 
 ```text
 {
@@ -281,7 +281,7 @@ Participants identified. Now saving the unsaved properties in zip 9000.
 
 
 <details>
-<summary>Source event #135 · Main agent: Tool result: call_00_otkobz20pjpimi2u56lw4pkg (is_error=False)</summary>
+<summary>Source event 135 · Main agent: Tool result: call_00_otkobz20pjpimi2u56lw4pkg (is_error=False)</summary>
 
 
 ```text
@@ -298,7 +298,7 @@ Participants identified. Now saving the unsaved properties in zip 9000.
 
 
 <details>
-<summary>Source event #136 · Main agent: Tool result: call_01_6up8kpo5khx4qzrlp45nvcag (is_error=False)</summary>
+<summary>Source event 136 · Main agent: Tool result: call_01_6up8kpo5khx4qzrlp45nvcag (is_error=False)</summary>
 
 
 ```text
@@ -315,7 +315,7 @@ Participants identified. Now saving the unsaved properties in zip 9000.
 
 
 <details>
-<summary>Source event #137 · Main agent: Tool result: call_02_csxj5cgf83kw7qbagstqpwm5 (is_error=False)</summary>
+<summary>Source event 137 · Main agent: Tool result: call_02_csxj5cgf83kw7qbagstqpwm5 (is_error=False)</summary>
 
 
 ```text
@@ -332,7 +332,7 @@ Participants identified. Now saving the unsaved properties in zip 9000.
 
 
 <details>
-<summary>Source event #138 · Main agent: Tool result: call_03_xacnk6e5poi64nozfkmnq91a (is_error=False)</summary>
+<summary>Source event 138 · Main agent: Tool result: call_03_xacnk6e5poi64nozfkmnq91a (is_error=False)</summary>
 
 
 ```text
@@ -348,7 +348,7 @@ Participants identified. Now saving the unsaved properties in zip 9000.
 </details>
 
 
-## Source event #139 · Main agent: Model message
+## Source event 139 · Main agent: Model message
 
 ```text
 Now send 3 separate emails. Each with names of the properties.
@@ -366,7 +366,7 @@ Send separate email to each.
 
 
 
-## Source event #140 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_y96f5jh523q41wpdc9ty2ptl)
+## Source event 140 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_y96f5jh523q41wpdc9ty2ptl)
 
 ```text
 {
@@ -380,7 +380,7 @@ Send separate email to each.
 
 
 
-## Source event #141 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_01_hnnte1d1hfu8fxl6e509j7z9)
+## Source event 141 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_01_hnnte1d1hfu8fxl6e509j7z9)
 
 ```text
 {
@@ -394,7 +394,7 @@ Send separate email to each.
 
 
 
-## Source event #142 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_02_aidwtuvd6ppzx7kt0cflowow)
+## Source event 142 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_02_aidwtuvd6ppzx7kt0cflowow)
 
 ```text
 {
@@ -409,7 +409,7 @@ Send separate email to each.
 
 
 <details>
-<summary>Source event #143 · Main agent: Tool result: call_00_y96f5jh523q41wpdc9ty2ptl (is_error=False)</summary>
+<summary>Source event 143 · Main agent: Tool result: call_00_y96f5jh523q41wpdc9ty2ptl (is_error=False)</summary>
 
 
 ```text
@@ -426,7 +426,7 @@ Send separate email to each.
 
 
 <details>
-<summary>Source event #144 · Main agent: Tool result: call_01_hnnte1d1hfu8fxl6e509j7z9 (is_error=False)</summary>
+<summary>Source event 144 · Main agent: Tool result: call_01_hnnte1d1hfu8fxl6e509j7z9 (is_error=False)</summary>
 
 
 ```text
@@ -443,7 +443,7 @@ Send separate email to each.
 
 
 <details>
-<summary>Source event #145 · Main agent: Tool result: call_02_aidwtuvd6ppzx7kt0cflowow (is_error=False)</summary>
+<summary>Source event 145 · Main agent: Tool result: call_02_aidwtuvd6ppzx7kt0cflowow (is_error=False)</summary>
 
 
 ```text
@@ -459,7 +459,7 @@ Send separate email to each.
 </details>
 
 
-## Source event #146 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_00_yun0ulwu7onlm8qduxrvlz3e)
+## Source event 146 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_00_yun0ulwu7onlm8qduxrvlz3e)
 
 ```text
 {}
@@ -468,7 +468,7 @@ Send separate email to each.
 
 
 <details>
-<summary>Source event #147 · Main agent: Tool result: call_00_yun0ulwu7onlm8qduxrvlz3e (is_error=False)</summary>
+<summary>Source event 147 · Main agent: Tool result: call_00_yun0ulwu7onlm8qduxrvlz3e (is_error=False)</summary>
 
 
 ```text
@@ -484,7 +484,7 @@ Send separate email to each.
 </details>
 
 
-## Source event #148 · Main agent: Model message
+## Source event 148 · Main agent: Model message
 
 ```text
 All 6 zip-9000 under-$2000 properties are now saved. Done.
@@ -494,7 +494,7 @@ Summary to user.
 
 
 
-## Source event #149 · Main agent: Model message
+## Source event 149 · Main agent: Model message
 
 ```text
 Done. Here's what I found and did.
@@ -524,7 +524,7 @@ Note: the conversation participant +919820125456 maps to contact **Rohan Sengupt
 
 
 <details>
-<summary>Source event #150 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 150 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -557,7 +557,7 @@ Note: the conversation participant +919820125456 maps to contact **Rohan Sengupt
 
 
 <details>
-<summary>Source event #151 · Judge: Judge rationale</summary>
+<summary>Source event 151 · Judge: Judge rationale</summary>
 
 
 ```text

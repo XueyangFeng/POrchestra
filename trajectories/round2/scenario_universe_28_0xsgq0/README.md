@@ -1,6 +1,8 @@
 # scenario_universe_28_0xsgq0
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_28_0xsgq0/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_28_0xsgq0/README.md) · [Codex](../../codex/round2/scenario_universe_28_0xsgq0/README.md) · [OpenCode](../../opencode/round2/scenario_universe_28_0xsgq0/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the user&#x27;s name to exclude them from calculations and find the relevant calendar events in August 2024 to determine the attendee list.
 
@@ -84,11 +86,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #12
+**Initial harness configuration** · Source event 12
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous agent identified the relevant networking events and the unique attendees (Astrid Rasmussen, Rohan Deshpande, and Aurélien Vandenberghe). Now I need to find their ages, calculate the average, round it, and count the user&#x27;s contacts within the specified age range.
 

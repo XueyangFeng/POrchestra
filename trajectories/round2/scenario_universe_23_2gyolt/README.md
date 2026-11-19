@@ -1,6 +1,8 @@
 # scenario_universe_23_2gyolt
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_23_2gyolt/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_23_2gyolt/README.md) · [Codex](../../codex/round2/scenario_universe_23_2gyolt/README.md) · [OpenCode](../../opencode/round2/scenario_universe_23_2gyolt/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first subtask is to manage the schedule and communication regarding Kvido Nováček. This involves finding his contact information, identifying and deleting overlapping calendar events, and sending a notification email.
 
@@ -87,11 +89,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #27
+**Initial harness configuration** · Source event 27
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The calendar events with Kvido Nováček have been deleted and the notification email sent. Now I need to book the cab for the &#x27;Global Governance Seminar&#x27; as requested.
 
@@ -160,11 +162,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #37
+**Initial harness configuration** · Source event 37
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The calendar events have been deleted, the email to Kvido Nováček has been sent, and the cab has been booked. The final remaining task is to purchase the &#x27;hardcover&#x27; copy of &#x27;Conan - Book of Skelos&#x27;.
 
@@ -236,7 +238,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

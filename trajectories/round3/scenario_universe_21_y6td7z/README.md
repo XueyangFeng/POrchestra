@@ -1,6 +1,8 @@
 # scenario_universe_21_y6td7z
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_21_y6td7z/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_21_y6td7z/README.md) · [Codex](../../codex/round3/scenario_universe_21_y6td7z/README.md) · [OpenCode](../../opencode/round3/scenario_universe_21_y6td7z/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the three most recent &#x27;Collaboration&#x27; emails, schedule meetings for the next three days starting tomorrow at 7 AM for one hour via Zoom using the email subjects as titles, reply to each sender with the details and a request for confirmation/alternatives, and notify the user when the emails are sent. This is the first phase of the task.
 

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #67 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 67 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Identify the full name of the person who meets these criteria: 1. Interacted wit
 </details>
 
 
-## Source event #68 · Sub-agent 2: model output
+## Source event 68 · Sub-agent 2: model output
 
 ```text
 I'll start by searching Contacts for the four Chat people whose last names match Messages contacts: Kaur, LaFleur, McTavish, Rao.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #69 · Sub-agent 2: tool result</summary>
+<summary>Source event 69 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #70 · Sub-agent 2: model output
+## Source event 70 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -63,7 +63,7 @@ Action:
 
 
 <details>
-<summary>Source event #71 · Sub-agent 2: tool result</summary>
+<summary>Source event 71 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -77,7 +77,7 @@ Action:
 </details>
 
 
-## Source event #72 · Sub-agent 2: model output
+## Source event 72 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -93,7 +93,7 @@ Action:
 
 
 <details>
-<summary>Source event #73 · Sub-agent 2: tool result</summary>
+<summary>Source event 73 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -107,7 +107,7 @@ Action:
 </details>
 
 
-## Source event #74 · Sub-agent 2: model output
+## Source event 74 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -123,7 +123,7 @@ Action:
 
 
 <details>
-<summary>Source event #75 · Sub-agent 2: tool result</summary>
+<summary>Source event 75 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ Action:
 </details>
 
 
-## Source event #76 · Sub-agent 2: model output
+## Source event 76 · Sub-agent 2: model output
 
 ```text
 Now I'll check the Cabs ride history for rides to the candidate cities: Vancouver, Montreal, Sydney, Mumbai.
@@ -153,7 +153,7 @@ Action:
 
 
 <details>
-<summary>Source event #77 · Sub-agent 2: tool result</summary>
+<summary>Source event 77 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -167,7 +167,7 @@ Action:
 </details>
 
 
-## Source event #78 · Sub-agent 2: model output
+## Source event 78 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -184,7 +184,7 @@ Action:
 
 
 <details>
-<summary>Source event #79 · Sub-agent 2: tool result</summary>
+<summary>Source event 79 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -198,7 +198,7 @@ Action:
 </details>
 
 
-## Source event #80 · Sub-agent 2: model output
+## Source event 80 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -215,7 +215,7 @@ Action:
 
 
 <details>
-<summary>Source event #81 · Sub-agent 2: tool result</summary>
+<summary>Source event 81 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -229,7 +229,7 @@ Action:
 </details>
 
 
-## Source event #82 · Sub-agent 2: model output
+## Source event 82 · Sub-agent 2: model output
 
 ```text
 Rides exist only to Indian cities. Notable: Mumbai rides present. Let me verify a couple of Chat contacts' cities (Nguyen-Tran, McKenzie) to rule out competitors.
@@ -247,7 +247,7 @@ Action:
 
 
 <details>
-<summary>Source event #83 · Sub-agent 2: tool result</summary>
+<summary>Source event 83 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -261,7 +261,7 @@ Action:
 </details>
 
 
-## Source event #84 · Sub-agent 2: model output
+## Source event 84 · Sub-agent 2: model output
 
 ```text
 All rides in the history are within India (Mumbai, Pune, Bengaluru, etc.). Checking candidates against rides:
@@ -311,7 +311,7 @@ Action:
 
 
 <details>
-<summary>Source event #85 · Sub-agent 2: tool result</summary>
+<summary>Source event 85 · Sub-agent 2: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #68 · Sub-agent 4: user / environment input</summary>
+<summary>Source event 68 · Sub-agent 4: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #69 · Sub-agent 4: model output
+## Source event 69 · Sub-agent 4: model output
 
 ```text
 I'll start by searching the shopping catalog for the Wordspiel Card Game.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 4: tool result</summary>
+<summary>Source event 70 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 </details>
 
 
-## Source event #71 · Sub-agent 4: model output
+## Source event 71 · Sub-agent 4: model output
 
 ```text
 The search returned one product with multiple variants. Filtering for "Adults" age range:
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 4: tool result</summary>
+<summary>Source event 72 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ Product(name='WordSpiel Card Game', product_id='ecf75a89824d598e960ec169f4fe5c95
 </details>
 
 
-## Source event #73 · Sub-agent 4: model output
+## Source event 73 · Sub-agent 4: model output
 
 ```text
 Confirmed. The cheapest "Adults" variant is item `15b6954930294cbf82a3a538f6da0fe9` at $11.95. Let me do a broader search to confirm there are no other matching products.
@@ -107,7 +107,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 4: tool result</summary>
+<summary>Source event 74 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -121,7 +121,7 @@ Action:
 </details>
 
 
-## Source event #75 · Sub-agent 4: model output
+## Source event 75 · Sub-agent 4: model output
 
 ```text
 Only one WordSpiel product exists. The cheapest Adults variant is `15b6954930294cbf82a3a538f6da0fe9` at $11.95. Adding one unit to the cart.
@@ -139,7 +139,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 4: tool result</summary>
+<summary>Source event 76 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -153,7 +153,7 @@ Action:
 </details>
 
 
-## Source event #77 · Sub-agent 4: model output
+## Source event 77 · Sub-agent 4: model output
 
 ```text
 Item added. Let me verify the cart contents before checkout.
@@ -168,7 +168,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 4: tool result</summary>
+<summary>Source event 78 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -182,7 +182,7 @@ Action:
 </details>
 
 
-## Source event #79 · Sub-agent 4: model output
+## Source event 79 · Sub-agent 4: model output
 
 ```text
 Cart verified: exactly 1 unit of the Adults English WordSpiel Card Game at $11.95. Proceeding to checkout without a discount code.
@@ -197,7 +197,7 @@ Action:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 4: tool result</summary>
+<summary>Source event 80 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -211,7 +211,7 @@ Action:
 </details>
 
 
-## Source event #81 · Sub-agent 4: model output
+## Source event 81 · Sub-agent 4: model output
 
 ```text
 The order was placed successfully. Order ID: `2c42a2df59134fa7857eebe2ec001922`.
@@ -259,7 +259,7 @@ Action:
 
 
 <details>
-<summary>Source event #82 · Sub-agent 4: tool result</summary>
+<summary>Source event 82 · Sub-agent 4: tool result</summary>
 
 
 ```text

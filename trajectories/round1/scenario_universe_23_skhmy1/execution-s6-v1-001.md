@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #327 · Sub-agent 6: user / environment input</summary>
+<summary>Source event 327 · Sub-agent 6: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Verify the word counts for the 6 chronologically oldest messages in the remainin
 </details>
 
 
-## Source event #328 · Sub-agent 6: model output
+## Source event 328 · Sub-agent 6: model output
 
 ```text
 Thought: I need to inspect the conversation structure first. Let me read one of the assigned chats with limit=1 to see the output format and find the total message count.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #329 · Sub-agent 6: tool result</summary>
+<summary>Source event 329 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 
 
 <details>
-<summary>Source event #330 · Sub-agent 6: tool result</summary>
+<summary>Source event 330 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -76,7 +76,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #331 · Sub-agent 6: model output
+## Source event 331 · Sub-agent 6: model output
 
 ```text
 Action:
@@ -93,7 +93,7 @@ Action:
 
 
 <details>
-<summary>Source event #332 · Sub-agent 6: tool result</summary>
+<summary>Source event 332 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -107,7 +107,7 @@ Action:
 </details>
 
 
-## Source event #333 · Sub-agent 6: model output
+## Source event 333 · Sub-agent 6: model output
 
 ```text
 Action:
@@ -124,7 +124,7 @@ Action:
 
 
 <details>
-<summary>Source event #334 · Sub-agent 6: tool result</summary>
+<summary>Source event 334 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -138,7 +138,7 @@ Action:
 </details>
 
 
-## Source event #335 · Sub-agent 6: model output
+## Source event 335 · Sub-agent 6: model output
 
 ```text
 Action:
@@ -155,7 +155,7 @@ Action:
 
 
 <details>
-<summary>Source event #336 · Sub-agent 6: tool result</summary>
+<summary>Source event 336 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -169,7 +169,7 @@ Action:
 </details>
 
 
-## Source event #337 · Sub-agent 6: model output
+## Source event 337 · Sub-agent 6: model output
 
 ```text
 Action:
@@ -186,7 +186,7 @@ Action:
 
 
 <details>
-<summary>Source event #338 · Sub-agent 6: tool result</summary>
+<summary>Source event 338 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -200,7 +200,7 @@ Action:
 </details>
 
 
-## Source event #339 · Sub-agent 6: model output
+## Source event 339 · Sub-agent 6: model output
 
 ```text
 Action:
@@ -217,7 +217,7 @@ Action:
 
 
 <details>
-<summary>Source event #340 · Sub-agent 6: tool result</summary>
+<summary>Source event 340 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -232,7 +232,7 @@ Action:
 
 
 <details>
-<summary>Source event #341 · Sub-agent 6: tool result</summary>
+<summary>Source event 341 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -255,7 +255,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #342 · Sub-agent 6: model output
+## Source event 342 · Sub-agent 6: model output
 
 ```text
 All three candidate chats have word counts below the current maximum:
@@ -277,7 +277,7 @@ Action:
 
 
 <details>
-<summary>Source event #343 · Sub-agent 6: tool result</summary>
+<summary>Source event 343 · Sub-agent 6: tool result</summary>
 
 
 ```text

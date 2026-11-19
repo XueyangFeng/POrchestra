@@ -1,6 +1,8 @@
 # scenario_universe_21_44vlco
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_21_44vlco/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_21_44vlco/README.md) · [Codex](../../codex/round3/scenario_universe_21_44vlco/README.md) · [OpenCode](../../opencode/round3/scenario_universe_21_44vlco/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial setup: identifying the meeting attendee from yesterday, finding Luísa&#x27;s contact info, finding the addresses for home and the photoshoot location, scheduling the event, booking the cab, and sending the verification email to Luísa. Once the email is sent, I must notify the user as requested.
 
@@ -100,7 +102,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #30
+**Harness configuration updated** · Source event 30
 
 **1. Sub-agent revision request**
 
@@ -109,7 +111,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed initial task: created calendar event 'Photoshoot with Sheryl's Sweets' (2024-10-18 19:00-20:00, Östermalm Oasis, attendee Åke Svensson), booked Premium cab 18:40 from Östermalmsgatan 12 to Valhallavägen 22, sent verification email to Luísa, and messaged the user. Now two new emails arrived: from kasper.ronnow@gaia2mail.com and from luisa.silvaesousa@gaia2mail.com — the Luísa reply may contain corrections requiring calendar/cab updates.
 ```
 <details>
-<summary>Request and evidence · source event #28</summary>
+<summary>Request and evidence · source event 28</summary>
 
 
 ```text
@@ -161,7 +163,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 New emails have arrived from Luísa Silva e Sousa and Kasper Ronnow. The user&#x27;s photoshoot location and time need to be verified against Luísa&#x27;s reply. If her reply corrects the details, the SubAgent must update the calendar event and the cab booking. The SubAgent currently lacks tools to read emails and cancel/delete existing bookings.
 

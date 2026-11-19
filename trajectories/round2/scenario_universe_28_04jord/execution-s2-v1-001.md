@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #75 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 75 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Wait until exactly 2024-10-15 07:04:52. Once that time is reached, find all prop
 </details>
 
 
-## Source event #76 · Sub-agent 2: model output
+## Source event 76 · Sub-agent 2: model output
 
 ```text
 I'll start by checking the current time to determine how long I need to wait.
@@ -32,7 +32,7 @@ Action:
 
 
 <details>
-<summary>Source event #77 · Sub-agent 2: tool result</summary>
+<summary>Source event 77 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -46,7 +46,7 @@ Action:
 </details>
 
 
-## Source event #78 · Sub-agent 2: model output
+## Source event 78 · Sub-agent 2: model output
 
 ```text
 Current time is 07:04:12. I need to wait ~40 seconds until 07:04:52.
@@ -63,7 +63,7 @@ Action:
 
 
 <details>
-<summary>Source event #79 · Sub-agent 2: tool result</summary>
+<summary>Source event 79 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -78,7 +78,7 @@ None
 
 
 <details>
-<summary>Source event #80 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 80 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -91,7 +91,7 @@ Environment notifications:
 </details>
 
 
-## Source event #81 · Sub-agent 2: model output
+## Source event 81 · Sub-agent 2: model output
 
 ```text
 The wait completed. Let me verify the current time is at/past 07:04:52.
@@ -106,7 +106,7 @@ Action:
 
 
 <details>
-<summary>Source event #82 · Sub-agent 2: tool result</summary>
+<summary>Source event 82 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -120,7 +120,7 @@ Action:
 </details>
 
 
-## Source event #83 · Sub-agent 2: model output
+## Source event 83 · Sub-agent 2: model output
 
 ```text
 Time is exactly 07:04:52. Now let me find saved apartments in zip code 9000.
@@ -138,7 +138,7 @@ Action:
 
 
 <details>
-<summary>Source event #84 · Sub-agent 2: tool result</summary>
+<summary>Source event 84 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -152,7 +152,7 @@ Action:
 </details>
 
 
-## Source event #85 · Sub-agent 2: model output
+## Source event 85 · Sub-agent 2: model output
 
 ```text
 Found 4 saved apartments in zip 9000. Removing them one by one.
@@ -169,7 +169,7 @@ Action:
 
 
 <details>
-<summary>Source event #86 · Sub-agent 2: tool result</summary>
+<summary>Source event 86 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -183,7 +183,7 @@ Successfully removed apartment from favorites
 </details>
 
 
-## Source event #87 · Sub-agent 2: model output
+## Source event 87 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -198,7 +198,7 @@ Action:
 
 
 <details>
-<summary>Source event #88 · Sub-agent 2: tool result</summary>
+<summary>Source event 88 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -212,7 +212,7 @@ Successfully removed apartment from favorites
 </details>
 
 
-## Source event #89 · Sub-agent 2: model output
+## Source event 89 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -227,7 +227,7 @@ Action:
 
 
 <details>
-<summary>Source event #90 · Sub-agent 2: tool result</summary>
+<summary>Source event 90 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -241,7 +241,7 @@ Successfully removed apartment from favorites
 </details>
 
 
-## Source event #91 · Sub-agent 2: model output
+## Source event 91 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -256,7 +256,7 @@ Action:
 
 
 <details>
-<summary>Source event #92 · Sub-agent 2: tool result</summary>
+<summary>Source event 92 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -270,7 +270,7 @@ Successfully removed apartment from favorites
 </details>
 
 
-## Source event #93 · Sub-agent 2: model output
+## Source event 93 · Sub-agent 2: model output
 
 ```text
 All 4 removed. Let me verify no saved apartments remain in zip 9000.
@@ -288,7 +288,7 @@ Action:
 
 
 <details>
-<summary>Source event #94 · Sub-agent 2: tool result</summary>
+<summary>Source event 94 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -302,7 +302,7 @@ Action:
 </details>
 
 
-## Source event #95 · Sub-agent 2: model output
+## Source event 95 · Sub-agent 2: model output
 
 ```text
 Verification confirms zero saved apartments in zip 9000. Now reporting to the user.
@@ -319,7 +319,7 @@ Action:
 
 
 <details>
-<summary>Source event #96 · Sub-agent 2: tool result</summary>
+<summary>Source event 96 · Sub-agent 2: tool result</summary>
 
 
 ```text

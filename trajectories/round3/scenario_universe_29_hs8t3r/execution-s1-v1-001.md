@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 I'll start by listing emails from the SENT folder.
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 7 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -61,7 +61,7 @@ ReturnedEmails(emails=[Email(sender='rohankumar.advocate@gaia2mail.com', recipie
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 7 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ ients=['kaia.papadopoulos@student.unimelb.edu.au'], subject='Exploring the Inter
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 I have 50 of 111 SENT emails. Let me fetch the rest.

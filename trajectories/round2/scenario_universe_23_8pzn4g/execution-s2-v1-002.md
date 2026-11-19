@@ -4,7 +4,7 @@
 
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
-## Source event #91 · Sub-agent 2: model output
+## Source event 91 · Sub-agent 2: model output
 
 ```text
 Let me check remaining names and possible spelling variants.
@@ -22,7 +22,7 @@ Action:
 
 
 <details>
-<summary>Source event #92 · Sub-agent 2: tool result</summary>
+<summary>Source event 92 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -36,7 +36,7 @@ Action:
 </details>
 
 
-## Source event #93 · Sub-agent 2: model output
+## Source event 93 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -52,7 +52,7 @@ Action:
 
 
 <details>
-<summary>Source event #94 · Sub-agent 2: tool result</summary>
+<summary>Source event 94 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -66,7 +66,7 @@ Action:
 </details>
 
 
-## Source event #95 · Sub-agent 2: model output
+## Source event 95 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -82,7 +82,7 @@ Action:
 
 
 <details>
-<summary>Source event #96 · Sub-agent 2: tool result</summary>
+<summary>Source event 96 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -96,7 +96,7 @@ Action:
 </details>
 
 
-## Source event #97 · Sub-agent 2: model output
+## Source event 97 · Sub-agent 2: model output
 
 ```text
 Let me verify these candidate names against Contacts to check for naming variants.
@@ -114,7 +114,7 @@ Action:
 
 
 <details>
-<summary>Source event #98 · Sub-agent 2: tool result</summary>
+<summary>Source event 98 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -128,7 +128,7 @@ Action:
 </details>
 
 
-## Source event #99 · Sub-agent 2: model output
+## Source event 99 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -144,7 +144,7 @@ Action:
 
 
 <details>
-<summary>Source event #100 · Sub-agent 2: tool result</summary>
+<summary>Source event 100 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -158,7 +158,7 @@ Action:
 </details>
 
 
-## Source event #101 · Sub-agent 2: model output
+## Source event 101 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -174,7 +174,7 @@ Action:
 
 
 <details>
-<summary>Source event #102 · Sub-agent 2: tool result</summary>
+<summary>Source event 102 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ Action:
 </details>
 
 
-## Source event #103 · Sub-agent 2: model output
+## Source event 103 · Sub-agent 2: model output
 
 ```text
 All 246 events in range have been examined and every candidate verified. Let me summarize the computation:
@@ -247,7 +247,7 @@ Action:
 
 
 <details>
-<summary>Source event #104 · Sub-agent 2: tool result</summary>
+<summary>Source event 104 · Sub-agent 2: tool result</summary>
 
 
 ```text

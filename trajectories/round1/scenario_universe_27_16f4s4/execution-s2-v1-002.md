@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #55 · Sub-agent 2: tool result</summary>
+<summary>Source event 55 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ ReturnedEmails(emails=[Email(sender='aoifenichonaill@tcd.ie', recipients=['akuzn
 </details>
 
 
-## Source event #56 · Sub-agent 2: model output
+## Source event 56 · Sub-agent 2: model output
 
 ```text
 The new email from aoifenichonaill@tcd.ie is not a property viewing request, so no action is needed. Continuing to monitor until 07:04:00.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 2: tool result</summary>
+<summary>Source event 57 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ None
 
 
 <details>
-<summary>Source event #58 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 58 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -64,7 +64,7 @@ Environment notifications:
 </details>
 
 
-## Source event #59 · Sub-agent 2: model output
+## Source event 59 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -77,7 +77,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 2: tool result</summary>
+<summary>Source event 60 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -91,7 +91,7 @@ Action:
 </details>
 
 
-## Source event #61 · Sub-agent 2: model output
+## Source event 61 · Sub-agent 2: model output
 
 ```text
 Monitoring window has expired (current time 07:05:00 > 07:04:00). All property viewing requests received during the window were handled. No user messages were sent.
@@ -138,7 +138,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 2: tool result</summary>
+<summary>Source event 62 · Sub-agent 2: tool result</summary>
 
 
 ```text

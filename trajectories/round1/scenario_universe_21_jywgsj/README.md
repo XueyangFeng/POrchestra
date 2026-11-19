@@ -1,6 +1,8 @@
 # scenario_universe_21_jywgsj
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_21_jywgsj/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_21_jywgsj/README.md) · [Codex](../../codex/round1/scenario_universe_21_jywgsj/README.md) · [OpenCode](../../opencode/round1/scenario_universe_21_jywgsj/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #6
+**Initial harness configuration** · Source event 6
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I am starting with the calendar-related tasks: canceling the existing meeting and creating the new gym session. This is a discrete subtask within the Calendar application.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #18
+**Initial harness configuration** · Source event 18
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The calendar tasks are complete. Now I need to manage the saved property list in the RentAFlat app as requested by the user.
 
@@ -150,11 +152,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #32
+**Initial harness configuration** · Source event 32
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The shopping purchase for &#x27;Rubie&#x27;s Adult Star Wars Stormtrooper Glovelettes&#x27; in latex material is the next pending task from the original request.
 
@@ -219,11 +221,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #45
+**Initial harness configuration** · Source event 45
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 The calendar, property list, and shopping tasks have been completed. The final requirement is to remove &#x27;Åke Svensson&#x27; from the contact list.
 
@@ -283,7 +285,7 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #5</summary>
+<summary>Source event 5</summary>
 
 
 ```text

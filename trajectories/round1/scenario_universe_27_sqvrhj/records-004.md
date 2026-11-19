@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #130 · Sub-agent 2: model output</summary>
+<summary>Source event 130 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ SUB-AGENT SESSION 3
 
 
 <details>
-<summary>Source event #131 · Sub-agent 3: Initial system configuration</summary>
+<summary>Source event 131 · Sub-agent 3: Initial system configuration</summary>
 
 
 ```text
@@ -213,7 +213,7 @@ If title is not provided, it will be set to the participant names.
 
 
 <details>
-<summary>Source event #132 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 132 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -228,7 +228,7 @@ Complete the final delivery steps of the task:
 
 
 <details>
-<summary>Source event #133 · Sub-agent 3: tool result</summary>
+<summary>Source event 133 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -257,7 +257,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #134 · Sub-agent 3: tool result</summary>
+<summary>Source event 134 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -286,7 +286,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #135 · Sub-agent 3: model output</summary>
+<summary>Source event 135 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -311,7 +311,7 @@ Action:
 
 
 <details>
-<summary>Source event #136 · Sub-agent 3: tool result</summary>
+<summary>Source event 136 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -326,7 +326,7 @@ Action:
 
 
 <details>
-<summary>Source event #137 · Sub-agent 3: model output</summary>
+<summary>Source event 137 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -348,7 +348,7 @@ Action:
 
 
 <details>
-<summary>Source event #138 · Sub-agent 3: tool result</summary>
+<summary>Source event 138 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -363,7 +363,7 @@ Action:
 
 
 <details>
-<summary>Source event #139 · Sub-agent 3: model output</summary>
+<summary>Source event 139 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -386,7 +386,7 @@ Action:
 
 
 <details>
-<summary>Source event #140 · Sub-agent 3: tool result</summary>
+<summary>Source event 140 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -401,7 +401,7 @@ Action:
 
 
 <details>
-<summary>Source event #141 · Sub-agent 3: model output</summary>
+<summary>Source event 141 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -446,7 +446,7 @@ Action:
 
 
 <details>
-<summary>Source event #142 · Sub-agent 3: tool result</summary>
+<summary>Source event 142 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -461,7 +461,7 @@ Action:
 
 
 <details>
-<summary>Source event #143 · Judge rationale</summary>
+<summary>Source event 143 · Judge rationale</summary>
 
 
 ```text

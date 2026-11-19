@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ List all apartments in the RentAFlat catalog, check their details, and identify 
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -30,7 +30,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -44,7 +44,7 @@ Action:
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 I received the full catalog from list_all_apartments. The apartment entries don't include availability status, so I need to fetch details for the highest-priced candidates to determine availability. Let me check the top-priced ones first.
@@ -61,7 +61,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -75,7 +75,7 @@ Apartment(name='Geneva Seaside', location='Quai du Général-Guisan, Geneva', zi
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 The list output doesn't show availability directly, so I'll fetch details for the top-priced candidates to determine availability. Next: the two 4000 CHF and the 3800 CHF apartments.
@@ -92,7 +92,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -106,7 +106,7 @@ Apartment(name='Geneva Luxury', location='Rue de Lausanne 45, Geneva', zip_code=
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 The list doesn't include availability info directly. Let me test the search tool to see if its output format reveals availability status.
@@ -121,7 +121,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -135,7 +135,7 @@ Action:
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -150,7 +150,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -164,7 +164,7 @@ Apartment(name='Zurich Uptown', location='Talstrasse, Zurich', zip_code='8001', 
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 The Apartment data type doesn't include an explicit "availability" field. The listing output and detail output both have the same fields: price, zip_code, square_footage, plus saved flag. I'll treat all listed apartments as "available" (since they're all in the catalog). Now let me sort and identify the top most expensive.
@@ -232,7 +232,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text

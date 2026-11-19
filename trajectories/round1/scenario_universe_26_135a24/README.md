@@ -1,6 +1,8 @@
 # scenario_universe_26_135a24
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_26_135a24/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_26_135a24/README.md) · [Codex](../../codex/round1/scenario_universe_26_135a24/README.md) · [OpenCode](../../opencode/round1/scenario_universe_26_135a24/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to establish the correct date for &#x27;this Sunday&#x27;, create the calendar event, and gather the necessary contact information and message history to draft the emails. I will also check the shopping catalog to find the specific items requested.
 
@@ -91,11 +93,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #21
+**Initial harness configuration** · Source event 21
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous agent has identified the necessary contact information, message context, and product IDs. Now I need to perform the actual transactions: sending the invitation emails and placing the orders.
 

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #493 · Sub-agent 8: tool result</summary>
+<summary>Source event 493 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ ReturnedEmails(emails=[Email(sender='aurelie.wyss@ethz.ch', recipients=['ursula.
 </details>
 
 
-## Source event #494 · Sub-agent 8: model output
+## Source event 494 · Sub-agent 8: model output
 
 ```text
 Action:
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #495 · Sub-agent 8: tool result</summary>
+<summary>Source event 495 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Action:
 </details>
 
 
-## Source event #496 · Sub-agent 8: model output
+## Source event 496 · Sub-agent 8: model output
 
 ```text
 Action:
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #497 · Sub-agent 8: tool result</summary>
+<summary>Source event 497 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Action:
 </details>
 
 
-## Source event #498 · Sub-agent 8: model output
+## Source event 498 · Sub-agent 8: model output
 
 ```text
 Action:
@@ -95,7 +95,7 @@ Action:
 
 
 <details>
-<summary>Source event #499 · Sub-agent 8: tool result</summary>
+<summary>Source event 499 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -109,7 +109,7 @@ Action:
 </details>
 
 
-## Source event #500 · Sub-agent 8: model output
+## Source event 500 · Sub-agent 8: model output
 
 ```text
 Action:
@@ -125,7 +125,7 @@ Action:
 
 
 <details>
-<summary>Source event #501 · Sub-agent 8: tool result</summary>
+<summary>Source event 501 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -139,7 +139,7 @@ Action:
 </details>
 
 
-## Source event #502 · Sub-agent 8: model output
+## Source event 502 · Sub-agent 8: model output
 
 ```text
 The /Documents/wiki files all appear empty. There is a .txt file in GAIA_validation that may be the Aberdeen Wikipedia file. Let me check the validation metadata and that .txt file.
@@ -156,7 +156,7 @@ Action:
 
 
 <details>
-<summary>Source event #503 · Sub-agent 8: tool result</summary>
+<summary>Source event 503 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ b''
 </details>
 
 
-## Source event #504 · Sub-agent 8: model output
+## Source event 504 · Sub-agent 8: model output
 
 ```text
 All file contents in the sandbox appear empty. Let me continue exhaustively searching emails in all folders and messages.
@@ -188,7 +188,7 @@ Action:
 
 
 <details>
-<summary>Source event #505 · Sub-agent 8: tool result</summary>
+<summary>Source event 505 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -202,7 +202,7 @@ Action:
 </details>
 
 
-## Source event #506 · Sub-agent 8: model output
+## Source event 506 · Sub-agent 8: model output
 
 ```text
 Action:
@@ -218,7 +218,7 @@ Action:
 
 
 <details>
-<summary>Source event #507 · Sub-agent 8: tool result</summary>
+<summary>Source event 507 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -233,7 +233,7 @@ Action:
 
 
 <details>
-<summary>Source event #508 · Sub-agent 8: tool result</summary>
+<summary>Source event 508 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -257,7 +257,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #509 · Sub-agent 8: model output
+## Source event 509 · Sub-agent 8: model output
 
 ```text
 Action:

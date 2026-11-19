@@ -1,6 +1,8 @@
 # scenario_universe_24_tg3h3h
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_24_tg3h3h/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_24_tg3h3h/README.md) · [Codex](../../codex/round1/scenario_universe_24_tg3h3h/README.md) · [OpenCode](../../opencode/round1/scenario_universe_24_tg3h3h/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #9
+**Initial harness configuration** · Source event 9
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify contacts living in the United Kingdom, find the Aberdeen .txt file, and send the emails as requested. I also need to find the destination of the October 4th cab ride to determine which airport to use for the new booking. This information is required before I can proceed with the calendar and cab scheduling.
 
@@ -93,11 +95,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #75
+**Initial harness configuration** · Source event 75
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The first SubAgent identified the UK contacts but failed to locate the Aberdeen .txt file and did not complete the email, calendar, or cab tasks. I need a new SubAgent to find the file, send the emails, determine the correct weekend for the trip, handle the calendar management, and book the cab.
 
@@ -185,11 +187,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #139
+**Initial harness configuration** · Source event 139
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 We need to find the Aberdeen Wikipedia text file by checking the sizes of the files in `/Documents/wiki` and `/Downloads`, and then complete the remaining email, calendar, messages, and cab booking tasks for the Aberdeen trip.
 
@@ -279,11 +281,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #202
+**Initial harness configuration** · Source event 202
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 The previous attempts found that all files in `/Documents/wiki` are empty (0 bytes). We need to locate the Aberdeen Wikipedia .txt file, which might be in the user&#x27;s emails or messages, download it, and then proceed with sending the emails, scheduling the Aberdeen trip on the first work-free weekend, deleting other weekend events, messaging attendees, and booking the premium cab to the airport.
 
@@ -376,11 +378,11 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 
 ### S5 configuration v1
 
-**Initial harness configuration** · Source event #265
+**Initial harness configuration** · Source event 265
 
 **Initial delegation**
 
-`delegate_task` · Source event #5
+`delegate_task` · Source event 5
 
 The previous attempts identified the UK contacts and the target airport but failed to locate the &#x27;Aberdeen&#x27; Wikipedia file and did not yet perform any side effects (calendar, emails, cab booking). I need a SubAgent to find the correct weekend, manage the calendar, book the cab, and finalize the communications. I will also provide a more targeted search instruction for the missing file.
 
@@ -480,11 +482,11 @@ Full system configuration: [Part 1](config-s5-v1-01.md)
 
 ### S6 configuration v1
 
-**Initial harness configuration** · Source event #328
+**Initial harness configuration** · Source event 328
 
 **Initial delegation**
 
-`delegate_task` · Source event #6
+`delegate_task` · Source event 6
 
 We need to complete the remaining tasks: (1) look up Anastasiya Zolotova in Contacts to get her phone number and send her a cancellation apology message via Messages, (2) book a Premium cab ride on 2024-10-26 at 06:00:00 from &#x27;Home&#x27; to &#x27;EuroAirport Basel-Mulhouse-Freiburg, 68300 Saint-Louis, France&#x27;, (3) locate the Aberdeen Wikipedia .txt file by searching all Email folders (including Drafts and Trash), Messages, and the filesystem (including checking if any wiki txt file contains content), and (4) send separate emails to Alethea Fothergill and Elara von Allmen asking about their experience of Aberdeen with the found file attached.
 
@@ -575,11 +577,11 @@ Full system configuration: [Part 1](config-s6-v1-01.md)
 
 ### S7 configuration v1
 
-**Initial harness configuration** · Source event #395
+**Initial harness configuration** · Source event 395
 
 **Initial delegation**
 
-`delegate_task` · Source event #7
+`delegate_task` · Source event 7
 
 Most of the trip coordination is complete (weekend found, event created, conflicts deleted, apology sent, cab booked). The remaining tasks are to locate the specific Aberdeen Wikipedia .txt file and send the emails to the UK contacts with that file attached. Previous attempts failed to find the file in obvious places (searches for &#x27;Aberdeen&#x27; and &#x27;Wikipedia&#x27; in Emails/Messages/Files returned nothing, and wiki files in /Documents/wiki were reported as 0-byte). I need a SubAgent to perform a more exhaustive search of potential sources (Sent emails, Drafts, all wiki files, and other filesystem directories) and then complete the email task.
 
@@ -666,11 +668,11 @@ Full system configuration: [Part 1](config-s7-v1-01.md)
 
 ### S8 configuration v1
 
-**Initial harness configuration** · Source event #462
+**Initial harness configuration** · Source event 462
 
 **Initial delegation**
 
-`delegate_task` · Source event #8
+`delegate_task` · Source event 8
 
 The calendar event, cab booking, and message apologies have been completed. The remaining tasks are to locate the Wikipedia .txt file about Aberdeen and send separate emails with the attachment to the two UK contacts (Alethea Fothergill and Elara von Allmen). I will delegate this to a SubAgent to search all files, emails (including Sent, Drafts, Trash, and downloading all attachments), and Messages conversations, find the Aberdeen file, and send the emails.
 

@@ -1,6 +1,8 @@
 # scenario_universe_30_6r6lnh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_30_6r6lnh/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_30_6r6lnh/README.md) · [Codex](../../codex/round1/scenario_universe_30_6r6lnh/README.md) · [OpenCode](../../opencode/round1/scenario_universe_30_6r6lnh/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires a sequence of actions including modifying the saved apartment list, messaging a contact, notifying the user, and performing conditional logic based on a future reply. I will delegate this to a SubAgent to handle the identification and removal of Liverpool properties, the communication with Akira, and the subsequent conditional updates based on her response.
 

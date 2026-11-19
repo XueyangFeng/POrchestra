@@ -1,6 +1,8 @@
 # scenario_universe_30_oo7rgl
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_30_oo7rgl/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_30_oo7rgl/README.md) · [Codex](../../codex/round1/scenario_universe_30_oo7rgl/README.md) · [OpenCode](../../opencode/round1/scenario_universe_30_oo7rgl/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Identify the person who has sent the most messages in the Messages app during the past 7 days (not including today), excluding messages sent by the current user, resolving ties alphabetically.
 
@@ -87,11 +89,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #66
+**Initial harness configuration** · Source event 66
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The first SubAgent successfully identified &#x27;Akira Kaur&#x27; as the person who sent the most messages in the specified period. Now I need to find the soonest upcoming calendar event where Akira Kaur is an attendee and report its title to the user.
 

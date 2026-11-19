@@ -1,6 +1,8 @@
 # scenario_universe_28_nt4j7v
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_28_nt4j7v/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_28_nt4j7v/README.md) · [Codex](../../codex/round1/scenario_universe_28_nt4j7v/README.md) · [OpenCode](../../opencode/round1/scenario_universe_28_nt4j7v/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Identify contacts aged 78 or older (excluding the current user), send them a group email asking what they would like for Christmas this year, and notify the user once the email has been sent.
 
@@ -83,7 +85,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #38
+**Harness configuration updated** · Source event 38
 
 **1. Sub-agent revision request**
 
@@ -92,7 +94,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed the initial assigned subtask: identified contacts aged 78+ (excluding user), sent the group Christmas email (id e99491546510d319bc33d842063d8b97) to kirsten.ravnkilde@gaia2mail.com, aisling.oconnor@gaia2mail.com, somchai.wongtrakul@gaia2mail.com, and notified the user. A new environment notification arrived: EmailClientV2: New email received. I have no tool to read incoming emails, so I cannot verify the reply content or proceed with the follow-up purchase flow.
 ```
 <details>
-<summary>Request and evidence · source event #36</summary>
+<summary>Request and evidence · source event 36</summary>
 
 
 ```text
@@ -139,7 +141,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent successfully sent the group email and notified the user. Now it needs to process the follow-up: waiting 3 minutes, checking for replies, purchasing requested items (cheapest variant if unspecified), and sending confirmation emails. I am providing the necessary tools for email reading, shopping, and timing.
 
@@ -249,7 +251,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

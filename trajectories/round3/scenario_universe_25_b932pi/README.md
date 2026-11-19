@@ -1,6 +1,8 @@
 # scenario_universe_25_b932pi
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_25_b932pi/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_25_b932pi/README.md) · [Codex](../../codex/round3/scenario_universe_25_b932pi/README.md) · [OpenCode](../../opencode/round3/scenario_universe_25_b932pi/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify today&#x27;s earliest event, its attendee, and their address to book the cab. Then, I need to send confirmation messages to both the attendee and the user. This subtask covers the initial booking and notification phase.
 
@@ -100,7 +102,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #20
+**Harness configuration updated** · Source event 20
 
 **1. Sub-agent revision request**
 
@@ -109,7 +111,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed assigned subtask steps 1-6: read today's events, identified earliest event 'Project Planning Meeting' (09:00, tag Work) with attendee Aurélien Dumont, retrieved his address, booked Default cab for 08:50 pickup at Sint-Michielsstraat 6, 3000 Leuven, Belgium to Tiensestraat 57, 3000 Leuven, Belgium (ride id c3de44121c4644ae524e7f6470b6f5f7, status BOOKED), sent attendee a Messages confirmation (message id e7cf1a8da9c54f8db30ca5c9f992f711), and notified the user. New environment notification: 'CabApp: ride cancelled' — potential trigger for the original turn's cancellation follow-up protocol.
 ```
 <details>
-<summary>Request and evidence · source event #18</summary>
+<summary>Request and evidence · source event 18</summary>
 
 
 ```text
@@ -170,7 +172,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The cab booking was cancelled by the driver as notified in the environment history at 2024-10-15 07:03:39. The original task requires waiting until 4 minutes after the initial user notification was sent, checking if the ride was cancelled, and then proceeding with the event rescheduling and notifications. I am revising the task to include these conditional steps.
 

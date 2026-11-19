@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #59 · Main agent: Tool result: call_00_sdt6hgumq6y6exk8hw5x6r4d (is_error=False)</summary>
+<summary>Source event 59 · Main agent: Tool result: call_00_sdt6hgumq6y6exk8hw5x6r4d (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #60 · Main agent: Tool result: call_01_g69ht1gtzvto704xhofn9we0 (is_error=False)</summary>
+<summary>Source event 60 · Main agent: Tool result: call_01_g69ht1gtzvto704xhofn9we0 (is_error=False)</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #61 · Main agent: Model message
+## Source event 61 · Main agent: Model message
 
 ```text
 Replies received:
@@ -54,7 +54,7 @@ Load Shopping tools.
 
 
 
-## Source event #62 · Main agent: Model message
+## Source event 62 · Main agent: Model message
 
 ```text
 All 3 of my recipients replied with requests. (Astrid Kjær also emailed, but she wasn't a recipient of the group email — ignoring.)
@@ -64,7 +64,7 @@ Now let me find these products.
 
 
 
-## Source event #63 · Main agent: Model tool call: ToolSearch (call_00_vo3mvjsisg8xh4ts9pmp5cek)
+## Source event 63 · Main agent: Model tool call: ToolSearch (call_00_vo3mvjsisg8xh4ts9pmp5cek)
 
 ```text
 {
@@ -76,7 +76,7 @@ Now let me find these products.
 
 
 <details>
-<summary>Source event #64 · Main agent: Tool result: call_00_vo3mvjsisg8xh4ts9pmp5cek (is_error=False)</summary>
+<summary>Source event 64 · Main agent: Tool result: call_00_vo3mvjsisg8xh4ts9pmp5cek (is_error=False)</summary>
 
 
 ```text
@@ -116,7 +116,7 @@ Now let me find these products.
 </details>
 
 
-## Source event #65 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_00_si4tdt5z0v16ihn6g9h8fs0c)
+## Source event 65 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_00_si4tdt5z0v16ihn6g9h8fs0c)
 
 ```text
 {
@@ -127,7 +127,7 @@ Now let me find these products.
 
 
 
-## Source event #66 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_01_rkus87sucqu53eocl8ydqgrz)
+## Source event 66 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_01_rkus87sucqu53eocl8ydqgrz)
 
 ```text
 {
@@ -138,7 +138,7 @@ Now let me find these products.
 
 
 
-## Source event #67 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_02_e867kdqk3l51t9rvb03sktr0)
+## Source event 67 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_02_e867kdqk3l51t9rvb03sktr0)
 
 ```text
 {
@@ -150,7 +150,7 @@ Now let me find these products.
 
 
 <details>
-<summary>Source event #68 · Main agent: Tool result: call_00_si4tdt5z0v16ihn6g9h8fs0c (is_error=False)</summary>
+<summary>Source event 68 · Main agent: Tool result: call_00_si4tdt5z0v16ihn6g9h8fs0c (is_error=False)</summary>
 
 
 ```text
@@ -167,7 +167,7 @@ Now let me find these products.
 
 
 <details>
-<summary>Source event #69 · Main agent: Tool result: call_01_rkus87sucqu53eocl8ydqgrz (is_error=False)</summary>
+<summary>Source event 69 · Main agent: Tool result: call_01_rkus87sucqu53eocl8ydqgrz (is_error=False)</summary>
 
 
 ```text
@@ -184,7 +184,7 @@ Now let me find these products.
 
 
 <details>
-<summary>Source event #70 · Main agent: Tool result: call_02_e867kdqk3l51t9rvb03sktr0 (is_error=False)</summary>
+<summary>Source event 70 · Main agent: Tool result: call_02_e867kdqk3l51t9rvb03sktr0 (is_error=False)</summary>
 
 
 ```text
@@ -200,7 +200,7 @@ Now let me find these products.
 </details>
 
 
-## Source event #71 · Main agent: Model message
+## Source event 71 · Main agent: Model message
 
 ```text
 Two found. Need Humbrol tool set. Let me search variations.
@@ -208,7 +208,7 @@ Two found. Need Humbrol tool set. Let me search variations.
 
 
 
-## Source event #72 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_00_vuoygasjbxvtg130cd70dbnt)
+## Source event 72 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_00_vuoygasjbxvtg130cd70dbnt)
 
 ```text
 {
@@ -219,7 +219,7 @@ Two found. Need Humbrol tool set. Let me search variations.
 
 
 
-## Source event #73 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_01_ow7dfhgon35hj8eq1as7btel)
+## Source event 73 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_01_ow7dfhgon35hj8eq1as7btel)
 
 ```text
 {
@@ -230,7 +230,7 @@ Two found. Need Humbrol tool set. Let me search variations.
 
 
 
-## Source event #74 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_02_nzbf6e151w0ed4v1y51fgtk1)
+## Source event 74 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_02_nzbf6e151w0ed4v1y51fgtk1)
 
 ```text
 {
@@ -242,7 +242,7 @@ Two found. Need Humbrol tool set. Let me search variations.
 
 
 <details>
-<summary>Source event #75 · Main agent: Tool result: call_00_vuoygasjbxvtg130cd70dbnt (is_error=False)</summary>
+<summary>Source event 75 · Main agent: Tool result: call_00_vuoygasjbxvtg130cd70dbnt (is_error=False)</summary>
 
 
 ```text
@@ -259,7 +259,7 @@ Two found. Need Humbrol tool set. Let me search variations.
 
 
 <details>
-<summary>Source event #76 · Main agent: Tool result: call_01_ow7dfhgon35hj8eq1as7btel (is_error=False)</summary>
+<summary>Source event 76 · Main agent: Tool result: call_01_ow7dfhgon35hj8eq1as7btel (is_error=False)</summary>
 
 
 ```text
@@ -276,7 +276,7 @@ Two found. Need Humbrol tool set. Let me search variations.
 
 
 <details>
-<summary>Source event #77 · Main agent: Tool result: call_02_nzbf6e151w0ed4v1y51fgtk1 (is_error=False)</summary>
+<summary>Source event 77 · Main agent: Tool result: call_02_nzbf6e151w0ed4v1y51fgtk1 (is_error=False)</summary>
 
 
 ```text
@@ -292,7 +292,7 @@ Two found. Need Humbrol tool set. Let me search variations.
 </details>
 
 
-## Source event #78 · Main agent: Model message
+## Source event 78 · Main agent: Model message
 
 ```text
 All three products found:
@@ -314,7 +314,7 @@ Add to cart: 3 items, quantity 1 each.
 
 
 
-## Source event #79 · Main agent: Model message
+## Source event 79 · Main agent: Model message
 
 ```text
 All three products found with the requested variants available:
@@ -322,7 +322,7 @@ All three products found with the requested variants available:
 
 
 
-## Source event #80 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_q0pcls8darpk4yupyfe8h0ut)
+## Source event 80 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_q0pcls8darpk4yupyfe8h0ut)
 
 ```text
 {
@@ -333,7 +333,7 @@ All three products found with the requested variants available:
 
 
 
-## Source event #81 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_01_ozkq0yvqiczwbcagq0pj5rhg)
+## Source event 81 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_01_ozkq0yvqiczwbcagq0pj5rhg)
 
 ```text
 {
@@ -344,7 +344,7 @@ All three products found with the requested variants available:
 
 
 
-## Source event #82 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_02_6p7vjdqakj03awz3ei4fg6hh)
+## Source event 82 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_02_6p7vjdqakj03awz3ei4fg6hh)
 
 ```text
 {
@@ -356,7 +356,7 @@ All three products found with the requested variants available:
 
 
 <details>
-<summary>Source event #83 · Main agent: Tool result: call_00_q0pcls8darpk4yupyfe8h0ut (is_error=False)</summary>
+<summary>Source event 83 · Main agent: Tool result: call_00_q0pcls8darpk4yupyfe8h0ut (is_error=False)</summary>
 
 
 ```text
@@ -373,7 +373,7 @@ All three products found with the requested variants available:
 
 
 <details>
-<summary>Source event #84 · Main agent: Tool result: call_01_ozkq0yvqiczwbcagq0pj5rhg (is_error=False)</summary>
+<summary>Source event 84 · Main agent: Tool result: call_01_ozkq0yvqiczwbcagq0pj5rhg (is_error=False)</summary>
 
 
 ```text
@@ -390,7 +390,7 @@ All three products found with the requested variants available:
 
 
 <details>
-<summary>Source event #85 · Main agent: Tool result: call_02_6p7vjdqakj03awz3ei4fg6hh (is_error=False)</summary>
+<summary>Source event 85 · Main agent: Tool result: call_02_6p7vjdqakj03awz3ei4fg6hh (is_error=False)</summary>
 
 
 ```text
@@ -406,7 +406,7 @@ All three products found with the requested variants available:
 </details>
 
 
-## Source event #86 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_07opq28f32zy2i3mmt1q0qrg)
+## Source event 86 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_07opq28f32zy2i3mmt1q0qrg)
 
 ```text
 {}
@@ -415,7 +415,7 @@ All three products found with the requested variants available:
 
 
 <details>
-<summary>Source event #87 · Main agent: Tool result: call_00_07opq28f32zy2i3mmt1q0qrg (is_error=False)</summary>
+<summary>Source event 87 · Main agent: Tool result: call_00_07opq28f32zy2i3mmt1q0qrg (is_error=False)</summary>
 
 
 ```text
@@ -431,7 +431,7 @@ All three products found with the requested variants available:
 </details>
 
 
-## Source event #88 · Main agent: Model message
+## Source event 88 · Main agent: Model message
 
 ```text
 Cart has all 3 items. Checkout with no discount code.
@@ -439,7 +439,7 @@ Cart has all 3 items. Checkout with no discount code.
 
 
 
-## Source event #89 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_4m53zl9j9nrj31e6095sui3q)
+## Source event 89 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_4m53zl9j9nrj31e6095sui3q)
 
 ```text
 {}
@@ -448,7 +448,7 @@ Cart has all 3 items. Checkout with no discount code.
 
 
 <details>
-<summary>Source event #90 · Main agent: Tool result: call_00_4m53zl9j9nrj31e6095sui3q (is_error=False)</summary>
+<summary>Source event 90 · Main agent: Tool result: call_00_4m53zl9j9nrj31e6095sui3q (is_error=False)</summary>
 
 
 ```text
@@ -464,7 +464,7 @@ Cart has all 3 items. Checkout with no discount code.
 </details>
 
 
-## Source event #91 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_ues1e867cfyhrzef5hcixsot)
+## Source event 91 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_ues1e867cfyhrzef5hcixsot)
 
 ```text
 {
@@ -475,7 +475,7 @@ Cart has all 3 items. Checkout with no discount code.
 
 
 <details>
-<summary>Source event #92 · Main agent: Tool result: call_00_ues1e867cfyhrzef5hcixsot (is_error=False)</summary>
+<summary>Source event 92 · Main agent: Tool result: call_00_ues1e867cfyhrzef5hcixsot (is_error=False)</summary>
 
 
 ```text
@@ -491,7 +491,7 @@ Cart has all 3 items. Checkout with no discount code.
 </details>
 
 
-## Source event #93 · Main agent: Model message
+## Source event 93 · Main agent: Model message
 
 ```text
 Order processed, total $103.14. Now send separate confirmation emails to each person.
@@ -503,7 +503,7 @@ Somchai: Champion Sports Rhino Mini Promax Ball — Blue, Mini
 
 
 
-## Source event #94 · Main agent: Model message
+## Source event 94 · Main agent: Model message
 
 ```text
 Order placed successfully ($103.14). Now sending individual confirmation emails.
@@ -511,7 +511,7 @@ Order placed successfully ($103.14). Now sending individual confirmation emails.
 
 
 
-## Source event #95 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_1gqhs4eln766zu394bdep13l)
+## Source event 95 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_1gqhs4eln766zu394bdep13l)
 
 ```text
 {
@@ -525,7 +525,7 @@ Order placed successfully ($103.14). Now sending individual confirmation emails.
 
 
 
-## Source event #96 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_01_1jaaydr0tqe24cso3ze8xpy5)
+## Source event 96 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_01_1jaaydr0tqe24cso3ze8xpy5)
 
 ```text
 {
@@ -539,7 +539,7 @@ Order placed successfully ($103.14). Now sending individual confirmation emails.
 
 
 
-## Source event #97 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_02_jv5hu3gct83gnilukr2lb5nf)
+## Source event 97 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_02_jv5hu3gct83gnilukr2lb5nf)
 
 ```text
 {
@@ -554,7 +554,7 @@ Order placed successfully ($103.14). Now sending individual confirmation emails.
 
 
 <details>
-<summary>Source event #98 · Main agent: Tool result: call_00_1gqhs4eln766zu394bdep13l (is_error=False)</summary>
+<summary>Source event 98 · Main agent: Tool result: call_00_1gqhs4eln766zu394bdep13l (is_error=False)</summary>
 
 
 ```text
@@ -571,7 +571,7 @@ Order placed successfully ($103.14). Now sending individual confirmation emails.
 
 
 <details>
-<summary>Source event #99 · Main agent: Tool result: call_01_1jaaydr0tqe24cso3ze8xpy5 (is_error=False)</summary>
+<summary>Source event 99 · Main agent: Tool result: call_01_1jaaydr0tqe24cso3ze8xpy5 (is_error=False)</summary>
 
 
 ```text
@@ -588,7 +588,7 @@ Order placed successfully ($103.14). Now sending individual confirmation emails.
 
 
 <details>
-<summary>Source event #100 · Main agent: Tool result: call_02_jv5hu3gct83gnilukr2lb5nf (is_error=False)</summary>
+<summary>Source event 100 · Main agent: Tool result: call_02_jv5hu3gct83gnilukr2lb5nf (is_error=False)</summary>
 
 
 ```text
@@ -604,7 +604,7 @@ Order placed successfully ($103.14). Now sending individual confirmation emails.
 </details>
 
 
-## Source event #101 · Main agent: Model message
+## Source event 101 · Main agent: Model message
 
 ```text
 All done. Let me report to the user via send_message_to_user? The user asked "Let me know once the email has been sent" — already done. For final, I can just give a final response text. Sending a message to user ends the turn, which is fine since work is complete.
@@ -620,7 +620,7 @@ Let me do that.
 
 
 
-## Source event #102 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_xalj7e2x5zduuj9mfaz24pjs)
+## Source event 102 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_xalj7e2x5zduuj9mfaz24pjs)
 
 ```text
 {
@@ -631,7 +631,7 @@ Let me do that.
 
 
 <details>
-<summary>Source event #103 · Main agent: Tool result: call_00_xalj7e2x5zduuj9mfaz24pjs (is_error=False)</summary>
+<summary>Source event 103 · Main agent: Tool result: call_00_xalj7e2x5zduuj9mfaz24pjs (is_error=False)</summary>
 
 
 ```text
@@ -647,7 +647,7 @@ Let me do that.
 </details>
 
 
-## Source event #104 · Main agent: Model message
+## Source event 104 · Main agent: Model message
 
 ```text
 Task complete.
@@ -667,7 +667,7 @@ Task complete.
 
 
 <details>
-<summary>Source event #105 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 105 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -690,7 +690,7 @@ Task complete.
 
 
 <details>
-<summary>Source event #106 · Judge: Judge rationale</summary>
+<summary>Source event 106 · Judge: Judge rationale</summary>
 
 
 ```text

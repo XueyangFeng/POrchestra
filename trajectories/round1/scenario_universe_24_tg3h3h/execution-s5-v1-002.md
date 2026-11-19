@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #304 · Sub-agent 5: tool result</summary>
+<summary>Source event 304 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ ReturnedEmails(emails=[Email(sender='kwojciechowski@gaia2mail.com', recipients=[
 </details>
 
 
-## Source event #305 · Sub-agent 5: model output
+## Source event 305 · Sub-agent 5: model output
 
 ```text
 Continuing with the attachment search. Searching Messages for Aberdeen and Wikipedia.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #306 · Sub-agent 5: tool result</summary>
+<summary>Source event 306 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #307 · Sub-agent 5: model output
+## Source event 307 · Sub-agent 5: model output
 
 ```text
 Searching Messages for Wikipedia.
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #308 · Sub-agent 5: tool result</summary>
+<summary>Source event 308 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ Action:
 </details>
 
 
-## Source event #309 · Sub-agent 5: model output
+## Source event 309 · Sub-agent 5: model output
 
 ```text
 Searching the filesystem for Aberdeen-related files.
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #310 · Sub-agent 5: tool result</summary>
+<summary>Source event 310 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -116,7 +116,7 @@ Action:
 </details>
 
 
-## Source event #311 · Sub-agent 5: model output
+## Source event 311 · Sub-agent 5: model output
 
 ```text
 Listing Documents directory.
@@ -135,7 +135,7 @@ Action:
 
 
 <details>
-<summary>Source event #312 · Sub-agent 5: tool result</summary>
+<summary>Source event 312 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -149,7 +149,7 @@ Action:
 </details>
 
 
-## Source event #313 · Sub-agent 5: model output
+## Source event 313 · Sub-agent 5: model output
 
 ```text
 Listing the wiki directory.
@@ -168,7 +168,7 @@ Action:
 
 
 <details>
-<summary>Source event #314 · Sub-agent 5: tool result</summary>
+<summary>Source event 314 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -182,7 +182,7 @@ Action:
 </details>
 
 
-## Source event #315 · Sub-agent 5: model output
+## Source event 315 · Sub-agent 5: model output
 
 ```text
 Listing SENT emails to inspect attachments.

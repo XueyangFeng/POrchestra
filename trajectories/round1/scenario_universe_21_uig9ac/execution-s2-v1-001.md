@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #14 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 14 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #15 · Sub-agent 2: model output
+## Source event 15 · Sub-agent 2: model output
 
 ```text
 I'll start by retrieving the current time to determine the date of this coming Sunday.</think>I'll start by retrieving the current time to determine the date of this coming Sunday.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 2: tool result</summary>
+<summary>Source event 16 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #17 · Sub-agent 2: model output
+## Source event 17 · Sub-agent 2: model output
 
 ```text
 Current date is Tuesday, 2024-10-15, so this coming Sunday is 2024-10-20. Now let me look at the saved apartments to find the property.
@@ -66,7 +66,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 2: tool result</summary>
+<summary>Source event 18 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ Action:
 </details>
 
 
-## Source event #19 · Sub-agent 2: model output
+## Source event 19 · Sub-agent 2: model output
 
 ```text
 The apartment 'Malmö Modern' at zip code '211 43' with price 1300 and a Gym amenity is the match (location: Södra Förstadsgatan 20, Malmö). Now I'll create the calendar event for Sunday 2024-10-20 from 14:00 to 16:00.
@@ -99,7 +99,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: tool result</summary>
+<summary>Source event 20 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ e4657cd1b75ef061b9fbfd037e80abd6
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 Calendar event created. Now I'll order the default cab ride from Home to Malmö Modern at 1:00 PM on Sunday.
@@ -133,7 +133,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -156,7 +156,7 @@ Ride ID: 6acbe88d2e50cc6bc7af2e04429d65f0
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 Cab booked successfully. Now let me look up Vasco Pinto on Chats.
@@ -173,7 +173,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -187,7 +187,7 @@ Action:
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 Vasco Pinto found. Now I'll send him the private message.
@@ -206,7 +206,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -220,7 +220,7 @@ Action:
 </details>
 
 
-## Source event #27 · Sub-agent 2: model output
+## Source event 27 · Sub-agent 2: model output
 
 ```text
 All side effects are complete. Now I'll send the final message to the user as required by the subtask.
@@ -237,7 +237,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: tool result</summary>
+<summary>Source event 28 · Sub-agent 2: tool result</summary>
 
 
 ```text

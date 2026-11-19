@@ -1,6 +1,8 @@
 # scenario_universe_22_ci06m6
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_22_ci06m6/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_22_ci06m6/README.md) · [Codex](../../codex/round1/scenario_universe_22_ci06m6/README.md) · [OpenCode](../../opencode/round1/scenario_universe_22_ci06m6/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the recipient IDs, create the calendar event, send the invitation messages, and inform the user about the initial setup as requested. This is the first step of the task.
 
@@ -87,7 +89,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #20
+**Harness configuration updated** · Source event 20
 
 **1. Sub-agent revision request**
 
@@ -96,7 +98,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Subtasks 1-5 completed. New incoming messages arrived after the user was notified, including in the Guillermo conversation.
 ```
 <details>
-<summary>Request and evidence · source event #18</summary>
+<summary>Request and evidence · source event 18</summary>
 
 
 ```text
@@ -148,7 +150,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent needs tools to read conversation replies, inspect the user&#x27;s calendar for conflicts, delete/add calendar events, and send updated messages to attendees. We will expand the tools and provide instructions on how to handle the new notifications, resolve the schedule, and notify the invitees.
 

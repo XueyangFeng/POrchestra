@@ -1,6 +1,8 @@
 # scenario_universe_24_qxnvnd
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_24_qxnvnd/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_24_qxnvnd/README.md) · [Codex](../../codex/round3/scenario_universe_24_qxnvnd/README.md) · [OpenCode](../../opencode/round3/scenario_universe_24_qxnvnd/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the participants of the most recently updated group conversation in Messages. To do this accurately, I first need to determine who the current user is to exclude them, then list the recent conversations to find the latest group one, and finally fetch the contact details (specifically names and email addresses) for those participants.
 
@@ -89,11 +91,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #24
+**Initial harness configuration** · Source event 24
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The participants of the most recently updated Messages group conversation have been identified. Now I need to count how many emails each of these participants (Aurélie Dumont, Nadja Ramadanović, and Kiyoshi Nakahara) sent to the user in October 2024, determine the winner (with alphabetical tie-breaking), and report the first name to the user.
 

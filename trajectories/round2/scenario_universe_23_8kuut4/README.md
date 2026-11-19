@@ -1,6 +1,8 @@
 # scenario_universe_23_8kuut4
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_23_8kuut4/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_23_8kuut4/README.md) · [Codex](../../codex/round2/scenario_universe_23_8kuut4/README.md) · [OpenCode](../../opencode/round2/scenario_universe_23_8kuut4/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to start by identifying the user&#x27;s city and the contacts living in that same city to gather the relevant zip codes.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #38
+**Initial harness configuration** · Source event 38
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous subagent successfully identified the user&#x27;s city (Prague) and the unique zip codes of contacts living there: &#x27;110 00&#x27;, &#x27;118 00&#x27;, &#x27;130 00&#x27;, and &#x27;150 00&#x27;. The next step is to analyze the crime rates for these zip codes to find the one with the highest total crime (violent + property) and then find the lowest property price in that specific zip code.
 

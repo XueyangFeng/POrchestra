@@ -1,6 +1,8 @@
 # scenario_universe_30_qhxkqu
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_30_qhxkqu/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_30_qhxkqu/README.md) · [Codex](../../codex/round2/scenario_universe_30_qhxkqu/README.md) · [OpenCode](../../opencode/round2/scenario_universe_30_qhxkqu/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to perform the initial calendar modifications: canceling &#x27;Yoga Class&#x27; and &#x27;Paper Review&#x27; for tomorrow (2024-10-16) and creating the &#x27;Nightly Project&#x27; event. The details of the canceled events must be recorded for potential restoration later. The user also requested to be notified when the event is created.
 
@@ -83,7 +85,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #22
+**Harness configuration updated** · Source event 22
 
 **1. Sub-agent revision request**
 
@@ -92,7 +94,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Assigned subtask (steps 1-3) was fully completed: Yoga Class and Paper Review on 2024-10-16 were deleted after recording details, Nightly Project was created for 2024-10-16 18:00-23:00 at University of Cambridge, Department of Physics with Helmut Eisenstadt and Gerrit van der Meer, and the user was notified. After the notification, the environment reported two calendar deletions. Read-only verification shows no events remain on 2024-10-16 and no 'Nightly Project' exists anywhere (Oct 15-31 listing): the Nightly Project was deleted by attendee Helmut Eisenstadt, triggering the user's conditional follow-up. No further side effects were taken; awaiting MainAgent direction.
 ```
 <details>
-<summary>Request and evidence · source event #20</summary>
+<summary>Request and evidence · source event 20</summary>
 
 
 ```text
@@ -149,7 +151,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 An attendee (Helmut Eisenstadt) cancelled the Wednesday &#x27;Nightly Project&#x27; event, triggering the user&#x27;s first conditional instruction. I am revising the task to restore the Wednesday events, reschedule the project for Thursday, manage Thursday conflicts, and notify the user. The agent must then wait for any further attendee cancellations as specified in the second conditional instruction.
 

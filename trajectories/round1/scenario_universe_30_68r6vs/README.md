@@ -1,6 +1,8 @@
 # scenario_universe_30_68r6vs
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_30_68r6vs/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_30_68r6vs/README.md) · [Codex](../../codex/round1/scenario_universe_30_68r6vs/README.md) · [OpenCode](../../opencode/round1/scenario_universe_30_68r6vs/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify the lunch meeting today, the colleagues attending, and the event immediately preceding it to determine the cab&#x27;s start and end locations and pickup time. Then, I need to send the initial inquiry messages to those colleagues.
 
@@ -91,11 +93,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #22
+**Initial harness configuration** · Source event 22
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 Check for responses from the colleagues until 3 minutes have passed since the original message (until 07:03:00). If no response is received, order the default cab for 12:45 from the preceding event location to the lunch location, and send confirmation messages with the ride details to both colleagues.
 
@@ -172,7 +174,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

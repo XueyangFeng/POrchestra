@@ -4,7 +4,7 @@
 
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
-## Source event #394 · Sub-agent 6: model output
+## Source event 394 · Sub-agent 6: model output
 
 ```text
 Thought: I have completed the first two subtasks and exhaustively searched the obvious locations for the Aberdeen Wikipedia .txt, but have not yet located it. Since no further tool calls are allowed at this boundary, I will hand off with exact values so MainAgent can continue steps 3-4.

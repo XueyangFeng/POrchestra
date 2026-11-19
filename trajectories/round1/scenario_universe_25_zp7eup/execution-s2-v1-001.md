@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #60 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 60 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #61 · Sub-agent 2: model output
+## Source event 61 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 2: tool result</summary>
+<summary>Source event 62 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Action:
 </details>
 
 
-## Source event #63 · Sub-agent 2: model output
+## Source event 63 · Sub-agent 2: model output
 
 ```text
 The search for "lawyer" returned no results. Let me try searching for "retired" or browse all contacts.
@@ -66,7 +66,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 2: tool result</summary>
+<summary>Source event 64 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ Action:
 </details>
 
 
-## Source event #65 · Sub-agent 2: model output
+## Source event 65 · Sub-agent 2: model output
 
 ```text
 No results for "retired" either. Let me retrieve the full contact list.
@@ -97,7 +97,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 2: tool result</summary>
+<summary>Source event 66 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -111,7 +111,7 @@ Action:
 </details>
 
 
-## Source event #67 · Sub-agent 2: model output
+## Source event 67 · Sub-agent 2: model output
 
 ```text
 Found the retired lawyer: **Somsak Wongcharee** (email: somsak.wongcharee@gaia2mail.com).
@@ -131,7 +131,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 2: tool result</summary>
+<summary>Source event 68 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -145,7 +145,7 @@ Action:
 </details>
 
 
-## Source event #69 · Sub-agent 2: model output
+## Source event 69 · Sub-agent 2: model output
 
 ```text
 One email found in INBOX. Let me search more thoroughly to ensure I catch all emails from Khalifa Al-Mansoori across folders.
@@ -163,7 +163,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 2: tool result</summary>
+<summary>Source event 70 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -177,7 +177,7 @@ Action:
 </details>
 
 
-## Source event #71 · Sub-agent 2: model output
+## Source event 71 · Sub-agent 2: model output
 
 ```text
 Let me verify there are no other emails from Khalifa Al-Mansoori in other folders.
@@ -195,7 +195,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 2: tool result</summary>
+<summary>Source event 72 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -209,7 +209,7 @@ Action:
 </details>
 
 
-## Source event #73 · Sub-agent 2: model output
+## Source event 73 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -225,7 +225,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 2: tool result</summary>
+<summary>Source event 74 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -239,7 +239,7 @@ Action:
 </details>
 
 
-## Source event #75 · Sub-agent 2: model output
+## Source event 75 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -255,7 +255,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 2: tool result</summary>
+<summary>Source event 76 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -269,7 +269,7 @@ Action:
 </details>
 
 
-## Source event #77 · Sub-agent 2: model output
+## Source event 77 · Sub-agent 2: model output
 
 ```text
 Let me do one more check to ensure I find all received emails from Khalifa.
@@ -287,7 +287,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 2: tool result</summary>
+<summary>Source event 78 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -301,7 +301,7 @@ Action:
 </details>
 
 
-## Source event #79 · Sub-agent 2: model output
+## Source event 79 · Sub-agent 2: model output
 
 ```text
 I found exactly 1 email received from Khalifa Al-Mansoori (khalifa.almansoori@gaia2mail.com): email_id `74bd4c0171a5493ca38a66256c59bb11` in INBOX. The other "Al-Mansoori" senders are different people, so they don't count.
@@ -322,7 +322,7 @@ Action:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 2: tool result</summary>
+<summary>Source event 80 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -346,7 +346,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #81 · Sub-agent 2: model output
+## Source event 81 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -363,7 +363,7 @@ Action:
 
 
 <details>
-<summary>Source event #82 · Sub-agent 2: tool result</summary>
+<summary>Source event 82 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -377,7 +377,7 @@ eac429b410b76e2c8d5408beefc4019b
 </details>
 
 
-## Source event #83 · Sub-agent 2: model output
+## Source event 83 · Sub-agent 2: model output
 
 ```text
 The email has been forwarded successfully. I found exactly 1 email received from Khalifa Al-Mansoori and forwarded it to the retired lawyer, Somsak Wongcharee. Now I'll report the count to the user.
@@ -394,7 +394,7 @@ Action:
 
 
 <details>
-<summary>Source event #84 · Sub-agent 2: tool result</summary>
+<summary>Source event 84 · Sub-agent 2: tool result</summary>
 
 
 ```text

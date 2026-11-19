@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #38 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 38 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #39 · Sub-agent 3: model output
+## Source event 39 · Sub-agent 3: model output
 
 ```text
 I'll start by searching for the product in the shopping app.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 3: tool result</summary>
+<summary>Source event 40 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 3: model output
+## Source event 41 · Sub-agent 3: model output
 
 ```text
 The search found the product with two variants — a Hardcover (available, $21.18) and a Paperback (unavailable). Let me get the product details to confirm.
@@ -70,7 +70,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 3: tool result</summary>
+<summary>Source event 42 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -84,7 +84,7 @@ Product(name='Conan - Book of Skelos', product_id='515211a913048aac655f4b794e671
 </details>
 
 
-## Source event #43 · Sub-agent 3: model output
+## Source event 43 · Sub-agent 3: model output
 
 ```text
 Confirmed the hardcover variant (item_id `a6e215dc9c044e58a6633b6f9ef1290d`, $21.18, available). Let me check the current cart state before adding.
@@ -99,7 +99,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 3: tool result</summary>
+<summary>Source event 44 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 3: model output
+## Source event 45 · Sub-agent 3: model output
 
 ```text
 Cart is empty. Adding exactly one hardcover copy.
@@ -131,7 +131,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 3: tool result</summary>
+<summary>Source event 46 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -145,7 +145,7 @@ a6e215dc9c044e58a6633b6f9ef1290d
 </details>
 
 
-## Source event #47 · Sub-agent 3: model output
+## Source event 47 · Sub-agent 3: model output
 
 ```text
 Item added. Let me verify the cart contents before checkout.
@@ -160,7 +160,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 3: tool result</summary>
+<summary>Source event 48 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ Action:
 </details>
 
 
-## Source event #49 · Sub-agent 3: model output
+## Source event 49 · Sub-agent 3: model output
 
 ```text
 Cart contains exactly one hardcover copy at $21.18. Proceeding to checkout (no discount code provided).
@@ -189,7 +189,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 3: tool result</summary>
+<summary>Source event 50 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -203,7 +203,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 3: model output
+## Source event 51 · Sub-agent 3: model output
 
 ```text
 Checkout succeeded with an order ID. Let me verify order details and total cost.
@@ -218,7 +218,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 3: tool result</summary>
+<summary>Source event 52 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -232,7 +232,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 3: model output
+## Source event 53 · Sub-agent 3: model output
 
 ```text
 The order has been placed successfully. All steps are complete: searched, identified the hardcover variant, added exactly one copy, checked out, and verified the order.
@@ -284,7 +284,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 3: tool result</summary>
+<summary>Source event 54 · Sub-agent 3: tool result</summary>
 
 
 ```text

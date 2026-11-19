@@ -1,6 +1,8 @@
 # scenario_universe_28_04jord
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_28_04jord/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_28_04jord/README.md) · [Codex](../../codex/round2/scenario_universe_28_04jord/README.md) · [OpenCode](../../opencode/round2/scenario_universe_28_04jord/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to start the monitoring phase of the request, which involves checking the RentAFlat app every second for 4 minutes for listings in the 8000 zip code and saving them.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #74
+**Initial harness configuration** · Source event 74
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The monitoring task is complete. Two new listings in zip code 8000 were saved (last one at 07:03:52). The next step is to wait until exactly 07:04:52 (1 minute after the last save) and, because at least two listings were saved, delete all saved properties in zip code 9000.
 

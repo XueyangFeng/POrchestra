@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 I'll start by listing all apartments and checking the API call limit for crime rates.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 I have all apartments. Now let me check the API call limit before querying crime rates for the many unique zip codes.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Action:
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 API limit is 100. Let me check the current call count, then I'll compile unique zip codes.
@@ -94,7 +94,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -108,7 +108,7 @@ Action:
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 API limit is 100 and count is 0. I've identified **77 unique zip codes** across the apartments. That's within the limit. Let me now retrieve crime rates for each. Starting with the first batch:
@@ -125,7 +125,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -139,7 +139,7 @@ CrimeDataPoint(violent_crime=2.3, property_crime=22.67)
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 Crime rate for 60654: property_crime=22.67. I have 77 unique zip codes to query (77 ≤ 99 remaining calls). Let me proceed through them.
@@ -156,7 +156,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ CrimeDataPoint(violent_crime=9.66, property_crime=15.09)
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 Continuing with crime rate queries for all unique zip codes.
@@ -187,7 +187,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -201,7 +201,7 @@ CrimeDataPoint(violent_crime=13.23, property_crime=28.07)
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Continuing with the remaining unique zip codes.
@@ -218,7 +218,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -232,7 +232,7 @@ CrimeDataPoint(violent_crime=25.37, property_crime=33.03)
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 Continuing crime rate queries for remaining unique zip codes (73 left, well within the 100-call limit).
@@ -249,7 +249,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -263,7 +263,7 @@ CrimeDataPoint(violent_crime=29.83, property_crime=25.96)
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 Continuing crime rate queries.
@@ -280,7 +280,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -294,7 +294,7 @@ CrimeDataPoint(violent_crime=5.34, property_crime=48.83)
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 Progress: 6 of 77 zip codes queried (remaining budget is fine). Continuing.
@@ -311,7 +311,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -325,7 +325,7 @@ CrimeDataPoint(violent_crime=11.41, property_crime=46.87)
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 Progress so far (7 of 77 zips queried). Continuing with remaining unique zip codes.
@@ -342,7 +342,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -356,7 +356,7 @@ CrimeDataPoint(violent_crime=17.49, property_crime=23.83)
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 I need to plan carefully—76 unique zip codes means ~69 more crime rate queries, plus saving apartments and messaging. That likely exceeds my current step budget. Let me request additional budget now rather than risk exhausting it mid-task.
@@ -405,7 +405,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_21_xvc7uo
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_21_xvc7uo/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_21_xvc7uo/README.md) · [Codex](../../codex/round1/scenario_universe_21_xvc7uo/README.md) · [OpenCode](../../opencode/round1/scenario_universe_21_xvc7uo/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial list management (cleaning and updating the saved apartments list) and find the contact information for Linnea Svensson to prepare for the monitoring task.
 
@@ -98,11 +100,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #26
+**Initial harness configuration** · Source event 26
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The saved list management is complete. Now I need to monitor for new listings in Stockholm within the 1000-1800 price range for the remainder of the 4-minute window (until 2024-10-15 07:04:00). I have Linnea Svensson&#x27;s user ID and the set of properties already in the list.
 
@@ -172,7 +174,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_21_jywgsj
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_21_jywgsj/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_21_jywgsj/README.md) · [Codex](../../codex/round3/scenario_universe_21_jywgsj/README.md) · [OpenCode](../../opencode/round3/scenario_universe_21_jywgsj/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #6
+**Initial harness configuration** · Source event 6
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Processing the calendar-related tasks first: cancelling the brand partnership meeting on 10/19 at 2 PM and creating a gym session on 10/19 from 9 AM to 10 AM.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #20
+**Initial harness configuration** · Source event 20
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The calendar tasks are complete. Now I need to update the saved property list by removing &#x27;Lund Living&#x27; and saving &#x27;Uppsala Urban&#x27;.
 
@@ -150,11 +152,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #37
+**Initial harness configuration** · Source event 37
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The calendar and property list tasks have been completed. Now I need to handle the purchase of the specific Star Wars gloves.
 
@@ -219,11 +221,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #52
+**Initial harness configuration** · Source event 52
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 The calendar, property, and shopping tasks have been completed and verified. The remaining task is to remove Åke Svensson from the contact list.
 
@@ -283,7 +285,7 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #5</summary>
+<summary>Source event 5</summary>
 
 
 ```text

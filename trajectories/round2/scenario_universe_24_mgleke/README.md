@@ -1,6 +1,8 @@
 # scenario_universe_24_mgleke
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_24_mgleke/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_24_mgleke/README.md) · [Codex](../../codex/round2/scenario_universe_24_mgleke/README.md) · [OpenCode](../../opencode/round2/scenario_universe_24_mgleke/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Identify the target sender from emails with &#x27;Seeking&#x27; in the subject based on age and alphabetical order of first names.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #46
+**Initial harness configuration** · Source event 46
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The youngest sender of emails with &#x27;Seeking&#x27; in the subject has been identified as Akua Nkrumah (akuankrumah@student.uantwerpen.be). Now I need to count the conversations with her on Messages and Chats and report the total to the user.
 

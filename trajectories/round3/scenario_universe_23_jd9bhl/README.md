@@ -1,6 +1,8 @@
 # scenario_universe_23_jd9bhl
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_23_jd9bhl/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_23_jd9bhl/README.md) · [Codex](../../codex/round3/scenario_universe_23_jd9bhl/README.md) · [OpenCode](../../opencode/round3/scenario_universe_23_jd9bhl/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to manage the user&#x27;s calendar for the next three Saturdays to free up time for work. This involves identifying the dates, cancelling overlapping events, and scheduling new &#x27;Work From Home&#x27; blocks.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #33
+**Initial harness configuration** · Source event 33
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The calendar adjustments for the next three Saturdays are complete. I now need to handle the group email to the family members the user had dinner with this month.
 
@@ -152,11 +154,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #47
+**Initial harness configuration** · Source event 47
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The calendar events have been updated and the group email has been sent. The final requirement is to contact a person in the Prague Police Department via Chats or Messages. This subtask will identify the correct contact and send the requested private message.
 
@@ -222,7 +224,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

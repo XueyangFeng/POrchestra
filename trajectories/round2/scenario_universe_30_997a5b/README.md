@@ -1,6 +1,8 @@
 # scenario_universe_30_997a5b
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_30_997a5b/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_30_997a5b/README.md) · [Codex](../../codex/round2/scenario_universe_30_997a5b/README.md) · [OpenCode](../../opencode/round2/scenario_universe_30_997a5b/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I will begin by handling the calendar and group email task. This involves finding specific events, gathering attendee information, deleting the events, and sending a collective notification email.
 
@@ -83,7 +85,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #17
+**Harness configuration updated** · Source event 17
 
 **1. Sub-agent revision request**
 
@@ -92,7 +94,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Found and deleted 2 events titled 'Meeting with Students' in range 2024-10-15 07:00:00 to 2024-10-31 23:59:59: (1) feabca495da74c33b947de57eec34f32, Thu 2024-10-17 09:00-11:00, attendees ['Evangelia Papadopoulos','Kaidën Nakamura']; (2) a94ec48e7af84a898b178c546191560b, Tue 2024-10-22 10:00-12:00, attendees ['Kaspar Eisenstadt','Akira Kaur']. Both deletions confirmed successful. Group email failed because Emails__send_email requires real email addresses, not contact names; no contacts-lookup tool is available in my toolset.
 ```
 <details>
-<summary>Request and evidence · source event #15</summary>
+<summary>Request and evidence · source event 15</summary>
 
 
 ```text
@@ -137,7 +139,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent successfully deleted the calendar events but lacks the email addresses for the attendees to send the group email. I am providing the necessary contact and email tools to resolve these addresses and complete the group email task. Additionally, I am expanding the scope to include other contact and email-related tasks from the original request: replying to the &#x27;former climatologist&#x27; and updating the user&#x27;s own job title.
 
@@ -244,11 +246,11 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #45
+**Initial harness configuration** · Source event 45
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The calendar, email, and contact update tasks are complete. I now need to handle the file deletion, the shopping purchase, and the cab reservation. I will delegate these remaining environment-interaction tasks to a new SubAgent.
 
@@ -321,7 +323,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

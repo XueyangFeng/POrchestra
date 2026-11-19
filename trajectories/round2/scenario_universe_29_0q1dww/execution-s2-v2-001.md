@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #54 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 54 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Execute the fallback ordering and communication steps following the cancellation
 </details>
 
 
-## Source event #55 · Sub-agent 2: model output
+## Source event 55 · Sub-agent 2: model output
 
 ```text
 Checking the cart state after the cancellation before re-adding items.
@@ -32,7 +32,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 2: tool result</summary>
+<summary>Source event 56 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -46,7 +46,7 @@ Action:
 </details>
 
 
-## Source event #57 · Sub-agent 2: model output
+## Source event 57 · Sub-agent 2: model output
 
 ```text
 Cart is empty after cancellation. Adding 3 units of the variant.
@@ -64,7 +64,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 2: tool result</summary>
+<summary>Source event 58 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -78,7 +78,7 @@ Action:
 </details>
 
 
-## Source event #59 · Sub-agent 2: model output
+## Source event 59 · Sub-agent 2: model output
 
 ```text
 Cart updated. Now checking out with the second code.
@@ -95,7 +95,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 2: tool result</summary>
+<summary>Source event 60 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -109,7 +109,7 @@ Action:
 </details>
 
 
-## Source event #61 · Sub-agent 2: model output
+## Source event 61 · Sub-agent 2: model output
 
 ```text
 Second order placed. Verifying details to get the exact total.
@@ -126,7 +126,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 2: tool result</summary>
+<summary>Source event 62 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -140,7 +140,7 @@ Order(order_status='processed', order_date=datetime.datetime(2024, 10, 15, 7, 1,
 </details>
 
 
-## Source event #63 · Sub-agent 2: model output
+## Source event 63 · Sub-agent 2: model output
 
 ```text
 Second order placed (processed), total $61.18. Creating the sisters' group chat now.
@@ -157,7 +157,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 2: tool result</summary>
+<summary>Source event 64 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -171,7 +171,7 @@ d96ffd24fe99eb60e265f1312f4c0bc6
 </details>
 
 
-## Source event #65 · Sub-agent 2: model output
+## Source event 65 · Sub-agent 2: model output
 
 ```text
 Group chat created. Sending the message to the group.
@@ -189,7 +189,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 2: tool result</summary>
+<summary>Source event 66 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -203,7 +203,7 @@ d96ffd24fe99eb60e265f1312f4c0bc6
 </details>
 
 
-## Source event #67 · Sub-agent 2: model output
+## Source event 67 · Sub-agent 2: model output
 
 ```text
 Message sent to the sisters' group. Let me verify the order status once more before reporting to the user.
@@ -220,7 +220,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 2: tool result</summary>
+<summary>Source event 68 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -234,7 +234,7 @@ Order(order_status='processed', order_date=datetime.datetime(2024, 10, 15, 7, 1,
 </details>
 
 
-## Source event #69 · Sub-agent 2: model output
+## Source event 69 · Sub-agent 2: model output
 
 ```text
 Order status is 'processed' so far. Since the first order was also 'processed' before being cancelled via notification, let me wait briefly for a possible cancellation notice.
@@ -251,7 +251,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 2: tool result</summary>
+<summary>Source event 70 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -266,7 +266,7 @@ None
 
 
 <details>
-<summary>Source event #71 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 71 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -279,7 +279,7 @@ Environment notifications:
 </details>
 
 
-## Source event #72 · Sub-agent 2: model output
+## Source event 72 · Sub-agent 2: model output
 
 ```text
 No cancellation notice yet. Re-checking order status.
@@ -296,7 +296,7 @@ Action:
 
 
 <details>
-<summary>Source event #73 · Sub-agent 2: tool result</summary>
+<summary>Source event 73 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -310,7 +310,7 @@ Order(order_status='processed', order_date=datetime.datetime(2024, 10, 15, 7, 1,
 </details>
 
 
-## Source event #74 · Sub-agent 2: model output
+## Source event 74 · Sub-agent 2: model output
 
 ```text
 Checking the full order list to confirm the cancellation pattern for order 1.
@@ -325,7 +325,7 @@ Action:
 
 
 <details>
-<summary>Source event #75 · Sub-agent 2: tool result</summary>
+<summary>Source event 75 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -339,7 +339,7 @@ Action:
 </details>
 
 
-## Source event #76 · Sub-agent 2: model output
+## Source event 76 · Sub-agent 2: model output
 
 ```text
 Order 1 confirmed 'cancelled'; order 2 is 'processed'. All fallback side effects (checkout, group chat, group message) are complete. Now messaging the user with the retry details.
@@ -357,7 +357,7 @@ Action:
 
 
 <details>
-<summary>Source event #77 · Sub-agent 2: tool result</summary>
+<summary>Source event 77 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -372,7 +372,7 @@ None
 
 
 <details>
-<summary>Source event #78 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 78 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -385,7 +385,7 @@ Environment notifications:
 </details>
 
 
-## Source event #79 · Sub-agent 2: model output
+## Source event 79 · Sub-agent 2: model output
 
 ```text
 The second order was also cancelled. This is a new environment notification, so per protocol I must report it to MainAgent before taking further side effects (though the pre-planned step 5 is already outlined, I also need more budget).
@@ -443,7 +443,7 @@ Action:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 2: tool result</summary>
+<summary>Source event 80 · Sub-agent 2: tool result</summary>
 
 
 ```text

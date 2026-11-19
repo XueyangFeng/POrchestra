@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #202 · Main agent: Tool result: call_00_wdrsp1l1ao5mdg5f0knqctap (is_error=False)</summary>
+<summary>Source event 202 · Main agent: Tool result: call_00_wdrsp1l1ao5mdg5f0knqctap (is_error=False)</summary>
 
 
 ```text
@@ -543,7 +543,7 @@ names ('__doc__', 'base64', 'json', 'os', 're', 'time', 'uuid', 'datetime', 'tim
 </details>
 
 
-## Source event #203 · Main agent: Model message
+## Source event 203 · Main agent: Model message
 
 ```text
 Interesting: Messages app docstring says "(NAME mode)"? Wait messages.pyc says "Standalone CLI for the Messages messaging app (NAME mode)." but data uses phone numbers? Chats says "(PHONE_NUMBER mode)" but data uses UUIDs. Maybe swapped? Let's parse: messages.pyc has APP_NAME 'Messages', mode NAME maybe internal user IDs are names? But our Messages data had phone numbers as participant IDs. Chats data had UUIDs. Maybe the docstrings are swapped or modes indicate ID type: Messages uses NAME mode? Actually `_validate_user_ids` says "User X is not a valid phone number" maybe both. The output may not matter.
@@ -625,7 +625,7 @@ Let's send.
 
 
 
-## Source event #204 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_a2afgz5dtil4ecif2h6ix48j)
+## Source event 204 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_a2afgz5dtil4ecif2h6ix48j)
 
 ```text
 {
@@ -636,7 +636,7 @@ Let's send.
 
 
 <details>
-<summary>Source event #205 · Main agent: Tool result: call_00_a2afgz5dtil4ecif2h6ix48j (is_error=False)</summary>
+<summary>Source event 205 · Main agent: Tool result: call_00_a2afgz5dtil4ecif2h6ix48j (is_error=False)</summary>
 
 
 ```text
@@ -652,7 +652,7 @@ Let's send.
 </details>
 
 
-## Source event #206 · Main agent: Model message
+## Source event 206 · Main agent: Model message
 
 ```text
 We sent. Need final response maybe concise. The task says answer only with full name; our app message did. In final, maybe don't add anything? The user sees tool? The final answer should perhaps say nothing or the name. Since they asked only name, respond with name. But the app message is real reply. We can final with same.
@@ -660,7 +660,7 @@ We sent. Need final response maybe concise. The task says answer only with full 
 
 
 
-## Source event #207 · Main agent: Model message
+## Source event 207 · Main agent: Model message
 
 ```text
 Fatima Al-Khaja
@@ -669,7 +669,7 @@ Fatima Al-Khaja
 
 
 <details>
-<summary>Source event #208 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 208 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -681,7 +681,7 @@ Fatima Al-Khaja
 
 
 <details>
-<summary>Source event #209 · Judge: Judge rationale</summary>
+<summary>Source event 209 · Judge: Judge rationale</summary>
 
 
 ```text

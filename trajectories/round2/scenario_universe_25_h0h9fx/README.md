@@ -1,6 +1,8 @@
 # scenario_universe_25_h0h9fx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_25_h0h9fx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_25_h0h9fx/README.md) · [Codex](../../codex/round2/scenario_universe_25_h0h9fx/README.md) · [OpenCode](../../opencode/round2/scenario_universe_25_h0h9fx/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to perform the initial setup: create the calendar event for October 26th and reply to Nalinee&#x27;s email from October 13th with the specified details. I also need to notify the user once this email is sent.
 
@@ -91,7 +93,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #50
+**Harness configuration updated** · Source event 50
 
 **1. Sub-agent revision request**
 
@@ -100,7 +102,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Assigned subtask steps 1-5 completed: found Nalinee Srisombat's 2024-10-13 email, created 'Lunch' event 2024-10-26 13:00-15:00 with her as attendee, sent the exact requested reply text, and messaged the user confirming the reply. NEW environment notification arrived: Calendar event deleted by Nalinee Srisombat, plus a new email. Investigation shows the new email is NOT from Nalinee — it is from Séamus Vandenberghe (timestamp ~2024-10-15 07:00), and repeated searches of INBOX/TRASH for Nalinee replies ('Nalinee', 'Srisombat', 'Re:', 'confirm', 'lunch', 'reschedule', '10/26', 'available') returned no reply from her. So the trigger is the calendar deletion, meaning per the original turn the 10/20/24 lunch event and the three downstream actions are now required.
 ```
 <details>
-<summary>Request and evidence · source event #48</summary>
+<summary>Request and evidence · source event 48</summary>
 
 
 ```text
@@ -156,7 +158,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent correctly identified that Nalinee Srisombat deleted the calendar event, triggering the reschedule path (Case A) from the original task. I am expanding the task scope to include the follow-up actions: creating the new calendar event for 10/20/24, booking the cab from the user&#x27;s home, ordering the gift, and saving the property. I am providing the necessary tools for these actions.
 

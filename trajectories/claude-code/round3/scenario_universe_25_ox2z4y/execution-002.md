@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #58 · Main agent: Tool result: call_03_06jq6blnoi654ygzdse5hrvv (is_error=False)</summary>
+<summary>Source event 58 · Main agent: Tool result: call_03_06jq6blnoi654ygzdse5hrvv (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #59 · Main agent: Tool result: call_04_h541h6mp6lbjqqxajdi21piq (is_error=False)</summary>
+<summary>Source event 59 · Main agent: Tool result: call_04_h541h6mp6lbjqqxajdi21piq (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #60 · Main agent: Tool result: call_05_keb3fhmgmhoe6er9wtvgqxj8 (is_error=False)</summary>
+<summary>Source event 60 · Main agent: Tool result: call_05_keb3fhmgmhoe6er9wtvgqxj8 (is_error=False)</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #61 · Main agent: Tool result: call_06_ynmihky6qa1853r7t8pcnq6p (is_error=False)</summary>
+<summary>Source event 61 · Main agent: Tool result: call_06_ynmihky6qa1853r7t8pcnq6p (is_error=False)</summary>
 
 
 ```text
@@ -72,7 +72,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #62 · Main agent: Model message
+## Source event 62 · Main agent: Model message
 
 ```text
 Now I have all 108 contacts. Let me build the phone→contact map and verify participants.
@@ -755,7 +755,7 @@ OK. Let me still double-check by reading the actual conversations to confirm par
 
 
 
-## Source event #63 · Main agent: Model message
+## Source event 63 · Main agent: Model message
 
 ```text
 I've compiled all 108 contacts. Let me verify the six in-window "Net-Zero Energy" conversations directly (participants + message dates).
@@ -763,7 +763,7 @@ I've compiled all 108 contacts. Let me verify the six in-window "Net-Zero Energy
 
 
 
-## Source event #64 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_y73w1bsgste1wqz2swh0pfz1)
+## Source event 64 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_y73w1bsgste1wqz2swh0pfz1)
 
 ```text
 {
@@ -774,7 +774,7 @@ I've compiled all 108 contacts. Let me verify the six in-window "Net-Zero Energy
 
 
 
-## Source event #65 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_01_6bww09i62oli85rk4evqfxpr)
+## Source event 65 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_01_6bww09i62oli85rk4evqfxpr)
 
 ```text
 {
@@ -785,7 +785,7 @@ I've compiled all 108 contacts. Let me verify the six in-window "Net-Zero Energy
 
 
 
-## Source event #66 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_02_80tj0r3od2j2bfj5n2u62vgd)
+## Source event 66 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_02_80tj0r3od2j2bfj5n2u62vgd)
 
 ```text
 {
@@ -796,7 +796,7 @@ I've compiled all 108 contacts. Let me verify the six in-window "Net-Zero Energy
 
 
 
-## Source event #67 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_03_87hq9o6gp6xw7icp6xj1fm2n)
+## Source event 67 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_03_87hq9o6gp6xw7icp6xj1fm2n)
 
 ```text
 {
@@ -807,7 +807,7 @@ I've compiled all 108 contacts. Let me verify the six in-window "Net-Zero Energy
 
 
 
-## Source event #68 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_04_unp4b9q219gy6vmrtzir3452)
+## Source event 68 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_04_unp4b9q219gy6vmrtzir3452)
 
 ```text
 {
@@ -818,7 +818,7 @@ I've compiled all 108 contacts. Let me verify the six in-window "Net-Zero Energy
 
 
 
-## Source event #69 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_05_r6n0h9nc21bmb2tbn84rzao2)
+## Source event 69 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_05_r6n0h9nc21bmb2tbn84rzao2)
 
 ```text
 {
@@ -830,7 +830,7 @@ I've compiled all 108 contacts. Let me verify the six in-window "Net-Zero Energy
 
 
 <details>
-<summary>Source event #70 · Main agent: Tool result: call_00_y73w1bsgste1wqz2swh0pfz1 (is_error=False)</summary>
+<summary>Source event 70 · Main agent: Tool result: call_00_y73w1bsgste1wqz2swh0pfz1 (is_error=False)</summary>
 
 
 ```text
@@ -847,7 +847,7 @@ I've compiled all 108 contacts. Let me verify the six in-window "Net-Zero Energy
 
 
 <details>
-<summary>Source event #71 · Main agent: Tool result: call_01_6bww09i62oli85rk4evqfxpr (is_error=False)</summary>
+<summary>Source event 71 · Main agent: Tool result: call_01_6bww09i62oli85rk4evqfxpr (is_error=False)</summary>
 
 
 ```text
@@ -864,7 +864,7 @@ I've compiled all 108 contacts. Let me verify the six in-window "Net-Zero Energy
 
 
 <details>
-<summary>Source event #72 · Main agent: Tool result: call_02_80tj0r3od2j2bfj5n2u62vgd (is_error=False)</summary>
+<summary>Source event 72 · Main agent: Tool result: call_02_80tj0r3od2j2bfj5n2u62vgd (is_error=False)</summary>
 
 
 ```text
@@ -881,7 +881,7 @@ I've compiled all 108 contacts. Let me verify the six in-window "Net-Zero Energy
 
 
 <details>
-<summary>Source event #73 · Main agent: Tool result: call_03_87hq9o6gp6xw7icp6xj1fm2n (is_error=False)</summary>
+<summary>Source event 73 · Main agent: Tool result: call_03_87hq9o6gp6xw7icp6xj1fm2n (is_error=False)</summary>
 
 
 ```text
@@ -898,7 +898,7 @@ I've compiled all 108 contacts. Let me verify the six in-window "Net-Zero Energy
 
 
 <details>
-<summary>Source event #74 · Main agent: Tool result: call_04_unp4b9q219gy6vmrtzir3452 (is_error=False)</summary>
+<summary>Source event 74 · Main agent: Tool result: call_04_unp4b9q219gy6vmrtzir3452 (is_error=False)</summary>
 
 
 ```text
@@ -915,7 +915,7 @@ I've compiled all 108 contacts. Let me verify the six in-window "Net-Zero Energy
 
 
 <details>
-<summary>Source event #75 · Main agent: Tool result: call_05_r6n0h9nc21bmb2tbn84rzao2 (is_error=False)</summary>
+<summary>Source event 75 · Main agent: Tool result: call_05_r6n0h9nc21bmb2tbn84rzao2 (is_error=False)</summary>
 
 
 ```text

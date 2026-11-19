@@ -1,6 +1,8 @@
 # scenario_universe_29_wllfb8
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_29_wllfb8/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_29_wllfb8/README.md) · [Codex](../../codex/round1/scenario_universe_29_wllfb8/README.md) · [OpenCode](../../opencode/round1/scenario_universe_29_wllfb8/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial setup: create the group chat, add the items to the cart, send the notification message, and schedule the calendar event while resolving any conflicts. I will also provide the SubAgent with the current time to correctly identify &#x27;this Friday&#x27;.
 
@@ -101,11 +103,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #71
+**Initial harness configuration** · Source event 71
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 We need to resolve the user IDs for Kaito Rao, Kavita Rao, and Žiga Kovačič by searching both Contacts and Messages, as Žiga Kovačič was not found by the previous attempt using only Messages lookup. Once resolved, we will perform the initial setup: create the group chat, add the 3 small costumes to the cart, send the chat message, add the calendar event (resolving conflicts by deleting them), and confirm completion to the user.
 
@@ -192,11 +194,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #134
+**Initial harness configuration** · Source event 134
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 We need to resolve the Messages user IDs for Kaito Rao, Kavita Rao, and Žiga Kovačič. Since the Contacts app has their phone numbers (+918041234567, +919901234567, and +31412345678) and Messages user IDs in this environment are typically phone numbers, the SubAgent should verify these phone numbers as user IDs, create the group conversation titled &#x27;Costumes for the staff party&#x27;, add 3 small Mens Vintage Hollywood Tuxedo Costumes to the cart, post the initial message to the group, add the calendar event for this Friday 8PM-11PM (handling conflicts), and send a confirmation to the user.
 
@@ -283,11 +285,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #199
+**Initial harness configuration** · Source event 199
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 We need to create the group chat, add the 3 small costumes to the cart, send the message to the group, add the calendar event (resolving conflicts), and confirm with the user. The previous attempt got stuck because it couldn&#x27;t resolve Messages user IDs via name-lookup. We will instruct the SubAgent to try using phone numbers or emails directly as participant IDs in `Messages__create_group_conversation`.
 

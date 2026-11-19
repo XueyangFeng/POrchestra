@@ -1,6 +1,8 @@
 # scenario_universe_27_lvgq33
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_27_lvgq33/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_27_lvgq33/README.md) · [Codex](../../codex/round3/scenario_universe_27_lvgq33/README.md) · [OpenCode](../../opencode/round3/scenario_universe_27_lvgq33/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to create the contact for Sydow, then find and purchase the correct variant of the Funko Pop figures as requested, and finally send him an initial confirmation email. After these actions, I will notify the user.
 
@@ -89,7 +91,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #23
+**Harness configuration updated** · Source event 23
 
 **1. Sub-agent revision request**
 
@@ -98,7 +100,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Setup subtask fully completed: contact created for Sydow Oliveira (id 8ac5e21640a55b541b6fe794e24d5ed3); searched Funko Pop! Animation: Dragonball Z - Trunks; cheapest variant was item bc721c97d4ca40ccb291cbbbdd553565 at 8.99 (Size Standard, Material Vinyl, Exclusive No, Condition Used; next cheapest 10.99, so no price tie); added 4 units and checked out (order id 1736d97b27c4469e8a41ff9b46d703f3); sent email with subject 'Order?' to jonitossydow@gaia2mail.com (email id a7a6559237dfccab98f2b1970584c7a3); sent completion message to user. NEW: environment notifications report 3 new emails received, senders include gerda.schnitzler@gaia2mail.com and kai.riemann@author.de plus one with unspecified sender.
 ```
 <details>
-<summary>Request and evidence · source event #21</summary>
+<summary>Request and evidence · source event 21</summary>
 
 
 ```text
@@ -151,7 +153,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The setup phase is complete: contact created, order placed, and verification email sent. Now we must handle the follow-up logic based on the new emails received. One of these emails is expected to be from Sydow Oliveira. We need to read the emails, confirm if the order is correct per Sydow&#x27;s reply, and if not, replace the order as instructed. Other purchase requests should be ignored.
 

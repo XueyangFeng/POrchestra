@@ -1,6 +1,8 @@
 # scenario_universe_25_642cr1
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_25_642cr1/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_25_642cr1/README.md) · [Codex](../../codex/round3/scenario_universe_25_642cr1/README.md) · [OpenCode](../../opencode/round3/scenario_universe_25_642cr1/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to process the calendar day by day from today (2024-10-15) until Friday of next week (2024-10-25). For each day, I must check for 7pm conflicts, handle existing dinner events, cancel other conflicting events, email impacted attendees, and add the new reminder.
 

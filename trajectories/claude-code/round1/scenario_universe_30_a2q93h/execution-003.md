@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #78 · Main agent: Model message
+## Source event 78 · Main agent: Model message
 
 ```text
 Confirmed: Predator vinyl 16.99 available.
@@ -40,7 +40,7 @@ Actually, it's probably random: duration 0.19 min is nonsensical and delay 0.1; 
 
 
 
-## Source event #79 · Main agent: Model message
+## Source event 79 · Main agent: Model message
 
 ```text
 Let me test whether live quotations are random (which would confirm the historical record is the intended quote) and verify the search matching behavior.
@@ -48,7 +48,7 @@ Let me test whether live quotations are random (which would confirm the historic
 
 
 
-## Source event #80 · Main agent: Model tool call: mcp__gaia2__Cabs__get_quotation (call_00_4ghoulr1m33xp8pqj1mf288b)
+## Source event 80 · Main agent: Model tool call: mcp__gaia2__Cabs__get_quotation (call_00_4ghoulr1m33xp8pqj1mf288b)
 
 ```text
 {
@@ -61,7 +61,7 @@ Let me test whether live quotations are random (which would confirm the historic
 
 
 
-## Source event #81 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_01_40r3fcamd69d2phexgchllp1)
+## Source event 81 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_01_40r3fcamd69d2phexgchllp1)
 
 ```text
 {
@@ -74,7 +74,7 @@ Let me test whether live quotations are random (which would confirm the historic
 
 
 <details>
-<summary>Source event #82 · Main agent: Tool result: call_00_4ghoulr1m33xp8pqj1mf288b (is_error=False)</summary>
+<summary>Source event 82 · Main agent: Tool result: call_00_4ghoulr1m33xp8pqj1mf288b (is_error=False)</summary>
 
 
 ```text
@@ -91,7 +91,7 @@ Let me test whether live quotations are random (which would confirm the historic
 
 
 <details>
-<summary>Source event #83 · Main agent: Tool result: call_01_40r3fcamd69d2phexgchllp1 (is_error=False)</summary>
+<summary>Source event 83 · Main agent: Tool result: call_01_40r3fcamd69d2phexgchllp1 (is_error=False)</summary>
 
 
 ```text
@@ -107,7 +107,7 @@ Let me test whether live quotations are random (which would confirm the historic
 </details>
 
 
-## Source event #84 · Main agent: Model message
+## Source event 84 · Main agent: Model message
 
 ```text
 Confirmed: get_quotation is random (38.10 then 17.30 for same params). So live quotations are not deterministic; the task's quote must be the stored ride history price. Great. That resolves the cab = 25.67.
@@ -234,7 +234,7 @@ I'll send "$7".
 
 
 
-## Source event #85 · Main agent: Model message
+## Source event 85 · Main agent: Model message
 
 ```text
 Live quotations turn out to be randomized (same request returned $38.10, then $17.30), so the Aug 23 quote is the stored Premium ride on 2024‑08‑23: **$25.67**.
@@ -246,7 +246,7 @@ $50 − $25.67 − $16.99 = $7.34 → **$7**
 
 
 
-## Source event #86 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_lm0ay3h0yoo6ejpamjm5rfio)
+## Source event 86 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_lm0ay3h0yoo6ejpamjm5rfio)
 
 ```text
 {
@@ -257,7 +257,7 @@ $50 − $25.67 − $16.99 = $7.34 → **$7**
 
 
 <details>
-<summary>Source event #87 · Main agent: Tool result: call_00_lm0ay3h0yoo6ejpamjm5rfio (is_error=False)</summary>
+<summary>Source event 87 · Main agent: Tool result: call_00_lm0ay3h0yoo6ejpamjm5rfio (is_error=False)</summary>
 
 
 ```text
@@ -273,7 +273,7 @@ $50 − $25.67 − $16.99 = $7.34 → **$7**
 </details>
 
 
-## Source event #88 · Main agent: Model message
+## Source event 88 · Main agent: Model message
 
 ```text
 $7
@@ -282,7 +282,7 @@ $7
 
 
 <details>
-<summary>Source event #89 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 89 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -294,7 +294,7 @@ $7
 
 
 <details>
-<summary>Source event #90 · Judge: Judge rationale</summary>
+<summary>Source event 90 · Judge: Judge rationale</summary>
 
 
 ```text

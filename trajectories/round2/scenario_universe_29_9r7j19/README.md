@@ -1,6 +1,8 @@
 # scenario_universe_29_9r7j19
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_29_9r7j19/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_29_9r7j19/README.md) · [Codex](../../codex/round2/scenario_universe_29_9r7j19/README.md) · [OpenCode](../../opencode/round2/scenario_universe_29_9r7j19/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to gather necessary information (Ryder&#x27;s email and the user&#x27;s home address), book the initial cab for November 24th at 10 AM, send the confirmation email, and inform the user. This establishes the initial state requested by the user.
 
@@ -87,7 +89,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #18
+**Harness configuration updated** · Source event 18
 
 **1. Sub-agent revision request**
 
@@ -96,7 +98,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed cab booking (Ride ID ca5380b0fb5d30db43b4905d14d91312, Default, Nov 24 2024 10:00 AM, CSMIA Mumbai -> 14, Sahyadri Apartments, Bandra West, Mumbai 400050, $12.07), sent email to ryder.mckenzie@gaia2mail.com with subject 'Confirming Your Arrival Date' (email id 26756db772edbbafeb44d7be53d3726f), and sent confirmation message to user. A new email notification just arrived (EmailClientV2: New email received).
 ```
 <details>
-<summary>Request and evidence · source event #16</summary>
+<summary>Request and evidence · source event 16</summary>
 
 
 ```text
@@ -163,7 +165,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 A new email has been received, which likely contains Ryder McKenzie&#x27;s response regarding his arrival date. I need the SubAgent to read this email and, if a different arrival date is provided, update the cab booking and cancel the user&#x27;s calendar events for that day as per the original instructions.
 

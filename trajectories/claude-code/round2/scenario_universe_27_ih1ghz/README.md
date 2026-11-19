@@ -1,6 +1,8 @@
 # Claude Code · scenario_universe_27_ih1ghz
 
-[Round index](../README.md) · [Claude Code rounds](../../README.md) · [PORCHESTRA task](../../../round2/scenario_universe_27_ih1ghz/README.md)
+[Round index](../README.md) · [Claude Code rounds](../../README.md)
+
+**Compare systems:** [PORCHESTRA](../../../round2/scenario_universe_27_ih1ghz/README.md) · Claude Code · [Codex](../../../codex/round2/scenario_universe_27_ih1ghz/README.md) · [OpenCode](../../../opencode/round2/scenario_universe_27_ih1ghz/README.md)
 
 **Domain:** Search · **Result:** Correct · **Duration:** 4.7 seconds
 

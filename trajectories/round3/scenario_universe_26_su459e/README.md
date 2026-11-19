@@ -1,6 +1,8 @@
 # scenario_universe_26_su459e
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_26_su459e/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_26_su459e/README.md) · [Codex](../../codex/round3/scenario_universe_26_su459e/README.md) · [OpenCode](../../opencode/round3/scenario_universe_26_su459e/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to schedule the &#x27;Film Critic&#x27; event and perform the immediate cleanup of conflicting events in the 13 hours following it. I also need to establish a baseline of messages, emails, and calendar events as of 07:00:00 to identify &#x27;new&#x27; items later.
 
@@ -89,11 +91,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #28
+**Initial harness configuration** · Source event 28
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The initial calendar scheduling and conflict cleanup are done. Now I need to monitor for new communication and calendar additions relative to the 07:00:00 baseline. Specifically, I must wait until 07:03:00 to reply to new messages and until 07:04:00 to delete new calendar events.
 
@@ -181,7 +183,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

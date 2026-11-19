@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #48 · Main agent: Model message
+## Source event 48 · Main agent: Model message
 
 ```text
 Message sent. Now I need to let the user know. This ends the turn. Then I presumably wait for friends' replies.
@@ -43,7 +43,7 @@ Let me phrase it to also indicate I'm waiting for responses.
 
 
 
-## Source event #49 · Main agent: Model message
+## Source event 49 · Main agent: Model message
 
 ```text
 The message has been sent to the group chat. Now I'll let the user know, as requested.
@@ -51,7 +51,7 @@ The message has been sent to the group chat. Now I'll let the user know, as requ
 
 
 
-## Source event #50 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_j49q8j3ta2dl6jabnobajmo1)
+## Source event 50 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_j49q8j3ta2dl6jabnobajmo1)
 
 ```text
 {
@@ -62,7 +62,7 @@ The message has been sent to the group chat. Now I'll let the user know, as requ
 
 
 <details>
-<summary>Source event #51 · Main agent: Tool result: call_00_j49q8j3ta2dl6jabnobajmo1 (is_error=False)</summary>
+<summary>Source event 51 · Main agent: Tool result: call_00_j49q8j3ta2dl6jabnobajmo1 (is_error=False)</summary>
 
 
 ```text
@@ -78,7 +78,7 @@ The message has been sent to the group chat. Now I'll let the user know, as requ
 </details>
 
 
-## Source event #52 · Main agent: Model message
+## Source event 52 · Main agent: Model message
 
 ```text
 The turn may have ended. Now I need to wait for notifications. Let me call wait_for_notification. But if the turn ended, this call would be in a new turn. Actually the tool result returned "None", meaning the tool executed but the turn might end after. I'm still in the same assistant turn apparently since I can continue. Let me try wait_for_notification to receive friends' replies.
@@ -92,7 +92,7 @@ Let me do that.
 
 
 
-## Source event #53 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_z73vxxk1xsnm5ke42bksxfmj)
+## Source event 53 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_z73vxxk1xsnm5ke42bksxfmj)
 
 ```text
 {
@@ -103,7 +103,7 @@ Let me do that.
 
 
 <details>
-<summary>Source event #54 · Main agent: Tool result: call_00_z73vxxk1xsnm5ke42bksxfmj (is_error=True)</summary>
+<summary>Source event 54 · Main agent: Tool result: call_00_z73vxxk1xsnm5ke42bksxfmj (is_error=True)</summary>
 
 
 ```text
@@ -114,7 +114,7 @@ The ARE user turn has ended. Return your final response; further app actions are
 </details>
 
 
-## Source event #55 · Main agent: Model message
+## Source event 55 · Main agent: Model message
 
 ```text
 As expected, the turn has ended. I need to return a final response. But the task isn't done — friends will reply in a new turn. So I should give a brief final response summarizing what I did and that I'm waiting. The environment will re-invoke me when notifications arrive.
@@ -130,7 +130,7 @@ Let me output a short final response.
 
 
 
-## Source event #56 · Main agent: Model message
+## Source event 56 · Main agent: Model message
 
 ```text
 I've sent the recommendation to the group chat and notified you that the message went out. I'm now waiting for your friends' responses before proceeding to the next step (removing the recommendation if everyone rejects it, then applying their specifications).
@@ -139,7 +139,7 @@ I've sent the recommendation to the group chat and notified you that the message
 
 
 <details>
-<summary>Source event #57 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 57 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -151,7 +151,7 @@ I've sent the recommendation to the group chat and notified you that the message
 
 
 <details>
-<summary>Source event #58 · Judge: Judge rationale</summary>
+<summary>Source event 58 · Judge: Judge rationale</summary>
 
 
 ```text

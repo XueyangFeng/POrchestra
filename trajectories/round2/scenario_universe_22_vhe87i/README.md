@@ -1,6 +1,8 @@
 # scenario_universe_22_vhe87i
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_22_vhe87i/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_22_vhe87i/README.md) · [Codex](../../codex/round2/scenario_universe_22_vhe87i/README.md) · [OpenCode](../../opencode/round2/scenario_universe_22_vhe87i/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial setup: finding the contact information for Deniz Öztürk, scheduling the calendar event, sending the confirmation email, and notifying the user. This is the first logical block of the request.
 
@@ -85,7 +87,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #21
+**Harness configuration updated** · Source event 21
 
 **1. Sub-agent revision request**
 
@@ -94,7 +96,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Assigned subtask complete: Deniz Öztürk contact found (deniz.ozturk@gaia2mail.com, contact_id 2ce9f26494ba4153924980dadd1769b0); 'Exclusive Wine Bar' calendar event created for 2024-10-20 17:00-19:00, tag 'work', attendee Deniz Öztürk (event ID dcf191829913b81220f38262b28ec53c); email 'Reservation Confirmed' sent to deniz.ozturk@gaia2mail.com at 2024-10-15 07:00:06 (email ID 26756db772edbbafeb44d7be53d3726f); user notified via AgentUserInterface. New environment notification received: EmailClientV2 reports a new email from nalani.jensen@lawfirm.com (sender is NOT Deniz Öztürk).
 ```
 <details>
-<summary>Request and evidence · source event #19</summary>
+<summary>Request and evidence · source event 19</summary>
 
 
 ```text
@@ -144,7 +146,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The initial subtask (event scheduling and email sending) is complete. I now need the SubAgent to handle the conditional logic: monitoring for a response from Deniz Öztürk within the 3-minute window and, if she confirms, executing the cab booking and group messaging. The SubAgent lacks the necessary tools for reading emails, booking cabs, and group messaging, so I will provide them and update the instruction.
 
@@ -255,7 +257,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

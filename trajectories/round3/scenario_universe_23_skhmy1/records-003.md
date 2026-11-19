@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #122 · Sub-agent 2: model output</summary>
+<summary>Source event 122 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -26,7 +26,7 @@ Action:
 
 
 <details>
-<summary>Source event #123 · Sub-agent 2: tool result</summary>
+<summary>Source event 123 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #124 · Sub-agent 2: model output</summary>
+<summary>Source event 124 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -62,7 +62,7 @@ Action:
 
 
 <details>
-<summary>Source event #125 · Sub-agent 2: tool result</summary>
+<summary>Source event 125 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -77,7 +77,7 @@ Action:
 
 
 <details>
-<summary>Source event #126 · Sub-agent 2: model output</summary>
+<summary>Source event 126 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -100,7 +100,7 @@ Action:
 
 
 <details>
-<summary>Source event #127 · Sub-agent 2: tool result</summary>
+<summary>Source event 127 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -115,7 +115,7 @@ Action:
 
 
 <details>
-<summary>Source event #128 · Sub-agent 2: model output</summary>
+<summary>Source event 128 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -138,7 +138,7 @@ Action:
 
 
 <details>
-<summary>Source event #129 · Sub-agent 2: tool result</summary>
+<summary>Source event 129 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -153,7 +153,7 @@ Action:
 
 
 <details>
-<summary>Source event #130 · Sub-agent 2: model output</summary>
+<summary>Source event 130 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -231,7 +231,7 @@ SUB-AGENT SESSION 3
 
 
 <details>
-<summary>Source event #131 · Sub-agent 3: Initial system configuration</summary>
+<summary>Source event 131 · Sub-agent 3: Initial system configuration</summary>
 
 
 ```text
@@ -396,7 +396,7 @@ The search looks for partial matches in first name, last name, phone number, and
 
 
 <details>
-<summary>Source event #132 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 132 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -416,7 +416,7 @@ Determine the contact with the highest word count in the first 6 messages of the
 
 
 <details>
-<summary>Source event #133 · Sub-agent 3: model output</summary>
+<summary>Source event 133 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -440,7 +440,7 @@ Action:
 
 
 <details>
-<summary>Source event #134 · Sub-agent 3: tool result</summary>
+<summary>Source event 134 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -455,7 +455,7 @@ Action:
 
 
 <details>
-<summary>Source event #135 · Sub-agent 3: model output</summary>
+<summary>Source event 135 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -479,7 +479,7 @@ Action:
 
 
 <details>
-<summary>Source event #136 · Sub-agent 3: tool result</summary>
+<summary>Source event 136 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -494,7 +494,7 @@ Action:
 
 
 <details>
-<summary>Source event #137 · Sub-agent 3: model output</summary>
+<summary>Source event 137 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -518,7 +518,7 @@ Action:
 
 
 <details>
-<summary>Source event #138 · Sub-agent 3: tool result</summary>
+<summary>Source event 138 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -533,7 +533,7 @@ Action:
 
 
 <details>
-<summary>Source event #139 · Sub-agent 3: model output</summary>
+<summary>Source event 139 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -557,7 +557,7 @@ Action:
 
 
 <details>
-<summary>Source event #140 · Sub-agent 3: tool result</summary>
+<summary>Source event 140 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -572,7 +572,7 @@ Action:
 
 
 <details>
-<summary>Source event #141 · Sub-agent 3: model output</summary>
+<summary>Source event 141 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -596,7 +596,7 @@ Action:
 
 
 <details>
-<summary>Source event #142 · Sub-agent 3: tool result</summary>
+<summary>Source event 142 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -611,7 +611,7 @@ Action:
 
 
 <details>
-<summary>Source event #143 · Sub-agent 3: model output</summary>
+<summary>Source event 143 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -635,7 +635,7 @@ Action:
 
 
 <details>
-<summary>Source event #144 · Sub-agent 3: tool result</summary>
+<summary>Source event 144 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -650,7 +650,7 @@ Action:
 
 
 <details>
-<summary>Source event #145 · Sub-agent 3: model output</summary>
+<summary>Source event 145 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -674,7 +674,7 @@ Action:
 
 
 <details>
-<summary>Source event #146 · Sub-agent 3: tool result</summary>
+<summary>Source event 146 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -689,7 +689,7 @@ Action:
 
 
 <details>
-<summary>Source event #147 · Sub-agent 3: model output</summary>
+<summary>Source event 147 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -711,7 +711,7 @@ Action:
 
 
 <details>
-<summary>Source event #148 · Sub-agent 3: tool result</summary>
+<summary>Source event 148 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -726,7 +726,7 @@ Action:
 
 
 <details>
-<summary>Source event #149 · Sub-agent 3: model output</summary>
+<summary>Source event 149 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -750,7 +750,7 @@ Action:
 
 
 <details>
-<summary>Source event #150 · Sub-agent 3: tool result</summary>
+<summary>Source event 150 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -765,7 +765,7 @@ Action:
 
 
 <details>
-<summary>Source event #151 · Sub-agent 3: model output</summary>
+<summary>Source event 151 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -801,7 +801,7 @@ Action:
 
 
 <details>
-<summary>Source event #152 · Sub-agent 3: tool result</summary>
+<summary>Source event 152 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -816,7 +816,7 @@ None
 
 
 <details>
-<summary>Source event #153 · Judge rationale</summary>
+<summary>Source event 153 · Judge rationale</summary>
 
 
 ```text

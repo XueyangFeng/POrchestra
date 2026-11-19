@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #208 · Sub-agent 5: user / environment input</summary>
+<summary>Source event 208 · Sub-agent 5: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #209 · Sub-agent 5: model output
+## Source event 209 · Sub-agent 5: model output
 
 ```text
 I'll scan each conversation for 'Berlin' mentions. Let me start reading them.
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #210 · Sub-agent 5: tool result</summary>
+<summary>Source event 210 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Action:
 </details>
 
 
-## Source event #211 · Sub-agent 5: model output
+## Source event 211 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -71,7 +71,7 @@ Action:
 
 
 <details>
-<summary>Source event #212 · Sub-agent 5: tool result</summary>
+<summary>Source event 212 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -85,7 +85,7 @@ Action:
 </details>
 
 
-## Source event #213 · Sub-agent 5: model output
+## Source event 213 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -101,7 +101,7 @@ Action:
 
 
 <details>
-<summary>Source event #214 · Sub-agent 5: tool result</summary>
+<summary>Source event 214 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -115,7 +115,7 @@ Action:
 </details>
 
 
-## Source event #215 · Sub-agent 5: model output
+## Source event 215 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -131,7 +131,7 @@ Action:
 
 
 <details>
-<summary>Source event #216 · Sub-agent 5: tool result</summary>
+<summary>Source event 216 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -145,7 +145,7 @@ Action:
 </details>
 
 
-## Source event #217 · Sub-agent 5: model output
+## Source event 217 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -161,7 +161,7 @@ Action:
 
 
 <details>
-<summary>Source event #218 · Sub-agent 5: tool result</summary>
+<summary>Source event 218 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -175,7 +175,7 @@ Action:
 </details>
 
 
-## Source event #219 · Sub-agent 5: model output
+## Source event 219 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -191,7 +191,7 @@ Action:
 
 
 <details>
-<summary>Source event #220 · Sub-agent 5: tool result</summary>
+<summary>Source event 220 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -205,7 +205,7 @@ Action:
 </details>
 
 
-## Source event #221 · Sub-agent 5: model output
+## Source event 221 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -221,7 +221,7 @@ Action:
 
 
 <details>
-<summary>Source event #222 · Sub-agent 5: tool result</summary>
+<summary>Source event 222 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -235,7 +235,7 @@ Action:
 </details>
 
 
-## Source event #223 · Sub-agent 5: model output
+## Source event 223 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -251,7 +251,7 @@ Action:
 
 
 <details>
-<summary>Source event #224 · Sub-agent 5: tool result</summary>
+<summary>Source event 224 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -265,7 +265,7 @@ Action:
 </details>
 
 
-## Source event #225 · Sub-agent 5: model output
+## Source event 225 · Sub-agent 5: model output
 
 ```text
 All 8 conversations have been fully read. Let me summarize the earliest 'Berlin' mention in each:
@@ -293,7 +293,7 @@ Action:
 
 
 <details>
-<summary>Source event #226 · Sub-agent 5: tool result</summary>
+<summary>Source event 226 · Sub-agent 5: tool result</summary>
 
 
 ```text

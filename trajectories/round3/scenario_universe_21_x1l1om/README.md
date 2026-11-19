@@ -1,6 +1,8 @@
 # scenario_universe_21_x1l1om
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_21_x1l1om/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_21_x1l1om/README.md) · [Codex](../../codex/round3/scenario_universe_21_x1l1om/README.md) · [OpenCode](../../opencode/round3/scenario_universe_21_x1l1om/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to initialize the calendar for October 21, 2024, by creating the requested meeting and canceling all other events. I also need to retrieve the details of the canceled events to store them in my working memory for potential restoration later, and inform the user about the creation as requested.
 
@@ -92,7 +94,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #33
+**Harness configuration updated** · Source event 33
 
 **1. Sub-agent revision request**
 
@@ -101,7 +103,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed: created Brand Partnership Meeting event (id acea4a8d991e2e64e9a43daa76d19dd2, 2024-10-21 09:00-14:00, Zoom Meeting, attendee Luís Pimentel); recorded and deleted the 2 other 2024-10-21 events; sent user confirmation 'I have created the Brand Partnership Meeting event.'. Messages lookup for 'Luís Pimentel' returned no match (fuzzy {}, exact None; 'Luis Pimentel' {}, 'Pimentel' {}; 'Luís' returned only Luís Silva e Sousa, Luís Mourão, Luís Silva, Luísa Figueiredo, Luísa Silva e Sousa, Maria Luísa Sousa e Silva). NEW: environment notifications report Calendar event deleted by Linnea Åström and Calendar event deleted by Luís Pimentel; verification shows 2024-10-21 now has 0 events, i.e. the Brand Partnership Meeting was cancelled by Luís Pimentel.
 ```
 <details>
-<summary>Request and evidence · source event #31</summary>
+<summary>Request and evidence · source event 31</summary>
 
 
 ```text
@@ -152,7 +154,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The &#x27;Brand Partnership Meeting&#x27; was cancelled by Luís Pimentel, triggering the user&#x27;s contingency instructions. The SubAgent has already recorded the details of the two deleted events and identified the need for follow-up actions. I am expanding the task to include these contingency steps and providing the necessary tools (Contacts and Emails).
 
@@ -276,7 +278,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

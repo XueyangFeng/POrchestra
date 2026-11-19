@@ -1,6 +1,8 @@
 # scenario_universe_30_68r6vs
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_30_68r6vs/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_30_68r6vs/README.md) · [Codex](../../codex/round2/scenario_universe_30_68r6vs/README.md) · [OpenCode](../../opencode/round2/scenario_universe_30_68r6vs/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Identify the lunch event, the event immediately preceding it, and the colleagues attending the lunch event today (2024-10-15). This information is necessary to proceed with the inquiry and cab ordering.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #11
+**Initial harness configuration** · Source event 11
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The lunch event, colleagues, and locations have been identified. Now I need to message the colleagues, wait 3 minutes for a response regarding who is ordering the cab, and if no response is received, proceed to order the cab and notify them of the details.
 
@@ -163,7 +165,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #203 · Sub-agent 4: tool result</summary>
+<summary>Source event 203 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #204 · Sub-agent 4: model output
+## Source event 204 · Sub-agent 4: model output
 
 ```text
 Conversation 26: earliest Berlin at 1727262000 (later than baseline). Continuing.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #205 · Sub-agent 4: tool result</summary>
+<summary>Source event 205 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #206 · Sub-agent 4: model output
+## Source event 206 · Sub-agent 4: model output
 
 ```text
 Thought: I've reached the final step boundary. I checked 27 of the assigned conversation IDs and found a new oldest candidate: 'Katharina Müller-Schmidt' (conversation 2c28f0007a234a7ca39e07d7b78b6891) with earliest 'Berlin' mention at timestamp 1722686700 — older than both the prior Chats baseline (1722765900) and the Messages oldest (1723716300). 8 conversation IDs remain unchecked and no user message has been sent yet, so MainAgent must complete the remaining scan before answering.

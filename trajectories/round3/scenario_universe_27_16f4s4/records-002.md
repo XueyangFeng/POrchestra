@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #60 · Sub-agent 1: model output</summary>
+<summary>Source event 60 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 1: tool result</summary>
+<summary>Source event 61 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -101,7 +101,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 1: System configuration update</summary>
+<summary>Source event 62 · Sub-agent 1: System configuration update</summary>
 
 
 ```text
@@ -294,7 +294,7 @@ This method should only be used when there are no other tasks to perform. Return
 
 
 <details>
-<summary>Source event #63 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 63 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -311,7 +311,7 @@ This method should only be used when there are no other tasks to perform. Return
 
 
 <details>
-<summary>Source event #64 · Sub-agent 1: model output</summary>
+<summary>Source event 64 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -334,7 +334,7 @@ Action:
 
 
 <details>
-<summary>Source event #65 · Sub-agent 1: tool result</summary>
+<summary>Source event 65 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -349,7 +349,7 @@ ReturnedEmails(emails=[Email(sender='nkuznetsova@gaia2mail.com', recipients=['ak
 
 
 <details>
-<summary>Source event #66 · Sub-agent 1: model output</summary>
+<summary>Source event 66 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -368,7 +368,7 @@ Action:
 
 
 <details>
-<summary>Source event #67 · Sub-agent 1: tool result</summary>
+<summary>Source event 67 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -383,7 +383,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 1: model output</summary>
+<summary>Source event 68 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -402,7 +402,7 @@ Action:
 
 
 <details>
-<summary>Source event #69 · Sub-agent 1: tool result</summary>
+<summary>Source event 69 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -417,7 +417,7 @@ None
 
 
 <details>
-<summary>Source event #70 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 70 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -431,7 +431,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #71 · Sub-agent 1: model output</summary>
+<summary>Source event 71 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -511,7 +511,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 1: tool result</summary>
+<summary>Source event 72 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -526,7 +526,7 @@ Action:
 
 
 <details>
-<summary>Source event #73 · Sub-agent 1: System configuration update</summary>
+<summary>Source event 73 · Sub-agent 1: System configuration update</summary>
 
 
 ```text
@@ -728,7 +728,7 @@ This method should only be used when there are no other tasks to perform. Return
 
 
 <details>
-<summary>Source event #74 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 74 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -746,7 +746,7 @@ This method should only be used when there are no other tasks to perform. Return
 
 
 <details>
-<summary>Source event #75 · Sub-agent 1: model output</summary>
+<summary>Source event 75 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -769,7 +769,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 1: tool result</summary>
+<summary>Source event 76 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -784,7 +784,7 @@ ReturnedEmails(emails=[Email(sender='aoifenichonaill@tcd.ie', recipients=['akuzn
 
 
 <details>
-<summary>Source event #77 · Sub-agent 1: model output</summary>
+<summary>Source event 77 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -805,7 +805,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 1: tool result</summary>
+<summary>Source event 78 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -820,7 +820,7 @@ None
 
 
 <details>
-<summary>Source event #79 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 79 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -834,7 +834,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 1: model output</summary>
+<summary>Source event 80 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -853,7 +853,7 @@ Action:
 
 
 <details>
-<summary>Source event #81 · Sub-agent 1: tool result</summary>
+<summary>Source event 81 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -868,7 +868,7 @@ Action:
 
 
 <details>
-<summary>Source event #82 · Sub-agent 1: model output</summary>
+<summary>Source event 82 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -891,7 +891,7 @@ Action:
 
 
 <details>
-<summary>Source event #83 · Sub-agent 1: tool result</summary>
+<summary>Source event 83 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -906,7 +906,7 @@ ReturnedEmails(emails=[Email(sender='aoifenichonaill@tcd.ie', recipients=['akuzn
 
 
 <details>
-<summary>Source event #84 · Sub-agent 1: model output</summary>
+<summary>Source event 84 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -927,7 +927,7 @@ Action:
 
 
 <details>
-<summary>Source event #85 · Sub-agent 1: tool result</summary>
+<summary>Source event 85 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -942,7 +942,7 @@ None
 
 
 <details>
-<summary>Source event #86 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 86 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -956,7 +956,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #87 · Sub-agent 1: model output</summary>
+<summary>Source event 87 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -975,7 +975,7 @@ Action:
 
 
 <details>
-<summary>Source event #88 · Sub-agent 1: tool result</summary>
+<summary>Source event 88 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -990,7 +990,7 @@ Action:
 
 
 <details>
-<summary>Source event #89 · Sub-agent 1: model output</summary>
+<summary>Source event 89 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -1013,7 +1013,7 @@ Action:
 
 
 <details>
-<summary>Source event #90 · Sub-agent 1: tool result</summary>
+<summary>Source event 90 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1028,7 +1028,7 @@ ReturnedEmails(emails=[Email(sender='aoifenichonaill@tcd.ie', recipients=['akuzn
 
 
 <details>
-<summary>Source event #91 · Sub-agent 1: model output</summary>
+<summary>Source event 91 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -1109,7 +1109,7 @@ Action:
 
 
 <details>
-<summary>Source event #92 · Sub-agent 1: tool result</summary>
+<summary>Source event 92 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1124,7 +1124,7 @@ Action:
 
 
 <details>
-<summary>Source event #93 · Judge rationale</summary>
+<summary>Source event 93 · Judge rationale</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_27_nv66lz
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_27_nv66lz/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_27_nv66lz/README.md) · [Codex](../../codex/round3/scenario_universe_27_nv66lz/README.md) · [OpenCode](../../opencode/round3/scenario_universe_27_nv66lz/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 To identify the subject the user teaches, I need to check the user&#x27;s own contact details first as it might contain their job description or teaching subject.
 
@@ -87,11 +89,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #14
+**Initial harness configuration** · Source event 14
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 Step 1 identified the subject as &#x27;History&#x27;. Now I need to find all emails that have &#x27;History&#x27; in their title, identify the senders, and find their cities using the Contacts app to determine the most common city among them.
 
@@ -160,11 +162,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #53
+**Initial harness configuration** · Source event 53
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The most common city has been identified as Berlin (alphabetical tie-breaker over Dublin). Now I need to find the oldest conversation in the Messages or Chats apps that mentions &#x27;Berlin&#x27; and report its title.
 
@@ -229,11 +231,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #114
+**Initial harness configuration** · Source event 114
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 The previous SubAgent identified potential oldest conversations mentioning &#x27;Berlin&#x27; in both Chats and Messages. I need a SubAgent to read these specific conversations, determine the exact timestamp of the oldest message across all of them, and then report the title of that conversation to the user.
 

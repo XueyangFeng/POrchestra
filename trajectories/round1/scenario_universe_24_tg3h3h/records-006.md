@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #225 · Sub-agent 4: tool result (continued, part 6)</summary>
+<summary>Source event 225 · Sub-agent 4: tool result (continued, part 6)</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Untold Stories of Brussels' Past", content="Dear Ursula,\n\nI hope this email fi
 
 
 <details>
-<summary>Source event #226 · Sub-agent 4: model output</summary>
+<summary>Source event 226 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #227 · Sub-agent 4: tool result</summary>
+<summary>Source event 227 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 
 
 <details>
-<summary>Source event #228 · Sub-agent 4: model output</summary>
+<summary>Source event 228 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ Action:
 
 
 <details>
-<summary>Source event #229 · Sub-agent 4: tool result</summary>
+<summary>Source event 229 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -87,7 +87,7 @@ Action:
 
 
 <details>
-<summary>Source event #229 · Sub-agent 4: tool result (continued, part 2)</summary>
+<summary>Source event 229 · Sub-agent 4: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -99,7 +99,7 @@ Action:
 
 
 <details>
-<summary>Source event #229 · Sub-agent 4: tool result (continued, part 3)</summary>
+<summary>Source event 229 · Sub-agent 4: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -111,7 +111,7 @@ Action:
 
 
 <details>
-<summary>Source event #229 · Sub-agent 4: tool result (continued, part 4)</summary>
+<summary>Source event 229 · Sub-agent 4: tool result (continued, part 4)</summary>
 
 
 ```text

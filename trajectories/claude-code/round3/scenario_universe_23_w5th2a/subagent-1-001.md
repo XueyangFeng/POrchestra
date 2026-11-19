@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #77 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): User / environment message</summary>
+<summary>Source event 77 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): User / environment message</summary>
 
 
 ```text
@@ -27,7 +27,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 </details>
 
 
-## Source event #78 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: ToolSearch (call_00_nxwacww1r5ny67df6pxmkgqr)
+## Source event 78 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: ToolSearch (call_00_nxwacww1r5ny67df6pxmkgqr)
 
 ```text
 {
@@ -39,7 +39,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #79 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_00_nxwacww1r5ny67df6pxmkgqr (is_error=False)</summary>
+<summary>Source event 79 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_00_nxwacww1r5ny67df6pxmkgqr (is_error=False)</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 </details>
 
 
-## Source event #80 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_vhsv5fdiuhyg8z23bibhadlq)
+## Source event 80 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_vhsv5fdiuhyg8z23bibhadlq)
 
 ```text
 {
@@ -65,7 +65,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 
-## Source event #81 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_jeygc23ayei3gmucl10or0zm)
+## Source event 81 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_jeygc23ayei3gmucl10or0zm)
 
 ```text
 {
@@ -75,7 +75,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 
-## Source event #82 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_3oa53yzv4yaar9kgkfjk1gjd)
+## Source event 82 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_3oa53yzv4yaar9kgkfjk1gjd)
 
 ```text
 {
@@ -85,7 +85,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 
-## Source event #83 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_8mkigcjiv1vh6ppedy91zol8)
+## Source event 83 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_8mkigcjiv1vh6ppedy91zol8)
 
 ```text
 {
@@ -95,7 +95,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 
-## Source event #84 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_04_gxl00e9hxjby2lwkt1fnvs4d)
+## Source event 84 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_04_gxl00e9hxjby2lwkt1fnvs4d)
 
 ```text
 {
@@ -105,7 +105,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 
-## Source event #85 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_05_bxsncc3ewirem6s3q32k3z77)
+## Source event 85 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_05_bxsncc3ewirem6s3q32k3z77)
 
 ```text
 {
@@ -115,7 +115,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 
-## Source event #86 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_06_iqscap0d0nkvpit6u6fcouvp)
+## Source event 86 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_06_iqscap0d0nkvpit6u6fcouvp)
 
 ```text
 {
@@ -125,7 +125,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 
-## Source event #87 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_07_9tnjm2nx3j2bzxx6xe3c9mzd)
+## Source event 87 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_07_9tnjm2nx3j2bzxx6xe3c9mzd)
 
 ```text
 {
@@ -135,7 +135,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 
-## Source event #88 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_08_4g3wmf2ilwouuqxf2kqb1sbu)
+## Source event 88 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_08_4g3wmf2ilwouuqxf2kqb1sbu)
 
 ```text
 {
@@ -145,7 +145,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 
-## Source event #89 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_09_wjk78wmygh7zv2hmwsk5trl9)
+## Source event 89 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_09_wjk78wmygh7zv2hmwsk5trl9)
 
 ```text
 {
@@ -155,7 +155,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 
-## Source event #90 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_10_9uca7q81y3s4hossazxbyefj)
+## Source event 90 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_10_9uca7q81y3s4hossazxbyefj)
 
 ```text
 {
@@ -165,7 +165,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 
-## Source event #91 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_11_gmx5j85lh1jqk3ak01jcewtv)
+## Source event 91 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_11_gmx5j85lh1jqk3ak01jcewtv)
 
 ```text
 {
@@ -175,7 +175,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 
-## Source event #92 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_12_jtoz1cjn68mgoa1k72sorpoj)
+## Source event 92 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Model tool call: mcp__gaia2__Contacts__get_contacts (call_12_jtoz1cjn68mgoa1k72sorpoj)
 
 ```text
 {
@@ -186,7 +186,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #93 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_00_vhsv5fdiuhyg8z23bibhadlq (is_error=False)</summary>
+<summary>Source event 93 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_00_vhsv5fdiuhyg8z23bibhadlq (is_error=False)</summary>
 
 
 ```text
@@ -203,7 +203,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #94 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_01_jeygc23ayei3gmucl10or0zm (is_error=False)</summary>
+<summary>Source event 94 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_01_jeygc23ayei3gmucl10or0zm (is_error=False)</summary>
 
 
 ```text
@@ -220,7 +220,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #95 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_02_3oa53yzv4yaar9kgkfjk1gjd (is_error=False)</summary>
+<summary>Source event 95 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_02_3oa53yzv4yaar9kgkfjk1gjd (is_error=False)</summary>
 
 
 ```text
@@ -237,7 +237,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #96 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_03_8mkigcjiv1vh6ppedy91zol8 (is_error=False)</summary>
+<summary>Source event 96 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_03_8mkigcjiv1vh6ppedy91zol8 (is_error=False)</summary>
 
 
 ```text
@@ -254,7 +254,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #97 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_04_gxl00e9hxjby2lwkt1fnvs4d (is_error=False)</summary>
+<summary>Source event 97 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_04_gxl00e9hxjby2lwkt1fnvs4d (is_error=False)</summary>
 
 
 ```text
@@ -271,7 +271,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #98 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_05_bxsncc3ewirem6s3q32k3z77 (is_error=False)</summary>
+<summary>Source event 98 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_05_bxsncc3ewirem6s3q32k3z77 (is_error=False)</summary>
 
 
 ```text
@@ -288,7 +288,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #99 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_06_iqscap0d0nkvpit6u6fcouvp (is_error=False)</summary>
+<summary>Source event 99 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_06_iqscap0d0nkvpit6u6fcouvp (is_error=False)</summary>
 
 
 ```text
@@ -305,7 +305,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #100 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_07_9tnjm2nx3j2bzxx6xe3c9mzd (is_error=False)</summary>
+<summary>Source event 100 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_07_9tnjm2nx3j2bzxx6xe3c9mzd (is_error=False)</summary>
 
 
 ```text
@@ -322,7 +322,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #101 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_08_4g3wmf2ilwouuqxf2kqb1sbu (is_error=False)</summary>
+<summary>Source event 101 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_08_4g3wmf2ilwouuqxf2kqb1sbu (is_error=False)</summary>
 
 
 ```text
@@ -339,7 +339,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #102 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_09_wjk78wmygh7zv2hmwsk5trl9 (is_error=False)</summary>
+<summary>Source event 102 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_09_wjk78wmygh7zv2hmwsk5trl9 (is_error=False)</summary>
 
 
 ```text
@@ -356,7 +356,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #103 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_10_9uca7q81y3s4hossazxbyefj (is_error=False)</summary>
+<summary>Source event 103 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_10_9uca7q81y3s4hossazxbyefj (is_error=False)</summary>
 
 
 ```text
@@ -373,7 +373,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #104 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_11_gmx5j85lh1jqk3ak01jcewtv (is_error=False)</summary>
+<summary>Source event 104 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_11_gmx5j85lh1jqk3ak01jcewtv (is_error=False)</summary>
 
 
 ```text
@@ -390,7 +390,7 @@ Do not print full descriptions or other fields. Be accurate with ages — this i
 
 
 <details>
-<summary>Source event #105 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_12_jtoz1cjn68mgoa1k72sorpoj (is_error=False)</summary>
+<summary>Source event 105 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_12_jtoz1cjn68mgoa1k72sorpoj (is_error=False)</summary>
 
 
 ```text

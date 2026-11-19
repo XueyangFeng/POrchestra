@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 24 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -25,7 +25,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #25 · Sub-agent 1: model output
+## Source event 25 · Sub-agent 1: model output
 
 ```text
 Now I have the tools to read messages. Let me read the conversation with Helga Müller.
@@ -43,7 +43,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: tool result</summary>
+<summary>Source event 26 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -57,7 +57,7 @@ Action:
 </details>
 
 
-## Source event #27 · Sub-agent 1: model output
+## Source event 27 · Sub-agent 1: model output
 
 ```text
 I can see Helga's reply. Let me analyze:
@@ -80,7 +80,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: tool result</summary>
+<summary>Source event 28 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -94,7 +94,7 @@ Event acea4a8d991e2e64e9a43daa76d19dd2 successfully deleted.
 </details>
 
 
-## Source event #29 · Sub-agent 1: model output
+## Source event 29 · Sub-agent 1: model output
 
 ```text
 Meeting deleted. Now restoring the Office Hours for tomorrow (2024-10-16 14:00-16:00).
@@ -116,7 +116,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 1: tool result</summary>
+<summary>Source event 30 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -130,7 +130,7 @@ Action:
 </details>
 
 
-## Source event #31 · Sub-agent 1: model output
+## Source event 31 · Sub-agent 1: model output
 
 ```text
 Office Hours restored (id: `8fce113de00ea4a218ab94f8a582ba16`). Now finding all events on Friday 2024-10-18 (the day Helga specified).
@@ -149,7 +149,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: tool result</summary>
+<summary>Source event 32 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -163,7 +163,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 1: model output
+## Source event 33 · Sub-agent 1: model output
 
 ```text
 Three events on Friday 2024-10-18 need to be deleted. Deleting the first one (Lecture).
@@ -180,7 +180,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: tool result</summary>
+<summary>Source event 34 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -194,7 +194,7 @@ Event 6c361456a2ef46a59f1afbdc0dd4f2d3 successfully deleted.
 </details>
 
 
-## Source event #35 · Sub-agent 1: model output
+## Source event 35 · Sub-agent 1: model output
 
 ```text
 Lecture deleted. Now deleting the Friday Office Hours event.
@@ -211,7 +211,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -225,7 +225,7 @@ Event ee372f6e86c6452e9ec1498c3030b7f8 successfully deleted.
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Friday Office Hours deleted. Now deleting the Friday Yoga Class.
@@ -242,7 +242,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -256,7 +256,7 @@ Event f815562d0a014ca38c19a7f5161eb744 successfully deleted.
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 All three Friday events deleted. Now scheduling the meeting with Helga Müller for Friday 2024-10-18, 14:00–16:00.
@@ -280,7 +280,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -294,7 +294,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 Meeting scheduled for Friday, 2024-10-18 14:00–16:00 (id: `576be8c662bc8988993f0b72e114568a`). Helga mentioned her grandson has a cold, so I need to purchase the toy. Searching for it now.
@@ -313,7 +313,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -327,7 +327,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 1: model output
+## Source event 43 · Sub-agent 1: model output
 
 ```text
 No results for that exact name. Let me try a broader search.
@@ -346,7 +346,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -360,7 +360,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 1: model output
+## Source event 45 · Sub-agent 1: model output
 
 ```text
 Found the product. The blue variant is item_id `ea67266bb9ce4ee5b0165e63438b815d` (Color: Blue, $29.74). Adding it to cart.
@@ -379,7 +379,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -393,7 +393,7 @@ ea67266bb9ce4ee5b0165e63438b815d
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 Added to cart. Now checking out.
@@ -409,7 +409,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -423,7 +423,7 @@ df10e46d225943b7b41a653803af020a
 </details>
 
 
-## Source event #49 · Sub-agent 1: model output
+## Source event 49 · Sub-agent 1: model output
 
 ```text
 Checkout successful. Let me verify the final calendar state for both days.
@@ -443,7 +443,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 1: tool result</summary>
+<summary>Source event 50 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -457,7 +457,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 1: model output
+## Source event 51 · Sub-agent 1: model output
 
 ```text
 All follow-up tasks are complete and verified. Final calendar state confirms:
@@ -512,7 +512,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 1: tool result</summary>
+<summary>Source event 52 · Sub-agent 1: tool result</summary>
 
 
 ```text

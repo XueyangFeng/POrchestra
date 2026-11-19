@@ -1,6 +1,8 @@
 # scenario_universe_21_x1l1om
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_21_x1l1om/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_21_x1l1om/README.md) · [Codex](../../codex/round2/scenario_universe_21_x1l1om/README.md) · [OpenCode](../../opencode/round2/scenario_universe_21_x1l1om/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial calendar operations: creating the requested meeting and canceling existing events for the same day. I will also require the subagent to report the details of the canceled events to ensure they can be restored if the contingency condition is met later.
 
@@ -86,7 +88,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #23
+**Harness configuration updated** · Source event 23
 
 **1. Sub-agent revision request**
 
@@ -95,7 +97,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Created 'Brand Partnership Meeting' (id dcf191829913b81220f38262b28ec53c) on 2024-10-21 09:00–14:00 at 'Zoom Meeting' with attendee Luís Pimentel; deleted the two pre-existing events on that day; sent user message 'The Brand Partnership Meeting has been created.' Verification re-query of 2024-10-21 now returns 0 events — the new meeting has been deleted, matching the incoming notification that Luís Pimentel deleted a calendar event.
 ```
 <details>
-<summary>Request and evidence · source event #21</summary>
+<summary>Request and evidence · source event 21</summary>
 
 
 ```text
@@ -179,7 +181,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The conditional trigger (cancellation of &#x27;Brand Partnership Meeting&#x27; by Luís Pimentel) has been detected. I am expanding the SubAgent&#x27;s task to handle the restoration of cancelled events, messaging Luís Pimentel, and emailing the attendee of the restored event. I am providing the necessary Messages, Email, and Contacts tools.
 
@@ -295,7 +297,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

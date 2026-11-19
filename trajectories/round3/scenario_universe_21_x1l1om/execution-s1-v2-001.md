@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 34 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #35 · Sub-agent 1: model output
+## Source event 35 · Sub-agent 1: model output
 
 ```text
 I'll start by searching Contacts for Luís Pimentel to resolve his Messages user ID.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Found Luís Pimentel's contact with phone '+351937456789'. The Messages user IDs appear to be phone numbers, so let me try the exact lookup with the phone.
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ None
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -96,7 +96,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -110,7 +110,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 Let me try looking up Messages ID via his email address.
@@ -127,7 +127,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -141,7 +141,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 1: model output
+## Source event 43 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -156,7 +156,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 1: model output
+## Source event 45 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -185,7 +185,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -199,7 +199,7 @@ Action:
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 Messages lookup by phone/email/name variants fails for Luís Pimentel. Let me check Contacts for any other Pimentel entries that might map to a Messages ID.
@@ -216,7 +216,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -230,7 +230,7 @@ Action:
 </details>
 
 
-## Source event #49 · Sub-agent 1: model output
+## Source event 49 · Sub-agent 1: model output
 
 ```text
 Found the contact: phone '+351937456789', email 'lpimentel@bistroporto.com'. Messages user IDs in this app appear to be phone numbers, so I'll try sending directly to that ID.
@@ -248,7 +248,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 1: tool result</summary>
+<summary>Source event 50 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -262,7 +262,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 1: model output
+## Source event 51 · Sub-agent 1: model output
 
 ```text
 Message sent successfully. Now I'll restore the two cancelled events with their original details.
@@ -285,7 +285,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 1: tool result</summary>
+<summary>Source event 52 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -299,7 +299,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 1: model output
+## Source event 53 · Sub-agent 1: model output
 
 ```text
 Content Creation Session restored. Now restoring the Yoga Class event.
@@ -322,7 +322,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 1: tool result</summary>
+<summary>Source event 54 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -336,7 +336,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 1: model output
+## Source event 55 · Sub-agent 1: model output
 
 ```text
 Both events restored. Now let me find Linnea Åström's email address.
@@ -353,7 +353,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 1: tool result</summary>
+<summary>Source event 56 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -367,7 +367,7 @@ Action:
 </details>
 
 
-## Source event #57 · Sub-agent 1: model output
+## Source event 57 · Sub-agent 1: model output
 
 ```text
 Found her email address. Now I'll send the restoration notification email.
@@ -386,7 +386,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 1: tool result</summary>
+<summary>Source event 58 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -400,7 +400,7 @@ a7a6559237dfccab98f2b1970584c7a3
 </details>
 
 
-## Source event #59 · Sub-agent 1: model output
+## Source event 59 · Sub-agent 1: model output
 
 ```text
 Email sent. Let me verify the final calendar state.
@@ -420,7 +420,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 1: tool result</summary>
+<summary>Source event 60 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -438,7 +438,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #61 · Sub-agent 1: model output
+## Source event 61 · Sub-agent 1: model output
 
 ```text
 All assigned actions are complete. The calendar verification tool is no longer available, but both event creation calls returned success IDs. I'll finish and hand back the full report.
@@ -485,7 +485,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 1: tool result</summary>
+<summary>Source event 62 · Sub-agent 1: tool result</summary>
 
 
 ```text

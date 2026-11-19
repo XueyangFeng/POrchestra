@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #63 · Sub-agent 1: tool result</summary>
+<summary>Source event 63 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #64 · Sub-agent 1: model output</summary>
+<summary>Source event 64 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #65 · Sub-agent 1: tool result</summary>
+<summary>Source event 65 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ None
 
 
 <details>
-<summary>Source event #66 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 66 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -70,7 +70,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #67 · Sub-agent 1: model output</summary>
+<summary>Source event 67 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -87,7 +87,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 1: tool result</summary>
+<summary>Source event 68 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #69 · Sub-agent 1: model output</summary>
+<summary>Source event 69 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -119,7 +119,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 1: tool result</summary>
+<summary>Source event 70 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -134,7 +134,7 @@ Action:
 
 
 <details>
-<summary>Source event #71 · Sub-agent 1: model output</summary>
+<summary>Source event 71 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -155,7 +155,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 1: tool result</summary>
+<summary>Source event 72 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ None
 
 
 <details>
-<summary>Source event #73 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 73 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -184,7 +184,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 1: model output</summary>
+<summary>Source event 74 · Sub-agent 1: model output</summary>
 
 
 ```text

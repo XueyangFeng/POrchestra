@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #81 · Main agent: Tool result: call_00_s4knhpuiyanr0ai1f9hyz7xj (is_error=False)</summary>
+<summary>Source event 81 · Main agent: Tool result: call_00_s4knhpuiyanr0ai1f9hyz7xj (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #82 · Main agent: Tool result: call_01_9lr5hpnqdvpzrwev2xyx0fwv (is_error=False)</summary>
+<summary>Source event 82 · Main agent: Tool result: call_01_9lr5hpnqdvpzrwev2xyx0fwv (is_error=False)</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #83 · Main agent: Model message
+## Source event 83 · Main agent: Model message
 
 ```text
 Message is there, no reply. The wait only advances real/sim time when waiting. Maybe Akira's reply is triggered after a certain amount of time (e.g., minutes/hours). We could wait more. But wait_for_notification returned only timeout notifications, not Akira's reply. Maybe the reply will arrive as a "user message" notification that updates the task, not environment notification. The system says user-message notifications update the user task. Hmm.
@@ -56,7 +56,7 @@ Let me wait 600s.
 
 
 
-## Source event #84 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_wz2ilc479wrmyycisauh6eux)
+## Source event 84 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_wz2ilc479wrmyycisauh6eux)
 
 ```text
 {
@@ -67,7 +67,7 @@ Let me wait 600s.
 
 
 <details>
-<summary>Source event #85 · Main agent: Tool result: call_00_wz2ilc479wrmyycisauh6eux (is_error=False)</summary>
+<summary>Source event 85 · Main agent: Tool result: call_00_wz2ilc479wrmyycisauh6eux (is_error=False)</summary>
 
 
 ```text
@@ -87,7 +87,7 @@ Let me wait 600s.
 </details>
 
 
-## Source event #86 · Main agent: Model message
+## Source event 86 · Main agent: Model message
 
 ```text
 Still nothing after 17 minutes. Hmm. Maybe Akira won't reply in this app; perhaps the "reply" is a user message that arrives when we notify the user. Let me reconsider the task.
@@ -109,7 +109,7 @@ Let me check Chats lookup.
 
 
 
-## Source event #87 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_00_sw6o1a1modvgdv7yxiwl7art)
+## Source event 87 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_00_sw6o1a1modvgdv7yxiwl7art)
 
 ```text
 {
@@ -119,7 +119,7 @@ Let me check Chats lookup.
 
 
 
-## Source event #88 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_01_d9tmux9y9absz3g2fzsrd48s)
+## Source event 88 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_01_d9tmux9y9absz3g2fzsrd48s)
 
 ```text
 {
@@ -130,7 +130,7 @@ Let me check Chats lookup.
 
 
 <details>
-<summary>Source event #89 · Main agent: Tool result: call_00_sw6o1a1modvgdv7yxiwl7art (is_error=False)</summary>
+<summary>Source event 89 · Main agent: Tool result: call_00_sw6o1a1modvgdv7yxiwl7art (is_error=False)</summary>
 
 
 ```text
@@ -147,7 +147,7 @@ Let me check Chats lookup.
 
 
 <details>
-<summary>Source event #90 · Main agent: Tool result: call_01_d9tmux9y9absz3g2fzsrd48s (is_error=False)</summary>
+<summary>Source event 90 · Main agent: Tool result: call_01_d9tmux9y9absz3g2fzsrd48s (is_error=False)</summary>
 
 
 ```text
@@ -163,7 +163,7 @@ Let me check Chats lookup.
 </details>
 
 
-## Source event #91 · Main agent: Model message
+## Source event 91 · Main agent: Model message
 
 ```text
 Chats has no Akira. So only Messages. The most recent 1:1 is indeed that conversation.
@@ -207,7 +207,7 @@ Let me do a longer wait: 3600.
 
 
 
-## Source event #92 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_54dznsw8dfdsfkdwhx6mntpm)
+## Source event 92 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_54dznsw8dfdsfkdwhx6mntpm)
 
 ```text
 {
@@ -218,7 +218,7 @@ Let me do a longer wait: 3600.
 
 
 <details>
-<summary>Source event #93 · Main agent: Tool result: call_00_54dznsw8dfdsfkdwhx6mntpm (is_error=False)</summary>
+<summary>Source event 93 · Main agent: Tool result: call_00_54dznsw8dfdsfkdwhx6mntpm (is_error=False)</summary>
 
 
 ```text
@@ -235,7 +235,7 @@ Let me do a longer wait: 3600.
 
 
 <details>
-<summary>Source event #94 · Judge: Judge rationale</summary>
+<summary>Source event 94 · Judge: Judge rationale</summary>
 
 
 ```text

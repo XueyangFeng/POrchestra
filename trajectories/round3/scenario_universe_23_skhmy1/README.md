@@ -1,6 +1,8 @@
 # scenario_universe_23_skhmy1
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_23_skhmy1/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_23_skhmy1/README.md) · [Codex](../../codex/round3/scenario_universe_23_skhmy1/README.md) · [OpenCode](../../opencode/round3/scenario_universe_23_skhmy1/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the contact in 1:1 Messages chats with the most words in the first 6 messages. This involves listing all 1:1 conversations, fetching the messages for those with at least 6 messages, calculating word counts for the oldest 6 messages, and identifying the contact&#x27;s full name.
 
@@ -95,11 +97,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #68
+**Initial harness configuration** · Source event 68
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous agent identified 28 1:1 conversations but did not process the message content or confirm the full list of conversations. I need a subagent to finish scanning the conversations, retrieve the first 6 messages of each valid 1:1 chat, calculate word counts, and identify the contact with the maximum word count.
 
@@ -173,11 +175,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #131
+**Initial harness configuration** · Source event 131
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The previous SubAgent identified 30 1:1 conversations in total and calculated the whitespace-split word count for the first 6 messages of 23 of them. Fatima Al-Khaja currently leads with 283 words. I need to delegate the remaining 7 conversations to a SubAgent to finalize the comparison and provide the final answer.
 

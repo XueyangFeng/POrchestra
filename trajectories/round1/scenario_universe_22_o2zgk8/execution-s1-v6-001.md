@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #77 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 77 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -24,7 +24,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #78 · Sub-agent 1: model output
+## Source event 78 · Sub-agent 1: model output
 
 ```text
 I cannot proceed because the Messages__read_conversation tool is not available in my current toolset, and the assigned subtask depends entirely on reading the most recent message in the conversation. I've already requested this tool twice via revise without it being added. I'll make a useful handoff to MainAgent with the full state.
@@ -77,7 +77,7 @@ Action:
 
 
 <details>
-<summary>Source event #79 · Sub-agent 1: tool result</summary>
+<summary>Source event 79 · Sub-agent 1: tool result</summary>
 
 
 ```text

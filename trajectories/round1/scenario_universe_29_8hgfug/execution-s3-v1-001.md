@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #62 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 62 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Search for 'Mega Bloks Green Race Car Building Set' in the Shopping app. Identif
 </details>
 
 
-## Source event #63 · Sub-agent 3: model output
+## Source event 63 · Sub-agent 3: model output
 
 ```text
 Thought: Need to search the Shopping app for the product to identify available options.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 3: tool result</summary>
+<summary>Source event 64 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #65 · Sub-agent 3: model output
+## Source event 65 · Sub-agent 3: model output
 
 ```text
 Thought: Search found one product with multiple variants. The most expensive available item is variant 4f945df683e34fa4870ddc2326e4cc85 at $7.99. I'll add it to the cart for the Focus Group.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 3: tool result</summary>
+<summary>Source event 66 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ Action:
 </details>
 
 
-## Source event #67 · Sub-agent 3: model output
+## Source event 67 · Sub-agent 3: model output
 
 ```text
 Thought: The item was added to the cart. Now I need to verify the cart contents, then proceed to checkout.
@@ -97,7 +97,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 3: tool result</summary>
+<summary>Source event 68 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -111,7 +111,7 @@ Action:
 </details>
 
 
-## Source event #69 · Sub-agent 3: model output
+## Source event 69 · Sub-agent 3: model output
 
 ```text
 Cart confirmed with the most expensive variant at $7.99. No discount code was mentioned, so I'll checkout without one.
@@ -128,7 +128,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 3: tool result</summary>
+<summary>Source event 70 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -142,7 +142,7 @@ a6a3ef16dd4b4a69a05adca5c9fa540f
 </details>
 
 
-## Source event #71 · Sub-agent 3: model output
+## Source event 71 · Sub-agent 3: model output
 
 ```text
 Thought: Checkout succeeded. The most expensive available variant of the Mega Bloks Green Race Car Building Set ($7.99, 200 pieces, 6-8 years, no battery) has been purchased for the Focus Group. The subtask is complete; I'll finish and hand off evidence to MainAgent.
@@ -187,7 +187,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 3: tool result</summary>
+<summary>Source event 72 · Sub-agent 3: tool result</summary>
 
 
 ```text

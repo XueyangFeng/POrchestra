@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #1 · Main agent — decision 1: delegate_task</summary>
+<summary>Source event 1 · Main agent — decision 1: delegate_task</summary>
 
 
 ```text
@@ -34,7 +34,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #2 · Main agent — decision 2: revise_task</summary>
+<summary>Source event 2 · Main agent — decision 2: revise_task</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ SUB-AGENT SESSION 1
 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: Initial system configuration</summary>
+<summary>Source event 3 · Sub-agent 1: Initial system configuration</summary>
 
 
 ```text
@@ -245,7 +245,7 @@ The search looks for partial matches in first name, last name, phone number, and
 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -258,7 +258,7 @@ Find the calendar event 'Dinner with Family' on 2024-10-17. Retrieve Bohumil's h
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: model output</summary>
+<summary>Source event 5 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -279,7 +279,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -294,7 +294,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: model output</summary>
+<summary>Source event 7 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -312,7 +312,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -327,7 +327,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: model output</summary>
+<summary>Source event 9 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -345,7 +345,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -360,7 +360,7 @@ Event 8b999799feca4bc1bd25ec59f55f1174 successfully deleted.
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: model output</summary>
+<summary>Source event 11 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -384,7 +384,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -399,7 +399,7 @@ e4657cd1b75ef061b9fbfd037e80abd6
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: model output</summary>
+<summary>Source event 13 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -420,7 +420,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -444,7 +444,7 @@ Ride ID: 6acbe88d2e50cc6bc7af2e04429d65f0
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: model output</summary>
+<summary>Source event 15 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -462,7 +462,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -477,7 +477,7 @@ None
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 17 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -491,7 +491,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: model output</summary>
+<summary>Source event 18 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -541,7 +541,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -556,7 +556,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 1: System configuration update</summary>
+<summary>Source event 20 · Sub-agent 1: System configuration update</summary>
 
 
 ```text
@@ -749,7 +749,7 @@ The search looks for partial matches in first name, last name, phone number, and
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 21 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -767,7 +767,7 @@ The search looks for partial matches in first name, last name, phone number, and
 
 
 <details>
-<summary>Source event #22 · Sub-agent 1: model output</summary>
+<summary>Source event 22 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -787,7 +787,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -802,7 +802,7 @@ e99491546510d319bc33d842063d8b97
 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: model output</summary>
+<summary>Source event 24 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -820,7 +820,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -835,7 +835,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: tool result</summary>
+<summary>Source event 26 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -866,7 +866,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: model output</summary>
+<summary>Source event 27 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -890,7 +890,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: tool result</summary>
+<summary>Source event 28 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -905,7 +905,7 @@ e03b534af959899d9ca5c1d3e342f522
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: model output</summary>
+<summary>Source event 29 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -923,7 +923,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 1: tool result</summary>
+<summary>Source event 30 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -938,7 +938,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: model output</summary>
+<summary>Source event 31 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -956,7 +956,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: tool result</summary>
+<summary>Source event 32 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -971,7 +971,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: model output</summary>
+<summary>Source event 33 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -990,7 +990,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: tool result</summary>
+<summary>Source event 34 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1005,7 +1005,7 @@ b3d05104fd388610cc3e11019443dd96
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: model output</summary>
+<summary>Source event 35 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -1024,7 +1024,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1039,7 +1039,7 @@ b3d05104fd388610cc3e11019443dd96
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: model output</summary>
+<summary>Source event 37 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -1055,7 +1055,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1070,7 +1070,7 @@ Ride has been cancelled, sorry to see you go.
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: model output</summary>
+<summary>Source event 39 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -1091,7 +1091,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1115,7 +1115,7 @@ Ride ID: e192c5fb8a318bdb627cf6d71152ec19
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: model output</summary>
+<summary>Source event 41 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -1138,7 +1138,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1157,7 +1157,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: model output</summary>
+<summary>Source event 43 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -1177,7 +1177,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -1192,7 +1192,7 @@ None
 
 
 <details>
-<summary>Source event #45 · Judge rationale</summary>
+<summary>Source event 45 · Judge rationale</summary>
 
 
 ```text

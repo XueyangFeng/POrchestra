@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 47 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ il_id='b3369dd552764b14a0882e5f87a5716a', parent_id=None, cc=[], attachments={},
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result (continued, part 5)</summary>
+<summary>Source event 47 · Sub-agent 1: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -29,7 +29,7 @@ make a positive impact on our community.\n\nAs someone who has dedicated their l
 </details>
 
 
-## Source event #48 · Sub-agent 1: model output
+## Source event 48 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -82,7 +82,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: tool result</summary>
+<summary>Source event 49 · Sub-agent 1: tool result</summary>
 
 
 ```text

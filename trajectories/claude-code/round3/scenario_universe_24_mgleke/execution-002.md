@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #133 · Main agent: Model message
+## Source event 133 · Main agent: Model message
 
 ```text
 Elodie appears in Chats conversations (e44ae54d seen). Ursula Kaufmann appears (48a577bd). Both contacts. So directory includes them. Does it include all 101 contacts? Test someone like "Karel De Clercq", "Liesbeth Vandenberghe", "Kamil Nowakowski" (we saw Kamil Sadowski mismatch). Kamil Nowakowski not found but Kamil Sadowski is a different chat participant. Let's test other contacts clearly not in chats: "Liesbeth Vandenberghe", "Karel De Clercq", "Aurélien Favre". If these return {} while being contacts, then directory = chat users only. If they return ids, then full contact directory and Akua absent is conclusive.
@@ -36,7 +36,7 @@ Could the Messages conversations be represented in Chats with UUID mapping? If s
 
 
 
-## Source event #134 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_00_ak0v1wn6r7w5dc0js7oljsta)
+## Source event 134 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_00_ak0v1wn6r7w5dc0js7oljsta)
 
 ```text
 {
@@ -46,7 +46,7 @@ Could the Messages conversations be represented in Chats with UUID mapping? If s
 
 
 
-## Source event #135 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_01_z3ya4irzn1gwd5g2ai53mv3b)
+## Source event 135 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_01_z3ya4irzn1gwd5g2ai53mv3b)
 
 ```text
 {
@@ -56,7 +56,7 @@ Could the Messages conversations be represented in Chats with UUID mapping? If s
 
 
 
-## Source event #136 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_02_bmuqgp3hv1voe39sv596k53r)
+## Source event 136 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_02_bmuqgp3hv1voe39sv596k53r)
 
 ```text
 {
@@ -66,7 +66,7 @@ Could the Messages conversations be represented in Chats with UUID mapping? If s
 
 
 
-## Source event #137 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_03_iq9b8qfv69rvwlffii8bourn)
+## Source event 137 · Main agent: Model tool call: mcp__gaia2__Chats__search (call_03_iq9b8qfv69rvwlffii8bourn)
 
 ```text
 {
@@ -77,7 +77,7 @@ Could the Messages conversations be represented in Chats with UUID mapping? If s
 
 
 <details>
-<summary>Source event #138 · Main agent: Tool result: call_00_ak0v1wn6r7w5dc0js7oljsta (is_error=False)</summary>
+<summary>Source event 138 · Main agent: Tool result: call_00_ak0v1wn6r7w5dc0js7oljsta (is_error=False)</summary>
 
 
 ```text
@@ -94,7 +94,7 @@ Could the Messages conversations be represented in Chats with UUID mapping? If s
 
 
 <details>
-<summary>Source event #139 · Main agent: Tool result: call_01_z3ya4irzn1gwd5g2ai53mv3b (is_error=False)</summary>
+<summary>Source event 139 · Main agent: Tool result: call_01_z3ya4irzn1gwd5g2ai53mv3b (is_error=False)</summary>
 
 
 ```text
@@ -111,7 +111,7 @@ Could the Messages conversations be represented in Chats with UUID mapping? If s
 
 
 <details>
-<summary>Source event #140 · Main agent: Tool result: call_02_bmuqgp3hv1voe39sv596k53r (is_error=False)</summary>
+<summary>Source event 140 · Main agent: Tool result: call_02_bmuqgp3hv1voe39sv596k53r (is_error=False)</summary>
 
 
 ```text
@@ -128,7 +128,7 @@ Could the Messages conversations be represented in Chats with UUID mapping? If s
 
 
 <details>
-<summary>Source event #141 · Main agent: Tool result: call_03_iq9b8qfv69rvwlffii8bourn (is_error=False)</summary>
+<summary>Source event 141 · Main agent: Tool result: call_03_iq9b8qfv69rvwlffii8bourn (is_error=False)</summary>
 
 
 ```text
@@ -144,7 +144,7 @@ Could the Messages conversations be represented in Chats with UUID mapping? If s
 </details>
 
 
-## Source event #142 · Main agent: Model message
+## Source event 142 · Main agent: Model message
 
 ```text
 Chats has a "Planning a trip to Japan" conversation. Could be a different one. Let's inspect it.
@@ -152,7 +152,7 @@ Chats has a "Planning a trip to Japan" conversation. Could be a different one. L
 
 
 
-## Source event #143 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_00_s2y6ur05i9kjq1ue2tly0h52)
+## Source event 143 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_00_s2y6ur05i9kjq1ue2tly0h52)
 
 ```text
 {
@@ -165,7 +165,7 @@ Chats has a "Planning a trip to Japan" conversation. Could be a different one. L
 
 
 <details>
-<summary>Source event #144 · Main agent: Tool result: call_00_s2y6ur05i9kjq1ue2tly0h52 (is_error=False)</summary>
+<summary>Source event 144 · Main agent: Tool result: call_00_s2y6ur05i9kjq1ue2tly0h52 (is_error=False)</summary>
 
 
 ```text
@@ -181,7 +181,7 @@ Chats has a "Planning a trip to Japan" conversation. Could be a different one. L
 </details>
 
 
-## Source event #145 · Main agent: Model message
+## Source event 145 · Main agent: Model message
 
 ```text
 Different conversation (Catch-up and Travel Plans) mentioning Japan in messages. Not Akua.
@@ -244,7 +244,7 @@ Let me send.
 
 
 
-## Source event #146 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_mxyes07ndfq7mndugrwgripr)
+## Source event 146 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_mxyes07ndfq7mndugrwgripr)
 
 ```text
 {
@@ -255,7 +255,7 @@ Let me send.
 
 
 <details>
-<summary>Source event #147 · Main agent: Tool result: call_00_mxyes07ndfq7mndugrwgripr (is_error=False)</summary>
+<summary>Source event 147 · Main agent: Tool result: call_00_mxyes07ndfq7mndugrwgripr (is_error=False)</summary>
 
 
 ```text
@@ -271,7 +271,7 @@ Let me send.
 </details>
 
 
-## Source event #148 · Main agent: Model message
+## Source event 148 · Main agent: Model message
 
 ```text
 Sent. Provide brief summary to user? The message was sent; final response can be minimal. The tool ends turn. I'll note what I did briefly.
@@ -279,7 +279,7 @@ Sent. Provide brief summary to user? The message was sent; final response can be
 
 
 
-## Source event #149 · Main agent: Model message
+## Source event 149 · Main agent: Model message
 
 ```text
 5
@@ -288,7 +288,7 @@ Sent. Provide brief summary to user? The message was sent; final response can be
 
 
 <details>
-<summary>Source event #150 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 150 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -300,7 +300,7 @@ Sent. Provide brief summary to user? The message was sent; final response can be
 
 
 <details>
-<summary>Source event #151 · Judge: Judge rationale</summary>
+<summary>Source event 151 · Judge: Judge rationale</summary>
 
 
 ```text

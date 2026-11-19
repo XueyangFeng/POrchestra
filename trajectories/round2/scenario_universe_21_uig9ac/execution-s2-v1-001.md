@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #16 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 16 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #17 · Sub-agent 2: model output
+## Source event 17 · Sub-agent 2: model output
 
 ```text
 I'll start by searching for saved apartments in the 211 43 zip code with a Gym amenity.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 2: tool result</summary>
+<summary>Source event 18 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 </details>
 
 
-## Source event #19 · Sub-agent 2: model output
+## Source event 19 · Sub-agent 2: model output
 
 ```text
 Let me verify by checking all saved apartments in that zip code without the amenity filter.
@@ -71,7 +71,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: tool result</summary>
+<summary>Source event 20 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -85,7 +85,7 @@ Action:
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 Only one saved apartment found. Let me double-check with an alternate zip format to make sure I'm not missing any properties.
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -116,7 +116,7 @@ Action:
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 Found it — only one saved apartment in 211 43, and it has Gym: **Malmö Modern** at Södra Förstadsgatan 20, price 1300. Now I'll create the calendar event for Sunday 2024-10-20, 2:00–4:00 PM.
@@ -137,7 +137,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -151,7 +151,7 @@ dcf191829913b81220f38262b28ec53c
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 Calendar event created. Now ordering the Default cab from Home to Malmö Modern at 1:00 PM on Sunday 2024-10-20.
@@ -171,7 +171,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -194,7 +194,7 @@ Ride ID: ca5380b0fb5d30db43b4905d14d91312
 </details>
 
 
-## Source event #27 · Sub-agent 2: model output
+## Source event 27 · Sub-agent 2: model output
 
 ```text
 All steps completed. Reporting to the user now.
@@ -211,7 +211,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: tool result</summary>
+<summary>Source event 28 · Sub-agent 2: tool result</summary>
 
 
 ```text

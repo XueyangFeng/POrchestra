@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #1 · Main agent — decision 1: delegate_task</summary>
+<summary>Source event 1 · Main agent — decision 1: delegate_task</summary>
 
 
 ```text
@@ -40,7 +40,7 @@ SUB-AGENT SESSION 1
 
 
 <details>
-<summary>Source event #2 · Sub-agent 1: Initial system configuration</summary>
+<summary>Source event 2 · Sub-agent 1: Initial system configuration</summary>
 
 
 ```text
@@ -218,7 +218,7 @@ This is the only way to send a message to a single person.
 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -235,7 +235,7 @@ This is the only way to send a message to a single person.
 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: model output</summary>
+<summary>Source event 4 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -258,7 +258,7 @@ Action:
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: tool result</summary>
+<summary>Source event 5 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -273,7 +273,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: model output</summary>
+<summary>Source event 6 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -296,7 +296,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -320,7 +320,7 @@ Ride ID: 6acbe88d2e50cc6bc7af2e04429d65f0
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: model output</summary>
+<summary>Source event 8 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -340,7 +340,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -355,7 +355,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: model output</summary>
+<summary>Source event 10 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -376,7 +376,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -391,7 +391,7 @@ a7068a8ebfa1491a88ea92e241f5a0ea
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: model output</summary>
+<summary>Source event 12 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -409,7 +409,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -433,7 +433,7 @@ Ride ID: 6acbe88d2e50cc6bc7af2e04429d65f0
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: model output</summary>
+<summary>Source event 14 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -453,7 +453,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -468,7 +468,7 @@ None
 
 
 <details>
-<summary>Source event #16 · Judge rationale</summary>
+<summary>Source event 16 · Judge rationale</summary>
 
 
 ```text

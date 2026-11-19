@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 29 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Wait until 2024-10-15 07:04:07. Then, delete event 85640861b39240959e25ed7feb8e9
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 I need to wait until 07:04:07. Last known time was 07:02:39, so I'll wait about 90 seconds.
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ None
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 32 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -63,7 +63,7 @@ Environment notifications:
 </details>
 
 
-## Source event #33 · Sub-agent 1: model output
+## Source event 33 · Sub-agent 1: model output
 
 ```text
 The wait completed. Let me verify the current time.
@@ -79,7 +79,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: tool result</summary>
+<summary>Source event 34 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -93,7 +93,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 1: model output
+## Source event 35 · Sub-agent 1: model output
 
 ```text
 Current time is 07:04:18, which is past 07:04:07. Now deleting the earliest event.
@@ -111,7 +111,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -125,7 +125,7 @@ Event 85640861b39240959e25ed7feb8e96ed successfully deleted.
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Event deleted. Now re-adding it with the same details but no attendees.
@@ -149,7 +149,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -163,7 +163,7 @@ dcf191829913b81220f38262b28ec53c
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 Event re-created with new ID dcf191829913b81220f38262b28ec53c. Let me verify the newly created event.
@@ -181,7 +181,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -200,7 +200,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: tool result</summary>
+<summary>Source event 41 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -218,7 +218,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #42 · Sub-agent 1: model output
+## Source event 42 · Sub-agent 1: model output
 
 ```text
 The verification tool isn't available in my current toolset, but the add succeeded with new event ID dcf191829913b81220f38262b28ec53c. Now sending the cancellation message to Aurélien Dumont.
@@ -237,7 +237,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: tool result</summary>
+<summary>Source event 43 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -251,7 +251,7 @@ e7cf1a8da9c54f8db30ca5c9f992f711
 </details>
 
 
-## Source event #44 · Sub-agent 1: model output
+## Source event 44 · Sub-agent 1: model output
 
 ```text
 Message sent. Let me capture the exact time before notifying the user.
@@ -267,7 +267,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -281,7 +281,7 @@ Action:
 </details>
 
 
-## Source event #46 · Sub-agent 1: model output
+## Source event 46 · Sub-agent 1: model output
 
 ```text
 Now notifying the user that the changes have been completed.
@@ -299,7 +299,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result</summary>
+<summary>Source event 47 · Sub-agent 1: tool result</summary>
 
 
 ```text

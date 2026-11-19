@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 49 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Read the replies from Evangelia (evangelia.papadopoulos@student.tum.de) and Kaid
 </details>
 
 
-## Source event #50 · Sub-agent 1: model output
+## Source event 50 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -33,7 +33,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 1: tool result</summary>
+<summary>Source event 51 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -47,7 +47,7 @@ ReturnedEmails(emails=[Email(sender='evangelia.papadopoulos@student.tum.de', rec
 </details>
 
 
-## Source event #52 · Sub-agent 1: model output
+## Source event 52 · Sub-agent 1: model output
 
 ```text
 Both invited attendees replied agreeing to brunch. Evangelia (evangelia.papadopoulos@student.tum.de) and Kaidën Nakamura (kaidennakamura@gaia2mail.com) both confirmed brunch on Sunday, October 20, 2024, 10AM-1PM. I will now schedule the brunch in the calendar.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 1: tool result</summary>
+<summary>Source event 53 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ e4657cd1b75ef061b9fbfd037e80abd6
 </details>
 
 
-## Source event #54 · Sub-agent 1: model output
+## Source event 54 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -123,7 +123,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 1: tool result</summary>
+<summary>Source event 55 · Sub-agent 1: tool result</summary>
 
 
 ```text

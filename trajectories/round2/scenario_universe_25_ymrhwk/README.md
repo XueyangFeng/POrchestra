@@ -1,6 +1,8 @@
 # scenario_universe_25_ymrhwk
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_25_ymrhwk/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_25_ymrhwk/README.md) · [Codex](../../codex/round2/scenario_universe_25_ymrhwk/README.md) · [OpenCode](../../opencode/round2/scenario_universe_25_ymrhwk/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires finding specific calendar events, communicating with attendees via different apps (Chats or Emails), waiting for a response, and conditionally rescheduling events while notifying attendees via yet another set of apps (Chats or Messages). A single SubAgent can coordinate these cross-app interactions and handle the 3-minute waiting logic.
 
@@ -121,7 +123,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #2</summary>
+<summary>Source event 2</summary>
 
 
 ```text

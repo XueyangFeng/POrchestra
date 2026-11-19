@@ -1,6 +1,8 @@
 # Claude Code · scenario_universe_27_ikk1lb
 
-[Round index](../README.md) · [Claude Code rounds](../../README.md) · [PORCHESTRA task](../../../round3/scenario_universe_27_ikk1lb/README.md)
+[Round index](../README.md) · [Claude Code rounds](../../README.md)
+
+**Compare systems:** [PORCHESTRA](../../../round3/scenario_universe_27_ikk1lb/README.md) · Claude Code · [Codex](../../../codex/round3/scenario_universe_27_ikk1lb/README.md) · [OpenCode](../../../opencode/round3/scenario_universe_27_ikk1lb/README.md)
 
 **Domain:** Search · **Result:** Correct · **Duration:** 38.5 seconds
 

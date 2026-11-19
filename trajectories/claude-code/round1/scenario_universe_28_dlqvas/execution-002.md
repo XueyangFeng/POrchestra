@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #52 · Main agent: Tool result: call_01_8qutk8uqkazlicijjtbuv698 (is_error=False)</summary>
+<summary>Source event 52 · Main agent: Tool result: call_01_8qutk8uqkazlicijjtbuv698 (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #53 · Main agent: Tool result: call_02_a6gsruxoyw40bvm8uv708erq (is_error=False)</summary>
+<summary>Source event 53 · Main agent: Tool result: call_02_a6gsruxoyw40bvm8uv708erq (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #54 · Main agent: Tool result: call_03_ra7emi979uacnjk2dw06mn56 (is_error=False)</summary>
+<summary>Source event 54 · Main agent: Tool result: call_03_ra7emi979uacnjk2dw06mn56 (is_error=False)</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #55 · Main agent: Tool result: call_04_z0vl8hgoub1gtz84jnnqa1rj (is_error=False)</summary>
+<summary>Source event 55 · Main agent: Tool result: call_04_z0vl8hgoub1gtz84jnnqa1rj (is_error=False)</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #56 · Main agent: Tool result: call_05_8fwvb769l0al3whatg3k6te7 (is_error=False)</summary>
+<summary>Source event 56 · Main agent: Tool result: call_05_8fwvb769l0al3whatg3k6te7 (is_error=False)</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #57 · Main agent: Model message
+## Source event 57 · Main agent: Model message
 
 ````text
 Now I have all 104 contacts. Let me compile the full list of Belgian contacts (nationality='Belgian'):
@@ -572,7 +572,7 @@ Actually, an important subt
 
 
 
-## Source event #58 · Main agent: Model message
+## Source event 58 · Main agent: Model message
 
 ```text
 Let me verify the alphabetical ordering of the tied candidates.
@@ -580,7 +580,7 @@ Let me verify the alphabetical ordering of the tied candidates.
 
 
 
-## Source event #59 · Main agent: Model tool call: Bash (call_00_12wmb3ejyr3hz08xlr1uk8s5)
+## Source event 59 · Main agent: Model tool call: Bash (call_00_12wmb3ejyr3hz08xlr1uk8s5)
 
 ```text
 {
@@ -592,7 +592,7 @@ Let me verify the alphabetical ordering of the tied candidates.
 
 
 <details>
-<summary>Source event #60 · Main agent: Tool result: call_00_12wmb3ejyr3hz08xlr1uk8s5 (is_error=False)</summary>
+<summary>Source event 60 · Main agent: Tool result: call_00_12wmb3ejyr3hz08xlr1uk8s5 (is_error=False)</summary>
 
 
 ```text
@@ -607,7 +607,7 @@ no-space sort: ['ColetteVandenberghe', 'ColetteVanderMeulen']
 </details>
 
 
-## Source event #61 · Main agent: Model message
+## Source event 61 · Main agent: Model message
 
 ```text
 As expected. Naive full-name and tuple sort → Colette Van der Meulen first. No-space → Vandenberghe first.
@@ -736,7 +736,7 @@ Let me load the send_message_to_user tool schema.
 
 
 
-## Source event #62 · Main agent: Model tool call: ToolSearch (call_00_jz9mpykpvot3o468cknt6hp1)
+## Source event 62 · Main agent: Model tool call: ToolSearch (call_00_jz9mpykpvot3o468cknt6hp1)
 
 ```text
 {
@@ -748,7 +748,7 @@ Let me load the send_message_to_user tool schema.
 
 
 <details>
-<summary>Source event #63 · Main agent: Tool result: call_00_jz9mpykpvot3o468cknt6hp1 (is_error=False)</summary>
+<summary>Source event 63 · Main agent: Tool result: call_00_jz9mpykpvot3o468cknt6hp1 (is_error=False)</summary>
 
 
 ```text
@@ -764,7 +764,7 @@ Let me load the send_message_to_user tool schema.
 </details>
 
 
-## Source event #64 · Main agent: Model message
+## Source event 64 · Main agent: Model message
 
 ```text
 Before sending, let me reconsider once more and maybe verify with the Files/Emails if there's any instruction or context. Actually, let me just double-check the calendar computation using a script to be safe, and maybe check for any "Family Members" mapping. But not necessary.
@@ -833,7 +833,7 @@ Let me do that.
 
 
 
-## Source event #65 · Main agent: Model message
+## Source event 65 · Main agent: Model message
 
 ```text
 Let me verify the time aggregation precisely with a script.
@@ -841,7 +841,7 @@ Let me verify the time aggregation precisely with a script.
 
 
 
-## Source event #66 · Main agent: Model tool call: Bash (call_00_vxovidi7e83rf3xtvbod4bvo)
+## Source event 66 · Main agent: Model tool call: Bash (call_00_vxovidi7e83rf3xtvbod4bvo)
 
 ```text
 {
@@ -853,7 +853,7 @@ Let me verify the time aggregation precisely with a script.
 
 
 <details>
-<summary>Source event #67 · Main agent: Tool result: call_00_vxovidi7e83rf3xtvbod4bvo (is_error=False)</summary>
+<summary>Source event 67 · Main agent: Tool result: call_00_vxovidi7e83rf3xtvbod4bvo (is_error=False)</summary>
 
 
 ```text
@@ -877,7 +877,7 @@ Family Members: 2h
 </details>
 
 
-## Source event #68 · Main agent: Model message
+## Source event 68 · Main agent: Model message
 
 ```text
 Confirmed. Belgium top non-Denmark.
@@ -887,7 +887,7 @@ Now the closest-in-age Belgians: two at 77. Let me compute the full Belgian list
 
 
 
-## Source event #69 · Main agent: Model tool call: Bash (call_00_ridbjvtg57opa3emcofvf3bv)
+## Source event 69 · Main agent: Model tool call: Bash (call_00_ridbjvtg57opa3emcofvf3bv)
 
 ```text
 {
@@ -899,7 +899,7 @@ Now the closest-in-age Belgians: two at 77. Let me compute the full Belgian list
 
 
 <details>
-<summary>Source event #70 · Main agent: Tool result: call_00_ridbjvtg57opa3emcofvf3bv (is_error=False)</summary>
+<summary>Source event 70 · Main agent: Tool result: call_00_ridbjvtg57opa3emcofvf3bv (is_error=False)</summary>
 
 
 ```text
@@ -915,7 +915,7 @@ Aurélie Vandenberghe | age 65 | diff 14 | aurelie.vandenberghe@gaia2mail.com
 </details>
 
 
-## Source event #71 · Main agent: Model message
+## Source event 71 · Main agent: Model message
 
 ```text
 Confirmed. The tie-break gives Colette Van der Meulen with naive full-name sort.
@@ -976,7 +976,7 @@ Let me send the message.
 
 
 
-## Source event #72 · Main agent: Model message
+## Source event 72 · Main agent: Model message
 
 ```text
 I've verified the calculations. Now I'll send the answer.
@@ -984,7 +984,7 @@ I've verified the calculations. Now I'll send the answer.
 
 
 
-## Source event #73 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_erzxrpirmk9vvpbe9vzh90xr)
+## Source event 73 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_erzxrpirmk9vvpbe9vzh90xr)
 
 ```text
 {
@@ -995,7 +995,7 @@ I've verified the calculations. Now I'll send the answer.
 
 
 <details>
-<summary>Source event #74 · Main agent: Tool result: call_00_erzxrpirmk9vvpbe9vzh90xr (is_error=False)</summary>
+<summary>Source event 74 · Main agent: Tool result: call_00_erzxrpirmk9vvpbe9vzh90xr (is_error=False)</summary>
 
 
 ```text

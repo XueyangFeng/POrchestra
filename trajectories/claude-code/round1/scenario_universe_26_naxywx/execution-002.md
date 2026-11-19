@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #96 · Main agent: Tool result: call_00_vz3cltzrpjgl6u1a9fkfkaz2 (is_error=False)</summary>
+<summary>Source event 96 · Main agent: Tool result: call_00_vz3cltzrpjgl6u1a9fkfkaz2 (is_error=False)</summary>
 
 
 ```text
@@ -33,7 +33,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #97 · Main agent: Model tool call: mcp__gaia2__Files__tree (call_00_lxmy1k9p1ibq7rqpwy9cwjko)
+## Source event 97 · Main agent: Model tool call: mcp__gaia2__Files__tree (call_00_lxmy1k9p1ibq7rqpwy9cwjko)
 
 ```text
 {}
@@ -42,7 +42,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #98 · Main agent: Tool result: call_00_lxmy1k9p1ibq7rqpwy9cwjko (is_error=False)</summary>
+<summary>Source event 98 · Main agent: Tool result: call_00_lxmy1k9p1ibq7rqpwy9cwjko (is_error=False)</summary>
 
 
 ```text
@@ -58,7 +58,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #99 · Main agent: Model message
+## Source event 99 · Main agent: Model message
 
 ```text
 No notes. So the address = Fosswinckels gate 10, Bergen.
@@ -80,7 +80,7 @@ Let's send message.
 
 
 
-## Source event #100 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_00_r7rpft7s6c8ov9crcvbgbwzl)
+## Source event 100 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_00_r7rpft7s6c8ov9crcvbgbwzl)
 
 ```text
 {
@@ -92,7 +92,7 @@ Let's send message.
 
 
 <details>
-<summary>Source event #101 · Main agent: Tool result: call_00_r7rpft7s6c8ov9crcvbgbwzl (is_error=False)</summary>
+<summary>Source event 101 · Main agent: Tool result: call_00_r7rpft7s6c8ov9crcvbgbwzl (is_error=False)</summary>
 
 
 ```text
@@ -108,7 +108,7 @@ Let's send message.
 </details>
 
 
-## Source event #102 · Main agent: Model message
+## Source event 102 · Main agent: Model message
 
 ```text
 Message sent to existing conversation. Now order cab. Default service type "Default", start "Frognerveien 34, 0266 Oslo, Norway" or "Frognerveien 34, Oslo". User's address. End "Fosswinckels gate 10, Bergen". Time "2024-10-15 12:00:00".
@@ -120,7 +120,7 @@ Maybe get_quotation to confirm. I'll just order.
 
 
 
-## Source event #103 · Main agent: Model tool call: mcp__gaia2__Cabs__order_ride (call_00_luocflr84j8ld9lt5ppmctej)
+## Source event 103 · Main agent: Model tool call: mcp__gaia2__Cabs__order_ride (call_00_luocflr84j8ld9lt5ppmctej)
 
 ```text
 {
@@ -134,7 +134,7 @@ Maybe get_quotation to confirm. I'll just order.
 
 
 <details>
-<summary>Source event #104 · Main agent: Tool result: call_00_luocflr84j8ld9lt5ppmctej (is_error=False)</summary>
+<summary>Source event 104 · Main agent: Tool result: call_00_luocflr84j8ld9lt5ppmctej (is_error=False)</summary>
 
 
 ```text
@@ -150,7 +150,7 @@ Maybe get_quotation to confirm. I'll just order.
 </details>
 
 
-## Source event #105 · Main agent: Model message
+## Source event 105 · Main agent: Model message
 
 ```text
 Cab ordered. Now check if Kofi added event. We need wait for notification. Let me check calendar now. Also check user message contents before? We'll tell at end.
@@ -160,7 +160,7 @@ First, check calendar for apartment search event.
 
 
 
-## Source event #106 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_sxiabygsyo19i6jhfdpglj34)
+## Source event 106 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_sxiabygsyo19i6jhfdpglj34)
 
 ```text
 {
@@ -170,7 +170,7 @@ First, check calendar for apartment search event.
 
 
 
-## Source event #107 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_01_96jne8fjnaeawlnwzimztl8l)
+## Source event 107 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_01_96jne8fjnaeawlnwzimztl8l)
 
 ```text
 {
@@ -183,7 +183,7 @@ First, check calendar for apartment search event.
 
 
 <details>
-<summary>Source event #108 · Main agent: Tool result: call_00_sxiabygsyo19i6jhfdpglj34 (is_error=False)</summary>
+<summary>Source event 108 · Main agent: Tool result: call_00_sxiabygsyo19i6jhfdpglj34 (is_error=False)</summary>
 
 
 ```text
@@ -200,7 +200,7 @@ First, check calendar for apartment search event.
 
 
 <details>
-<summary>Source event #109 · Main agent: Tool result: call_01_96jne8fjnaeawlnwzimztl8l (is_error=False)</summary>
+<summary>Source event 109 · Main agent: Tool result: call_01_96jne8fjnaeawlnwzimztl8l (is_error=False)</summary>
 
 
 ```text
@@ -216,7 +216,7 @@ First, check calendar for apartment search event.
 </details>
 
 
-## Source event #110 · Main agent: Model message
+## Source event 110 · Main agent: Model message
 
 ```text
 No event yet. Kofi may add asynchronously via notification. Need to wait for notification using SystemApp__wait_for_notification. Load that tool.
@@ -224,7 +224,7 @@ No event yet. Kofi may add asynchronously via notification. Need to wait for not
 
 
 
-## Source event #111 · Main agent: Model tool call: ToolSearch (call_00_fjv2va5te5q5w35owl4cs2is)
+## Source event 111 · Main agent: Model tool call: ToolSearch (call_00_fjv2va5te5q5w35owl4cs2is)
 
 ```text
 {
@@ -236,7 +236,7 @@ No event yet. Kofi may add asynchronously via notification. Need to wait for not
 
 
 <details>
-<summary>Source event #112 · Main agent: Tool result: call_00_fjv2va5te5q5w35owl4cs2is (is_error=False)</summary>
+<summary>Source event 112 · Main agent: Tool result: call_00_fjv2va5te5q5w35owl4cs2is (is_error=False)</summary>
 
 
 ```text
@@ -252,7 +252,7 @@ No event yet. Kofi may add asynchronously via notification. Need to wait for not
 </details>
 
 
-## Source event #113 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_1j1bz9er8q0ufek5psnzelvm)
+## Source event 113 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_1j1bz9er8q0ufek5psnzelvm)
 
 ```text
 {
@@ -263,7 +263,7 @@ No event yet. Kofi may add asynchronously via notification. Need to wait for not
 
 
 <details>
-<summary>Source event #114 · Main agent: Tool result: call_00_1j1bz9er8q0ufek5psnzelvm (is_error=False)</summary>
+<summary>Source event 114 · Main agent: Tool result: call_00_1j1bz9er8q0ufek5psnzelvm (is_error=False)</summary>
 
 
 ```text
@@ -283,7 +283,7 @@ No event yet. Kofi may add asynchronously via notification. Need to wait for not
 </details>
 
 
-## Source event #115 · Main agent: Model message
+## Source event 115 · Main agent: Model message
 
 ```text
 No notification. Kofi may not respond in simulated env unless there's a scheduled actor. Hmm. Maybe the event gets added after some time automatically. Let's check calendar again after waiting. Also check Chats conversation for new messages.
@@ -291,7 +291,7 @@ No notification. Kofi may not respond in simulated env unless there's a schedule
 
 
 
-## Source event #116 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_3kl1edjnleprpbtzyhk09fit)
+## Source event 116 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_3kl1edjnleprpbtzyhk09fit)
 
 ```text
 {
@@ -301,7 +301,7 @@ No notification. Kofi may not respond in simulated env unless there's a schedule
 
 
 
-## Source event #117 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_01_6cuu0a7r01oyn8s02v81upuh)
+## Source event 117 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_01_6cuu0a7r01oyn8s02v81upuh)
 
 ```text
 {
@@ -313,7 +313,7 @@ No notification. Kofi may not respond in simulated env unless there's a schedule
 
 
 <details>
-<summary>Source event #118 · Main agent: Tool result: call_00_3kl1edjnleprpbtzyhk09fit (is_error=False)</summary>
+<summary>Source event 118 · Main agent: Tool result: call_00_3kl1edjnleprpbtzyhk09fit (is_error=False)</summary>
 
 
 ```text
@@ -330,7 +330,7 @@ No notification. Kofi may not respond in simulated env unless there's a schedule
 
 
 <details>
-<summary>Source event #119 · Main agent: Tool result: call_01_6cuu0a7r01oyn8s02v81upuh (is_error=False)</summary>
+<summary>Source event 119 · Main agent: Tool result: call_01_6cuu0a7r01oyn8s02v81upuh (is_error=False)</summary>
 
 
 ```text
@@ -346,7 +346,7 @@ No notification. Kofi may not respond in simulated env unless there's a schedule
 </details>
 
 
-## Source event #120 · Main agent: Model message
+## Source event 120 · Main agent: Model message
 
 ```text
 Kofi hasn't replied. The environment may have a scheduled Kofi action triggered by message delivery, perhaps after some minutes of environment time (each wait advances?). We waited 60s. Time now 07:01:03. The task starts 07:00. Maybe Kofi will act at a specific time or there's an injected notification later. Let's wait more, maybe 120s. But each wait may advance environment time. Let's wait 120.
@@ -354,7 +354,7 @@ Kofi hasn't replied. The environment may have a scheduled Kofi action triggered 
 
 
 
-## Source event #121 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_k6jrsixqe364xdawfxefvyvu)
+## Source event 121 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_k6jrsixqe364xdawfxefvyvu)
 
 ```text
 {
@@ -365,7 +365,7 @@ Kofi hasn't replied. The environment may have a scheduled Kofi action triggered 
 
 
 <details>
-<summary>Source event #122 · Main agent: Tool result: call_00_k6jrsixqe364xdawfxefvyvu (is_error=False)</summary>
+<summary>Source event 122 · Main agent: Tool result: call_00_k6jrsixqe364xdawfxefvyvu (is_error=False)</summary>
 
 
 ```text
@@ -385,7 +385,7 @@ Kofi hasn't replied. The environment may have a scheduled Kofi action triggered 
 </details>
 
 
-## Source event #123 · Main agent: Model message
+## Source event 123 · Main agent: Model message
 
 ```text
 Still nothing. Maybe Kofi's event will not be added unless we manually simulate? The task is likely generated where Kofi is an agent driven by "environment notifications" but maybe needs more time. Check calendar.
@@ -393,7 +393,7 @@ Still nothing. Maybe Kofi's event will not be added unless we manually simulate?
 
 
 
-## Source event #124 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_t06ycx2f5qvxz3vee2zjp60a)
+## Source event 124 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_t06ycx2f5qvxz3vee2zjp60a)
 
 ```text
 {
@@ -403,7 +403,7 @@ Still nothing. Maybe Kofi's event will not be added unless we manually simulate?
 
 
 
-## Source event #125 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_01_kuavq9z8nj84aqb6fyeaxfxe)
+## Source event 125 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_01_kuavq9z8nj84aqb6fyeaxfxe)
 
 ```text
 {
@@ -415,7 +415,7 @@ Still nothing. Maybe Kofi's event will not be added unless we manually simulate?
 
 
 <details>
-<summary>Source event #126 · Main agent: Tool result: call_00_t06ycx2f5qvxz3vee2zjp60a (is_error=False)</summary>
+<summary>Source event 126 · Main agent: Tool result: call_00_t06ycx2f5qvxz3vee2zjp60a (is_error=False)</summary>
 
 
 ```text
@@ -432,7 +432,7 @@ Still nothing. Maybe Kofi's event will not be added unless we manually simulate?
 
 
 <details>
-<summary>Source event #127 · Main agent: Tool result: call_01_kuavq9z8nj84aqb6fyeaxfxe (is_error=False)</summary>
+<summary>Source event 127 · Main agent: Tool result: call_01_kuavq9z8nj84aqb6fyeaxfxe (is_error=False)</summary>
 
 
 ```text
@@ -448,7 +448,7 @@ Still nothing. Maybe Kofi's event will not be added unless we manually simulate?
 </details>
 
 
-## Source event #128 · Main agent: Model message
+## Source event 128 · Main agent: Model message
 
 ```text
 No Kofi action. Perhaps Kofi's behavior is triggered only after "AgentUserInterface__send_message_to_user" (the user turn ends and environment advances to next turn with notifications). Hmm. In GAIA2 benchmark, tasks with user interactions: environment has a simulation that may send notifications in response to actions, but here none.
@@ -474,7 +474,7 @@ Let me wait 300 seconds.
 
 
 
-## Source event #129 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_mij6uka4cuwswob55cqqbzlq)
+## Source event 129 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_mij6uka4cuwswob55cqqbzlq)
 
 ```text
 {
@@ -485,7 +485,7 @@ Let me wait 300 seconds.
 
 
 <details>
-<summary>Source event #130 · Main agent: Tool result: call_00_mij6uka4cuwswob55cqqbzlq (is_error=False)</summary>
+<summary>Source event 130 · Main agent: Tool result: call_00_mij6uka4cuwswob55cqqbzlq (is_error=False)</summary>
 
 
 ```text
@@ -505,7 +505,7 @@ Let me wait 300 seconds.
 </details>
 
 
-## Source event #131 · Main agent: Model message
+## Source event 131 · Main agent: Model message
 
 ```text
 Still nothing. Check calendar again quickly.
@@ -513,7 +513,7 @@ Still nothing. Check calendar again quickly.
 
 
 
-## Source event #132 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_1axjz7q9d8dngavppb0l8ymi)
+## Source event 132 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_1axjz7q9d8dngavppb0l8ymi)
 
 ```text
 {
@@ -523,7 +523,7 @@ Still nothing. Check calendar again quickly.
 
 
 
-## Source event #133 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_01_84omgvms5jkvfha6rwot79o4)
+## Source event 133 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_01_84omgvms5jkvfha6rwot79o4)
 
 ```text
 {
@@ -536,7 +536,7 @@ Still nothing. Check calendar again quickly.
 
 
 <details>
-<summary>Source event #134 · Main agent: Tool result: call_00_1axjz7q9d8dngavppb0l8ymi (is_error=False)</summary>
+<summary>Source event 134 · Main agent: Tool result: call_00_1axjz7q9d8dngavppb0l8ymi (is_error=False)</summary>
 
 
 ```text
@@ -553,7 +553,7 @@ Still nothing. Check calendar again quickly.
 
 
 <details>
-<summary>Source event #135 · Main agent: Tool result: call_01_84omgvms5jkvfha6rwot79o4 (is_error=False)</summary>
+<summary>Source event 135 · Main agent: Tool result: call_01_84omgvms5jkvfha6rwot79o4 (is_error=False)</summary>
 
 
 ```text
@@ -569,7 +569,7 @@ Still nothing. Check calendar again quickly.
 </details>
 
 
-## Source event #136 · Main agent: Model message
+## Source event 136 · Main agent: Model message
 
 ```text
 No event. Perhaps there's another way: maybe Kofi already added an event somewhere in the calendar at a different date (not today). Search_events "apartment" should catch across all dates if search searches all. It returned []. Could title be "Apartment Search" and search case-insensitive partial? "apartment" should match. So no event.
@@ -588,7 +588,7 @@ Wait — maybe I mis-searched: the event could be added as "Apartment Search" to
 
 
 
-## Source event #137 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_7wkw5jbf2fjv5577a3pj2a5v)
+## Source event 137 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_7wkw5jbf2fjv5577a3pj2a5v)
 
 ```text
 {
@@ -598,7 +598,7 @@ Wait — maybe I mis-searched: the event could be added as "Apartment Search" to
 
 
 
-## Source event #138 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_01_ns12cdrs48y8kqmak0eanvd3)
+## Source event 138 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_01_ns12cdrs48y8kqmak0eanvd3)
 
 ```text
 {
@@ -608,7 +608,7 @@ Wait — maybe I mis-searched: the event could be added as "Apartment Search" to
 
 
 
-## Source event #139 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_02_e14wrbv5vl1ta13emb84a739)
+## Source event 139 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_02_e14wrbv5vl1ta13emb84a739)
 
 ```text
 {
@@ -619,7 +619,7 @@ Wait — maybe I mis-searched: the event could be added as "Apartment Search" to
 
 
 <details>
-<summary>Source event #140 · Main agent: Tool result: call_00_7wkw5jbf2fjv5577a3pj2a5v (is_error=False)</summary>
+<summary>Source event 140 · Main agent: Tool result: call_00_7wkw5jbf2fjv5577a3pj2a5v (is_error=False)</summary>
 
 
 ```text
@@ -636,7 +636,7 @@ Wait — maybe I mis-searched: the event could be added as "Apartment Search" to
 
 
 <details>
-<summary>Source event #141 · Main agent: Tool result: call_01_ns12cdrs48y8kqmak0eanvd3 (is_error=False)</summary>
+<summary>Source event 141 · Main agent: Tool result: call_01_ns12cdrs48y8kqmak0eanvd3 (is_error=False)</summary>
 
 
 ```text
@@ -653,7 +653,7 @@ Wait — maybe I mis-searched: the event could be added as "Apartment Search" to
 
 
 <details>
-<summary>Source event #142 · Main agent: Tool result: call_02_e14wrbv5vl1ta13emb84a739 (is_error=False)</summary>
+<summary>Source event 142 · Main agent: Tool result: call_02_e14wrbv5vl1ta13emb84a739 (is_error=False)</summary>
 
 
 ```text
@@ -669,7 +669,7 @@ Wait — maybe I mis-searched: the event could be added as "Apartment Search" to
 </details>
 
 
-## Source event #143 · Main agent: Model message
+## Source event 143 · Main agent: Model message
 
 ```text
 No apartment event. So conditional false as it stands. But maybe Kofi will add later upon turn end. We need decide whether to wait more or simulate. There may be a way to inspect environment notifications without waiting? wait shows only timeouts.
@@ -705,7 +705,7 @@ Let's do wait 600.
 
 
 
-## Source event #144 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_dvktsw2lrcmy81qmbdg2kykw)
+## Source event 144 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_dvktsw2lrcmy81qmbdg2kykw)
 
 ```text
 {
@@ -716,7 +716,7 @@ Let's do wait 600.
 
 
 <details>
-<summary>Source event #145 · Main agent: Tool result: call_00_dvktsw2lrcmy81qmbdg2kykw (is_error=False)</summary>
+<summary>Source event 145 · Main agent: Tool result: call_00_dvktsw2lrcmy81qmbdg2kykw (is_error=False)</summary>
 
 
 ```text
@@ -736,7 +736,7 @@ Let's do wait 600.
 </details>
 
 
-## Source event #146 · Main agent: Model message
+## Source event 146 · Main agent: Model message
 
 ```text
 Check calendar + chat.
@@ -744,7 +744,7 @@ Check calendar + chat.
 
 
 
-## Source event #147 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_6j55nwn9jxfgor7b4w95irq8)
+## Source event 147 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_6j55nwn9jxfgor7b4w95irq8)
 
 ```text
 {
@@ -754,7 +754,7 @@ Check calendar + chat.
 
 
 
-## Source event #148 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_01_i7bg473z3ylrduerdi33v43h)
+## Source event 148 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_01_i7bg473z3ylrduerdi33v43h)
 
 ```text
 {
@@ -766,7 +766,7 @@ Check calendar + chat.
 
 
 <details>
-<summary>Source event #149 · Main agent: Tool result: call_00_6j55nwn9jxfgor7b4w95irq8 (is_error=False)</summary>
+<summary>Source event 149 · Main agent: Tool result: call_00_6j55nwn9jxfgor7b4w95irq8 (is_error=False)</summary>
 
 
 ```text
@@ -783,7 +783,7 @@ Check calendar + chat.
 
 
 <details>
-<summary>Source event #150 · Main agent: Tool result: call_01_i7bg473z3ylrduerdi33v43h (is_error=False)</summary>
+<summary>Source event 150 · Main agent: Tool result: call_01_i7bg473z3ylrduerdi33v43h (is_error=False)</summary>
 
 
 ```text
@@ -799,7 +799,7 @@ Check calendar + chat.
 </details>
 
 
-## Source event #151 · Main agent: Model message
+## Source event 151 · Main agent: Model message
 
 ```text
 No event. So likely no NPC. Proceed with unconditional email? Hmm, but the user's "Then, send Kofi an email..."—yes.
@@ -829,7 +829,7 @@ But first the email. Composition: "Hi Kofi, just letting you know I've ordered a
 
 
 
-## Source event #152 · Main agent: Model tool call: ToolSearch (call_00_ccn2li7kk61uzmw5q8tdzdmm)
+## Source event 152 · Main agent: Model tool call: ToolSearch (call_00_ccn2li7kk61uzmw5q8tdzdmm)
 
 ```text
 {
@@ -841,7 +841,7 @@ But first the email. Composition: "Hi Kofi, just letting you know I've ordered a
 
 
 <details>
-<summary>Source event #153 · Main agent: Tool result: call_00_ccn2li7kk61uzmw5q8tdzdmm (is_error=False)</summary>
+<summary>Source event 153 · Main agent: Tool result: call_00_ccn2li7kk61uzmw5q8tdzdmm (is_error=False)</summary>
 
 
 ```text
@@ -865,7 +865,7 @@ But first the email. Composition: "Hi Kofi, just letting you know I've ordered a
 </details>
 
 
-## Source event #154 · Main agent: Model message
+## Source event 154 · Main agent: Model message
 
 ```text
 Wait, before sending email, reconsider conditional. Maybe I should not give up on Kofi so easily. Could check if there's a "scenario" info in filesystem? Files are unrelated benchmark data. No.
@@ -881,7 +881,7 @@ Let's do wait 900.
 
 
 
-## Source event #155 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_wa7ph4p1qnf8xvookgaqb8rf)
+## Source event 155 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_wa7ph4p1qnf8xvookgaqb8rf)
 
 ```text
 {
@@ -892,7 +892,7 @@ Let's do wait 900.
 
 
 <details>
-<summary>Source event #156 · Main agent: Tool result: call_00_wa7ph4p1qnf8xvookgaqb8rf (is_error=False)</summary>
+<summary>Source event 156 · Main agent: Tool result: call_00_wa7ph4p1qnf8xvookgaqb8rf (is_error=False)</summary>
 
 
 ```text
@@ -909,7 +909,7 @@ Let's do wait 900.
 
 
 <details>
-<summary>Source event #157 · Judge: Judge rationale</summary>
+<summary>Source event 157 · Judge: Judge rationale</summary>
 
 
 ```text

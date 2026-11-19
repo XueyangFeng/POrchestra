@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #130 · Main agent: Tool result: call_00_ww3tpmywggt3eidjprb4yjpk (is_error=False)</summary>
+<summary>Source event 130 · Main agent: Tool result: call_00_ww3tpmywggt3eidjprb4yjpk (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #131 · Main agent: Tool result: call_01_kox334ao95f55qdl5w3n59qj (is_error=False)</summary>
+<summary>Source event 131 · Main agent: Tool result: call_01_kox334ao95f55qdl5w3n59qj (is_error=False)</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #132 · Main agent: Model message
+## Source event 132 · Main agent: Model message
 
 ```text
 Current saved list (now 27 items?) Let me identify saved 9000 properties:
@@ -96,7 +96,7 @@ Let me do wait_for_notification(timeout=33).
 
 
 
-## Source event #133 · Main agent: Model message
+## Source event 133 · Main agent: Model message
 
 ```text
 Two new listings saved during the window (last at 07:03:38), and the saved 9000 properties are: `541d746b...`, `69374fe2...`, `56669317...`, `144699fe...`. I'll wait until 07:04:38 (exactly 1 minute after the last save), then remove them.
@@ -104,7 +104,7 @@ Two new listings saved during the window (last at 07:03:38), and the saved 9000 
 
 
 
-## Source event #134 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_460jckneperriukb1lsyl1ud)
+## Source event 134 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_460jckneperriukb1lsyl1ud)
 
 ```text
 {
@@ -115,7 +115,7 @@ Two new listings saved during the window (last at 07:03:38), and the saved 9000 
 
 
 <details>
-<summary>Source event #135 · Main agent: Tool result: call_00_460jckneperriukb1lsyl1ud (is_error=False)</summary>
+<summary>Source event 135 · Main agent: Tool result: call_00_460jckneperriukb1lsyl1ud (is_error=False)</summary>
 
 
 ```text
@@ -135,7 +135,7 @@ Two new listings saved during the window (last at 07:03:38), and the saved 9000 
 </details>
 
 
-## Source event #136 · Main agent: Model message
+## Source event 136 · Main agent: Model message
 
 ```text
 Time 07:04:35.7. Need 07:04:38. Wait ~3 more seconds. Let me wait 3.
@@ -143,7 +143,7 @@ Time 07:04:35.7. Need 07:04:38. Wait ~3 more seconds. Let me wait 3.
 
 
 
-## Source event #137 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_8mjgbsyfhur2f0tp46cc25it)
+## Source event 137 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_8mjgbsyfhur2f0tp46cc25it)
 
 ```text
 {
@@ -154,7 +154,7 @@ Time 07:04:35.7. Need 07:04:38. Wait ~3 more seconds. Let me wait 3.
 
 
 <details>
-<summary>Source event #138 · Main agent: Tool result: call_00_8mjgbsyfhur2f0tp46cc25it (is_error=False)</summary>
+<summary>Source event 138 · Main agent: Tool result: call_00_8mjgbsyfhur2f0tp46cc25it (is_error=False)</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ Time 07:04:35.7. Need 07:04:38. Wait ~3 more seconds. Let me wait 3.
 </details>
 
 
-## Source event #139 · Main agent: Model message
+## Source event 139 · Main agent: Model message
 
 ```text
 Now at 07:04:38.9 — exactly 1 minute after the last save at 07:03:38.13. Remove the four saved 9000 apartments.
@@ -184,7 +184,7 @@ Let me call remove_saved_apartment for all four in parallel.
 
 
 
-## Source event #140 · Main agent: Model message
+## Source event 140 · Main agent: Model message
 
 ```text
 It's 07:04:38 — exactly one minute after the last save. The 2+ condition is met, so I'll delete all saved properties in zip 9000.
@@ -192,7 +192,7 @@ It's 07:04:38 — exactly one minute after the last save. The 2+ condition is me
 
 
 
-## Source event #141 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_00_g8tn0pmv2ijjd4h9z5m8onj1)
+## Source event 141 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_00_g8tn0pmv2ijjd4h9z5m8onj1)
 
 ```text
 {
@@ -202,7 +202,7 @@ It's 07:04:38 — exactly one minute after the last save. The 2+ condition is me
 
 
 
-## Source event #142 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_01_dmeh8zylqb9v7nn2v2cyfqfv)
+## Source event 142 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_01_dmeh8zylqb9v7nn2v2cyfqfv)
 
 ```text
 {
@@ -212,7 +212,7 @@ It's 07:04:38 — exactly one minute after the last save. The 2+ condition is me
 
 
 
-## Source event #143 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_02_5l6whjkam97k1x7kjy3hk1cq)
+## Source event 143 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_02_5l6whjkam97k1x7kjy3hk1cq)
 
 ```text
 {
@@ -222,7 +222,7 @@ It's 07:04:38 — exactly one minute after the last save. The 2+ condition is me
 
 
 
-## Source event #144 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_03_27nyb5e6gu7866nzcyziy6t3)
+## Source event 144 · Main agent: Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_03_27nyb5e6gu7866nzcyziy6t3)
 
 ```text
 {
@@ -233,7 +233,7 @@ It's 07:04:38 — exactly one minute after the last save. The 2+ condition is me
 
 
 <details>
-<summary>Source event #145 · Main agent: Tool result: call_00_g8tn0pmv2ijjd4h9z5m8onj1 (is_error=False)</summary>
+<summary>Source event 145 · Main agent: Tool result: call_00_g8tn0pmv2ijjd4h9z5m8onj1 (is_error=False)</summary>
 
 
 ```text
@@ -250,7 +250,7 @@ It's 07:04:38 — exactly one minute after the last save. The 2+ condition is me
 
 
 <details>
-<summary>Source event #146 · Main agent: Tool result: call_01_dmeh8zylqb9v7nn2v2cyfqfv (is_error=False)</summary>
+<summary>Source event 146 · Main agent: Tool result: call_01_dmeh8zylqb9v7nn2v2cyfqfv (is_error=False)</summary>
 
 
 ```text
@@ -267,7 +267,7 @@ It's 07:04:38 — exactly one minute after the last save. The 2+ condition is me
 
 
 <details>
-<summary>Source event #147 · Main agent: Tool result: call_02_5l6whjkam97k1x7kjy3hk1cq (is_error=False)</summary>
+<summary>Source event 147 · Main agent: Tool result: call_02_5l6whjkam97k1x7kjy3hk1cq (is_error=False)</summary>
 
 
 ```text
@@ -284,7 +284,7 @@ It's 07:04:38 — exactly one minute after the last save. The 2+ condition is me
 
 
 <details>
-<summary>Source event #148 · Main agent: Tool result: call_03_27nyb5e6gu7866nzcyziy6t3 (is_error=False)</summary>
+<summary>Source event 148 · Main agent: Tool result: call_03_27nyb5e6gu7866nzcyziy6t3 (is_error=False)</summary>
 
 
 ```text
@@ -300,7 +300,7 @@ It's 07:04:38 — exactly one minute after the last save. The 2+ condition is me
 </details>
 
 
-## Source event #149 · Main agent: Model message
+## Source event 149 · Main agent: Model message
 
 ```text
 All four removed. Let me verify: list saved apartments and confirm no 9000 remain, and the two new 8000 remain saved.
@@ -310,7 +310,7 @@ Let me call list_saved_apartments.
 
 
 
-## Source event #150 · Main agent: Model message
+## Source event 150 · Main agent: Model message
 
 ```text
 All four removed. Let me verify the final state.
@@ -318,7 +318,7 @@ All four removed. Let me verify the final state.
 
 
 
-## Source event #151 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_00_a516evhfr9ec7u2wp1yi8974)
+## Source event 151 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_00_a516evhfr9ec7u2wp1yi8974)
 
 ```text
 {}
@@ -327,7 +327,7 @@ All four removed. Let me verify the final state.
 
 
 <details>
-<summary>Source event #152 · Main agent: Tool result: call_00_a516evhfr9ec7u2wp1yi8974 (is_error=False)</summary>
+<summary>Source event 152 · Main agent: Tool result: call_00_a516evhfr9ec7u2wp1yi8974 (is_error=False)</summary>
 
 
 ```text
@@ -343,7 +343,7 @@ All four removed. Let me verify the final state.
 </details>
 
 
-## Source event #153 · Main agent: Model message
+## Source event 153 · Main agent: Model message
 
 ```text
 Verified final state:
@@ -374,7 +374,7 @@ Let me send that.
 
 
 
-## Source event #154 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_gw4wjjovl5ejlqm912e5wfjq)
+## Source event 154 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_gw4wjjovl5ejlqm912e5wfjq)
 
 ```text
 {
@@ -385,7 +385,7 @@ Let me send that.
 
 
 <details>
-<summary>Source event #155 · Main agent: Tool result: call_00_gw4wjjovl5ejlqm912e5wfjq (is_error=False)</summary>
+<summary>Source event 155 · Main agent: Tool result: call_00_gw4wjjovl5ejlqm912e5wfjq (is_error=False)</summary>
 
 
 ```text
@@ -401,7 +401,7 @@ Let me send that.
 </details>
 
 
-## Source event #156 · Main agent: Model message
+## Source event 156 · Main agent: Model message
 
 ```text
 Task completed successfully.
@@ -426,7 +426,7 @@ Task completed successfully.
 
 
 <details>
-<summary>Source event #157 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 157 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -454,7 +454,7 @@ Task completed successfully.
 
 
 <details>
-<summary>Source event #158 · Judge: Judge rationale</summary>
+<summary>Source event 158 · Judge: Judge rationale</summary>
 
 
 ```text

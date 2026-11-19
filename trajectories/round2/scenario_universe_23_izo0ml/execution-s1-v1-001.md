@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 I'll start by verifying the current time to determine "this Friday".
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Action:
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 Current time confirmed: Tuesday, 2024-10-15. "This Friday" = 2024-10-18. Now scheduling the event.
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ dcf191829913b81220f38262b28ec53c
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Event created successfully (id dcf191829913b81220f38262b28ec53c). Now sending the confirmation message.
@@ -100,7 +100,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -115,7 +115,7 @@ None
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 11 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -129,7 +129,7 @@ Environment notifications:
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Two calendar events were deleted per environment notifications — this is new information that must be reported to MainAgent before any further side effects (the fallback cancellation handling belongs to a later subtask, not this one). My assigned actions are complete, so I'll hand back with a follow-up report.
@@ -180,7 +180,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text

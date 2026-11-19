@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #419 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_00_n04c5s0rvzinetmgtiah4oeu (is_error=False)</summary>
+<summary>Source event 419 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_00_n04c5s0rvzinetmgtiah4oeu (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #420 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_00_9ebfp15h4hpz0ra6cuqgrg1e)
+## Source event 420 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_00_9ebfp15h4hpz0ra6cuqgrg1e)
 
 ```text
 {
@@ -31,7 +31,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 
-## Source event #421 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_01_b6at41p3jtwa9r9v4cbcfd1j)
+## Source event 421 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_01_b6at41p3jtwa9r9v4cbcfd1j)
 
 ```text
 {
@@ -41,7 +41,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 
-## Source event #422 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_02_ph7odr49p99f02vcsxrnwaj3)
+## Source event 422 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_02_ph7odr49p99f02vcsxrnwaj3)
 
 ```text
 {
@@ -51,7 +51,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 
-## Source event #423 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_03_mipq7ahl29ol6wxh173mu7pc)
+## Source event 423 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Model tool call: mcp__gaia2__RentAFlat__remove_saved_apartment (call_03_mipq7ahl29ol6wxh173mu7pc)
 
 ```text
 {
@@ -62,7 +62,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #424 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_00_9ebfp15h4hpz0ra6cuqgrg1e (is_error=False)</summary>
+<summary>Source event 424 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_00_9ebfp15h4hpz0ra6cuqgrg1e (is_error=False)</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #425 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_01_b6at41p3jtwa9r9v4cbcfd1j (is_error=False)</summary>
+<summary>Source event 425 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_01_b6at41p3jtwa9r9v4cbcfd1j (is_error=False)</summary>
 
 
 ```text
@@ -96,7 +96,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #426 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_02_ph7odr49p99f02vcsxrnwaj3 (is_error=False)</summary>
+<summary>Source event 426 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_02_ph7odr49p99f02vcsxrnwaj3 (is_error=False)</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #427 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_03_mipq7ahl29ol6wxh173mu7pc (is_error=False)</summary>
+<summary>Source event 427 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_03_mipq7ahl29ol6wxh173mu7pc (is_error=False)</summary>
 
 
 ```text
@@ -129,7 +129,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #428 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_00_jv8w481twt8opxgzk5ty95l4)
+## Source event 428 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_00_jv8w481twt8opxgzk5ty95l4)
 
 ```text
 {}
@@ -137,7 +137,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 
-## Source event #429 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Model tool call: mcp__gaia2__SystemApp__get_current_time (call_01_r89jrmpww803une7bdr7gqve)
+## Source event 429 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Model tool call: mcp__gaia2__SystemApp__get_current_time (call_01_r89jrmpww803une7bdr7gqve)
 
 ```text
 {}
@@ -146,7 +146,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #430 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_00_jv8w481twt8opxgzk5ty95l4 (is_error=False)</summary>
+<summary>Source event 430 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_00_jv8w481twt8opxgzk5ty95l4 (is_error=False)</summary>
 
 
 ```text
@@ -163,7 +163,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #431 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_01_r89jrmpww803une7bdr7gqve (is_error=False)</summary>
+<summary>Source event 431 · Subagent (parent call call_00_80r089xtote4t91v12nv1uon): Tool result: call_01_r89jrmpww803une7bdr7gqve (is_error=False)</summary>
 
 
 ```text

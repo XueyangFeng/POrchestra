@@ -1,6 +1,8 @@
 # scenario_universe_29_dp3q6c
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_29_dp3q6c/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_29_dp3q6c/README.md) · [Codex](../../codex/round1/scenario_universe_29_dp3q6c/README.md) · [OpenCode](../../opencode/round1/scenario_universe_29_dp3q6c/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify Nalini Rao&#x27;s user ID for the Messages app and her email address to proceed with the task.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #15
+**Initial harness configuration** · Source event 15
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 SubAgent 1 successfully found Nalini Rao&#x27;s contact details. Now I need to execute the messaging, email, and potential cab ordering sequence as requested. I&#x27;ll provide the SubAgent with all necessary tools and the specific identifiers found.
 
@@ -169,7 +171,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

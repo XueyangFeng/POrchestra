@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #34 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 34 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Purchase the 'Rubie's Adult Star Wars Stormtrooper Glovelettes' in 'latex materi
 </details>
 
 
-## Source event #35 · Sub-agent 3: model output
+## Source event 35 · Sub-agent 3: model output
 
 ```text
 I'll search for the product first.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 3: tool result</summary>
+<summary>Source event 36 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 3: model output
+## Source event 37 · Sub-agent 3: model output
 
 ```text
 The latex variant is available (item_id `81553eb725fc4ef0b2537689308e94a5`, price 8.08). Adding it to cart.
@@ -66,7 +66,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 3: tool result</summary>
+<summary>Source event 38 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 3: model output
+## Source event 39 · Sub-agent 3: model output
 
 ```text
 Verifying cart contents before checkout.
@@ -95,7 +95,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 3: tool result</summary>
+<summary>Source event 40 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -109,7 +109,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 3: model output
+## Source event 41 · Sub-agent 3: model output
 
 ```text
 Cart verified with the Latex variant. Proceeding to checkout.
@@ -124,7 +124,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 3: tool result</summary>
+<summary>Source event 42 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -138,7 +138,7 @@ f54c694a5d724652a74cc89d5e905942
 </details>
 
 
-## Source event #43 · Sub-agent 3: model output
+## Source event 43 · Sub-agent 3: model output
 
 ```text
 Checkout returned an order ID. Let me confirm via order list.
@@ -153,7 +153,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 3: tool result</summary>
+<summary>Source event 44 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -167,7 +167,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 3: model output
+## Source event 45 · Sub-agent 3: model output
 
 ```text
 Order confirmed as processed. Reporting completion.
@@ -222,7 +222,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 3: tool result</summary>
+<summary>Source event 46 · Sub-agent 3: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #92 · Sub-agent 3: Initial system configuration</summary>
+<summary>Source event 92 · Sub-agent 3: Initial system configuration</summary>
 
 
 ```text
@@ -166,7 +166,7 @@ This method should only be used when there are no other tasks to perform. Return
 
 
 <details>
-<summary>Source event #93 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 93 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -182,7 +182,7 @@ This method should only be used when there are no other tasks to perform. Return
 
 
 <details>
-<summary>Source event #94 · Sub-agent 3: model output</summary>
+<summary>Source event 94 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -200,7 +200,7 @@ Action:
 
 
 <details>
-<summary>Source event #95 · Sub-agent 3: tool result</summary>
+<summary>Source event 95 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -215,7 +215,7 @@ Action:
 
 
 <details>
-<summary>Source event #96 · Sub-agent 3: model output</summary>
+<summary>Source event 96 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -235,7 +235,7 @@ Action:
 
 
 <details>
-<summary>Source event #97 · Sub-agent 3: tool result</summary>
+<summary>Source event 97 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -250,7 +250,7 @@ None
 
 
 <details>
-<summary>Source event #98 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 98 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -264,7 +264,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #99 · Sub-agent 3: model output</summary>
+<summary>Source event 99 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -282,7 +282,7 @@ Action:
 
 
 <details>
-<summary>Source event #100 · Sub-agent 3: tool result</summary>
+<summary>Source event 100 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -297,7 +297,7 @@ Action:
 
 
 <details>
-<summary>Source event #101 · Sub-agent 3: tool result</summary>
+<summary>Source event 101 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -316,7 +316,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #102 · Sub-agent 3: model output</summary>
+<summary>Source event 102 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -338,7 +338,7 @@ Action:
 
 
 <details>
-<summary>Source event #103 · Sub-agent 3: tool result</summary>
+<summary>Source event 103 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -353,7 +353,7 @@ Action:
 
 
 <details>
-<summary>Source event #104 · Sub-agent 3: model output</summary>
+<summary>Source event 104 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -373,7 +373,7 @@ Action:
 
 
 <details>
-<summary>Source event #105 · Sub-agent 3: tool result</summary>
+<summary>Source event 105 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -388,7 +388,7 @@ Event f7af3c683953f40822cf7da5a5df7046 successfully deleted.
 
 
 <details>
-<summary>Source event #106 · Sub-agent 3: model output</summary>
+<summary>Source event 106 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -410,7 +410,7 @@ Action:
 
 
 <details>
-<summary>Source event #107 · Sub-agent 3: tool result</summary>
+<summary>Source event 107 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -425,7 +425,7 @@ Action:
 
 
 <details>
-<summary>Source event #108 · Sub-agent 3: model output</summary>
+<summary>Source event 108 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -509,7 +509,7 @@ Action:
 
 
 <details>
-<summary>Source event #109 · Sub-agent 3: tool result</summary>
+<summary>Source event 109 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -524,7 +524,7 @@ Action:
 
 
 <details>
-<summary>Source event #110 · Judge rationale</summary>
+<summary>Source event 110 · Judge rationale</summary>
 
 
 ```text

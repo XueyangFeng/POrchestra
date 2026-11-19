@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #103 · Sub-agent 1: tool result</summary>
+<summary>Source event 103 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #104 · Sub-agent 1: model output</summary>
+<summary>Source event 104 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #105 · Sub-agent 1: tool result</summary>
+<summary>Source event 105 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 
 
 <details>
-<summary>Source event #106 · Sub-agent 1: model output</summary>
+<summary>Source event 106 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #107 · Sub-agent 1: tool result</summary>
+<summary>Source event 107 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -90,7 +90,7 @@ None
 
 
 <details>
-<summary>Source event #108 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 108 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -104,7 +104,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #109 · Sub-agent 1: model output</summary>
+<summary>Source event 109 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -121,7 +121,7 @@ Action:
 
 
 <details>
-<summary>Source event #110 · Sub-agent 1: tool result</summary>
+<summary>Source event 110 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -136,7 +136,7 @@ Action:
 
 
 <details>
-<summary>Source event #111 · Sub-agent 1: model output</summary>
+<summary>Source event 111 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -155,7 +155,7 @@ Action:
 
 
 <details>
-<summary>Source event #112 · Sub-agent 1: tool result</summary>
+<summary>Source event 112 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ Action:
 
 
 <details>
-<summary>Source event #113 · Sub-agent 1: model output</summary>
+<summary>Source event 113 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -191,7 +191,7 @@ Action:
 
 
 <details>
-<summary>Source event #114 · Sub-agent 1: tool result</summary>
+<summary>Source event 114 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -206,7 +206,7 @@ Successfully removed apartment from favorites
 
 
 <details>
-<summary>Source event #115 · Sub-agent 1: model output</summary>
+<summary>Source event 115 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -227,7 +227,7 @@ Action:
 
 
 <details>
-<summary>Source event #116 · Sub-agent 1: tool result</summary>
+<summary>Source event 116 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -242,7 +242,7 @@ Successfully removed apartment from favorites
 
 
 <details>
-<summary>Source event #117 · Sub-agent 1: model output</summary>
+<summary>Source event 117 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -261,7 +261,7 @@ Action:
 
 
 <details>
-<summary>Source event #118 · Sub-agent 1: tool result</summary>
+<summary>Source event 118 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -276,7 +276,7 @@ Successfully removed apartment from favorites
 
 
 <details>
-<summary>Source event #119 · Sub-agent 1: model output</summary>
+<summary>Source event 119 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -295,7 +295,7 @@ Action:
 
 
 <details>
-<summary>Source event #120 · Sub-agent 1: tool result</summary>
+<summary>Source event 120 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -310,7 +310,7 @@ Successfully removed apartment from favorites
 
 
 <details>
-<summary>Source event #121 · Sub-agent 1: model output</summary>
+<summary>Source event 121 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -329,7 +329,7 @@ Action:
 
 
 <details>
-<summary>Source event #122 · Sub-agent 1: tool result</summary>
+<summary>Source event 122 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -344,7 +344,7 @@ Action:
 
 
 <details>
-<summary>Source event #123 · Sub-agent 1: model output</summary>
+<summary>Source event 123 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -406,7 +406,7 @@ Action:
 
 
 <details>
-<summary>Source event #124 · Judge rationale</summary>
+<summary>Source event 124 · Judge rationale</summary>
 
 
 ```text

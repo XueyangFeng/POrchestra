@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #21 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 21 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Search for and order one 'plastic translucent Alien RPG: stress dice set in the 
 </details>
 
 
-## Source event #22 · Sub-agent 2: model output
+## Source event 22 · Sub-agent 2: model output
 
 ```text
 Thought: Need to search the shopping catalog for the Alien RPG stress dice set.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result</summary>
+<summary>Source event 23 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 2: model output
+## Source event 24 · Sub-agent 2: model output
 
 ```text
 Search with the exact product name returned no results. I'll try broader keywords.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: tool result</summary>
+<summary>Source event 25 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Action:
 </details>
 
 
-## Source event #26 · Sub-agent 2: model output
+## Source event 26 · Sub-agent 2: model output
 
 ```text
 No results yet. Let me try broader search terms.
@@ -97,7 +97,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 2: tool result</summary>
+<summary>Source event 27 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -111,7 +111,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 2: model output
+## Source event 28 · Sub-agent 2: model output
 
 ```text
 The search returned one product with variants. The variant matching all criteria (Plastic, Translucent, Collectible Tin) is `0ac28e8f34e34772b336987b2c0982c4`. Let me get product details to confirm.
@@ -129,7 +129,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: tool result</summary>
+<summary>Source event 29 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -143,7 +143,7 @@ Product(name='Alien RPG: Stress Dice Set', product_id='7ed71eb81ffac6c11e2598e57
 </details>
 
 
-## Source event #30 · Sub-agent 2: model output
+## Source event 30 · Sub-agent 2: model output
 
 ```text
 The variant `0ac28e8f34e34772b336987b2c0982c4` matches all required criteria: Plastic, Translucent, Collectible Tin. Adding it to the cart.
@@ -162,7 +162,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: tool result</summary>
+<summary>Source event 31 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -176,7 +176,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 2: model output
+## Source event 32 · Sub-agent 2: model output
 
 ```text
 The item was added successfully. Verifying cart contents before checkout.
@@ -192,7 +192,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result</summary>
+<summary>Source event 33 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -206,7 +206,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 2: model output
+## Source event 34 · Sub-agent 2: model output
 
 ```text
 Cart contains the correct variant: Material=Plastic, Color=Translucent, Packaging=Collectible Tin, price 29.99. No discount code will be applied per instructions. Proceeding to checkout.
@@ -222,7 +222,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: tool result</summary>
+<summary>Source event 35 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -236,7 +236,7 @@ Action:
 </details>
 
 
-## Source event #36 · Sub-agent 2: model output
+## Source event 36 · Sub-agent 2: model output
 
 ```text
 The checkout was successful. The matching variant was added and ordered.
@@ -281,7 +281,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: tool result</summary>
+<summary>Source event 37 · Sub-agent 2: tool result</summary>
 
 
 ```text

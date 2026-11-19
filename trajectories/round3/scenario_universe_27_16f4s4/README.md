@@ -1,6 +1,8 @@
 # scenario_universe_27_16f4s4
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_27_16f4s4/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_27_16f4s4/README.md) · [Codex](../../codex/round3/scenario_universe_27_16f4s4/README.md) · [OpenCode](../../opencode/round3/scenario_universe_27_16f4s4/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 4
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #7
+**Initial harness configuration** · Source event 7
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user has two main requirements: canceling tomorrow&#x27;s calendar events and monitoring property viewing emails for the next four minutes. I will delegate these tasks to a SubAgent to handle the calendar cleanup and perform the timed monitoring and response sequence.
 
@@ -97,7 +99,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #28
+**Harness configuration updated** · Source event 28
 
 **1. Sub-agent revision request**
 
@@ -106,7 +108,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Deleted all 4 events on 2024-10-16. Inbox (offset 0, limit 20 of 120) contained no 'property viewing' emails as of 07:00:17. Then waited 60s; environment notification announced a new email from carlos@bluerealty.com inside the monitoring window.
 ```
 <details>
-<summary>Request and evidence · source event #26</summary>
+<summary>Request and evidence · source event 26</summary>
 
 
 ```text
@@ -158,7 +160,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 A new email was received from carlos@bluerealty.com during the 4-minute monitoring window. The SubAgent needs to process this email according to the original task (check for property viewing details, reply affirmatively, and add to calendar) and then resume monitoring until the 07:04:00 deadline.
 
@@ -269,7 +271,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 
 ### S1 configuration v3
 
-**Harness configuration updated** · Source event #45
+**Harness configuration updated** · Source event 45
 
 **1. Sub-agent revision request**
 
@@ -278,7 +280,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 Carlos email processed at ~07:00:42: replied affirmatively (reply id ce025aebc06aec5cea39dd7fb817bee5) and added 'Property Viewing' event acea4a8d991e2e64e9a43daa76d19dd2 on 2024-10-16 13:00:00-13:30:00 with attendee carlos@bluerealty.com. Waited again; new environment notification: email received from marla@marlaleases.com within the 07:00-07:04 window.
 ```
 <details>
-<summary>Request and evidence · source event #43</summary>
+<summary>Request and evidence · source event 43</summary>
 
 
 ```text
@@ -352,7 +354,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #3
+`revise_task` · Source event 3
 
 A new email from marla@marlaleases.com has been received during the monitoring window. The subagent needs to process this email and continue monitoring until the end of the 4-minute window (07:04:00).
 
@@ -474,7 +476,7 @@ Full system configuration: [Part 1](config-s1-v3-01.md)
 
 ### S1 configuration v4
 
-**Harness configuration updated** · Source event #62
+**Harness configuration updated** · Source event 62
 
 **1. Sub-agent revision request**
 
@@ -483,7 +485,7 @@ Full system configuration: [Part 1](config-s1-v3-01.md)
 Deleted all four 2024-10-16 events; processed Carlos (reply ce025aebc06aec5cea39dd7fb817bee5, event acea4a8d991e2e64e9a43daa76d19dd2 at 2024-10-16 13:00-13:30 with carlos@bluerealty.com) and Marla (reply 3922f07cb1bb878b6cfbc79849ffd038, event 8fce113de00ea4a218ab94f8a582ba16 at 2024-10-16 11:00-11:30 with marla@marlaleases.com). Now 07:00:51; waited and received a new environment notification: email from nkuznetsova@gaia2mail.com within the 07:00-07:04 window.
 ```
 <details>
-<summary>Request and evidence · source event #60</summary>
+<summary>Request and evidence · source event 60</summary>
 
 
 ```text
@@ -564,7 +566,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #4
+`revise_task` · Source event 4
 
 A new email from nkuznetsova@gaia2mail.com was received during the monitoring window. The SubAgent needs to process this email and continue monitoring until the 4-minute window (ending at 07:04:00) is complete.
 
@@ -696,7 +698,7 @@ Full system configuration: [Part 1](config-s1-v4-01.md)
 
 ### S1 configuration v5
 
-**Harness configuration updated** · Source event #73
+**Harness configuration updated** · Source event 73
 
 **1. Sub-agent revision request**
 
@@ -705,7 +707,7 @@ Full system configuration: [Part 1](config-s1-v4-01.md)
 All 2024-10-16 events deleted; Carlos (event acea4a8d991e2e64e9a43daa76d19dd2, 13:00-13:30, reply ce025aebc06aec5cea39dd7fb817bee5) and Marla (event 8fce113de00ea4a218ab94f8a582ba16, 11:00-11:30, reply 3922f07cb1bb878b6cfbc79849ffd038) property viewings processed. Email da9454bfdd5ccd0849ec96fe31091323 from nkuznetsova@gaia2mail.com was 'Dinner Plans' (not a viewing request, left unread/no action). Now 07:01:09; new environment notification: email from aoifenichonaill@tcd.ie within the 07:00-07:04 window.
 ```
 <details>
-<summary>Request and evidence · source event #71</summary>
+<summary>Request and evidence · source event 71</summary>
 
 
 ```text
@@ -785,7 +787,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #5
+`revise_task` · Source event 5
 
 A new email from aoifenichonaill@tcd.ie has been received within the 4-minute monitoring window. The SubAgent needs to process this email (if it&#x27;s a viewing request) and continue monitoring until the 07:04:00 deadline.
 
@@ -918,7 +920,7 @@ Full system configuration: [Part 1](config-s1-v5-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #6</summary>
+<summary>Source event 6</summary>
 
 
 ```text

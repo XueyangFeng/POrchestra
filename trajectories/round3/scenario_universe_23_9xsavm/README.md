@@ -1,6 +1,8 @@
 # scenario_universe_23_9xsavm
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_23_9xsavm/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_23_9xsavm/README.md) · [Codex](../../codex/round3/scenario_universe_23_9xsavm/README.md) · [OpenCode](../../opencode/round3/scenario_universe_23_9xsavm/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to schedule the board game night and send the initial invites to the three friends. I also need to check if there is any existing information in messages or emails that suggests the proposed date (Friday, Oct 18) won&#x27;t work for them, as the user provided instructions for that contingency.
 
@@ -104,11 +106,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #67
+**Initial harness configuration** · Source event 67
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The initial invites for Friday, October 18, resulted in conflicts for all three friends. Based on their replies, Saturday, October 19, is the first day everyone is available. I need to reschedule the event according to the user&#x27;s conditional instructions: cancel the original event, clear any conflicts on the new date, schedule the new event, and send confirmation messages.
 

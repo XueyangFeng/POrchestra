@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #274 · Main agent: Model message
+## Source event 274 · Main agent: Model message
 
 ```text
 Order details: qty 7, total 115.5. Good.
@@ -38,7 +38,7 @@ Let me check saved apartments.
 
 
 
-## Source event #275 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_00_jq40ml2uuu65ozkgk8lhngz1)
+## Source event 275 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_00_jq40ml2uuu65ozkgk8lhngz1)
 
 ```text
 {}
@@ -46,7 +46,7 @@ Let me check saved apartments.
 
 
 
-## Source event #276 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_01_m7qk6euzx9r1lxgjgcdxlyjw)
+## Source event 276 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_01_m7qk6euzx9r1lxgjgcdxlyjw)
 
 ```text
 {
@@ -57,7 +57,7 @@ Let me check saved apartments.
 
 
 
-## Source event #277 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_02_961wcacvehar0fh27pkbup7b)
+## Source event 277 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_02_961wcacvehar0fh27pkbup7b)
 
 ```text
 {
@@ -68,7 +68,7 @@ Let me check saved apartments.
 
 
 
-## Source event #278 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_03_ai19a4hu7krlkwl5xoya4pav)
+## Source event 278 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_03_ai19a4hu7krlkwl5xoya4pav)
 
 ```text
 {
@@ -79,7 +79,7 @@ Let me check saved apartments.
 
 
 
-## Source event #279 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_04_4ukach3ydj8c7jlyqc3t6yqn)
+## Source event 279 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_04_4ukach3ydj8c7jlyqc3t6yqn)
 
 ```text
 {
@@ -91,7 +91,7 @@ Let me check saved apartments.
 
 
 <details>
-<summary>Source event #280 · Main agent: Tool result: call_00_jq40ml2uuu65ozkgk8lhngz1 (is_error=False)</summary>
+<summary>Source event 280 · Main agent: Tool result: call_00_jq40ml2uuu65ozkgk8lhngz1 (is_error=False)</summary>
 
 
 ```text
@@ -108,7 +108,7 @@ Let me check saved apartments.
 
 
 <details>
-<summary>Source event #281 · Main agent: Tool result: call_01_m7qk6euzx9r1lxgjgcdxlyjw (is_error=False)</summary>
+<summary>Source event 281 · Main agent: Tool result: call_01_m7qk6euzx9r1lxgjgcdxlyjw (is_error=False)</summary>
 
 
 ```text
@@ -125,7 +125,7 @@ Let me check saved apartments.
 
 
 <details>
-<summary>Source event #282 · Main agent: Tool result: call_02_961wcacvehar0fh27pkbup7b (is_error=False)</summary>
+<summary>Source event 282 · Main agent: Tool result: call_02_961wcacvehar0fh27pkbup7b (is_error=False)</summary>
 
 
 ```text
@@ -142,7 +142,7 @@ Let me check saved apartments.
 
 
 <details>
-<summary>Source event #283 · Main agent: Tool result: call_03_ai19a4hu7krlkwl5xoya4pav (is_error=False)</summary>
+<summary>Source event 283 · Main agent: Tool result: call_03_ai19a4hu7krlkwl5xoya4pav (is_error=False)</summary>
 
 
 ```text
@@ -159,7 +159,7 @@ Let me check saved apartments.
 
 
 <details>
-<summary>Source event #284 · Main agent: Tool result: call_04_4ukach3ydj8c7jlyqc3t6yqn (is_error=False)</summary>
+<summary>Source event 284 · Main agent: Tool result: call_04_4ukach3ydj8c7jlyqc3t6yqn (is_error=False)</summary>
 
 
 ```text
@@ -175,7 +175,7 @@ Let me check saved apartments.
 </details>
 
 
-## Source event #285 · Main agent: Model message
+## Source event 285 · Main agent: Model message
 
 ```text
 All 6 messages confirmed (we saw 4 + earlier 2 = all 6). Saved apartment Göteborg Glamour confirmed. Order qty 7.
@@ -289,7 +289,7 @@ I'll produce a concise report.
 
 
 
-## Source event #286 · Main agent: Model message
+## Source event 286 · Main agent: Model message
 
 ```text
 All actions are complete and verified. Here's a summary of what I did:
@@ -319,7 +319,7 @@ Each message asks whether 1,500 SEK/month for Göteborg Glamour is reasonable.
 
 
 <details>
-<summary>Source event #287 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 287 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -352,7 +352,7 @@ Each message asks whether 1,500 SEK/month for Göteborg Glamour is reasonable.
 
 
 <details>
-<summary>Source event #288 · Judge: Judge rationale</summary>
+<summary>Source event 288 · Judge: Judge rationale</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 I'll start by searching for emails with 'Collaboration' in the subject line.
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 7 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -66,7 +66,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 7 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -78,7 +78,7 @@ orite Portuguese recipes. Let me know if this is something that interests you, a
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 7 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -90,7 +90,7 @@ tention.\n\nI'm reaching out to propose a collaboration opportunity that I belie
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 I found the emails. Let me get the current date/time to confirm the schedule basis.
@@ -105,7 +105,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -119,7 +119,7 @@ Action:
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 Current time confirmed: 2024-10-15 07:00 (Tuesday). Tomorrow = 2024-10-16. Now I'll create the three calendar events in order of email recency.
@@ -140,7 +140,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -154,7 +154,7 @@ dcf191829913b81220f38262b28ec53c
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Event 1 created (ID: dcf191829913b81220f38262b28ec53c). Now the second event.
@@ -175,7 +175,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -189,7 +189,7 @@ f7af3c683953f40822cf7da5a5df7046
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 Event 2 created (ID: f7af3c683953f40822cf7da5a5df7046). Now the third event.
@@ -210,7 +210,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -224,7 +224,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 All three events created. Now replying to each email with meeting details.
@@ -243,7 +243,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -257,7 +257,7 @@ Action:
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Reply 1 sent. Now reply to the second email.
@@ -276,7 +276,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -290,7 +290,7 @@ e4a308c5815d34fee3f197ba7494923c
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 Reply 2 sent. Now the third reply.
@@ -309,7 +309,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -323,7 +323,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 All three replies sent. Now I'll notify the user.
@@ -340,7 +340,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -355,7 +355,7 @@ None
 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 24 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -370,7 +370,7 @@ Environment notifications:
 </details>
 
 
-## Source event #25 · Sub-agent 1: model output
+## Source event 25 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -387,7 +387,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: tool result</summary>
+<summary>Source event 26 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -401,7 +401,7 @@ ReturnedEmails(emails=[Email(sender='yuting.liang@emarketingpro.com', recipients
 </details>
 
 
-## Source event #27 · Sub-agent 1: model output
+## Source event 27 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -518,7 +518,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: tool result</summary>
+<summary>Source event 28 · Sub-agent 1: tool result</summary>
 
 
 ```text

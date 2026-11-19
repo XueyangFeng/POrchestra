@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #37 · Sub-agent 4: user / environment input</summary>
+<summary>Source event 37 · Sub-agent 4: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Delete the most recent email from Astrid Nakamura. Search for emails related to 
 </details>
 
 
-## Source event #38 · Sub-agent 4: model output
+## Source event 38 · Sub-agent 4: model output
 
 ```text
 I'll start by searching for emails related to Astrid Nakamura across folders.
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 4: tool result</summary>
+<summary>Source event 39 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Action:
 </details>
 
 
-## Source event #40 · Sub-agent 4: model output
+## Source event 40 · Sub-agent 4: model output
 
 ```text
 Found one in INBOX. Let me check other folders for additional emails from Astrid.
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 4: tool result</summary>
+<summary>Source event 41 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Action:
 </details>
 
 
-## Source event #42 · Sub-agent 4: model output
+## Source event 42 · Sub-agent 4: model output
 
 ```text
 Action:
@@ -97,7 +97,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 4: tool result</summary>
+<summary>Source event 43 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -111,7 +111,7 @@ Action:
 </details>
 
 
-## Source event #44 · Sub-agent 4: model output
+## Source event 44 · Sub-agent 4: model output
 
 ```text
 Action:
@@ -127,7 +127,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 4: tool result</summary>
+<summary>Source event 45 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -141,7 +141,7 @@ Action:
 </details>
 
 
-## Source event #46 · Sub-agent 4: model output
+## Source event 46 · Sub-agent 4: model output
 
 ```text
 Let me broaden the search in INBOX to ensure I catch all Astrid emails.
@@ -159,7 +159,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 4: tool result</summary>
+<summary>Source event 47 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -173,7 +173,7 @@ Action:
 </details>
 
 
-## Source event #48 · Sub-agent 4: model output
+## Source event 48 · Sub-agent 4: model output
 
 ```text
 Only one match so far. Let me list the INBOX to verify there are no other emails from Astrid under a different display/address.
@@ -192,7 +192,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 4: tool result</summary>
+<summary>Source event 49 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -206,7 +206,7 @@ ReturnedEmails(emails=[Email(sender='astridnakamura@gaia2mail.com', recipients=[
 </details>
 
 
-## Source event #50 · Sub-agent 4: model output
+## Source event 50 · Sub-agent 4: model output
 
 ```text
 The INBOX shows 109 emails total; I only listed 50. Let me search for other Nakamura senders and scan the remaining emails to be thorough.
@@ -224,7 +224,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 4: tool result</summary>
+<summary>Source event 51 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -238,7 +238,7 @@ Action:
 </details>
 
 
-## Source event #52 · Sub-agent 4: model output
+## Source event 52 · Sub-agent 4: model output
 
 ```text
 Multiple Nakamura senders exist, but only one is "Astrid". Let me verify other folders for Astrid specifically.
@@ -257,7 +257,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 4: tool result</summary>
+<summary>Source event 53 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -271,7 +271,7 @@ Action:
 </details>
 
 
-## Source event #54 · Sub-agent 4: model output
+## Source event 54 · Sub-agent 4: model output
 
 ```text
 Action:
@@ -288,7 +288,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 4: tool result</summary>
+<summary>Source event 55 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -302,7 +302,7 @@ Action:
 </details>
 
 
-## Source event #56 · Sub-agent 4: model output
+## Source event 56 · Sub-agent 4: model output
 
 ```text
 Only one email is actually from Astrid Nakamura (the SENT one is from the user to her). Let me delete the INBOX email from her.
@@ -321,7 +321,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 4: tool result</summary>
+<summary>Source event 57 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -335,7 +335,7 @@ Action:
 </details>
 
 
-## Source event #58 · Sub-agent 4: model output
+## Source event 58 · Sub-agent 4: model output
 
 ```text
 Deletion confirmed by returned ID. Let me verify it's gone.
@@ -354,7 +354,7 @@ Action:
 
 
 <details>
-<summary>Source event #59 · Sub-agent 4: tool result</summary>
+<summary>Source event 59 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -368,7 +368,7 @@ Action:
 </details>
 
 
-## Source event #60 · Sub-agent 4: model output
+## Source event 60 · Sub-agent 4: model output
 
 ```text
 The deletion is confirmed — searching for "astrid" in INBOX now returns no results.
@@ -422,7 +422,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 4: tool result</summary>
+<summary>Source event 61 · Sub-agent 4: tool result</summary>
 
 
 ```text

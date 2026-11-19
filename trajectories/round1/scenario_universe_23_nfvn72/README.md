@@ -1,6 +1,8 @@
 # scenario_universe_23_nfvn72
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_23_nfvn72/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_23_nfvn72/README.md) · [Codex](../../codex/round1/scenario_universe_23_nfvn72/README.md) · [OpenCode](../../opencode/round1/scenario_universe_23_nfvn72/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial message sending and calendar scheduling, then wait for Aino&#x27;s response to handle the conditional rescheduling or deletion logic. A single SubAgent can manage this flow by using the provided tools to interact with Chats and Calendar, notifying the user at key points.
 
@@ -103,7 +105,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #16
+**Harness configuration updated** · Source event 16
 
 **1. Sub-agent revision request**
 
@@ -112,7 +114,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Message to Aino sent (conversation bee31ddecb254b8eac405bdce9355c4a), event 'Holiday with Aino' scheduled (event id e4657cd1b75ef061b9fbfd037e80abd6), user notified. New notifications received for conversations bee31ddecb254b8eac405bdce9355c4a and 30b9277190fe4573a1049c216ec8611c.
 ```
 <details>
-<summary>Request and evidence · source event #14</summary>
+<summary>Request and evidence · source event 14</summary>
 
 
 ```text
@@ -157,7 +159,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent has reported new notifications which likely contain Aino Kukkonen&#x27;s response. I need to authorize the SubAgent to process these messages and execute the conditional rescheduling or cancellation logic defined in the original request.
 

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 26 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Find and cancel (delete) the calendar event titled 'Research Collaboration' with
 </details>
 
 
-## Source event #27 · Sub-agent 2: model output
+## Source event 27 · Sub-agent 2: model output
 
 ```text
 I'll start by reading today's calendar events to find the 'Research Collaboration' event with Kazimierz Wojciechowski.
@@ -32,7 +32,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: tool result</summary>
+<summary>Source event 28 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -46,7 +46,7 @@ Action:
 </details>
 
 
-## Source event #29 · Sub-agent 2: model output
+## Source event 29 · Sub-agent 2: model output
 
 ```text
 I found the event with event_id `31a215b1f9e748d293de354354e4efc1` (14:00–16:00 today, with Kazimierz Wojciechowski). Now I'll delete it.
@@ -63,7 +63,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 2: tool result</summary>
+<summary>Source event 30 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -77,7 +77,7 @@ Event 31a215b1f9e748d293de354354e4efc1 successfully deleted.
 </details>
 
 
-## Source event #31 · Sub-agent 2: model output
+## Source event 31 · Sub-agent 2: model output
 
 ```text
 Deletion succeeded. Now let me verify by attempting to read the event directly.
@@ -94,7 +94,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: tool result</summary>
+<summary>Source event 32 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -118,7 +118,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #33 · Sub-agent 2: model output
+## Source event 33 · Sub-agent 2: model output
 
 ```text
 The error confirms the event no longer exists. Let me also verify by re-reading today's calendar to confirm the event list.
@@ -133,7 +133,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -147,7 +147,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 2: model output
+## Source event 35 · Sub-agent 2: model output
 
 ```text
 The event has been successfully deleted and verified. Today's calendar now shows only 3 remaining events (Lecture Preparation, Coffee Break, Yoga Class) — the 'Research Collaboration with Kazimierz Wojciechowski' event is gone.
@@ -194,7 +194,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text

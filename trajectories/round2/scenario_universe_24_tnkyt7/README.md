@@ -1,6 +1,8 @@
 # scenario_universe_24_tnkyt7
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_24_tnkyt7/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_24_tnkyt7/README.md) · [Codex](../../codex/round2/scenario_universe_24_tnkyt7/README.md) · [OpenCode](../../opencode/round2/scenario_universe_24_tnkyt7/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Identify the target group chat and Elodie Vandenberghe&#x27;s user information (ID in Chats and Email address) to prepare for the messaging and conditional tasks.
 
@@ -85,11 +87,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #17
+**Initial harness configuration** · Source event 17
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The identifiers for the group chat, Elodie&#x27;s user ID, and her email address have been successfully retrieved. Now I need to execute the timed messaging schedule and the conditional logic (removal and email) based on whether Elodie replies within the 4-minute window.
 
@@ -156,11 +158,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #96
+**Initial harness configuration** · Source event 96
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The previous SubAgent confirmed that Elodie Vandenberghe did not reply by 07:04:00 and successfully sent the first fallback message to the group chat. I now need to complete the remaining two side effects: removing Elodie from the group chat and sending her the specified &#x27;Proof of Life&#x27; email.
 
@@ -220,7 +222,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

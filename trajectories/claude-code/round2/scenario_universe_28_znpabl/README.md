@@ -1,6 +1,8 @@
 # Claude Code · scenario_universe_28_znpabl
 
-[Round index](../README.md) · [Claude Code rounds](../../README.md) · [PORCHESTRA task](../../../round2/scenario_universe_28_znpabl/README.md)
+[Round index](../README.md) · [Claude Code rounds](../../README.md)
+
+**Compare systems:** [PORCHESTRA](../../../round2/scenario_universe_28_znpabl/README.md) · Claude Code · [Codex](../../../codex/round2/scenario_universe_28_znpabl/README.md) · [OpenCode](../../../opencode/round2/scenario_universe_28_znpabl/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Duration:** 34.8 seconds
 

@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Product(name='Funko Predator Reaction Figure - Open Mouth Predator', product_id=
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: model output</summary>
+<summary>Source event 35 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -95,7 +95,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Judge rationale</summary>
+<summary>Source event 37 · Judge rationale</summary>
 
 
 ```text

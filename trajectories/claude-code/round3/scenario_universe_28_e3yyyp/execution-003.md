@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #102 · Main agent: Tool result: call_00_zemkzh4yaxvzefhmk53x0faj (is_error=False)</summary>
+<summary>Source event 102 · Main agent: Tool result: call_00_zemkzh4yaxvzefhmk53x0faj (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #103 · Main agent: Model message
+## Source event 103 · Main agent: Model message
 
 ```text
 All 9 replies confirmed in SENT, each to the correct manager, with correct content. Total SENT = 113 (104 prior + 9 replies).
@@ -198,7 +198,7 @@ Let me do it.
 
 
 
-## Source event #104 · Main agent: Model message
+## Source event 104 · Main agent: Model message
 
 ```text
 All nine replies are confirmed in the SENT folder, addressed to the correct managers. Let me send the user a brief completion summary.
@@ -206,7 +206,7 @@ All nine replies are confirmed in the SENT folder, addressed to the correct mana
 
 
 
-## Source event #105 · Main agent: Model tool call: ToolSearch (call_00_1js9ph73cpo1g1ek6tsd900v)
+## Source event 105 · Main agent: Model tool call: ToolSearch (call_00_1js9ph73cpo1g1ek6tsd900v)
 
 ```text
 {
@@ -218,7 +218,7 @@ All nine replies are confirmed in the SENT folder, addressed to the correct mana
 
 
 <details>
-<summary>Source event #106 · Main agent: Tool result: call_00_1js9ph73cpo1g1ek6tsd900v (is_error=False)</summary>
+<summary>Source event 106 · Main agent: Tool result: call_00_1js9ph73cpo1g1ek6tsd900v (is_error=False)</summary>
 
 
 ```text
@@ -234,7 +234,7 @@ All nine replies are confirmed in the SENT folder, addressed to the correct mana
 </details>
 
 
-## Source event #107 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_rz8onao1j767ow055dyed9xg)
+## Source event 107 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_rz8onao1j767ow055dyed9xg)
 
 ```text
 {
@@ -245,7 +245,7 @@ All nine replies are confirmed in the SENT folder, addressed to the correct mana
 
 
 <details>
-<summary>Source event #108 · Main agent: Tool result: call_00_rz8onao1j767ow055dyed9xg (is_error=False)</summary>
+<summary>Source event 108 · Main agent: Tool result: call_00_rz8onao1j767ow055dyed9xg (is_error=False)</summary>
 
 
 ```text
@@ -261,7 +261,7 @@ All nine replies are confirmed in the SENT folder, addressed to the correct mana
 </details>
 
 
-## Source event #109 · Main agent: Model message
+## Source event 109 · Main agent: Model message
 
 ```text
 The message was sent. The task is complete. My final text (this turn) will be shown. Let me provide a concise summary too. Actually the send_message_to_user ended the ARE turn. This is the assistant final message probably. I'll output a brief summary.
@@ -269,7 +269,7 @@ The message was sent. The task is complete. My final text (this turn) will be sh
 
 
 
-## Source event #110 · Main agent: Model message
+## Source event 110 · Main agent: Model message
 
 ```text
 Task complete. I identified the 9 contacts whose job titles include "Manager" (excluding "Former … Manager" roles) and replied to each person's latest email:
@@ -292,7 +292,7 @@ Emails with an explicit question got a "Yes, I would …" answer; emails with no
 
 
 <details>
-<summary>Source event #111 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 111 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -318,7 +318,7 @@ Emails with an explicit question got a "Yes, I would …" answer; emails with no
 
 
 <details>
-<summary>Source event #112 · Judge: Judge rationale</summary>
+<summary>Source event 112 · Judge: Judge rationale</summary>
 
 
 ```text

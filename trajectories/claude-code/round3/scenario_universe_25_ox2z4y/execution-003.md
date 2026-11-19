@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #76 · Main agent: Model message
+## Source event 76 · Main agent: Model message
 
 ```text
 Interesting! Reading 6f8b9123 reveals participants actually: messages from +32472123456 (user), +4621234567, +46734567890. But the list_recent_conversations metadata said participant_ids=['+46761234367', '+46702345678', '+32472123456']. Discrepancy! The read shows senders +4621234567 and +46734567890, which are Astrid Svensson (+4621234567) and Astrid Lindqvist (+46734567890), NOT Kåre/Åsa.
@@ -303,7 +303,7 @@ Load tool.
 
 
 
-## Source event #77 · Main agent: Model message
+## Source event 77 · Main agent: Model message
 
 ```text
 I've verified all six conversations were created within Oct 10–13 and confirmed their participants against the message senders. Let me summarize the analysis:
@@ -323,7 +323,7 @@ Let me send the answer.
 
 
 
-## Source event #78 · Main agent: Model tool call: ToolSearch (call_00_pyi9oorjgugkpvnn8xla54d3)
+## Source event 78 · Main agent: Model tool call: ToolSearch (call_00_pyi9oorjgugkpvnn8xla54d3)
 
 ```text
 {
@@ -335,7 +335,7 @@ Let me send the answer.
 
 
 <details>
-<summary>Source event #79 · Main agent: Tool result: call_00_pyi9oorjgugkpvnn8xla54d3 (is_error=False)</summary>
+<summary>Source event 79 · Main agent: Tool result: call_00_pyi9oorjgugkpvnn8xla54d3 (is_error=False)</summary>
 
 
 ```text
@@ -351,7 +351,7 @@ Let me send the answer.
 </details>
 
 
-## Source event #80 · Main agent: Model message
+## Source event 80 · Main agent: Model message
 
 ```text
 Now send the answer. The question says return just the name. I'll send "Kritsana Suthiwong".
@@ -359,7 +359,7 @@ Now send the answer. The question says return just the name. I'll send "Kritsana
 
 
 
-## Source event #81 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_9m7ybtge7h7tc2eombxgypna)
+## Source event 81 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_9m7ybtge7h7tc2eombxgypna)
 
 ```text
 {
@@ -370,7 +370,7 @@ Now send the answer. The question says return just the name. I'll send "Kritsana
 
 
 <details>
-<summary>Source event #82 · Main agent: Tool result: call_00_9m7ybtge7h7tc2eombxgypna (is_error=False)</summary>
+<summary>Source event 82 · Main agent: Tool result: call_00_9m7ybtge7h7tc2eombxgypna (is_error=False)</summary>
 
 
 ```text
@@ -386,7 +386,7 @@ Now send the answer. The question says return just the name. I'll send "Kritsana
 </details>
 
 
-## Source event #83 · Main agent: Model message
+## Source event 83 · Main agent: Model message
 
 ```text
 Sent. The task is done. I should provide a brief final note? The turn ended with the user message. Since send_message_to_user ends the ARE turn, no more tool calls needed. Final response perhaps just the answer. But text outside tool use is displayed to user. I'll give a concise final answer with brief reasoning.
@@ -394,7 +394,7 @@ Sent. The task is done. I should provide a brief final note? The turn ended with
 
 
 
-## Source event #84 · Main agent: Model message
+## Source event 84 · Main agent: Model message
 
 ```text
 Answer: **Kritsana Suthiwong**
@@ -408,7 +408,7 @@ Reasoning summary:
 
 
 <details>
-<summary>Source event #85 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 85 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -425,7 +425,7 @@ Reasoning summary:
 
 
 <details>
-<summary>Source event #86 · Judge: Judge rationale</summary>
+<summary>Source event 86 · Judge: Judge rationale</summary>
 
 
 ```text

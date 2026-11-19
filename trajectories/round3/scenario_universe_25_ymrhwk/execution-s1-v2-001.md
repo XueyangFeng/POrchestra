@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #59 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 59 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -25,7 +25,7 @@ So: none of the three attendees responded within the 3-minute window.'
 </details>
 
 
-## Source event #60 · Sub-agent 1: model output
+## Source event 60 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 1: tool result</summary>
+<summary>Source event 61 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #15 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 15 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #16 · Sub-agent 2: model output
+## Source event 16 · Sub-agent 2: model output
 
 ```text
 I'll start by searching for 'History' emails in each folder.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result</summary>
+<summary>Source event 17 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result (continued, part 2)</summary>
+<summary>Source event 17 · Sub-agent 2: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result (continued, part 3)</summary>
+<summary>Source event 17 · Sub-agent 2: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -77,7 +77,7 @@ schwarz@hu-berlin.de', recipients=['akuznetsova@gaia2mail.com'], subject='Explor
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result (continued, part 4)</summary>
+<summary>Source event 17 · Sub-agent 2: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ could collaborate on a project. Perhaps we could even organize a joint lecture o
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result (continued, part 5)</summary>
+<summary>Source event 17 · Sub-agent 2: tool result (continued, part 5)</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #63 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 63 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #64 · Sub-agent 2: model output
+## Source event 64 · Sub-agent 2: model output
 
 ```text
 I'll check the two remaining contacts on both apps, starting with Messages lookups.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #65 · Sub-agent 2: tool result</summary>
+<summary>Source event 65 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ None
 </details>
 
 
-## Source event #66 · Sub-agent 2: model output
+## Source event 66 · Sub-agent 2: model output
 
 ```text
 Åse Kleveland is not on Messages. Checking Chats.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #67 · Sub-agent 2: tool result</summary>
+<summary>Source event 67 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Action:
 </details>
 
 
-## Source event #68 · Sub-agent 2: model output
+## Source event 68 · Sub-agent 2: model output
 
 ```text
 Åse Kleveland: Chats only (+$10). Now checking Solveig Fjellstad on Messages.
@@ -94,7 +94,7 @@ Action:
 
 
 <details>
-<summary>Source event #69 · Sub-agent 2: tool result</summary>
+<summary>Source event 69 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -108,7 +108,7 @@ Action:
 </details>
 
 
-## Source event #70 · Sub-agent 2: model output
+## Source event 70 · Sub-agent 2: model output
 
 ```text
 Solveig Fjellstad is on Messages. Checking Chats.
@@ -123,7 +123,7 @@ Action:
 
 
 <details>
-<summary>Source event #71 · Sub-agent 2: tool result</summary>
+<summary>Source event 71 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ None
 </details>
 
 
-## Source event #72 · Sub-agent 2: model output
+## Source event 72 · Sub-agent 2: model output
 
 ```text
 Solveig Fjellstad: Messages only (+$15). Budget = $85 + $10 + $15 = $110. Now searching Shopping for LEGO products.
@@ -152,7 +152,7 @@ Action:
 
 
 <details>
-<summary>Source event #73 · Sub-agent 2: tool result</summary>
+<summary>Source event 73 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -167,7 +167,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 2: tool result</summary>
+<summary>Source event 74 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -185,7 +185,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #75 · Sub-agent 2: model output
+## Source event 75 · Sub-agent 2: model output
 
 ```text
 The previous call failed due to an engine error, not the tool. Retrying with pagination offset.
@@ -200,7 +200,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 2: tool result</summary>
+<summary>Source event 76 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -214,7 +214,7 @@ Action:
 </details>
 
 
-## Source event #77 · Sub-agent 2: model output
+## Source event 77 · Sub-agent 2: model output
 
 ```text
 Only 3 results total, no more pages. Let me verify case sensitivity with a lowercase search.
@@ -229,7 +229,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 2: tool result</summary>
+<summary>Source event 78 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -243,7 +243,7 @@ Action:
 </details>
 
 
-## Source event #79 · Sub-agent 2: model output
+## Source event 79 · Sub-agent 2: model output
 
 ```text
 Same 3 products confirmed. Now fetching product details for each to determine the most expensive item price.
@@ -258,7 +258,7 @@ Action:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 2: tool result</summary>
+<summary>Source event 80 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -272,7 +272,7 @@ Product(name='LEGO Storage Brick 4, Lime Green', product_id='95be0e7d00ae982b990
 </details>
 
 
-## Source event #81 · Sub-agent 2: model output
+## Source event 81 · Sub-agent 2: model output
 
 ```text
 Product 1 max variant price: $44.99. Fetching product 2 details.
@@ -287,7 +287,7 @@ Action:
 
 
 <details>
-<summary>Source event #82 · Sub-agent 2: tool result</summary>
+<summary>Source event 82 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -301,7 +301,7 @@ Product(name='LEGO 8-Brick Storage Box, Bright Red', product_id='0678767f2ff24c5
 </details>
 
 
-## Source event #83 · Sub-agent 2: model output
+## Source event 83 · Sub-agent 2: model output
 
 ```text
 Product 2 max variant price: $29.99. Fetching product 3 details.
@@ -316,7 +316,7 @@ Action:
 
 
 <details>
-<summary>Source event #84 · Sub-agent 2: tool result</summary>
+<summary>Source event 84 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -330,7 +330,7 @@ Product(name='LEGO Technic Power Functions Motor Set 8293 (10 Pieces)', product_
 </details>
 
 
-## Source event #85 · Sub-agent 2: model output
+## Source event 85 · Sub-agent 2: model output
 
 ```text
 All data gathered. Summary of findings:
@@ -354,7 +354,7 @@ Action:
 
 
 <details>
-<summary>Source event #86 · Sub-agent 2: tool result</summary>
+<summary>Source event 86 · Sub-agent 2: tool result</summary>
 
 
 ```text

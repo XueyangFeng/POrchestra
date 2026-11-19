@@ -1,6 +1,8 @@
 # scenario_universe_22_bv95nt
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_22_bv95nt/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_22_bv95nt/README.md) · [Codex](../../codex/round1/scenario_universe_22_bv95nt/README.md) · [OpenCode](../../opencode/round1/scenario_universe_22_bv95nt/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial property removals, find the recipient&#x27;s contact information, and then enter a monitoring loop to detect price changes for properties not in the saved list over the next 4 minutes. After the 4-minute period, I will send the summary email.
 
@@ -98,7 +100,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #2</summary>
+<summary>Source event 2</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #18 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 18 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #19 · Sub-agent 2: model output
+## Source event 19 · Sub-agent 2: model output
 
 ```text
 I'll start by looking up Kåre Sørensen in Messages to get his user ID.
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: tool result</summary>
+<summary>Source event 20 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 Found Kåre's user ID: `+4090123456`. Now sending him the message about Friday's dinner.
@@ -74,7 +74,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -88,7 +88,7 @@ Action:
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 Message sent (conversation ID: `192acd91b0f940bea9d197006d5dc4f5`). Now booking the Default cab for Friday 19:30.
@@ -110,7 +110,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -133,7 +133,7 @@ Ride ID: ca5380b0fb5d30db43b4905d14d91312
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 Cab booked (Ride ID: `ca5380b0fb5d30db43b4905d14d91312`, timestamp 1729279800.0 = 2024-10-18 19:30:00). Let me check the current time and whether Kåre has already replied.
@@ -150,7 +150,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -164,7 +164,7 @@ Action:
 </details>
 
 
-## Source event #27 · Sub-agent 2: model output
+## Source event 27 · Sub-agent 2: model output
 
 ```text
 Now let me read the conversation with Kåre to check for any existing context or reply.
@@ -184,7 +184,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: tool result</summary>
+<summary>Source event 28 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -198,7 +198,7 @@ Action:
 </details>
 
 
-## Source event #29 · Sub-agent 2: model output
+## Source event 29 · Sub-agent 2: model output
 
 ```text
 Message sent to Kåre and no reply yet (latest message in conversation is mine). Let me verify the dinner event is on the calendar before sending the user confirmation.
@@ -218,7 +218,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 2: tool result</summary>
+<summary>Source event 30 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -232,7 +232,7 @@ Action:
 </details>
 
 
-## Source event #31 · Sub-agent 2: model output
+## Source event 31 · Sub-agent 2: model output
 
 ```text
 Dinner event confirmed on the calendar. Now I'll wait for Kåre's response.
@@ -251,7 +251,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: tool result</summary>
+<summary>Source event 32 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -266,7 +266,7 @@ None
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 33 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -279,7 +279,7 @@ Environment notifications:
 </details>
 
 
-## Source event #34 · Sub-agent 2: model output
+## Source event 34 · Sub-agent 2: model output
 
 ```text
 No notification yet. Let me wait a bit longer for Kåre's response.
@@ -299,7 +299,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: tool result</summary>
+<summary>Source event 35 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -314,7 +314,7 @@ None
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 36 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -327,7 +327,7 @@ Environment notifications:
 </details>
 
 
-## Source event #37 · Sub-agent 2: model output
+## Source event 37 · Sub-agent 2: model output
 
 ```text
 Let me check whether Kåre has replied to the conversation.
@@ -348,7 +348,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: tool result</summary>
+<summary>Source event 38 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -362,7 +362,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 2: model output
+## Source event 39 · Sub-agent 2: model output
 
 ```text
 Kåre hasn't replied yet. I'll send the user the confirmation message now.
@@ -382,7 +382,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: tool result</summary>
+<summary>Source event 40 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -397,7 +397,7 @@ None
 
 
 <details>
-<summary>Source event #41 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 41 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -410,7 +410,7 @@ Environment notifications:
 </details>
 
 
-## Source event #42 · Sub-agent 2: model output
+## Source event 42 · Sub-agent 2: model output
 
 ```text
 Kåre has replied. Let me read the conversation to see his response.
@@ -431,7 +431,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: tool result</summary>
+<summary>Source event 43 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -445,7 +445,7 @@ Action:
 </details>
 
 
-## Source event #44 · Sub-agent 2: model output
+## Source event 44 · Sub-agent 2: model output
 
 ```text
 Kåre can't make Friday but says next Monday at the same time works. Let me check the calendar for Monday 2024-10-21 conflicts (with the 30-minute buffer window 19:30–22:30).
@@ -466,7 +466,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: tool result</summary>
+<summary>Source event 45 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -480,7 +480,7 @@ Action:
 </details>
 
 
-## Source event #46 · Sub-agent 2: model output
+## Source event 46 · Sub-agent 2: model output
 
 ```text
 Kåre replied: "Sorry, can't make it this Friday. But next Monday at the same time works for me." Next Monday = 2024-10-21, 20:00–22:00. I found a conflict: 'Film Festival Screening' on Monday 18:00–20:00, which ends exactly at the new dinner start (0 min gap) and also overlaps the 19:30 cab time — violating the 30-minute buffer rule. I'll delete it.
@@ -500,7 +500,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result</summary>
+<summary>Source event 47 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -514,7 +514,7 @@ Event 42e0483ed32a48ceb23ba41bce63766e successfully deleted.
 </details>
 
 
-## Source event #48 · Sub-agent 2: model output
+## Source event 48 · Sub-agent 2: model output
 
 ```text
 Now I'll reschedule the dinner event: delete the old Friday event and create it for Monday 2024-10-21 20:00–22:00.
@@ -534,7 +534,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: tool result</summary>
+<summary>Source event 49 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -548,7 +548,7 @@ Event dcf191829913b81220f38262b28ec53c successfully deleted.
 </details>
 
 
-## Source event #50 · Sub-agent 2: model output
+## Source event 50 · Sub-agent 2: model output
 
 ```text
 <think=Creating new dinner event for Monday 2024-10-21 20:00-22:00>
@@ -570,7 +570,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 2: tool result</summary>
+<summary>Source event 51 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -584,7 +584,7 @@ f7af3c683953f40822cf7da5a5df7046
 </details>
 
 
-## Source event #52 · Sub-agent 2: model output
+## Source event 52 · Sub-agent 2: model output
 
 ```text
 New dinner event created (ID: `f7af3c683953f40822cf7da5a5df7046`). Now I'll cancel the existing Friday cab and rebook for Monday 19:30.
@@ -602,7 +602,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 2: tool result</summary>
+<summary>Source event 53 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -617,7 +617,7 @@ Ride has been cancelled, sorry to see you go.
 
 
 <details>
-<summary>Source event #54 · Sub-agent 2: tool result</summary>
+<summary>Source event 54 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -635,7 +635,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #55 · Sub-agent 2: model output
+## Source event 55 · Sub-agent 2: model output
 
 ```text
 The cab rebooking call failed due to an API error (not a tool issue). Retrying now for Monday 19:30.
@@ -658,7 +658,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 2: tool result</summary>
+<summary>Source event 56 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -681,7 +681,7 @@ Ride ID: 07b0699e6eaaa718e6dd4a39fe6dcf42
 </details>
 
 
-## Source event #57 · Sub-agent 2: model output
+## Source event 57 · Sub-agent 2: model output
 
 ```text
 Cab rebooked for Monday 19:30 (Ride ID `07b0699e6eaaa718e6dd4a39fe6dcf42`, timestamp 1729539000.0 = 2024-10-21 19:30:00). Let me verify the new event and that the buffer window (19:30–22:30) is now clear.
@@ -702,7 +702,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 2: tool result</summary>
+<summary>Source event 58 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -716,7 +716,7 @@ Action:
 </details>
 
 
-## Source event #59 · Sub-agent 2: model output
+## Source event 59 · Sub-agent 2: model output
 
 ```text
 Verification complete: the Monday 19:30–22:30 window now contains only the new dinner event. Reporting the rescheduling to the user.
@@ -736,7 +736,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 2: tool result</summary>
+<summary>Source event 60 · Sub-agent 2: tool result</summary>
 
 
 ```text

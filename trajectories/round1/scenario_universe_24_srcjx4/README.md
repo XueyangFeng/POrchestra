@@ -1,6 +1,8 @@
 # scenario_universe_24_srcjx4
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_24_srcjx4/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_24_srcjx4/README.md) · [Codex](../../codex/round1/scenario_universe_24_srcjx4/README.md) · [OpenCode](../../opencode/round1/scenario_universe_24_srcjx4/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to start by finding and purchasing the cheapest variants of the five specified products with their respective materials. Then, I must message Akira Nakahara to verify the purchase and inform the user. This is the first logical block of the request.
 

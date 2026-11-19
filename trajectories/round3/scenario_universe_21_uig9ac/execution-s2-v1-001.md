@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #12 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 12 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Perform the following steps:
 </details>
 
 
-## Source event #13 · Sub-agent 2: model output
+## Source event 13 · Sub-agent 2: model output
 
 ```text
 I'll start by verifying the current time and listing saved apartments.
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 2: tool result</summary>
+<summary>Source event 14 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Action:
 </details>
 
 
-## Source event #15 · Sub-agent 2: model output
+## Source event 15 · Sub-agent 2: model output
 
 ```text
 Current time confirmed: Tuesday 2024-10-15 07:00:13, so this coming Sunday is 2024-10-20. Now let me list the saved apartments.
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 2: tool result</summary>
+<summary>Source event 16 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Action:
 </details>
 
 
-## Source event #17 · Sub-agent 2: model output
+## Source event 17 · Sub-agent 2: model output
 
 ```text
 Only one apartment in zip 211 43 has a Gym — let me verify its details.
@@ -98,7 +98,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 2: tool result</summary>
+<summary>Source event 18 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -112,7 +112,7 @@ Apartment(name='Malmö Modern', location='Södra Förstadsgatan 20, Malmö', zip
 </details>
 
 
-## Source event #19 · Sub-agent 2: model output
+## Source event 19 · Sub-agent 2: model output
 
 ```text
 Confirmed: Malmö Modern is the only saved apartment in 211 43 with a Gym (price 1300). Now creating the calendar event and ordering the cab.
@@ -133,7 +133,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: tool result</summary>
+<summary>Source event 20 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -147,7 +147,7 @@ acea4a8d991e2e64e9a43daa76d19dd2
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 Event created (id acea4a8d991e2e64e9a43daa76d19dd2). Now ordering the cab.
@@ -167,7 +167,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -190,7 +190,7 @@ Ride ID: c3de44121c4644ae524e7f6470b6f5f7
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 Cab booked (ride id c3de44121c4644ae524e7f6470b6f5f7). Now looking up Vasco Pinto in Chats.
@@ -207,7 +207,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -221,7 +221,7 @@ Action:
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 Vasco Pinto's user id found. Sending the message.
@@ -239,7 +239,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -253,7 +253,7 @@ dbc071791593dd4085e85e41968a9208
 </details>
 
 
-## Source event #27 · Sub-agent 2: model output
+## Source event 27 · Sub-agent 2: model output
 
 ```text
 All side effects (calendar event, cab, chat message) are complete. Now sending the user the property name.
@@ -270,7 +270,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: tool result</summary>
+<summary>Source event 28 · Sub-agent 2: tool result</summary>
 
 
 ```text

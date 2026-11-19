@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #37 · Main agent: Tool result: call_04_n34yhmnnu83vr1koep4qn5wg (is_error=False)</summary>
+<summary>Source event 37 · Main agent: Tool result: call_04_n34yhmnnu83vr1koep4qn5wg (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #38 · Main agent: Tool result: call_05_yt75gmgwfe32vn8ki1mb8uvz (is_error=False)</summary>
+<summary>Source event 38 · Main agent: Tool result: call_05_yt75gmgwfe32vn8ki1mb8uvz (is_error=False)</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #39 · Main agent: Model message
+## Source event 39 · Main agent: Model message
 
 ```text
 Now let me compile all contacts with zip 602 00:
@@ -92,7 +92,7 @@ Now calendar events. Let me fetch.
 
 
 
-## Source event #40 · Main agent: Model message
+## Source event 40 · Main agent: Model message
 
 ```text
 Contacts with zip **602 00**: Bohumil Nováček (78), Lukáš Nováček (28), Zdeněk Nováková (43), Petra Nováková (46). Now let me pull September calendar events.
@@ -100,7 +100,7 @@ Contacts with zip **602 00**: Bohumil Nováček (78), Lukáš Nováček (28), Zd
 
 
 
-## Source event #41 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_enfebzm3xwijvwh4u86qbsl2)
+## Source event 41 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_enfebzm3xwijvwh4u86qbsl2)
 
 ```text
 {
@@ -114,7 +114,7 @@ Contacts with zip **602 00**: Bohumil Nováček (78), Lukáš Nováček (28), Zd
 
 
 <details>
-<summary>Source event #42 · Main agent: Tool result: call_00_enfebzm3xwijvwh4u86qbsl2 (is_error=False)</summary>
+<summary>Source event 42 · Main agent: Tool result: call_00_enfebzm3xwijvwh4u86qbsl2 (is_error=False)</summary>
 
 
 ```text
@@ -130,7 +130,7 @@ Contacts with zip **602 00**: Bohumil Nováček (78), Lukáš Nováček (28), Zd
 </details>
 
 
-## Source event #43 · Main agent: Model message
+## Source event 43 · Main agent: Model message
 
 ```text
 Now I need to count how many events include each of: Bohumil Nováček, Lukáš Nováček, Zdeněk Nováková, Petra Nováková.
@@ -433,7 +433,7 @@ Let me now send the message. Load the tool.
 
 
 
-## Source event #44 · Main agent: Model message
+## Source event 44 · Main agent: Model message
 
 ```text
 All 101 September events retrieved. Counting attendee appearances for the four 602 00 contacts:
@@ -448,7 +448,7 @@ Lukáš Nováček wins outright (no tie). Let me send the answer.
 
 
 
-## Source event #45 · Main agent: Model tool call: ToolSearch (call_00_ju8s143pc21rxekydpuyjgiv)
+## Source event 45 · Main agent: Model tool call: ToolSearch (call_00_ju8s143pc21rxekydpuyjgiv)
 
 ```text
 {
@@ -460,7 +460,7 @@ Lukáš Nováček wins outright (no tie). Let me send the answer.
 
 
 <details>
-<summary>Source event #46 · Main agent: Tool result: call_00_ju8s143pc21rxekydpuyjgiv (is_error=False)</summary>
+<summary>Source event 46 · Main agent: Tool result: call_00_ju8s143pc21rxekydpuyjgiv (is_error=False)</summary>
 
 
 ```text
@@ -476,7 +476,7 @@ Lukáš Nováček wins outright (no tie). Let me send the answer.
 </details>
 
 
-## Source event #47 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_yv2scozjp5xgjmxm7cbse96l)
+## Source event 47 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_yv2scozjp5xgjmxm7cbse96l)
 
 ```text
 {
@@ -487,7 +487,7 @@ Lukáš Nováček wins outright (no tie). Let me send the answer.
 
 
 <details>
-<summary>Source event #48 · Main agent: Tool result: call_00_yv2scozjp5xgjmxm7cbse96l (is_error=False)</summary>
+<summary>Source event 48 · Main agent: Tool result: call_00_yv2scozjp5xgjmxm7cbse96l (is_error=False)</summary>
 
 
 ```text
@@ -503,7 +503,7 @@ Lukáš Nováček wins outright (no tie). Let me send the answer.
 </details>
 
 
-## Source event #49 · Main agent: Model message
+## Source event 49 · Main agent: Model message
 
 ```text
 I've completed the task. 
@@ -521,7 +521,7 @@ No tie occurred, so the answer is **Lukáš Nováček**. The reply has been sent
 
 
 <details>
-<summary>Source event #50 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 50 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -542,7 +542,7 @@ No tie occurred, so the answer is **Lukáš Nováček**. The reply has been sent
 
 
 <details>
-<summary>Source event #51 · Judge: Judge rationale</summary>
+<summary>Source event 51 · Judge: Judge rationale</summary>
 
 
 ```text

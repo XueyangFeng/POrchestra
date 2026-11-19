@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #62 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 62 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Send the message 'I am no longer a morning person, so I\'ve canceled all the soc
 </details>
 
 
-## Source event #63 · Sub-agent 2: model output
+## Source event 63 · Sub-agent 2: model output
 
 ```text
 Thought: The dedicated tool is now available; sending the message into the group conversation.
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 2: tool result</summary>
+<summary>Source event 64 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ d96ffd24fe99eb60e265f1312f4c0bc6
 </details>
 
 
-## Source event #65 · Sub-agent 2: model output
+## Source event 65 · Sub-agent 2: model output
 
 ```text
 Thought: The message has been delivered to the group conversation d96ffd24fe99eb60e265f1312f4c0bc6.
@@ -92,7 +92,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 2: tool result</summary>
+<summary>Source event 66 · Sub-agent 2: tool result</summary>
 
 
 ```text

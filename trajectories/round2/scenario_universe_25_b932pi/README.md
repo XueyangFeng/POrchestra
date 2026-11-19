@@ -1,6 +1,8 @@
 # scenario_universe_25_b932pi
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_25_b932pi/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_25_b932pi/README.md) · [Codex](../../codex/round2/scenario_universe_25_b932pi/README.md) · [OpenCode](../../opencode/round2/scenario_universe_25_b932pi/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify the earliest event today, determine the attendee and their address, and book the cab accordingly. I will also need to send a confirmation message to the attendee and notify the user once these initial steps are complete.
 
@@ -103,7 +105,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #28
+**Harness configuration updated** · Source event 28
 
 **1. Sub-agent revision request**
 
@@ -112,7 +114,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed assigned subtask items 1-7: earliest event is 'Project Planning Meeting' (event_id 85640861b39240959e25ed7feb8e96ed, 2024-10-15 09:00-11:00, tag 'Work', attendee Aurélien Dumont). Ride booked: ride_id ca5380b0fb5d30db43b4905d14d91312, Default, pickup Sint-Michielsstraat 6, 3000 Leuven, Belgium, drop-off Tiensestraat 57, 3000 Leuven, Belgium, ride_time timestamp 1728982200.0 (2024-10-15 08:50:00). Message sent to Aurélien Dumont (user_id +32435123456), message id e7cf1a8da9c54f8db30ca5c9f992f711. User was notified at 2024-10-15 07:00:07 (timestamp 1728975607.571762). NEW ENVIRONMENT NOTIFICATION received after user notification: 'CabApp: ride cancelled', observed at 2024-10-15 07:02:39 (timestamp 1728975759.4153035). Per original turn, ~4 minutes after user notification (i.e., ~2024-10-15 07:04:07) if driver cancelled, the earliest event must be deleted and re-scheduled with same details but without attendee, then attendee messaged confirming ride and event cancellation, and user notified of changes.
 ```
 <details>
-<summary>Request and evidence · source event #26</summary>
+<summary>Request and evidence · source event 26</summary>
 
 
 ```text
@@ -181,7 +183,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The cab ride was cancelled within the 4-minute monitoring window. Per the original task, I must now delete the event, re-schedule it without the attendee, and notify both the attendee and the user. The SubAgent has already provided the necessary event details and cancellation evidence.
 

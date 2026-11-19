@@ -1,6 +1,8 @@
 # scenario_universe_23_2gyolt
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_23_2gyolt/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_23_2gyolt/README.md) · [Codex](../../codex/round1/scenario_universe_23_2gyolt/README.md) · [OpenCode](../../opencode/round1/scenario_universe_23_2gyolt/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform calendar deletions, send an email to Kvido, and retrieve the seminar start time to book a cab later. I will first handle the Kvido-related tasks and find the seminar details.
 
@@ -90,11 +92,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #25
+**Initial harness configuration** · Source event 25
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The first subtask successfully deleted the calendar events with Kvido Nováček, sent the notification email, and identified the details for the &#x27;Global Governance Seminar&#x27; (starting today at 09:00). I now need to book the cab for 08:30 and purchase the book.
 

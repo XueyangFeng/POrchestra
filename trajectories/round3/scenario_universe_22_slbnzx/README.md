@@ -1,6 +1,8 @@
 # scenario_universe_22_slbnzx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_22_slbnzx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_22_slbnzx/README.md) · [Codex](../../codex/round3/scenario_universe_22_slbnzx/README.md) · [OpenCode](../../opencode/round3/scenario_universe_22_slbnzx/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need a SubAgent to identify and process the specific calendar events mentioned in the user request. This involves checking the user&#x27;s identity to verify attendees, filtering events by title and time range, performing deletions and additions, and finally reporting the count to the user.
 

@@ -1,6 +1,8 @@
 # scenario_universe_26_135a24
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_26_135a24/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_26_135a24/README.md) · [Codex](../../codex/round2/scenario_universe_26_135a24/README.md) · [OpenCode](../../opencode/round2/scenario_universe_26_135a24/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to gather the necessary information to fulfill the user&#x27;s request: the specific date for &#x27;this Sunday&#x27;, the email addresses for Kåre and Nalinee, the user&#x27;s home address for the calendar event, and the content of the most recently updated message conversation to draft the invitations.
 
@@ -90,11 +92,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #21
+**Initial harness configuration** · Source event 21
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The required information (date, recipients, location, and conversation context) has been gathered. Now I need to schedule the calendar event and send the invitation emails as requested.
 
@@ -154,11 +156,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #31
+**Initial harness configuration** · Source event 31
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The calendar event and invitation emails have been successfully completed. The final step is to order the Appetizer/Dessert Cups and Dinner Plates with the specified attributes.
 
@@ -227,7 +229,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

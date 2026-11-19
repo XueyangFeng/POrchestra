@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 20 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #21 · Sub-agent 2: tool result</summary>
+<summary>Source event 21 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -46,7 +46,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #22 · Sub-agent 2: model output
+## Source event 22 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -63,7 +63,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result</summary>
+<summary>Source event 23 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -77,7 +77,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result (continued, part 2)</summary>
+<summary>Source event 23 · Sub-agent 2: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ ReturnedEmails(emails=[Email(sender='rohan.deshpande@adwave.in', recipients=['so
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result (continued, part 3)</summary>
+<summary>Source event 23 · Sub-agent 2: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -101,7 +101,7 @@ volutionize the banking industry. As a computer science student at Aarhus Univer
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result (continued, part 4)</summary>
+<summary>Source event 23 · Sub-agent 2: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ ortunities and learn more about your mobile application. Would you be available 
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result (continued, part 5)</summary>
+<summary>Source event 23 · Sub-agent 2: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -125,7 +125,7 @@ ortunities and learn more about your mobile application. Would you be available 
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result (continued, part 6)</summary>
+<summary>Source event 23 · Sub-agent 2: tool result (continued, part 6)</summary>
 
 
 ```text
@@ -138,7 +138,7 @@ ortunities and learn more about your mobile application. Would you be available 
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -165,7 +165,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 I need to retrieve the remaining 4 emails in the INBOX (total 104, 100 shown) and identify the 'Seeking advice' emails received in October 2024. Let me list the remaining emails first.

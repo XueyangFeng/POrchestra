@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #13 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 13 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #14 · Sub-agent 2: model output
+## Source event 14 · Sub-agent 2: model output
 
 ```text
 I'll start by checking the City app's API call limit and searching for rental properties in Stockholm.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 2: tool result</summary>
+<summary>Source event 15 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 2: model output
+## Source event 16 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -64,7 +64,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result</summary>
+<summary>Source event 17 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -78,7 +78,7 @@ Action:
 </details>
 
 
-## Source event #18 · Sub-agent 2: model output
+## Source event 18 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -93,7 +93,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 2: tool result</summary>
+<summary>Source event 19 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -108,7 +108,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: tool result</summary>
+<summary>Source event 20 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -128,7 +128,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 I found 17 properties in Stockholm. Unique zip codes: '114 41', '114 56', '111 35', '118 26', '111 23', '118 21', '11825', '114 39', '118 25', '111 21', '111 60', '120 30'. Let me now check crime rates for each. Starting with '114 41':
@@ -145,7 +145,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -160,7 +160,7 @@ CrimeDataPoint(violent_crime=21.26, property_crime=41.8)
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result</summary>
+<summary>Source event 23 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -180,7 +180,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #24 · Sub-agent 2: model output
+## Source event 24 · Sub-agent 2: model output
 
 ```text
 114 41 → 21.26 (keep). Next, '114 56':
@@ -197,7 +197,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: tool result</summary>
+<summary>Source event 25 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -211,7 +211,7 @@ CrimeDataPoint(violent_crime=43.07, property_crime=27.88)
 </details>
 
 
-## Source event #26 · Sub-agent 2: model output
+## Source event 26 · Sub-agent 2: model output
 
 ```text
 114 56 → 43.07 (exclude). Next, '111 35':
@@ -228,7 +228,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 2: tool result</summary>
+<summary>Source event 27 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -242,7 +242,7 @@ CrimeDataPoint(violent_crime=2.57, property_crime=46.56)
 </details>
 
 
-## Source event #28 · Sub-agent 2: model output
+## Source event 28 · Sub-agent 2: model output
 
 ```text
 111 35 → 2.57 (keep). Next, '118 26':
@@ -259,7 +259,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: tool result</summary>
+<summary>Source event 29 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -273,7 +273,7 @@ CrimeDataPoint(violent_crime=5.62, property_crime=18.15)
 </details>
 
 
-## Source event #30 · Sub-agent 2: model output
+## Source event 30 · Sub-agent 2: model output
 
 ```text
 118 26 → 5.62 (keep). Next, '111 23':
@@ -290,7 +290,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: tool result</summary>
+<summary>Source event 31 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -304,7 +304,7 @@ CrimeDataPoint(violent_crime=33.62, property_crime=35.82)
 </details>
 
 
-## Source event #32 · Sub-agent 2: model output
+## Source event 32 · Sub-agent 2: model output
 
 ```text
 111 23 → 33.62 (exclude). Next, '118 21':
@@ -321,7 +321,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result</summary>
+<summary>Source event 33 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -335,7 +335,7 @@ CrimeDataPoint(violent_crime=29.53, property_crime=46.31)
 </details>
 
 
-## Source event #34 · Sub-agent 2: model output
+## Source event 34 · Sub-agent 2: model output
 
 ```text
 118 21 → 29.53 (exclude). Next, '11825' (no space):
@@ -352,7 +352,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: tool result</summary>
+<summary>Source event 35 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -366,7 +366,7 @@ CrimeDataPoint(violent_crime=38.08, property_crime=1.99)
 </details>
 
 
-## Source event #36 · Sub-agent 2: model output
+## Source event 36 · Sub-agent 2: model output
 
 ```text
 11825 → 38.08 (exclude). Next, '114 39':
@@ -383,7 +383,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: tool result</summary>
+<summary>Source event 37 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -397,7 +397,7 @@ CrimeDataPoint(violent_crime=20.42, property_crime=20.03)
 </details>
 
 
-## Source event #38 · Sub-agent 2: model output
+## Source event 38 · Sub-agent 2: model output
 
 ```text
 114 39 → 20.42 (keep). Next, '118 25' (distinct from '11825'):
@@ -414,7 +414,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 2: tool result</summary>
+<summary>Source event 39 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -428,7 +428,7 @@ CrimeDataPoint(violent_crime=37.96, property_crime=16.77)
 </details>
 
 
-## Source event #40 · Sub-agent 2: model output
+## Source event 40 · Sub-agent 2: model output
 
 ```text
 118 25 → 37.96 (exclude). Next, '111 21':
@@ -445,7 +445,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 2: tool result</summary>
+<summary>Source event 41 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -460,7 +460,7 @@ CrimeDataPoint(violent_crime=21.29, property_crime=18.44)
 
 
 <details>
-<summary>Source event #42 · Sub-agent 2: tool result</summary>
+<summary>Source event 42 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -478,7 +478,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #43 · Sub-agent 2: model output
+## Source event 43 · Sub-agent 2: model output
 
 ```text
 111 21 → 21.29 (keep). Next, '111 60':
@@ -495,7 +495,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: tool result</summary>
+<summary>Source event 44 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -509,7 +509,7 @@ CrimeDataPoint(violent_crime=1.14, property_crime=15.61)
 </details>
 
 
-## Source event #45 · Sub-agent 2: model output
+## Source event 45 · Sub-agent 2: model output
 
 ```text
 111 60 → 1.14 (keep). Last one, '120 30':
@@ -526,7 +526,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: tool result</summary>
+<summary>Source event 46 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -540,7 +540,7 @@ CrimeDataPoint(violent_crime=5.04, property_crime=29.36)
 </details>
 
 
-## Source event #47 · Sub-agent 2: model output
+## Source event 47 · Sub-agent 2: model output
 
 ```text
 All crime rates collected. Filtering by violent crime < 25:
@@ -599,7 +599,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: tool result</summary>
+<summary>Source event 48 · Sub-agent 2: tool result</summary>
 
 
 ```text

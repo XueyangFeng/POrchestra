@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 44 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -27,7 +27,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #45 · Sub-agent 2: model output
+## Source event 45 · Sub-agent 2: model output
 
 ```text
 I'll start by checking the current time, then send the four invitation emails.
@@ -44,7 +44,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: tool result</summary>
+<summary>Source event 46 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -58,7 +58,7 @@ Action:
 </details>
 
 
-## Source event #47 · Sub-agent 2: model output
+## Source event 47 · Sub-agent 2: model output
 
 ```text
 Time baseline: 2024-10-15 07:00:26. Now sending the four invitation emails individually.
@@ -79,7 +79,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: tool result</summary>
+<summary>Source event 48 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -93,7 +93,7 @@ a7a6559237dfccab98f2b1970584c7a3
 </details>
 
 
-## Source event #49 · Sub-agent 2: model output
+## Source event 49 · Sub-agent 2: model output
 
 ```text
 Email 1 sent. Sending email 2 to Kåre Østensen.
@@ -113,7 +113,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: tool result</summary>
+<summary>Source event 50 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -127,7 +127,7 @@ ce025aebc06aec5cea39dd7fb817bee5
 </details>
 
 
-## Source event #51 · Sub-agent 2: model output
+## Source event 51 · Sub-agent 2: model output
 
 ```text
 Email 2 sent. Sending email 3 to Kåre Sørensen.
@@ -147,7 +147,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: tool result</summary>
+<summary>Source event 52 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -161,7 +161,7 @@ d5c10c7486bda98ac6f9fb05dd3707df
 </details>
 
 
-## Source event #53 · Sub-agent 2: model output
+## Source event 53 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -179,7 +179,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 2: tool result</summary>
+<summary>Source event 54 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -193,7 +193,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 2: model output
+## Source event 55 · Sub-agent 2: model output
 
 ```text
 All 4 emails sent. Now sending the required user notification verbatim.
@@ -210,7 +210,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 2: tool result</summary>
+<summary>Source event 56 · Sub-agent 2: tool result</summary>
 
 
 ```text

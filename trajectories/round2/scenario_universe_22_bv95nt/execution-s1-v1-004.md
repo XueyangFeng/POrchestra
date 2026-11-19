@@ -4,7 +4,7 @@
 
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
-## Source event #56 · Sub-agent 1: model output
+## Source event 56 · Sub-agent 1: model output
 
 ```text
 All subtasks complete. Reporting to MainAgent with the finalized count and contact email.
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 1: tool result</summary>
+<summary>Source event 57 · Sub-agent 1: tool result</summary>
 
 
 ```text

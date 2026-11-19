@@ -1,6 +1,8 @@
 # scenario_universe_23_8pzn4g
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_23_8pzn4g/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_23_8pzn4g/README.md) · [Codex](../../codex/round2/scenario_universe_23_8pzn4g/README.md) · [OpenCode](../../opencode/round2/scenario_universe_23_8pzn4g/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify the candidates: participants in group conversations (Messages/Chats) mentioning &#x27;Frantz Fanon&#x27; and senders of emails with &#x27;Power Dynamics&#x27; in the subject. I also need to know the current user&#x27;s details to exclude them from the participant lists.
 
@@ -95,11 +97,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #67
+**Initial harness configuration** · Source event 67
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The initial list of candidates has been identified. Now I need to calculate the total time spent with each candidate based on calendar events from August 1, 2024, to October 15, 2024, to find the person the user spent the most time with.
 
@@ -165,7 +167,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

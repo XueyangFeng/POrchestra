@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ ReturnedEmails(emails=[Email(sender='kavitarao72@gaia2mail.com', recipients=['so
 </details>
 
 
-## Source event #35 · Sub-agent 2: model output
+## Source event 35 · Sub-agent 2: model output
 
 ```text
 Now I have all 104 INBOX emails. Let me try to find the contact details via a name search.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 2: model output
+## Source event 37 · Sub-agent 2: model output
 
 ```text
 Found the Social Media Manager: Astrid Rasmussen. Let me get her full contact details.
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: tool result</summary>
+<summary>Source event 38 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -95,7 +95,7 @@ Address: Frederiksgade 12, 3rd floor, 1459 Copenhagen K
 </details>
 
 
-## Source event #39 · Sub-agent 2: model output
+## Source event 39 · Sub-agent 2: model output
 
 ```text
 I have everything I need. Confirmed contact: **Astrid Rasmussen** — Social Media Manager, astrid.rasmussen@gaia2mail.com. Now I'll identify October 2024 emails (epoch ≥ 1727740800 = Oct 1, 2024 00:00 UTC):
@@ -121,7 +121,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: tool result</summary>
+<summary>Source event 40 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -135,7 +135,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 2: model output
+## Source event 41 · Sub-agent 2: model output
 
 ```text
 First one moved. Now the second.
@@ -154,7 +154,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 2: tool result</summary>
+<summary>Source event 42 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -168,7 +168,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 2: model output
+## Source event 43 · Sub-agent 2: model output
 
 ```text
 Third one now.
@@ -187,7 +187,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: tool result</summary>
+<summary>Source event 44 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -201,7 +201,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 2: model output
+## Source event 45 · Sub-agent 2: model output
 
 ```text
 All three trashed. Now replying to Astrid Rasmussen's email (email_id `4e1c13536293452ca9376183d46f7f3b`, subject "Collaboration Opportunity for Your Startup", Oct 10, 2024).
@@ -220,7 +220,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: tool result</summary>
+<summary>Source event 46 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -234,7 +234,7 @@ a7a6559237dfccab98f2b1970584c7a3
 </details>
 
 
-## Source event #47 · Sub-agent 2: model output
+## Source event 47 · Sub-agent 2: model output
 
 ```text
 Reply sent. Let me verify it landed in SENT.
@@ -253,7 +253,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: tool result</summary>
+<summary>Source event 48 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -267,7 +267,7 @@ ReturnedEmails(emails=[Email(sender='soren.kjaer@gaia2mail.com', recipients=['as
 </details>
 
 
-## Source event #49 · Sub-agent 2: model output
+## Source event 49 · Sub-agent 2: model output
 
 ```text
 All four assigned tasks are complete and verified.
@@ -316,7 +316,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: tool result</summary>
+<summary>Source event 50 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -334,7 +334,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #51 · Sub-agent 2: model output
+## Source event 51 · Sub-agent 2: model output
 
 ```text
 The previous finish call used an invalid nested action format. Retrying with the correct schema.
@@ -381,7 +381,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: tool result</summary>
+<summary>Source event 52 · Sub-agent 2: tool result</summary>
 
 
 ```text

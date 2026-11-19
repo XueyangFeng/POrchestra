@@ -1,6 +1,8 @@
 # scenario_universe_28_4sn4lc
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_28_4sn4lc/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_28_4sn4lc/README.md) · [Codex](../../codex/round2/scenario_universe_28_4sn4lc/README.md) · [OpenCode](../../opencode/round2/scenario_universe_28_4sn4lc/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to calculate the target number derived from the ages of contacts in Dublin and Galway before I can search for crime rates or properties.
 
@@ -86,11 +88,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #30
+**Initial harness configuration** · Source event 30
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent successfully calculated the target number (18) based on contact ages in Dublin and Galway. Now I need to find the zip code with the closest violent crime rate to 18 and sum the square footage of properties in that zip code.
 
@@ -166,7 +168,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

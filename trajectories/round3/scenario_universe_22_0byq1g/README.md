@@ -1,6 +1,8 @@
 # scenario_universe_22_0byq1g
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_22_0byq1g/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_22_0byq1g/README.md) · [Codex](../../codex/round3/scenario_universe_22_0byq1g/README.md) · [OpenCode](../../opencode/round3/scenario_universe_22_0byq1g/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to save properties priced at $3200. I need to search for these properties and save any that are not already in the favorites list.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #19
+**Initial harness configuration** · Source event 19
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The RentAFlat task is complete. Now I need to handle the email-related tasks: sending an email to Luís Silva and deleting the most recent email from Astrid Nakamura. This requires searching for contacts and managing emails.
 
@@ -152,11 +154,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #34
+**Initial harness configuration** · Source event 34
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The property saving, email sending, and email deletion tasks are complete. I now need to create the calendar event for &#x27;Tasting New Wines&#x27; as requested.
 
@@ -214,7 +216,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

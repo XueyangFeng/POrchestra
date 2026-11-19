@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #231 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 231 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Continue monitoring the RentAFlat app for zip code 8000 every second until 2024-
 </details>
 
 
-## Source event #232 · Sub-agent 1: model output
+## Source event 232 · Sub-agent 1: model output
 
 ```text
 Continuing per-second monitoring. Waiting 1 second before next poll.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #233 · Sub-agent 1: tool result</summary>
+<summary>Source event 233 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ None
 
 
 <details>
-<summary>Source event #234 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 234 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -62,7 +62,7 @@ Environment notifications:
 </details>
 
 
-## Source event #235 · Sub-agent 1: model output
+## Source event 235 · Sub-agent 1: model output
 
 ```text
 Continuing per-second monitoring. Polling zip 8000.
@@ -79,7 +79,7 @@ Action:
 
 
 <details>
-<summary>Source event #236 · Sub-agent 1: tool result</summary>
+<summary>Source event 236 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -93,7 +93,7 @@ Action:
 </details>
 
 
-## Source event #237 · Sub-agent 1: model output
+## Source event 237 · Sub-agent 1: model output
 
 ```text
 Continuing per-second monitoring. Waiting 1 second before next poll.
@@ -110,7 +110,7 @@ Action:
 
 
 <details>
-<summary>Source event #238 · Sub-agent 1: tool result</summary>
+<summary>Source event 238 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -125,7 +125,7 @@ None
 
 
 <details>
-<summary>Source event #239 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 239 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -138,7 +138,7 @@ Environment notifications:
 </details>
 
 
-## Source event #240 · Sub-agent 1: model output
+## Source event 240 · Sub-agent 1: model output
 
 ```text
 Continuing per-second monitoring. Polling zip 8000.
@@ -155,7 +155,7 @@ Action:
 
 
 <details>
-<summary>Source event #241 · Sub-agent 1: tool result</summary>
+<summary>Source event 241 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -169,7 +169,7 @@ Action:
 </details>
 
 
-## Source event #242 · Sub-agent 1: model output
+## Source event 242 · Sub-agent 1: model output
 
 ```text
 I must report status and request additional budget because roughly 1m30s of mandatory per-second monitoring remain, requiring around 180 more tool calls, and I cannot reliably finish within the remaining step budget.
@@ -211,7 +211,7 @@ Action:
 
 
 <details>
-<summary>Source event #243 · Sub-agent 1: tool result</summary>
+<summary>Source event 243 · Sub-agent 1: tool result</summary>
 
 
 ```text

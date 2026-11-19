@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #63 · Sub-agent 1: tool result</summary>
+<summary>Source event 63 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #64 · Sub-agent 1: model output
+## Source event 64 · Sub-agent 1: model output
 
 ```text
 Still only the one 8000 listing saved. Continuing.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #65 · Sub-agent 1: tool result</summary>
+<summary>Source event 65 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ None
 
 
 <details>
-<summary>Source event #66 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 66 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ Environment notifications:
 </details>
 
 
-## Source event #67 · Sub-agent 1: model output
+## Source event 67 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -79,7 +79,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 1: tool result</summary>
+<summary>Source event 68 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -93,7 +93,7 @@ Action:
 </details>
 
 
-## Source event #69 · Sub-agent 1: model output
+## Source event 69 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -107,7 +107,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 1: tool result</summary>
+<summary>Source event 70 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -121,7 +121,7 @@ Action:
 </details>
 
 
-## Source event #71 · Sub-agent 1: model output
+## Source event 71 · Sub-agent 1: model output
 
 ```text
 07:02:13 — no additional 8000 listings. Continuing monitoring.
@@ -139,7 +139,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 1: tool result</summary>
+<summary>Source event 72 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -154,7 +154,7 @@ None
 
 
 <details>
-<summary>Source event #73 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 73 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -167,7 +167,7 @@ Environment notifications:
 </details>
 
 
-## Source event #74 · Sub-agent 1: model output
+## Source event 74 · Sub-agent 1: model output
 
 ```text
 Action:

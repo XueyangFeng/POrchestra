@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 39 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #40 · Sub-agent 1: model output
+## Source event 40 · Sub-agent 1: model output
 
 ```text
 I'll first check the current time to determine if the 3-minute window has passed.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: tool result</summary>
+<summary>Source event 41 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #42 · Sub-agent 1: model output
+## Source event 42 · Sub-agent 1: model output
 
 ```text
 Current time is 07:00:55. I need to wait until ~07:03:39 (about 164 seconds). Let me wait.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: tool result</summary>
+<summary>Source event 43 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ None
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 44 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -96,7 +96,7 @@ Environment notifications:
 </details>
 
 
-## Source event #45 · Sub-agent 1: model output
+## Source event 45 · Sub-agent 1: model output
 
 ```text
 A new email notification arrived. Let me verify the time and then check the inbox.
@@ -111,7 +111,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -125,7 +125,7 @@ Action:
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 Only 30 seconds have passed since the user notification (07:00:39). I need to wait about 150 more seconds to reach 07:03:39.
@@ -142,7 +142,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -157,7 +157,7 @@ None
 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 49 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ Environment notifications:
 </details>
 
 
-## Source event #50 · Sub-agent 1: model output
+## Source event 50 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -183,7 +183,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 1: tool result</summary>
+<summary>Source event 51 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -197,7 +197,7 @@ Action:
 </details>
 
 
-## Source event #52 · Sub-agent 1: model output
+## Source event 52 · Sub-agent 1: model output
 
 ```text
 Still 07:01:39 — need 120 more seconds. Continuing to wait.
@@ -214,7 +214,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 1: tool result</summary>
+<summary>Source event 53 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -229,7 +229,7 @@ None
 
 
 <details>
-<summary>Source event #54 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 54 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -242,7 +242,7 @@ Environment notifications:
 </details>
 
 
-## Source event #55 · Sub-agent 1: model output
+## Source event 55 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -255,7 +255,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 1: tool result</summary>
+<summary>Source event 56 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -269,7 +269,7 @@ Action:
 </details>
 
 
-## Source event #57 · Sub-agent 1: model output
+## Source event 57 · Sub-agent 1: model output
 
 ```text
 It's now 07:03:44, past the 3-minute mark. Checking the inbox for replies.
@@ -288,7 +288,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 1: tool result</summary>
+<summary>Source event 58 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -302,7 +302,7 @@ ReturnedEmails(emails=[Email(sender='somchai.wongtrakul@gaia2mail.com', recipien
 </details>
 
 
-## Source event #59 · Sub-agent 1: model output
+## Source event 59 · Sub-agent 1: model output
 
 ```text
 All three contacts replied with product requests:
@@ -324,7 +324,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 1: tool result</summary>
+<summary>Source event 60 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -338,7 +338,7 @@ Action:
 </details>
 
 
-## Source event #61 · Sub-agent 1: model output
+## Source event 61 · Sub-agent 1: model output
 
 ```text
 Found it — Blue variant available at $37.12. Now searching for the HANSA plush.
@@ -355,7 +355,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 1: tool result</summary>
+<summary>Source event 62 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -369,7 +369,7 @@ Action:
 </details>
 
 
-## Source event #63 · Sub-agent 1: model output
+## Source event 63 · Sub-agent 1: model output
 
 ```text
 Found the Beige HANSA 4825 Plush at $51.03. Now searching for the Humbrol tool set.
@@ -386,7 +386,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 1: tool result</summary>
+<summary>Source event 64 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -400,7 +400,7 @@ Action:
 </details>
 
 
-## Source event #65 · Sub-agent 1: model output
+## Source event 65 · Sub-agent 1: model output
 
 ```text
 All three products found with the exact requested variants available. Adding them to cart.
@@ -419,7 +419,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 1: tool result</summary>
+<summary>Source event 66 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -433,7 +433,7 @@ Action:
 </details>
 
 
-## Source event #67 · Sub-agent 1: model output
+## Source event 67 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -450,7 +450,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 1: tool result</summary>
+<summary>Source event 68 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -464,7 +464,7 @@ Action:
 </details>
 
 
-## Source event #69 · Sub-agent 1: model output
+## Source event 69 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -480,7 +480,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 1: tool result</summary>
+<summary>Source event 70 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -494,7 +494,7 @@ cd0c8c7808fd431d92a34d2aa656e590
 </details>
 
 
-## Source event #71 · Sub-agent 1: model output
+## Source event 71 · Sub-agent 1: model output
 
 ```text
 All three items are in the cart. Completing the single checkout.
@@ -510,7 +510,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 1: tool result</summary>
+<summary>Source event 72 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -524,7 +524,7 @@ Action:
 </details>
 
 
-## Source event #73 · Sub-agent 1: model output
+## Source event 73 · Sub-agent 1: model output
 
 ```text
 Order completed (ID 71d918341c4b4d99b8cd3e77f9910ea7). Now sending individual confirmation emails.
@@ -546,7 +546,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 1: tool result</summary>
+<summary>Source event 74 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -560,7 +560,7 @@ Action:
 </details>
 
 
-## Source event #75 · Sub-agent 1: model output
+## Source event 75 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -580,7 +580,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 1: tool result</summary>
+<summary>Source event 76 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -594,7 +594,7 @@ Action:
 </details>
 
 
-## Source event #77 · Sub-agent 1: model output
+## Source event 77 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -614,7 +614,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 1: tool result</summary>
+<summary>Source event 78 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -628,7 +628,7 @@ Action:
 </details>
 
 
-## Source event #79 · Sub-agent 1: model output
+## Source event 79 · Sub-agent 1: model output
 
 ```text
 All tasks complete: replies checked, all three products ordered in one checkout, and confirmation emails sent. Reporting back to MainAgent.
@@ -721,7 +721,7 @@ Action:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 1: tool result</summary>
+<summary>Source event 80 · Sub-agent 1: tool result</summary>
 
 
 ```text

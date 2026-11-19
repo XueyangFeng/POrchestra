@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Determine which gender sent the most emails between 2024-09-01 and 2024-09-15 (i
 </details>
 
 
-## Source event #4 · Sub-agent 1: model output
+## Source event 4 · Sub-agent 1: model output
 
 ```text
 I'll start by listing emails from the INBOX to find emails between 2024-09-01 and 2024-09-15.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: tool result</summary>
+<summary>Source event 5 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ ReturnedEmails(emails=[Email(sender='juhani.korhonen@fbl.fi', recipients=['matej
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 I need to see more emails to find those from September 1-15. Let me continue listing.
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ ReturnedEmails(emails=[Email(sender='aino.korhonen@aalto.fi', recipients=['matej
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 I need to see the remaining emails (offset 100).

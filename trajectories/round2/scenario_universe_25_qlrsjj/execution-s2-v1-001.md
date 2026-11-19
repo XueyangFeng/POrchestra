@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 25 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Schedule a calendar event for Friday, October 18, 2024, from 09:00 to 11:00 (2 h
 </details>
 
 
-## Source event #26 · Sub-agent 2: model output
+## Source event 26 · Sub-agent 2: model output
 
 ```text
 Thought: I'll first check for existing events on Friday, October 18, 2024, to avoid creating a duplicate (in case the event already exists), then create and verify the event.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 2: tool result</summary>
+<summary>Source event 27 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 2: model output
+## Source event 28 · Sub-agent 2: model output
 
 ```text
 Thought: No existing event at 09:00–11:00 on Oct 18. I'll create the event now.
@@ -71,7 +71,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: tool result</summary>
+<summary>Source event 29 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -85,7 +85,7 @@ dcf191829913b81220f38262b28ec53c
 </details>
 
 
-## Source event #30 · Sub-agent 2: model output
+## Source event 30 · Sub-agent 2: model output
 
 ```text
 Thought: Event created with id dcf191829913b81220f38262b28ec53c. Now verify by querying the calendar for that day.
@@ -105,7 +105,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: tool result</summary>
+<summary>Source event 31 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -119,7 +119,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 2: model output
+## Source event 32 · Sub-agent 2: model output
 
 ```text
 Thought: The event was created and verified: title, date/time (Fri 2024-10-18 09:00–11:00), and location all match. Completing the subtask with a handoff.
@@ -170,7 +170,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result</summary>
+<summary>Source event 33 · Sub-agent 2: tool result</summary>
 
 
 ```text

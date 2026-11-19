@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #54 · Main agent: Tool result: call_05_jwbfjwuzk4lw8al1aiz5dzp6 (is_error=False)</summary>
+<summary>Source event 54 · Main agent: Tool result: call_05_jwbfjwuzk4lw8al1aiz5dzp6 (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #55 · Main agent: Tool result: call_06_o7y9l550ehkpx3kugmsajth5 (is_error=False)</summary>
+<summary>Source event 55 · Main agent: Tool result: call_06_o7y9l550ehkpx3kugmsajth5 (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #56 · Main agent: Tool result: call_07_h63mmokl0bi5t6vqpzw8yao8 (is_error=False)</summary>
+<summary>Source event 56 · Main agent: Tool result: call_07_h63mmokl0bi5t6vqpzw8yao8 (is_error=False)</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #57 · Main agent: Model message
+## Source event 57 · Main agent: Model message
 
 ```text
 I've now seen all 104 contacts. Belgian contacts and ages:
@@ -395,7 +395,7 @@ Let me run python to compare.
 
 
 
-## Source event #58 · Main agent: Model message
+## Source event 58 · Main agent: Model message
 
 ```text
 Let me verify the totals and the tie-break ordering programmatically.
@@ -403,7 +403,7 @@ Let me verify the totals and the tie-break ordering programmatically.
 
 
 
-## Source event #59 · Main agent: Model tool call: Bash (call_00_wxt58xebnykpkdq488ykwtwy)
+## Source event 59 · Main agent: Model tool call: Bash (call_00_wxt58xebnykpkdq488ykwtwy)
 
 ```text
 {
@@ -415,7 +415,7 @@ Let me verify the totals and the tie-break ordering programmatically.
 
 
 <details>
-<summary>Source event #60 · Main agent: Tool result: call_00_wxt58xebnykpkdq488ykwtwy (is_error=False)</summary>
+<summary>Source event 60 · Main agent: Tool result: call_00_wxt58xebnykpkdq488ykwtwy (is_error=False)</summary>
 
 
 ```text
@@ -441,7 +441,7 @@ Alphabetical of the two 77s:
 </details>
 
 
-## Source event #61 · Main agent: Model message
+## Source event 61 · Main agent: Model message
 
 ```text
 Bug in my max: I used max on tuple (c,v) which returns lexicographically max country, not max value. Let me fix: max(..., key=lambda x:x[1]) → Belgium 6.0. Yes Belgium.
@@ -587,7 +587,7 @@ Let me load the send_message tool.
 
 
 
-## Source event #62 · Main agent: Model message
+## Source event 62 · Main agent: Model message
 
 ```text
 All the data is in. Let me verify one edge: the country total comparison (my printout used tuple ordering). Belgium is clearly highest at 6h vs India 3h and Ireland 2h. Now let me send the answer to the user.
@@ -595,7 +595,7 @@ All the data is in. Let me verify one edge: the country total comparison (my pri
 
 
 
-## Source event #63 · Main agent: Model tool call: ToolSearch (call_00_u6urwmpubgrosly8iz3hvg1w)
+## Source event 63 · Main agent: Model tool call: ToolSearch (call_00_u6urwmpubgrosly8iz3hvg1w)
 
 ```text
 {
@@ -607,7 +607,7 @@ All the data is in. Let me verify one edge: the country total comparison (my pri
 
 
 <details>
-<summary>Source event #64 · Main agent: Tool result: call_00_u6urwmpubgrosly8iz3hvg1w (is_error=False)</summary>
+<summary>Source event 64 · Main agent: Tool result: call_00_u6urwmpubgrosly8iz3hvg1w (is_error=False)</summary>
 
 
 ```text
@@ -623,7 +623,7 @@ All the data is in. Let me verify one edge: the country total comparison (my pri
 </details>
 
 
-## Source event #65 · Main agent: Model message
+## Source event 65 · Main agent: Model message
 
 ```text
 Let me compose the message. I'll include the per-person breakdown, countries, country totals, and the answer.
@@ -637,7 +637,7 @@ I'll send.
 
 
 
-## Source event #66 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_l0i2ywxbgq4yxsytfpl60svj)
+## Source event 66 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_l0i2ywxbgq4yxsytfpl60svj)
 
 ```text
 {
@@ -648,7 +648,7 @@ I'll send.
 
 
 <details>
-<summary>Source event #67 · Main agent: Tool result: call_00_l0i2ywxbgq4yxsytfpl60svj (is_error=False)</summary>
+<summary>Source event 67 · Main agent: Tool result: call_00_l0i2ywxbgq4yxsytfpl60svj (is_error=False)</summary>
 
 
 ```text
@@ -664,7 +664,7 @@ I'll send.
 </details>
 
 
-## Source event #68 · Main agent: Model message
+## Source event 68 · Main agent: Model message
 
 ```text
 The message was sent. Now I should end my turn. But note: the task instruction says "Application changes count toward evaluation." Maybe they expect some application state change? The user only asked for info. Sending a message is fine.
@@ -682,7 +682,7 @@ I'll end.
 
 
 
-## Source event #69 · Main agent: Model message
+## Source event 69 · Main agent: Model message
 
 ```text
 I've sent the complete analysis and final answer to the user.
@@ -704,7 +704,7 @@ Excluding the user's own country (Denmark), **Belgium** has the highest total ti
 
 
 <details>
-<summary>Source event #70 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 70 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -729,7 +729,7 @@ Excluding the user's own country (Denmark), **Belgium** has the highest total ti
 
 
 <details>
-<summary>Source event #71 · Judge: Judge rationale</summary>
+<summary>Source event 71 · Judge: Judge rationale</summary>
 
 
 ```text

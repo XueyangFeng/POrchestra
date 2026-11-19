@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #30 · Sub-agent 1: model output</summary>
+<summary>Source event 30 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -27,7 +27,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -42,7 +42,7 @@ ReturnedEmails(emails=[Email(sender='liesbeth.vandenberghe@gaia2mail.com', recip
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: model output</summary>
+<summary>Source event 32 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -139,7 +139,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -157,7 +157,7 @@ SUB-AGENT SESSION 2
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: Initial system configuration</summary>
+<summary>Source event 34 · Sub-agent 2: Initial system configuration</summary>
 
 
 ```text
@@ -299,7 +299,7 @@ Read at: 2024-10-15 07:00:00
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 35 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -312,7 +312,7 @@ Schedule a calendar event for Friday, 2024-10-18, from 09:00:00 to 11:00:00. The
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -333,7 +333,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: model output</summary>
+<summary>Source event 37 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -356,7 +356,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: tool result</summary>
+<summary>Source event 38 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -371,7 +371,7 @@ acea4a8d991e2e64e9a43daa76d19dd2
 
 
 <details>
-<summary>Source event #39 · Sub-agent 2: model output</summary>
+<summary>Source event 39 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -416,7 +416,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: tool result</summary>
+<summary>Source event 40 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -431,7 +431,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Judge rationale</summary>
+<summary>Source event 41 · Judge rationale</summary>
 
 
 ```text

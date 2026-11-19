@@ -1,6 +1,8 @@
 # scenario_universe_26_oqrczt
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_26_oqrczt/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_26_oqrczt/README.md) · [Codex](../../codex/round1/scenario_universe_26_oqrczt/README.md) · [OpenCode](../../opencode/round1/scenario_universe_26_oqrczt/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to delete all events on the day this week with the most events. I need to identify that day by checking the calendar for the entire week and then perform the deletions.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #20
+**Initial harness configuration** · Source event 20
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The calendar task is complete: Tuesday 2024-10-15 was identified as the day with the most events (5) and they have all been deleted. Now I need to order the specified RPG dice set to complete the user&#x27;s request.
 
@@ -151,7 +153,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

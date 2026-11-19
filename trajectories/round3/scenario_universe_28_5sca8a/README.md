@@ -1,6 +1,8 @@
 # scenario_universe_28_5sca8a
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_28_5sca8a/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_28_5sca8a/README.md) · [Codex](../../codex/round3/scenario_universe_28_5sca8a/README.md) · [OpenCode](../../opencode/round3/scenario_universe_28_5sca8a/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to find the safest zip code among all properties available in the RentAFlat catalog and then find the relevant properties within that zip code.
 
@@ -89,11 +91,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #67
+**Initial harness configuration** · Source event 67
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The safest zip code (9000) and the qualifying properties under $2000 have been identified. Now I need to save the unsaved properties and email the participants of the &#x27;Startup Updates and Fintech Discussion&#x27; conversation.
 
@@ -166,7 +168,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

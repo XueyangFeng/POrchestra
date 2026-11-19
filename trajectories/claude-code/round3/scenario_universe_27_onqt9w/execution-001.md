@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #1 · Main agent: Model message
+## Source event 1 · Main agent: Model message
 
 ```text
 I'll start by getting the ride history from the Cabs app.
@@ -12,7 +12,7 @@ I'll start by getting the ride history from the Cabs app.
 
 
 
-## Source event #2 · Main agent: Model tool call: ToolSearch (call_00_pojxhvnyntx949honrgx0dpj)
+## Source event 2 · Main agent: Model tool call: ToolSearch (call_00_pojxhvnyntx949honrgx0dpj)
 
 ```text
 {
@@ -24,7 +24,7 @@ I'll start by getting the ride history from the Cabs app.
 
 
 <details>
-<summary>Source event #3 · Main agent: Tool result: call_00_pojxhvnyntx949honrgx0dpj (is_error=False)</summary>
+<summary>Source event 3 · Main agent: Tool result: call_00_pojxhvnyntx949honrgx0dpj (is_error=False)</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ I'll start by getting the ride history from the Cabs app.
 </details>
 
 
-## Source event #4 · Main agent: Model message
+## Source event 4 · Main agent: Model message
 
 ```text
 These were already available at top level too. Let me call get_ride_history_length and get_ride_history.
@@ -60,7 +60,7 @@ These were already available at top level too. Let me call get_ride_history_leng
 
 
 
-## Source event #5 · Main agent: Model tool call: mcp__gaia2__Cabs__get_ride_history_length (call_00_g1gr6nt9rew203ic20ovfsi3)
+## Source event 5 · Main agent: Model tool call: mcp__gaia2__Cabs__get_ride_history_length (call_00_g1gr6nt9rew203ic20ovfsi3)
 
 ```text
 {}
@@ -69,7 +69,7 @@ These were already available at top level too. Let me call get_ride_history_leng
 
 
 <details>
-<summary>Source event #6 · Main agent: Tool result: call_00_g1gr6nt9rew203ic20ovfsi3 (is_error=False)</summary>
+<summary>Source event 6 · Main agent: Tool result: call_00_g1gr6nt9rew203ic20ovfsi3 (is_error=False)</summary>
 
 
 ```text
@@ -85,7 +85,7 @@ These were already available at top level too. Let me call get_ride_history_leng
 </details>
 
 
-## Source event #7 · Main agent: Model tool call: mcp__gaia2__Cabs__get_ride_history (call_00_62wio0cmzeqcj48zmjefu5cf)
+## Source event 7 · Main agent: Model tool call: mcp__gaia2__Cabs__get_ride_history (call_00_62wio0cmzeqcj48zmjefu5cf)
 
 ```text
 {
@@ -97,7 +97,7 @@ These were already available at top level too. Let me call get_ride_history_leng
 
 
 <details>
-<summary>Source event #8 · Main agent: Tool result: call_00_62wio0cmzeqcj48zmjefu5cf (is_error=False)</summary>
+<summary>Source event 8 · Main agent: Tool result: call_00_62wio0cmzeqcj48zmjefu5cf (is_error=False)</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ These were already available at top level too. Let me call get_ride_history_leng
 </details>
 
 
-## Source event #9 · Main agent: Model message
+## Source event 9 · Main agent: Model message
 
 ```text
 I need to filter rides from September 1, 2024 until today (2024-10-15). Start of September: 2024-09-01T00:00:00+00:00 = epoch.
@@ -134,7 +134,7 @@ Let me build the dataset.
 
 
 
-## Source event #10 · Main agent: Model message
+## Source event 10 · Main agent: Model message
 
 ```text
 Now let me analyze the data with a script.
@@ -142,7 +142,7 @@ Now let me analyze the data with a script.
 
 
 
-## Source event #11 · Main agent: Model tool call: Bash (call_00_nwpc06azmzq4qiugw5odzxdr)
+## Source event 11 · Main agent: Model tool call: Bash (call_00_nwpc06azmzq4qiugw5odzxdr)
 
 ```text
 {
@@ -153,7 +153,7 @@ Now let me analyze the data with a script.
 
 
 <details>
-<summary>Source event #12 · Main agent: Tool result: call_00_nwpc06azmzq4qiugw5odzxdr (is_error=False)</summary>
+<summary>Source event 12 · Main agent: Tool result: call_00_nwpc06azmzq4qiugw5odzxdr (is_error=False)</summary>
 
 
 ```text
@@ -219,7 +219,7 @@ start 1725148800.0 end 1728975600.0
 </details>
 
 
-## Source event #13 · Main agent: Model message
+## Source event 13 · Main agent: Model message
 
 ```text
 Now compute totals with filters:
@@ -232,7 +232,7 @@ Let me compute.
 
 
 
-## Source event #14 · Main agent: Model tool call: Bash (call_00_u9hefz0qcl4fdtrblh3nle8c)
+## Source event 14 · Main agent: Model tool call: Bash (call_00_u9hefz0qcl4fdtrblh3nle8c)
 
 ```text
 {
@@ -243,7 +243,7 @@ Let me compute.
 
 
 <details>
-<summary>Source event #15 · Main agent: Tool result: call_00_u9hefz0qcl4fdtrblh3nle8c (is_error=False)</summary>
+<summary>Source event 15 · Main agent: Tool result: call_00_u9hefz0qcl4fdtrblh3nle8c (is_error=False)</summary>
 
 
 ```text
@@ -265,7 +265,7 @@ Sensitivity — premium rides to airports in range:
 </details>
 
 
-## Source event #16 · Main agent: Model message
+## Source event 16 · Main agent: Model message
 
 ```text
 Close. Premium 4739.72 vs Default 4707.83. Van 4629.49.
@@ -281,7 +281,7 @@ Let me print per-service detail and verify totals.
 
 
 
-## Source event #17 · Main agent: Model tool call: Bash (call_00_eyvbdmvsyakbi0ajjdeykpkq)
+## Source event 17 · Main agent: Model tool call: Bash (call_00_eyvbdmvsyakbi0ajjdeykpkq)
 
 ```text
 {
@@ -292,7 +292,7 @@ Let me print per-service detail and verify totals.
 
 
 <details>
-<summary>Source event #18 · Main agent: Tool result: call_00_eyvbdmvsyakbi0ajjdeykpkq (is_error=False)</summary>
+<summary>Source event 18 · Main agent: Tool result: call_00_eyvbdmvsyakbi0ajjdeykpkq (is_error=False)</summary>
 
 
 ```text
@@ -342,7 +342,7 @@ Let me print per-service detail and verify totals.
 </details>
 
 
-## Source event #19 · Main agent: Model message
+## Source event 19 · Main agent: Model message
 
 ```text
 Result: Premium is highest at 4739.72, narrowly beating Default 4707.83. The 900 Premium airport ride exclusion is decisive.
@@ -374,7 +374,7 @@ Let me load that tool.
 
 
 
-## Source event #20 · Main agent: Model tool call: ToolSearch (call_00_7t8rjjfmo2xr6c32g5gd9b5j)
+## Source event 20 · Main agent: Model tool call: ToolSearch (call_00_7t8rjjfmo2xr6c32g5gd9b5j)
 
 ```text
 {
@@ -386,7 +386,7 @@ Let me load that tool.
 
 
 <details>
-<summary>Source event #21 · Main agent: Tool result: call_00_7t8rjjfmo2xr6c32g5gd9b5j (is_error=False)</summary>
+<summary>Source event 21 · Main agent: Tool result: call_00_7t8rjjfmo2xr6c32g5gd9b5j (is_error=False)</summary>
 
 
 ```text
@@ -402,7 +402,7 @@ Let me load that tool.
 </details>
 
 
-## Source event #22 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_mv5k2sis8yo46mwgg60x4eua)
+## Source event 22 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_mv5k2sis8yo46mwgg60x4eua)
 
 ```text
 {
@@ -413,7 +413,7 @@ Let me load that tool.
 
 
 <details>
-<summary>Source event #23 · Main agent: Tool result: call_00_mv5k2sis8yo46mwgg60x4eua (is_error=False)</summary>
+<summary>Source event 23 · Main agent: Tool result: call_00_mv5k2sis8yo46mwgg60x4eua (is_error=False)</summary>
 
 
 ```text
@@ -429,7 +429,7 @@ Let me load that tool.
 </details>
 
 
-## Source event #24 · Main agent: Model message
+## Source event 24 · Main agent: Model message
 
 ```text
 I analyzed all 53 rides in the Cabs history.
@@ -450,7 +450,7 @@ That airport exclusion is what decides the result — if it weren't applied, Def
 
 
 <details>
-<summary>Source event #25 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 25 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -474,7 +474,7 @@ That airport exclusion is what decides the result — if it weren't applied, Def
 
 
 <details>
-<summary>Source event #26 · Judge: Judge rationale</summary>
+<summary>Source event 26 · Judge: Judge rationale</summary>
 
 
 ```text

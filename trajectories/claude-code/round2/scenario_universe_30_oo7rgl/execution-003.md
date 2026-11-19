@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #89 · Main agent: Model message
+## Source event 89 · Main agent: Model message
 
 ```text
 Confirmed: no event with Akira Kaur before Oct 22 10:00. The soonest is "Meeting with Students" on Tue 2024-10-22 10:00–12:00.
@@ -26,7 +26,7 @@ Let me send the answer.
 
 
 
-## Source event #90 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_zgydxjfjvpqegxuxbh7hmv0p)
+## Source event 90 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_zgydxjfjvpqegxuxbh7hmv0p)
 
 ```text
 {
@@ -37,7 +37,7 @@ Let me send the answer.
 
 
 <details>
-<summary>Source event #91 · Main agent: Tool result: call_00_zgydxjfjvpqegxuxbh7hmv0p (is_error=False)</summary>
+<summary>Source event 91 · Main agent: Tool result: call_00_zgydxjfjvpqegxuxbh7hmv0p (is_error=False)</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Let me send the answer.
 </details>
 
 
-## Source event #92 · Main agent: Model message
+## Source event 92 · Main agent: Model message
 
 ```text
 The tool returned None; message sent. Done.
@@ -61,7 +61,7 @@ The tool returned None; message sent. Done.
 
 
 
-## Source event #93 · Main agent: Model message
+## Source event 93 · Main agent: Model message
 
 ```text
 I've sent the answer.
@@ -75,7 +75,7 @@ I've sent the answer.
 
 
 <details>
-<summary>Source event #94 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 94 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -92,7 +92,7 @@ I've sent the answer.
 
 
 <details>
-<summary>Source event #95 · Judge: Judge rationale</summary>
+<summary>Source event 95 · Judge: Judge rationale</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #63 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 63 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #64 · Sub-agent 1: model output
+## Source event 64 · Sub-agent 1: model output
 
 ```text
 I'll check the inbox for the new email from nkuznetsova@gaia2mail.com.
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #65 · Sub-agent 1: tool result</summary>
+<summary>Source event 65 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ ReturnedEmails(emails=[Email(sender='nkuznetsova@gaia2mail.com', recipients=['ak
 </details>
 
 
-## Source event #66 · Sub-agent 1: model output
+## Source event 66 · Sub-agent 1: model output
 
 ```text
 The email from nkuznetsova@gaia2mail.com is about "Dinner Plans" — not a property viewing request, so no reply or calendar event needed. I'll continue monitoring until 07:04:00.
@@ -71,7 +71,7 @@ Action:
 
 
 <details>
-<summary>Source event #67 · Sub-agent 1: tool result</summary>
+<summary>Source event 67 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -85,7 +85,7 @@ Action:
 </details>
 
 
-## Source event #68 · Sub-agent 1: model output
+## Source event 68 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -101,7 +101,7 @@ Action:
 
 
 <details>
-<summary>Source event #69 · Sub-agent 1: tool result</summary>
+<summary>Source event 69 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -116,7 +116,7 @@ None
 
 
 <details>
-<summary>Source event #70 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 70 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -129,7 +129,7 @@ Environment notifications:
 </details>
 
 
-## Source event #71 · Sub-agent 1: model output
+## Source event 71 · Sub-agent 1: model output
 
 ```text
 Thought: A new environment notification block arrived (email from aoifenichonaill@tcd.ie). Per role instructions, I must report it to MainAgent before any further side effects such as reading the email (which marks it read).
@@ -206,7 +206,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 1: tool result</summary>
+<summary>Source event 72 · Sub-agent 1: tool result</summary>
 
 
 ```text

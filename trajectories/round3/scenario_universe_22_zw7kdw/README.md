@@ -1,6 +1,8 @@
 # scenario_universe_22_zw7kdw
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_22_zw7kdw/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_22_zw7kdw/README.md) · [Codex](../../codex/round3/scenario_universe_22_zw7kdw/README.md) · [OpenCode](../../opencode/round3/scenario_universe_22_zw7kdw/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user needs a series of reminder emails sent at 1-minute intervals, followed by an email to Kaidën Rylan. I need to find the contact details for both the user and Kaidën, manage the timing, and ensure the initial notification is sent to the user after the email to Kaidën is dispatched.
 
@@ -93,7 +95,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #41
+**Harness configuration updated** · Source event 41
 
 **1. Sub-agent revision request**
 
@@ -102,7 +104,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 All assigned email tasks completed: 5 reminder emails sent to aurelien.lafleur@gaia2mail.com at 1-minute intervals, email sent to Kaidën Rylan (kaiden@rylanrecording.com) asking about wine event tickets, and user-facing confirmation message sent. A new external notification just arrived: 'EmailClientV2: New email received' — likely Kaidën's reply, but my assigned subtask stopped at the user notification and I have no email-reading/calendar tools.
 ```
 <details>
-<summary>Request and evidence · source event #39</summary>
+<summary>Request and evidence · source event 39</summary>
 
 
 ```text
@@ -155,7 +157,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent successfully completed the initial email sequence and notification. A new email has been received, likely from Kaidën Rylan. I need to expand the SubAgent&#x27;s tools and task scope to process this reply, send the conditional response based on the content and timing, and schedule the calendar event as requested.
 

@@ -1,6 +1,8 @@
 # scenario_universe_29_m0zl89
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_29_m0zl89/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_29_m0zl89/README.md) · [Codex](../../codex/round2/scenario_universe_29_m0zl89/README.md) · [OpenCode](../../opencode/round2/scenario_universe_29_m0zl89/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify the zip code with the lowest property crime rate and then find and save the relevant 2-bedroom apartments with parking in that zip code. This requires checking crime rates for zip codes where apartments are available.
 
@@ -90,11 +92,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #68
+**Initial harness configuration** · Source event 68
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent identified the current best zip code (560043, Bengaluru, 1.54 property crime) but left several zip codes unverified and did not perform the saving, contact, or messaging actions. I need to complete the verification, save the matching apartments, and execute the communication tasks.
 
@@ -175,11 +177,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #127
+**Initial harness configuration** · Source event 127
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The previous SubAgent identified the lowest crime zip code, saved the apartments, added the realtor, and sent the email. It also identified 8 contacts in Bengaluru from the first 100 contacts. Now I need to finish scanning the remaining contacts, resolve their Messages IDs, and create the message group as requested.
 
@@ -247,7 +249,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

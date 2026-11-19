@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #53 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 53 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #54 · Sub-agent 1: model output
+## Source event 54 · Sub-agent 1: model output
 
 ```text
 Thought: First let me check the current time and list the inbox to find the email from Kåre Sørensen.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 1: tool result</summary>
+<summary>Source event 55 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #56 · Sub-agent 1: model output
+## Source event 56 · Sub-agent 1: model output
 
 ```text
 Current time is 07:02:31; deadline is 07:04:13. Let me list the inbox.
@@ -71,7 +71,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 1: tool result</summary>
+<summary>Source event 57 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -85,7 +85,7 @@ ReturnedEmails(emails=[Email(sender='kare.sorensen@gaia2mail.com', recipients=['
 </details>
 
 
-## Source event #58 · Sub-agent 1: model output
+## Source event 58 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #59 · Sub-agent 1: tool result</summary>
+<summary>Source event 59 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -124,7 +124,7 @@ Kåre
 </details>
 
 
-## Source event #60 · Sub-agent 1: model output
+## Source event 60 · Sub-agent 1: model output
 
 ```text
 Kåre Sørensen confirmed (email arrived 07:02:01) — he's the first to reply. Booking his cab now.
@@ -145,7 +145,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 1: tool result</summary>
+<summary>Source event 61 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -169,7 +169,7 @@ Ride ID: ca5380b0fb5d30db43b4905d14d91312
 
 
 <details>
-<summary>Source event #62 · Sub-agent 1: tool result</summary>
+<summary>Source event 62 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -187,7 +187,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #63 · Sub-agent 1: model output
+## Source event 63 · Sub-agent 1: model output
 
 ```text
 Cab booked (Ride ID ca5380b0fb5d30db43b4905d14d91312). Now getting Kåre Sørensen's Messages user id.
@@ -205,7 +205,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 1: tool result</summary>
+<summary>Source event 64 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -219,7 +219,7 @@ Action:
 </details>
 
 
-## Source event #65 · Sub-agent 1: model output
+## Source event 65 · Sub-agent 1: model output
 
 ```text
 Sending the cab details message to Kåre Sørensen.
@@ -238,7 +238,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 1: tool result</summary>
+<summary>Source event 66 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -252,7 +252,7 @@ Action:
 </details>
 
 
-## Source event #67 · Sub-agent 1: model output
+## Source event 67 · Sub-agent 1: model output
 
 ```text
 Cab message sent. Now checking time and waiting for other replies.
@@ -268,7 +268,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 1: tool result</summary>
+<summary>Source event 68 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -282,7 +282,7 @@ Action:
 </details>
 
 
-## Source event #69 · Sub-agent 1: model output
+## Source event 69 · Sub-agent 1: model output
 
 ```text
 Checking the inbox for replies from the other three retirees.
@@ -302,7 +302,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 1: tool result</summary>
+<summary>Source event 70 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -316,7 +316,7 @@ ReturnedEmails(emails=[Email(sender='kare.sorensen@gaia2mail.com', recipients=['
 </details>
 
 
-## Source event #71 · Sub-agent 1: model output
+## Source event 71 · Sub-agent 1: model output
 
 ```text
 Only Kåre Sørensen has replied so far. Waiting for notifications from the other three retirees.
@@ -334,7 +334,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 1: tool result</summary>
+<summary>Source event 72 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -349,7 +349,7 @@ None
 
 
 <details>
-<summary>Source event #73 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 73 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -362,7 +362,7 @@ Environment notifications:
 </details>
 
 
-## Source event #74 · Sub-agent 1: model output
+## Source event 74 · Sub-agent 1: model output
 
 ```text
 New reply from Kåre Fjellstad. Let me check the time and read the email.
@@ -378,7 +378,7 @@ Action:
 
 
 <details>
-<summary>Source event #75 · Sub-agent 1: tool result</summary>
+<summary>Source event 75 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -392,7 +392,7 @@ Action:
 </details>
 
 
-## Source event #76 · Sub-agent 1: model output
+## Source event 76 · Sub-agent 1: model output
 
 ```text
 Reading Kåre Fjellstad's reply.
@@ -412,7 +412,7 @@ Action:
 
 
 <details>
-<summary>Source event #77 · Sub-agent 1: tool result</summary>
+<summary>Source event 77 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -426,7 +426,7 @@ ReturnedEmails(emails=[Email(sender='kare.fjellstad@gaia2mail.com', recipients=[
 </details>
 
 
-## Source event #78 · Sub-agent 1: model output
+## Source event 78 · Sub-agent 1: model output
 
 ```text
 Kåre Fjellstad confirmed attendance (2nd reply — cab already booked for first replier Kåre Sørensen). Now waiting for the remaining two replies.
@@ -444,7 +444,7 @@ Action:
 
 
 <details>
-<summary>Source event #79 · Sub-agent 1: tool result</summary>
+<summary>Source event 79 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -459,7 +459,7 @@ None
 
 
 <details>
-<summary>Source event #80 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 80 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -472,7 +472,7 @@ Environment notifications:
 </details>
 
 
-## Source event #81 · Sub-agent 1: model output
+## Source event 81 · Sub-agent 1: model output
 
 ```text
 Checking the time and the new email.
@@ -488,7 +488,7 @@ Action:
 
 
 <details>
-<summary>Source event #82 · Sub-agent 1: tool result</summary>
+<summary>Source event 82 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -502,7 +502,7 @@ Action:
 </details>
 
 
-## Source event #83 · Sub-agent 1: model output
+## Source event 83 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -520,7 +520,7 @@ Action:
 
 
 <details>
-<summary>Source event #84 · Sub-agent 1: tool result</summary>
+<summary>Source event 84 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -534,7 +534,7 @@ ReturnedEmails(emails=[Email(sender='oleksandr.hrynchenko@gaia2mail.com', recipi
 </details>
 
 
-## Source event #85 · Sub-agent 1: model output
+## Source event 85 · Sub-agent 1: model output
 
 ```text
 Oleksandr Hrynchenko confirmed (3rd of 4). Waiting for Kåre Østensen's reply until the 07:04:13 deadline.
@@ -552,7 +552,7 @@ Action:
 
 
 <details>
-<summary>Source event #86 · Sub-agent 1: tool result</summary>
+<summary>Source event 86 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -567,7 +567,7 @@ None
 
 
 <details>
-<summary>Source event #87 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 87 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -580,7 +580,7 @@ Environment notifications:
 </details>
 
 
-## Source event #88 · Sub-agent 1: model output
+## Source event 88 · Sub-agent 1: model output
 
 ```text
 The 4th retiree replied. Let me check the time and read the email.
@@ -596,7 +596,7 @@ Action:
 
 
 <details>
-<summary>Source event #89 · Sub-agent 1: tool result</summary>
+<summary>Source event 89 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -610,7 +610,7 @@ Action:
 </details>
 
 
-## Source event #90 · Sub-agent 1: model output
+## Source event 90 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -628,7 +628,7 @@ Action:
 
 
 <details>
-<summary>Source event #91 · Sub-agent 1: tool result</summary>
+<summary>Source event 91 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -642,7 +642,7 @@ ReturnedEmails(emails=[Email(sender='kostensen@gaia2mail.com', recipients=['akje
 </details>
 
 
-## Source event #92 · Sub-agent 1: model output
+## Source event 92 · Sub-agent 1: model output
 
 ```text
 All four retirees confirmed within the deadline (last reply 07:03:34, before 07:04:13). Creating the calendar event.
@@ -666,7 +666,7 @@ Action:
 
 
 <details>
-<summary>Source event #93 · Sub-agent 1: tool result</summary>
+<summary>Source event 93 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -680,7 +680,7 @@ dcf191829913b81220f38262b28ec53c
 </details>
 
 
-## Source event #94 · Sub-agent 1: model output
+## Source event 94 · Sub-agent 1: model output
 
 ```text
 Calendar event created. Now getting the cousin's Chats user id.
@@ -698,7 +698,7 @@ Action:
 
 
 <details>
-<summary>Source event #95 · Sub-agent 1: tool result</summary>
+<summary>Source event 95 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -712,7 +712,7 @@ Action:
 </details>
 
 
-## Source event #96 · Sub-agent 1: model output
+## Source event 96 · Sub-agent 1: model output
 
 ```text
 Messaging the cousin with the event details.
@@ -731,7 +731,7 @@ Action:
 
 
 <details>
-<summary>Source event #97 · Sub-agent 1: tool result</summary>
+<summary>Source event 97 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -745,7 +745,7 @@ df07d82ab2ff4971a2b41349387de9ef
 </details>
 
 
-## Source event #98 · Sub-agent 1: model output
+## Source event 98 · Sub-agent 1: model output
 
 ```text
 All tasks are complete. Reporting back with the full summary.
@@ -807,7 +807,7 @@ Action:
 
 
 <details>
-<summary>Source event #99 · Sub-agent 1: tool result</summary>
+<summary>Source event 99 · Sub-agent 1: tool result</summary>
 
 
 ```text

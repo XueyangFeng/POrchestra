@@ -1,6 +1,8 @@
 # scenario_universe_23_qjkt81
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_23_qjkt81/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_23_qjkt81/README.md) · [Codex](../../codex/round2/scenario_universe_23_qjkt81/README.md) · [OpenCode](../../opencode/round2/scenario_universe_23_qjkt81/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the person from the &#x27;Coffee Break&#x27; event yesterday, the specific product for the gift, the user&#x27;s home address, and the user&#x27;s best friend. After gathering this information, the subagent will perform the initial actions: sending the email, ordering the gift, and booking the cab, then notifying the user.
 
@@ -107,7 +109,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #56
+**Harness configuration updated** · Source event 56
 
 **1. Sub-agent revision request**
 
@@ -116,7 +118,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Unconditional parts of the task are DONE: Coffee Break attendee identified (Šárka Nováková), her email/address retrieved, user details retrieved, resin Ela figure ordered (order 3694809560774473ba6832d0ef590d07), Default cab booked for Fri 2024-10-18 17:00 from Božetěchova 3 to Korunní 105 (ride ca5380b0fb5d30db43b4905d14d91312), email sent to Šárka, best friend identified as Kryštof Nováček, and a confirmation message was already sent to the User. NEW: 3 email notifications arrived (one from tereza.novakova@gaia2mail.com, one from kvido.novacek@seznam.cz, one unspecified) — possibly Šárka's reply. I have NO email-reading tool in my toolset, so I cannot inspect them.
 ```
 <details>
-<summary>Request and evidence · source event #54</summary>
+<summary>Request and evidence · source event 54</summary>
 
 
 ```text
@@ -224,7 +226,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent completed the initial set of actions and reported new email notifications which might contain the response from Šárka. I am expanding the task scope to include checking the email content and executing the conditional logic (best friend message, order cancellation, and cab modification) if she declines. I am also providing the necessary tools identified by the SubAgent as missing.
 

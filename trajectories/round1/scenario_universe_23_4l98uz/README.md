@@ -1,6 +1,8 @@
 # scenario_universe_23_4l98uz
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_23_4l98uz/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_23_4l98uz/README.md) · [Codex](../../codex/round1/scenario_universe_23_4l98uz/README.md) · [OpenCode](../../opencode/round1/scenario_universe_23_4l98uz/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to first find the &#x27;Dinner with Family&#x27; event on 2024-10-17, find Bohumil&#x27;s home address, update the event location (by deleting and recreating the event), book the premium ride departing 5 minutes after the event ends, and notify the user about these actions.
 
@@ -89,7 +91,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #20
+**Harness configuration updated** · Source event 20
 
 **1. Sub-agent revision request**
 
@@ -98,7 +100,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Initial assignment completed: found 'Dinner with Family' on 2024-10-17 (id 8b999799feca4bc1bd25ec59f55f1174), deleted it, recreated at Bohumil's home address (new id e4657cd1b75ef061b9fbfd037e80abd6), booked Premium ride id 6acbe88d2e50cc6bc7af2e04429d65f0 departing 2024-10-17 21:05 from Bohumil's address to Božetěchova 5, 602 00 Brno, Czech Republic, and notified the user. Now received environment notification: 'Calendar: Calendar event deleted by Bohumil Nováček'. This triggers the cancellation contingency in the original user task, but I have paused before taking further side effects.
 ```
 <details>
-<summary>Request and evidence · source event #18</summary>
+<summary>Request and evidence · source event 18</summary>
 
 
 ```text
@@ -148,7 +150,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 Bohumil Nováček has deleted the &#x27;Dinner with Family&#x27; event, triggering the cancellation contingency in the original task. The SubAgent needs additional tools (Emails, Chats) and specific instructions to execute the follow-up actions: emailing Bohumil, finding the other attendee&#x27;s (Lukáš Nováček) address, recreating the event, notifying attendees via a new Chats group, and updating the taxi booking.
 

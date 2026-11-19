@@ -1,6 +1,8 @@
 # scenario_universe_30_6r6lnh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_30_6r6lnh/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_30_6r6lnh/README.md) · [Codex](../../codex/round2/scenario_universe_30_6r6lnh/README.md) · [OpenCode](../../opencode/round2/scenario_universe_30_6r6lnh/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to remove all saved apartments in Liverpool and send the confirmation message to Akira Tanaka as requested. I will also need to keep track of which properties were removed in case they need to be restored later.
 

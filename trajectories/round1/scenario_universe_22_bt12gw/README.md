@@ -1,6 +1,8 @@
 # scenario_universe_22_bt12gw
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_22_bt12gw/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_22_bt12gw/README.md) · [Codex](../../codex/round1/scenario_universe_22_bt12gw/README.md) · [OpenCode](../../opencode/round1/scenario_universe_22_bt12gw/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the contact who is a &#x27;College Mathematics Professor&#x27; to fulfill multiple conditions of the user&#x27;s request (filtering incoming emails, checking for dates, and sending a proactive email if no messages are received).
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #10
+**Initial harness configuration** · Source event 10
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 We need to monitor the inbox for incoming emails starting from 2024-10-15 07:00:00. We will check if any email is received from the College Mathematics Professor (luisa.silva.sousa@fc.up.pt) or with &#x27;project update&#x27; in the subject. If an email is received, we reply after 30 seconds with the appropriate message based on the email content, log it to aurelien.lafleur@gaia2mail.com, and if it&#x27;s from the professor and contains a date, create a calendar event immediately. If no email is received from anyone within 5 minutes (by 07:05:00), we send a polite email asking for updates to the professor.
 
@@ -155,7 +157,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

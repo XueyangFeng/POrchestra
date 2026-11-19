@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #4 · Sub-agent 1: model output
+## Source event 4 · Sub-agent 1: model output
 
 ```text
 I'll start by confirming the current date and time.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: tool result</summary>
+<summary>Source event 5 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 Current date confirmed: 2024-10-15 (Tuesday). Tomorrow is 2024-10-16. Now searching for emails with 'Collaboration'.
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 7 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -95,7 +95,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 7 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -107,7 +107,7 @@ orite Portuguese recipes. Let me know if this is something that interests you, a
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 7 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -119,7 +119,7 @@ tention.\n\nI'm reaching out to propose a collaboration opportunity that I belie
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Search returned a large list. Filtering for subjects containing 'Collaboration', the three most recent (by timestamp, descending) are:
@@ -145,7 +145,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -159,7 +159,7 @@ acea4a8d991e2e64e9a43daa76d19dd2
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 Event 1 created: `acea4a8d991e2e64e9a43daa76d19dd2`. Now event 2 (2024-10-17).
@@ -179,7 +179,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -193,7 +193,7 @@ Action:
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Event 2 created: `8fce113de00ea4a218ab94f8a582ba16`. Now event 3 (2024-10-18).
@@ -213,7 +213,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -227,7 +227,7 @@ Action:
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 All three events created. Now replying to email 1 (yuting.liang@emarketingpro.com) about the 2024-10-16 meeting.
@@ -246,7 +246,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -260,7 +260,7 @@ a7a6559237dfccab98f2b1970584c7a3
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 Reply 1 sent. Now replying to email 2 (joaosilva87@gaia2mail.com) about the 2024-10-17 meeting.
@@ -280,7 +280,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -294,7 +294,7 @@ ce025aebc06aec5cea39dd7fb817bee5
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Reply 2 sent. Now replying to email 3 (astrid.kjeldsen@health.dk) about the 2024-10-18 meeting.
@@ -314,7 +314,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -328,7 +328,7 @@ d5c10c7486bda98ac6f9fb05dd3707df
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 All three calendar events are created and all three replies are sent. Now notifying the user.
@@ -346,7 +346,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text

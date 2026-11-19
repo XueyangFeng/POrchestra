@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #510 · Sub-agent 8: tool result</summary>
+<summary>Source event 510 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ ReturnedEmails(emails=[Email(sender='ursula.wiederkehr@gaia2mail.com', recipient
 
 
 <details>
-<summary>Source event #511 · Sub-agent 8: model output</summary>
+<summary>Source event 511 · Sub-agent 8: model output</summary>
 
 
 ```text
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #512 · Sub-agent 8: tool result</summary>
+<summary>Source event 512 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Action:
 
 
 <details>
-<summary>Source event #513 · Sub-agent 8: model output</summary>
+<summary>Source event 513 · Sub-agent 8: model output</summary>
 
 
 ```text
@@ -76,7 +76,7 @@ Action:
 
 
 <details>
-<summary>Source event #514 · Sub-agent 8: tool result</summary>
+<summary>Source event 514 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -91,7 +91,7 @@ b''
 
 
 <details>
-<summary>Source event #515 · Sub-agent 8: model output</summary>
+<summary>Source event 515 · Sub-agent 8: model output</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Action:
 
 
 <details>
-<summary>Source event #516 · Sub-agent 8: tool result</summary>
+<summary>Source event 516 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -128,7 +128,7 @@ ReturnedEmails(emails=[], emails_range=(0, 0), total_returned_emails=0, total_em
 
 
 <details>
-<summary>Source event #517 · Sub-agent 8: model output</summary>
+<summary>Source event 517 · Sub-agent 8: model output</summary>
 
 
 ```text
@@ -146,7 +146,7 @@ Action:
 
 
 <details>
-<summary>Source event #518 · Sub-agent 8: tool result</summary>
+<summary>Source event 518 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -161,7 +161,7 @@ b''
 
 
 <details>
-<summary>Source event #519 · Sub-agent 8: model output</summary>
+<summary>Source event 519 · Sub-agent 8: model output</summary>
 
 
 ```text
@@ -183,7 +183,7 @@ Action:
 
 
 <details>
-<summary>Source event #520 · Sub-agent 8: tool result</summary>
+<summary>Source event 520 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -198,7 +198,7 @@ ReturnedEmails(emails=[], emails_range=(0, 0), total_returned_emails=0, total_em
 
 
 <details>
-<summary>Source event #521 · Sub-agent 8: model output</summary>
+<summary>Source event 521 · Sub-agent 8: model output</summary>
 
 
 ```text

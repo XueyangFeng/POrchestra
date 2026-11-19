@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 Thought: I'll start by reading today's calendar events to find the earliest one.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 Thought: The earliest event is "Project Planning Meeting" at 09:00 with tag 'Work' and attendee Aurélien Dumont. Now I need their address from Contacts.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ Action:
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Thought: Earliest event is "Project Planning Meeting" at 09:00 with tag 'Work', attendee Aurélien Dumont at Sint-Michielsstraat 6, 3000 Leuven, Belgium. Since tagged work, drop-off is Tiensestraat 57, 3000 Leuven, Belgium. Pickup 10 minutes before start: 08:50 on 2024-10-15.
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -125,7 +125,7 @@ Ride ID: c3de44121c4644ae524e7f6470b6f5f7
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 Thought: Ride booked successfully (Ride ID c3de44121c4644ae524e7f6470b6f5f7). Now I need to find Aurélien Dumont's Messages user ID.
@@ -142,7 +142,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -156,7 +156,7 @@ Action:
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Thought: Found user ID for Aurélien Dumont. Now sending the confirmation message.
@@ -174,7 +174,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ e7cf1a8da9c54f8db30ca5c9f992f711
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 Thought: Message sent to attendee (message id e7cf1a8da9c54f8db30ca5c9f992f711). Now notifying the user that the booking and attendee notification are complete.
@@ -205,7 +205,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -220,7 +220,7 @@ None
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 17 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -233,7 +233,7 @@ Environment notifications:
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Thought: An environment notification arrived: the cab ride was cancelled. Per my instructions, I must report this to MainAgent before any further side effects, since the original turn includes follow-up actions (monitor 4 minutes; if driver cancels, delete and re-schedule the event without the attendee, message the attendee, and notify the user). My assigned subtask (steps 1–6) is complete, so I'll hand off with a revise/follow_up report preserving all relevant exact values.
@@ -291,7 +291,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #74 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 74 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #75 · Sub-agent 1: model output
+## Source event 75 · Sub-agent 1: model output
 
 ```text
 I'll check the new email from aoifenichonaill@tcd.ie.
@@ -42,7 +42,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 1: tool result</summary>
+<summary>Source event 76 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ ReturnedEmails(emails=[Email(sender='aoifenichonaill@tcd.ie', recipients=['akuzn
 </details>
 
 
-## Source event #77 · Sub-agent 1: model output
+## Source event 77 · Sub-agent 1: model output
 
 ```text
 The email from Aoife is about "New History Lessons" — not a property viewing request, so no action needed. Continuing to monitor until 07:04:00.
@@ -74,7 +74,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 1: tool result</summary>
+<summary>Source event 78 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ None
 
 
 <details>
-<summary>Source event #79 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 79 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -102,7 +102,7 @@ Environment notifications:
 </details>
 
 
-## Source event #80 · Sub-agent 1: model output
+## Source event 80 · Sub-agent 1: model output
 
 ```text
 The wait timed out after 60 seconds with no new email. Checking the time to continue monitoring.
@@ -118,7 +118,7 @@ Action:
 
 
 <details>
-<summary>Source event #81 · Sub-agent 1: tool result</summary>
+<summary>Source event 81 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -132,7 +132,7 @@ Action:
 </details>
 
 
-## Source event #82 · Sub-agent 1: model output
+## Source event 82 · Sub-agent 1: model output
 
 ```text
 Time is 07:03:11 — about 49 seconds remain in the window. Checking inbox for any arrivals not yet notified.
@@ -152,7 +152,7 @@ Action:
 
 
 <details>
-<summary>Source event #83 · Sub-agent 1: tool result</summary>
+<summary>Source event 83 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -166,7 +166,7 @@ ReturnedEmails(emails=[Email(sender='aoifenichonaill@tcd.ie', recipients=['akuzn
 </details>
 
 
-## Source event #84 · Sub-agent 1: model output
+## Source event 84 · Sub-agent 1: model output
 
 ```text
 No new emails. Waiting for the remainder of the window.
@@ -184,7 +184,7 @@ Action:
 
 
 <details>
-<summary>Source event #85 · Sub-agent 1: tool result</summary>
+<summary>Source event 85 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -199,7 +199,7 @@ None
 
 
 <details>
-<summary>Source event #86 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 86 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -212,7 +212,7 @@ Environment notifications:
 </details>
 
 
-## Source event #87 · Sub-agent 1: model output
+## Source event 87 · Sub-agent 1: model output
 
 ```text
 Checking the current time to confirm the monitoring window has ended.
@@ -228,7 +228,7 @@ Action:
 
 
 <details>
-<summary>Source event #88 · Sub-agent 1: tool result</summary>
+<summary>Source event 88 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -242,7 +242,7 @@ Action:
 </details>
 
 
-## Source event #89 · Sub-agent 1: model output
+## Source event 89 · Sub-agent 1: model output
 
 ```text
 Time is 07:04:11 — the monitoring window has ended. Let me do a final inbox verification to confirm no unmatched property-viewing emails arrived in the last minute.
@@ -262,7 +262,7 @@ Action:
 
 
 <details>
-<summary>Source event #90 · Sub-agent 1: tool result</summary>
+<summary>Source event 90 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -276,7 +276,7 @@ ReturnedEmails(emails=[Email(sender='aoifenichonaill@tcd.ie', recipients=['akuzn
 </details>
 
 
-## Source event #91 · Sub-agent 1: model output
+## Source event 91 · Sub-agent 1: model output
 
 ```text
 The monitoring window has ended (07:04:11) and all in-window property viewing emails have been processed. I'll hand back to MainAgent.
@@ -354,7 +354,7 @@ Action:
 
 
 <details>
-<summary>Source event #92 · Sub-agent 1: tool result</summary>
+<summary>Source event 92 · Sub-agent 1: tool result</summary>
 
 
 ```text

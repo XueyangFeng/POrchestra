@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #75 · Main agent: Model message
+## Source event 75 · Main agent: Model message
 
 ```text
 The message was sent. The task is likely complete. But wait, I should double-check whether the tie-break is right, and whether the benchmark expected the calendar-attendee interpretation. Let me reconsider one more time... The message is already sent and ends the turn.
@@ -52,7 +52,7 @@ Let me finalize with a brief statement.
 
 
 
-## Source event #76 · Main agent: Model message
+## Source event 76 · Main agent: Model message
 
 ```text
 I sent the answer to the user. 
@@ -68,7 +68,7 @@ Summary of the computation:
 
 
 <details>
-<summary>Source event #77 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 77 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -87,7 +87,7 @@ Summary of the computation:
 
 
 <details>
-<summary>Source event #78 · Judge: Judge rationale</summary>
+<summary>Source event 78 · Judge: Judge rationale</summary>
 
 
 ```text

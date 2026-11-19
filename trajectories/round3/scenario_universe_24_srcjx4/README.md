@@ -1,6 +1,8 @@
 # scenario_universe_24_srcjx4
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_24_srcjx4/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_24_srcjx4/README.md) · [Codex](../../codex/round3/scenario_universe_24_srcjx4/README.md) · [OpenCode](../../opencode/round3/scenario_universe_24_srcjx4/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to purchase the specified items and send a message to Akira Nakahara for verification. I will first search for the products matching the material requirements, identify the cheapest variants, purchase them, and then send the message. I also need to notify the user once these initial steps are completed.
 

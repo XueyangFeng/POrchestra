@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #32 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 32 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Search for these products, verify their specifications (size, color, material) u
 </details>
 
 
-## Source event #33 · Sub-agent 3: model output
+## Source event 33 · Sub-agent 3: model output
 
 ```text
 I'll start by searching for the appetizer/dessert cups.
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 3: tool result</summary>
+<summary>Source event 34 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 3: model output
+## Source event 35 · Sub-agent 3: model output
 
 ```text
 No results with that term. Let me try variations.
@@ -70,7 +70,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 3: tool result</summary>
+<summary>Source event 36 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -84,7 +84,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 3: model output
+## Source event 37 · Sub-agent 3: model output
 
 ```text
 Found a match. Let me verify the details and search for dinner plates.
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 3: tool result</summary>
+<summary>Source event 38 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -116,7 +116,7 @@ Product(name='Party Essentials Miniware Mini Plastic Appetizer/Dessert Cups, Cle
 </details>
 
 
-## Source event #39 · Sub-agent 3: model output
+## Source event 39 · Sub-agent 3: model output
 
 ```text
 The matching cup variant is `e6a28b9591674875819577e8fff89358` (2 oz, Clear, BPA-Free Plastic, $7.99). Now searching for dinner plates.
@@ -135,7 +135,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 3: tool result</summary>
+<summary>Source event 40 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -149,7 +149,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 3: model output
+## Source event 41 · Sub-agent 3: model output
 
 ```text
 Found a bioplastic variant. Let me also check for other plate options to be thorough.
@@ -168,7 +168,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 3: tool result</summary>
+<summary>Source event 42 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -182,7 +182,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 3: model output
+## Source event 43 · Sub-agent 3: model output
 
 ```text
 Let me try a broader search for plates.
@@ -201,7 +201,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 3: tool result</summary>
+<summary>Source event 44 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -215,7 +215,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 3: model output
+## Source event 45 · Sub-agent 3: model output
 
 ```text
 Only one bioplastic plate variant exists. Let me verify it via product details.
@@ -233,7 +233,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 3: tool result</summary>
+<summary>Source event 46 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -247,7 +247,7 @@ Product(name='50-Count Value Pack Round Paper Dinner Plates- Red, White and True
 </details>
 
 
-## Source event #47 · Sub-agent 3: model output
+## Source event 47 · Sub-agent 3: model output
 
 ```text
 Both specs verified. Adding one of each to the cart.
@@ -266,7 +266,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 3: tool result</summary>
+<summary>Source event 48 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -280,7 +280,7 @@ e6a28b9591674875819577e8fff89358
 </details>
 
 
-## Source event #49 · Sub-agent 3: model output
+## Source event 49 · Sub-agent 3: model output
 
 ```text
 Cup added. Now adding the bioplastic plates.
@@ -299,7 +299,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 3: tool result</summary>
+<summary>Source event 50 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -313,7 +313,7 @@ d808649fdf3f47d6b8fb3f85c3c01e88
 </details>
 
 
-## Source event #51 · Sub-agent 3: model output
+## Source event 51 · Sub-agent 3: model output
 
 ```text
 Both items added. Let me verify the cart before checkout.
@@ -329,7 +329,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 3: tool result</summary>
+<summary>Source event 52 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -343,7 +343,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 3: model output
+## Source event 53 · Sub-agent 3: model output
 
 ```text
 Cart verified with both correct items. Proceeding to checkout (no discount code specified).
@@ -359,7 +359,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 3: tool result</summary>
+<summary>Source event 54 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -373,7 +373,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 3: model output
+## Source event 55 · Sub-agent 3: model output
 
 ```text
 Checkout completed successfully. Both items were verified against the required specifications and added to the cart.
@@ -420,7 +420,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 3: tool result</summary>
+<summary>Source event 56 · Sub-agent 3: tool result</summary>
 
 
 ```text

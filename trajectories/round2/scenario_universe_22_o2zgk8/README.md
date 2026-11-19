@@ -1,6 +1,8 @@
 # scenario_universe_22_o2zgk8
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_22_o2zgk8/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_22_o2zgk8/README.md) · [Codex](../../codex/round2/scenario_universe_22_o2zgk8/README.md) · [OpenCode](../../opencode/round2/scenario_universe_22_o2zgk8/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to perform the initial actions: ordering the van for tomorrow at 11 AM and sending the inquiry message to the specified group conversation. I also need to inform the user once the message is sent.
 

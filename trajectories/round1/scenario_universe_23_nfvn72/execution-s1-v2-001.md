@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 17 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Read Aino's response and execute the rescheduling or cancellation logic based on
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 I need to read Aino's response from the conversation. Let me start with the conversation 'bee31ddecb254b8eac405bdce9355c4a'.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 Thought: Aino's response in the first conversation says 'no' and provides an alternative: "from December 31st, 9 PM to January 1st, 5 PM" (start 2024-12-31 21:00:00, end 2025-01-01 17:00:00). This end time is before 2025-01-02 09:00:00, so I must reschedule. There was also a notification for conversation 30b9277190fe4573a1049c216ec8611c; I'll check it to ensure I have Aino's full response before acting.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 Thought: Aino's reply says "no" to Christmas and proposes New Year's Eve from December 31st 9 PM to January 1st 5 PM. The alternative end time (2025-01-01 17:00:00) is before 2025-01-02 09:00:00, so I must delete the existing 'Holiday with Aino' event, create a new one at the alternative time, and send Aino a confirmation. The second notified conversation was unrelated. Proceeding with deletion first.
@@ -96,7 +96,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -110,7 +110,7 @@ Event e4657cd1b75ef061b9fbfd037e80abd6 successfully deleted.
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 Now creating the rescheduled calendar event at Aino's proposed alternative time.
@@ -129,7 +129,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -143,7 +143,7 @@ e03b534af959899d9ca5c1d3e342f522
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 Thought: Send a confirmation message to Aino acknowledging and confirming the new time.
@@ -161,7 +161,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -175,7 +175,7 @@ bee31ddecb254b8eac405bdce9355c4a
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Aino's response says "no" to Christmas but the alternative (Dec 31, 9 PM – Jan 1, 5 PM) ends before Jan 2, 2025 9 AM, so I rescheduled and confirmed. Now I'll send the user the exact response and changes.
@@ -192,7 +192,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text

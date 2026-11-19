@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #85 · Main agent: Tool result: call_00_3g6mmtjm7kftr9am0nl1b3jh (is_error=False)</summary>
+<summary>Source event 85 · Main agent: Tool result: call_00_3g6mmtjm7kftr9am0nl1b3jh (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #86 · Main agent: Model message
+## Source event 86 · Main agent: Model message
 
 ```text
 Found it: d4394c9e36de14db8296a63183cf09e2 "Event created by Kaida Rylan: Romantic night", Oct 18 21:00-23:30, attendees Åse Kjellstad, Kaida Rylan. This is the new event added at 07:03:30.
@@ -37,7 +37,7 @@ Let me get current time.
 
 
 
-## Source event #87 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_ok1hjiy43wjyhd4h5z08aa1v)
+## Source event 87 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_ok1hjiy43wjyhd4h5z08aa1v)
 
 ```text
 {}
@@ -46,7 +46,7 @@ Let me get current time.
 
 
 <details>
-<summary>Source event #88 · Main agent: Tool result: call_00_ok1hjiy43wjyhd4h5z08aa1v (is_error=False)</summary>
+<summary>Source event 88 · Main agent: Tool result: call_00_ok1hjiy43wjyhd4h5z08aa1v (is_error=False)</summary>
 
 
 ```text
@@ -62,7 +62,7 @@ Let me get current time.
 </details>
 
 
-## Source event #89 · Main agent: Model message
+## Source event 89 · Main agent: Model message
 
 ```text
 Now 07:03:30. Wait 30 seconds until 07:04:00, then delete. wait_for_notification timeout 30 → will return timeout at 07:04:00 (or earlier if notification). Let me wait.
@@ -70,7 +70,7 @@ Now 07:03:30. Wait 30 seconds until 07:04:00, then delete. wait_for_notification
 
 
 
-## Source event #90 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_y6ltc9ivmolo9bek1dkm3x14)
+## Source event 90 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_y6ltc9ivmolo9bek1dkm3x14)
 
 ```text
 {
@@ -81,7 +81,7 @@ Now 07:03:30. Wait 30 seconds until 07:04:00, then delete. wait_for_notification
 
 
 <details>
-<summary>Source event #91 · Main agent: Tool result: call_00_y6ltc9ivmolo9bek1dkm3x14 (is_error=False)</summary>
+<summary>Source event 91 · Main agent: Tool result: call_00_y6ltc9ivmolo9bek1dkm3x14 (is_error=False)</summary>
 
 
 ```text
@@ -101,7 +101,7 @@ Now 07:03:30. Wait 30 seconds until 07:04:00, then delete. wait_for_notification
 </details>
 
 
-## Source event #92 · Main agent: Model message
+## Source event 92 · Main agent: Model message
 
 ```text
 At 07:04:00. Delete d4394c9e36de14db8296a63183cf09e2.
@@ -109,7 +109,7 @@ At 07:04:00. Delete d4394c9e36de14db8296a63183cf09e2.
 
 
 
-## Source event #93 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_00_v4lb77tbm35ork3o4lvswetq)
+## Source event 93 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_00_v4lb77tbm35ork3o4lvswetq)
 
 ```text
 {
@@ -120,7 +120,7 @@ At 07:04:00. Delete d4394c9e36de14db8296a63183cf09e2.
 
 
 <details>
-<summary>Source event #94 · Main agent: Tool result: call_00_v4lb77tbm35ork3o4lvswetq (is_error=False)</summary>
+<summary>Source event 94 · Main agent: Tool result: call_00_v4lb77tbm35ork3o4lvswetq (is_error=False)</summary>
 
 
 ```text
@@ -136,7 +136,7 @@ At 07:04:00. Delete d4394c9e36de14db8296a63183cf09e2.
 </details>
 
 
-## Source event #95 · Main agent: Model message
+## Source event 95 · Main agent: Model message
 
 ```text
 Now verify everything. Let me re-check calendar to confirm deletion and no conflicts, and confirm the replies are in place.
@@ -156,7 +156,7 @@ Let me query Oct 18 evening to Oct 19 to be sure.
 
 
 
-## Source event #96 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_1zja49wipmjdwxhnl46a452e)
+## Source event 96 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_1zja49wipmjdwxhnl46a452e)
 
 ```text
 {
@@ -168,7 +168,7 @@ Let me query Oct 18 evening to Oct 19 to be sure.
 
 
 
-## Source event #97 · Main agent: Model tool call: mcp__gaia2__Emails__list_emails (call_01_g7796pihep0zwh24227aiu9z)
+## Source event 97 · Main agent: Model tool call: mcp__gaia2__Emails__list_emails (call_01_g7796pihep0zwh24227aiu9z)
 
 ```text
 {
@@ -180,7 +180,7 @@ Let me query Oct 18 evening to Oct 19 to be sure.
 
 
 <details>
-<summary>Source event #98 · Main agent: Tool result: call_00_1zja49wipmjdwxhnl46a452e (is_error=False)</summary>
+<summary>Source event 98 · Main agent: Tool result: call_00_1zja49wipmjdwxhnl46a452e (is_error=False)</summary>
 
 
 ```text
@@ -197,7 +197,7 @@ Let me query Oct 18 evening to Oct 19 to be sure.
 
 
 <details>
-<summary>Source event #99 · Main agent: Tool result: call_01_g7796pihep0zwh24227aiu9z (is_error=False)</summary>
+<summary>Source event 99 · Main agent: Tool result: call_01_g7796pihep0zwh24227aiu9z (is_error=False)</summary>
 
 
 ```text
@@ -213,7 +213,7 @@ Let me query Oct 18 evening to Oct 19 to be sure.
 </details>
 
 
-## Source event #100 · Main agent: Model message
+## Source event 100 · Main agent: Model message
 
 ```text
 Email reply confirmed. Calendar clean: only Film Critic in the window Oct 18 16:00 - Oct 19 12:00. Wait — "Film Review Writing" Oct 19 09:00-12:00 was deleted. The window we need clear: Oct 18 20:30 → Oct 19 09:30. Query from 16:00 Oct 18 to 12:00 Oct 19 shows only Film Critic. Good.
@@ -263,7 +263,7 @@ Let me send final message.
 
 
 
-## Source event #101 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_k625kvkuth6fhpbwlf8rt3ku)
+## Source event 101 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_k625kvkuth6fhpbwlf8rt3ku)
 
 ```text
 {
@@ -274,7 +274,7 @@ Let me send final message.
 
 
 <details>
-<summary>Source event #102 · Main agent: Tool result: call_00_k625kvkuth6fhpbwlf8rt3ku (is_error=False)</summary>
+<summary>Source event 102 · Main agent: Tool result: call_00_k625kvkuth6fhpbwlf8rt3ku (is_error=False)</summary>
 
 
 ```text
@@ -290,7 +290,7 @@ Let me send final message.
 </details>
 
 
-## Source event #103 · Main agent: Model message
+## Source event 103 · Main agent: Model message
 
 ```text
 Task complete. Summary of what was done:
@@ -311,7 +311,7 @@ Final verification confirms the Oct 18 16:00–Oct 19 12:00 range contains only 
 
 
 <details>
-<summary>Source event #104 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 104 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -335,7 +335,7 @@ Final verification confirms the Oct 18 16:00–Oct 19 12:00 range contains only 
 
 
 <details>
-<summary>Source event #105 · Judge: Judge rationale</summary>
+<summary>Source event 105 · Judge: Judge rationale</summary>
 
 
 ```text

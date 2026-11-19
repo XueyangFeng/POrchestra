@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #13 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 13 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Search for all contacts residing in zip code 9000. Identify the oldest age among
 
 
 <details>
-<summary>Source event #14 · Sub-agent 2: tool result</summary>
+<summary>Source event 14 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #15 · Sub-agent 2: tool result</summary>
+<summary>Source event 15 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -59,7 +59,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #16 · Sub-agent 2: model output
+## Source event 16 · Sub-agent 2: model output
 
 ```text
 I'll start by retrieving the contacts list to find contacts residing in zip code 9000.
@@ -74,7 +74,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result</summary>
+<summary>Source event 17 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -88,7 +88,7 @@ Action:
 </details>
 
 
-## Source event #18 · Sub-agent 2: model output
+## Source event 18 · Sub-agent 2: model output
 
 ```text
 I need to see all 108 contacts. Let me scroll through the list.
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 2: tool result</summary>
+<summary>Source event 19 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -117,7 +117,7 @@ Action:
 </details>
 
 
-## Source event #20 · Sub-agent 2: model output
+## Source event 20 · Sub-agent 2: model output
 
 ```text
 I see zip code 9000 corresponds to Ghent, Belgium. Let me continue scrolling through all contacts.
@@ -132,7 +132,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 2: tool result</summary>
+<summary>Source event 21 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -146,7 +146,7 @@ Action:
 </details>
 
 
-## Source event #22 · Sub-agent 2: model output
+## Source event 22 · Sub-agent 2: model output
 
 ```text
 Continuing to scroll through all contacts.
@@ -161,7 +161,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 2: tool result</summary>
+<summary>Source event 23 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -175,7 +175,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 2: model output
+## Source event 24 · Sub-agent 2: model output
 
 ```text
 Found more Ghent (9000) contacts. Continuing.
@@ -190,7 +190,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 2: tool result</summary>
+<summary>Source event 25 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -204,7 +204,7 @@ Action:
 </details>
 
 
-## Source event #26 · Sub-agent 2: model output
+## Source event 26 · Sub-agent 2: model output
 
 ```text
 Continuing through the contacts list.
@@ -219,7 +219,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 2: tool result</summary>
+<summary>Source event 27 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -233,7 +233,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 2: model output
+## Source event 28 · Sub-agent 2: model output
 
 ```text
 No new 9000 contacts in this batch. Continuing.
@@ -248,7 +248,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 2: tool result</summary>
+<summary>Source event 29 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -262,7 +262,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 2: model output
+## Source event 30 · Sub-agent 2: model output
 
 ```text
 Continuing through remaining contacts.
@@ -277,7 +277,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: tool result</summary>
+<summary>Source event 31 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -291,7 +291,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 2: model output
+## Source event 32 · Sub-agent 2: model output
 
 ```text
 Continuing with the remaining contacts.
@@ -306,7 +306,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result</summary>
+<summary>Source event 33 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -320,7 +320,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 2: model output
+## Source event 34 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -333,7 +333,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: tool result</summary>
+<summary>Source event 35 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -347,7 +347,7 @@ Action:
 </details>
 
 
-## Source event #36 · Sub-agent 2: model output
+## Source event 36 · Sub-agent 2: model output
 
 ```text
 Almost done, retrieving the final batch.
@@ -362,7 +362,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: tool result</summary>
+<summary>Source event 37 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -376,7 +376,7 @@ Action:
 </details>
 
 
-## Source event #38 · Sub-agent 2: model output
+## Source event 38 · Sub-agent 2: model output
 
 ```text
 I've now reviewed all 108 contacts. Let me compile the contacts residing in zip code 9000 (Ghent, Belgium):
@@ -399,7 +399,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 2: tool result</summary>
+<summary>Source event 39 · Sub-agent 2: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 27 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ ReturnedEmails(emails=[Email(sender='seamus.vandenberghe@gaia2mail.com', recipie
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -117,7 +117,7 @@ ReturnedEmails(emails=[Email(sender='seamus.vandenberghe@gaia2mail.com', recipie
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Based on the environment notification confirming Nalinee deleted the 10/26 event, and no newer email from Nalinee appearing in the inbox (the listing shows only the original 10/13 email), I will proceed per the conditional instructions: create the 10/20 lunch event.
@@ -137,7 +137,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -151,7 +151,7 @@ e03b534af959899d9ca5c1d3e342f522
 </details>
 
 
-## Source event #36 · Sub-agent 1: model output
+## Source event 36 · Sub-agent 1: model output
 
 ```text
 I need to find the newly received email from Nalinee Srisombat. The first 20 inbox emails did not include a reply from her, so I'll list more emails to locate it.
@@ -170,7 +170,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result</summary>
+<summary>Source event 37 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -184,7 +184,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 37 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -196,7 +196,7 @@ ReturnedEmails(emails=[Email(sender='nalinee.wongwai@gaia2mail.com', recipients=
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 37 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -208,7 +208,7 @@ email finds you well. I came across your work on net-zero energy architecture an
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 37 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text

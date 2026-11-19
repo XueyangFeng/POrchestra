@@ -1,6 +1,8 @@
 # scenario_universe_27_tlhhru
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_27_tlhhru/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_27_tlhhru/README.md) · [Codex](../../codex/round3/scenario_universe_27_tlhhru/README.md) · [OpenCode](../../opencode/round3/scenario_universe_27_tlhhru/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify the specific contacts matching the user&#x27;s criteria (Last name: Müller, Age &lt; 40) and perform the required updates to their contact information. This is the prerequisite for the subsequent messaging group creation.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #20
+**Initial harness configuration** · Source event 20
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The contacts have been found and updated. Now I need to determine which of these 5 contacts are available on the &#x27;Chats&#x27; app to split them into two groups (Chats and Messages) and send the required messages.
 
@@ -164,7 +166,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

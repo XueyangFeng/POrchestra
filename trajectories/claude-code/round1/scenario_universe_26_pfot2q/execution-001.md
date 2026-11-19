@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #1 · Main agent: Model message
+## Source event 1 · Main agent: Model message
 
 ```text
 I'll start by loading the tools I need for this task.
@@ -12,7 +12,7 @@ I'll start by loading the tools I need for this task.
 
 
 
-## Source event #2 · Main agent: Model tool call: ToolSearch (call_00_nh7aoa2uvi4adzvj5r5vg51b)
+## Source event 2 · Main agent: Model tool call: ToolSearch (call_00_nh7aoa2uvi4adzvj5r5vg51b)
 
 ```text
 {
@@ -24,7 +24,7 @@ I'll start by loading the tools I need for this task.
 
 
 <details>
-<summary>Source event #3 · Main agent: Tool result: call_00_nh7aoa2uvi4adzvj5r5vg51b (is_error=False)</summary>
+<summary>Source event 3 · Main agent: Tool result: call_00_nh7aoa2uvi4adzvj5r5vg51b (is_error=False)</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ I'll start by loading the tools I need for this task.
 </details>
 
 
-## Source event #4 · Main agent: Model message
+## Source event 4 · Main agent: Model message
 
 ```text
 Let me find the contacts' emails first.
@@ -88,7 +88,7 @@ Let me find the contacts' emails first.
 
 
 
-## Source event #5 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_00_eve9fbdl2cdcty2yeq0bacjn)
+## Source event 5 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_00_eve9fbdl2cdcty2yeq0bacjn)
 
 ```text
 {
@@ -98,7 +98,7 @@ Let me find the contacts' emails first.
 
 
 
-## Source event #6 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_01_qugmpg9x5d4wwqqoan3s2zwv)
+## Source event 6 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_01_qugmpg9x5d4wwqqoan3s2zwv)
 
 ```text
 {
@@ -108,7 +108,7 @@ Let me find the contacts' emails first.
 
 
 
-## Source event #7 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_02_ouaumv0e9sgmgo1okhadd8ez)
+## Source event 7 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_02_ouaumv0e9sgmgo1okhadd8ez)
 
 ```text
 {
@@ -119,7 +119,7 @@ Let me find the contacts' emails first.
 
 
 <details>
-<summary>Source event #8 · Main agent: Tool result: call_00_eve9fbdl2cdcty2yeq0bacjn (is_error=False)</summary>
+<summary>Source event 8 · Main agent: Tool result: call_00_eve9fbdl2cdcty2yeq0bacjn (is_error=False)</summary>
 
 
 ```text
@@ -136,7 +136,7 @@ Let me find the contacts' emails first.
 
 
 <details>
-<summary>Source event #9 · Main agent: Tool result: call_01_qugmpg9x5d4wwqqoan3s2zwv (is_error=False)</summary>
+<summary>Source event 9 · Main agent: Tool result: call_01_qugmpg9x5d4wwqqoan3s2zwv (is_error=False)</summary>
 
 
 ```text
@@ -153,7 +153,7 @@ Let me find the contacts' emails first.
 
 
 <details>
-<summary>Source event #10 · Main agent: Tool result: call_02_ouaumv0e9sgmgo1okhadd8ez (is_error=False)</summary>
+<summary>Source event 10 · Main agent: Tool result: call_02_ouaumv0e9sgmgo1okhadd8ez (is_error=False)</summary>
 
 
 ```text
@@ -169,7 +169,7 @@ Let me find the contacts' emails first.
 </details>
 
 
-## Source event #11 · Main agent: Model message
+## Source event 11 · Main agent: Model message
 
 ```text
 Now send the three emails individually. Title "Surprise Birthday Party". Ask what time they're free on Friday (Oct 18).
@@ -181,7 +181,7 @@ Let me send them.
 
 
 
-## Source event #12 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_gobkjxwvy6kpzqs46ag94lx4)
+## Source event 12 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_gobkjxwvy6kpzqs46ag94lx4)
 
 ```text
 {
@@ -196,7 +196,7 @@ Let me send them.
 
 
 <details>
-<summary>Source event #13 · Main agent: Tool result: call_00_gobkjxwvy6kpzqs46ag94lx4 (is_error=False)</summary>
+<summary>Source event 13 · Main agent: Tool result: call_00_gobkjxwvy6kpzqs46ag94lx4 (is_error=False)</summary>
 
 
 ```text
@@ -212,7 +212,7 @@ Let me send them.
 </details>
 
 
-## Source event #14 · Main agent: Model message
+## Source event 14 · Main agent: Model message
 
 ```text
 Wait — "Please individually email only my good friends... that I want to have a surprise birthday party". Hmm, the user says "I want to have a surprise birthday party" — the sender should be the user. But the surprise party is for himself. OK.
@@ -222,7 +222,7 @@ Send the other two.
 
 
 
-## Source event #15 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_mhzuhkisnvadb396z1a825gz)
+## Source event 15 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_mhzuhkisnvadb396z1a825gz)
 
 ```text
 {
@@ -237,7 +237,7 @@ Send the other two.
 
 
 <details>
-<summary>Source event #16 · Main agent: Tool result: call_00_mhzuhkisnvadb396z1a825gz (is_error=False)</summary>
+<summary>Source event 16 · Main agent: Tool result: call_00_mhzuhkisnvadb396z1a825gz (is_error=False)</summary>
 
 
 ```text
@@ -253,7 +253,7 @@ Send the other two.
 </details>
 
 
-## Source event #17 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_4nlffbylvudy68fkg8z5nwuh)
+## Source event 17 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_4nlffbylvudy68fkg8z5nwuh)
 
 ```text
 {
@@ -268,7 +268,7 @@ Send the other two.
 
 
 <details>
-<summary>Source event #18 · Main agent: Tool result: call_00_4nlffbylvudy68fkg8z5nwuh (is_error=False)</summary>
+<summary>Source event 18 · Main agent: Tool result: call_00_4nlffbylvudy68fkg8z5nwuh (is_error=False)</summary>
 
 
 ```text
@@ -284,7 +284,7 @@ Send the other two.
 </details>
 
 
-## Source event #19 · Main agent: Model message
+## Source event 19 · Main agent: Model message
 
 ```text
 All three emails sent. Now let me check the current time, then notify the user. Then wait exactly 4 minutes.
@@ -296,7 +296,7 @@ Let me get current time first.
 
 
 
-## Source event #20 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_tqem6uyrjt3id056gxv66giu)
+## Source event 20 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_tqem6uyrjt3id056gxv66giu)
 
 ```text
 {}
@@ -305,7 +305,7 @@ Let me get current time first.
 
 
 <details>
-<summary>Source event #21 · Main agent: Tool result: call_00_tqem6uyrjt3id056gxv66giu (is_error=False)</summary>
+<summary>Source event 21 · Main agent: Tool result: call_00_tqem6uyrjt3id056gxv66giu (is_error=False)</summary>
 
 
 ```text
@@ -321,7 +321,7 @@ Let me get current time first.
 </details>
 
 
-## Source event #22 · Main agent: Model message
+## Source event 22 · Main agent: Model message
 
 ```text
 Current time 07:00:00. Notify user now. Then wait 4 minutes = 240 seconds, checking at ~07:04:00.
@@ -351,7 +351,7 @@ I'll do: send_message_to_user now. Then continue. Let's see the result.
 
 
 
-## Source event #23 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_y9qh488nd5h9cc68xnp6c9h5)
+## Source event 23 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_y9qh488nd5h9cc68xnp6c9h5)
 
 ```text
 {
@@ -362,7 +362,7 @@ I'll do: send_message_to_user now. Then continue. Let's see the result.
 
 
 <details>
-<summary>Source event #24 · Main agent: Tool result: call_00_y9qh488nd5h9cc68xnp6c9h5 (is_error=False)</summary>
+<summary>Source event 24 · Main agent: Tool result: call_00_y9qh488nd5h9cc68xnp6c9h5 (is_error=False)</summary>
 
 
 ```text
@@ -378,7 +378,7 @@ I'll do: send_message_to_user now. Then continue. Let's see the result.
 </details>
 
 
-## Source event #25 · Main agent: Model message
+## Source event 25 · Main agent: Model message
 
 ```text
 The turn didn't end apparently (returned None). Let me continue: wait 240 seconds.
@@ -392,7 +392,7 @@ I'll call wait_for_notification(240).
 
 
 
-## Source event #26 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_hwvm1doxjthilj7tzbjdlhle)
+## Source event 26 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_hwvm1doxjthilj7tzbjdlhle)
 
 ```text
 {
@@ -403,7 +403,7 @@ I'll call wait_for_notification(240).
 
 
 <details>
-<summary>Source event #27 · Main agent: Tool result: call_00_hwvm1doxjthilj7tzbjdlhle (is_error=True)</summary>
+<summary>Source event 27 · Main agent: Tool result: call_00_hwvm1doxjthilj7tzbjdlhle (is_error=True)</summary>
 
 
 ```text
@@ -414,7 +414,7 @@ The ARE user turn has ended. Return your final response; further app actions are
 </details>
 
 
-## Source event #28 · Main agent: Model message
+## Source event 28 · Main agent: Model message
 
 ```text
 The turn ended after send_message_to_user apparently. So I can't act further in this turn. Hmm, but the environment presumably starts a new turn when notifications arrive.
@@ -430,7 +430,7 @@ Let me just end the turn minimally.
 
 
 
-## Source event #29 · Main agent: Model message
+## Source event 29 · Main agent: Model message
 
 ```text
 Emails sent to all three friends. I'll now monitor their replies and set up the calendar event accordingly.
@@ -439,7 +439,7 @@ Emails sent to all three friends. I'll now monitor their replies and set up the 
 
 
 <details>
-<summary>Source event #30 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 30 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -450,7 +450,7 @@ Emails sent to all three friends. I'll now monitor their replies and set up the 
 </details>
 
 
-## Source event #31 · Main agent: Model message
+## Source event 31 · Main agent: Model message
 
 ```text
 I've been re-invoked. Current time ~07:00:41. Notification was at ~07:00:05ish. I need to check replies at 07:04:05ish (4 minutes after notifying).
@@ -462,7 +462,7 @@ Actually let me accumulate: I need to wait until ~07:04:05. Let me use wait_for_
 
 
 
-## Source event #32 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_lbutzfnlx1xs68bzsicy5n40)
+## Source event 32 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_lbutzfnlx1xs68bzsicy5n40)
 
 ```text
 {}
@@ -471,7 +471,7 @@ Actually let me accumulate: I need to wait until ~07:04:05. Let me use wait_for_
 
 
 <details>
-<summary>Source event #33 · Main agent: Tool result: call_00_lbutzfnlx1xs68bzsicy5n40 (is_error=False)</summary>
+<summary>Source event 33 · Main agent: Tool result: call_00_lbutzfnlx1xs68bzsicy5n40 (is_error=False)</summary>
 
 
 ```text
@@ -487,7 +487,7 @@ Actually let me accumulate: I need to wait until ~07:04:05. Let me use wait_for_
 </details>
 
 
-## Source event #34 · Main agent: Model message
+## Source event 34 · Main agent: Model message
 
 ```text
 Now 07:00:41. I need to check at ~07:04:05 (240s after notifying at ~07:00:05). That's ~204 more seconds. Let me wait in chunks using wait_for_notification.
@@ -497,7 +497,7 @@ I'll wait 200 seconds.
 
 
 
-## Source event #35 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_nyc35z5dfiu665k1zi4il061)
+## Source event 35 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_nyc35z5dfiu665k1zi4il061)
 
 ```text
 {
@@ -508,7 +508,7 @@ I'll wait 200 seconds.
 
 
 <details>
-<summary>Source event #36 · Main agent: Tool result: call_00_nyc35z5dfiu665k1zi4il061 (is_error=False)</summary>
+<summary>Source event 36 · Main agent: Tool result: call_00_nyc35z5dfiu665k1zi4il061 (is_error=False)</summary>
 
 
 ```text
@@ -528,7 +528,7 @@ I'll wait 200 seconds.
 </details>
 
 
-## Source event #37 · Main agent: Model message
+## Source event 37 · Main agent: Model message
 
 ```text
 It returned early at 07:01:11 due to an email notification. I need to wait until ~07:04:05. Let me check time and wait again.
@@ -538,7 +538,7 @@ Rather than waking on each email, I'll keep waiting. Let me wait ~170 more secon
 
 
 
-## Source event #38 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_gxqmfx1khdqfq6hebv2s3j1d)
+## Source event 38 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_gxqmfx1khdqfq6hebv2s3j1d)
 
 ```text
 {
@@ -549,7 +549,7 @@ Rather than waking on each email, I'll keep waiting. Let me wait ~170 more secon
 
 
 <details>
-<summary>Source event #39 · Main agent: Tool result: call_00_gxqmfx1khdqfq6hebv2s3j1d (is_error=False)</summary>
+<summary>Source event 39 · Main agent: Tool result: call_00_gxqmfx1khdqfq6hebv2s3j1d (is_error=False)</summary>
 
 
 ```text
@@ -569,7 +569,7 @@ Rather than waking on each email, I'll keep waiting. Let me wait ~170 more secon
 </details>
 
 
-## Source event #40 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_3prmabqg5th2ynqikd49rycq)
+## Source event 40 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_3prmabqg5th2ynqikd49rycq)
 
 ```text
 {
@@ -580,7 +580,7 @@ Rather than waking on each email, I'll keep waiting. Let me wait ~170 more secon
 
 
 <details>
-<summary>Source event #41 · Main agent: Tool result: call_00_3prmabqg5th2ynqikd49rycq (is_error=False)</summary>
+<summary>Source event 41 · Main agent: Tool result: call_00_3prmabqg5th2ynqikd49rycq (is_error=False)</summary>
 
 
 ```text
@@ -600,7 +600,7 @@ Rather than waking on each email, I'll keep waiting. Let me wait ~170 more secon
 </details>
 
 
-## Source event #42 · Main agent: Model message
+## Source event 42 · Main agent: Model message
 
 ```text
 Now it's 07:04:11. Notification was sent at ~07:00:05 → 4 minutes later = 07:04:05. Good timing.
@@ -610,7 +610,7 @@ Now check the inbox for replies. Let me list emails in INBOX.
 
 
 
-## Source event #43 · Main agent: Model tool call: mcp__gaia2__Emails__list_emails (call_00_advfulxtbtoxi51c7pv5zgj5)
+## Source event 43 · Main agent: Model tool call: mcp__gaia2__Emails__list_emails (call_00_advfulxtbtoxi51c7pv5zgj5)
 
 ```text
 {
@@ -622,7 +622,7 @@ Now check the inbox for replies. Let me list emails in INBOX.
 
 
 <details>
-<summary>Source event #44 · Main agent: Tool result: call_00_advfulxtbtoxi51c7pv5zgj5 (is_error=False)</summary>
+<summary>Source event 44 · Main agent: Tool result: call_00_advfulxtbtoxi51c7pv5zgj5 (is_error=False)</summary>
 
 
 ```text
@@ -638,7 +638,7 @@ Now check the inbox for replies. Let me list emails in INBOX.
 </details>
 
 
-## Source event #45 · Main agent: Model message
+## Source event 45 · Main agent: Model message
 
 ```text
 Replies:
@@ -671,7 +671,7 @@ Let me proceed with tools.
 
 
 
-## Source event #46 · Main agent: Model tool call: ToolSearch (call_00_7lpb0dm68kzba7ql741cdof8)
+## Source event 46 · Main agent: Model tool call: ToolSearch (call_00_7lpb0dm68kzba7ql741cdof8)
 
 ```text
 {
@@ -683,7 +683,7 @@ Let me proceed with tools.
 
 
 <details>
-<summary>Source event #47 · Main agent: Tool result: call_00_7lpb0dm68kzba7ql741cdof8 (is_error=False)</summary>
+<summary>Source event 47 · Main agent: Tool result: call_00_7lpb0dm68kzba7ql741cdof8 (is_error=False)</summary>
 
 
 ```text
@@ -703,7 +703,7 @@ Let me proceed with tools.
 </details>
 
 
-## Source event #48 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_01_3n06ue2n2er0b1yuncfptx92)
+## Source event 48 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_01_3n06ue2n2er0b1yuncfptx92)
 
 ```text
 {
@@ -716,7 +716,7 @@ Let me proceed with tools.
 
 
 <details>
-<summary>Source event #49 · Main agent: Tool result: call_01_3n06ue2n2er0b1yuncfptx92 (is_error=False)</summary>
+<summary>Source event 49 · Main agent: Tool result: call_01_3n06ue2n2er0b1yuncfptx92 (is_error=False)</summary>
 
 
 ```text
@@ -732,7 +732,7 @@ Let me proceed with tools.
 </details>
 
 
-## Source event #50 · Main agent: Model message
+## Source event 50 · Main agent: Model message
 
 ```text
 Existing events on Oct 18: 09:00-12:00 (Film Review Editing), 13:00-15:00 (Lunch). The slot 10:00-12:00 overlaps with Film Review Editing 09:00-12:00. So I need to delete that event (it's in the time slot).
@@ -753,7 +753,7 @@ I'll do: delete contact, reply email, delete calendar event — parallel. Then a
 
 
 
-## Source event #51 · Main agent: Model tool call: mcp__gaia2__Contacts__delete_contact (call_00_5jnclstdclesvkr64v0uuaif)
+## Source event 51 · Main agent: Model tool call: mcp__gaia2__Contacts__delete_contact (call_00_5jnclstdclesvkr64v0uuaif)
 
 ```text
 {
@@ -763,7 +763,7 @@ I'll do: delete contact, reply email, delete calendar event — parallel. Then a
 
 
 
-## Source event #52 · Main agent: Model tool call: mcp__gaia2__Emails__reply_to_email (call_01_f7ayxugl5v0bdjl1lw0k79x5)
+## Source event 52 · Main agent: Model tool call: mcp__gaia2__Emails__reply_to_email (call_01_f7ayxugl5v0bdjl1lw0k79x5)
 
 ```text
 {
@@ -775,7 +775,7 @@ I'll do: delete contact, reply email, delete calendar event — parallel. Then a
 
 
 
-## Source event #53 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_02_u9tasibycb4fn84xf2wub9r6)
+## Source event 53 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_02_u9tasibycb4fn84xf2wub9r6)
 
 ```text
 {
@@ -786,7 +786,7 @@ I'll do: delete contact, reply email, delete calendar event — parallel. Then a
 
 
 <details>
-<summary>Source event #54 · Main agent: Tool result: call_00_5jnclstdclesvkr64v0uuaif (is_error=False)</summary>
+<summary>Source event 54 · Main agent: Tool result: call_00_5jnclstdclesvkr64v0uuaif (is_error=False)</summary>
 
 
 ```text
@@ -803,7 +803,7 @@ I'll do: delete contact, reply email, delete calendar event — parallel. Then a
 
 
 <details>
-<summary>Source event #55 · Main agent: Tool result: call_01_f7ayxugl5v0bdjl1lw0k79x5 (is_error=False)</summary>
+<summary>Source event 55 · Main agent: Tool result: call_01_f7ayxugl5v0bdjl1lw0k79x5 (is_error=False)</summary>
 
 
 ```text
@@ -820,7 +820,7 @@ I'll do: delete contact, reply email, delete calendar event — parallel. Then a
 
 
 <details>
-<summary>Source event #56 · Main agent: Tool result: call_02_u9tasibycb4fn84xf2wub9r6 (is_error=False)</summary>
+<summary>Source event 56 · Main agent: Tool result: call_02_u9tasibycb4fn84xf2wub9r6 (is_error=False)</summary>
 
 
 ```text
@@ -836,7 +836,7 @@ I'll do: delete contact, reply email, delete calendar event — parallel. Then a
 </details>
 
 
-## Source event #57 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_00_ddf7jp11fvx30w03wkskd7v7)
+## Source event 57 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_00_ddf7jp11fvx30w03wkskd7v7)
 
 ```text
 {
@@ -855,7 +855,7 @@ I'll do: delete contact, reply email, delete calendar event — parallel. Then a
 
 
 <details>
-<summary>Source event #58 · Main agent: Tool result: call_00_ddf7jp11fvx30w03wkskd7v7 (is_error=False)</summary>
+<summary>Source event 58 · Main agent: Tool result: call_00_ddf7jp11fvx30w03wkskd7v7 (is_error=False)</summary>
 
 
 ```text
@@ -871,7 +871,7 @@ I'll do: delete contact, reply email, delete calendar event — parallel. Then a
 </details>
 
 
-## Source event #59 · Main agent: Model message
+## Source event 59 · Main agent: Model message
 
 ```text
 Event created. Let me verify the calendar for Oct 18.
@@ -881,7 +881,7 @@ Also confirm Rohan is gone from contacts (done). Let me verify calendar.
 
 
 
-## Source event #60 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_i0rq2g31124nbkbsfnt8yd6q)
+## Source event 60 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_i0rq2g31124nbkbsfnt8yd6q)
 
 ```text
 {
@@ -894,7 +894,7 @@ Also confirm Rohan is gone from contacts (done). Let me verify calendar.
 
 
 <details>
-<summary>Source event #61 · Main agent: Tool result: call_00_i0rq2g31124nbkbsfnt8yd6q (is_error=False)</summary>
+<summary>Source event 61 · Main agent: Tool result: call_00_i0rq2g31124nbkbsfnt8yd6q (is_error=False)</summary>
 
 
 ```text
@@ -910,7 +910,7 @@ Also confirm Rohan is gone from contacts (done). Let me verify calendar.
 </details>
 
 
-## Source event #62 · Main agent: Model message
+## Source event 62 · Main agent: Model message
 
 ```text
 All done. The event is on the calendar 10:00-12:00 with attendees Nalinee and Aurélie — the users' own calendar event, but wait: since it's a surprise party for the user, adding it to his calendar with attendees may alert him... but that's what he asked.
@@ -924,7 +924,7 @@ Actually, is it expected that the agent sends a final message? The task says "On
 
 
 
-## Source event #63 · Main agent: Model message
+## Source event 63 · Main agent: Model message
 
 ```text
 Everything is set up. Summary of what was done:
@@ -941,7 +941,7 @@ Everything is set up. Summary of what was done:
 
 
 <details>
-<summary>Source event #64 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 64 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -961,7 +961,7 @@ Everything is set up. Summary of what was done:
 
 
 <details>
-<summary>Source event #65 · Judge: Judge rationale</summary>
+<summary>Source event 65 · Judge: Judge rationale</summary>
 
 
 ```text

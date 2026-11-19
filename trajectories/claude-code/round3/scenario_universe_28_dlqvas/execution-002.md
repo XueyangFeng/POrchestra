@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #56 · Main agent: Tool result: call_00_zuaam3ffnctb4mbvtmjxswph (is_error=False)</summary>
+<summary>Source event 56 · Main agent: Tool result: call_00_zuaam3ffnctb4mbvtmjxswph (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #57 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_sl8krxxvsl8qfdhg7z4n1flu)
+## Source event 57 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_sl8krxxvsl8qfdhg7z4n1flu)
 
 ```text
 {
@@ -32,7 +32,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #58 · Main agent: Tool result: call_00_sl8krxxvsl8qfdhg7z4n1flu (is_error=False)</summary>
+<summary>Source event 58 · Main agent: Tool result: call_00_sl8krxxvsl8qfdhg7z4n1flu (is_error=False)</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #59 · Main agent: Model message
+## Source event 59 · Main agent: Model message
 
 ```text
 Zephyrine De Smet 51. All 104 seen.
@@ -207,7 +207,7 @@ Let me compute via python quickly.
 
 
 
-## Source event #60 · Main agent: Model message
+## Source event 60 · Main agent: Model message
 
 ```text
 Let me verify the arithmetic programmatically.
@@ -215,7 +215,7 @@ Let me verify the arithmetic programmatically.
 
 
 
-## Source event #61 · Main agent: Model tool call: Bash (call_00_jbe9oxd5y0emt5bwr9k7aeui)
+## Source event 61 · Main agent: Model tool call: Bash (call_00_jbe9oxd5y0emt5bwr9k7aeui)
 
 ```text
 {
@@ -226,7 +226,7 @@ Let me verify the arithmetic programmatically.
 
 
 <details>
-<summary>Source event #62 · Main agent: Tool result: call_00_jbe9oxd5y0emt5bwr9k7aeui (is_error=False)</summary>
+<summary>Source event 62 · Main agent: Tool result: call_00_jbe9oxd5y0emt5bwr9k7aeui (is_error=False)</summary>
 
 
 ```text
@@ -250,7 +250,7 @@ Shell cwd was reset to /workspace
 </details>
 
 
-## Source event #63 · Main agent: Model message
+## Source event 63 · Main agent: Model message
 
 ```text
 Confirmed. Belgium (6h total). Closest in age to 79 among Belgians: two at 77. Alphabetically "Colette Van der Meulen" first.
@@ -264,7 +264,7 @@ Let me load send_message_to_user.
 
 
 
-## Source event #64 · Main agent: Model tool call: ToolSearch (call_00_4eicshquwjpvgyqiefezgxyc)
+## Source event 64 · Main agent: Model tool call: ToolSearch (call_00_4eicshquwjpvgyqiefezgxyc)
 
 ```text
 {
@@ -276,7 +276,7 @@ Let me load send_message_to_user.
 
 
 <details>
-<summary>Source event #65 · Main agent: Tool result: call_00_4eicshquwjpvgyqiefezgxyc (is_error=False)</summary>
+<summary>Source event 65 · Main agent: Tool result: call_00_4eicshquwjpvgyqiefezgxyc (is_error=False)</summary>
 
 
 ```text
@@ -292,7 +292,7 @@ Let me load send_message_to_user.
 </details>
 
 
-## Source event #66 · Main agent: Model message
+## Source event 66 · Main agent: Model message
 
 ```text
 Compose the answer with the breakdown, country totals, and final email.
@@ -310,7 +310,7 @@ Closest in age: Colette Van der Meulen, 77 (2 years younger), colette.vandermeul
 
 
 
-## Source event #67 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_tllbj6kbcwl5ogeu7zr3huy6)
+## Source event 67 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_tllbj6kbcwl5ogeu7zr3huy6)
 
 ```text
 {
@@ -321,7 +321,7 @@ Closest in age: Colette Van der Meulen, 77 (2 years younger), colette.vandermeul
 
 
 <details>
-<summary>Source event #68 · Main agent: Tool result: call_00_tllbj6kbcwl5ogeu7zr3huy6 (is_error=False)</summary>
+<summary>Source event 68 · Main agent: Tool result: call_00_tllbj6kbcwl5ogeu7zr3huy6 (is_error=False)</summary>
 
 
 ```text
@@ -337,7 +337,7 @@ Closest in age: Colette Van der Meulen, 77 (2 years younger), colette.vandermeul
 </details>
 
 
-## Source event #69 · Main agent: Model message
+## Source event 69 · Main agent: Model message
 
 ```text
 Done. Summary of what I did and found:
@@ -357,7 +357,7 @@ The answer was sent to you via the assistant interface. No application data was 
 
 
 <details>
-<summary>Source event #70 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 70 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -380,7 +380,7 @@ The answer was sent to you via the assistant interface. No application data was 
 
 
 <details>
-<summary>Source event #71 · Judge: Judge rationale</summary>
+<summary>Source event 71 · Judge: Judge rationale</summary>
 
 
 ```text

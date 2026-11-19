@@ -1,6 +1,8 @@
 # scenario_universe_25_zp7eup
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_25_zp7eup/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_25_zp7eup/README.md) · [Codex](../../codex/round1/scenario_universe_25_zp7eup/README.md) · [OpenCode](../../opencode/round1/scenario_universe_25_zp7eup/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the reference person from tomorrow&#x27;s personal phone call, clean the contacts in their city, and notify the project update meeting attendees. This forms the first logical part of the task.
 
@@ -98,11 +100,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #59
+**Initial harness configuration** · Source event 59
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous subtask successfully identified the phone call attendee (Khalifa Al-Mansoori, khalifa.almansoori@gaia2mail.com), deleted the matching contacts, and emailed the project meeting attendees. Now I need to find the retired lawyer, retrieve emails from Khalifa Al-Mansoori, forward them to that lawyer, and report the count to the user.
 

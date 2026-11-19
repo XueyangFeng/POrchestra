@@ -1,6 +1,8 @@
 # scenario_universe_26_naxywx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_26_naxywx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_26_naxywx/README.md) · [Codex](../../codex/round2/scenario_universe_26_naxywx/README.md) · [OpenCode](../../opencode/round2/scenario_universe_26_naxywx/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to perform the initial actions: finding the user&#x27;s address, sending the chat message to Kofi Ogunlesi, ordering the initial cab, and reporting the message content to the user as requested. I also need to find Kofi&#x27;s email address now to be prepared for the conditional email step later.
 
@@ -93,7 +95,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #20
+**Harness configuration updated** · Source event 20
 
 **1. Sub-agent revision request**
 
@@ -102,7 +104,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Assigned subtask complete: user Åse Kjellstad (Frognerveien 34, 0266 Oslo, Norway); Kofi Ogunlesi chat id 1b800fa6-2085-4bdd-a015-596069548f14, email kofi.ogunlesi@gaia2mail.com; chat message sent (id 7e630b385eda435ea2fb8bc292df93be); Default cab booked (ride ca5380b0fb5d30db43b4905d14d91312) Frognerveien 34, 0266 Oslo, Norway -> Fosswinckels gate 10, Bergen at 2024-10-15 12:00; user informed of message content. New environment notification: calendar events added by Kofi Ogunlesi and by Kofi Owusu. Follow-up per original turn requires inspecting the 'apartment search' event location, possibly cancelling/reordering the cab, and emailing Kofi — tools not available in this subtask.
 ```
 <details>
-<summary>Request and evidence · source event #18</summary>
+<summary>Request and evidence · source event 18</summary>
 
 
 ```text
@@ -150,7 +152,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The environment has updated with new calendar events from Kofi Ogunlesi. I need the SubAgent to inspect these events and execute the conditional logic regarding the cab destination and the email notification to Kofi. The SubAgent requires additional tools (Calendar, Emails, Cabs cancel) to proceed.
 

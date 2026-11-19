@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: tool result</summary>
+<summary>Source event 49 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #50 · Sub-agent 1: model output
+## Source event 50 · Sub-agent 1: model output
 
 ```text
 Still no new 8000 listings. Continuing monitoring with longer wait cycles.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 1: tool result</summary>
+<summary>Source event 51 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ None
 
 
 <details>
-<summary>Source event #52 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 52 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ Environment notifications:
 </details>
 
 
-## Source event #53 · Sub-agent 1: model output
+## Source event 53 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -79,7 +79,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 1: tool result</summary>
+<summary>Source event 54 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -93,7 +93,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 1: model output
+## Source event 55 · Sub-agent 1: model output
 
 ```text
 New 8000-zip listing found: `1604d19e9ef166d1f693b29e9a21ef78` (Aarhus Riverside Condo). Saving immediately.
@@ -111,7 +111,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 1: tool result</summary>
+<summary>Source event 56 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -125,7 +125,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #57 · Sub-agent 1: model output
+## Source event 57 · Sub-agent 1: model output
 
 ```text
 Save #1 complete. Recording timestamp.
@@ -141,7 +141,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 1: tool result</summary>
+<summary>Source event 58 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -155,7 +155,7 @@ Action:
 </details>
 
 
-## Source event #59 · Sub-agent 1: model output
+## Source event 59 · Sub-agent 1: model output
 
 ```text
 Save #1 recorded: 07:01:23 (epoch 1728975683.277) — Aarhus Riverside Condo, 8000. Continuing monitoring.
@@ -173,7 +173,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 1: tool result</summary>
+<summary>Source event 60 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ None
 
 
 <details>
-<summary>Source event #61 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 61 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -201,7 +201,7 @@ Environment notifications:
 </details>
 
 
-## Source event #62 · Sub-agent 1: model output
+## Source event 62 · Sub-agent 1: model output
 
 ```text
 Action:

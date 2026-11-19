@@ -1,6 +1,8 @@
 # scenario_universe_29_0q1dww
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_29_0q1dww/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_29_0q1dww/README.md) · [Codex](../../codex/round1/scenario_universe_29_0q1dww/README.md) · [OpenCode](../../opencode/round1/scenario_universe_29_0q1dww/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the product, its variants, and all applicable discount codes to determine the &#x27;best&#x27; ones as per the user&#x27;s criteria. Simultaneously, I need to identify the two sisters based on the calendar/message history to prepare for the conditional group chat requirement.
 
@@ -98,11 +100,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #49
+**Initial harness configuration** · Source event 49
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 Place the first order using the best discount code (KK5MNXMN8Q, 67% off) for 3 of the Darth Vader child costume variant &#x27;85b94f26d29b46e9aea3899c9f839695&#x27;. Check the order status and message the user with the discount percentage and the order total rounded to 2 decimal places using AgentUserInterface__send_message_to_user.
 
@@ -177,7 +179,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S2 configuration v2
 
-**Harness configuration updated** · Source event #68
+**Harness configuration updated** · Source event 68
 
 **1. Sub-agent revision request**
 
@@ -186,7 +188,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 Subtask completed: cart cleared, 3x variant 85b94f26d29b46e9aea3899c9f839695 added, checkout with KK5MNXMN8Q produced order 0db1b45eeeff4d5d89280ad38f2a2343 (status processed, total 39.59009999999999, 3 items at 39.99 each), and user message sent reporting 67% and $39.59. Environment notification now reports this order was cancelled.
 ```
 <details>
-<summary>Request and evidence · source event #66</summary>
+<summary>Request and evidence · source event 66</summary>
 
 
 ```text
@@ -236,7 +238,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #3
+`revise_task` · Source event 3
 
 The first order (67% discount) was cancelled. I must now instruct the SubAgent to proceed with the next best discount code (49%) and fulfill the additional requirements: messaging the user about the retry and setting up the group chat with the sisters to send the specified message. The SubAgent also needs to be prepared for the possibility of further cancellations leading to the final discount code (6%).
 

@@ -1,6 +1,8 @@
 # scenario_universe_28_znpabl
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_28_znpabl/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_28_znpabl/README.md) · [Codex](../../codex/round3/scenario_universe_28_znpabl/README.md) · [OpenCode](../../opencode/round3/scenario_universe_28_znpabl/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial setup: save the apartment, create the calendar event, find the contact&#x27;s email, send the initial confirmation request, and notify the user about the sent email. The current date is 2024-10-15 (Tuesday), so &#x27;this Friday&#x27; is 2024-10-18.
 
@@ -95,7 +97,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #20
+**Harness configuration updated** · Source event 20
 
 **1. Sub-agent revision request**
 
@@ -104,7 +106,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Initial task complete: Herning Hytte (id 4121afe7523043de82f02ace2ee4a7f5, Østergade 14, Herning) saved; calendar event acea4a8d991e2e64e9a43daa76d19dd2 created 2024-10-18 15:00-16:00 'View the apartment', tag Work, attendee Nonglak Srisawat; email a7a6559237dfccab98f2b1970584c7a3 sent to nonglak.srisawat@gaia2mail.com; user notified. New environment notification reports 4 incoming emails that may include Nonglak's reply.
 ```
 <details>
-<summary>Request and evidence · source event #18</summary>
+<summary>Request and evidence · source event 18</summary>
 
 
 ```text
@@ -158,7 +160,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent successfully completed the initial steps (saving the apartment, creating the event, and sending the initial email). New emails have arrived, and the SubAgent needs email-reading tools to check for a response from Nonglak Srisawat to handle the potential rescheduling as requested by the user.
 

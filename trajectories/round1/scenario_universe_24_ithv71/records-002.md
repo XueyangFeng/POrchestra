@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #40 · Judge rationale</summary>
+<summary>Source event 40 · Judge rationale</summary>
 
 
 ```text

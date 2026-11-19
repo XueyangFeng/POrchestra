@@ -1,6 +1,8 @@
 # scenario_universe_27_nv66lz
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_27_nv66lz/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_27_nv66lz/README.md) · [Codex](../../codex/round2/scenario_universe_27_nv66lz/README.md) · [OpenCode](../../opencode/round2/scenario_universe_27_nv66lz/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #6
+**Initial harness configuration** · Source event 6
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the subject the user teaches to proceed with the rest of the request. I will search the user&#x27;s own contact details and relevant communications to find this information.
 
@@ -85,11 +87,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #20
+**Initial harness configuration** · Source event 20
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The teaching subject &#x27;History&#x27; has been identified. Now I need to find the senders of emails mentioning &#x27;History&#x27; in the subject, determine their most frequent city, and find the oldest conversation mentioning that city.
 
@@ -169,11 +171,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #85
+**Initial harness configuration** · Source event 85
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The previous attempt identified &#x27;Berlin&#x27; as the target city but reached its step limit before determining which of the many matching conversations in Messages and Chats is the oldest. I need a SubAgent to examine the provided conversation IDs, find the one with the earliest message mentioning &#x27;Berlin&#x27;, and report its title.
 
@@ -242,11 +244,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #147
+**Initial harness configuration** · Source event 147
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 Attempt 3 scanned all Messages conversations but only 10 out of 44 Chats conversations that mention &#x27;Berlin&#x27;. The current oldest mention is in a Chat with title &#x27;Catching up with friends&#x27; (ID: 01f27fa32ab546899bf0390f8b92d88f) from 2024-08-04. I need to scan the remaining 34 Chats conversation IDs to ensure no older mention exists and then report the final winner&#x27;s title to the user.
 
@@ -311,11 +313,11 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 
 ### S5 configuration v1
 
-**Initial harness configuration** · Source event #207
+**Initial harness configuration** · Source event 207
 
 **Initial delegation**
 
-`delegate_task` · Source event #5
+`delegate_task` · Source event 5
 
 We have scanned all relevant Messages and most Chats for the city &#x27;Berlin&#x27; (which was determined to be the most common city of relevant email senders). We found a candidate for the oldest conversation title: &#x27;Katharina Müller-Schmidt&#x27; with a &#x27;Berlin&#x27; mention at timestamp 1722686700. Only 8 Chat conversation IDs remain to be checked. This final step will verify the remaining IDs and provide the final answer to the user.
 

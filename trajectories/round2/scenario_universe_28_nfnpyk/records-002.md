@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #42 · Sub-agent 2: model output</summary>
+<summary>Source event 42 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -27,7 +27,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: tool result</summary>
+<summary>Source event 43 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -42,7 +42,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: model output</summary>
+<summary>Source event 44 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: tool result</summary>
+<summary>Source event 45 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: model output</summary>
+<summary>Source event 46 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result</summary>
+<summary>Source event 47 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -118,7 +118,7 @@ ReturnedEmails(emails=[Email(sender='nalinee.wongtrakul@gaia2mail.com', recipien
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: model output</summary>
+<summary>Source event 48 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -141,7 +141,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: tool result</summary>
+<summary>Source event 49 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -156,7 +156,7 @@ ReturnedEmails(emails=[Email(sender='soren.kjaer@gaia2mail.com', recipients=['as
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: model output</summary>
+<summary>Source event 50 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -257,7 +257,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 2: tool result</summary>
+<summary>Source event 51 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -272,7 +272,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Judge rationale</summary>
+<summary>Source event 52 · Judge rationale</summary>
 
 
 ```text

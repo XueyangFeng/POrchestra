@@ -1,6 +1,8 @@
 # scenario_universe_23_w5th2a
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_23_w5th2a/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_23_w5th2a/README.md) · [Codex](../../codex/round1/scenario_universe_23_w5th2a/README.md) · [OpenCode](../../opencode/round1/scenario_universe_23_w5th2a/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to analyze emails from the first half of September to determine which gender sent the most emails and then find the age of the oldest contact of that gender. This involves listing emails, looking up contact details for each sender, and performing the necessary calculations.
 

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #4 · Sub-agent 1: model output
+## Source event 4 · Sub-agent 1: model output
 
 ```text
 I'll start by listing all apartments in RentAFlat.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: tool result</summary>
+<summary>Source event 5 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #6 · Sub-agent 1: model output
+## Source event 6 · Sub-agent 1: model output
 
 ```text
 I have the full apartment list. The top prices are 4000 (2 properties), 3800 (1), and 3500 (7 properties). Before finalizing, I need to check availability via apartment details. Let me check the top candidates and also the City API call limit.
@@ -70,7 +70,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -84,7 +84,7 @@ Apartment(name='Geneva Seaside', location='Quai du Général-Guisan, Geneva', zi
 </details>
 
 
-## Source event #8 · Sub-agent 1: model output
+## Source event 8 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -99,7 +99,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Apartment(name='Geneva Luxury', location='Rue de Lausanne 45, Geneva', zip_code=
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 Details show no 'available' field, so all listed properties are presumably available. Let me check the 3800 property and the City API limits.
@@ -130,7 +130,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -144,7 +144,7 @@ Apartment(name='Zurich Uptown', location='Talstrasse, Zurich', zip_code='8001', 
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 Now let me check the City API limits before fetching crime rates (I may need up to 7 unique zip codes).
@@ -159,7 +159,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -173,7 +173,7 @@ Action:
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 API limit is 100 — plenty. The top 3 most expensive: two at 4000 (Geneva Seaside, Geneva Luxury, both zip 1201) and one at 3800 (Zurich Uptown, zip 8001). No tie at rank 3 (3800 is unique). Both properties with details showed no availability restriction. Now fetching crime rates for zips 1201 and 8001.
@@ -190,7 +190,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -204,7 +204,7 @@ CrimeDataPoint(violent_crime=49.94, property_crime=1.1)
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -219,7 +219,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -233,7 +233,7 @@ CrimeDataPoint(violent_crime=7.96, property_crime=44.56)
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 Zip 1201: (49.94 + 1.1)/2 = 25.52. Zip 8001: (7.96 + 44.56)/2 = 26.26. Zip 8001 has the higher average overall crime rate. In zip 8001, the most expensive property from the step‑1 set is Zurich Uptown (3800, 2000 sq ft). Sending only the square footage.
@@ -250,7 +250,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text

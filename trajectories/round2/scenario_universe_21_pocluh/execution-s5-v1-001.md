@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #214 · Sub-agent 5: user / environment input</summary>
+<summary>Source event 214 · Sub-agent 5: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Place 5 separate orders for one unit each of the 'Herbaceous' product variant (i
 </details>
 
 
-## Source event #215 · Sub-agent 5: model output
+## Source event 215 · Sub-agent 5: model output
 
 ```text
 I'll start by checking the current cart state.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #216 · Sub-agent 5: tool result</summary>
+<summary>Source event 216 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #217 · Sub-agent 5: model output
+## Source event 217 · Sub-agent 5: model output
 
 ```text
 Cart is empty. Placing order 1: add 1 unit of the item.
@@ -66,7 +66,7 @@ Action:
 
 
 <details>
-<summary>Source event #218 · Sub-agent 5: tool result</summary>
+<summary>Source event 218 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ Action:
 </details>
 
 
-## Source event #219 · Sub-agent 5: model output
+## Source event 219 · Sub-agent 5: model output
 
 ```text
 Item added. Now performing checkout for order 1.
@@ -95,7 +95,7 @@ Action:
 
 
 <details>
-<summary>Source event #220 · Sub-agent 5: tool result</summary>
+<summary>Source event 220 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -109,7 +109,7 @@ Action:
 </details>
 
 
-## Source event #221 · Sub-agent 5: model output
+## Source event 221 · Sub-agent 5: model output
 
 ```text
 Order 1 placed (order id: 2597e81017444074953ad5d0c6616333). Verifying cart is empty before order 2.
@@ -124,7 +124,7 @@ Action:
 
 
 <details>
-<summary>Source event #222 · Sub-agent 5: tool result</summary>
+<summary>Source event 222 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -138,7 +138,7 @@ Action:
 </details>
 
 
-## Source event #223 · Sub-agent 5: model output
+## Source event 223 · Sub-agent 5: model output
 
 ```text
 Cart empty after order 1. Adding item for order 2.
@@ -156,7 +156,7 @@ Action:
 
 
 <details>
-<summary>Source event #224 · Sub-agent 5: tool result</summary>
+<summary>Source event 224 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ Action:
 </details>
 
 
-## Source event #225 · Sub-agent 5: model output
+## Source event 225 · Sub-agent 5: model output
 
 ```text
 Adding done; performing checkout for order 2.
@@ -185,7 +185,7 @@ Action:
 
 
 <details>
-<summary>Source event #226 · Sub-agent 5: tool result</summary>
+<summary>Source event 226 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -199,7 +199,7 @@ Action:
 </details>
 
 
-## Source event #227 · Sub-agent 5: model output
+## Source event 227 · Sub-agent 5: model output
 
 ```text
 Order 2 placed (4a8fbe70433f46c48db82f94f217280f). Verifying cart empty before order 3.
@@ -214,7 +214,7 @@ Action:
 
 
 <details>
-<summary>Source event #228 · Sub-agent 5: tool result</summary>
+<summary>Source event 228 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -228,7 +228,7 @@ Action:
 </details>
 
 
-## Source event #229 · Sub-agent 5: model output
+## Source event 229 · Sub-agent 5: model output
 
 ```text
 Cart empty. Adding item for order 3.
@@ -246,7 +246,7 @@ Action:
 
 
 <details>
-<summary>Source event #230 · Sub-agent 5: tool result</summary>
+<summary>Source event 230 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -260,7 +260,7 @@ Action:
 </details>
 
 
-## Source event #231 · Sub-agent 5: model output
+## Source event 231 · Sub-agent 5: model output
 
 ```text
 Performing checkout for order 3.
@@ -275,7 +275,7 @@ Action:
 
 
 <details>
-<summary>Source event #232 · Sub-agent 5: tool result</summary>
+<summary>Source event 232 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -289,7 +289,7 @@ Action:
 </details>
 
 
-## Source event #233 · Sub-agent 5: model output
+## Source event 233 · Sub-agent 5: model output
 
 ```text
 Order 3 placed (7addd671ddb747b8b18aafc459a483a9). Verifying cart before order 4.
@@ -304,7 +304,7 @@ Action:
 
 
 <details>
-<summary>Source event #234 · Sub-agent 5: tool result</summary>
+<summary>Source event 234 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -318,7 +318,7 @@ Action:
 </details>
 
 
-## Source event #235 · Sub-agent 5: model output
+## Source event 235 · Sub-agent 5: model output
 
 ```text
 Cart empty. Adding item for order 4.
@@ -336,7 +336,7 @@ Action:
 
 
 <details>
-<summary>Source event #236 · Sub-agent 5: tool result</summary>
+<summary>Source event 236 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -350,7 +350,7 @@ Action:
 </details>
 
 
-## Source event #237 · Sub-agent 5: model output
+## Source event 237 · Sub-agent 5: model output
 
 ```text
 Performing checkout for order 4.
@@ -365,7 +365,7 @@ Action:
 
 
 <details>
-<summary>Source event #238 · Sub-agent 5: tool result</summary>
+<summary>Source event 238 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -379,7 +379,7 @@ Action:
 </details>
 
 
-## Source event #239 · Sub-agent 5: model output
+## Source event 239 · Sub-agent 5: model output
 
 ```text
 Order 4 placed (4d9507c173df4d09873c5bccecf6f909). Verifying cart before the final order.
@@ -394,7 +394,7 @@ Action:
 
 
 <details>
-<summary>Source event #240 · Sub-agent 5: tool result</summary>
+<summary>Source event 240 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -408,7 +408,7 @@ Action:
 </details>
 
 
-## Source event #241 · Sub-agent 5: model output
+## Source event 241 · Sub-agent 5: model output
 
 ```text
 Cart empty. Adding item for order 5.
@@ -426,7 +426,7 @@ Action:
 
 
 <details>
-<summary>Source event #242 · Sub-agent 5: tool result</summary>
+<summary>Source event 242 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -440,7 +440,7 @@ Action:
 </details>
 
 
-## Source event #243 · Sub-agent 5: model output
+## Source event 243 · Sub-agent 5: model output
 
 ```text
 Performing checkout for order 5.
@@ -455,7 +455,7 @@ Action:
 
 
 <details>
-<summary>Source event #244 · Sub-agent 5: tool result</summary>
+<summary>Source event 244 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -469,7 +469,7 @@ Action:
 </details>
 
 
-## Source event #245 · Sub-agent 5: model output
+## Source event 245 · Sub-agent 5: model output
 
 ```text
 All 5 orders placed. Final verification of cart state.
@@ -484,7 +484,7 @@ Action:
 
 
 <details>
-<summary>Source event #246 · Sub-agent 5: tool result</summary>
+<summary>Source event 246 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -498,7 +498,7 @@ Action:
 </details>
 
 
-## Source event #247 · Sub-agent 5: model output
+## Source event 247 · Sub-agent 5: model output
 
 ```text
 All 5 orders for the "Herbaceous" item have been placed, each preceded by a cart check and containing exactly 1 unit.
@@ -560,7 +560,7 @@ Action:
 
 
 <details>
-<summary>Source event #248 · Sub-agent 5: tool result</summary>
+<summary>Source event 248 · Sub-agent 5: tool result</summary>
 
 
 ```text

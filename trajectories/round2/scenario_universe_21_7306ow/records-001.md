@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #1 · Main agent — decision 1: delegate_task</summary>
+<summary>Source event 1 · Main agent — decision 1: delegate_task</summary>
 
 
 ```text
@@ -37,7 +37,7 @@ SUB-AGENT SESSION 1
 
 
 <details>
-<summary>Source event #2 · Sub-agent 1: Initial system configuration</summary>
+<summary>Source event 2 · Sub-agent 1: Initial system configuration</summary>
 
 
 ```text
@@ -198,7 +198,7 @@ If you exceed this limit, you have to wait for 30 minutes to make more calls. Re
 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -211,7 +211,7 @@ Find the contact named 'Axel' and identify the city he lives in. Then, find all 
 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: tool result</summary>
+<summary>Source event 4 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -232,7 +232,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: tool result</summary>
+<summary>Source event 5 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -253,7 +253,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: model output</summary>
+<summary>Source event 6 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -273,7 +273,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -288,7 +288,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: model output</summary>
+<summary>Source event 8 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -308,7 +308,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -323,7 +323,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: model output</summary>
+<summary>Source event 10 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -343,7 +343,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -358,7 +358,7 @@ CrimeDataPoint(violent_crime=43.07, property_crime=27.88)
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: model output</summary>
+<summary>Source event 12 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -378,7 +378,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -393,7 +393,7 @@ CrimeDataPoint(violent_crime=38.08, property_crime=1.99)
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: model output</summary>
+<summary>Source event 14 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -413,7 +413,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -428,7 +428,7 @@ CrimeDataPoint(violent_crime=1.14, property_crime=15.61)
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: model output</summary>
+<summary>Source event 16 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -448,7 +448,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -463,7 +463,7 @@ CrimeDataPoint(violent_crime=29.53, property_crime=46.31)
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: model output</summary>
+<summary>Source event 18 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -489,7 +489,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -504,7 +504,7 @@ None
 
 
 <details>
-<summary>Source event #20 · Judge rationale</summary>
+<summary>Source event 20 · Judge rationale</summary>
 
 
 ```text

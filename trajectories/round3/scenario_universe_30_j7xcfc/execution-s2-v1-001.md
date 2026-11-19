@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #41 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 41 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #42 · Sub-agent 2: model output
+## Source event 42 · Sub-agent 2: model output
 
 ```text
 I'll start by adding the ebook to the cart, then verify the cart contents before checkout.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: tool result</summary>
+<summary>Source event 43 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #44 · Sub-agent 2: model output
+## Source event 44 · Sub-agent 2: model output
 
 ```text
 Item added. Let me verify the cart contents.
@@ -66,7 +66,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: tool result</summary>
+<summary>Source event 45 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ Action:
 </details>
 
 
-## Source event #46 · Sub-agent 2: model output
+## Source event 46 · Sub-agent 2: model output
 
 ```text
 Cart verified: 5 units of the ebook (Ebook, First edition, English). Now checking out.
@@ -95,7 +95,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result</summary>
+<summary>Source event 47 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -109,7 +109,7 @@ b93541e2a6f04e339fc326de64c232d9
 </details>
 
 
-## Source event #48 · Sub-agent 2: model output
+## Source event 48 · Sub-agent 2: model output
 
 ```text
 Order created with ID `b93541e2a6f04e339fc326de64c232d9`. Let me verify the cart is now empty (purchase confirmed).
@@ -124,7 +124,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: tool result</summary>
+<summary>Source event 49 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -138,7 +138,7 @@ Action:
 </details>
 
 
-## Source event #50 · Sub-agent 2: model output
+## Source event 50 · Sub-agent 2: model output
 
 ```text
 Purchase confirmed (cart now empty). Now sending individual emails to each contact.
@@ -157,7 +157,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 2: tool result</summary>
+<summary>Source event 51 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -171,7 +171,7 @@ a7a6559237dfccab98f2b1970584c7a3
 </details>
 
 
-## Source event #52 · Sub-agent 2: model output
+## Source event 52 · Sub-agent 2: model output
 
 ```text
 Email 1 sent to Astrid. Sending to Maureen Fletcher.
@@ -190,7 +190,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 2: tool result</summary>
+<summary>Source event 53 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -204,7 +204,7 @@ ce025aebc06aec5cea39dd7fb817bee5
 </details>
 
 
-## Source event #54 · Sub-agent 2: model output
+## Source event 54 · Sub-agent 2: model output
 
 ```text
 Emails 1 and 2 sent. Now sending to Bridget MacTavish using the email exactly as provided (with the space noted in the context).
@@ -223,7 +223,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 2: tool result</summary>
+<summary>Source event 55 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -237,7 +237,7 @@ d5c10c7486bda98ac6f9fb05dd3707df
 </details>
 
 
-## Source event #56 · Sub-agent 2: model output
+## Source event 56 · Sub-agent 2: model output
 
 ```text
 Now sending to Geertruida van der Meer.
@@ -256,7 +256,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 2: tool result</summary>
+<summary>Source event 57 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -270,7 +270,7 @@ Action:
 </details>
 
 
-## Source event #58 · Sub-agent 2: model output
+## Source event 58 · Sub-agent 2: model output
 
 ```text
 Now sending to Kymberley Janssen, the final contact.
@@ -289,7 +289,7 @@ Action:
 
 
 <details>
-<summary>Source event #59 · Sub-agent 2: tool result</summary>
+<summary>Source event 59 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -303,7 +303,7 @@ da9454bfdd5ccd0849ec96fe31091323
 </details>
 
 
-## Source event #60 · Sub-agent 2: model output
+## Source event 60 · Sub-agent 2: model output
 
 ```text
 All tasks complete: 5 units purchased, order confirmed, and 5 individual emails sent with subject 'New Book'.
@@ -353,7 +353,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 2: tool result</summary>
+<summary>Source event 61 · Sub-agent 2: tool result</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_26_7wzlha
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_26_7wzlha/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_26_7wzlha/README.md) · [Codex](../../codex/round3/scenario_universe_26_7wzlha/README.md) · [OpenCode](../../opencode/round3/scenario_universe_26_7wzlha/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to gather all necessary information: current user&#x27;s city, a list of retired contacts in that city, the cousin&#x27;s address (former environmental consultant), and the next available day where the user is free after 4 PM.
 
@@ -89,11 +91,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #43
+**Initial harness configuration** · Source event 43
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 SubAgent 1 has identified the date (Friday, 2024-10-18), the retired contacts in Oslo, and the cousin&#x27;s details. Now I need to send the invitations, notify the user, and monitor for replies within a 4-minute window to perform the subsequent cab booking, calendar creation, and cousin notification.
 

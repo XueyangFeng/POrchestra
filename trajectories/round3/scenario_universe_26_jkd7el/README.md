@@ -1,6 +1,8 @@
 # scenario_universe_26_jkd7el
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_26_jkd7el/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_26_jkd7el/README.md) · [Codex](../../codex/round3/scenario_universe_26_jkd7el/README.md) · [OpenCode](../../opencode/round3/scenario_universe_26_jkd7el/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the contacts living in Oslo and determine their presence on the Messages and Chats apps to calculate the total budget. I also need to exclude the current user from this calculation.
 
@@ -89,11 +91,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #65
+**Initial harness configuration** · Source event 65
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous attempt identified most Oslo contacts and their app statuses but left a few lookups pending and didn&#x27;t perform the shopping search. I need a subagent to finish the budget calculation and find the most expensive LEGO item.
 
@@ -172,7 +174,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

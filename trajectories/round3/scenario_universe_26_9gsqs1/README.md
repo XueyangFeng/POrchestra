@@ -1,6 +1,8 @@
 # scenario_universe_26_9gsqs1
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_26_9gsqs1/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_26_9gsqs1/README.md) · [Codex](../../codex/round3/scenario_universe_26_9gsqs1/README.md) · [OpenCode](../../opencode/round3/scenario_universe_26_9gsqs1/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the two specific contacts (a &#x27;Branding Specialist&#x27; and a &#x27;lunch&#x27; contact from yesterday), create the &#x27;Friends Forever&#x27; Messages group conversation, send the initial message, and notify the user that it has been sent. This is the first phase of the task and must be done quickly to respect the time limit.
 

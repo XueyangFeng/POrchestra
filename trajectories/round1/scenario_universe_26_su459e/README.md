@@ -1,6 +1,8 @@
 # scenario_universe_26_su459e
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_26_su459e/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_26_su459e/README.md) · [Codex](../../codex/round1/scenario_universe_26_su459e/README.md) · [OpenCode](../../opencode/round1/scenario_universe_26_su459e/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the calendar scheduling and the 13-hour conflict cleanup first. This is a discrete task with a specific set of tools and a clear objective. The monitoring and timed response tasks will follow once this initial setup is complete.
 
@@ -82,11 +84,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #16
+**Initial harness configuration** · Source event 16
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 SubAgent 1 has successfully scheduled the &#x27;Film Critic&#x27; event and cleared the subsequent 13-hour window. I now need to delegate the monitoring of messages, emails, and new calendar events, followed by the timed replies and deletions as specified in the original request. The target times are 2024-10-15 07:03:00 for message replies and 2024-10-15 07:04:00 for calendar event deletions.
 
@@ -171,7 +173,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

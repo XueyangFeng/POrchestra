@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #15 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 15 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Send a message to the user stating that 'Lysverket' is the location where they s
 </details>
 
 
-## Source event #16 · Sub-agent 2: model output
+## Source event 16 · Sub-agent 2: model output
 
 ```text
 Thought: The assigned subtask is to send a message to the user with the answer. MainAgent has confirmed Lysverket is the location with the most cumulative lunch time (510 minutes, no ties). I will send the message now.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result</summary>
+<summary>Source event 17 · Sub-agent 2: tool result</summary>
 
 
 ```text

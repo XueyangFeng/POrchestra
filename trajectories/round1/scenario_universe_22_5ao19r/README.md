@@ -1,6 +1,8 @@
 # scenario_universe_22_5ao19r
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_22_5ao19r/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_22_5ao19r/README.md) · [Codex](../../codex/round1/scenario_universe_22_5ao19r/README.md) · [OpenCode](../../opencode/round1/scenario_universe_22_5ao19r/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Wait for or find the email from emma.sommeliers84@winemail.com within a 60-second limit, and extract its content details.
 
@@ -85,7 +87,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #18
+**Harness configuration updated** · Source event 18
 
 **1. Sub-agent revision request**
 
@@ -94,7 +96,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Checked INBOX for email from emma.sommeliers84@winemail.com: search returned no results. Waited via SystemApp__wait_for_notification(timeout=60); wait returned None. Received an environment notification about a new email from kaitlyn.mcallister@gaia2mail.com (unrelated to the target sender). The target email from emma.sommeliers84@winemail.com has not been found yet.
 ```
 <details>
-<summary>Request and evidence · source event #16</summary>
+<summary>Request and evidence · source event 16</summary>
 
 
 ```text
@@ -141,7 +143,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent&#x27;s wait was interrupted by a notification from an unrelated sender. It needs to check the inbox again for the target email from emma.sommeliers84@winemail.com and, if not found, continue waiting for the remainder of the 60-second window before providing a final status.
 
@@ -240,11 +242,11 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #25
+**Initial harness configuration** · Source event 25
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The target email has been received and its content retrieved. I now need to report the details to the user and fetch the user&#x27;s current contact information (specifically their home address) to prepare for the ride booking.
 

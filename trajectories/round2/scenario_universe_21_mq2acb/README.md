@@ -1,6 +1,8 @@
 # scenario_universe_21_mq2acb
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_21_mq2acb/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_21_mq2acb/README.md) · [Codex](../../codex/round2/scenario_universe_21_mq2acb/README.md) · [OpenCode](../../opencode/round2/scenario_universe_21_mq2acb/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 To answer the user&#x27;s request, I need to identify the person who attended the most &#x27;dinner with friends&#x27; events during August, September, and October 2024. This involves querying the calendar, identifying the current user to exclude them, counting attendances, breaking ties with email timestamps, and finally retrieving the age of the identified person from the contacts.
 
@@ -94,7 +96,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #2</summary>
+<summary>Source event 2</summary>
 
 
 ```text

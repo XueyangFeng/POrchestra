@@ -1,6 +1,8 @@
 # scenario_universe_26_4r9exm
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_26_4r9exm/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_26_4r9exm/README.md) · [Codex](../../codex/round2/scenario_universe_26_4r9exm/README.md) · [OpenCode](../../opencode/round2/scenario_universe_26_4r9exm/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Identify eligible contacts based on city and age, then send invitations via Messages (preferred) or Chats as specified in the task.
 
@@ -94,11 +96,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #67
+**Initial harness configuration** · Source event 67
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The messaging task is complete. Now I need to create the calendar event for the watch-along and purchase the 50 round paper dinner plates.
 
@@ -167,7 +169,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 46 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Perform the following three independent tasks:
 </details>
 
 
-## Source event #47 · Sub-agent 2: model output
+## Source event 47 · Sub-agent 2: model output
 
 ```text
 I'll perform these three tasks in sequence. Let me start with removing the 'news' directory.
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: tool result</summary>
+<summary>Source event 48 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -62,7 +62,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #49 · Sub-agent 2: model output
+## Source event 49 · Sub-agent 2: model output
 
 ```text
 The path 'news' doesn't exist at the root. Let me try common locations.
@@ -80,7 +80,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: tool result</summary>
+<summary>Source event 50 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -94,7 +94,7 @@ None
 </details>
 
 
-## Source event #51 · Sub-agent 2: model output
+## Source event 51 · Sub-agent 2: model output
 
 ```text
 Task 1 completed (removed `Documents/news`). Now searching for the Wordspiel Card Game.
@@ -112,7 +112,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: tool result</summary>
+<summary>Source event 52 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -126,7 +126,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 2: model output
+## Source event 53 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -142,7 +142,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 2: tool result</summary>
+<summary>Source event 54 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -156,7 +156,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 2: model output
+## Source event 55 · Sub-agent 2: model output
 
 ```text
 Cheapest adult variant is $11.95 (Adults, English, 2-4 players). Adding to cart and checking out.
@@ -174,7 +174,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 2: tool result</summary>
+<summary>Source event 56 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ Action:
 </details>
 
 
-## Source event #57 · Sub-agent 2: model output
+## Source event 57 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -201,7 +201,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 2: tool result</summary>
+<summary>Source event 58 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -216,7 +216,7 @@ Action:
 
 
 <details>
-<summary>Source event #59 · Sub-agent 2: tool result</summary>
+<summary>Source event 59 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -234,7 +234,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #60 · Sub-agent 2: model output
+## Source event 60 · Sub-agent 2: model output
 
 ```text
 Checkout succeeded (order `3b00b25d6c27433bb5e0763f36145321`). Now searching for the three-bedroom London property.
@@ -252,7 +252,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 2: tool result</summary>
+<summary>Source event 61 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -266,7 +266,7 @@ Action:
 </details>
 
 
-## Source event #62 · Sub-agent 2: model output
+## Source event 62 · Sub-agent 2: model output
 
 ```text
 Found the 3-bedroom London property: **901 Oxford Street, London, W1C 1DA** ("London Luxury"). Now ordering the premium cab.
@@ -286,7 +286,7 @@ Action:
 
 
 <details>
-<summary>Source event #63 · Sub-agent 2: tool result</summary>
+<summary>Source event 63 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -309,7 +309,7 @@ Ride ID: ca5380b0fb5d30db43b4905d14d91312
 </details>
 
 
-## Source event #64 · Sub-agent 2: model output
+## Source event 64 · Sub-agent 2: model output
 
 ```text
 All three tasks are complete. Reporting the handoff.
@@ -374,7 +374,7 @@ Action:
 
 
 <details>
-<summary>Source event #65 · Sub-agent 2: tool result</summary>
+<summary>Source event 65 · Sub-agent 2: tool result</summary>
 
 
 ```text

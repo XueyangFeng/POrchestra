@@ -4,7 +4,7 @@
 
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
-## Source event #80 · Sub-agent 2: model output
+## Source event 80 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -23,7 +23,7 @@ Action:
 
 
 <details>
-<summary>Source event #81 · Sub-agent 2: tool result</summary>
+<summary>Source event 81 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -37,7 +37,7 @@ Action:
 </details>
 
 
-## Source event #82 · Sub-agent 2: model output
+## Source event 82 · Sub-agent 2: model output
 
 ```text
 Let me check the newly created Chats conversation to see if the reply landed in the correct thread.
@@ -56,7 +56,7 @@ Action:
 
 
 <details>
-<summary>Source event #83 · Sub-agent 2: tool result</summary>
+<summary>Source event 83 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -70,7 +70,7 @@ Action:
 </details>
 
 
-## Source event #84 · Sub-agent 2: model output
+## Source event 84 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -87,7 +87,7 @@ Action:
 
 
 <details>
-<summary>Source event #85 · Sub-agent 2: tool result</summary>
+<summary>Source event 85 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -101,7 +101,7 @@ Action:
 </details>
 
 
-## Source event #86 · Sub-agent 2: model output
+## Source event 86 · Sub-agent 2: model output
 
 ```text
 I need to proceed with the calendar deletion since it's now past 07:04:00. The new calendar event added by Kaida Rylan ("Event created by Kaida Rylan: Romantic night", ID e03b534af959899d9ca5c1d3e342f522) was identified in step 2.
@@ -118,7 +118,7 @@ Action:
 
 
 <details>
-<summary>Source event #87 · Sub-agent 2: tool result</summary>
+<summary>Source event 87 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -132,7 +132,7 @@ Event e03b534af959899d9ca5c1d3e342f522 successfully deleted.
 </details>
 
 
-## Source event #88 · Sub-agent 2: model output
+## Source event 88 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -177,7 +177,7 @@ Action:
 
 
 <details>
-<summary>Source event #89 · Sub-agent 2: tool result</summary>
+<summary>Source event 89 · Sub-agent 2: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #3 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 3 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: tool result</summary>
+<summary>Source event 4 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -43,7 +43,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 I'll start by listing emails in the INBOX to find those received in the target date range.
@@ -62,7 +62,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -76,7 +76,7 @@ ReturnedEmails(emails=[Email(sender='juhani.korhonen@fbl.fi', recipients=['matej
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 All 50 emails returned so far are dated after 2024-09-15 (timestamps ~1726669153–1728855042, i.e., Sep 18–Oct 13). Since emails are ordered newest first, I need to page further to reach Sep 1–15.
@@ -95,7 +95,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -109,7 +109,7 @@ ReturnedEmails(emails=[Email(sender='aino.korhonen@aalto.fi', recipients=['matej
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Timestamps in this batch (offset 50) cover Sep 18 down to Aug 14, so the Sep 1–15 emails are here. Let me confirm the remaining older emails (offset 100) contain nothing in range, then fetch contacts.

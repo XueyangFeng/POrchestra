@@ -1,6 +1,8 @@
 # scenario_universe_27_ikk1lb
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_27_ikk1lb/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_27_ikk1lb/README.md) · [Codex](../../codex/round3/scenario_universe_27_ikk1lb/README.md) · [OpenCode](../../opencode/round3/scenario_universe_27_ikk1lb/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to determine the count of conversations in both &#x27;Messages&#x27; and &#x27;Chats&#x27; apps that mention &#x27;Ireland&#x27; to calculate the difference.
 
@@ -79,11 +81,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #11
+**Initial harness configuration** · Source event 11
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The first subtask successfully determined the counts: Messages has 6 conversations mentioning &#x27;Ireland&#x27; and Chats has 13. The difference is 7. Now I need a SubAgent to identify unsaved properties in RentAFlat with a cost that is a multiple of 7.
 

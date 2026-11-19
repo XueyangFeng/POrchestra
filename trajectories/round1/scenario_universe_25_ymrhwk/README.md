@@ -1,6 +1,8 @@
 # scenario_universe_25_ymrhwk
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_25_ymrhwk/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_25_ymrhwk/README.md) · [Codex](../../codex/round1/scenario_universe_25_ymrhwk/README.md) · [OpenCode](../../opencode/round1/scenario_universe_25_ymrhwk/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the next 3 &#x27;Follow-up call&#x27; events and manage the rescheduling process which involves outreach, waiting for a response, and conditional rescheduling. This requires multiple steps across Calendar, Chats, Emails, and Messages apps.
 
@@ -113,7 +115,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #54
+**Harness configuration updated** · Source event 54
 
 **1. Sub-agent revision request**
 
@@ -122,7 +124,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 All outreach, 3-minute wait, reply checks, and rescheduling are complete. None of the three attendees replied, so all three Follow-up call events were rescheduled 30 minutes later and each attendee was notified.
 ```
 <details>
-<summary>Request and evidence · source event #52</summary>
+<summary>Request and evidence · source event 52</summary>
 
 
 ```text
@@ -175,7 +177,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The subagent has successfully completed the scheduling checks, outreach, wait time, rescheduling of all 3 events, and notifications. As the original task requires reporting back to the user whether they responded or not, the AgentUserInterface__send_message_to_user tool must be allocated to the subagent to deliver this final report.
 

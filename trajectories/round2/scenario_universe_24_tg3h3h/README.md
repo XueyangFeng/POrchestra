@@ -1,6 +1,8 @@
 # scenario_universe_24_tg3h3h
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_24_tg3h3h/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_24_tg3h3h/README.md) · [Codex](../../codex/round2/scenario_universe_24_tg3h3h/README.md) · [OpenCode](../../opencode/round2/scenario_universe_24_tg3h3h/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #6
+**Initial harness configuration** · Source event 6
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first subtask is to find contacts living in the United Kingdom and send them emails about Aberdeen with a specific file attachment. I need to identify the file first.
 
@@ -88,11 +90,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #69
+**Initial harness configuration** · Source event 69
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent identified two United Kingdom contacts (Alethea Fothergill and Elara von Allmen) and a list of candidate Wikipedia text files in `/Documents/wiki/`, but failed to identify which file contains information about Aberdeen and did not send the emails. This SubAgent will identify the correct file by searching the content, send the required emails, and also retrieve the airport destination from the user&#x27;s October 4th ride history to prepare for the cab booking.
 
@@ -160,7 +162,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S2 configuration v2
 
-**Harness configuration updated** · Source event #119
+**Harness configuration updated** · Source event 119
 
 **1. Sub-agent revision request**
 
@@ -169,7 +171,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 Ride history retrieved (87 rides). The Oct 4, 2024 ride is ride_id 0c8d37be9b8d43569483f09519342e55, Premium/Van service, start 'Marktplatz 10, 4051 Basel, Switzerland', destination 'EuroAirport Basel-Mulhouse-Freiburg, 68300 Saint-Louis, France', time_stamp 1728057795.52, price 55.8. However, ALL 50 files in /Documents/wiki/ (wikipedia_0.txt ... wikipedia_99.txt), plus /Documents/news/*, /Downloads/* and /Documents/benchmarks/* report size 0 and read as empty (Files__cat returns b'', Files__read_document errors 'File is empty'). Therefore the Aberdeen wiki file cannot be identified by content, so the two emails have NOT been sent (attachment path unknown).
 ```
 <details>
-<summary>Request and evidence · source event #117</summary>
+<summary>Request and evidence · source event 117</summary>
 
 
 ```text
@@ -216,7 +218,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #3
+`revise_task` · Source event 3
 
 The SubAgent correctly identified the airport and the UK contacts but is blocked on the &#x27;Aberdeen&#x27; file because the candidate files in /Documents/wiki/ appear empty. I will expand the task to include the Calendar and Cab booking while providing a more robust strategy for finding the file (including searching Messages and Emails for the &#x27;saved&#x27; file).
 
@@ -344,11 +346,11 @@ Full system configuration: [Part 1](config-s2-v2-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #194
+**Initial harness configuration** · Source event 194
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 The calendar trip and cab booking are complete. However, two critical items remain: (1) Sending an apology message to Anastasiya Zolotova, which requires finding her phone/user_id, and (2) Identifying and attaching the Aberdeen Wikipedia .txt file to emails for two UK contacts. Previous attempts found all wiki files to be zero-byte, so a more thorough search of messages, emails, and contacts is needed to locate the correct file or its source.
 
@@ -434,7 +436,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #5</summary>
+<summary>Source event 5</summary>
 
 
 ```text

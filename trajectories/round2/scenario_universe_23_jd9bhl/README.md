@@ -1,6 +1,8 @@
 # scenario_universe_23_jd9bhl
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_23_jd9bhl/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_23_jd9bhl/README.md) · [Codex](../../codex/round2/scenario_universe_23_jd9bhl/README.md) · [OpenCode](../../opencode/round2/scenario_universe_23_jd9bhl/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to determine the current date to identify the next three Saturdays and find the &#x27;Dinner with Family&#x27; events that occurred earlier this month. Then, I will manage the calendar events as requested.
 
@@ -90,7 +92,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #34
+**Harness configuration updated** · Source event 34
 
 **1. Sub-agent revision request**
 
@@ -99,7 +101,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Current time: 2024-10-15 07:00:07 (Tuesday). Next three Saturdays: 2024-10-19, 2024-10-26, 2024-11-02. Deleted 5 overlapping events (Translation Project Meeting 10/19 15-17; International Relations Lecture 10/26 09-11; Coffee Break with Aurélio Silva 10/26 14-15; International Relations Lecture 11/02 09-11; Coffee Break with Luana 11/02 14-15). Created 'Work From Home' 09:00-17:00 on all three Saturdays (ids dcf191829913b81220f38262b28ec53c, f7af3c683953f40822cf7da5a5df7046, 39206ecdcb047d02dde98a65af0170d5). 'Dinner with Family' events occurring this month from Oct 1 up to now: Oct 1 (Štěpán Nováček, Pavla Nováková, Květa Nováková), Oct 3 (Štěpán Nováček, Pavla Nováková, Květa Nováková), Oct 7 (Věra Nováková, Zdeněk Nováček), Oct 11 (Věra Nováková, Zdeněk Nováček). Events on/after Oct 14 19:00 are in the future and excluded.
 ```
 <details>
-<summary>Request and evidence · source event #32</summary>
+<summary>Request and evidence · source event 32</summary>
 
 
 ```text
@@ -150,7 +152,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 SubAgent 1 has successfully completed the calendar modifications and identified the attendees from the &#x27;Dinner with Family&#x27; events. I will now expand its task to include sending the group email to these family members and messaging the contact at the Prague Police Department. I am adding the necessary tools for contacts, emails, and messaging.
 

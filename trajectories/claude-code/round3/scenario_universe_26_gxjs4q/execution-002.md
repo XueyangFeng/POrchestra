@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #74 · Main agent: Tool result: call_01_729g3z1jnte0rexo83ubj4s0 (is_error=False)</summary>
+<summary>Source event 74 · Main agent: Tool result: call_01_729g3z1jnte0rexo83ubj4s0 (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #75 · Main agent: Tool result: call_02_fm0zud0btd5l3pu11domssj0 (is_error=False)</summary>
+<summary>Source event 75 · Main agent: Tool result: call_02_fm0zud0btd5l3pu11domssj0 (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #76 · Main agent: Tool result: call_03_btbvkou38fg4t36o9h75dcmm (is_error=False)</summary>
+<summary>Source event 76 · Main agent: Tool result: call_03_btbvkou38fg4t36o9h75dcmm (is_error=False)</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #77 · Main agent: Tool result: call_04_qrb6lr3oo05zhciui82qmtb8 (is_error=False)</summary>
+<summary>Source event 77 · Main agent: Tool result: call_04_qrb6lr3oo05zhciui82qmtb8 (is_error=False)</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #78 · Main agent: Tool result: call_05_z52l8cow24txzbtm5v10pk4f (is_error=False)</summary>
+<summary>Source event 78 · Main agent: Tool result: call_05_z52l8cow24txzbtm5v10pk4f (is_error=False)</summary>
 
 
 ```text
@@ -90,7 +90,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #79 · Main agent: Tool result: call_06_n5soh8a7c2i3a610pfiv1qhx (is_error=False)</summary>
+<summary>Source event 79 · Main agent: Tool result: call_06_n5soh8a7c2i3a610pfiv1qhx (is_error=False)</summary>
 
 
 ```text
@@ -107,7 +107,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #80 · Main agent: Tool result: call_07_8ycloutc6ai0dlmrku1pfz81 (is_error=False)</summary>
+<summary>Source event 80 · Main agent: Tool result: call_07_8ycloutc6ai0dlmrku1pfz81 (is_error=False)</summary>
 
 
 ```text
@@ -124,7 +124,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #81 · Main agent: Tool result: call_08_1k1q2zs1d6apu5dx5jgk6zv6 (is_error=False)</summary>
+<summary>Source event 81 · Main agent: Tool result: call_08_1k1q2zs1d6apu5dx5jgk6zv6 (is_error=False)</summary>
 
 
 ```text
@@ -141,7 +141,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #82 · Main agent: Tool result: call_09_sq9vagubbj4qod3ssbz9ngce (is_error=False)</summary>
+<summary>Source event 82 · Main agent: Tool result: call_09_sq9vagubbj4qod3ssbz9ngce (is_error=False)</summary>
 
 
 ```text
@@ -157,7 +157,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #83 · Main agent: Model message
+## Source event 83 · Main agent: Model message
 
 ```text
 Now find all contacts with city_living == 'Trondheim'.
@@ -196,7 +196,7 @@ Let me send the email.
 
 
 
-## Source event #84 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_r928leibmet2ntcli9mb5slq)
+## Source event 84 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_r928leibmet2ntcli9mb5slq)
 
 ```text
 {
@@ -212,7 +212,7 @@ Let me send the email.
 
 
 <details>
-<summary>Source event #85 · Main agent: Tool result: call_00_r928leibmet2ntcli9mb5slq (is_error=False)</summary>
+<summary>Source event 85 · Main agent: Tool result: call_00_r928leibmet2ntcli9mb5slq (is_error=False)</summary>
 
 
 ```text
@@ -228,7 +228,7 @@ Let me send the email.
 </details>
 
 
-## Source event #86 · Main agent: Model message
+## Source event 86 · Main agent: Model message
 
 ```text
 Now notify user via send_message_to_user. Task: "After everything is done, notify me the total number of variants bought and the total amount spent."
@@ -240,7 +240,7 @@ Let me send.
 
 
 
-## Source event #87 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_flk5fl1n7duxfmuh1402hptt)
+## Source event 87 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_flk5fl1n7duxfmuh1402hptt)
 
 ```text
 {
@@ -251,7 +251,7 @@ Let me send.
 
 
 <details>
-<summary>Source event #88 · Main agent: Tool result: call_00_flk5fl1n7duxfmuh1402hptt (is_error=False)</summary>
+<summary>Source event 88 · Main agent: Tool result: call_00_flk5fl1n7duxfmuh1402hptt (is_error=False)</summary>
 
 
 ```text
@@ -267,7 +267,7 @@ Let me send.
 </details>
 
 
-## Source event #89 · Main agent: Model message
+## Source event 89 · Main agent: Model message
 
 ```text
 Done. Let me summarize to the console? The user-message tool ends the turn. Probably fine.
@@ -285,7 +285,7 @@ I'll provide brief final summary as text (turn may already end). The tool output
 
 
 
-## Source event #90 · Main agent: Model message
+## Source event 90 · Main agent: Model message
 
 ```text
 Task completed:
@@ -304,7 +304,7 @@ One new variant priced at exactly $34.50 was excluded because the condition was 
 
 
 <details>
-<summary>Source event #91 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 91 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -326,7 +326,7 @@ One new variant priced at exactly $34.50 was excluded because the condition was 
 
 
 <details>
-<summary>Source event #92 · Judge: Judge rationale</summary>
+<summary>Source event 92 · Judge: Judge rationale</summary>
 
 
 ```text

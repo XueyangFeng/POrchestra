@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #115 · Main agent: Tool result: call_00_wktvy8k1vp9db54b5pilua40 (is_error=False)</summary>
+<summary>Source event 115 · Main agent: Tool result: call_00_wktvy8k1vp9db54b5pilua40 (is_error=False)</summary>
 
 
 ```text
@@ -26,7 +26,7 @@ Preview (first 2KB):
 
 
 <details>
-<summary>Source event #116 · Main agent: Tool result: call_01_6sqnznwydyylcmj9w071hl9l (is_error=False)</summary>
+<summary>Source event 116 · Main agent: Tool result: call_01_6sqnznwydyylcmj9w071hl9l (is_error=False)</summary>
 
 
 ```text
@@ -42,7 +42,7 @@ Preview (first 2KB):
 </details>
 
 
-## Source event #117 · Main agent: Model tool call: Bash (call_00_624qov03g21srqpad7p8o90c)
+## Source event 117 · Main agent: Model tool call: Bash (call_00_624qov03g21srqpad7p8o90c)
 
 ```text
 {
@@ -54,7 +54,7 @@ Preview (first 2KB):
 
 
 <details>
-<summary>Source event #118 · Main agent: Tool result: call_00_624qov03g21srqpad7p8o90c (is_error=False)</summary>
+<summary>Source event 118 · Main agent: Tool result: call_00_624qov03g21srqpad7p8o90c (is_error=False)</summary>
 
 
 ```text
@@ -97,7 +97,7 @@ changes: {
 </details>
 
 
-## Source event #119 · Main agent: Model message
+## Source event 119 · Main agent: Model message
 
 ```text
 Hmm, get_current_time returned 07:03:51 again (cached?). The timestamp is identical to previous call — suspicious, maybe time doesn't advance without waits. Current real time might still be ~07:03:51 because tool calls are fast. The wait notifications advanced to 07:03:50. So now ~07:03:52.
@@ -128,7 +128,7 @@ Let me wait 8 seconds.
 
 
 
-## Source event #120 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_pergq3en96xw63qtatvs3ffp)
+## Source event 120 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_pergq3en96xw63qtatvs3ffp)
 
 ```text
 {
@@ -139,7 +139,7 @@ Let me wait 8 seconds.
 
 
 <details>
-<summary>Source event #121 · Main agent: Tool result: call_00_pergq3en96xw63qtatvs3ffp (is_error=False)</summary>
+<summary>Source event 121 · Main agent: Tool result: call_00_pergq3en96xw63qtatvs3ffp (is_error=False)</summary>
 
 
 ```text
@@ -159,7 +159,7 @@ Let me wait 8 seconds.
 </details>
 
 
-## Source event #122 · Main agent: Model message
+## Source event 122 · Main agent: Model message
 
 ```text
 07:03:59. Send email now — it will arrive ~07:04:00. Count: 4.
@@ -171,7 +171,7 @@ Recipient: kaitlyn.mcallister@gaia2mail.com. Subject exactly "Property price cha
 
 
 
-## Source event #123 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_7orkci9ax7f147q048z5h5e2)
+## Source event 123 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_7orkci9ax7f147q048z5h5e2)
 
 ```text
 {
@@ -186,7 +186,7 @@ Recipient: kaitlyn.mcallister@gaia2mail.com. Subject exactly "Property price cha
 
 
 <details>
-<summary>Source event #124 · Main agent: Tool result: call_00_7orkci9ax7f147q048z5h5e2 (is_error=False)</summary>
+<summary>Source event 124 · Main agent: Tool result: call_00_7orkci9ax7f147q048z5h5e2 (is_error=False)</summary>
 
 
 ```text
@@ -202,7 +202,7 @@ Recipient: kaitlyn.mcallister@gaia2mail.com. Subject exactly "Property price cha
 </details>
 
 
-## Source event #125 · Main agent: Model message
+## Source event 125 · Main agent: Model message
 
 ```text
 Email sent. Now verify final state: saved list includes 4 new ones; email sent. Also check whether any change occurred at 07:04:00 exactly that we missed. Hmm, task window ends 07:04:00; the email is sent. If an event fired at exactly 07:04:00, we'd miss. Unlikely.
@@ -226,7 +226,7 @@ Let me verify saved list and email.
 
 
 
-## Source event #126 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_00_zk6w5onk2imemlfljq9mzhup)
+## Source event 126 · Main agent: Model tool call: mcp__gaia2__RentAFlat__list_saved_apartments (call_00_zk6w5onk2imemlfljq9mzhup)
 
 ```text
 {}
@@ -234,7 +234,7 @@ Let me verify saved list and email.
 
 
 
-## Source event #127 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_01_pinpkiggi9ida74uovshwy1m)
+## Source event 127 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_01_pinpkiggi9ida74uovshwy1m)
 
 ```text
 {}
@@ -243,7 +243,7 @@ Let me verify saved list and email.
 
 
 <details>
-<summary>Source event #128 · Main agent: Tool result: call_00_zk6w5onk2imemlfljq9mzhup (is_error=False)</summary>
+<summary>Source event 128 · Main agent: Tool result: call_00_zk6w5onk2imemlfljq9mzhup (is_error=False)</summary>
 
 
 ```text
@@ -260,7 +260,7 @@ Let me verify saved list and email.
 
 
 <details>
-<summary>Source event #129 · Main agent: Tool result: call_01_pinpkiggi9ida74uovshwy1m (is_error=False)</summary>
+<summary>Source event 129 · Main agent: Tool result: call_01_pinpkiggi9ida74uovshwy1m (is_error=False)</summary>
 
 
 ```text
@@ -276,7 +276,7 @@ Let me verify saved list and email.
 </details>
 
 
-## Source event #130 · Main agent: Model message
+## Source event 130 · Main agent: Model message
 
 ```text
 Email sent at 07:04:00 (timestamp of send call ~07:03:59.9; current 07:04:00). Saved list has 30: 26 original remaining + 4 additions (Skyline Oasis, Lakeside Village, Cityview Apartments, Willow Creek Residences). Removed 4 are absent. Skyview Towers remains saved with price 1400.
@@ -356,7 +356,7 @@ I think task complete. Let me verify the email quickly via Emails__list_emails t
 
 
 
-## Source event #131 · Main agent: Model tool call: ToolSearch (call_00_d7llfjmqy8r67o5vxt14d3lf)
+## Source event 131 · Main agent: Model tool call: ToolSearch (call_00_d7llfjmqy8r67o5vxt14d3lf)
 
 ```text
 {
@@ -368,7 +368,7 @@ I think task complete. Let me verify the email quickly via Emails__list_emails t
 
 
 <details>
-<summary>Source event #132 · Main agent: Tool result: call_00_d7llfjmqy8r67o5vxt14d3lf (is_error=False)</summary>
+<summary>Source event 132 · Main agent: Tool result: call_00_d7llfjmqy8r67o5vxt14d3lf (is_error=False)</summary>
 
 
 ```text
@@ -388,7 +388,7 @@ I think task complete. Let me verify the email quickly via Emails__list_emails t
 </details>
 
 
-## Source event #133 · Main agent: Model tool call: mcp__gaia2__Emails__list_emails (call_00_djykg8lyymq9gnizw4dxho63)
+## Source event 133 · Main agent: Model tool call: mcp__gaia2__Emails__list_emails (call_00_djykg8lyymq9gnizw4dxho63)
 
 ```text
 {
@@ -400,7 +400,7 @@ I think task complete. Let me verify the email quickly via Emails__list_emails t
 
 
 <details>
-<summary>Source event #134 · Main agent: Tool result: call_00_djykg8lyymq9gnizw4dxho63 (is_error=False)</summary>
+<summary>Source event 134 · Main agent: Tool result: call_00_djykg8lyymq9gnizw4dxho63 (is_error=False)</summary>
 
 
 ```text
@@ -416,7 +416,7 @@ I think task complete. Let me verify the email quickly via Emails__list_emails t
 </details>
 
 
-## Source event #135 · Main agent: Model message
+## Source event 135 · Main agent: Model message
 
 ```text
 Email sent at timestamp 1728975840.05 = 07:04:00.05. Excellent — exactly 4 minutes.
@@ -454,7 +454,7 @@ Done. Report.
 
 
 
-## Source event #136 · Main agent: Model message
+## Source event 136 · Main agent: Model message
 
 ```text
 Task complete. Summary of what was done:
@@ -485,7 +485,7 @@ All four eligible (previously unsaved) properties were saved immediately upon de
 
 
 <details>
-<summary>Source event #137 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 137 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -519,7 +519,7 @@ All four eligible (previously unsaved) properties were saved immediately upon de
 
 
 <details>
-<summary>Source event #138 · Judge: Judge rationale</summary>
+<summary>Source event 138 · Judge: Judge rationale</summary>
 
 
 ```text

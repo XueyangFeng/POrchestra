@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #35 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 35 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Create a calendar event for tomorrow, 2024-10-16, starting at 12:00:00 and endin
 </details>
 
 
-## Source event #36 · Sub-agent 3: model output
+## Source event 36 · Sub-agent 3: model output
 
 ```text
 I'll create the calendar event as specified.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 3: tool result</summary>
+<summary>Source event 37 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ acea4a8d991e2e64e9a43daa76d19dd2
 </details>
 
 
-## Source event #38 · Sub-agent 3: model output
+## Source event 38 · Sub-agent 3: model output
 
 ```text
 The calendar event was created successfully.
@@ -91,7 +91,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 3: tool result</summary>
+<summary>Source event 39 · Sub-agent 3: tool result</summary>
 
 
 ```text

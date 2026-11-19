@@ -1,6 +1,8 @@
 # scenario_universe_26_aw29y9
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_26_aw29y9/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_26_aw29y9/README.md) · [Codex](../../codex/round3/scenario_universe_26_aw29y9/README.md) · [OpenCode](../../opencode/round3/scenario_universe_26_aw29y9/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires a precise sequence of time-sensitive actions: sending messages at intervals, waiting for a specific duration to check for a reply, and performing conditional calendar and email actions. Delegating the entire sequence to a single SubAgent ensures the temporal context (start time 07:00:00 and check time 07:04:00) is maintained correctly.
 

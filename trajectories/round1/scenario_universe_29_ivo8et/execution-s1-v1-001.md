@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -25,7 +25,7 @@ Do not notify the user.
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 I'll start by confirming the current time.
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 I'll wait until 07:02:00 before checking for new emails from Kaitlyn Nguyen-Tran.
@@ -71,7 +71,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ None
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 9 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -99,7 +99,7 @@ Environment notifications:
 </details>
 
 
-## Source event #10 · Sub-agent 1: model output
+## Source event 10 · Sub-agent 1: model output
 
 ```text
 The wait ended early due to a notification that is not from Kaitlyn (it's from Kaori Nakahara). I need to continue waiting until 07:02:00. Let me check the current time.
@@ -114,7 +114,7 @@ Action:
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -128,7 +128,7 @@ Action:
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 It's 07:01:00. I need to wait one more minute until 07:02:00.
@@ -145,7 +145,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -160,7 +160,7 @@ None
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 14 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -173,7 +173,7 @@ Environment notifications:
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 The wait ended (60 seconds elapsed). Let me confirm the current time.
@@ -188,7 +188,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -202,7 +202,7 @@ Action:
 </details>
 
 
-## Source event #17 · Sub-agent 1: model output
+## Source event 17 · Sub-agent 1: model output
 
 ```text
 It's 07:02:00. Now I'll check for any new emails from Kaitlyn Nguyen-Tran received between 07:00:00 and 07:02:00.
@@ -220,7 +220,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: tool result</summary>
+<summary>Source event 18 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -234,7 +234,7 @@ Action:
 </details>
 
 
-## Source event #19 · Sub-agent 1: model output
+## Source event 19 · Sub-agent 1: model output
 
 ```text
 The search found only Kaitlyn's 10/13 email. To be thorough, let me verify there are no newer emails from her by listing recent INBOX emails.
@@ -253,7 +253,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 1: tool result</summary>
+<summary>Source event 20 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -267,7 +267,7 @@ ReturnedEmails(emails=[Email(sender='kaori.nakahara@vancouverbites.com', recipie
 </details>
 
 
-## Source event #21 · Sub-agent 1: model output
+## Source event 21 · Sub-agent 1: model output
 
 ```text
 No new email from Kaitlyn Nguyen-Tran arrived between 07:00:00 and 07:02:00 — the only new email was from Kaori Nakahara. The condition to stop is not triggered, so I'll proceed with replying to Kaitlyn's 10/13 email offering a call on 10/22 from 9-10 AM.
@@ -286,7 +286,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 1: tool result</summary>
+<summary>Source event 22 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -300,7 +300,7 @@ Action:
 </details>
 
 
-## Source event #23 · Sub-agent 1: model output
+## Source event 23 · Sub-agent 1: model output
 
 ```text
 The reply to Kaitlyn was sent. Now I need to wait until 07:03:00 before replying to Kaya Nakoda. Let me check the current time first.
@@ -315,7 +315,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: tool result</summary>
+<summary>Source event 24 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -329,7 +329,7 @@ Action:
 </details>
 
 
-## Source event #25 · Sub-agent 1: model output
+## Source event 25 · Sub-agent 1: model output
 
 ```text
 It's 07:02:00. I need to wait until 07:03:00 before replying to Kaya Nakoda.
@@ -346,7 +346,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: tool result</summary>
+<summary>Source event 26 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -361,7 +361,7 @@ None
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 27 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -374,7 +374,7 @@ Environment notifications:
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 The wait ended. Let me confirm the current time.
@@ -389,7 +389,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -403,7 +403,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 It's 07:03:00. Now I'll reply to Kaya Nakoda's email offering a call on 10/22 from 1 PM to 2 PM.
@@ -422,7 +422,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -436,7 +436,7 @@ eac429b410b76e2c8d5408beefc4019b
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 The reply to Kaya was sent. Now I'll wait until 07:04:00 before replying to Rémi LaFleur.
@@ -451,7 +451,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -465,7 +465,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 It's 07:03:00. I'll wait 60 seconds until 07:04:00.
@@ -482,7 +482,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -497,7 +497,7 @@ None
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 36 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -510,7 +510,7 @@ Environment notifications:
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Let me confirm the current time.
@@ -525,7 +525,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -539,7 +539,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 It's 07:04:00. Now I'll reply to Rémi LaFleur's email offering a call on 10/22 from 3 PM to 4 PM.
@@ -558,7 +558,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -572,7 +572,7 @@ abf753b5376a2a642c52f6e20594e628
 </details>
 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 All three replies have been sent. Now I'll add the three calls to the calendar for 10/22. First, the call with Kaitlyn Nguyen-Tran from 9-10 AM.
@@ -592,7 +592,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -606,7 +606,7 @@ e4657cd1b75ef061b9fbfd037e80abd6
 </details>
 
 
-## Source event #43 · Sub-agent 1: model output
+## Source event 43 · Sub-agent 1: model output
 
 ```text
 Now I'll add the second call with Kaya Nakoda from 1 PM to 2 PM.
@@ -626,7 +626,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -640,7 +640,7 @@ e03b534af959899d9ca5c1d3e342f522
 </details>
 
 
-## Source event #45 · Sub-agent 1: model output
+## Source event 45 · Sub-agent 1: model output
 
 ```text
 Now I'll add the third call with Rémi LaFleur from 3 PM to 4 PM.
@@ -660,7 +660,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -674,7 +674,7 @@ Action:
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 All steps are complete. Let me verify the final state and finish with the handoff evidence.
@@ -732,7 +732,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text

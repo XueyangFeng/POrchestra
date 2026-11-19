@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #30 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 30 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -24,7 +24,7 @@ Stop once the 5-minute window has passed and any necessary actions for received 
 
 
 <details>
-<summary>Source event #31 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 31 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Environment notifications updates:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: tool result</summary>
+<summary>Source event 32 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -60,7 +60,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result</summary>
+<summary>Source event 33 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: model output</summary>
+<summary>Source event 34 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -99,7 +99,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: tool result</summary>
+<summary>Source event 35 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -114,7 +114,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: model output</summary>
+<summary>Source event 36 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -134,7 +134,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: tool result</summary>
+<summary>Source event 37 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -149,7 +149,7 @@ ReturnedEmails(emails=[Email(sender='hwnakamura@gaia2mail.com', recipients=['aur
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: model output</summary>
+<summary>Source event 38 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -169,7 +169,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 2: tool result</summary>
+<summary>Source event 39 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -184,7 +184,7 @@ None
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 40 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -198,7 +198,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 2: model output</summary>
+<summary>Source event 41 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -218,7 +218,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 2: tool result</summary>
+<summary>Source event 42 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -233,7 +233,7 @@ ReturnedEmails(emails=[Email(sender='cagla.ozturk@gaia2mail.com', recipients=['a
 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: model output</summary>
+<summary>Source event 43 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -253,7 +253,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: tool result</summary>
+<summary>Source event 44 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -268,7 +268,7 @@ None
 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 45 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -282,7 +282,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: model output</summary>
+<summary>Source event 46 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -301,7 +301,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result</summary>
+<summary>Source event 47 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -316,7 +316,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: model output</summary>
+<summary>Source event 48 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -337,7 +337,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: tool result</summary>
+<summary>Source event 49 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -352,7 +352,7 @@ ReturnedEmails(emails=[Email(sender='luisa.silva.sousa@fc.up.pt', recipients=['a
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: model output</summary>
+<summary>Source event 50 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -375,7 +375,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 2: tool result</summary>
+<summary>Source event 51 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -390,7 +390,7 @@ dcf191829913b81220f38262b28ec53c
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: model output</summary>
+<summary>Source event 52 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -410,7 +410,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 2: tool result</summary>
+<summary>Source event 53 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -425,7 +425,7 @@ None
 
 
 <details>
-<summary>Source event #54 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 54 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -439,7 +439,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 2: model output</summary>
+<summary>Source event 55 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -455,7 +455,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 2: tool result</summary>
+<summary>Source event 56 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -470,7 +470,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 2: model output</summary>
+<summary>Source event 57 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -490,7 +490,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 2: tool result</summary>
+<summary>Source event 58 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -505,7 +505,7 @@ None
 
 
 <details>
-<summary>Source event #59 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 59 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -519,7 +519,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 2: model output</summary>
+<summary>Source event 60 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -541,7 +541,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 2: tool result</summary>
+<summary>Source event 61 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -556,7 +556,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 2: model output</summary>
+<summary>Source event 62 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -578,7 +578,7 @@ Action:
 
 
 <details>
-<summary>Source event #63 · Sub-agent 2: tool result</summary>
+<summary>Source event 63 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -593,7 +593,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 2: model output</summary>
+<summary>Source event 64 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -615,7 +615,7 @@ Action:
 
 
 <details>
-<summary>Source event #65 · Sub-agent 2: tool result</summary>
+<summary>Source event 65 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -630,7 +630,7 @@ ReturnedEmails(emails=[Email(sender='alexandra.mihasescu@gaia2mail.com', recipie
 
 
 <details>
-<summary>Source event #66 · Sub-agent 2: model output</summary>
+<summary>Source event 66 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -648,7 +648,7 @@ Action:
 
 
 <details>
-<summary>Source event #67 · Sub-agent 2: tool result</summary>
+<summary>Source event 67 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -663,7 +663,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 2: model output</summary>
+<summary>Source event 68 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -681,7 +681,7 @@ Action:
 
 
 <details>
-<summary>Source event #69 · Sub-agent 2: tool result</summary>
+<summary>Source event 69 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -696,7 +696,7 @@ None
 
 
 <details>
-<summary>Source event #70 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 70 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -710,7 +710,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #71 · Sub-agent 2: model output</summary>
+<summary>Source event 71 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -732,7 +732,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 2: tool result</summary>
+<summary>Source event 72 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -747,7 +747,7 @@ Action:
 
 
 <details>
-<summary>Source event #73 · Sub-agent 2: model output</summary>
+<summary>Source event 73 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -767,7 +767,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 2: tool result</summary>
+<summary>Source event 74 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -782,7 +782,7 @@ fbdc526e2a6cbe6f33a5b6139e7846e6
 
 
 <details>
-<summary>Source event #75 · Sub-agent 2: model output</summary>
+<summary>Source event 75 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -801,7 +801,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 2: tool result</summary>
+<summary>Source event 76 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -816,7 +816,7 @@ Action:
 
 
 <details>
-<summary>Source event #77 · Sub-agent 2: model output</summary>
+<summary>Source event 77 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -834,7 +834,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 2: tool result</summary>
+<summary>Source event 78 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -849,7 +849,7 @@ None
 
 
 <details>
-<summary>Source event #79 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 79 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -863,7 +863,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 2: model output</summary>
+<summary>Source event 80 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -883,7 +883,7 @@ Action:
 
 
 <details>
-<summary>Source event #81 · Sub-agent 2: tool result</summary>
+<summary>Source event 81 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -898,7 +898,7 @@ ReturnedEmails(emails=[Email(sender='alexandra.munteanu@gaia2mail.com', recipien
 
 
 <details>
-<summary>Source event #82 · Sub-agent 2: model output</summary>
+<summary>Source event 82 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -916,7 +916,7 @@ Action:
 
 
 <details>
-<summary>Source event #83 · Sub-agent 2: tool result</summary>
+<summary>Source event 83 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -931,7 +931,7 @@ Action:
 
 
 <details>
-<summary>Source event #84 · Sub-agent 2: tool result</summary>
+<summary>Source event 84 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -950,7 +950,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #85 · Sub-agent 2: model output</summary>
+<summary>Source event 85 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -968,7 +968,7 @@ Action:
 
 
 <details>
-<summary>Source event #86 · Sub-agent 2: tool result</summary>
+<summary>Source event 86 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -983,7 +983,7 @@ None
 
 
 <details>
-<summary>Source event #87 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 87 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -997,7 +997,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #88 · Sub-agent 2: model output</summary>
+<summary>Source event 88 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -1020,7 +1020,7 @@ Action:
 
 
 <details>
-<summary>Source event #89 · Sub-agent 2: tool result</summary>
+<summary>Source event 89 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -1035,7 +1035,7 @@ f1059952faedc677c9c4d1b1533b2d1b
 
 
 <details>
-<summary>Source event #90 · Sub-agent 2: model output</summary>
+<summary>Source event 90 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -1056,7 +1056,7 @@ Action:
 
 
 <details>
-<summary>Source event #91 · Sub-agent 2: tool result</summary>
+<summary>Source event 91 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -1071,7 +1071,7 @@ Action:
 
 
 <details>
-<summary>Source event #92 · Sub-agent 2: model output</summary>
+<summary>Source event 92 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -1088,7 +1088,7 @@ Action:
 
 
 <details>
-<summary>Source event #93 · Sub-agent 2: tool result</summary>
+<summary>Source event 93 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -1103,7 +1103,7 @@ Action:
 
 
 <details>
-<summary>Source event #94 · Sub-agent 2: model output</summary>
+<summary>Source event 94 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -1122,7 +1122,7 @@ Action:
 
 
 <details>
-<summary>Source event #95 · Sub-agent 2: tool result</summary>
+<summary>Source event 95 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -1137,7 +1137,7 @@ None
 
 
 <details>
-<summary>Source event #96 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 96 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -1151,7 +1151,7 @@ Environment notifications:
 
 
 <details>
-<summary>Source event #97 · Sub-agent 2: model output</summary>
+<summary>Source event 97 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -1168,7 +1168,7 @@ Action:
 
 
 <details>
-<summary>Source event #98 · Sub-agent 2: tool result</summary>
+<summary>Source event 98 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -1183,7 +1183,7 @@ Action:
 
 
 <details>
-<summary>Source event #99 · Sub-agent 2: model output</summary>
+<summary>Source event 99 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -1238,7 +1238,7 @@ Action:
 
 
 <details>
-<summary>Source event #100 · Sub-agent 2: tool result</summary>
+<summary>Source event 100 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -1253,7 +1253,7 @@ Action:
 
 
 <details>
-<summary>Source event #101 · Judge rationale</summary>
+<summary>Source event 101 · Judge rationale</summary>
 
 
 ```text

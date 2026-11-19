@@ -1,6 +1,8 @@
 # scenario_universe_28_5sca8a
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_28_5sca8a/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_28_5sca8a/README.md) · [Codex](../../codex/round1/scenario_universe_28_5sca8a/README.md) · [OpenCode](../../opencode/round1/scenario_universe_28_5sca8a/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to identify all apartments, calculate the safest zip code based on crime rates, find the apartments under $2000 in that safest zip code, save the ones not yet saved, identify participants of the &#x27;Startup Updates and Fintech Discussion&#x27; Messages group (excluding the current user), lookup their emails, and send each of them a separate email with the names of the properties.
 
@@ -97,11 +99,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #67
+**Initial harness configuration** · Source event 67
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The safest zip code (9000) and the qualifying properties under $2000 have been identified. I need to complete the remaining tasks: saving the last two properties, identifying the participants of the specified Messages conversation (excluding the user), and emailing each participant the list of property names.
 
@@ -178,7 +180,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

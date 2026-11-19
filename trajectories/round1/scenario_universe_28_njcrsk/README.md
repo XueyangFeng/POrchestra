@@ -1,6 +1,8 @@
 # scenario_universe_28_njcrsk
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_28_njcrsk/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_28_njcrsk/README.md) · [Codex](../../codex/round1/scenario_universe_28_njcrsk/README.md) · [OpenCode](../../opencode/round1/scenario_universe_28_njcrsk/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 To identify the target contact, I first need to find all Danish contacts who sent an email in September 2024 (last month). Then, for those candidates, I need to check their participation in calendar events scheduled for November 2024 (next month).
 
@@ -95,11 +97,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #67
+**Initial harness configuration** · Source event 67
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous agent identified 7 candidate Danish contacts who emailed the user in September 2024. It also started counting their attendance in November 2024 events but only processed the first 60 out of 117 events. A new SubAgent is needed to process the remaining events (offsets 60-116), finalize the counts, determine the winner (using the age tie-breaker if needed), and report the result.
 

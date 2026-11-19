@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #1 · Main agent: Model message
+## Source event 1 · Main agent: Model message
 
 ```text
 Let me start by exploring the contacts and emails. Need tools loaded. Let me search tools.
@@ -12,7 +12,7 @@ Let me start by exploring the contacts and emails. Need tools loaded. Let me sea
 
 
 
-## Source event #2 · Main agent: Model message
+## Source event 2 · Main agent: Model message
 
 ```text
 I'll start by loading the tools I need for contacts and emails.
@@ -20,7 +20,7 @@ I'll start by loading the tools I need for contacts and emails.
 
 
 
-## Source event #3 · Main agent: Model tool call: ToolSearch (call_00_d30j7uujtn070vi6dw7n6ajr)
+## Source event 3 · Main agent: Model tool call: ToolSearch (call_00_d30j7uujtn070vi6dw7n6ajr)
 
 ```text
 {
@@ -32,7 +32,7 @@ I'll start by loading the tools I need for contacts and emails.
 
 
 <details>
-<summary>Source event #4 · Main agent: Tool result: call_00_d30j7uujtn070vi6dw7n6ajr (is_error=False)</summary>
+<summary>Source event 4 · Main agent: Tool result: call_00_d30j7uujtn070vi6dw7n6ajr (is_error=False)</summary>
 
 
 ```text
@@ -68,7 +68,7 @@ I'll start by loading the tools I need for contacts and emails.
 </details>
 
 
-## Source event #5 · Main agent: Model message
+## Source event 5 · Main agent: Model message
 
 ```text
 Now get contacts.
@@ -76,7 +76,7 @@ Now get contacts.
 
 
 
-## Source event #6 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_c1o3aacolehk7dpz89t5n0gb)
+## Source event 6 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_c1o3aacolehk7dpz89t5n0gb)
 
 ```text
 {
@@ -87,7 +87,7 @@ Now get contacts.
 
 
 <details>
-<summary>Source event #7 · Main agent: Tool result: call_00_c1o3aacolehk7dpz89t5n0gb (is_error=False)</summary>
+<summary>Source event 7 · Main agent: Tool result: call_00_c1o3aacolehk7dpz89t5n0gb (is_error=False)</summary>
 
 
 ```text
@@ -103,7 +103,7 @@ Now get contacts.
 </details>
 
 
-## Source event #8 · Main agent: Model message
+## Source event 8 · Main agent: Model message
 
 ```text
 125 contacts total. Need all contacts with city and age. Let me paginate through offsets. Use get_contacts repeatedly with offset 10, 20, ... 120. But will the tool persist via loaded schema? Yes.
@@ -113,7 +113,7 @@ Let me fetch all lazily but I need to compute. I can call multiple in parallel.
 
 
 
-## Source event #9 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_7fqpy3pnqjsg6u6e4i1boeb8)
+## Source event 9 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_7fqpy3pnqjsg6u6e4i1boeb8)
 
 ```text
 {
@@ -123,7 +123,7 @@ Let me fetch all lazily but I need to compute. I can call multiple in parallel.
 
 
 
-## Source event #10 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_tg7ba2b5jffask0ut084en84)
+## Source event 10 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_tg7ba2b5jffask0ut084en84)
 
 ```text
 {
@@ -133,7 +133,7 @@ Let me fetch all lazily but I need to compute. I can call multiple in parallel.
 
 
 
-## Source event #11 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_5umb9q2olethzahpm17zpfeu)
+## Source event 11 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_5umb9q2olethzahpm17zpfeu)
 
 ```text
 {
@@ -143,7 +143,7 @@ Let me fetch all lazily but I need to compute. I can call multiple in parallel.
 
 
 
-## Source event #12 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_r3n5lafep4p1c65t06aamnrl)
+## Source event 12 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_r3n5lafep4p1c65t06aamnrl)
 
 ```text
 {
@@ -154,7 +154,7 @@ Let me fetch all lazily but I need to compute. I can call multiple in parallel.
 
 
 <details>
-<summary>Source event #13 · Main agent: Tool result: call_00_7fqpy3pnqjsg6u6e4i1boeb8 (is_error=False)</summary>
+<summary>Source event 13 · Main agent: Tool result: call_00_7fqpy3pnqjsg6u6e4i1boeb8 (is_error=False)</summary>
 
 
 ```text
@@ -171,7 +171,7 @@ Let me fetch all lazily but I need to compute. I can call multiple in parallel.
 
 
 <details>
-<summary>Source event #14 · Main agent: Tool result: call_01_tg7ba2b5jffask0ut084en84 (is_error=False)</summary>
+<summary>Source event 14 · Main agent: Tool result: call_01_tg7ba2b5jffask0ut084en84 (is_error=False)</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ Let me fetch all lazily but I need to compute. I can call multiple in parallel.
 
 
 <details>
-<summary>Source event #15 · Main agent: Tool result: call_02_5umb9q2olethzahpm17zpfeu (is_error=False)</summary>
+<summary>Source event 15 · Main agent: Tool result: call_02_5umb9q2olethzahpm17zpfeu (is_error=False)</summary>
 
 
 ```text
@@ -205,7 +205,7 @@ Let me fetch all lazily but I need to compute. I can call multiple in parallel.
 
 
 <details>
-<summary>Source event #16 · Main agent: Tool result: call_03_r3n5lafep4p1c65t06aamnrl (is_error=False)</summary>
+<summary>Source event 16 · Main agent: Tool result: call_03_r3n5lafep4p1c65t06aamnrl (is_error=False)</summary>
 
 
 ```text
@@ -221,7 +221,7 @@ Let me fetch all lazily but I need to compute. I can call multiple in parallel.
 </details>
 
 
-## Source event #17 · Main agent: Model message
+## Source event 17 · Main agent: Model message
 
 ```text
 Continue offsets 50-120.
@@ -229,7 +229,7 @@ Continue offsets 50-120.
 
 
 
-## Source event #18 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_csuzpqh12ghrc4zr3y7cdxzi)
+## Source event 18 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_csuzpqh12ghrc4zr3y7cdxzi)
 
 ```text
 {
@@ -239,7 +239,7 @@ Continue offsets 50-120.
 
 
 
-## Source event #19 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_qe9fqbg9cdbgvrdtcl05xzbd)
+## Source event 19 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_qe9fqbg9cdbgvrdtcl05xzbd)
 
 ```text
 {
@@ -249,7 +249,7 @@ Continue offsets 50-120.
 
 
 
-## Source event #20 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_828enbjy1tzufoi839pcinmn)
+## Source event 20 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_828enbjy1tzufoi839pcinmn)
 
 ```text
 {
@@ -259,7 +259,7 @@ Continue offsets 50-120.
 
 
 
-## Source event #21 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_0xmshm45gj8xw6r4cxmws9ji)
+## Source event 21 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_0xmshm45gj8xw6r4cxmws9ji)
 
 ```text
 {
@@ -270,7 +270,7 @@ Continue offsets 50-120.
 
 
 <details>
-<summary>Source event #22 · Main agent: Tool result: call_00_csuzpqh12ghrc4zr3y7cdxzi (is_error=False)</summary>
+<summary>Source event 22 · Main agent: Tool result: call_00_csuzpqh12ghrc4zr3y7cdxzi (is_error=False)</summary>
 
 
 ```text
@@ -287,7 +287,7 @@ Continue offsets 50-120.
 
 
 <details>
-<summary>Source event #23 · Main agent: Tool result: call_01_qe9fqbg9cdbgvrdtcl05xzbd (is_error=False)</summary>
+<summary>Source event 23 · Main agent: Tool result: call_01_qe9fqbg9cdbgvrdtcl05xzbd (is_error=False)</summary>
 
 
 ```text
@@ -304,7 +304,7 @@ Continue offsets 50-120.
 
 
 <details>
-<summary>Source event #24 · Main agent: Tool result: call_02_828enbjy1tzufoi839pcinmn (is_error=False)</summary>
+<summary>Source event 24 · Main agent: Tool result: call_02_828enbjy1tzufoi839pcinmn (is_error=False)</summary>
 
 
 ```text
@@ -321,7 +321,7 @@ Continue offsets 50-120.
 
 
 <details>
-<summary>Source event #25 · Main agent: Tool result: call_03_0xmshm45gj8xw6r4cxmws9ji (is_error=False)</summary>
+<summary>Source event 25 · Main agent: Tool result: call_03_0xmshm45gj8xw6r4cxmws9ji (is_error=False)</summary>
 
 
 ```text
@@ -337,7 +337,7 @@ Continue offsets 50-120.
 </details>
 
 
-## Source event #26 · Main agent: Model message
+## Source event 26 · Main agent: Model message
 
 ```text
 Continue 90-120.
@@ -345,7 +345,7 @@ Continue 90-120.
 
 
 
-## Source event #27 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_49dfkr3l7lg0rvk9jc8s066k)
+## Source event 27 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_49dfkr3l7lg0rvk9jc8s066k)
 
 ```text
 {
@@ -355,7 +355,7 @@ Continue 90-120.
 
 
 
-## Source event #28 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_jw5e6gr2eoie82f5fcyf2wnv)
+## Source event 28 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_jw5e6gr2eoie82f5fcyf2wnv)
 
 ```text
 {
@@ -365,7 +365,7 @@ Continue 90-120.
 
 
 
-## Source event #29 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_ot97d0kmoej263gsudfes34y)
+## Source event 29 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_ot97d0kmoej263gsudfes34y)
 
 ```text
 {
@@ -375,7 +375,7 @@ Continue 90-120.
 
 
 
-## Source event #30 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_0w20hnp26e8lhvv59a164icf)
+## Source event 30 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_0w20hnp26e8lhvv59a164icf)
 
 ```text
 {
@@ -386,7 +386,7 @@ Continue 90-120.
 
 
 <details>
-<summary>Source event #31 · Main agent: Tool result: call_00_49dfkr3l7lg0rvk9jc8s066k (is_error=False)</summary>
+<summary>Source event 31 · Main agent: Tool result: call_00_49dfkr3l7lg0rvk9jc8s066k (is_error=False)</summary>
 
 
 ```text
@@ -403,7 +403,7 @@ Continue 90-120.
 
 
 <details>
-<summary>Source event #32 · Main agent: Tool result: call_01_jw5e6gr2eoie82f5fcyf2wnv (is_error=False)</summary>
+<summary>Source event 32 · Main agent: Tool result: call_01_jw5e6gr2eoie82f5fcyf2wnv (is_error=False)</summary>
 
 
 ```text
@@ -420,7 +420,7 @@ Continue 90-120.
 
 
 <details>
-<summary>Source event #33 · Main agent: Tool result: call_02_ot97d0kmoej263gsudfes34y (is_error=False)</summary>
+<summary>Source event 33 · Main agent: Tool result: call_02_ot97d0kmoej263gsudfes34y (is_error=False)</summary>
 
 
 ```text
@@ -437,7 +437,7 @@ Continue 90-120.
 
 
 <details>
-<summary>Source event #34 · Main agent: Tool result: call_03_0w20hnp26e8lhvv59a164icf (is_error=False)</summary>
+<summary>Source event 34 · Main agent: Tool result: call_03_0w20hnp26e8lhvv59a164icf (is_error=False)</summary>
 
 
 ```text

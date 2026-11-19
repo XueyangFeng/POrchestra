@@ -1,6 +1,8 @@
 # scenario_universe_24_yg1yh5
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_24_yg1yh5/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_24_yg1yh5/README.md) · [Codex](../../codex/round3/scenario_universe_24_yg1yh5/README.md) · [OpenCode](../../opencode/round3/scenario_universe_24_yg1yh5/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the top 3 most expensive cab rides from the user&#x27;s history and determine their starting locations&#x27; zip codes. This is the first step in identifying the candidate zip codes.
 
@@ -79,11 +81,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #12
+**Initial harness configuration** · Source event 12
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 Identify which of the candidate zip codes (3011, 4051, 1201) have a contact living in them, then find the most expensive housing unit across those validated zip codes.
 
@@ -153,7 +155,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

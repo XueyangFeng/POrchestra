@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result (continued, part 6)</summary>
+<summary>Source event 36 · Sub-agent 2: tool result (continued, part 6)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ ubject="Exploring the Untold Stories of Brussels' Past", content="Dear Ursula,\n
 </details>
 
 
-## Source event #37 · Sub-agent 2: model output
+## Source event 37 · Sub-agent 2: model output
 
 ```text
 I have 100 of 101 emails listed. Let me get the last one.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: tool result</summary>
+<summary>Source event 38 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ ReturnedEmails(emails=[Email(sender='alethea.fothergill@gaia2mail.com', recipien
 </details>
 
 
-## Source event #39 · Sub-agent 2: model output
+## Source event 39 · Sub-agent 2: model output
 
 ```text
 I have the full INBOX (101 emails). Let me verify counts per sender with targeted searches.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: tool result</summary>
+<summary>Source event 40 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 2: model output
+## Source event 41 · Sub-agent 2: model output
 
 ```text
 I've seen all 101 INBOX emails. Now let me check other folders for completeness (received emails may have been archived/trashed).
@@ -101,7 +101,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 2: tool result</summary>
+<summary>Source event 42 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -115,7 +115,7 @@ ReturnedEmails(emails=[], emails_range=(0, 0), total_returned_emails=0, total_em
 </details>
 
 
-## Source event #43 · Sub-agent 2: model output
+## Source event 43 · Sub-agent 2: model output
 
 ```text
 All 101 INBOX emails listed; TRASH is empty. Let me verify the third participant's search and check DRAFT.
@@ -133,7 +133,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: tool result</summary>
+<summary>Source event 44 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -147,7 +147,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 2: model output
+## Source event 45 · Sub-agent 2: model output
 
 ```text
 Now let me verify there are no additional emails from these senders under other folders or name variants.
@@ -165,7 +165,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: tool result</summary>
+<summary>Source event 46 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -179,7 +179,7 @@ Action:
 </details>
 
 
-## Source event #47 · Sub-agent 2: model output
+## Source event 47 · Sub-agent 2: model output
 
 ```text
 Full INBOX (101 emails) reviewed. Let me verify no additional copies of these senders' emails exist in other folders.
@@ -197,7 +197,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: tool result</summary>
+<summary>Source event 48 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -211,7 +211,7 @@ Action:
 </details>
 
 
-## Source event #49 · Sub-agent 2: model output
+## Source event 49 · Sub-agent 2: model output
 
 ```text
 All three senders verified. Let me confirm counts and dates by checking the timestamps of each email found:
@@ -236,7 +236,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: tool result</summary>
+<summary>Source event 50 · Sub-agent 2: tool result</summary>
 
 
 ```text

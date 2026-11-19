@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #79 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 79 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Search for and purchase 50 round paper dinner plates. Search for the product, ch
 </details>
 
 
-## Source event #80 · Sub-agent 3: model output
+## Source event 80 · Sub-agent 3: model output
 
 ```text
 Thought: Need to search for round paper dinner plates in the shopping inventory.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #81 · Sub-agent 3: tool result</summary>
+<summary>Source event 81 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #82 · Sub-agent 3: model output
+## Source event 82 · Sub-agent 3: model output
 
 ```text
 The search returned a product "50-Count Value Pack Round Paper Dinner Plates- Red, White and true" with a Paper/Round/50-count variant matching the requirement exactly. I'll add that item to the cart.
@@ -66,7 +66,7 @@ Action:
 
 
 <details>
-<summary>Source event #83 · Sub-agent 3: tool result</summary>
+<summary>Source event 83 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ ef6ecb8ce734454b94e06ad1c9d0ec47
 </details>
 
 
-## Source event #84 · Sub-agent 3: model output
+## Source event 84 · Sub-agent 3: model output
 
 ```text
 Cart now contains the item. Let me verify the cart contents before checking out.
@@ -95,7 +95,7 @@ Action:
 
 
 <details>
-<summary>Source event #85 · Sub-agent 3: tool result</summary>
+<summary>Source event 85 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -109,7 +109,7 @@ Action:
 </details>
 
 
-## Source event #86 · Sub-agent 3: model output
+## Source event 86 · Sub-agent 3: model output
 
 ```text
 Cart verified: 1 unit of the 50-count round paper dinner plates pack = exactly 50 plates. Proceeding to checkout.
@@ -126,7 +126,7 @@ Action:
 
 
 <details>
-<summary>Source event #87 · Sub-agent 3: tool result</summary>
+<summary>Source event 87 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -140,7 +140,7 @@ Action:
 </details>
 
 
-## Source event #88 · Sub-agent 3: model output
+## Source event 88 · Sub-agent 3: model output
 
 ```text
 Checkout succeeded. Order created with id 71dd1b3bd748403d8c39ecd3ba9fb9d2. Subtask complete.
@@ -183,7 +183,7 @@ Action:
 
 
 <details>
-<summary>Source event #89 · Sub-agent 3: tool result</summary>
+<summary>Source event 89 · Sub-agent 3: tool result</summary>
 
 
 ```text

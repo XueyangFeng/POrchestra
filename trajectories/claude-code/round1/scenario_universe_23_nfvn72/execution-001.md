@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #1 · Main agent: Model message
+## Source event 1 · Main agent: Model message
 
 ```text
 I'll start by loading the tools I need for this task.
@@ -12,7 +12,7 @@ I'll start by loading the tools I need for this task.
 
 
 
-## Source event #2 · Main agent: Model tool call: ToolSearch (call_00_3gbak8axlf95r97erf8mgtkk)
+## Source event 2 · Main agent: Model tool call: ToolSearch (call_00_3gbak8axlf95r97erf8mgtkk)
 
 ```text
 {
@@ -24,7 +24,7 @@ I'll start by loading the tools I need for this task.
 
 
 <details>
-<summary>Source event #3 · Main agent: Tool result: call_00_3gbak8axlf95r97erf8mgtkk (is_error=False)</summary>
+<summary>Source event 3 · Main agent: Tool result: call_00_3gbak8axlf95r97erf8mgtkk (is_error=False)</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ I'll start by loading the tools I need for this task.
 </details>
 
 
-## Source event #4 · Main agent: Model message
+## Source event 4 · Main agent: Model message
 
 ```text
 Let me look up Aino Kukkonen's user id.
@@ -88,7 +88,7 @@ Let me look up Aino Kukkonen's user id.
 
 
 
-## Source event #5 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_00_qje73sxtuhejlbvq8n1uph49)
+## Source event 5 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_00_qje73sxtuhejlbvq8n1uph49)
 
 ```text
 {
@@ -98,7 +98,7 @@ Let me look up Aino Kukkonen's user id.
 
 
 
-## Source event #6 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_01_1fgdolm7zt0576iwsphurklp)
+## Source event 6 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_01_1fgdolm7zt0576iwsphurklp)
 
 ```text
 {}
@@ -107,7 +107,7 @@ Let me look up Aino Kukkonen's user id.
 
 
 <details>
-<summary>Source event #7 · Main agent: Tool result: call_00_qje73sxtuhejlbvq8n1uph49 (is_error=False)</summary>
+<summary>Source event 7 · Main agent: Tool result: call_00_qje73sxtuhejlbvq8n1uph49 (is_error=False)</summary>
 
 
 ```text
@@ -124,7 +124,7 @@ Let me look up Aino Kukkonen's user id.
 
 
 <details>
-<summary>Source event #8 · Main agent: Tool result: call_01_1fgdolm7zt0576iwsphurklp (is_error=False)</summary>
+<summary>Source event 8 · Main agent: Tool result: call_01_1fgdolm7zt0576iwsphurklp (is_error=False)</summary>
 
 
 ```text
@@ -140,7 +140,7 @@ Let me look up Aino Kukkonen's user id.
 </details>
 
 
-## Source event #9 · Main agent: Model message
+## Source event 9 · Main agent: Model message
 
 ```text
 Now send message to Aino and add calendar event.
@@ -154,7 +154,7 @@ Let me do both in parallel.
 
 
 
-## Source event #10 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_00_w9el1yn7mlfn8wj3pj2r9dev)
+## Source event 10 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_00_w9el1yn7mlfn8wj3pj2r9dev)
 
 ```text
 {
@@ -165,7 +165,7 @@ Let me do both in parallel.
 
 
 
-## Source event #11 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_01_4hf3qup8ts4ruchcu72eznfx)
+## Source event 11 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_01_4hf3qup8ts4ruchcu72eznfx)
 
 ```text
 {
@@ -180,7 +180,7 @@ Let me do both in parallel.
 
 
 <details>
-<summary>Source event #12 · Main agent: Tool result: call_00_w9el1yn7mlfn8wj3pj2r9dev (is_error=False)</summary>
+<summary>Source event 12 · Main agent: Tool result: call_00_w9el1yn7mlfn8wj3pj2r9dev (is_error=False)</summary>
 
 
 ```text
@@ -197,7 +197,7 @@ Let me do both in parallel.
 
 
 <details>
-<summary>Source event #13 · Main agent: Tool result: call_01_4hf3qup8ts4ruchcu72eznfx (is_error=True)</summary>
+<summary>Source event 13 · Main agent: Tool result: call_01_4hf3qup8ts4ruchcu72eznfx (is_error=True)</summary>
 
 
 ```text
@@ -214,7 +214,7 @@ As a reminder, this tool's description is the following:
 </details>
 
 
-## Source event #14 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_00_5suyc25rectlihaietta8272)
+## Source event 14 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_00_5suyc25rectlihaietta8272)
 
 ```text
 {
@@ -229,7 +229,7 @@ As a reminder, this tool's description is the following:
 
 
 <details>
-<summary>Source event #15 · Main agent: Tool result: call_00_5suyc25rectlihaietta8272 (is_error=False)</summary>
+<summary>Source event 15 · Main agent: Tool result: call_00_5suyc25rectlihaietta8272 (is_error=False)</summary>
 
 
 ```text
@@ -245,7 +245,7 @@ As a reminder, this tool's description is the following:
 </details>
 
 
-## Source event #16 · Main agent: Model message
+## Source event 16 · Main agent: Model message
 
 ```text
 Now report to user and wait for Aino's response.
@@ -273,7 +273,7 @@ Let me wait a bit.
 
 
 
-## Source event #17 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_99j239gficmjg33rhdlt5ixn)
+## Source event 17 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_99j239gficmjg33rhdlt5ixn)
 
 ```text
 {
@@ -284,7 +284,7 @@ Let me wait a bit.
 
 
 <details>
-<summary>Source event #18 · Main agent: Tool result: call_00_99j239gficmjg33rhdlt5ixn (is_error=False)</summary>
+<summary>Source event 18 · Main agent: Tool result: call_00_99j239gficmjg33rhdlt5ixn (is_error=False)</summary>
 
 
 ```text
@@ -304,7 +304,7 @@ Let me wait a bit.
 </details>
 
 
-## Source event #19 · Main agent: Model message
+## Source event 19 · Main agent: Model message
 
 ```text
 No response yet. Let me send the interim message to the user, then wait more. But sending ends the turn. Hmm.
@@ -318,7 +318,7 @@ But risk: no reply ever. Let me instead keep waiting a bit longer before reporti
 
 
 
-## Source event #20 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_39j9wocxdn2hr6blvfzqozwm)
+## Source event 20 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_39j9wocxdn2hr6blvfzqozwm)
 
 ```text
 {
@@ -329,7 +329,7 @@ But risk: no reply ever. Let me instead keep waiting a bit longer before reporti
 
 
 <details>
-<summary>Source event #21 · Main agent: Tool result: call_00_39j9wocxdn2hr6blvfzqozwm (is_error=False)</summary>
+<summary>Source event 21 · Main agent: Tool result: call_00_39j9wocxdn2hr6blvfzqozwm (is_error=False)</summary>
 
 
 ```text
@@ -349,7 +349,7 @@ But risk: no reply ever. Let me instead keep waiting a bit longer before reporti
 </details>
 
 
-## Source event #22 · Main agent: Model message
+## Source event 22 · Main agent: Model message
 
 ```text
 No reply yet. The user asked to be notified once message sent and event scheduled — I should send that now. Then continue waiting for Aino's reply in later turns.
@@ -367,7 +367,7 @@ Let me check the conversation.
 
 
 
-## Source event #23 · Main agent: Model tool call: mcp__gaia2__Chats__list_conversations_by_participant (call_00_jhl6mxzigord20d4vw6q0b4d)
+## Source event 23 · Main agent: Model tool call: mcp__gaia2__Chats__list_conversations_by_participant (call_00_jhl6mxzigord20d4vw6q0b4d)
 
 ```text
 {
@@ -380,7 +380,7 @@ Let me check the conversation.
 
 
 <details>
-<summary>Source event #24 · Main agent: Tool result: call_00_jhl6mxzigord20d4vw6q0b4d (is_error=False)</summary>
+<summary>Source event 24 · Main agent: Tool result: call_00_jhl6mxzigord20d4vw6q0b4d (is_error=False)</summary>
 
 
 ```text
@@ -396,7 +396,7 @@ Let me check the conversation.
 </details>
 
 
-## Source event #25 · Main agent: Model message
+## Source event 25 · Main agent: Model message
 
 ```text
 Message sent; no reply yet. I should inform the user now (as requested) and keep waiting. Let me send the confirmation message, then continue to wait in subsequent turns. But turn ends after sending...
@@ -412,7 +412,7 @@ Let me send the confirmation now.
 
 
 
-## Source event #26 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_8b60jhra39sp788zgqbdyoiw)
+## Source event 26 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_8b60jhra39sp788zgqbdyoiw)
 
 ```text
 {
@@ -423,7 +423,7 @@ Let me send the confirmation now.
 
 
 <details>
-<summary>Source event #27 · Main agent: Tool result: call_00_8b60jhra39sp788zgqbdyoiw (is_error=False)</summary>
+<summary>Source event 27 · Main agent: Tool result: call_00_8b60jhra39sp788zgqbdyoiw (is_error=False)</summary>
 
 
 ```text
@@ -439,7 +439,7 @@ Let me send the confirmation now.
 </details>
 
 
-## Source event #28 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_kh8u7w373kuvn3g2q9306rov)
+## Source event 28 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_kh8u7w373kuvn3g2q9306rov)
 
 ```text
 {
@@ -450,7 +450,7 @@ Let me send the confirmation now.
 
 
 <details>
-<summary>Source event #29 · Main agent: Tool result: call_00_kh8u7w373kuvn3g2q9306rov (is_error=True)</summary>
+<summary>Source event 29 · Main agent: Tool result: call_00_kh8u7w373kuvn3g2q9306rov (is_error=True)</summary>
 
 
 ```text
@@ -461,7 +461,7 @@ The ARE user turn has ended. Return your final response; further app actions are
 </details>
 
 
-## Source event #30 · Main agent: Model message
+## Source event 30 · Main agent: Model message
 
 ```text
 The turn has ended. I should give a final response summarizing. But then will I be re-invoked when Aino replies? The system said further app actions unavailable in this turn. So the turn is over. Presumably a new notification will start a new turn.
@@ -471,7 +471,7 @@ My final response text here — I'll summarize.
 
 
 
-## Source event #31 · Main agent: Model message
+## Source event 31 · Main agent: Model message
 
 ```text
 I've sent the message to Aino Kukkonen on Chats and scheduled the calendar event as requested.
@@ -489,7 +489,7 @@ I'm now waiting on Aino's reply. Once she responds, I'll act per your rules:
 
 
 <details>
-<summary>Source event #32 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 32 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -510,7 +510,7 @@ I'm now waiting on Aino's reply. Once she responds, I'll act per your rules:
 
 
 <details>
-<summary>Source event #33 · Judge: Judge rationale</summary>
+<summary>Source event 33 · Judge: Judge rationale</summary>
 
 
 ```text

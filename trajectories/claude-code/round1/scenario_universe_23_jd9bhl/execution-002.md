@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #41 · Main agent: Tool result: call_04_jp4fkxn35lq49wdagafft6qb (is_error=False)</summary>
+<summary>Source event 41 · Main agent: Tool result: call_04_jp4fkxn35lq49wdagafft6qb (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #42 · Main agent: Tool result: call_05_5iqztdizhq741odya0rwelsv (is_error=False)</summary>
+<summary>Source event 42 · Main agent: Tool result: call_05_5iqztdizhq741odya0rwelsv (is_error=False)</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #43 · Main agent: Model message
+## Source event 43 · Main agent: Model message
 
 ```text
 No police yet. Continue with offsets 70, 80, 90, 100, 110, 120.
@@ -56,7 +56,7 @@ Let me continue paging and also search contacts for Květa and Zdeněk.
 
 
 
-## Source event #44 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_r06w18e32t27q7fcb7amfcm8)
+## Source event 44 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_r06w18e32t27q7fcb7amfcm8)
 
 ```text
 {
@@ -66,7 +66,7 @@ Let me continue paging and also search contacts for Květa and Zdeněk.
 
 
 
-## Source event #45 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_roggdcbqhpbvf98he2ppufkl)
+## Source event 45 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_roggdcbqhpbvf98he2ppufkl)
 
 ```text
 {
@@ -76,7 +76,7 @@ Let me continue paging and also search contacts for Květa and Zdeněk.
 
 
 
-## Source event #46 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_ko2395b65auggba6buxlhr17)
+## Source event 46 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_ko2395b65auggba6buxlhr17)
 
 ```text
 {
@@ -86,7 +86,7 @@ Let me continue paging and also search contacts for Květa and Zdeněk.
 
 
 
-## Source event #47 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_7gtvx1omk0exd26jgfb6ku4p)
+## Source event 47 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_7gtvx1omk0exd26jgfb6ku4p)
 
 ```text
 {
@@ -96,7 +96,7 @@ Let me continue paging and also search contacts for Květa and Zdeněk.
 
 
 
-## Source event #48 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_04_0l5hwq20jq4broi78ku2p5hc)
+## Source event 48 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_04_0l5hwq20jq4broi78ku2p5hc)
 
 ```text
 {
@@ -106,7 +106,7 @@ Let me continue paging and also search contacts for Květa and Zdeněk.
 
 
 
-## Source event #49 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_05_ijya0d0brpv3x17xdl67eyds)
+## Source event 49 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_05_ijya0d0brpv3x17xdl67eyds)
 
 ```text
 {
@@ -117,7 +117,7 @@ Let me continue paging and also search contacts for Květa and Zdeněk.
 
 
 <details>
-<summary>Source event #50 · Main agent: Tool result: call_00_r06w18e32t27q7fcb7amfcm8 (is_error=False)</summary>
+<summary>Source event 50 · Main agent: Tool result: call_00_r06w18e32t27q7fcb7amfcm8 (is_error=False)</summary>
 
 
 ```text
@@ -134,7 +134,7 @@ Let me continue paging and also search contacts for Květa and Zdeněk.
 
 
 <details>
-<summary>Source event #51 · Main agent: Tool result: call_01_roggdcbqhpbvf98he2ppufkl (is_error=False)</summary>
+<summary>Source event 51 · Main agent: Tool result: call_01_roggdcbqhpbvf98he2ppufkl (is_error=False)</summary>
 
 
 ```text
@@ -151,7 +151,7 @@ Let me continue paging and also search contacts for Květa and Zdeněk.
 
 
 <details>
-<summary>Source event #52 · Main agent: Tool result: call_02_ko2395b65auggba6buxlhr17 (is_error=False)</summary>
+<summary>Source event 52 · Main agent: Tool result: call_02_ko2395b65auggba6buxlhr17 (is_error=False)</summary>
 
 
 ```text
@@ -168,7 +168,7 @@ Let me continue paging and also search contacts for Květa and Zdeněk.
 
 
 <details>
-<summary>Source event #53 · Main agent: Tool result: call_03_7gtvx1omk0exd26jgfb6ku4p (is_error=False)</summary>
+<summary>Source event 53 · Main agent: Tool result: call_03_7gtvx1omk0exd26jgfb6ku4p (is_error=False)</summary>
 
 
 ```text
@@ -185,7 +185,7 @@ Let me continue paging and also search contacts for Květa and Zdeněk.
 
 
 <details>
-<summary>Source event #54 · Main agent: Tool result: call_04_0l5hwq20jq4broi78ku2p5hc (is_error=False)</summary>
+<summary>Source event 54 · Main agent: Tool result: call_04_0l5hwq20jq4broi78ku2p5hc (is_error=False)</summary>
 
 
 ```text
@@ -202,7 +202,7 @@ Let me continue paging and also search contacts for Květa and Zdeněk.
 
 
 <details>
-<summary>Source event #55 · Main agent: Tool result: call_05_ijya0d0brpv3x17xdl67eyds (is_error=False)</summary>
+<summary>Source event 55 · Main agent: Tool result: call_05_ijya0d0brpv3x17xdl67eyds (is_error=False)</summary>
 
 
 ```text
@@ -218,7 +218,7 @@ Let me continue paging and also search contacts for Květa and Zdeněk.
 </details>
 
 
-## Source event #56 · Main agent: Model message
+## Source event 56 · Main agent: Model message
 
 ```text
 Found the Prague Police Department contacts:
@@ -270,7 +270,7 @@ Let me delete the 5 events.
 
 
 
-## Source event #57 · Main agent: Model message
+## Source event 57 · Main agent: Model message
 
 ```text
 I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspector, Prague Police Department, `vnovakova@pcr.cz`). Now let me handle the calendar changes. The Saturdays and overlapping events:
@@ -282,7 +282,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 
-## Source event #58 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_00_5r1awsjl58haachmq0yqoj80)
+## Source event 58 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_00_5r1awsjl58haachmq0yqoj80)
 
 ```text
 {
@@ -292,7 +292,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 
-## Source event #59 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_01_4cwgfrkm3vpcr04kkazlp320)
+## Source event 59 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_01_4cwgfrkm3vpcr04kkazlp320)
 
 ```text
 {
@@ -302,7 +302,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 
-## Source event #60 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_02_m8cr2s6faznf4f9geyl3vo9o)
+## Source event 60 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_02_m8cr2s6faznf4f9geyl3vo9o)
 
 ```text
 {
@@ -312,7 +312,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 
-## Source event #61 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_03_9re3nps37p7kr24pkdjaa63i)
+## Source event 61 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_03_9re3nps37p7kr24pkdjaa63i)
 
 ```text
 {
@@ -322,7 +322,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 
-## Source event #62 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_04_m89d15fr66i4qgslds9z4tb3)
+## Source event 62 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_04_m89d15fr66i4qgslds9z4tb3)
 
 ```text
 {
@@ -332,7 +332,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 
-## Source event #63 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_05_1zg7g19v0dejiiuao312shc9)
+## Source event 63 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_05_1zg7g19v0dejiiuao312shc9)
 
 ```text
 {
@@ -342,7 +342,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 
-## Source event #64 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_06_gri4be2kbj0ogw6kutu3fosn)
+## Source event 64 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_06_gri4be2kbj0ogw6kutu3fosn)
 
 ```text
 {
@@ -353,7 +353,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 <details>
-<summary>Source event #65 · Main agent: Tool result: call_00_5r1awsjl58haachmq0yqoj80 (is_error=False)</summary>
+<summary>Source event 65 · Main agent: Tool result: call_00_5r1awsjl58haachmq0yqoj80 (is_error=False)</summary>
 
 
 ```text
@@ -370,7 +370,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 <details>
-<summary>Source event #66 · Main agent: Tool result: call_01_4cwgfrkm3vpcr04kkazlp320 (is_error=False)</summary>
+<summary>Source event 66 · Main agent: Tool result: call_01_4cwgfrkm3vpcr04kkazlp320 (is_error=False)</summary>
 
 
 ```text
@@ -387,7 +387,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 <details>
-<summary>Source event #67 · Main agent: Tool result: call_02_m8cr2s6faznf4f9geyl3vo9o (is_error=False)</summary>
+<summary>Source event 67 · Main agent: Tool result: call_02_m8cr2s6faznf4f9geyl3vo9o (is_error=False)</summary>
 
 
 ```text
@@ -404,7 +404,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 <details>
-<summary>Source event #68 · Main agent: Tool result: call_03_9re3nps37p7kr24pkdjaa63i (is_error=False)</summary>
+<summary>Source event 68 · Main agent: Tool result: call_03_9re3nps37p7kr24pkdjaa63i (is_error=False)</summary>
 
 
 ```text
@@ -421,7 +421,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 <details>
-<summary>Source event #69 · Main agent: Tool result: call_04_m89d15fr66i4qgslds9z4tb3 (is_error=False)</summary>
+<summary>Source event 69 · Main agent: Tool result: call_04_m89d15fr66i4qgslds9z4tb3 (is_error=False)</summary>
 
 
 ```text
@@ -438,7 +438,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 <details>
-<summary>Source event #70 · Main agent: Tool result: call_05_1zg7g19v0dejiiuao312shc9 (is_error=False)</summary>
+<summary>Source event 70 · Main agent: Tool result: call_05_1zg7g19v0dejiiuao312shc9 (is_error=False)</summary>
 
 
 ```text
@@ -455,7 +455,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 
 
 <details>
-<summary>Source event #71 · Main agent: Tool result: call_06_gri4be2kbj0ogw6kutu3fosn (is_error=False)</summary>
+<summary>Source event 71 · Main agent: Tool result: call_06_gri4be2kbj0ogw6kutu3fosn (is_error=False)</summary>
 
 
 ```text
@@ -471,7 +471,7 @@ I found the Prague Police contact: **Vladimíra Nováková** (Detective Inspecto
 </details>
 
 
-## Source event #72 · Main agent: Model message
+## Source event 72 · Main agent: Model message
 
 ```text
 Vladimíra Nováková exists on Chats with user_id '663a1b51-bfd6-44c5-a76d-9b458cd7001a'. Messages lookup returned empty. So use Chats.
@@ -491,7 +491,7 @@ Let me add events and send chat.
 
 
 
-## Source event #73 · Main agent: Model message
+## Source event 73 · Main agent: Model message
 
 ```text
 All five conflicting events deleted. Now I'll add the three 'Work From Home' blocks and send the Chats message to Vladimíra (she's on Chats, not Messages).
@@ -499,7 +499,7 @@ All five conflicting events deleted. Now I'll add the three 'Work From Home' blo
 
 
 
-## Source event #74 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_00_rn5ap7hpf23ywixlhuqq1pte)
+## Source event 74 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_00_rn5ap7hpf23ywixlhuqq1pte)
 
 ```text
 {
@@ -514,7 +514,7 @@ All five conflicting events deleted. Now I'll add the three 'Work From Home' blo
 
 
 
-## Source event #75 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_01_x3dz6y6fvl8xiyeujvj3vqr7)
+## Source event 75 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_01_x3dz6y6fvl8xiyeujvj3vqr7)
 
 ```text
 {
@@ -529,7 +529,7 @@ All five conflicting events deleted. Now I'll add the three 'Work From Home' blo
 
 
 
-## Source event #76 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_02_l18n4f8wxb3xjjo6v3fxtfvx)
+## Source event 76 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_02_l18n4f8wxb3xjjo6v3fxtfvx)
 
 ```text
 {
@@ -544,7 +544,7 @@ All five conflicting events deleted. Now I'll add the three 'Work From Home' blo
 
 
 
-## Source event #77 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_03_6ip2z723ofrlbl5hz3ynw2wm)
+## Source event 77 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_03_6ip2z723ofrlbl5hz3ynw2wm)
 
 ```text
 {
@@ -556,7 +556,7 @@ All five conflicting events deleted. Now I'll add the three 'Work From Home' blo
 
 
 <details>
-<summary>Source event #78 · Main agent: Tool result: call_00_rn5ap7hpf23ywixlhuqq1pte (is_error=False)</summary>
+<summary>Source event 78 · Main agent: Tool result: call_00_rn5ap7hpf23ywixlhuqq1pte (is_error=False)</summary>
 
 
 ```text
@@ -573,7 +573,7 @@ All five conflicting events deleted. Now I'll add the three 'Work From Home' blo
 
 
 <details>
-<summary>Source event #79 · Main agent: Tool result: call_01_x3dz6y6fvl8xiyeujvj3vqr7 (is_error=False)</summary>
+<summary>Source event 79 · Main agent: Tool result: call_01_x3dz6y6fvl8xiyeujvj3vqr7 (is_error=False)</summary>
 
 
 ```text
@@ -590,7 +590,7 @@ All five conflicting events deleted. Now I'll add the three 'Work From Home' blo
 
 
 <details>
-<summary>Source event #80 · Main agent: Tool result: call_02_l18n4f8wxb3xjjo6v3fxtfvx (is_error=False)</summary>
+<summary>Source event 80 · Main agent: Tool result: call_02_l18n4f8wxb3xjjo6v3fxtfvx (is_error=False)</summary>
 
 
 ```text
@@ -607,7 +607,7 @@ All five conflicting events deleted. Now I'll add the three 'Work From Home' blo
 
 
 <details>
-<summary>Source event #81 · Main agent: Tool result: call_03_6ip2z723ofrlbl5hz3ynw2wm (is_error=False)</summary>
+<summary>Source event 81 · Main agent: Tool result: call_03_6ip2z723ofrlbl5hz3ynw2wm (is_error=False)</summary>
 
 
 ```text
@@ -623,7 +623,7 @@ All five conflicting events deleted. Now I'll add the three 'Work From Home' blo
 </details>
 
 
-## Source event #82 · Main agent: Model message
+## Source event 82 · Main agent: Model message
 
 ```text
 Now the email. "Send a group email with the subject 'Help Me Out, Fam?' to everyone I attended 'Dinner with Family' with so far this month, asking if any of them can lend me money to cover this fine."
@@ -682,7 +682,7 @@ Let me send it.
 
 
 
-## Source event #83 · Main agent: Model message
+## Source event 83 · Main agent: Model message
 
 ```text
 Calendar and Chats are done. Now the group email to everyone from 'Dinner with Family' events so far this month (Oct 1, 3, 7, 11, 14): Štěpán, Pavla, Květa, Věra, Zdeněk, Bohumil, and Lukáš.
@@ -690,7 +690,7 @@ Calendar and Chats are done. Now the group email to everyone from 'Dinner with F
 
 
 
-## Source event #84 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_f8w4630nm25ohzpyooi47887)
+## Source event 84 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_f8w4630nm25ohzpyooi47887)
 
 ```text
 {
@@ -711,7 +711,7 @@ Calendar and Chats are done. Now the group email to everyone from 'Dinner with F
 
 
 <details>
-<summary>Source event #85 · Main agent: Tool result: call_00_f8w4630nm25ohzpyooi47887 (is_error=False)</summary>
+<summary>Source event 85 · Main agent: Tool result: call_00_f8w4630nm25ohzpyooi47887 (is_error=False)</summary>
 
 
 ```text
@@ -727,7 +727,7 @@ Calendar and Chats are done. Now the group email to everyone from 'Dinner with F
 </details>
 
 
-## Source event #86 · Main agent: Model message
+## Source event 86 · Main agent: Model message
 
 ```text
 Now let me verify the calendar state: query Oct 18 - Nov 3 to confirm deletions and additions. Also verify chat message maybe. Let me verify calendar.
@@ -737,7 +737,7 @@ Also should I double check that no other events on those Saturdays overlap? Let'
 
 
 
-## Source event #87 · Main agent: Model message
+## Source event 87 · Main agent: Model message
 
 ```text
 Email sent. Let me verify the final calendar state for the three Saturdays.
@@ -745,7 +745,7 @@ Email sent. Let me verify the final calendar state for the three Saturdays.
 
 
 
-## Source event #88 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_c1tiduerefnq43spp8lpwne0)
+## Source event 88 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_c1tiduerefnq43spp8lpwne0)
 
 ```text
 {
@@ -758,7 +758,7 @@ Email sent. Let me verify the final calendar state for the three Saturdays.
 
 
 <details>
-<summary>Source event #89 · Main agent: Tool result: call_00_c1tiduerefnq43spp8lpwne0 (is_error=False)</summary>
+<summary>Source event 89 · Main agent: Tool result: call_00_c1tiduerefnq43spp8lpwne0 (is_error=False)</summary>
 
 
 ```text
@@ -774,7 +774,7 @@ Email sent. Let me verify the final calendar state for the three Saturdays.
 </details>
 
 
-## Source event #90 · Main agent: Model message
+## Source event 90 · Main agent: Model message
 
 ```text
 Verified: each of the three Saturdays now has exactly one 'Work From Home' 09:00-17:00, and the conflicting events are gone. Remaining events on those Saturdays start at 18:00 (outside block).
@@ -846,7 +846,7 @@ Let me load and call it with a summary.
 
 
 
-## Source event #91 · Main agent: Model message
+## Source event 91 · Main agent: Model message
 
 ```text
 Everything is verified: each Saturday now has exactly one 'Work From Home' block (09:00–17:00), with all conflicting events removed, and only evening events (18:00+) remain outside that block.
@@ -856,7 +856,7 @@ Let me send a brief confirmation to the user.
 
 
 
-## Source event #92 · Main agent: Model tool call: ToolSearch (call_00_4lc4h4fdnf05sewud6phpg8d)
+## Source event 92 · Main agent: Model tool call: ToolSearch (call_00_4lc4h4fdnf05sewud6phpg8d)
 
 ```text
 {
@@ -868,7 +868,7 @@ Let me send a brief confirmation to the user.
 
 
 <details>
-<summary>Source event #93 · Main agent: Tool result: call_00_4lc4h4fdnf05sewud6phpg8d (is_error=False)</summary>
+<summary>Source event 93 · Main agent: Tool result: call_00_4lc4h4fdnf05sewud6phpg8d (is_error=False)</summary>
 
 
 ```text
@@ -884,7 +884,7 @@ Let me send a brief confirmation to the user.
 </details>
 
 
-## Source event #94 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_l3wmr6cfqw7ml5hz92wymgny)
+## Source event 94 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_l3wmr6cfqw7ml5hz92wymgny)
 
 ```text
 {
@@ -895,7 +895,7 @@ Let me send a brief confirmation to the user.
 
 
 <details>
-<summary>Source event #95 · Main agent: Tool result: call_00_l3wmr6cfqw7ml5hz92wymgny (is_error=False)</summary>
+<summary>Source event 95 · Main agent: Tool result: call_00_l3wmr6cfqw7ml5hz92wymgny (is_error=False)</summary>
 
 
 ```text
@@ -911,7 +911,7 @@ Let me send a brief confirmation to the user.
 </details>
 
 
-## Source event #96 · Main agent: Model message
+## Source event 96 · Main agent: Model message
 
 ```text
 Task complete. Let me summarize for the user (also appears as final text). The turn ended by sending the message. I should output final text? The tool ended turn. I'll provide a short final summary anyway as my message. Actually the tool call already sent it. I can just give a brief note.
@@ -919,7 +919,7 @@ Task complete. Let me summarize for the user (also appears as final text). The t
 
 
 
-## Source event #97 · Main agent: Model message
+## Source event 97 · Main agent: Model message
 
 ```text
 I've completed all three requests:
@@ -941,7 +941,7 @@ Everything was verified against the calendar afterward, and all confirmations re
 
 
 <details>
-<summary>Source event #98 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 98 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -966,7 +966,7 @@ Everything was verified against the calendar afterward, and all confirmations re
 
 
 <details>
-<summary>Source event #99 · Judge: Judge rationale</summary>
+<summary>Source event 99 · Judge: Judge rationale</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_23_skhmy1
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_23_skhmy1/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_23_skhmy1/README.md) · [Codex](../../codex/round1/scenario_universe_23_skhmy1/README.md) · [OpenCode](../../opencode/round1/scenario_universe_23_skhmy1/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #7
+**Initial harness configuration** · Source event 7
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to find the contact with whom the user exchanged the most words in their 1:1 Messages chats, considering only the first 6 chronologically oldest messages in conversations that have at least 6 messages. The SubAgent will retrieve the messages, calculate the word counts, find the contact, look up their full name, and report it to the user.
 
@@ -89,11 +91,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #70
+**Initial harness configuration** · Source event 70
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous agent identified 24 1:1 Messages chat candidates up to offset 112 but did not process their message histories or compute word counts. I need a SubAgent to finish listing all conversations, filter for 1:1 chats, identify the 6 chronologically oldest messages for each candidate, calculate the total word count for those 6 messages (splitting by whitespace), and finally report the full name of the contact with the highest count.
 
@@ -160,11 +162,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #133
+**Initial harness configuration** · Source event 133
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 Previous attempts identified many 1:1 conversation candidates and established a baseline word count for one contact (Luiz Oliveira, 253 words). I need a SubAgent to fill the remaining gap in the conversation list, then systematically read each 1:1 chat that has at least 6 messages, calculate the total word count for the 6 chronologically oldest messages, and identify the contact with the overall maximum word count. Finally, the SubAgent must report ONLY the winning contact&#x27;s full name to the user.
 
@@ -231,11 +233,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #196
+**Initial harness configuration** · Source event 196
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 Previous attempts have identified a list of candidate 1:1 conversations in the Messages app and confirmed that the listing of all conversations (offset 0-160) is complete. The next step is to process these specific conversation IDs to find the one with the highest word count in its first 6 chronologically oldest messages, ensuring the chat has at least 6 messages. A baseline of 253 words for Luiz Oliveira has already been established. I will provide the list of candidate IDs to the SubAgent for processing.
 
@@ -302,11 +304,11 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 
 ### S5 configuration v1
 
-**Initial harness configuration** · Source event #262
+**Initial harness configuration** · Source event 262
 
 **Initial delegation**
 
-`delegate_task` · Source event #5
+`delegate_task` · Source event 5
 
 Previous subagents have identified a list of 1:1 conversation candidates and established a baseline (Luiz Oliveira, 253 words from the first 6 messages). I need to process the remaining candidate IDs to find if any other 1:1 chat with at least 6 messages has a higher word count in its first 6 chronologically oldest messages. I will provide the subagent with the current leader and the list of IDs to check.
 
@@ -369,11 +371,11 @@ Full system configuration: [Part 1](config-s5-v1-01.md)
 
 ### S6 configuration v1
 
-**Initial harness configuration** · Source event #326
+**Initial harness configuration** · Source event 326
 
 **Initial delegation**
 
-`delegate_task` · Source event #6
+`delegate_task` · Source event 6
 
 Three potential 1:1 candidate conversations remain unchecked (Helmut Grünewald, Kirsti Virtanen, and Věra Nováková). I must verify their word counts for the first 6 messages to confirm if they exceed the current maximum of 293 words held by Sebastião Silva e Oliveira before providing the final answer.
 

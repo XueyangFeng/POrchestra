@@ -1,6 +1,8 @@
 # scenario_universe_28_04jord
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_28_04jord/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_28_04jord/README.md) · [Codex](../../codex/round1/scenario_universe_28_04jord/README.md) · [OpenCode](../../opencode/round1/scenario_universe_28_04jord/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 10
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #13
+**Initial harness configuration** · Source event 13
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to begin the 4-minute monitoring process starting from 2024-10-15 07:00:00 to detect new apartment listings in the 8000 zip code. The SubAgent will establish a baseline, poll every second, save any new 8000 zip code listings, track their timestamps, and handle the deletion of 9000 zip code properties if the condition (2 or more new listings saved) is met exactly 1 minute after the last save.
 
@@ -85,7 +87,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #32
+**Harness configuration updated** · Source event 32
 
 **1. Sub-agent revision request**
 
@@ -94,7 +96,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Baseline established for zip 8000 at 07:00:12 with 16 apartments. Monitoring in progress; polled at ~07:00:12-14, no new apartments yet. Per-second polling to 07:04:00 requires ~228 more search+wait iterations (~456+ steps), plus potential 60s post-save wait.
 ```
 <details>
-<summary>Request and evidence · source event #30</summary>
+<summary>Request and evidence · source event 30</summary>
 
 
 ```text
@@ -136,7 +138,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent correctly identified the need for more steps to maintain the per-second polling requirement for the remainder of the 4-minute monitoring window and the subsequent conditional 1-minute delay. I am increasing the step budget to 800 to allow the SubAgent to continue this high-frequency monitoring and handle the potential deletion logic.
 
@@ -236,7 +238,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 
 ### S1 configuration v3
 
-**Harness configuration updated** · Source event #41
+**Harness configuration updated** · Source event 41
 
 **1. Sub-agent revision request**
 
@@ -245,7 +247,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 Baseline of 16 zip 8000 apartments established at 07:00:12. Monitoring loop in progress; 3 polls done (~07:00:12-15), no new apartments detected yet. Current step usage ~8; full 4-minute monitoring plus post-save delay requires far more steps than remaining budget.
 ```
 <details>
-<summary>Request and evidence · source event #39</summary>
+<summary>Request and evidence · source event 39</summary>
 
 
 ```text
@@ -288,7 +290,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #3
+`revise_task` · Source event 3
 
 The SubAgent requested a step budget increase to continue the monitoring loop and conditional deletion task.
 
@@ -403,7 +405,7 @@ Full system configuration: [Part 1](config-s1-v3-01.md)
 
 ### S1 configuration v4
 
-**Harness configuration updated** · Source event #89
+**Harness configuration updated** · Source event 89
 
 **1. Sub-agent revision request**
 
@@ -412,7 +414,7 @@ Full system configuration: [Part 1](config-s1-v3-01.md)
 Monitoring in progress. Baseline of 16 zip 8000 apartments established at 07:00:12. Polling since then; as of the latest poll (~07:00:44) no new apartments appeared. 0 new saves so far, no deletion condition triggered. Current time 07:00:42 at last time check; roughly 3m18s of the 4-minute window remains.
 ```
 <details>
-<summary>Request and evidence · source event #87</summary>
+<summary>Request and evidence · source event 87</summary>
 
 
 ```text
@@ -456,7 +458,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #4
+`revise_task` · Source event 4
 
 The SubAgent needs more steps to fulfill the requirement of polling the RentAFlat app every second for the remaining duration of the 4-minute window (until 07:04:00) and to handle the subsequent conditional deletion logic. Continuing the current attempt with an increased budget is the most efficient path.
 
@@ -576,7 +578,7 @@ Full system configuration: [Part 1](config-s1-v4-01.md)
 
 ### S1 configuration v5
 
-**Harness configuration updated** · Source event #93
+**Harness configuration updated** · Source event 93
 
 **1. Sub-agent revision request**
 
@@ -585,7 +587,7 @@ Full system configuration: [Part 1](config-s1-v4-01.md)
 A new user message arrived with empty/no visible content during the monitoring task. Monitoring state: baseline of 16 zip 8000 apartments established at 07:00:12; no new apartments detected yet; 0 new saves; deletion condition not evaluated. Last time check: 07:00:42.
 ```
 <details>
-<summary>Request and evidence · source event #91</summary>
+<summary>Request and evidence · source event 91</summary>
 
 
 ```text
@@ -628,7 +630,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #5
+`revise_task` · Source event 5
 
 Confirming to continue the monitoring task despite the empty user message notification, and increasing the step budget to ensure the SubAgent can poll every second until 07:04:00 and execute the conditional deletion.
 
@@ -746,7 +748,7 @@ Full system configuration: [Part 1](config-s1-v5-01.md)
 
 ### S1 configuration v6
 
-**Harness configuration updated** · Source event #149
+**Harness configuration updated** · Source event 149
 
 **1. Sub-agent revision request**
 
@@ -755,7 +757,7 @@ Full system configuration: [Part 1](config-s1-v5-01.md)
 Monitoring in progress. Baseline of 16 zip 8000 apartments at 07:00:12. One new zip 8000 apartment (1ef110b7bb6c44957a2606ce8287ba4e) appeared at ~07:01:05 and was saved. Last save timestamp: 07:01:05. New save count: 1 (deletion condition requires 2+, so not yet triggered). Monitoring must continue until 07:04:00.
 ```
 <details>
-<summary>Request and evidence · source event #147</summary>
+<summary>Request and evidence · source event 147</summary>
 
 
 ```text
@@ -799,7 +801,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #6
+`revise_task` · Source event 6
 
 The SubAgent is correctly monitoring the RentAFlat app but requires a larger step budget to complete the per-second polling for the remainder of the 4-minute window and handle the conditional deletion. One new apartment has already been saved at 07:01:05.
 
@@ -914,7 +916,7 @@ Full system configuration: [Part 1](config-s1-v6-01.md)
 
 ### S1 configuration v7
 
-**Harness configuration updated** · Source event #169
+**Harness configuration updated** · Source event 169
 
 **1. Sub-agent revision request**
 
@@ -923,7 +925,7 @@ Full system configuration: [Part 1](config-s1-v6-01.md)
 Monitoring in progress. Baseline of 16 zip 8000 apartments at 07:00:12. One new apartment (1ef110b7bb6c44957a2606ce8287ba4e) appeared and was saved at ~07:01:05. New save count: 1. Monitoring must continue until 07:04:00; approximately 2m30s remain requiring ~300 more search+wait calls, plus a possible 60-second post-save wait and deletion if a second new apartment appears.
 ```
 <details>
-<summary>Request and evidence · source event #167</summary>
+<summary>Request and evidence · source event 167</summary>
 
 
 ```text
@@ -967,7 +969,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #7
+`revise_task` · Source event 7
 
 The SubAgent is correctly monitoring the RentAFlat app for the 8000 zip code and has already saved one new listing at 07:01:05. It needs to continue polling every second until 07:04:00 to catch any other new listings and then evaluate the conditional deletion of zip 9000 listings exactly one minute after the last save. I will increase the step budget to 2000 to ensure the SubAgent can complete the high-frequency polling for the remainder of the 4-minute window and handle the follow-up logic.
 
@@ -1081,7 +1083,7 @@ Full system configuration: [Part 1](config-s1-v7-01.md)
 
 ### S1 configuration v8
 
-**Harness configuration updated** · Source event #184
+**Harness configuration updated** · Source event 184
 
 **1. Sub-agent revision request**
 
@@ -1090,7 +1092,7 @@ Full system configuration: [Part 1](config-s1-v7-01.md)
 Monitoring in progress. As of latest polls, still only 1 new zip 8000 apartment saved (1ef110b7bb6c44957a2606ce8287ba4e at 07:01:05). New save count: 1. Monitoring must continue until 07:04:00; roughly 2m+ of per-second polling remains (~240-300 tool calls), plus possible 60s post-save wait if another save occurs.
 ```
 <details>
-<summary>Request and evidence · source event #182</summary>
+<summary>Request and evidence · source event 182</summary>
 
 
 ```text
@@ -1134,7 +1136,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #8
+`revise_task` · Source event 8
 
 The SubAgent is correctly monitoring the app but requires a significantly higher step budget to maintain per-second polling for the remainder of the 4-minute window (until 07:04:00) and to handle the conditional logic that follows. One new listing has been saved so far. I will provide the requested budget increase and clarify that the monitoring must continue until the full 4 minutes are up, regardless of previous saves.
 
@@ -1245,7 +1247,7 @@ Full system configuration: [Part 1](config-s1-v8-01.md)
 
 ### S1 configuration v9
 
-**Harness configuration updated** · Source event #230
+**Harness configuration updated** · Source event 230
 
 **1. Sub-agent revision request**
 
@@ -1254,7 +1256,7 @@ Full system configuration: [Part 1](config-s1-v8-01.md)
 Monitoring in progress. Baseline of 16 zip 8000 apartments at 07:00:12. One new apartment (1ef110b7bb6c44957a2606ce8287ba4e) saved at 07:01:05; new save count = 1. Current time was 07:02:20 at last check; ~1m40s remain until 07:04:00. Continuing per-second polls; no additional new apartments detected yet.
 ```
 <details>
-<summary>Request and evidence · source event #228</summary>
+<summary>Request and evidence · source event 228</summary>
 
 
 ```text
@@ -1299,7 +1301,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #10
+`revise_task` · Source event 10
 
 Continuing the monitoring task until 07:04:00 and executing the conditional deletion logic. Granting additional step budget as requested.
 
@@ -1407,7 +1409,7 @@ Full system configuration: [Part 1](config-s1-v9-01.md)
 
 ### S1 configuration v10
 
-**Harness configuration updated** · Source event #244
+**Harness configuration updated** · Source event 244
 
 **1. Sub-agent revision request**
 
@@ -1416,7 +1418,7 @@ Full system configuration: [Part 1](config-s1-v9-01.md)
 Monitoring in progress. Baseline of 16 zip 8000 apartments at 07:00:12. One new apartment (1ef110b7bb6c44957a2606ce8287ba4e) saved at 07:01:05; new save count = 1. Last time check: 07:02:20; continued multiple polls since then with no additional new apartments. Monitoring must continue until 07:04:00, approximately 90+ seconds remain.
 ```
 <details>
-<summary>Request and evidence · source event #242</summary>
+<summary>Request and evidence · source event 242</summary>
 
 
 ```text
@@ -1532,7 +1534,7 @@ Full system configuration: [Part 1](config-s1-v10-01.md)
 
 ### S1 configuration v11
 
-**Harness configuration updated** · Source event #296
+**Harness configuration updated** · Source event 296
 
 **1. Sub-agent revision request**
 
@@ -1541,7 +1543,7 @@ Full system configuration: [Part 1](config-s1-v10-01.md)
 Monitoring in progress. Baseline of 16 zip 8000 apartments at 07:00:12. One new apartment (1ef110b7bb6c44957a2606ce8287ba4e) was saved at 07:01:05; new save count = 1. Repeated per-second polling through ~07:03:00 has found no additional new apartments. Approximately 1 minute of mandatory monitoring remains until 07:04:00.
 ```
 <details>
-<summary>Request and evidence · source event #294</summary>
+<summary>Request and evidence · source event 294</summary>
 
 
 ```text
@@ -1585,7 +1587,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #11
+`revise_task` · Source event 11
 
 The SubAgent is performing the monitoring task correctly but requires more steps to complete the 4-minute polling window (until 07:04:00) and handle the conditional deletion logic. A baseline was established and one new listing was saved at 07:01:05. Since the 1-minute mark for that save (07:02:05) has passed without a second save, no deletion was triggered yet. However, if more listings appear before 07:04:00, the &#x27;last save&#x27; and the &#x27;two or more&#x27; condition must be re-evaluated.
 
@@ -1695,7 +1697,7 @@ Full system configuration: [Part 1](config-s1-v11-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #9</summary>
+<summary>Source event 9</summary>
 
 
 ```text
@@ -1733,7 +1735,7 @@ Full system configuration: [Part 1](config-s1-v11-01.md)
 </details>
 
 <details>
-<summary>Source event #12</summary>
+<summary>Source event 12</summary>
 
 
 ```text

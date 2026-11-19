@@ -1,6 +1,8 @@
 # scenario_universe_25_642cr1
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_25_642cr1/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_25_642cr1/README.md) · [Codex](../../codex/round1/scenario_universe_25_642cr1/README.md) · [OpenCode](../../opencode/round1/scenario_universe_25_642cr1/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Delegate the task of listing calendar events, adding daily dinner reminders from today (Oct 15, 2024) to Friday of next week (Oct 25, 2024) at 7pm-8pm, deleting conflicting non-dinner events, emailing affected attendees, and leaving existing dinner events at 7pm untouched.
 
@@ -97,7 +99,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #2</summary>
+<summary>Source event 2</summary>
 
 
 ```text

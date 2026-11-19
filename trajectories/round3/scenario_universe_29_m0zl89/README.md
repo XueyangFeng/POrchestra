@@ -1,6 +1,8 @@
 # scenario_universe_29_m0zl89
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_29_m0zl89/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_29_m0zl89/README.md) · [Codex](../../codex/round3/scenario_universe_29_m0zl89/README.md) · [OpenCode](../../opencode/round3/scenario_universe_29_m0zl89/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #6
+**Initial harness configuration** · Source event 6
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the zip code with the lowest property crime rate among the locations of available apartments. Then, I need to find and save 2-bedroom apartments with parking in that zip code and determine the city name for subsequent tasks.
 
@@ -91,11 +93,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #68
+**Initial harness configuration** · Source event 68
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent checked 27 out of 73 zip codes. I need to check the remaining 46 zip codes to find the one with the lowest property crime rate. Due to step limits, I will split the remaining zip codes into two batches. This SubAgent will check the first batch of 23 zip codes and identify if any have a property crime rate lower than the current best (1.54 in zip 560043).
 
@@ -156,11 +158,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #122
+**Initial harness configuration** · Source event 122
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 We have checked 50 out of 73 unique zip codes from the apartment catalog to find the one with the lowest property crime rate. The current leader is zip code 560043 (Bengaluru) with a rate of 1.54. I need to check the remaining 23 zip codes to ensure I find the absolute lowest rate before proceeding with the apartment selection and subsequent contact/email tasks.
 
@@ -232,11 +234,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #185
+**Initial harness configuration** · Source event 185
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 The previous SubAgents have successfully identified the winning zip code (560043, Bengaluru) and saved the matching 2-bedroom apartments with parking (&#x27;Sai Kripa Apartments&#x27; and &#x27;Sai Sankalp&#x27;). Now I need to add the realtor to contacts, email him the property names, find all contacts in Bengaluru who are on Messages, and start a group chat with them.
 
@@ -313,7 +315,7 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #5</summary>
+<summary>Source event 5</summary>
 
 
 ```text

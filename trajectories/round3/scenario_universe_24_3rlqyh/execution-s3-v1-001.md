@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #38 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 38 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Order the following three items for Yumi: 1) One 'Wild Republic Cuddlekins 12" G
 </details>
 
 
-## Source event #39 · Sub-agent 3: model output
+## Source event 39 · Sub-agent 3: model output
 
 ```text
 I'll start by searching for the three products in the shopping catalog.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 3: tool result</summary>
+<summary>Source event 40 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 3: model output
+## Source event 41 · Sub-agent 3: model output
 
 ```text
 No results for the full name. Let me try broader searches.
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 3: tool result</summary>
+<summary>Source event 42 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 3: model output
+## Source event 43 · Sub-agent 3: model output
 
 ```text
 Found the plush variant. Let me add it to the cart and search for the next product.
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 3: tool result</summary>
+<summary>Source event 44 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -118,7 +118,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 3: tool result</summary>
+<summary>Source event 45 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #46 · Sub-agent 3: tool result</summary>
+<summary>Source event 46 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -155,7 +155,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #47 · Sub-agent 3: model output
+## Source event 47 · Sub-agent 3: model output
 
 ```text
 The first item is in the cart. Retrying the search for the second product.
@@ -174,7 +174,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 3: tool result</summary>
+<summary>Source event 48 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ Action:
 </details>
 
 
-## Source event #49 · Sub-agent 3: model output
+## Source event 49 · Sub-agent 3: model output
 
 ```text
 Found the polycarbonate variant (available). Adding it to cart.
@@ -208,7 +208,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 3: tool result</summary>
+<summary>Source event 50 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -222,7 +222,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 3: model output
+## Source event 51 · Sub-agent 3: model output
 
 ```text
 Second item added. Now searching for the third product.
@@ -241,7 +241,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 3: tool result</summary>
+<summary>Source event 52 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -255,7 +255,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 3: model output
+## Source event 53 · Sub-agent 3: model output
 
 ```text
 Found the New condition variant. Adding it to cart.
@@ -275,7 +275,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 3: tool result</summary>
+<summary>Source event 54 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -289,7 +289,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 3: model output
+## Source event 55 · Sub-agent 3: model output
 
 ```text
 All three items added. Verifying the cart before checkout.
@@ -306,7 +306,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 3: tool result</summary>
+<summary>Source event 56 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -320,7 +320,7 @@ Action:
 </details>
 
 
-## Source event #57 · Sub-agent 3: model output
+## Source event 57 · Sub-agent 3: model output
 
 ```text
 All three correct variants are in the cart. Proceeding to checkout without a discount code.
@@ -337,7 +337,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 3: tool result</summary>
+<summary>Source event 58 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -351,7 +351,7 @@ Action:
 </details>
 
 
-## Source event #59 · Sub-agent 3: model output
+## Source event 59 · Sub-agent 3: model output
 
 ```text
 All three items were located with the correct variants, added to the cart, verified, and the order was placed successfully.
@@ -401,7 +401,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 3: tool result</summary>
+<summary>Source event 60 · Sub-agent 3: tool result</summary>
 
 
 ```text

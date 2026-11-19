@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #1 · Main agent: Model message
+## Source event 1 · Main agent: Model message
 
 ```text
 Let me start by exploring the shopping app to find the product.
@@ -12,7 +12,7 @@ Let me start by exploring the shopping app to find the product.
 
 
 
-## Source event #2 · Main agent: Model message
+## Source event 2 · Main agent: Model message
 
 ```text
 I'll start by finding the product in the shopping app.
@@ -20,7 +20,7 @@ I'll start by finding the product in the shopping app.
 
 
 
-## Source event #3 · Main agent: Model tool call: ToolSearch (call_00_3xtxhin72a8ita1atlnwtedj)
+## Source event 3 · Main agent: Model tool call: ToolSearch (call_00_3xtxhin72a8ita1atlnwtedj)
 
 ```text
 {
@@ -32,7 +32,7 @@ I'll start by finding the product in the shopping app.
 
 
 <details>
-<summary>Source event #4 · Main agent: Tool result: call_00_3xtxhin72a8ita1atlnwtedj (is_error=False)</summary>
+<summary>Source event 4 · Main agent: Tool result: call_00_3xtxhin72a8ita1atlnwtedj (is_error=False)</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ I'll start by finding the product in the shopping app.
 </details>
 
 
-## Source event #5 · Main agent: Model message
+## Source event 5 · Main agent: Model message
 
 ```text
 Now search for the Missing Link product.
@@ -88,7 +88,7 @@ Now search for the Missing Link product.
 
 
 
-## Source event #6 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_00_xds4n8vbn8fzc3np2fofx51n)
+## Source event 6 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_00_xds4n8vbn8fzc3np2fofx51n)
 
 ```text
 {
@@ -100,7 +100,7 @@ Now search for the Missing Link product.
 
 
 <details>
-<summary>Source event #7 · Main agent: Tool result: call_00_xds4n8vbn8fzc3np2fofx51n (is_error=False)</summary>
+<summary>Source event 7 · Main agent: Tool result: call_00_xds4n8vbn8fzc3np2fofx51n (is_error=False)</summary>
 
 
 ```text
@@ -116,7 +116,7 @@ Now search for the Missing Link product.
 </details>
 
 
-## Source event #8 · Main agent: Model message
+## Source event 8 · Main agent: Model message
 
 ```text
 The task: "Buy one of each of the available vinyl variants of the Funko Pop! Animation: Missing Link - Link product."
@@ -137,7 +137,7 @@ Let me get product details to confirm maybe there are more variants. The search 
 
 
 
-## Source event #9 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_00_kaakn3o4eppb750c2yp31ytr)
+## Source event 9 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_00_kaakn3o4eppb750c2yp31ytr)
 
 ```text
 {
@@ -148,7 +148,7 @@ Let me get product details to confirm maybe there are more variants. The search 
 
 
 <details>
-<summary>Source event #10 · Main agent: Tool result: call_00_kaakn3o4eppb750c2yp31ytr (is_error=False)</summary>
+<summary>Source event 10 · Main agent: Tool result: call_00_kaakn3o4eppb750c2yp31ytr (is_error=False)</summary>
 
 
 ```text
@@ -164,7 +164,7 @@ Let me get product details to confirm maybe there are more variants. The search 
 </details>
 
 
-## Source event #11 · Main agent: Model message
+## Source event 11 · Main agent: Model message
 
 ```text
 Available vinyl variants: 4 items (fe85, 47f7, 567f, a1fa). Add one of each to cart.
@@ -172,7 +172,7 @@ Available vinyl variants: 4 items (fe85, 47f7, 567f, a1fa). Add one of each to c
 
 
 
-## Source event #12 · Main agent: Model message
+## Source event 12 · Main agent: Model message
 
 ```text
 Found 5 variants, 4 of which are available vinyl variants (excluding the unavailable Metallic one). Adding one of each to cart.
@@ -180,7 +180,7 @@ Found 5 variants, 4 of which are available vinyl variants (excluding the unavail
 
 
 
-## Source event #13 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_84ft3nvcn5qzeorov1dhvzm1)
+## Source event 13 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_84ft3nvcn5qzeorov1dhvzm1)
 
 ```text
 {
@@ -191,7 +191,7 @@ Found 5 variants, 4 of which are available vinyl variants (excluding the unavail
 
 
 
-## Source event #14 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_01_64ofvxvoekctvkhw35i42axe)
+## Source event 14 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_01_64ofvxvoekctvkhw35i42axe)
 
 ```text
 {
@@ -202,7 +202,7 @@ Found 5 variants, 4 of which are available vinyl variants (excluding the unavail
 
 
 
-## Source event #15 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_02_22r3ynm02qx4vrtaa7yur8c2)
+## Source event 15 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_02_22r3ynm02qx4vrtaa7yur8c2)
 
 ```text
 {
@@ -213,7 +213,7 @@ Found 5 variants, 4 of which are available vinyl variants (excluding the unavail
 
 
 
-## Source event #16 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_03_fyik7nrrztp3lkisjkvbgvcl)
+## Source event 16 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_03_fyik7nrrztp3lkisjkvbgvcl)
 
 ```text
 {
@@ -225,7 +225,7 @@ Found 5 variants, 4 of which are available vinyl variants (excluding the unavail
 
 
 <details>
-<summary>Source event #17 · Main agent: Tool result: call_00_84ft3nvcn5qzeorov1dhvzm1 (is_error=False)</summary>
+<summary>Source event 17 · Main agent: Tool result: call_00_84ft3nvcn5qzeorov1dhvzm1 (is_error=False)</summary>
 
 
 ```text
@@ -242,7 +242,7 @@ Found 5 variants, 4 of which are available vinyl variants (excluding the unavail
 
 
 <details>
-<summary>Source event #18 · Main agent: Tool result: call_01_64ofvxvoekctvkhw35i42axe (is_error=False)</summary>
+<summary>Source event 18 · Main agent: Tool result: call_01_64ofvxvoekctvkhw35i42axe (is_error=False)</summary>
 
 
 ```text
@@ -259,7 +259,7 @@ Found 5 variants, 4 of which are available vinyl variants (excluding the unavail
 
 
 <details>
-<summary>Source event #19 · Main agent: Tool result: call_02_22r3ynm02qx4vrtaa7yur8c2 (is_error=False)</summary>
+<summary>Source event 19 · Main agent: Tool result: call_02_22r3ynm02qx4vrtaa7yur8c2 (is_error=False)</summary>
 
 
 ```text
@@ -276,7 +276,7 @@ Found 5 variants, 4 of which are available vinyl variants (excluding the unavail
 
 
 <details>
-<summary>Source event #20 · Main agent: Tool result: call_03_fyik7nrrztp3lkisjkvbgvcl (is_error=False)</summary>
+<summary>Source event 20 · Main agent: Tool result: call_03_fyik7nrrztp3lkisjkvbgvcl (is_error=False)</summary>
 
 
 ```text
@@ -292,7 +292,7 @@ Found 5 variants, 4 of which are available vinyl variants (excluding the unavail
 </details>
 
 
-## Source event #21 · Main agent: Model message
+## Source event 21 · Main agent: Model message
 
 ```text
 Now check cart, then checkout. The task mentions "order might get canceled" — likely checkout will cancel. Let me checkout. First view cart.
@@ -300,7 +300,7 @@ Now check cart, then checkout. The task mentions "order might get canceled" — 
 
 
 
-## Source event #22 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_q8l6bgbnfoyvcio8vn7i3lke)
+## Source event 22 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_q8l6bgbnfoyvcio8vn7i3lke)
 
 ```text
 {}
@@ -309,7 +309,7 @@ Now check cart, then checkout. The task mentions "order might get canceled" — 
 
 
 <details>
-<summary>Source event #23 · Main agent: Tool result: call_00_q8l6bgbnfoyvcio8vn7i3lke (is_error=False)</summary>
+<summary>Source event 23 · Main agent: Tool result: call_00_q8l6bgbnfoyvcio8vn7i3lke (is_error=False)</summary>
 
 
 ```text
@@ -325,7 +325,7 @@ Now check cart, then checkout. The task mentions "order might get canceled" — 
 </details>
 
 
-## Source event #24 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_gyvvk1e5ddsq0ivjqf4g92fm)
+## Source event 24 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_gyvvk1e5ddsq0ivjqf4g92fm)
 
 ```text
 {}
@@ -334,7 +334,7 @@ Now check cart, then checkout. The task mentions "order might get canceled" — 
 
 
 <details>
-<summary>Source event #25 · Main agent: Tool result: call_00_gyvvk1e5ddsq0ivjqf4g92fm (is_error=False)</summary>
+<summary>Source event 25 · Main agent: Tool result: call_00_gyvvk1e5ddsq0ivjqf4g92fm (is_error=False)</summary>
 
 
 ```text
@@ -350,7 +350,7 @@ Now check cart, then checkout. The task mentions "order might get canceled" — 
 </details>
 
 
-## Source event #26 · Main agent: Model message
+## Source event 26 · Main agent: Model message
 
 ```text
 Order placed. Now the task says notify me once I place the order. Also the order might get canceled — need to monitor. Let me get order details to verify status.
@@ -358,7 +358,7 @@ Order placed. Now the task says notify me once I place the order. Also the order
 
 
 
-## Source event #27 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_jmlossp3mxlgyf6lkpce0ud2)
+## Source event 27 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_jmlossp3mxlgyf6lkpce0ud2)
 
 ```text
 {
@@ -369,7 +369,7 @@ Order placed. Now the task says notify me once I place the order. Also the order
 
 
 <details>
-<summary>Source event #28 · Main agent: Tool result: call_00_jmlossp3mxlgyf6lkpce0ud2 (is_error=False)</summary>
+<summary>Source event 28 · Main agent: Tool result: call_00_jmlossp3mxlgyf6lkpce0ud2 (is_error=False)</summary>
 
 
 ```text
@@ -385,7 +385,7 @@ Order placed. Now the task says notify me once I place the order. Also the order
 </details>
 
 
-## Source event #29 · Main agent: Model message
+## Source event 29 · Main agent: Model message
 
 ```text
 Order status 'processed'. The user wants to be notified once the order is placed. And they anticipate cancellation. Should I send the notification now? "Notify me once you place the order" — yes, send message now. But sending a message ends the turn. Then I need to continue monitoring for cancellation. Hmm.
@@ -405,7 +405,7 @@ Hmm, but maybe the cancellation notification arrives as an environment notificat
 
 
 
-## Source event #30 · Main agent: Model message
+## Source event 30 · Main agent: Model message
 
 ```text
 Order placed successfully (status: processed, total $33.02). Notifying you now.
@@ -413,7 +413,7 @@ Order placed successfully (status: processed, total $33.02). Notifying you now.
 
 
 
-## Source event #31 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_ks3amjztt6gacdqzaeoasio0)
+## Source event 31 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_ks3amjztt6gacdqzaeoasio0)
 
 ```text
 {
@@ -424,7 +424,7 @@ Order placed successfully (status: processed, total $33.02). Notifying you now.
 
 
 <details>
-<summary>Source event #32 · Main agent: Tool result: call_00_ks3amjztt6gacdqzaeoasio0 (is_error=False)</summary>
+<summary>Source event 32 · Main agent: Tool result: call_00_ks3amjztt6gacdqzaeoasio0 (is_error=False)</summary>
 
 
 ```text
@@ -440,7 +440,7 @@ Order placed successfully (status: processed, total $33.02). Notifying you now.
 </details>
 
 
-## Source event #33 · Main agent: Model message
+## Source event 33 · Main agent: Model message
 
 ```text
 Now wait for notification about cancellation.
@@ -448,7 +448,7 @@ Now wait for notification about cancellation.
 
 
 
-## Source event #34 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_4qaww7klzj0mjmd61bs30jnc)
+## Source event 34 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_4qaww7klzj0mjmd61bs30jnc)
 
 ```text
 {
@@ -459,7 +459,7 @@ Now wait for notification about cancellation.
 
 
 <details>
-<summary>Source event #35 · Main agent: Tool result: call_00_4qaww7klzj0mjmd61bs30jnc (is_error=True)</summary>
+<summary>Source event 35 · Main agent: Tool result: call_00_4qaww7klzj0mjmd61bs30jnc (is_error=True)</summary>
 
 
 ```text
@@ -470,7 +470,7 @@ The ARE user turn has ended. Return your final response; further app actions are
 </details>
 
 
-## Source event #36 · Main agent: Model message
+## Source event 36 · Main agent: Model message
 
 ```text
 The ARE user turn ended after send_message_to_user. So I need to output a final response. But then how do I continue? In GAIA2, the environment will send notifications starting a new turn. My final response ends this turn; next notification will re-invoke me? The task says "SystemApp__wait_for_notification waits for a new environment/user update." But the turn ended.
@@ -480,7 +480,7 @@ Let me just produce final response text; then presumably next turn arrives with 
 
 
 
-## Source event #37 · Main agent: Model message
+## Source event 37 · Main agent: Model message
 
 ```text
 I've placed the order for all four available vinyl variants of the Missing Link - Link Funko Pop and notified you. I'll monitor for a cancellation notification and handle the Daryl fallback if it occurs.
@@ -489,7 +489,7 @@ I've placed the order for all four available vinyl variants of the Missing Link 
 
 
 <details>
-<summary>Source event #38 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 38 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -500,7 +500,7 @@ I've placed the order for all four available vinyl variants of the Missing Link 
 </details>
 
 
-## Source event #39 · Main agent: Model message
+## Source event 39 · Main agent: Model message
 
 ```text
 Order canceled. Now buy one of each of the available variants of Funko Pop! TV: The Walking Dead - Daryl. Search.
@@ -508,7 +508,7 @@ Order canceled. Now buy one of each of the available variants of Funko Pop! TV: 
 
 
 
-## Source event #40 · Main agent: Model message
+## Source event 40 · Main agent: Model message
 
 ```text
 The order was canceled. Searching for the Daryl product now.
@@ -516,7 +516,7 @@ The order was canceled. Searching for the Daryl product now.
 
 
 
-## Source event #41 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_00_1k6dij6jrc02hias1189e3bx)
+## Source event 41 · Main agent: Model tool call: mcp__gaia2__Shopping__search_product (call_00_1k6dij6jrc02hias1189e3bx)
 
 ```text
 {
@@ -528,7 +528,7 @@ The order was canceled. Searching for the Daryl product now.
 
 
 <details>
-<summary>Source event #42 · Main agent: Tool result: call_00_1k6dij6jrc02hias1189e3bx (is_error=False)</summary>
+<summary>Source event 42 · Main agent: Tool result: call_00_1k6dij6jrc02hias1189e3bx (is_error=False)</summary>
 
 
 ```text
@@ -544,7 +544,7 @@ The order was canceled. Searching for the Daryl product now.
 </details>
 
 
-## Source event #43 · Main agent: Model message
+## Source event 43 · Main agent: Model message
 
 ```text
 "buy one of each of the available variants" — all available variants (no "vinyl" qualifier this time). Available: 2afb (vinyl, 3.75, $8.92), d93f (vinyl, 6in, $12.99), 3c53 (Metal, $19.99). 3ded unavailable. So 3 items.
@@ -556,7 +556,7 @@ Let me check product details for completeness then add.
 
 
 
-## Source event #44 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_00_n8qvlm4qsy0vm15wf3wvuu6n)
+## Source event 44 · Main agent: Model tool call: mcp__gaia2__Shopping__get_product_details (call_00_n8qvlm4qsy0vm15wf3wvuu6n)
 
 ```text
 {
@@ -567,7 +567,7 @@ Let me check product details for completeness then add.
 
 
 <details>
-<summary>Source event #45 · Main agent: Tool result: call_00_n8qvlm4qsy0vm15wf3wvuu6n (is_error=False)</summary>
+<summary>Source event 45 · Main agent: Tool result: call_00_n8qvlm4qsy0vm15wf3wvuu6n (is_error=False)</summary>
 
 
 ```text
@@ -583,7 +583,7 @@ Let me check product details for completeness then add.
 </details>
 
 
-## Source event #46 · Main agent: Model message
+## Source event 46 · Main agent: Model message
 
 ```text
 3 available variants: 2afb, d93f, 3c53. Add one each. Also should clear cart? Cart was emptied by checkout presumably. Let me check cart to be safe. Checkout would have cleared it. I'll just add and list cart.
@@ -591,7 +591,7 @@ Let me check product details for completeness then add.
 
 
 
-## Source event #47 · Main agent: Model message
+## Source event 47 · Main agent: Model message
 
 ```text
 Three available variants of Daryl (one unavailable). Adding one of each.
@@ -599,7 +599,7 @@ Three available variants of Daryl (one unavailable). Adding one of each.
 
 
 
-## Source event #48 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_0d962959rxts1bu2wzksl9mi)
+## Source event 48 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_0d962959rxts1bu2wzksl9mi)
 
 ```text
 {
@@ -610,7 +610,7 @@ Three available variants of Daryl (one unavailable). Adding one of each.
 
 
 
-## Source event #49 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_01_yyta6e4yr7u5xyy7is22982w)
+## Source event 49 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_01_yyta6e4yr7u5xyy7is22982w)
 
 ```text
 {
@@ -621,7 +621,7 @@ Three available variants of Daryl (one unavailable). Adding one of each.
 
 
 
-## Source event #50 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_02_s9g2av229xycjnx7axv4hdfr)
+## Source event 50 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_02_s9g2av229xycjnx7axv4hdfr)
 
 ```text
 {
@@ -633,7 +633,7 @@ Three available variants of Daryl (one unavailable). Adding one of each.
 
 
 <details>
-<summary>Source event #51 · Main agent: Tool result: call_00_0d962959rxts1bu2wzksl9mi (is_error=False)</summary>
+<summary>Source event 51 · Main agent: Tool result: call_00_0d962959rxts1bu2wzksl9mi (is_error=False)</summary>
 
 
 ```text
@@ -650,7 +650,7 @@ Three available variants of Daryl (one unavailable). Adding one of each.
 
 
 <details>
-<summary>Source event #52 · Main agent: Tool result: call_01_yyta6e4yr7u5xyy7is22982w (is_error=False)</summary>
+<summary>Source event 52 · Main agent: Tool result: call_01_yyta6e4yr7u5xyy7is22982w (is_error=False)</summary>
 
 
 ```text
@@ -667,7 +667,7 @@ Three available variants of Daryl (one unavailable). Adding one of each.
 
 
 <details>
-<summary>Source event #53 · Main agent: Tool result: call_02_s9g2av229xycjnx7axv4hdfr (is_error=False)</summary>
+<summary>Source event 53 · Main agent: Tool result: call_02_s9g2av229xycjnx7axv4hdfr (is_error=False)</summary>
 
 
 ```text
@@ -683,7 +683,7 @@ Three available variants of Daryl (one unavailable). Adding one of each.
 </details>
 
 
-## Source event #54 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_g0yue7oj6agm7gd2880r4uc9)
+## Source event 54 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_g0yue7oj6agm7gd2880r4uc9)
 
 ```text
 {}
@@ -692,7 +692,7 @@ Three available variants of Daryl (one unavailable). Adding one of each.
 
 
 <details>
-<summary>Source event #55 · Main agent: Tool result: call_00_g0yue7oj6agm7gd2880r4uc9 (is_error=False)</summary>
+<summary>Source event 55 · Main agent: Tool result: call_00_g0yue7oj6agm7gd2880r4uc9 (is_error=False)</summary>
 
 
 ```text
@@ -708,7 +708,7 @@ Three available variants of Daryl (one unavailable). Adding one of each.
 </details>
 
 
-## Source event #56 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_8985m7361eqhpgw0vl3c0o7c)
+## Source event 56 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_8985m7361eqhpgw0vl3c0o7c)
 
 ```text
 {}
@@ -717,7 +717,7 @@ Three available variants of Daryl (one unavailable). Adding one of each.
 
 
 <details>
-<summary>Source event #57 · Main agent: Tool result: call_00_8985m7361eqhpgw0vl3c0o7c (is_error=False)</summary>
+<summary>Source event 57 · Main agent: Tool result: call_00_8985m7361eqhpgw0vl3c0o7c (is_error=False)</summary>
 
 
 ```text
@@ -733,7 +733,7 @@ Three available variants of Daryl (one unavailable). Adding one of each.
 </details>
 
 
-## Source event #58 · Main agent: Model message
+## Source event 58 · Main agent: Model message
 
 ```text
 Order placed. Now message Rashid Al-Mansoori on Messages. Need to find his user id. Load Messages tools.
@@ -741,7 +741,7 @@ Order placed. Now message Rashid Al-Mansoori on Messages. Need to find his user 
 
 
 
-## Source event #59 · Main agent: Model tool call: ToolSearch (call_00_0d2ikz7gpv5zo5gcqbaz7cdq)
+## Source event 59 · Main agent: Model tool call: ToolSearch (call_00_0d2ikz7gpv5zo5gcqbaz7cdq)
 
 ```text
 {
@@ -753,7 +753,7 @@ Order placed. Now message Rashid Al-Mansoori on Messages. Need to find his user 
 
 
 <details>
-<summary>Source event #60 · Main agent: Tool result: call_00_0d2ikz7gpv5zo5gcqbaz7cdq (is_error=False)</summary>
+<summary>Source event 60 · Main agent: Tool result: call_00_0d2ikz7gpv5zo5gcqbaz7cdq (is_error=False)</summary>
 
 
 ```text
@@ -785,7 +785,7 @@ Order placed. Now message Rashid Al-Mansoori on Messages. Need to find his user 
 </details>
 
 
-## Source event #61 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_00_aw4fq3nbh7vndhuesm9it64x)
+## Source event 61 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_00_aw4fq3nbh7vndhuesm9it64x)
 
 ```text
 {
@@ -795,7 +795,7 @@ Order placed. Now message Rashid Al-Mansoori on Messages. Need to find his user 
 
 
 
-## Source event #62 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_01_j7j42srke3ewlgt5rbl7e7hw)
+## Source event 62 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_01_j7j42srke3ewlgt5rbl7e7hw)
 
 ```text
 {
@@ -806,7 +806,7 @@ Order placed. Now message Rashid Al-Mansoori on Messages. Need to find his user 
 
 
 <details>
-<summary>Source event #63 · Main agent: Tool result: call_00_aw4fq3nbh7vndhuesm9it64x (is_error=False)</summary>
+<summary>Source event 63 · Main agent: Tool result: call_00_aw4fq3nbh7vndhuesm9it64x (is_error=False)</summary>
 
 
 ```text
@@ -823,7 +823,7 @@ Order placed. Now message Rashid Al-Mansoori on Messages. Need to find his user 
 
 
 <details>
-<summary>Source event #64 · Main agent: Tool result: call_01_j7j42srke3ewlgt5rbl7e7hw (is_error=False)</summary>
+<summary>Source event 64 · Main agent: Tool result: call_01_j7j42srke3ewlgt5rbl7e7hw (is_error=False)</summary>
 
 
 ```text
@@ -839,7 +839,7 @@ Order placed. Now message Rashid Al-Mansoori on Messages. Need to find his user 
 </details>
 
 
-## Source event #65 · Main agent: Model message
+## Source event 65 · Main agent: Model message
 
 ```text
 Order processed. Now send message to Rashid Al-Mansoori (user id +97143881234). Message: letting them know I am buying this one instead (the Daryl instead).
@@ -849,7 +849,7 @@ Compose a clear message. Then send. Also the user asked "Notify me once you plac
 
 
 
-## Source event #66 · Main agent: Model tool call: mcp__gaia2__Messages__send_message (call_00_umpm4saw3i4ciz920s43cpy7)
+## Source event 66 · Main agent: Model tool call: mcp__gaia2__Messages__send_message (call_00_umpm4saw3i4ciz920s43cpy7)
 
 ```text
 {
@@ -861,7 +861,7 @@ Compose a clear message. Then send. Also the user asked "Notify me once you plac
 
 
 <details>
-<summary>Source event #67 · Main agent: Tool result: call_00_umpm4saw3i4ciz920s43cpy7 (is_error=False)</summary>
+<summary>Source event 67 · Main agent: Tool result: call_00_umpm4saw3i4ciz920s43cpy7 (is_error=False)</summary>
 
 
 ```text
@@ -877,7 +877,7 @@ Compose a clear message. Then send. Also the user asked "Notify me once you plac
 </details>
 
 
-## Source event #68 · Main agent: Model message
+## Source event 68 · Main agent: Model message
 
 ```text
 Message sent. Now notify user about everything. This ends turn. Send final message.
@@ -885,7 +885,7 @@ Message sent. Now notify user about everything. This ends turn. Send final messa
 
 
 
-## Source event #69 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_g6fr7jpkyvfjdyr9k5a68of2)
+## Source event 69 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_g6fr7jpkyvfjdyr9k5a68of2)
 
 ```text
 {
@@ -896,7 +896,7 @@ Message sent. Now notify user about everything. This ends turn. Send final messa
 
 
 <details>
-<summary>Source event #70 · Main agent: Tool result: call_00_g6fr7jpkyvfjdyr9k5a68of2 (is_error=False)</summary>
+<summary>Source event 70 · Main agent: Tool result: call_00_g6fr7jpkyvfjdyr9k5a68of2 (is_error=False)</summary>
 
 
 ```text
@@ -912,7 +912,7 @@ Message sent. Now notify user about everything. This ends turn. Send final messa
 </details>
 
 
-## Source event #71 · Main agent: Model message
+## Source event 71 · Main agent: Model message
 
 ```text
 Done. Summary:
@@ -926,7 +926,7 @@ Done. Summary:
 
 
 <details>
-<summary>Source event #72 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 72 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -943,7 +943,7 @@ Done. Summary:
 
 
 <details>
-<summary>Source event #73 · Judge: Judge rationale</summary>
+<summary>Source event 73 · Judge: Judge rationale</summary>
 
 
 ```text

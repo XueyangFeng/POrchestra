@@ -1,6 +1,8 @@
 # scenario_universe_27_ih1ghz
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_27_ih1ghz/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_27_ih1ghz/README.md) · [Codex](../../codex/round2/scenario_universe_27_ih1ghz/README.md) · [OpenCode](../../opencode/round2/scenario_universe_27_ih1ghz/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #7
+**Initial harness configuration** · Source event 7
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the oldest contacts in the specified continents (North America, Asia, and Europe). I need to retrieve all contacts, determine their locations and ages, and apply the tie-breaking rules.
 
@@ -79,11 +81,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #42
+**Initial harness configuration** · Source event 42
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The oldest contacts for North America, Asia, and Europe have been identified. Now I need to count the total number of messages these specific individuals have sent to the user across both the Messages and Chats apps, and then report the final total count.
 
@@ -154,11 +156,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #106
+**Initial harness configuration** · Source event 106
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The previous attempt successfully identified the three oldest contacts (Sofía Kuznetsova García, Sri Widyastuti, and Žiga Korošec) but was unable to find their message counts due to ID format mismatches and tool behavior constraints. I will now delegate a focused task to find their messaging IDs using lookup tools, count the messages they sent to the user in both &#x27;Messages&#x27; and &#x27;Chats&#x27;, and send the final total.
 
@@ -242,11 +244,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #168
+**Initial harness configuration** · Source event 168
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 The previous agent identified the three oldest contacts and confirmed a subtotal of 32 messages in the &#x27;Messages&#x27; app for two of them. I need to complete the message count for Žiga Korošec in both apps and find the missing &#x27;Chats&#x27; IDs for Sofía and Sri to finish the sum and report the final total.
 
@@ -318,11 +320,11 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 
 ### S5 configuration v1
 
-**Initial harness configuration** · Source event #231
+**Initial harness configuration** · Source event 231
 
 **Initial delegation**
 
-`delegate_task` · Source event #5
+`delegate_task` · Source event 5
 
 We have identified the three oldest people (Sofía Kuznetsova García, Sri Widyastuti, and Žiga Korošec) and established a verified baseline of 47 messages sent by them (Sofía: 17 in Messages; Sri: 15 in Messages; Žiga: 15 in Chats). We need to exhaustively search for any remaining messages: Žiga in the Messages app and Sofía/Sri in the Chats app. Previous lookups for these combinations failed, so a manual enumeration of conversations is required. Once confirmed, the final total must be sent to the user.
 
@@ -387,11 +389,11 @@ Full system configuration: [Part 1](config-s5-v1-01.md)
 
 ### S6 configuration v1
 
-**Initial harness configuration** · Source event #293
+**Initial harness configuration** · Source event 293
 
 **Initial delegation**
 
-`delegate_task` · Source event #6
+`delegate_task` · Source event 6
 
 We have identified the three oldest contacts: Sofía Kuznetsova García (North America), Sri Widyastuti (Asia), and Žiga Korošec (Europe). So far, we have found 17 messages from Sofía in &#x27;Messages&#x27;, 15 from Sri in &#x27;Messages&#x27;, and 15 from Žiga in &#x27;Chats&#x27;, totaling 47. We need to check the remaining app for each (Sofía in &#x27;Chats&#x27;, Sri in &#x27;Chats&#x27;, and Žiga in &#x27;Messages&#x27;) to ensure no messages are missed. Once the total count is finalized, the user must receive a message containing only that integer.
 

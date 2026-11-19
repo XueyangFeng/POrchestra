@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #46 · Sub-agent 4: user / environment input</summary>
+<summary>Source event 46 · Sub-agent 4: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Remove 'Åke Svensson' from the contact list. Search for the contact to find the
 </details>
 
 
-## Source event #47 · Sub-agent 4: model output
+## Source event 47 · Sub-agent 4: model output
 
 ```text
 I'll search for the contact "Åke Svensson" to find their contact ID.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 4: tool result</summary>
+<summary>Source event 48 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #49 · Sub-agent 4: model output
+## Source event 49 · Sub-agent 4: model output
 
 ```text
 I found the contact. Now I'll delete it using the contact ID.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 4: tool result</summary>
+<summary>Source event 50 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Contact f24fbd0903d140cd9f1e9052a81ddc1c successfully deleted.
 </details>
 
 
-## Source event #51 · Sub-agent 4: model output
+## Source event 51 · Sub-agent 4: model output
 
 ```text
 The deletion succeeded. Let me verify by searching for the contact again to confirm it's no longer in the contact list.
@@ -96,7 +96,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 4: tool result</summary>
+<summary>Source event 52 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -110,7 +110,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 4: model output
+## Source event 53 · Sub-agent 4: model output
 
 ```text
 The search returned an empty list, confirming the deletion was successful. The subtask is complete.
@@ -150,7 +150,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 4: tool result</summary>
+<summary>Source event 54 · Sub-agent 4: tool result</summary>
 
 
 ```text

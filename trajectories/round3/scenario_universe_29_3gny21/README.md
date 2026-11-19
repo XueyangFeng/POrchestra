@@ -1,6 +1,8 @@
 # scenario_universe_29_3gny21
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_29_3gny21/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_29_3gny21/README.md) · [Codex](../../codex/round3/scenario_universe_29_3gny21/README.md) · [OpenCode](../../opencode/round3/scenario_universe_29_3gny21/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the last &#x27;Project Update Meeting&#x27; event in October 2024, extract its details (including the attendees), and reschedule it to November 1st, 2 PM - 4 PM. I need to ensure all details except the time are preserved.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #19
+**Initial harness configuration** · Source event 19
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The calendar event has been successfully rescheduled. Now I need to find the email addresses for the attendees (Rohan Sengupta and Kipenzi Mwanga) and send them the required notification email.
 
@@ -148,11 +150,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #29
+**Initial harness configuration** · Source event 29
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The calendar rescheduling and attendee notification email have been successfully completed. The final part of the user&#x27;s request is to purchase the &#x27;Snake Oil Game&#x27; for the user and the two attendees (total of 3 copies), applying any available discount codes, and then informing the user.
 

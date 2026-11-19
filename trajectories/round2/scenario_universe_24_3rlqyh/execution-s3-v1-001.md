@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #40 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 40 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Order the following three items from the Shopping app: 1. One 'Wild Republic Cud
 </details>
 
 
-## Source event #41 · Sub-agent 3: model output
+## Source event 41 · Sub-agent 3: model output
 
 ```text
 I'll search for the three products to find their exact IDs and details.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 3: tool result</summary>
+<summary>Source event 42 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 3: model output
+## Source event 43 · Sub-agent 3: model output
 
 ```text
 Search returned empty. Let me try broader terms.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 3: tool result</summary>
+<summary>Source event 44 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 3: model output
+## Source event 45 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -94,7 +94,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 3: tool result</summary>
+<summary>Source event 46 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -108,7 +108,7 @@ Action:
 </details>
 
 
-## Source event #47 · Sub-agent 3: model output
+## Source event 47 · Sub-agent 3: model output
 
 ```text
 Found it. The plush variant is item_id `4cc17034fdc84c658975b25686066195` (Material: Plush, $9.61, available). Now searching for the second item.
@@ -125,7 +125,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 3: tool result</summary>
+<summary>Source event 48 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -139,7 +139,7 @@ Action:
 </details>
 
 
-## Source event #49 · Sub-agent 3: model output
+## Source event 49 · Sub-agent 3: model output
 
 ```text
 Found the polycarbonate variant: `8ca108eca98e4ee6860d21bf8b6445aa`. Now the third item.
@@ -156,7 +156,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 3: tool result</summary>
+<summary>Source event 50 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 3: model output
+## Source event 51 · Sub-agent 3: model output
 
 ```text
 Found the New condition variant: `49343a82ca394d88a183dfd4feb78cd7`. Let me verify details via product descriptions before adding to cart.
@@ -187,7 +187,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 3: tool result</summary>
+<summary>Source event 52 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -201,7 +201,7 @@ Product(name='Wild Republic Cuddlekins 12" Golden Tamarin Lion', product_id='874
 </details>
 
 
-## Source event #53 · Sub-agent 3: model output
+## Source event 53 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -216,7 +216,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 3: tool result</summary>
+<summary>Source event 54 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -230,7 +230,7 @@ Product(name='PROLINE 344100 Ram 2500 Clear Body', product_id='69c03be963a78464d
 </details>
 
 
-## Source event #55 · Sub-agent 3: model output
+## Source event 55 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -245,7 +245,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 3: tool result</summary>
+<summary>Source event 56 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -259,7 +259,7 @@ Product(name='Fantasy Flight Games The Ghost of Framsburg Adventure Pack', produ
 </details>
 
 
-## Source event #57 · Sub-agent 3: model output
+## Source event 57 · Sub-agent 3: model output
 
 ```text
 All three verified. Now adding each matching variant to the cart.
@@ -277,7 +277,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 3: tool result</summary>
+<summary>Source event 58 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -291,7 +291,7 @@ Action:
 </details>
 
 
-## Source event #59 · Sub-agent 3: model output
+## Source event 59 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -307,7 +307,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 3: tool result</summary>
+<summary>Source event 60 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -321,7 +321,7 @@ Action:
 </details>
 
 
-## Source event #61 · Sub-agent 3: model output
+## Source event 61 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -337,7 +337,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 3: tool result</summary>
+<summary>Source event 62 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -351,7 +351,7 @@ Action:
 </details>
 
 
-## Source event #63 · Sub-agent 3: model output
+## Source event 63 · Sub-agent 3: model output
 
 ```text
 All three added. Verifying cart contents before checkout.
@@ -366,7 +366,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 3: tool result</summary>
+<summary>Source event 64 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -380,7 +380,7 @@ Action:
 </details>
 
 
-## Source event #65 · Sub-agent 3: model output
+## Source event 65 · Sub-agent 3: model output
 
 ```text
 Cart verified with all three correct variants. Proceeding with checkout (no discount code specified).
@@ -395,7 +395,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 3: tool result</summary>
+<summary>Source event 66 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -409,7 +409,7 @@ Action:
 </details>
 
 
-## Source event #67 · Sub-agent 3: model output
+## Source event 67 · Sub-agent 3: model output
 
 ```text
 Checkout completed successfully with order ID `07c17f78053a4973bd9b6388f12ed73e`.
@@ -451,7 +451,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 3: tool result</summary>
+<summary>Source event 68 · Sub-agent 3: tool result</summary>
 
 
 ```text

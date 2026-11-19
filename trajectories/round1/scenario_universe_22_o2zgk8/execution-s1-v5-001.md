@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #73 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 73 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #74 · Sub-agent 1: model output
+## Source event 74 · Sub-agent 1: model output
 
 ```text
 The Messages tool is still unavailable. I cannot access the latest message needed to decide on calendar/van changes. I will request the missing tool again.
@@ -64,7 +64,7 @@ Action:
 
 
 <details>
-<summary>Source event #75 · Sub-agent 1: tool result</summary>
+<summary>Source event 75 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_25_xrkc29
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_25_xrkc29/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_25_xrkc29/README.md) · [Codex](../../codex/round3/scenario_universe_25_xrkc29/README.md) · [OpenCode](../../opencode/round3/scenario_universe_25_xrkc29/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first part of the request involves identifying specific products and variants based on &#x27;Star Wars&#x27; name matches and price criteria, then completing a purchase. I need to gather the total price to include in the subsequent email.
 
@@ -85,11 +87,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #42
+**Initial harness configuration** · Source event 42
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The shopping portion of the task is complete with an order total of 109.57. Now I need to identify the correct contact (the former pediatric nurse) and send the required confirmation email.
 
@@ -153,7 +155,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

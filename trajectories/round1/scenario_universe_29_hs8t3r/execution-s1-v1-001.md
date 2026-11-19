@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Determine the percentage of male contacts emailed in October 2024 (this month) w
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -36,7 +36,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 Need think about command syntax. We can use one tool call at a time. Need plan.
@@ -53,7 +53,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -67,7 +67,7 @@ Action:
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -84,7 +84,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -98,7 +98,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 10 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -110,7 +110,7 @@ ReturnedEmails(emails=[Email(sender='rohankumar.advocate@gaia2mail.com', recipie
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 10 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -122,7 +122,7 @@ ients=['kaia.papadopoulos@student.unimelb.edu.au'], subject='Exploring the Inter
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 10 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -134,7 +134,7 @@ ith you and hear about your thoughts on the matter. Please let me know if you ar
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result (continued, part 5)</summary>
+<summary>Source event 10 · Sub-agent 1: tool result (continued, part 5)</summary>
 
 
 ```text

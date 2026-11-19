@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #128 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 128 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #129 · Sub-agent 3: model output
+## Source event 129 · Sub-agent 3: model output
 
 ```text
 I'll start by retrieving the remaining contacts from offset 100 to identify additional Bengaluru residents.
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #130 · Sub-agent 3: tool result</summary>
+<summary>Source event 130 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Action:
 </details>
 
 
-## Source event #131 · Sub-agent 3: model output
+## Source event 131 · Sub-agent 3: model output
 
 ```text
 I got contacts 100-109. There are 3 more (total 113), so let me retrieve the remaining ones from offset 110.
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #132 · Sub-agent 3: tool result</summary>
+<summary>Source event 132 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ Action:
 </details>
 
 
-## Source event #133 · Sub-agent 3: model output
+## Source event 133 · Sub-agent 3: model output
 
 ```text
 Contacts 110-112 retrieved. Among all remaining contacts (100-112), only **Nalini Rao** lives in Bengaluru. The final batch has no new Bengaluru residents (Søren Jensen - Vancouver, Rohini Mehta - NYC, Avinash Kuldeep - realtor with no city).
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #134 · Sub-agent 3: tool result</summary>
+<summary>Source event 134 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -116,7 +116,7 @@ Action:
 </details>
 
 
-## Source event #135 · Sub-agent 3: model output
+## Source event 135 · Sub-agent 3: model output
 
 ```text
 Nalini Rao's Messages ID is `+918023456789`. The full Bengaluru list is 9 people: the 8 previously identified (with IDs provided from prior Messages lookups) plus Nalini Rao. Now I'll create the group conversation with all of them.
@@ -143,7 +143,7 @@ Action:
 
 
 <details>
-<summary>Source event #136 · Sub-agent 3: tool result</summary>
+<summary>Source event 136 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -157,7 +157,7 @@ d96ffd24fe99eb60e265f1312f4c0bc6
 </details>
 
 
-## Source event #137 · Sub-agent 3: model output
+## Source event 137 · Sub-agent 3: model output
 
 ```text
 Group conversation created with ID `d96ffd24fe99eb60e265f1312f4c0bc6`. Now sending the message:
@@ -175,7 +175,7 @@ Action:
 
 
 <details>
-<summary>Source event #138 · Sub-agent 3: tool result</summary>
+<summary>Source event 138 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -189,7 +189,7 @@ d96ffd24fe99eb60e265f1312f4c0bc6
 </details>
 
 
-## Source event #139 · Sub-agent 3: model output
+## Source event 139 · Sub-agent 3: model output
 
 ```text
 The message was sent successfully to the group conversation.
@@ -254,7 +254,7 @@ Action:
 
 
 <details>
-<summary>Source event #140 · Sub-agent 3: tool result</summary>
+<summary>Source event 140 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -272,7 +272,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #141 · Sub-agent 3: model output
+## Source event 141 · Sub-agent 3: model output
 
 ```text
 The finish call failed because the nested action object was misinterpreted as a tool name. Let me retry with a flatter structure where `action` is a plain string.
@@ -311,7 +311,7 @@ Action:
 
 
 <details>
-<summary>Source event #142 · Sub-agent 3: tool result</summary>
+<summary>Source event 142 · Sub-agent 3: tool result</summary>
 
 
 ```text

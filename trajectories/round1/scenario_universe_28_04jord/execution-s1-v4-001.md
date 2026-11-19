@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #90 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 90 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Continue monitoring the RentAFlat app for zip code 8000 every second until 2024-
 </details>
 
 
-## Source event #91 · Sub-agent 1: model output
+## Source event 91 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -57,7 +57,7 @@ Action:
 
 
 <details>
-<summary>Source event #92 · Sub-agent 1: tool result</summary>
+<summary>Source event 92 · Sub-agent 1: tool result</summary>
 
 
 ```text

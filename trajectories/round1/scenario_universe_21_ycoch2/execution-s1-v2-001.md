@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 26 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -25,7 +25,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 27 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Environment notifications updates:
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -55,7 +55,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -69,7 +69,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -85,7 +85,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -99,7 +99,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -112,7 +112,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -126,7 +126,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -141,7 +141,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -156,7 +156,7 @@ None
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 36 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -169,7 +169,7 @@ Environment notifications:
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -185,7 +185,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -199,7 +199,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -215,7 +215,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -230,7 +230,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: tool result</summary>
+<summary>Source event 41 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -251,7 +251,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #42 · Sub-agent 1: model output
+## Source event 42 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -264,7 +264,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: tool result</summary>
+<summary>Source event 43 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -278,7 +278,7 @@ Action:
 </details>
 
 
-## Source event #44 · Sub-agent 1: model output
+## Source event 44 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -293,7 +293,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -308,7 +308,7 @@ None
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 46 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -321,7 +321,7 @@ Environment notifications:
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -337,7 +337,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -351,7 +351,7 @@ Action:
 </details>
 
 
-## Source event #49 · Sub-agent 1: model output
+## Source event 49 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -364,7 +364,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 1: tool result</summary>
+<summary>Source event 50 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -378,7 +378,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 1: model output
+## Source event 51 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -393,7 +393,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 1: tool result</summary>
+<summary>Source event 52 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -408,7 +408,7 @@ None
 
 
 <details>
-<summary>Source event #53 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 53 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -421,7 +421,7 @@ Environment notifications:
 </details>
 
 
-## Source event #54 · Sub-agent 1: model output
+## Source event 54 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -437,7 +437,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 1: tool result</summary>
+<summary>Source event 55 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -451,7 +451,7 @@ Action:
 </details>
 
 
-## Source event #56 · Sub-agent 1: model output
+## Source event 56 · Sub-agent 1: model output
 
 ```text
 The condition is met: 3 unique senders (Lianhua Wei, Åsa Lundgren, Akira Lundström) have messaged the group by 07:01:43, before the 07:05:00 deadline. Proceeding with the required actions.
@@ -466,7 +466,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 1: tool result</summary>
+<summary>Source event 57 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -494,7 +494,7 @@ Address: Östermalmsgatan 12, 114 39 Stockholm, Sweden
 </details>
 
 
-## Source event #58 · Sub-agent 1: model output
+## Source event 58 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -512,7 +512,7 @@ Action:
 
 
 <details>
-<summary>Source event #59 · Sub-agent 1: tool result</summary>
+<summary>Source event 59 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -535,7 +535,7 @@ Ride ID: 6acbe88d2e50cc6bc7af2e04429d65f0
 </details>
 
 
-## Source event #60 · Sub-agent 1: model output
+## Source event 60 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -551,7 +551,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 1: tool result</summary>
+<summary>Source event 61 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -565,7 +565,7 @@ b3d05104fd388610cc3e11019443dd96
 </details>
 
 
-## Source event #62 · Sub-agent 1: model output
+## Source event 62 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -578,7 +578,7 @@ Action:
 
 
 <details>
-<summary>Source event #63 · Sub-agent 1: tool result</summary>
+<summary>Source event 63 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -592,7 +592,7 @@ Action:
 </details>
 
 
-## Source event #64 · Sub-agent 1: model output
+## Source event 64 · Sub-agent 1: model output
 
 ```text
 The condition was met (3+ distinct friends sent messages by 07:01:43). The van ride is booked and the group message was sent. Now deleting calendar events that start at or after 8pm tonight — only the Self-Care Routine event qualifies (starts 20:00). The Photoshoot (09:00) and Networking Event (18:00) start earlier, so they are kept.
@@ -609,7 +609,7 @@ Action:
 
 
 <details>
-<summary>Source event #65 · Sub-agent 1: tool result</summary>
+<summary>Source event 65 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -623,7 +623,7 @@ Event 9daa4008ccb14c48a7fd156b953b5c3a successfully deleted.
 </details>
 
 
-## Source event #66 · Sub-agent 1: model output
+## Source event 66 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -636,7 +636,7 @@ Action:
 
 
 <details>
-<summary>Source event #67 · Sub-agent 1: tool result</summary>
+<summary>Source event 67 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -650,7 +650,7 @@ Action:
 </details>
 
 
-## Source event #68 · Sub-agent 1: model output
+## Source event 68 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -702,7 +702,7 @@ Action:
 
 
 <details>
-<summary>Source event #69 · Sub-agent 1: tool result</summary>
+<summary>Source event 69 · Sub-agent 1: tool result</summary>
 
 
 ```text

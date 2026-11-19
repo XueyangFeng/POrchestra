@@ -1,6 +1,8 @@
 # scenario_universe_23_skhmy1
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_23_skhmy1/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_23_skhmy1/README.md) · [Codex](../../codex/round2/scenario_universe_23_skhmy1/README.md) · [OpenCode](../../opencode/round2/scenario_universe_23_skhmy1/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the contact with the most words exchanged in the first 6 messages of 1:1 chats. This involves listing conversations, reading messages, filtering by message count, and calculating word counts.
 
@@ -87,11 +89,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #69
+**Initial harness configuration** · Source event 69
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous agent identified 28 candidate 1:1 conversations and determined the logic for retrieving the earliest 6 messages (offset = length - 6, limit = 6). I now need a SubAgent to iterate through these conversations, perform the word counts, and identify the contact with the highest total.
 
@@ -165,7 +167,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

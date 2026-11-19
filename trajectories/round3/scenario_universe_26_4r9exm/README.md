@@ -1,6 +1,8 @@
 # scenario_universe_26_4r9exm
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_26_4r9exm/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_26_4r9exm/README.md) · [Codex](../../codex/round3/scenario_universe_26_4r9exm/README.md) · [OpenCode](../../opencode/round3/scenario_universe_26_4r9exm/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first subtask is to identify the eligible contacts (same city as the user, age 40+) and send them invitations on the correct platform (Messages prioritized, then Chats), followed by creating the calendar event for the watch-along. This requires cross-app coordination between Contacts, Messages, Chats, and Calendar.
 
@@ -102,11 +104,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #65
+**Initial harness configuration** · Source event 65
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent identified the 6 eligible contacts (age 40+, living in Oslo) and retrieved their messaging platform preferences, but did not send the messages, create the calendar event, or perform the shopping task. I am delegating the messaging and calendar tasks now.
 
@@ -172,11 +174,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #87
+**Initial harness configuration** · Source event 87
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The previous SubAgents identified eligible contacts, sent the invitations, and created the calendar event. The remaining requirement from the original task is to buy 50 round paper dinner plates.
 
@@ -242,7 +244,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

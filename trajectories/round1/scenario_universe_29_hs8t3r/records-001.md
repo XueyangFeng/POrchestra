@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #1 · Main agent — decision 1: delegate_task</summary>
+<summary>Source event 1 · Main agent — decision 1: delegate_task</summary>
 
 
 ```text
@@ -36,7 +36,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #2 · Main agent — decision 2: delegate_task</summary>
+<summary>Source event 2 · Main agent — decision 2: delegate_task</summary>
 
 
 ```text
@@ -69,7 +69,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #3 · Main agent — decision 3: delegate_task</summary>
+<summary>Source event 3 · Main agent — decision 3: delegate_task</summary>
 
 
 ```text
@@ -99,7 +99,7 @@ SUB-AGENT SESSION 1
 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: Initial system configuration</summary>
+<summary>Source event 4 · Sub-agent 1: Initial system configuration</summary>
 
 
 ```text
@@ -270,7 +270,7 @@ e.g. list_recent_conversations(0, 5) will list the 5 most recent conversations. 
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -283,7 +283,7 @@ Determine the percentage of male contacts emailed in October 2024 (this month) w
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -302,7 +302,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: model output</summary>
+<summary>Source event 7 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -322,7 +322,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -337,7 +337,7 @@ Action:
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: model output</summary>
+<summary>Source event 9 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -357,7 +357,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -371,7 +371,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 10 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -383,7 +383,7 @@ ReturnedEmails(emails=[Email(sender='rohankumar.advocate@gaia2mail.com', recipie
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 10 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -395,7 +395,7 @@ ients=['kaia.papadopoulos@student.unimelb.edu.au'], subject='Exploring the Inter
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 10 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -407,7 +407,7 @@ ith you and hear about your thoughts on the matter. Please let me know if you ar
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result (continued, part 5)</summary>
+<summary>Source event 10 · Sub-agent 1: tool result (continued, part 5)</summary>
 
 
 ```text

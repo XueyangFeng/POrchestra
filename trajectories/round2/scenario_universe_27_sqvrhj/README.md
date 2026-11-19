@@ -1,6 +1,8 @@
 # scenario_universe_27_sqvrhj
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_27_sqvrhj/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_27_sqvrhj/README.md) · [Codex](../../codex/round2/scenario_universe_27_sqvrhj/README.md) · [OpenCode](../../opencode/round2/scenario_universe_27_sqvrhj/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to prepare the directory structure, move the file, and identify all relevant recipients (the sender of a specific email, a Russian pilot, and history teachers) before proceeding with the emails and messages.
 
@@ -99,11 +101,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #65
+**Initial harness configuration** · Source event 65
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The folder has been created and the file moved. The primary email recipients and the history teachers have been identified. I need a SubAgent to verify the Messages status for the remaining two history teachers and then execute the email and messaging tasks as specified.
 
@@ -174,7 +176,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

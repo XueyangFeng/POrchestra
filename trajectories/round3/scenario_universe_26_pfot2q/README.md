@@ -1,6 +1,8 @@
 # scenario_universe_26_pfot2q
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_26_pfot2q/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_26_pfot2q/README.md) · [Codex](../../codex/round3/scenario_universe_26_pfot2q/README.md) · [OpenCode](../../opencode/round3/scenario_universe_26_pfot2q/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the email addresses of the three friends, send them the individual emails as requested, notify the user, and then wait for the specified 4 minutes to gather responses. I will combine the sending and waiting into one subtask to ensure the timing constraint (4 minutes after notification) is strictly followed by the agent in the environment.
 

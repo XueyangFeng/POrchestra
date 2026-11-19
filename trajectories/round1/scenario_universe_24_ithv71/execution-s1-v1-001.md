@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Action:
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 I have identified the most recently updated group chat: "Swiss Technology and Culture" (ID: `2edff086aeea40e3ab5ba8fde24e5a8b`). The user is `84908bb6-c5c9-4973-8a38-4f9f331d0e2c` (Ursula), so the group participants excluding myself are the other 3 IDs. Next, I'll search RentAFlat for 4+ bedroom properties.
@@ -72,7 +72,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Action:
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 The search returned properties with exactly 4 bedrooms. Since the task requires properties with 4 or more bedrooms, I need to check if there are properties with more than 4 bedrooms.
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -117,7 +117,7 @@ Action:
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 I found 5-bedroom properties at price 4000. I should check for even more bedrooms to ensure I capture all 4+ bedroom properties.
@@ -134,7 +134,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -148,7 +148,7 @@ Action:
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 The search for 6+ bedrooms returned empty, so all 4+ bedroom properties are found. The most expensive are the two 5-bedroom properties at 4000 CHF (Geneva Seaside, not saved; Geneva Luxury, already saved). Per instructions, I need to save the most expensive 4+ bedroom properties if not already saved. Let me save Geneva Seaside.
@@ -165,7 +165,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -179,7 +179,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #15 · Sub-agent 1: model output
+## Source event 15 · Sub-agent 1: model output
 
 ```text
 Now I need to list all currently saved apartments to find the one with the largest square footage.
@@ -194,7 +194,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 1: tool result</summary>
+<summary>Source event 16 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -208,7 +208,7 @@ Action:
 </details>
 
 
-## Source event #17 · Sub-agent 1: model output
+## Source event 17 · Sub-agent 1: model output
 
 ```text
 I have all the data needed. The most recently updated group chat is "Swiss Technology and Culture" (conversation_id `2edff086aeea40e3ab5ba8fde24e5a8b`). The user (Ursula, ID `84908bb6...`) is one of the participants; excluding the user, the friends are `5372bd96-e0a7-4e88-90e7-eedf40d318e4`, `5f1945c2-122f-4d30-b705-2d6f8326fb13`, and `83019f81-edd3-43fa-a12b-214427d17483`.
@@ -228,7 +228,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: tool result</summary>
+<summary>Source event 18 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -242,7 +242,7 @@ Action:
 </details>
 
 
-## Source event #19 · Sub-agent 1: model output
+## Source event 19 · Sub-agent 1: model output
 
 ```text
 The message was sent. Now I need to notify the user via AgentUserInterface.
@@ -259,7 +259,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 1: tool result</summary>
+<summary>Source event 20 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -274,7 +274,7 @@ None
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 21 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -289,7 +289,7 @@ Environment notifications:
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 I received notifications of new messages in the group chat. Before taking any further side effects, I need to read the new messages and report them to MainAgent via a follow_up revise.
@@ -308,7 +308,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -322,7 +322,7 @@ Action:
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 I have completed the originally assigned subtask (steps 1-7). The environment notification reveals new messages from the group chat — all three friends rejected the recommended property. Per my role instructions, I must report this follow-up to MainAgent before taking further side effects (e.g., removing the property from saved, searching/saving matching properties, and replying to the group).
@@ -374,7 +374,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text

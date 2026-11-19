@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #133 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 133 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Identify which of the following four candidates from the Chats app (interacted w
 </details>
 
 
-## Source event #134 · Sub-agent 3: model output
+## Source event 134 · Sub-agent 3: model output
 
 ```text
 Thought: I need to search Contacts for each candidate to retrieve their city of residence. Starting with Kaida Kaur.
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #135 · Sub-agent 3: tool result</summary>
+<summary>Source event 135 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 </details>
 
 
-## Source event #136 · Sub-agent 3: model output
+## Source event 136 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #137 · Sub-agent 3: tool result</summary>
+<summary>Source event 137 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ Action:
 </details>
 
 
-## Source event #138 · Sub-agent 3: model output
+## Source event 138 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -98,7 +98,7 @@ Action:
 
 
 <details>
-<summary>Source event #139 · Sub-agent 3: tool result</summary>
+<summary>Source event 139 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -112,7 +112,7 @@ Action:
 </details>
 
 
-## Source event #140 · Sub-agent 3: model output
+## Source event 140 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -125,7 +125,7 @@ Action:
 
 
 <details>
-<summary>Source event #141 · Sub-agent 3: tool result</summary>
+<summary>Source event 141 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -139,7 +139,7 @@ Action:
 </details>
 
 
-## Source event #142 · Sub-agent 3: model output
+## Source event 142 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -155,7 +155,7 @@ Action:
 
 
 <details>
-<summary>Source event #143 · Sub-agent 3: tool result</summary>
+<summary>Source event 143 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -169,7 +169,7 @@ Action:
 </details>
 
 
-## Source event #144 · Sub-agent 3: model output
+## Source event 144 · Sub-agent 3: model output
 
 ```text
 Analysis complete:
@@ -219,7 +219,7 @@ Action:
 
 
 <details>
-<summary>Source event #145 · Sub-agent 3: tool result</summary>
+<summary>Source event 145 · Sub-agent 3: tool result</summary>
 
 
 ```text

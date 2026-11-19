@@ -1,6 +1,8 @@
 # scenario_universe_26_9724nb
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_26_9724nb/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_26_9724nb/README.md) · [Codex](../../codex/round1/scenario_universe_26_9724nb/README.md) · [OpenCode](../../opencode/round1/scenario_universe_26_9724nb/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Perform the initial scheduling setup: resolve Kåre Sørensen&#x27;s contact/Messages ID and current user&#x27;s home address; check for and delete calendar conflicts on Friday 2024-10-18 between 19:30:00 and 22:30:00; add the calendar event for dinner from 20:00:00 to 22:00:00; send a message to Kåre; book a default cab for 19:30:00; and notify the user.
 
@@ -100,7 +102,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #22
+**Harness configuration updated** · Source event 22
 
 **1. Sub-agent revision request**
 
@@ -109,7 +111,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 All initial subtask steps were completed: home address retrieved (Frognerveien 34, 0266 Oslo, Norway), Kåre Sørensen user ID found (+4090123456), no calendar conflicts in 19:30-22:30 window on 2024-10-18, dinner event added (e4657cd1b75ef061b9fbfd037e80abd6, 20:00-22:00), message sent to Kåre (192acd91b0f940bea9d197006d5dc4f5), default cab booked (6acbe88d2e50cc6bc7af2e04429d65f0, 19:30 Frognerveien 34 -> Tøyengata 2), and user notified. A new environment notification then reported a new message received in conversation 192acd91b0f940bea9d197006d5dc4f5.
 ```
 <details>
-<summary>Request and evidence · source event #20</summary>
+<summary>Request and evidence · source event 20</summary>
 
 
 ```text
@@ -159,7 +161,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 A new message from Kåre Sørensen has been received. I need to grant the SubAgent the tool to read the conversation and provide instructions on how to handle the conditional rescheduling logic based on Kåre&#x27;s reply.
 

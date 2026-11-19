@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #130 · Main agent: Tool result: call_02_42b2unul7g2st1ni77mtuhcu (is_error=False)</summary>
+<summary>Source event 130 · Main agent: Tool result: call_02_42b2unul7g2st1ni77mtuhcu (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #131 · Main agent: Model message
+## Source event 131 · Main agent: Model message
 
 ```text
 Calendar events created correctly:
@@ -43,7 +43,7 @@ Let me verify via list_recent_conversations.
 
 
 
-## Source event #132 · Main agent: Model message
+## Source event 132 · Main agent: Model message
 
 ```text
 Calendar events and the reply email are confirmed. Let me verify the Messages delivery to the strategist.
@@ -51,7 +51,7 @@ Calendar events and the reply email are confirmed. Let me verify the Messages de
 
 
 
-## Source event #133 · Main agent: Model tool call: mcp__gaia2__Messages__list_recent_conversations (call_00_ibmwofu968lijrrv5uphjrva)
+## Source event 133 · Main agent: Model tool call: mcp__gaia2__Messages__list_recent_conversations (call_00_ibmwofu968lijrrv5uphjrva)
 
 ```text
 {
@@ -62,7 +62,7 @@ Calendar events and the reply email are confirmed. Let me verify the Messages de
 
 
 
-## Source event #134 · Main agent: Model tool call: mcp__gaia2__Messages__search (call_01_fystyw1sketjne5h5gq03ewt)
+## Source event 134 · Main agent: Model tool call: mcp__gaia2__Messages__search (call_01_fystyw1sketjne5h5gq03ewt)
 
 ```text
 {
@@ -73,7 +73,7 @@ Calendar events and the reply email are confirmed. Let me verify the Messages de
 
 
 <details>
-<summary>Source event #135 · Main agent: Tool result: call_00_ibmwofu968lijrrv5uphjrva (is_error=False)</summary>
+<summary>Source event 135 · Main agent: Tool result: call_00_ibmwofu968lijrrv5uphjrva (is_error=False)</summary>
 
 
 ```text
@@ -90,7 +90,7 @@ Calendar events and the reply email are confirmed. Let me verify the Messages de
 
 
 <details>
-<summary>Source event #136 · Main agent: Tool result: call_01_fystyw1sketjne5h5gq03ewt (is_error=False)</summary>
+<summary>Source event 136 · Main agent: Tool result: call_01_fystyw1sketjne5h5gq03ewt (is_error=False)</summary>
 
 
 ```text
@@ -106,7 +106,7 @@ Calendar events and the reply email are confirmed. Let me verify the Messages de
 </details>
 
 
-## Source event #137 · Main agent: Model message
+## Source event 137 · Main agent: Model message
 
 ```text
 The message to Luísa is confirmed: conversation with participant_ids ['+351912345378', '+46734567890'], content our message. 
@@ -171,7 +171,7 @@ Let me send.
 
 
 
-## Source event #138 · Main agent: Model message
+## Source event 138 · Main agent: Model message
 
 ```text
 All required actions are verified complete:
@@ -187,7 +187,7 @@ Let me send the final update to the user.
 
 
 
-## Source event #139 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_189cdiewo6l9g3el9eutq2sv)
+## Source event 139 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_189cdiewo6l9g3el9eutq2sv)
 
 ```text
 {
@@ -198,7 +198,7 @@ Let me send the final update to the user.
 
 
 <details>
-<summary>Source event #140 · Main agent: Tool result: call_00_189cdiewo6l9g3el9eutq2sv (is_error=False)</summary>
+<summary>Source event 140 · Main agent: Tool result: call_00_189cdiewo6l9g3el9eutq2sv (is_error=False)</summary>
 
 
 ```text
@@ -214,7 +214,7 @@ Let me send the final update to the user.
 </details>
 
 
-## Source event #141 · Main agent: Model message
+## Source event 141 · Main agent: Model message
 
 ```text
 The turn may end again. I've completed everything. I should provide a final response now (as instructed after send_message_to_user). Let me give a brief final response.
@@ -242,7 +242,7 @@ Everything complete. Final response.
 
 
 
-## Source event #142 · Main agent: Model message
+## Source event 142 · Main agent: Model message
 
 ```text
 All tasks are complete. Here's a summary of what was accomplished:
@@ -263,7 +263,7 @@ All tasks are complete. Here's a summary of what was accomplished:
 
 
 <details>
-<summary>Source event #143 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 143 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -287,7 +287,7 @@ All tasks are complete. Here's a summary of what was accomplished:
 
 
 <details>
-<summary>Source event #144 · Judge: Judge rationale</summary>
+<summary>Source event 144 · Judge: Judge rationale</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #316 · Sub-agent 5: tool result</summary>
+<summary>Source event 316 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ ReturnedEmails(emails=[Email(sender='ursula.wiederkehr@gaia2mail.com', recipient
 </details>
 
 
-## Source event #317 · Sub-agent 5: model output
+## Source event 317 · Sub-agent 5: model output
 
 ```text
 Listing remaining SENT emails to check for attachments.

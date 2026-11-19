@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #69 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 69 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #70 · Sub-agent 2: model output
+## Source event 70 · Sub-agent 2: model output
 
 ```text
 I'll start by saving the four apartments, then find the conversation and participants.
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #71 · Sub-agent 2: tool result</summary>
+<summary>Source event 71 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #72 · Sub-agent 2: model output
+## Source event 72 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #73 · Sub-agent 2: tool result</summary>
+<summary>Source event 73 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #74 · Sub-agent 2: model output
+## Source event 74 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -96,7 +96,7 @@ Action:
 
 
 <details>
-<summary>Source event #75 · Sub-agent 2: tool result</summary>
+<summary>Source event 75 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -110,7 +110,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #76 · Sub-agent 2: model output
+## Source event 76 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -125,7 +125,7 @@ Action:
 
 
 <details>
-<summary>Source event #77 · Sub-agent 2: tool result</summary>
+<summary>Source event 77 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -139,7 +139,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #78 · Sub-agent 2: model output
+## Source event 78 · Sub-agent 2: model output
 
 ```text
 All four apartments saved. Now let me find the conversation.
@@ -156,7 +156,7 @@ Action:
 
 
 <details>
-<summary>Source event #79 · Sub-agent 2: tool result</summary>
+<summary>Source event 79 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ Action:
 </details>
 
 
-## Source event #80 · Sub-agent 2: model output
+## Source event 80 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -186,7 +186,7 @@ Action:
 
 
 <details>
-<summary>Source event #81 · Sub-agent 2: tool result</summary>
+<summary>Source event 81 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -200,7 +200,7 @@ Action:
 </details>
 
 
-## Source event #82 · Sub-agent 2: model output
+## Source event 82 · Sub-agent 2: model output
 
 ```text
 Participants identified: +2571234567, +4331123456, +919820125456, +32479123455. Let me determine the current user and get participant names.
@@ -215,7 +215,7 @@ Action:
 
 
 <details>
-<summary>Source event #83 · Sub-agent 2: tool result</summary>
+<summary>Source event 83 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -243,7 +243,7 @@ Address: Østerbrogade 123, 2100 København Ø, Denmark
 </details>
 
 
-## Source event #84 · Sub-agent 2: model output
+## Source event 84 · Sub-agent 2: model output
 
 ```text
 Current user is Søren Kjær (+2571234567). Getting the other participants' names.
@@ -260,7 +260,7 @@ Action:
 
 
 <details>
-<summary>Source event #85 · Sub-agent 2: tool result</summary>
+<summary>Source event 85 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -274,7 +274,7 @@ Birgitta Kjær
 </details>
 
 
-## Source event #86 · Sub-agent 2: model output
+## Source event 86 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -289,7 +289,7 @@ Action:
 
 
 <details>
-<summary>Source event #87 · Sub-agent 2: tool result</summary>
+<summary>Source event 87 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -303,7 +303,7 @@ Rohan Sengupta
 </details>
 
 
-## Source event #88 · Sub-agent 2: model output
+## Source event 88 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -318,7 +318,7 @@ Action:
 
 
 <details>
-<summary>Source event #89 · Sub-agent 2: tool result</summary>
+<summary>Source event 89 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -332,7 +332,7 @@ Zephyrine De Smet
 </details>
 
 
-## Source event #90 · Sub-agent 2: model output
+## Source event 90 · Sub-agent 2: model output
 
 ```text
 Now let me find their email addresses via Contacts.
@@ -349,7 +349,7 @@ Action:
 
 
 <details>
-<summary>Source event #91 · Sub-agent 2: tool result</summary>
+<summary>Source event 91 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -363,7 +363,7 @@ Action:
 </details>
 
 
-## Source event #92 · Sub-agent 2: model output
+## Source event 92 · Sub-agent 2: model output
 
 ```text
 Birgitta Kjær: birgitta.kjaer@gaia2mail.com. Now Rohan and Zephyrine.
@@ -380,7 +380,7 @@ Action:
 
 
 <details>
-<summary>Source event #93 · Sub-agent 2: tool result</summary>
+<summary>Source event 93 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -394,7 +394,7 @@ Action:
 </details>
 
 
-## Source event #94 · Sub-agent 2: model output
+## Source event 94 · Sub-agent 2: model output
 
 ```text
 Rohan Sengupta: rohan.sengupta@mumbaihockey.com. Now Zephyrine.
@@ -411,7 +411,7 @@ Action:
 
 
 <details>
-<summary>Source event #95 · Sub-agent 2: tool result</summary>
+<summary>Source event 95 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -425,7 +425,7 @@ Action:
 </details>
 
 
-## Source event #96 · Sub-agent 2: model output
+## Source event 96 · Sub-agent 2: model output
 
 ```text
 All email addresses found. Now sending individual emails.
@@ -444,7 +444,7 @@ Action:
 
 
 <details>
-<summary>Source event #97 · Sub-agent 2: tool result</summary>
+<summary>Source event 97 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -459,7 +459,7 @@ Action:
 
 
 <details>
-<summary>Source event #98 · Sub-agent 2: tool result</summary>
+<summary>Source event 98 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -477,7 +477,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #99 · Sub-agent 2: model output
+## Source event 99 · Sub-agent 2: model output
 
 ```text
 Email to Birgitta sent successfully. Now sending to Rohan Sengupta.
@@ -496,7 +496,7 @@ Action:
 
 
 <details>
-<summary>Source event #100 · Sub-agent 2: tool result</summary>
+<summary>Source event 100 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -510,7 +510,7 @@ e4a308c5815d34fee3f197ba7494923c
 </details>
 
 
-## Source event #101 · Sub-agent 2: model output
+## Source event 101 · Sub-agent 2: model output
 
 ```text
 Email to Rohan sent. Now sending to Zephyrine.
@@ -529,7 +529,7 @@ Action:
 
 
 <details>
-<summary>Source event #102 · Sub-agent 2: tool result</summary>
+<summary>Source event 102 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -543,7 +543,7 @@ Action:
 </details>
 
 
-## Source event #103 · Sub-agent 2: model output
+## Source event 103 · Sub-agent 2: model output
 
 ```text
 All tasks complete: four apartments saved, conversation found, and three individual emails sent to the non-user participants.
@@ -592,7 +592,7 @@ Action:
 
 
 <details>
-<summary>Source event #104 · Sub-agent 2: tool result</summary>
+<summary>Source event 104 · Sub-agent 2: tool result</summary>
 
 
 ```text

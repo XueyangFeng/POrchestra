@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #59 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 59 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #60 · Sub-agent 2: model output
+## Source event 60 · Sub-agent 2: model output
 
 ```text
 I'll send the email to Kaitlyn McAllister first, then confirm to the user.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 2: tool result</summary>
+<summary>Source event 61 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 </details>
 
 
-## Source event #62 · Sub-agent 2: model output
+## Source event 62 · Sub-agent 2: model output
 
 ```text
 Email sent successfully (id: 26756db772edbbafeb44d7be53d3726f). Now confirming to the user.
@@ -72,7 +72,7 @@ Action:
 
 
 <details>
-<summary>Source event #63 · Sub-agent 2: tool result</summary>
+<summary>Source event 63 · Sub-agent 2: tool result</summary>
 
 
 ```text

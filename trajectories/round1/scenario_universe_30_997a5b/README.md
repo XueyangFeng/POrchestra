@@ -1,6 +1,8 @@
 # scenario_universe_30_997a5b
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_30_997a5b/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_30_997a5b/README.md) · [Codex](../../codex/round1/scenario_universe_30_997a5b/README.md) · [OpenCode](../../opencode/round1/scenario_universe_30_997a5b/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to handle the calendar events and the group email first. This involves finding specific events, identifying attendees, deleting the events, and sending a collective email to all identified participants. I will also include the contact update task since it is a simple field update in the Contacts app which may be needed for resolving attendee emails anyway.
 
@@ -97,11 +99,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #30
+**Initial harness configuration** · Source event 30
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The first SubAgent completed the calendar, group email, and contact update tasks. I now need to address the remaining items: replying to the climatologist&#x27;s email, removing the &#x27;news&#x27; directory, purchasing the cheapest &#x27;Wordspiel Card Game&#x27;, and ordering the cab to the three-bedroom property.
 
@@ -187,7 +189,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

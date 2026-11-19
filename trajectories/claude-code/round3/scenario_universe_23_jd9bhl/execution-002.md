@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #36 · Main agent: Tool result: call_02_vz5f3o13ifmxoq5k8b5pwd72 (is_error=False)</summary>
+<summary>Source event 36 · Main agent: Tool result: call_02_vz5f3o13ifmxoq5k8b5pwd72 (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #37 · Main agent: Tool result: call_03_4jajawuukbak3ff7cdagltf8 (is_error=False)</summary>
+<summary>Source event 37 · Main agent: Tool result: call_03_4jajawuukbak3ff7cdagltf8 (is_error=False)</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #38 · Main agent: Model message
+## Source event 38 · Main agent: Model message
 
 ```text
 Continue 80-124.
@@ -46,7 +46,7 @@ Continue 80-124.
 
 
 
-## Source event #39 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_tkbvv4buw6dv5uqw8rb9x4qa)
+## Source event 39 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_tkbvv4buw6dv5uqw8rb9x4qa)
 
 ```text
 {
@@ -56,7 +56,7 @@ Continue 80-124.
 
 
 
-## Source event #40 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_yj4gfr4ffjj4bnsuqa399y5y)
+## Source event 40 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_yj4gfr4ffjj4bnsuqa399y5y)
 
 ```text
 {
@@ -66,7 +66,7 @@ Continue 80-124.
 
 
 
-## Source event #41 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_f8rb8x7uxmv10g4vew44nq3k)
+## Source event 41 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_f8rb8x7uxmv10g4vew44nq3k)
 
 ```text
 {
@@ -76,7 +76,7 @@ Continue 80-124.
 
 
 
-## Source event #42 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_tl4w1s15twquy3lvfhaxdyps)
+## Source event 42 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_tl4w1s15twquy3lvfhaxdyps)
 
 ```text
 {
@@ -87,7 +87,7 @@ Continue 80-124.
 
 
 <details>
-<summary>Source event #43 · Main agent: Tool result: call_00_tkbvv4buw6dv5uqw8rb9x4qa (is_error=False)</summary>
+<summary>Source event 43 · Main agent: Tool result: call_00_tkbvv4buw6dv5uqw8rb9x4qa (is_error=False)</summary>
 
 
 ```text
@@ -104,7 +104,7 @@ Continue 80-124.
 
 
 <details>
-<summary>Source event #44 · Main agent: Tool result: call_01_yj4gfr4ffjj4bnsuqa399y5y (is_error=False)</summary>
+<summary>Source event 44 · Main agent: Tool result: call_01_yj4gfr4ffjj4bnsuqa399y5y (is_error=False)</summary>
 
 
 ```text
@@ -121,7 +121,7 @@ Continue 80-124.
 
 
 <details>
-<summary>Source event #45 · Main agent: Tool result: call_02_f8rb8x7uxmv10g4vew44nq3k (is_error=False)</summary>
+<summary>Source event 45 · Main agent: Tool result: call_02_f8rb8x7uxmv10g4vew44nq3k (is_error=False)</summary>
 
 
 ```text
@@ -138,7 +138,7 @@ Continue 80-124.
 
 
 <details>
-<summary>Source event #46 · Main agent: Tool result: call_03_tl4w1s15twquy3lvfhaxdyps (is_error=False)</summary>
+<summary>Source event 46 · Main agent: Tool result: call_03_tl4w1s15twquy3lvfhaxdyps (is_error=False)</summary>
 
 
 ```text
@@ -154,7 +154,7 @@ Continue 80-124.
 </details>
 
 
-## Source event #47 · Main agent: Model message
+## Source event 47 · Main agent: Model message
 
 ```text
 Found: Vladimíra Nováková — Detective Inspector, Prague Police Department, contact_id 8988ec18948f46469c3740381bcbdf6d, email vnovakova@pcr.cz.
@@ -203,7 +203,7 @@ Let me load Chats tools.
 
 
 
-## Source event #48 · Main agent: Model tool call: ToolSearch (call_00_qj06ali2q67rx2s13whshljk)
+## Source event 48 · Main agent: Model tool call: ToolSearch (call_00_qj06ali2q67rx2s13whshljk)
 
 ```text
 {
@@ -215,7 +215,7 @@ Let me load Chats tools.
 
 
 <details>
-<summary>Source event #49 · Main agent: Tool result: call_00_qj06ali2q67rx2s13whshljk (is_error=False)</summary>
+<summary>Source event 49 · Main agent: Tool result: call_00_qj06ali2q67rx2s13whshljk (is_error=False)</summary>
 
 
 ```text
@@ -255,7 +255,7 @@ Let me load Chats tools.
 </details>
 
 
-## Source event #50 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_00_f8yrm4fxydakanjb1knfh5ry)
+## Source event 50 · Main agent: Model tool call: mcp__gaia2__Chats__lookup_user_id (call_00_f8yrm4fxydakanjb1knfh5ry)
 
 ```text
 {
@@ -266,7 +266,7 @@ Let me load Chats tools.
 
 
 <details>
-<summary>Source event #51 · Main agent: Tool result: call_00_f8yrm4fxydakanjb1knfh5ry (is_error=False)</summary>
+<summary>Source event 51 · Main agent: Tool result: call_00_f8yrm4fxydakanjb1knfh5ry (is_error=False)</summary>
 
 
 ```text
@@ -282,7 +282,7 @@ Let me load Chats tools.
 </details>
 
 
-## Source event #52 · Main agent: Model message
+## Source event 52 · Main agent: Model message
 
 ```text
 She's on Chats. Good.
@@ -292,7 +292,7 @@ Now delete the calendar events and add new ones. Let me do the deletes.
 
 
 
-## Source event #53 · Main agent: Model message
+## Source event 53 · Main agent: Model message
 
 ```text
 Found everything I need. Now let me handle the calendar.
@@ -300,7 +300,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 
-## Source event #54 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_00_h18dvj8vu9rhn5zfkptgmbvv)
+## Source event 54 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_00_h18dvj8vu9rhn5zfkptgmbvv)
 
 ```text
 {
@@ -310,7 +310,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 
-## Source event #55 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_01_364cyt9dz5c0i10dgx6kl7ck)
+## Source event 55 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_01_364cyt9dz5c0i10dgx6kl7ck)
 
 ```text
 {
@@ -320,7 +320,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 
-## Source event #56 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_02_0vnf05tv2wil0ajr9lkjomhm)
+## Source event 56 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_02_0vnf05tv2wil0ajr9lkjomhm)
 
 ```text
 {
@@ -330,7 +330,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 
-## Source event #57 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_03_x4bftm5jcr5p5tqxyp2o6ifv)
+## Source event 57 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_03_x4bftm5jcr5p5tqxyp2o6ifv)
 
 ```text
 {
@@ -340,7 +340,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 
-## Source event #58 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_04_0ujdh3fo4wfq0qra97v5emdm)
+## Source event 58 · Main agent: Model tool call: mcp__gaia2__Calendar__delete_calendar_event (call_04_0ujdh3fo4wfq0qra97v5emdm)
 
 ```text
 {
@@ -351,7 +351,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 <details>
-<summary>Source event #59 · Main agent: Tool result: call_00_h18dvj8vu9rhn5zfkptgmbvv (is_error=False)</summary>
+<summary>Source event 59 · Main agent: Tool result: call_00_h18dvj8vu9rhn5zfkptgmbvv (is_error=False)</summary>
 
 
 ```text
@@ -368,7 +368,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 <details>
-<summary>Source event #60 · Main agent: Tool result: call_01_364cyt9dz5c0i10dgx6kl7ck (is_error=False)</summary>
+<summary>Source event 60 · Main agent: Tool result: call_01_364cyt9dz5c0i10dgx6kl7ck (is_error=False)</summary>
 
 
 ```text
@@ -385,7 +385,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 <details>
-<summary>Source event #61 · Main agent: Tool result: call_02_0vnf05tv2wil0ajr9lkjomhm (is_error=False)</summary>
+<summary>Source event 61 · Main agent: Tool result: call_02_0vnf05tv2wil0ajr9lkjomhm (is_error=False)</summary>
 
 
 ```text
@@ -402,7 +402,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 <details>
-<summary>Source event #62 · Main agent: Tool result: call_03_x4bftm5jcr5p5tqxyp2o6ifv (is_error=False)</summary>
+<summary>Source event 62 · Main agent: Tool result: call_03_x4bftm5jcr5p5tqxyp2o6ifv (is_error=False)</summary>
 
 
 ```text
@@ -419,7 +419,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 <details>
-<summary>Source event #63 · Main agent: Tool result: call_04_0ujdh3fo4wfq0qra97v5emdm (is_error=False)</summary>
+<summary>Source event 63 · Main agent: Tool result: call_04_0ujdh3fo4wfq0qra97v5emdm (is_error=False)</summary>
 
 
 ```text
@@ -435,7 +435,7 @@ Found everything I need. Now let me handle the calendar.
 </details>
 
 
-## Source event #64 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_00_s7ul0zhg5y6j7a9ctkjlw5iw)
+## Source event 64 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_00_s7ul0zhg5y6j7a9ctkjlw5iw)
 
 ```text
 {
@@ -450,7 +450,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 
-## Source event #65 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_01_khez6x4lai3u9xzkk1enljrq)
+## Source event 65 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_01_khez6x4lai3u9xzkk1enljrq)
 
 ```text
 {
@@ -465,7 +465,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 
-## Source event #66 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_02_ynwsxdctr279n71t83l90zt9)
+## Source event 66 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_02_ynwsxdctr279n71t83l90zt9)
 
 ```text
 {
@@ -481,7 +481,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 <details>
-<summary>Source event #67 · Main agent: Tool result: call_00_s7ul0zhg5y6j7a9ctkjlw5iw (is_error=False)</summary>
+<summary>Source event 67 · Main agent: Tool result: call_00_s7ul0zhg5y6j7a9ctkjlw5iw (is_error=False)</summary>
 
 
 ```text
@@ -498,7 +498,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 <details>
-<summary>Source event #68 · Main agent: Tool result: call_01_khez6x4lai3u9xzkk1enljrq (is_error=False)</summary>
+<summary>Source event 68 · Main agent: Tool result: call_01_khez6x4lai3u9xzkk1enljrq (is_error=False)</summary>
 
 
 ```text
@@ -515,7 +515,7 @@ Found everything I need. Now let me handle the calendar.
 
 
 <details>
-<summary>Source event #69 · Main agent: Tool result: call_02_ynwsxdctr279n71t83l90zt9 (is_error=False)</summary>
+<summary>Source event 69 · Main agent: Tool result: call_02_ynwsxdctr279n71t83l90zt9 (is_error=False)</summary>
 
 
 ```text
@@ -531,7 +531,7 @@ Found everything I need. Now let me handle the calendar.
 </details>
 
 
-## Source event #70 · Main agent: Model message
+## Source event 70 · Main agent: Model message
 
 ```text
 Now the email. To: Štěpán Nováček, Pavla Nováková, Květa Nováková, Věra Nováková, Zdeněk Nováček, Bohumil Nováček, Lukáš Nováček.
@@ -549,7 +549,7 @@ Let me send the email.
 
 
 
-## Source event #71 · Main agent: Model message
+## Source event 71 · Main agent: Model message
 
 ```text
 Now the group email to everyone I had "Dinner with Family" with this month (Oct 1, 3, 7, 11, 14).
@@ -557,7 +557,7 @@ Now the group email to everyone I had "Dinner with Family" with this month (Oct 
 
 
 
-## Source event #72 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_e9xi1csfrgaqzm2ofstj80u9)
+## Source event 72 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_e9xi1csfrgaqzm2ofstj80u9)
 
 ```text
 {
@@ -578,7 +578,7 @@ Now the group email to everyone I had "Dinner with Family" with this month (Oct 
 
 
 <details>
-<summary>Source event #73 · Main agent: Tool result: call_00_e9xi1csfrgaqzm2ofstj80u9 (is_error=False)</summary>
+<summary>Source event 73 · Main agent: Tool result: call_00_e9xi1csfrgaqzm2ofstj80u9 (is_error=False)</summary>
 
 
 ```text
@@ -594,7 +594,7 @@ Now the group email to everyone I had "Dinner with Family" with this month (Oct 
 </details>
 
 
-## Source event #74 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_00_0xw0px012lhkyiazucb4bsgp)
+## Source event 74 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_00_0xw0px012lhkyiazucb4bsgp)
 
 ```text
 {
@@ -606,7 +606,7 @@ Now the group email to everyone I had "Dinner with Family" with this month (Oct 
 
 
 <details>
-<summary>Source event #75 · Main agent: Tool result: call_00_0xw0px012lhkyiazucb4bsgp (is_error=False)</summary>
+<summary>Source event 75 · Main agent: Tool result: call_00_0xw0px012lhkyiazucb4bsgp (is_error=False)</summary>
 
 
 ```text
@@ -622,7 +622,7 @@ Now the group email to everyone I had "Dinner with Family" with this month (Oct 
 </details>
 
 
-## Source event #76 · Main agent: Model message
+## Source event 76 · Main agent: Model message
 
 ```text
 All done. Let me verify calendar state for the three Saturdays quickly to be safe. Actually the deletes and adds succeeded. Let me do a quick sanity check.
@@ -634,7 +634,7 @@ Let me verify calendar.
 
 
 
-## Source event #77 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_92mpbc9s75qk99e74fsb6dst)
+## Source event 77 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_92mpbc9s75qk99e74fsb6dst)
 
 ```text
 {
@@ -647,7 +647,7 @@ Let me verify calendar.
 
 
 <details>
-<summary>Source event #78 · Main agent: Tool result: call_00_92mpbc9s75qk99e74fsb6dst (is_error=False)</summary>
+<summary>Source event 78 · Main agent: Tool result: call_00_92mpbc9s75qk99e74fsb6dst (is_error=False)</summary>
 
 
 ```text
@@ -663,7 +663,7 @@ Let me verify calendar.
 </details>
 
 
-## Source event #79 · Main agent: Model message
+## Source event 79 · Main agent: Model message
 
 ```text
 All three Saturdays now have Work From Home 09:00-17:00 and no overlapping events in that block. 
@@ -673,7 +673,7 @@ Done. Let me give a summary.
 
 
 
-## Source event #80 · Main agent: Model message
+## Source event 80 · Main agent: Model message
 
 ```text
 All three parts are done. Here's what I did:
@@ -695,7 +695,7 @@ One judgment call worth flagging: for the email list I counted only *attended* d
 
 
 <details>
-<summary>Source event #81 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 81 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -720,7 +720,7 @@ One judgment call worth flagging: for the email list I counted only *attended* d
 
 
 <details>
-<summary>Source event #82 · Judge: Judge rationale</summary>
+<summary>Source event 82 · Judge: Judge rationale</summary>
 
 
 ```text

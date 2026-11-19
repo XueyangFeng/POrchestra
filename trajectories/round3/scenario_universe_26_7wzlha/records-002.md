@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: model output</summary>
+<summary>Source event 37 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -42,7 +42,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -57,7 +57,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: model output</summary>
+<summary>Source event 39 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -94,7 +94,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: model output</summary>
+<summary>Source event 41 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -217,7 +217,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -235,7 +235,7 @@ SUB-AGENT SESSION 2
 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: Initial system configuration</summary>
+<summary>Source event 43 · Sub-agent 2: Initial system configuration</summary>
 
 
 ```text
@@ -438,7 +438,7 @@ This is the only way to send a message to a single person.
 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 44 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -461,7 +461,7 @@ This is the only way to send a message to a single person.
 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: model output</summary>
+<summary>Source event 45 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -481,7 +481,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: tool result</summary>
+<summary>Source event 46 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -496,7 +496,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: model output</summary>
+<summary>Source event 47 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -520,7 +520,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: tool result</summary>
+<summary>Source event 48 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -535,7 +535,7 @@ a7a6559237dfccab98f2b1970584c7a3
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: model output</summary>
+<summary>Source event 49 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -558,7 +558,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: tool result</summary>
+<summary>Source event 50 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -573,7 +573,7 @@ ce025aebc06aec5cea39dd7fb817bee5
 
 
 <details>
-<summary>Source event #51 · Sub-agent 2: model output</summary>
+<summary>Source event 51 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -596,7 +596,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: tool result</summary>
+<summary>Source event 52 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -611,7 +611,7 @@ d5c10c7486bda98ac6f9fb05dd3707df
 
 
 <details>
-<summary>Source event #53 · Sub-agent 2: model output</summary>
+<summary>Source event 53 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -632,7 +632,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 2: tool result</summary>
+<summary>Source event 54 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -647,7 +647,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 2: model output</summary>
+<summary>Source event 55 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -667,7 +667,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 2: tool result</summary>
+<summary>Source event 56 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -682,7 +682,7 @@ None
 
 
 <details>
-<summary>Source event #57 · Judge rationale</summary>
+<summary>Source event 57 · Judge rationale</summary>
 
 
 ```text

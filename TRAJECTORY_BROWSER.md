@@ -1,8 +1,8 @@
 # GAIA2 trajectory browser
 
-[PORCHESTRA trajectories](trajectories/README.md#porchestra) · [Claude Code trajectories](trajectories/claude-code/README.md)
+[Browse all four systems](trajectories/README.md)
 
-Each collection contains 384 task trajectories across three rounds. PORCHESTRA includes 113 harness configuration updates. Claude Code includes agent messages, tool calls and returns, turn results, and four sub-agent sessions.
+Each collection contains 384 task trajectories across three rounds. Task pages include links to the corresponding task in PORCHESTRA, Claude Code, Codex, and OpenCode.
 
 ## Configuration history
 

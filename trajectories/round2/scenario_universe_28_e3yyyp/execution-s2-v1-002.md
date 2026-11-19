@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #75 · Sub-agent 2: tool result</summary>
+<summary>Source event 75 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ ReturnedEmails(emails=[Email(sender='kavitarao72@gaia2mail.com', recipients=['so
 </details>
 
 
-## Source event #76 · Sub-agent 2: model output
+## Source event 76 · Sub-agent 2: model output
 
 ```text
 Let me check the final emails in the INBOX to confirm no additional emails from the 9 managers.
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #77 · Sub-agent 2: tool result</summary>
+<summary>Source event 77 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ ReturnedEmails(emails=[Email(sender='prasert.suthipong@gaia2mail.com', recipient
 </details>
 
 
-## Source event #78 · Sub-agent 2: model output
+## Source event 78 · Sub-agent 2: model output
 
 ```text
 All 9 managers have been processed and I verified via complete INBOX listing (104 emails) that each of the 9 managers had exactly one email, so the "latest" email was correctly identified and replied to in every case.
@@ -156,7 +156,7 @@ Action:
 
 
 <details>
-<summary>Source event #79 · Sub-agent 2: tool result</summary>
+<summary>Source event 79 · Sub-agent 2: tool result</summary>
 
 
 ```text

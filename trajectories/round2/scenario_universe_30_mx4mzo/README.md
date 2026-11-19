@@ -1,6 +1,8 @@
 # scenario_universe_30_mx4mzo
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_30_mx4mzo/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_30_mx4mzo/README.md) · [Codex](../../codex/round2/scenario_universe_30_mx4mzo/README.md) · [OpenCode](../../opencode/round2/scenario_universe_30_mx4mzo/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first part of the request is to reschedule a research meeting. I need to find the specific event on October 18th at 4pm, retrieve its details, and move it to October 20th at the same time.
 
@@ -85,11 +87,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #19
+**Initial harness configuration** · Source event 19
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The calendar rescheduling is complete. Now I need to send the notification email to the participants and book the cab for the new meeting time.
 
@@ -150,11 +152,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #29
+**Initial harness configuration** · Source event 29
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The calendar reschedule, email notification, and cab booking are complete. The final requirement is to handle the shopping cart: find specific model variants, select the cheapest based on criteria, add to cart, and checkout with available discounts.
 
@@ -224,7 +226,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

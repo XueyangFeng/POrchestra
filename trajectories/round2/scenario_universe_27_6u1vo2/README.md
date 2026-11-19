@@ -1,6 +1,8 @@
 # scenario_universe_27_6u1vo2
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_27_6u1vo2/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_27_6u1vo2/README.md) · [Codex](../../codex/round2/scenario_universe_27_6u1vo2/README.md) · [OpenCode](../../opencode/round2/scenario_universe_27_6u1vo2/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user has requested several initial tasks: canceling office hours for tomorrow (2024-10-16), scheduling a meeting with Helga Müller in that same time slot, and messaging Helga to ask about rescheduling. I need to identify the office hours&#x27; details first, then perform the calendar and messaging actions, and finally notify the user.
 
@@ -99,7 +101,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #30
+**Harness configuration updated** · Source event 30
 
 **1. Sub-agent revision request**
 
@@ -108,7 +110,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Initial tasks complete: Office Hours on 2024-10-16 14:00–16:00 (event 075c5ad969d14f468c3b0ea09d11d89a) deleted; new meeting 'Meeting with Helga Müller' created same slot (event dcf191829913b81220f38262b28ec53c); message sent to Helga Müller (user_id +498912345978) resulting in conversation 81c6c8da192240959b29545344878050; user notified. Two new environment notifications report 2 new messages received in that conversation — content unreadable with my current tools.
 ```
 <details>
-<summary>Request and evidence · source event #28</summary>
+<summary>Request and evidence · source event 28</summary>
 
 
 ```text
@@ -164,7 +166,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 New messages from Helga Müller have been received. I need to authorize the SubAgent to read these messages and execute the conditional logic specified in the original task (rescheduling, clearing a calendar day, restoring office hours, and/or purchasing a toy).
 
@@ -285,7 +287,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

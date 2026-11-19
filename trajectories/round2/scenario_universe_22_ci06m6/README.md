@@ -1,6 +1,8 @@
 # scenario_universe_22_ci06m6
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_22_ci06m6/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_22_ci06m6/README.md) · [Codex](../../codex/round2/scenario_universe_22_ci06m6/README.md) · [OpenCode](../../opencode/round2/scenario_universe_22_ci06m6/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to schedule a dinner event and invite two people. The first part of the task is to create the event and send the invitations, then inform the user. Rescheduling is a conditional step that depends on their responses.
 
@@ -92,7 +94,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #23
+**Harness configuration updated** · Source event 23
 
 **1. Sub-agent revision request**
 
@@ -101,7 +103,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed initial subtask: verified current datetime 2024-10-15 07:00:17 Tuesday (so Saturday the 19th = 2024-10-19), created calendar event 'Dinner with Buddies' 2024-10-19 18:00:00-20:00:00, looked up Messaging user IDs for Guillermo Reyes and Alexandra Popescu, sent both invitation messages, and notified the user. New environment notifications now report three incoming messages in conversation IDs c73068d6fb7c4bd7a96bb71ced930fe1, c18b476fd48446cc9adc5e6042b4376e, a550d7bff4dd4434a6a370e84e1e72c2. However, I have no tool available to read message/conversation content, so I cannot determine whether the attendees are available or not.
 ```
 <details>
-<summary>Request and evidence · source event #21</summary>
+<summary>Request and evidence · source event 21</summary>
 
 
 ```text
@@ -174,7 +176,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent has completed the initial scheduling and messaging but needs tools to read the replies and handle the conditional rescheduling requirement from the original task. I will provide the necessary messaging and calendar reading tools and update the task to include checking replies and rescheduling if necessary.
 

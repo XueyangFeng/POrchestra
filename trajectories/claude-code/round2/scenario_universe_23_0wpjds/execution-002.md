@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #42 · Main agent: Tool result: call_03_dqwuz9zf43bokmixcrr158gf (is_error=False)</summary>
+<summary>Source event 42 · Main agent: Tool result: call_03_dqwuz9zf43bokmixcrr158gf (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #43 · Main agent: Tool result: call_04_pcd5rjwk4vhvyns6awfmvqn3 (is_error=False)</summary>
+<summary>Source event 43 · Main agent: Tool result: call_04_pcd5rjwk4vhvyns6awfmvqn3 (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #44 · Main agent: Tool result: call_05_gxqf0fmkx2gbm9ktkdjdw207 (is_error=False)</summary>
+<summary>Source event 44 · Main agent: Tool result: call_05_gxqf0fmkx2gbm9ktkdjdw207 (is_error=False)</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #45 · Main agent: Model message
+## Source event 45 · Main agent: Model message
 
 ```text
 Now I have all 124 contacts. Let me identify all contacts with address zip 602 00 (Brno). Note zip codes: 602 00. Also 612 00, 603 00, 613 00 are different.
@@ -84,7 +84,7 @@ Need to know attendee representation. Let me fetch events.
 
 
 
-## Source event #46 · Main agent: Model message
+## Source event 46 · Main agent: Model message
 
 ```text
 Zip **60200** contacts: Bohumil Nováček (78), Lukáš Nováček (28), Zdeněk Nováková (43), Petra Nováková (46). Now let me get September calendar events.
@@ -92,7 +92,7 @@ Zip **60200** contacts: Bohumil Nováček (78), Lukáš Nováček (28), Zdeněk 
 
 
 
-## Source event #47 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_lmvc7sdixhlflcze8gk65wfa)
+## Source event 47 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_lmvc7sdixhlflcze8gk65wfa)
 
 ```text
 {
@@ -106,7 +106,7 @@ Zip **60200** contacts: Bohumil Nováček (78), Lukáš Nováček (28), Zdeněk 
 
 
 <details>
-<summary>Source event #48 · Main agent: Tool result: call_00_lmvc7sdixhlflcze8gk65wfa (is_error=False)</summary>
+<summary>Source event 48 · Main agent: Tool result: call_00_lmvc7sdixhlflcze8gk65wfa (is_error=False)</summary>
 
 
 ```text
@@ -122,7 +122,7 @@ Zip **60200** contacts: Bohumil Nováček (78), Lukáš Nováček (28), Zdeněk 
 </details>
 
 
-## Source event #49 · Main agent: Model message
+## Source event 49 · Main agent: Model message
 
 ```text
 Total 101 events, limit 100, so there's 1 more event. Let me fetch offset 100.
@@ -144,7 +144,7 @@ Let me get offset 100.
 
 
 
-## Source event #50 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_dlsc4l5jrbvws0yrwcuhkki5)
+## Source event 50 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_events_from_to (call_00_dlsc4l5jrbvws0yrwcuhkki5)
 
 ```text
 {
@@ -158,7 +158,7 @@ Let me get offset 100.
 
 
 <details>
-<summary>Source event #51 · Main agent: Tool result: call_00_dlsc4l5jrbvws0yrwcuhkki5 (is_error=False)</summary>
+<summary>Source event 51 · Main agent: Tool result: call_00_dlsc4l5jrbvws0yrwcuhkki5 (is_error=False)</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ Let me get offset 100.
 </details>
 
 
-## Source event #52 · Main agent: Model message
+## Source event 52 · Main agent: Model message
 
 ```text
 Now I have all 101 events. Let me write a script to count attendee appearances of the four contacts. I'll scrape the event data. But easier: I can parse the JSON from the tool output manually? Better to reconstruct list of attendees. Let me write out the attendee lists from events I saw and count exact names.
@@ -448,7 +448,7 @@ Let me send.
 
 
 
-## Source event #53 · Main agent: Model message
+## Source event 53 · Main agent: Model message
 
 ```text
 I have all the data. Let me verify the attendee counts precisely.
@@ -456,7 +456,7 @@ I have all the data. Let me verify the attendee counts precisely.
 
 
 
-## Source event #54 · Main agent: Model tool call: Bash (call_00_ptx2c6ho2od0ykq0n37zifrx)
+## Source event 54 · Main agent: Model tool call: Bash (call_00_ptx2c6ho2od0ykq0n37zifrx)
 
 ```text
 {
@@ -468,7 +468,7 @@ I have all the data. Let me verify the attendee counts precisely.
 
 
 <details>
-<summary>Source event #55 · Main agent: Tool result: call_00_ptx2c6ho2od0ykq0n37zifrx (is_error=False)</summary>
+<summary>Source event 55 · Main agent: Tool result: call_00_ptx2c6ho2od0ykq0n37zifrx (is_error=False)</summary>
 
 
 ```text
@@ -483,7 +483,7 @@ Petra Nováková: 0
 </details>
 
 
-## Source event #56 · Main agent: Model message
+## Source event 56 · Main agent: Model message
 
 ```text
 My transcription has 103 entries vs 101 — but the counts for target names are unaffected since extra entries? Wait 103 means I duplicated something. But target counts fine. Actually let me verify no extra entries contain target names. The extra 2 are likely empty or Matěj entries. Counts still fine.
@@ -495,7 +495,7 @@ Answer: Lukáš Nováček. Let me send message.
 
 
 
-## Source event #57 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_w5u086980gejjgvi5z8sdeph)
+## Source event 57 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_w5u086980gejjgvi5z8sdeph)
 
 ```text
 {
@@ -506,7 +506,7 @@ Answer: Lukáš Nováček. Let me send message.
 
 
 <details>
-<summary>Source event #58 · Main agent: Tool result: call_00_w5u086980gejjgvi5z8sdeph (is_error=False)</summary>
+<summary>Source event 58 · Main agent: Tool result: call_00_w5u086980gejjgvi5z8sdeph (is_error=False)</summary>
 
 
 ```text
@@ -522,7 +522,7 @@ Answer: Lukáš Nováček. Let me send message.
 </details>
 
 
-## Source event #59 · Main agent: Model message
+## Source event 59 · Main agent: Model message
 
 ```text
 The task is complete.
@@ -539,7 +539,7 @@ How I got there:
 
 
 <details>
-<summary>Source event #60 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 60 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -559,7 +559,7 @@ How I got there:
 
 
 <details>
-<summary>Source event #61 · Judge: Judge rationale</summary>
+<summary>Source event 61 · Judge: Judge rationale</summary>
 
 
 ```text

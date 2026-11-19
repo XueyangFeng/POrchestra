@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #34 · Main agent: Tool result: call_00_32d0rh8ofikoxip1aaw8fcj7 (is_error=False)</summary>
+<summary>Source event 34 · Main agent: Tool result: call_00_32d0rh8ofikoxip1aaw8fcj7 (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #35 · Main agent: Tool result: call_01_d3ll4dpw6bm8wica3f9pqqcv (is_error=False)</summary>
+<summary>Source event 35 · Main agent: Tool result: call_01_d3ll4dpw6bm8wica3f9pqqcv (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #36 · Main agent: Tool result: call_02_axavl8fmxvqshqsc4a1jm10u (is_error=False)</summary>
+<summary>Source event 36 · Main agent: Tool result: call_02_axavl8fmxvqshqsc4a1jm10u (is_error=False)</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #37 · Main agent: Tool result: call_03_yho1o7eszpj90ilg3ukfkcjr (is_error=False)</summary>
+<summary>Source event 37 · Main agent: Tool result: call_03_yho1o7eszpj90ilg3ukfkcjr (is_error=False)</summary>
 
 
 ```text
@@ -72,7 +72,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #38 · Main agent: Model message
+## Source event 38 · Main agent: Model message
 
 ```text
 Found Astrid Rasmussen (27). Now need Rohan Deshpande. Continue offsets 90 and 100.
@@ -80,7 +80,7 @@ Found Astrid Rasmussen (27). Now need Rohan Deshpande. Continue offsets 90 and 1
 
 
 
-## Source event #39 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_8ioxlugx127brbvezgaex9rc)
+## Source event 39 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_8ioxlugx127brbvezgaex9rc)
 
 ```text
 {
@@ -90,7 +90,7 @@ Found Astrid Rasmussen (27). Now need Rohan Deshpande. Continue offsets 90 and 1
 
 
 
-## Source event #40 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_e9ahrpmae8eqw0v3s0sgrv9z)
+## Source event 40 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_e9ahrpmae8eqw0v3s0sgrv9z)
 
 ```text
 {
@@ -101,7 +101,7 @@ Found Astrid Rasmussen (27). Now need Rohan Deshpande. Continue offsets 90 and 1
 
 
 <details>
-<summary>Source event #41 · Main agent: Tool result: call_00_8ioxlugx127brbvezgaex9rc (is_error=False)</summary>
+<summary>Source event 41 · Main agent: Tool result: call_00_8ioxlugx127brbvezgaex9rc (is_error=False)</summary>
 
 
 ```text
@@ -118,7 +118,7 @@ Found Astrid Rasmussen (27). Now need Rohan Deshpande. Continue offsets 90 and 1
 
 
 <details>
-<summary>Source event #42 · Main agent: Tool result: call_01_e9ahrpmae8eqw0v3s0sgrv9z (is_error=False)</summary>
+<summary>Source event 42 · Main agent: Tool result: call_01_e9ahrpmae8eqw0v3s0sgrv9z (is_error=False)</summary>
 
 
 ```text
@@ -134,7 +134,7 @@ Found Astrid Rasmussen (27). Now need Rohan Deshpande. Continue offsets 90 and 1
 </details>
 
 
-## Source event #43 · Main agent: Model message
+## Source event 43 · Main agent: Model message
 
 ```text
 Now I have all 104 contacts. The attendees of the August Networking Events on Free Time days (Aug 14, 15, 18 — all titled "Networking Event") are Søren Kjær (user, exclude), Astrid Rasmussen (27), Rohan Deshpande (60), Aurélien Vandenberghe (31).
@@ -394,7 +394,7 @@ Let me verify with python.
 
 
 
-## Source event #44 · Main agent: Model message
+## Source event 44 · Main agent: Model message
 
 ```text
 I have the calendar and full contact list. Let me verify the calculation programmatically.
@@ -402,7 +402,7 @@ I have the calendar and full contact list. Let me verify the calculation program
 
 
 
-## Source event #45 · Main agent: Model tool call: Bash (call_00_8cg0pdlqzljy62cq9y2tklz7)
+## Source event 45 · Main agent: Model tool call: Bash (call_00_8cg0pdlqzljy62cq9y2tklz7)
 
 ```text
 {
@@ -414,7 +414,7 @@ I have the calendar and full contact list. Let me verify the calculation program
 
 
 <details>
-<summary>Source event #46 · Main agent: Tool result: call_00_8cg0pdlqzljy62cq9y2tklz7 (is_error=False)</summary>
+<summary>Source event 46 · Main agent: Tool result: call_00_8cg0pdlqzljy62cq9y2tklz7 (is_error=False)</summary>
 
 
 ```text
@@ -434,7 +434,7 @@ within 3 years of 39 : 6
 </details>
 
 
-## Source event #47 · Main agent: Model message
+## Source event 47 · Main agent: Model message
 
 ```text
 103 non-user contacts + user = 104. Good.
@@ -563,7 +563,7 @@ Let me load the tool.
 
 
 
-## Source event #48 · Main agent: Model tool call: ToolSearch (call_00_i1vtknmxq5wqqot3dq7wgtti)
+## Source event 48 · Main agent: Model tool call: ToolSearch (call_00_i1vtknmxq5wqqot3dq7wgtti)
 
 ```text
 {
@@ -575,7 +575,7 @@ Let me load the tool.
 
 
 <details>
-<summary>Source event #49 · Main agent: Tool result: call_00_i1vtknmxq5wqqot3dq7wgtti (is_error=False)</summary>
+<summary>Source event 49 · Main agent: Tool result: call_00_i1vtknmxq5wqqot3dq7wgtti (is_error=False)</summary>
 
 
 ```text
@@ -591,7 +591,7 @@ Let me load the tool.
 </details>
 
 
-## Source event #50 · Main agent: Model message
+## Source event 50 · Main agent: Model message
 
 ```text
 Before sending, let me be extra careful: is the average maybe over all attendees across August networking events *that occurred on free time days*, and perhaps "Networking Events" includes the Aug 12 event? Let me re-read: "Identify the average attendee age from the August Networking Events that took place on the same days that I had scheduled Free Time."
@@ -611,7 +611,7 @@ Actually, maybe I should mention the events and how computed. Keep concise.
 
 
 
-## Source event #51 · Main agent: Model message
+## Source event 51 · Main agent: Model message
 
 ```text
 I've verified the data. Let me send the answer.
@@ -619,7 +619,7 @@ I've verified the data. Let me send the answer.
 
 
 
-## Source event #52 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_i5gsdcyk4843hs7rehu35fxd)
+## Source event 52 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_i5gsdcyk4843hs7rehu35fxd)
 
 ```text
 {
@@ -630,7 +630,7 @@ I've verified the data. Let me send the answer.
 
 
 <details>
-<summary>Source event #53 · Main agent: Tool result: call_00_i5gsdcyk4843hs7rehu35fxd (is_error=False)</summary>
+<summary>Source event 53 · Main agent: Tool result: call_00_i5gsdcyk4843hs7rehu35fxd (is_error=False)</summary>
 
 
 ```text
@@ -646,7 +646,7 @@ I've verified the data. Let me send the answer.
 </details>
 
 
-## Source event #54 · Main agent: Model message
+## Source event 54 · Main agent: Model message
 
 ```text
 Done. But let me double-check potential alternate interpretation once more before finalizing. The message sent. The answer: 39, 6.
@@ -678,7 +678,7 @@ I'm done. Provide final summary to user in the response text (outside tool) too?
 
 
 
-## Source event #55 · Main agent: Model message
+## Source event 55 · Main agent: Model message
 
 ```text
 I completed the task and sent the answer to the user.
@@ -693,7 +693,7 @@ I completed the task and sent the answer to the user.
 
 
 <details>
-<summary>Source event #56 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 56 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -711,7 +711,7 @@ I completed the task and sent the answer to the user.
 
 
 <details>
-<summary>Source event #57 · Judge: Judge rationale</summary>
+<summary>Source event 57 · Judge: Judge rationale</summary>
 
 
 ```text

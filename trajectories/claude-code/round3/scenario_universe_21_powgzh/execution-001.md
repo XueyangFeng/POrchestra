@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #1 · Main agent: Model message
+## Source event 1 · Main agent: Model message
 
 ```text
 Let me start by exploring the task. I need to:
@@ -17,7 +17,7 @@ Let me load the tools first.
 
 
 
-## Source event #2 · Main agent: Model message
+## Source event 2 · Main agent: Model message
 
 ```text
 I'll start by loading the tools I need for contacts, calendar, and messaging.
@@ -25,7 +25,7 @@ I'll start by loading the tools I need for contacts, calendar, and messaging.
 
 
 
-## Source event #3 · Main agent: Model tool call: ToolSearch (call_00_n89be1ardx0ffu4eqg872uv8)
+## Source event 3 · Main agent: Model tool call: ToolSearch (call_00_n89be1ardx0ffu4eqg872uv8)
 
 ```text
 {
@@ -37,7 +37,7 @@ I'll start by loading the tools I need for contacts, calendar, and messaging.
 
 
 <details>
-<summary>Source event #4 · Main agent: Tool result: call_00_n89be1ardx0ffu4eqg872uv8 (is_error=False)</summary>
+<summary>Source event 4 · Main agent: Tool result: call_00_n89be1ardx0ffu4eqg872uv8 (is_error=False)</summary>
 
 
 ```text
@@ -61,7 +61,7 @@ I'll start by loading the tools I need for contacts, calendar, and messaging.
 </details>
 
 
-## Source event #5 · Main agent: Model tool call: ToolSearch (call_01_m0gnifm0dfykbgmgdx05ymrh)
+## Source event 5 · Main agent: Model tool call: ToolSearch (call_01_m0gnifm0dfykbgmgdx05ymrh)
 
 ```text
 {
@@ -73,7 +73,7 @@ I'll start by loading the tools I need for contacts, calendar, and messaging.
 
 
 <details>
-<summary>Source event #6 · Main agent: Tool result: call_01_m0gnifm0dfykbgmgdx05ymrh (is_error=False)</summary>
+<summary>Source event 6 · Main agent: Tool result: call_01_m0gnifm0dfykbgmgdx05ymrh (is_error=False)</summary>
 
 
 ```text
@@ -97,7 +97,7 @@ I'll start by loading the tools I need for contacts, calendar, and messaging.
 </details>
 
 
-## Source event #7 · Main agent: Model tool call: ToolSearch (call_02_bz0pe08kys85n7crm7pu4zu2)
+## Source event 7 · Main agent: Model tool call: ToolSearch (call_02_bz0pe08kys85n7crm7pu4zu2)
 
 ```text
 {
@@ -109,7 +109,7 @@ I'll start by loading the tools I need for contacts, calendar, and messaging.
 
 
 <details>
-<summary>Source event #8 · Main agent: Tool result: call_02_bz0pe08kys85n7crm7pu4zu2 (is_error=False)</summary>
+<summary>Source event 8 · Main agent: Tool result: call_02_bz0pe08kys85n7crm7pu4zu2 (is_error=False)</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ I'll start by loading the tools I need for contacts, calendar, and messaging.
 </details>
 
 
-## Source event #9 · Main agent: Model message
+## Source event 9 · Main agent: Model message
 
 ```text
 Now get contacts and current user details.
@@ -145,7 +145,7 @@ Now get contacts and current user details.
 
 
 
-## Source event #10 · Main agent: Model tool call: mcp__gaia2__Contacts__get_current_user_details (call_00_fy585m2nxqar6xi2yc1ewqhr)
+## Source event 10 · Main agent: Model tool call: mcp__gaia2__Contacts__get_current_user_details (call_00_fy585m2nxqar6xi2yc1ewqhr)
 
 ```text
 {}
@@ -153,7 +153,7 @@ Now get contacts and current user details.
 
 
 
-## Source event #11 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_z2pmmephlrc3axtgfik2gghk)
+## Source event 11 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_z2pmmephlrc3axtgfik2gghk)
 
 ```text
 {
@@ -164,7 +164,7 @@ Now get contacts and current user details.
 
 
 <details>
-<summary>Source event #12 · Main agent: Tool result: call_00_fy585m2nxqar6xi2yc1ewqhr (is_error=False)</summary>
+<summary>Source event 12 · Main agent: Tool result: call_00_fy585m2nxqar6xi2yc1ewqhr (is_error=False)</summary>
 
 
 ```text
@@ -181,7 +181,7 @@ Now get contacts and current user details.
 
 
 <details>
-<summary>Source event #13 · Main agent: Tool result: call_01_z2pmmephlrc3axtgfik2gghk (is_error=False)</summary>
+<summary>Source event 13 · Main agent: Tool result: call_01_z2pmmephlrc3axtgfik2gghk (is_error=False)</summary>
 
 
 ```text
@@ -197,7 +197,7 @@ Now get contacts and current user details.
 </details>
 
 
-## Source event #14 · Main agent: Model message
+## Source event 14 · Main agent: Model message
 
 ```text
 There are 125 contacts. I need to page through all of them. Let me get more pages. Each call returns 10. Let me fetch offsets 10, 20, ..., 120.
@@ -213,7 +213,7 @@ Let me get all pages.
 
 
 
-## Source event #15 · Main agent: Model message
+## Source event 15 · Main agent: Model message
 
 ```text
 There are 125 contacts. Let me page through all of them.
@@ -221,7 +221,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 
-## Source event #16 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_6qdqew4fhpildgdq028oc7r6)
+## Source event 16 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_6qdqew4fhpildgdq028oc7r6)
 
 ```text
 {
@@ -231,7 +231,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 
-## Source event #17 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_8h9fdvdwtjp9vdwn8z6bp4rd)
+## Source event 17 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_01_8h9fdvdwtjp9vdwn8z6bp4rd)
 
 ```text
 {
@@ -241,7 +241,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 
-## Source event #18 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_7p0vvxci60ywkgrwt5xujee0)
+## Source event 18 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_02_7p0vvxci60ywkgrwt5xujee0)
 
 ```text
 {
@@ -251,7 +251,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 
-## Source event #19 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_8w0rcre2olldzxq49902fkv4)
+## Source event 19 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_03_8w0rcre2olldzxq49902fkv4)
 
 ```text
 {
@@ -261,7 +261,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 
-## Source event #20 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_04_8s60ytrhrcrh9wuqrx9ozpa0)
+## Source event 20 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_04_8s60ytrhrcrh9wuqrx9ozpa0)
 
 ```text
 {
@@ -271,7 +271,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 
-## Source event #21 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_05_0vjb6lr4nwscdg562emf0blj)
+## Source event 21 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_05_0vjb6lr4nwscdg562emf0blj)
 
 ```text
 {
@@ -281,7 +281,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 
-## Source event #22 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_06_3hi2zk2rrbmnzqxqswjdev8a)
+## Source event 22 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_06_3hi2zk2rrbmnzqxqswjdev8a)
 
 ```text
 {
@@ -291,7 +291,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 
-## Source event #23 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_07_ljcw6sw32hg05ajyyqel1qyz)
+## Source event 23 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_07_ljcw6sw32hg05ajyyqel1qyz)
 
 ```text
 {
@@ -301,7 +301,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 
-## Source event #24 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_08_j9ytrsr95emwckmev2tcynrk)
+## Source event 24 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_08_j9ytrsr95emwckmev2tcynrk)
 
 ```text
 {
@@ -311,7 +311,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 
-## Source event #25 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_09_bziqhvjdxenib9938thqe8et)
+## Source event 25 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_09_bziqhvjdxenib9938thqe8et)
 
 ```text
 {
@@ -321,7 +321,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 
-## Source event #26 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_10_w55soiu3d4sdxy5s5zht8lyb)
+## Source event 26 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_10_w55soiu3d4sdxy5s5zht8lyb)
 
 ```text
 {
@@ -331,7 +331,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 
-## Source event #27 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_11_ehnugx3myeo9esuvnlw0osbx)
+## Source event 27 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_11_ehnugx3myeo9esuvnlw0osbx)
 
 ```text
 {
@@ -342,7 +342,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 <details>
-<summary>Source event #28 · Main agent: Tool result: call_00_6qdqew4fhpildgdq028oc7r6 (is_error=False)</summary>
+<summary>Source event 28 · Main agent: Tool result: call_00_6qdqew4fhpildgdq028oc7r6 (is_error=False)</summary>
 
 
 ```text
@@ -359,7 +359,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 <details>
-<summary>Source event #29 · Main agent: Tool result: call_01_8h9fdvdwtjp9vdwn8z6bp4rd (is_error=False)</summary>
+<summary>Source event 29 · Main agent: Tool result: call_01_8h9fdvdwtjp9vdwn8z6bp4rd (is_error=False)</summary>
 
 
 ```text
@@ -376,7 +376,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 <details>
-<summary>Source event #30 · Main agent: Tool result: call_02_7p0vvxci60ywkgrwt5xujee0 (is_error=False)</summary>
+<summary>Source event 30 · Main agent: Tool result: call_02_7p0vvxci60ywkgrwt5xujee0 (is_error=False)</summary>
 
 
 ```text
@@ -393,7 +393,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 <details>
-<summary>Source event #31 · Main agent: Tool result: call_03_8w0rcre2olldzxq49902fkv4 (is_error=False)</summary>
+<summary>Source event 31 · Main agent: Tool result: call_03_8w0rcre2olldzxq49902fkv4 (is_error=False)</summary>
 
 
 ```text
@@ -410,7 +410,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 <details>
-<summary>Source event #32 · Main agent: Tool result: call_04_8s60ytrhrcrh9wuqrx9ozpa0 (is_error=False)</summary>
+<summary>Source event 32 · Main agent: Tool result: call_04_8s60ytrhrcrh9wuqrx9ozpa0 (is_error=False)</summary>
 
 
 ```text
@@ -427,7 +427,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 <details>
-<summary>Source event #33 · Main agent: Tool result: call_05_0vjb6lr4nwscdg562emf0blj (is_error=False)</summary>
+<summary>Source event 33 · Main agent: Tool result: call_05_0vjb6lr4nwscdg562emf0blj (is_error=False)</summary>
 
 
 ```text
@@ -444,7 +444,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 <details>
-<summary>Source event #34 · Main agent: Tool result: call_06_3hi2zk2rrbmnzqxqswjdev8a (is_error=False)</summary>
+<summary>Source event 34 · Main agent: Tool result: call_06_3hi2zk2rrbmnzqxqswjdev8a (is_error=False)</summary>
 
 
 ```text
@@ -461,7 +461,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 <details>
-<summary>Source event #35 · Main agent: Tool result: call_07_ljcw6sw32hg05ajyyqel1qyz (is_error=False)</summary>
+<summary>Source event 35 · Main agent: Tool result: call_07_ljcw6sw32hg05ajyyqel1qyz (is_error=False)</summary>
 
 
 ```text
@@ -478,7 +478,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 <details>
-<summary>Source event #36 · Main agent: Tool result: call_08_j9ytrsr95emwckmev2tcynrk (is_error=False)</summary>
+<summary>Source event 36 · Main agent: Tool result: call_08_j9ytrsr95emwckmev2tcynrk (is_error=False)</summary>
 
 
 ```text
@@ -495,7 +495,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 <details>
-<summary>Source event #37 · Main agent: Tool result: call_09_bziqhvjdxenib9938thqe8et (is_error=False)</summary>
+<summary>Source event 37 · Main agent: Tool result: call_09_bziqhvjdxenib9938thqe8et (is_error=False)</summary>
 
 
 ```text
@@ -512,7 +512,7 @@ There are 125 contacts. Let me page through all of them.
 
 
 <details>
-<summary>Source event #38 · Main agent: Tool result: call_10_w55soiu3d4sdxy5s5zht8lyb (is_error=False)</summary>
+<summary>Source event 38 · Main agent: Tool result: call_10_w55soiu3d4sdxy5s5zht8lyb (is_error=False)</summary>
 
 
 ```text

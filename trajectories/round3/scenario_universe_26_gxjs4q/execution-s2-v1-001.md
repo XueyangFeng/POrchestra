@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 43 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #44 · Sub-agent 2: model output
+## Source event 44 · Sub-agent 2: model output
 
 ```text
 I'll start by finding all contacts and checking which ones are from Trondheim.
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: tool result</summary>
+<summary>Source event 45 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #46 · Sub-agent 2: model output
+## Source event 46 · Sub-agent 2: model output
 
 ```text
 There are 107 contacts total. I found one in Trondheim so far (Kjetil Østensen). Let me scroll through the rest.
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result</summary>
+<summary>Source event 47 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Action:
 </details>
 
 
-## Source event #48 · Sub-agent 2: model output
+## Source event 48 · Sub-agent 2: model output
 
 ```text
 Found a second Trondheim contact (Astrid Kleveland). Continuing to scan all contacts.
@@ -98,7 +98,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: tool result</summary>
+<summary>Source event 49 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -112,7 +112,7 @@ Action:
 </details>
 
 
-## Source event #50 · Sub-agent 2: model output
+## Source event 50 · Sub-agent 2: model output
 
 ```text
 Continuing to scan contacts.
@@ -129,7 +129,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 2: tool result</summary>
+<summary>Source event 51 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -143,7 +143,7 @@ Action:
 </details>
 
 
-## Source event #52 · Sub-agent 2: model output
+## Source event 52 · Sub-agent 2: model output
 
 ```text
 Continuing to scan.
@@ -160,7 +160,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 2: tool result</summary>
+<summary>Source event 53 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ Action:
 </details>
 
 
-## Source event #54 · Sub-agent 2: model output
+## Source event 54 · Sub-agent 2: model output
 
 ```text
 Continuing to scan.
@@ -191,7 +191,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 2: tool result</summary>
+<summary>Source event 55 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -205,7 +205,7 @@ Action:
 </details>
 
 
-## Source event #56 · Sub-agent 2: model output
+## Source event 56 · Sub-agent 2: model output
 
 ```text
 Continuing to scan contacts.
@@ -222,7 +222,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 2: tool result</summary>
+<summary>Source event 57 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -236,7 +236,7 @@ Action:
 </details>
 
 
-## Source event #58 · Sub-agent 2: model output
+## Source event 58 · Sub-agent 2: model output
 
 ```text
 Continuing to scan.
@@ -253,7 +253,7 @@ Action:
 
 
 <details>
-<summary>Source event #59 · Sub-agent 2: tool result</summary>
+<summary>Source event 59 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -267,7 +267,7 @@ Action:
 </details>
 
 
-## Source event #60 · Sub-agent 2: model output
+## Source event 60 · Sub-agent 2: model output
 
 ```text
 Continuing to scan.
@@ -284,7 +284,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 2: tool result</summary>
+<summary>Source event 61 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -298,7 +298,7 @@ Action:
 </details>
 
 
-## Source event #62 · Sub-agent 2: model output
+## Source event 62 · Sub-agent 2: model output
 
 ```text
 Continuing to scan the remaining contacts.
@@ -315,7 +315,7 @@ Action:
 
 
 <details>
-<summary>Source event #63 · Sub-agent 2: tool result</summary>
+<summary>Source event 63 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -329,7 +329,7 @@ Action:
 </details>
 
 
-## Source event #64 · Sub-agent 2: model output
+## Source event 64 · Sub-agent 2: model output
 
 ```text
 Scanning the final batch.
@@ -346,7 +346,7 @@ Action:
 
 
 <details>
-<summary>Source event #65 · Sub-agent 2: tool result</summary>
+<summary>Source event 65 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -360,7 +360,7 @@ Action:
 </details>
 
 
-## Source event #66 · Sub-agent 2: model output
+## Source event 66 · Sub-agent 2: model output
 
 ```text
 I've scanned all 107 contacts. Exactly two contacts are from Trondheim:
@@ -383,7 +383,7 @@ Action:
 
 
 <details>
-<summary>Source event #67 · Sub-agent 2: tool result</summary>
+<summary>Source event 67 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -397,7 +397,7 @@ a7a6559237dfccab98f2b1970584c7a3
 </details>
 
 
-## Source event #68 · Sub-agent 2: model output
+## Source event 68 · Sub-agent 2: model output
 
 ```text
 The email was sent successfully. Now I'll notify the user.
@@ -414,7 +414,7 @@ Action:
 
 
 <details>
-<summary>Source event #69 · Sub-agent 2: tool result</summary>
+<summary>Source event 69 · Sub-agent 2: tool result</summary>
 
 
 ```text

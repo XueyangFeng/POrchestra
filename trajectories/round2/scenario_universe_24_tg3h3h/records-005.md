@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #184 · Sub-agent 2: tool result (continued, part 4)</summary>
+<summary>Source event 184 · Sub-agent 2: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ liński", email_id='14b1295db1224debaddcf264c7f3d891', parent_id=None, cc=[], at
 
 
 <details>
-<summary>Source event #184 · Sub-agent 2: tool result (continued, part 5)</summary>
+<summary>Source event 184 · Sub-agent 2: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -29,7 +29,7 @@ luenced the relations between the Swiss Confederacy and the Scottish Crown. Your
 
 
 <details>
-<summary>Source event #184 · Sub-agent 2: tool result (continued, part 6)</summary>
+<summary>Source event 184 · Sub-agent 2: tool result (continued, part 6)</summary>
 
 
 ```text
@@ -42,7 +42,7 @@ Untold Stories of Brussels' Past", content="Dear Ursula,\n\nI hope this email fi
 
 
 <details>
-<summary>Source event #185 · Sub-agent 2: model output</summary>
+<summary>Source event 185 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -61,7 +61,7 @@ Action:
 
 
 <details>
-<summary>Source event #186 · Sub-agent 2: tool result</summary>
+<summary>Source event 186 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #186 · Sub-agent 2: tool result (continued, part 2)</summary>
+<summary>Source event 186 · Sub-agent 2: tool result (continued, part 2)</summary>
 
 
 ```text

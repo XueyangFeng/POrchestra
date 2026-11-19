@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #12 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 12 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Using the calculated difference of 7 (derived from 13 Chats and 6 Messages conve
 </details>
 
 
-## Source event #13 · Sub-agent 2: model output
+## Source event 13 · Sub-agent 2: model output
 
 ```text
 I'll start by retrieving both the full apartment catalog and the saved favorites list.
@@ -32,7 +32,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 2: tool result</summary>
+<summary>Source event 14 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -46,7 +46,7 @@ Action:
 </details>
 
 
-## Source event #15 · Sub-agent 2: model output
+## Source event 15 · Sub-agent 2: model output
 
 ```text
 I have the full catalog. Now let me verify the saved favorites list to confirm which are unsaved.
@@ -61,7 +61,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 2: tool result</summary>
+<summary>Source event 16 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -75,7 +75,7 @@ Action:
 </details>
 
 
-## Source event #17 · Sub-agent 2: model output
+## Source event 17 · Sub-agent 2: model output
 
 ```text
 The saved favorites list (30 properties) is confirmed. Now let me identify the unsaved properties whose price is a multiple of 7.
@@ -99,7 +99,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 2: tool result</summary>
+<summary>Source event 18 · Sub-agent 2: tool result</summary>
 
 
 ```text

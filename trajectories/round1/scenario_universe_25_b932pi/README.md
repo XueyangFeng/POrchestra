@@ -1,6 +1,8 @@
 # scenario_universe_25_b932pi
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_25_b932pi/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_25_b932pi/README.md) · [Codex](../../codex/round1/scenario_universe_25_b932pi/README.md) · [OpenCode](../../opencode/round1/scenario_universe_25_b932pi/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the first part of the task: finding the earliest event, booking the cab, and messaging the attendee. The task requires notifying the user once these initial steps are completed, which will also mark the start of the 4-minute monitoring period.
 
@@ -98,7 +100,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #24
+**Harness configuration updated** · Source event 24
 
 **1. Sub-agent revision request**
 
@@ -107,7 +109,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Booked Default cab for Aurélien Dumont at 08:50 and sent him a confirmation message; notified user. Environment notification now reports the cab ride was cancelled. I have not yet deleted/rescheduled the event because no calendar modification tools are available.
 ```
 <details>
-<summary>Request and evidence · source event #22</summary>
+<summary>Request and evidence · source event 22</summary>
 
 
 ```text
@@ -164,7 +166,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The cab ride was cancelled immediately after the user was notified. Per the original task, the agent must wait exactly 4 minutes after notifying the user (which happened at 07:02:50) before processing the cancellation fallback. I will provide the necessary calendar modification tools and the wait tool to complete the task.
 

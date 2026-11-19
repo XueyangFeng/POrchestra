@@ -1,6 +1,8 @@
 # scenario_universe_21_ycoch2
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_21_ycoch2/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_21_ycoch2/README.md) · [Codex](../../codex/round1/scenario_universe_21_ycoch2/README.md) · [OpenCode](../../opencode/round1/scenario_universe_21_ycoch2/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to create the group conversation first and find the correct user IDs for the specified friends. The user also wants to be notified immediately after the group is created. This subtask focuses on the setup and the first required user notification.
 
@@ -88,7 +90,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #25
+**Harness configuration updated** · Source event 25
 
 **1. Sub-agent revision request**
 
@@ -97,7 +99,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Assigned subtask completed: found all 5 friend user IDs, created group conversation 'Happy Astrid Day!' with those participants, notified the user, and captured current timestamp. After completing these steps, received an Environment notification of a new message in conversation ID fbcc8b1b3a6444ebad021e424ec7bd2c, which does not match the created group conversation ID b3d05104fd388610cc3e11019443dd96. No further side effects have been taken after that notification.
 ```
 <details>
-<summary>Request and evidence · source event #23</summary>
+<summary>Request and evidence · source event 23</summary>
 
 
 ```text
@@ -148,7 +150,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The group conversation has been created. I now need to monitor for messages from participants and execute the conditional actions (ride booking, group message, and calendar deletion) if the criteria (3 unique senders within 5 minutes) are met. The notification for a different conversation ID may be relevant if &#x27;Chats&#x27; and &#x27;Messages&#x27; (MessagingAppV2) are linked, or it could be a different thread; the SubAgent should check the created group first but also verify the new notification if necessary to ensure no messages are missed.
 
@@ -264,7 +266,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result (continued, part 5)</summary>
+<summary>Source event 36 · Sub-agent 1: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ mail='kvido.novacek@seznam.cz', address='Křídlovická 17, 603 00 Brno'), Conta
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Šárka declined. I've cancelled the shopping order. Now I need to find the best friend: male, lives in Prague, closest age to user (19). Male Prague contacts: Kryštof Nováček (41), František Šťastný (42), Zbyněk Šťastný (57). Closest age is Kryštof Nováček (41). Let me look up his Messages user ID.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 Šárka declined. I've cancelled the shopping order. Best friend candidate among male Prague contacts: Kryštof Nováček (age 41) is closest to user's age. Now sending him a Messages message about beer on Friday.
@@ -66,7 +66,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 Šárka declined. I've cancelled the figure order and messaged Kryštof (best friend, male, Prague, age 41 closest to user's 19). Now cancel the existing cab and order a new one to Kryštof's address.
@@ -95,7 +95,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -109,7 +109,7 @@ Ride has been cancelled, sorry to see you go.
 </details>
 
 
-## Source event #43 · Sub-agent 1: model output
+## Source event 43 · Sub-agent 1: model output
 
 ```text
 Now ordering the new default cab for Friday 17:00 from user home to Kryštof's address.
@@ -129,7 +129,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -152,7 +152,7 @@ Ride ID: e192c5fb8a318bdb627cf6d71152ec19
 </details>
 
 
-## Source event #45 · Sub-agent 1: model output
+## Source event 45 · Sub-agent 1: model output
 
 ```text
 All decline-branch actions are complete: order cancelled, best friend messaged, old cab cancelled, new cab booked to friend. Now notify the user.
@@ -169,7 +169,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #256 · Main agent: Tool result: call_00_lpuxcifwt4kdrk81z0fk52we (is_error=False)</summary>
+<summary>Source event 256 · Main agent: Tool result: call_00_lpuxcifwt4kdrk81z0fk52we (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #257 · Main agent: Tool result: call_01_ohjzghyr32xf067akueg0k8w (is_error=False)</summary>
+<summary>Source event 257 · Main agent: Tool result: call_01_ohjzghyr32xf067akueg0k8w (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #258 · Main agent: Tool result: call_02_l6ogw3lhz4tmiona5x11m2qh (is_error=False)</summary>
+<summary>Source event 258 · Main agent: Tool result: call_02_l6ogw3lhz4tmiona5x11m2qh (is_error=False)</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #259 · Main agent: Model message
+## Source event 259 · Main agent: Model message
 
 ```text
 Everything verified:
@@ -101,7 +101,7 @@ I'll finalize with send_message_to_user.
 
 
 
-## Source event #260 · Main agent: Model message
+## Source event 260 · Main agent: Model message
 
 ```text
 All changes are verified. Let me send the completion summary to the user.
@@ -109,7 +109,7 @@ All changes are verified. Let me send the completion summary to the user.
 
 
 
-## Source event #261 · Main agent: Model tool call: ToolSearch (call_00_7llcg0glhcwr7vcbw7wf1t18)
+## Source event 261 · Main agent: Model tool call: ToolSearch (call_00_7llcg0glhcwr7vcbw7wf1t18)
 
 ```text
 {
@@ -121,7 +121,7 @@ All changes are verified. Let me send the completion summary to the user.
 
 
 <details>
-<summary>Source event #262 · Main agent: Tool result: call_00_7llcg0glhcwr7vcbw7wf1t18 (is_error=False)</summary>
+<summary>Source event 262 · Main agent: Tool result: call_00_7llcg0glhcwr7vcbw7wf1t18 (is_error=False)</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ All changes are verified. Let me send the completion summary to the user.
 </details>
 
 
-## Source event #263 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_ssyg0xt6d3q03cg12kn0o8vh)
+## Source event 263 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_ssyg0xt6d3q03cg12kn0o8vh)
 
 ```text
 {
@@ -148,7 +148,7 @@ All changes are verified. Let me send the completion summary to the user.
 
 
 <details>
-<summary>Source event #264 · Main agent: Tool result: call_00_ssyg0xt6d3q03cg12kn0o8vh (is_error=False)</summary>
+<summary>Source event 264 · Main agent: Tool result: call_00_ssyg0xt6d3q03cg12kn0o8vh (is_error=False)</summary>
 
 
 ```text
@@ -164,7 +164,7 @@ All changes are verified. Let me send the completion summary to the user.
 </details>
 
 
-## Source event #265 · Main agent: Model message
+## Source event 265 · Main agent: Model message
 
 ```text
 The message was sent. Task complete. Provide final summary text as well? The turn has ended presumably. I'll output a brief summary.
@@ -172,7 +172,7 @@ The message was sent. Task complete. Provide final summary text as well? The tur
 
 
 
-## Source event #266 · Main agent: Model message
+## Source event 266 · Main agent: Model message
 
 ```text
 Task complete. Summary of what was done:
@@ -202,7 +202,7 @@ Note: Rohini Iyer, Rohini Nambiar, Kaito Rao, and Kavita Rao are not on Messages
 
 
 <details>
-<summary>Source event #267 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 267 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -235,7 +235,7 @@ Note: Rohini Iyer, Rohini Nambiar, Kaito Rao, and Kavita Rao are not on Messages
 
 
 <details>
-<summary>Source event #268 · Judge: Judge rationale</summary>
+<summary>Source event 268 · Judge: Judge rationale</summary>
 
 
 ```text

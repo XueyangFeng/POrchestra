@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #40 · Sub-agent 2: tool result (continued, part 5)</summary>
+<summary>Source event 40 · Sub-agent 2: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ c03430ab55c15351e34021d', parent_id=None, cc=[], attachments={}, timestamp=17268
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: tool result (continued, part 6)</summary>
+<summary>Source event 40 · Sub-agent 2: tool result (continued, part 6)</summary>
 
 
 ```text
@@ -29,7 +29,7 @@ c03430ab55c15351e34021d', parent_id=None, cc=[], attachments={}, timestamp=17268
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: tool result (continued, part 7)</summary>
+<summary>Source event 40 · Sub-agent 2: tool result (continued, part 7)</summary>
 
 
 ```text
@@ -42,7 +42,7 @@ n.kjaer@gaia2mail.com', recipients=['kaatje.desmet@student.u gent.be'], subject=
 
 
 <details>
-<summary>Source event #41 · Sub-agent 2: model output</summary>
+<summary>Source event 41 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -64,7 +64,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 2: tool result</summary>
+<summary>Source event 42 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ ReturnedEmails(emails=[Email(sender='soren.kjaer@gaia2mail.com', recipients=['au
 
 
 <details>
-<summary>Source event #43 · Sub-agent 2: model output</summary>
+<summary>Source event 43 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -100,7 +100,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: tool result</summary>
+<summary>Source event 44 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -128,7 +128,7 @@ Aurélien Vandenberghe
 
 
 <details>
-<summary>Source event #45 · Sub-agent 2: model output</summary>
+<summary>Source event 45 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -150,7 +150,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: tool result</summary>
+<summary>Source event 46 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -165,7 +165,7 @@ a7a6559237dfccab98f2b1970584c7a3
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: model output</summary>
+<summary>Source event 47 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -186,7 +186,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: tool result</summary>
+<summary>Source event 48 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -214,7 +214,7 @@ Nongnuch
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: model output</summary>
+<summary>Source event 49 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -236,7 +236,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: tool result</summary>
+<summary>Source event 50 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -251,7 +251,7 @@ ce025aebc06aec5cea39dd7fb817bee5
 
 
 <details>
-<summary>Source event #51 · Sub-agent 2: model output</summary>
+<summary>Source event 51 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -272,7 +272,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: tool result</summary>
+<summary>Source event 52 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -298,7 +298,7 @@ Aoife
 
 
 <details>
-<summary>Source event #53 · Sub-agent 2: model output</summary>
+<summary>Source event 53 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -320,7 +320,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 2: tool result</summary>
+<summary>Source event 54 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -335,7 +335,7 @@ d5c10c7486bda98ac6f9fb05dd3707df
 
 
 <details>
-<summary>Source event #55 · Sub-agent 2: model output</summary>
+<summary>Source event 55 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -356,7 +356,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 2: tool result</summary>
+<summary>Source event 56 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -382,7 +382,7 @@ Nalinee
 
 
 <details>
-<summary>Source event #57 · Sub-agent 2: model output</summary>
+<summary>Source event 57 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -404,7 +404,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 2: tool result</summary>
+<summary>Source event 58 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -419,7 +419,7 @@ Action:
 
 
 <details>
-<summary>Source event #59 · Sub-agent 2: model output</summary>
+<summary>Source event 59 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -440,7 +440,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 2: tool result</summary>
+<summary>Source event 60 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -468,7 +468,7 @@ Narong Wongsombat
 
 
 <details>
-<summary>Source event #61 · Sub-agent 2: model output</summary>
+<summary>Source event 61 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -491,7 +491,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 2: tool result</summary>
+<summary>Source event 62 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -506,7 +506,7 @@ da9454bfdd5ccd0849ec96fe31091323
 
 
 <details>
-<summary>Source event #63 · Sub-agent 2: model output</summary>
+<summary>Source event 63 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -527,7 +527,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 2: tool result</summary>
+<summary>Source event 64 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -557,7 +557,7 @@ Søren Rasmussen
 
 
 <details>
-<summary>Source event #65 · Sub-agent 2: model output</summary>
+<summary>Source event 65 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -580,7 +580,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 2: tool result</summary>
+<summary>Source event 66 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -595,7 +595,7 @@ fef58307f8c6b94383aca9136e16b74d
 
 
 <details>
-<summary>Source event #67 · Sub-agent 2: model output</summary>
+<summary>Source event 67 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -617,7 +617,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 2: tool result</summary>
+<summary>Source event 68 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -642,7 +642,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #69 · Sub-agent 2: model output</summary>
+<summary>Source event 69 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -664,7 +664,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 2: tool result</summary>
+<summary>Source event 70 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -692,7 +692,7 @@ Astrid
 
 
 <details>
-<summary>Source event #71 · Sub-agent 2: model output</summary>
+<summary>Source event 71 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -715,7 +715,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 2: tool result</summary>
+<summary>Source event 72 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -730,7 +730,7 @@ c0a72cb754f1754b40dc8d27b542016d
 
 
 <details>
-<summary>Source event #73 · Sub-agent 2: model output</summary>
+<summary>Source event 73 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -752,7 +752,7 @@ Action:
 
 
 <details>
-<summary>Source event #74 · Sub-agent 2: tool result</summary>
+<summary>Source event 74 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -780,7 +780,7 @@ Emilie Møller
 
 
 <details>
-<summary>Source event #75 · Sub-agent 2: model output</summary>
+<summary>Source event 75 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -803,7 +803,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 2: tool result</summary>
+<summary>Source event 76 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -818,7 +818,7 @@ Action:
 
 
 <details>
-<summary>Source event #77 · Sub-agent 2: model output</summary>
+<summary>Source event 77 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -840,7 +840,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 2: tool result</summary>
+<summary>Source event 78 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -868,7 +868,7 @@ Rohan Deshpande
 
 
 <details>
-<summary>Source event #79 · Sub-agent 2: model output</summary>
+<summary>Source event 79 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -891,7 +891,7 @@ Action:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 2: tool result</summary>
+<summary>Source event 80 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -906,7 +906,7 @@ e3d904acf7ae01db77f9ece59f415993
 
 
 <details>
-<summary>Source event #81 · Sub-agent 2: model output</summary>
+<summary>Source event 81 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -928,7 +928,7 @@ Action:
 
 
 <details>
-<summary>Source event #82 · Sub-agent 2: tool result</summary>
+<summary>Source event 82 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -947,7 +947,7 @@ Content: Sure!
 
 
 <details>
-<summary>Source event #83 · Sub-agent 2: model output</summary>
+<summary>Source event 83 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -970,7 +970,7 @@ Action:
 
 
 <details>
-<summary>Source event #84 · Sub-agent 2: tool result</summary>
+<summary>Source event 84 · Sub-agent 2: tool result</summary>
 
 
 ```text

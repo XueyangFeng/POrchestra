@@ -1,6 +1,8 @@
 # scenario_universe_23_mt9sh6
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_23_mt9sh6/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_23_mt9sh6/README.md) · [Codex](../../codex/round2/scenario_universe_23_mt9sh6/README.md) · [OpenCode](../../opencode/round2/scenario_universe_23_mt9sh6/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify and email the relevant contacts. This requires searching through the contacts for &#x27;former music teachers&#x27; and then sending them emails individually as specified.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #46
+**Initial harness configuration** · Source event 46
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The email portion of the task has been completed by the previous SubAgent. Now I need to handle the calendar scheduling: two 2-hour &#x27;Band Practice&#x27; events on the 1st of the next two months starting from 9 AM.
 
@@ -149,7 +151,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

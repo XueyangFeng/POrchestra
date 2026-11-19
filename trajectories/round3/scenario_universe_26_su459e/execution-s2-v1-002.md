@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #89 · Sub-agent 2: tool result</summary>
+<summary>Source event 89 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #90 · Sub-agent 2: model output
+## Source event 90 · Sub-agent 2: model output
 
 ```text
 All work is confirmed complete. Final verification: calendar total is back to 130 events (the baseline count), meaning the single new event was deleted and Film Critic remains untouched.
@@ -89,7 +89,7 @@ Action:
 
 
 <details>
-<summary>Source event #91 · Sub-agent 2: tool result</summary>
+<summary>Source event 91 · Sub-agent 2: tool result</summary>
 
 
 ```text

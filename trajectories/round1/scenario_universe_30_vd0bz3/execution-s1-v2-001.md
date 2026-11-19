@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 28 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Wait until exactly 4 minutes have passed since you notified the user. Then, chec
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 29 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -32,7 +32,7 @@ Environment notifications updates:
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Thought: A new environment notification arrived (email from kaiden.mctavish@3AW.com.au). I must report it to MainAgent before side effects. First, I'll check current time to include accurate waiting context in the report.
@@ -47,7 +47,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -61,7 +61,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 Thought: A new environment notification arrived. Per instructions, I must report it to MainAgent before taking further side effects.
@@ -104,7 +104,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text

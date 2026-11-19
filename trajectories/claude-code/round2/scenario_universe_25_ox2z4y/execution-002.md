@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #48 · Main agent: Tool result: call_04_nrjx0utmio2g0ljq7wrvr852 (is_error=False)</summary>
+<summary>Source event 48 · Main agent: Tool result: call_04_nrjx0utmio2g0ljq7wrvr852 (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #49 · Main agent: Model message
+## Source event 49 · Main agent: Model message
 
 ```text
 Now I have all 108 contacts. But wait — the participants might not all be contacts. Some phone numbers in conversations may not correspond to contacts (e.g., +44...?). Let's map.
@@ -384,7 +384,7 @@ Let me quickly confirm Kritsana Suthiwong's contact data via search_contacts to 
 
 
 
-## Source event #50 · Main agent: Model tool call: ToolSearch (call_00_gduv61dqvt7d24bhm2u5p8gd)
+## Source event 50 · Main agent: Model tool call: ToolSearch (call_00_gduv61dqvt7d24bhm2u5p8gd)
 
 ```text
 {
@@ -396,7 +396,7 @@ Let me quickly confirm Kritsana Suthiwong's contact data via search_contacts to 
 
 
 <details>
-<summary>Source event #51 · Main agent: Tool result: call_00_gduv61dqvt7d24bhm2u5p8gd (is_error=False)</summary>
+<summary>Source event 51 · Main agent: Tool result: call_00_gduv61dqvt7d24bhm2u5p8gd (is_error=False)</summary>
 
 
 ```text
@@ -420,7 +420,7 @@ Let me quickly confirm Kritsana Suthiwong's contact data via search_contacts to 
 </details>
 
 
-## Source event #52 · Main agent: Model message
+## Source event 52 · Main agent: Model message
 
 ```text
 Let me search "Kritsana" and maybe verify oldest. Also maybe search "79"? search is by name/phone/email only. Let me just confirm contact.
@@ -428,7 +428,7 @@ Let me search "Kritsana" and maybe verify oldest. Also maybe search "79"? search
 
 
 
-## Source event #53 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_00_fhtds6m6t83mqudp8n52h8qu)
+## Source event 53 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_00_fhtds6m6t83mqudp8n52h8qu)
 
 ```text
 {
@@ -438,7 +438,7 @@ Let me search "Kritsana" and maybe verify oldest. Also maybe search "79"? search
 
 
 
-## Source event #54 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contact (call_01_j16zizxyqqgv0bib9aanngl6)
+## Source event 54 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contact (call_01_j16zizxyqqgv0bib9aanngl6)
 
 ```text
 {
@@ -449,7 +449,7 @@ Let me search "Kritsana" and maybe verify oldest. Also maybe search "79"? search
 
 
 <details>
-<summary>Source event #55 · Main agent: Tool result: call_00_fhtds6m6t83mqudp8n52h8qu (is_error=False)</summary>
+<summary>Source event 55 · Main agent: Tool result: call_00_fhtds6m6t83mqudp8n52h8qu (is_error=False)</summary>
 
 
 ```text
@@ -466,7 +466,7 @@ Let me search "Kritsana" and maybe verify oldest. Also maybe search "79"? search
 
 
 <details>
-<summary>Source event #56 · Main agent: Tool result: call_01_j16zizxyqqgv0bib9aanngl6 (is_error=False)</summary>
+<summary>Source event 56 · Main agent: Tool result: call_01_j16zizxyqqgv0bib9aanngl6 (is_error=False)</summary>
 
 
 ```text
@@ -482,7 +482,7 @@ Let me search "Kritsana" and maybe verify oldest. Also maybe search "79"? search
 </details>
 
 
-## Source event #57 · Main agent: Model message
+## Source event 57 · Main agent: Model message
 
 ```text
 Now, let me be thorough about "oldest contact in Thailand". Let me programmatically extract all contacts. I can't easily get raw data via Python (MCP tools only), but maybe the app data is accessible in workspace? No. I'll rely on my compilation.
@@ -692,7 +692,7 @@ Let me query SystemApp current time.
 
 
 
-## Source event #58 · Main agent: Model tool call: ToolSearch (call_00_q04m835w8amfpi9vcf5nsg13)
+## Source event 58 · Main agent: Model tool call: ToolSearch (call_00_q04m835w8amfpi9vcf5nsg13)
 
 ```text
 {
@@ -704,7 +704,7 @@ Let me query SystemApp current time.
 
 
 <details>
-<summary>Source event #59 · Main agent: Tool result: call_00_q04m835w8amfpi9vcf5nsg13 (is_error=False)</summary>
+<summary>Source event 59 · Main agent: Tool result: call_00_q04m835w8amfpi9vcf5nsg13 (is_error=False)</summary>
 
 
 ```text
@@ -720,7 +720,7 @@ Let me query SystemApp current time.
 </details>
 
 
-## Source event #60 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_k0grztu9rt3p7wc1kohi2943)
+## Source event 60 · Main agent: Model tool call: mcp__gaia2__SystemApp__get_current_time (call_00_k0grztu9rt3p7wc1kohi2943)
 
 ```text
 {}
@@ -729,7 +729,7 @@ Let me query SystemApp current time.
 
 
 <details>
-<summary>Source event #61 · Main agent: Tool result: call_00_k0grztu9rt3p7wc1kohi2943 (is_error=False)</summary>
+<summary>Source event 61 · Main agent: Tool result: call_00_k0grztu9rt3p7wc1kohi2943 (is_error=False)</summary>
 
 
 ```text
@@ -745,7 +745,7 @@ Let me query SystemApp current time.
 </details>
 
 
-## Source event #62 · Main agent: Model message
+## Source event 62 · Main agent: Model message
 
 ```text
 Confirmed Oct 15 07:00. Hmm.
@@ -928,7 +928,7 @@ Let me send the message.
 
 
 
-## Source event #63 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_hrawntw5cf1yhhtqm4hpdlkg)
+## Source event 63 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_hrawntw5cf1yhhtqm4hpdlkg)
 
 ```text
 {
@@ -939,7 +939,7 @@ Let me send the message.
 
 
 <details>
-<summary>Source event #64 · Main agent: Tool result: call_00_hrawntw5cf1yhhtqm4hpdlkg (is_error=False)</summary>
+<summary>Source event 64 · Main agent: Tool result: call_00_hrawntw5cf1yhhtqm4hpdlkg (is_error=False)</summary>
 
 
 ```text
@@ -955,7 +955,7 @@ Let me send the message.
 </details>
 
 
-## Source event #65 · Main agent: Model message
+## Source event 65 · Main agent: Model message
 
 ```text
 Kritsana Suthiwong
@@ -964,7 +964,7 @@ Kritsana Suthiwong
 
 
 <details>
-<summary>Source event #66 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 66 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -976,7 +976,7 @@ Kritsana Suthiwong
 
 
 <details>
-<summary>Source event #67 · Judge: Judge rationale</summary>
+<summary>Source event 67 · Judge: Judge rationale</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_29_bv0gwh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_29_bv0gwh/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_29_bv0gwh/README.md) · [Codex](../../codex/round1/scenario_universe_29_bv0gwh/README.md) · [OpenCode](../../opencode/round1/scenario_universe_29_bv0gwh/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 To identify the target person, I first need to gather the list of people the user interacted with in Chats since October 10 and the list of people the user interacted with in Messages since October 1. This will allow me to cross-reference their last names.
 
@@ -91,11 +93,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #69
+**Initial harness configuration** · Source event 69
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent identified potential candidates from Chats and a list of phone numbers from Messages conversations this month. I need to resolve the remaining names in Messages to complete the last name matching, then determine the city of residence for the matching candidates and check the cab ride history for each to find the target person.
 
@@ -166,11 +168,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #132
+**Initial harness configuration** · Source event 132
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The previous SubAgent identified four candidates from Chats (Rémi LaFleur, Kaida Kaur, Archibald McTavish, Kalyan Rao) whose last names match people the user interacted with in Messages this month. We already know Rémi LaFleur lives in Montreal. I need to find the cities for the remaining three candidates and then check the Cabs ride history to see which of these four people have had a ride booked to their city of residence at any time.
 
@@ -240,7 +242,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ````text

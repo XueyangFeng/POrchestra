@@ -1,6 +1,8 @@
 # scenario_universe_27_ikcimu
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_27_ikcimu/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_27_ikcimu/README.md) · [Codex](../../codex/round2/scenario_universe_27_ikcimu/README.md) · [OpenCode](../../opencode/round2/scenario_universe_27_ikcimu/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires immediate action (deletion and monitoring for 3 minutes) followed by a delayed action (waiting 1 minute after the last save to report). I am delegating the entire workflow to a SubAgent who can manage the state (baseline listings, newly saved items, and timestamps) and perform the necessary environment interactions.
 

@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: model output</summary>
+<summary>Source event 43 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: model output</summary>
+<summary>Source event 45 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -77,7 +77,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -92,7 +92,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: model output</summary>
+<summary>Source event 47 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -112,7 +112,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -141,7 +141,7 @@ Address: 145/67 Soi Sukhumvit 31, Khlong Tan Nuea, Watthana, Bangkok 10110
 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: model output</summary>
+<summary>Source event 49 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -173,7 +173,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 1: tool result</summary>
+<summary>Source event 50 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ None
 
 
 <details>
-<summary>Source event #51 · Judge rationale</summary>
+<summary>Source event 51 · Judge rationale</summary>
 
 
 ```text

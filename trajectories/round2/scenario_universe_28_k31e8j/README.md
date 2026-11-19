@@ -1,6 +1,8 @@
 # scenario_universe_28_k31e8j
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_28_k31e8j/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_28_k31e8j/README.md) · [Codex](../../codex/round2/scenario_universe_28_k31e8j/README.md) · [OpenCode](../../opencode/round2/scenario_universe_28_k31e8j/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to establish a baseline of the weekend events and then monitor for cancellations over the next 4 minutes. The SubAgent will check for event removals, identify the person responsible, send the required messages via Messages or Chats, and finally notify the user if at least 4 events were removed.
 

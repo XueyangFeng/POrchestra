@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 19 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #20 · Sub-agent 1: model output
+## Source event 20 · Sub-agent 1: model output
 
 ```text
 I'll start by reading the new email from Nalinee to confirm her intent.
@@ -42,7 +42,7 @@ Action:
 
 
 <details>
-<summary>Source event #21 · Sub-agent 1: tool result</summary>
+<summary>Source event 21 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ ReturnedEmails(emails=[Email(sender='seamus.vandenberghe@gaia2mail.com', recipie
 </details>
 
 
-## Source event #22 · Sub-agent 1: model output
+## Source event 22 · Sub-agent 1: model output
 
 ```text
 The newest email is from Séamus, not Nalinee. Let me check more emails to find the new one from Nalinee.
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result</summary>
+<summary>Source event 23 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ ReturnedEmails(emails=[Email(sender='seamus.vandenberghe@gaia2mail.com', recipie
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 The newest inbox emails don't show a new one from Nalinee yet. Let me scan further and check other folders.
@@ -108,7 +108,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -122,7 +122,7 @@ ReturnedEmails(emails=[Email(sender='nalinee.suthiphong@cmu.ac.th', recipients=[
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 No new Nalinee email visible at the top of INBOX. Let me check the SENT folder to see the thread and look for her response.
@@ -141,7 +141,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -155,7 +155,7 @@ ReturnedEmails(emails=[Email(sender='liesbeth.vandenberghe@gaia2mail.com', recip
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Let me re-check the top of the INBOX in case a new email just arrived.
@@ -174,7 +174,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ ReturnedEmails(emails=[Email(sender='seamus.vandenberghe@gaia2mail.com', recipie
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 The "new email" notification corresponds to Séamus's reply (newest, timestamp 1728975613), not a Nalinee email — she chose the deletion path instead. No contradiction with the 10/20 reschedule. Proceeding: creating the 10/20 lunch event.
@@ -208,7 +208,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -222,7 +222,7 @@ Action:
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 Event created (ID: 8fce113de00ea4a218ab94f8a582ba16). Now retrieving the user's home address.
@@ -237,7 +237,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -265,7 +265,7 @@ Address: Sint-Michielsstraat 23, 3000 Leuven, Belgium
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Home address: Sint-Michielsstraat 23, 3000 Leuven, Belgium. Now booking the premium cab for 2024-10-20 at 12:00.
@@ -285,7 +285,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -308,7 +308,7 @@ Ride ID: c3de44121c4644ae524e7f6470b6f5f7
 </details>
 
 
-## Source event #36 · Sub-agent 1: model output
+## Source event 36 · Sub-agent 1: model output
 
 ```text
 Premium cab booked (Ride ID: c3de44121c4644ae524e7f6470b6f5f7). Now searching for the backpack.
@@ -327,7 +327,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result</summary>
+<summary>Source event 37 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -341,7 +341,7 @@ Action:
 </details>
 
 
-## Source event #38 · Sub-agent 1: model output
+## Source event 38 · Sub-agent 1: model output
 
 ```text
 Green variant found (item_id: 17dc3efa36244db1804dec060bf7ce53, $23.99). Adding 1 to cart.
@@ -359,7 +359,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: tool result</summary>
+<summary>Source event 39 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -373,7 +373,7 @@ Action:
 </details>
 
 
-## Source event #40 · Sub-agent 1: model output
+## Source event 40 · Sub-agent 1: model output
 
 ```text
 Item added to cart. Proceeding to checkout.
@@ -388,7 +388,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: tool result</summary>
+<summary>Source event 41 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -402,7 +402,7 @@ Action:
 </details>
 
 
-## Source event #42 · Sub-agent 1: model output
+## Source event 42 · Sub-agent 1: model output
 
 ```text
 Order placed (ID: 316b2d4c72154d1189a4e02ade67de80). Now searching for the property 'Brussels Bliss'.
@@ -419,7 +419,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: tool result</summary>
+<summary>Source event 43 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -433,7 +433,7 @@ Action:
 </details>
 
 
-## Source event #44 · Sub-agent 1: model output
+## Source event 44 · Sub-agent 1: model output
 
 ```text
 Found 'Brussels Bliss' (ID: 75399f53f3e34a4da86b8636065f26e3). Saving it to favorites.
@@ -450,7 +450,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -464,7 +464,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #46 · Sub-agent 1: model output
+## Source event 46 · Sub-agent 1: model output
 
 ```text
 All actions completed. Sending the final confirmation to the user.
@@ -481,7 +481,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result</summary>
+<summary>Source event 47 · Sub-agent 1: tool result</summary>
 
 
 ```text

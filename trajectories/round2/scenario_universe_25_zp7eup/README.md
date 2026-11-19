@@ -1,6 +1,8 @@
 # scenario_universe_25_zp7eup
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_25_zp7eup/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_25_zp7eup/README.md) · [Codex](../../codex/round2/scenario_universe_25_zp7eup/README.md) · [OpenCode](../../opencode/round2/scenario_universe_25_zp7eup/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to gather all the necessary information before performing deletions and sending emails. This includes identifying the target person from tomorrow&#x27;s personal phone call, their city, the retired lawyer&#x27;s contact info, and the attendees of the next project update meeting.
 
@@ -91,11 +93,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #45
+**Initial harness configuration** · Source event 45
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 With the discovery phase complete, I have all the necessary identifiers (Dubai as the city, Khalifa Al-Mansoori as the contact to keep, the project meeting attendees&#x27; emails, the retired lawyer&#x27;s email, and the phone call attendee&#x27;s email). Now I need to perform the deletions, send the notification emails to the meeting attendees, forward the relevant emails to the lawyer, and report the count to the user.
 

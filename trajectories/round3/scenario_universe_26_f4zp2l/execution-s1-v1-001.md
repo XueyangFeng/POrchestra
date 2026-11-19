@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Identify the location where the user spent the most time for 'lunch' in 2024 (up
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 I'll start by retrieving all calendar events in the specified range.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 6 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -63,7 +63,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 6 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -75,7 +75,7 @@ ay, 2024-08-19 13:00:00'), CalendarEvent(event_id='465c5e8ad85c4e449daaeea5dfc01
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 6 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -87,7 +87,7 @@ lassic film screening at the Oslo Cinema', location='Oslo Cinema', attendees=['�
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 Now let me cross-check with a search for 'lunch' to ensure no events are missed.
@@ -104,7 +104,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -118,7 +118,7 @@ Action:
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Action:

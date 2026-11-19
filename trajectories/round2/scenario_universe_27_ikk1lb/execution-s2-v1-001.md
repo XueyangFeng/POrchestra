@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #12 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 12 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #13 · Sub-agent 2: tool result</summary>
+<summary>Source event 13 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -44,7 +44,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #14 · Sub-agent 2: tool result</summary>
+<summary>Source event 14 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -64,7 +64,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #15 · Sub-agent 2: model output
+## Source event 15 · Sub-agent 2: model output
 
 ```text
 I'll start by retrieving all apartments and saved apartments.
@@ -79,7 +79,7 @@ Action:
 
 
 <details>
-<summary>Source event #16 · Sub-agent 2: tool result</summary>
+<summary>Source event 16 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -93,7 +93,7 @@ Action:
 </details>
 
 
-## Source event #17 · Sub-agent 2: model output
+## Source event 17 · Sub-agent 2: model output
 
 ```text
 I have the full list with saved flags. Let me confirm the saved list and check apartment details to verify the cost field.
@@ -108,7 +108,7 @@ Action:
 
 
 <details>
-<summary>Source event #18 · Sub-agent 2: tool result</summary>
+<summary>Source event 18 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -122,7 +122,7 @@ Action:
 </details>
 
 
-## Source event #19 · Sub-agent 2: model output
+## Source event 19 · Sub-agent 2: model output
 
 ```text
 I have both lists. Let me verify the cost field in apartment details for a sample apartment to confirm the price is the "cost".
@@ -139,7 +139,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: tool result</summary>
+<summary>Source event 20 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -153,7 +153,7 @@ Apartment(name='Samara Suites', location='Kuybyshev Street, Samara', zip_code='4
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 I have both lists and confirmed price is the cost field. Let me verify the details of the candidate unsaved apartments whose listed price is a multiple of 7.
@@ -170,7 +170,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -184,7 +184,7 @@ Apartment(name='Irtysch River Apartments', location='Lenina Street 123, Omsk', z
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 Candidates with price divisible by 7 (unsaved): 2800 (×400), 3500 (×500), 1400 (×200). Let me verify the remaining candidate details.
@@ -201,7 +201,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -215,7 +215,7 @@ Apartment(name='St. Petersburg Suites', location='Nevsky Prospekt, St. Petersbur
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 Confirmed. Now let me verify the remaining candidate unsaved apartments with prices divisible by 7.
@@ -232,7 +232,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -246,7 +246,7 @@ Apartment(name='Moscow Metro Apartments', location='10 Tverskaya St, Moscow', zi
 </details>
 
 
-## Source event #27 · Sub-agent 2: model output
+## Source event 27 · Sub-agent 2: model output
 
 ```text
 Let me verify the remaining candidate apartments whose listed price is a multiple of 7.
@@ -263,7 +263,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 2: tool result</summary>
+<summary>Source event 28 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -277,7 +277,7 @@ Apartment(name='Saint Petersburg Luxury', location='Nevsky Prospekt, 100, Saint 
 </details>
 
 
-## Source event #29 · Sub-agent 2: model output
+## Source event 29 · Sub-agent 2: model output
 
 ```text
 Let me verify the remaining two candidate unsaved apartments with prices divisible by 7.
@@ -294,7 +294,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 2: tool result</summary>
+<summary>Source event 30 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -308,7 +308,7 @@ Apartment(name='Samara River View', location='Lenin Avenue, Samara', zip_code='4
 </details>
 
 
-## Source event #31 · Sub-agent 2: model output
+## Source event 31 · Sub-agent 2: model output
 
 ```text
 All 6 candidate details verified. Let me now report to the user.
@@ -325,7 +325,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: tool result</summary>
+<summary>Source event 32 · Sub-agent 2: tool result</summary>
 
 
 ```text

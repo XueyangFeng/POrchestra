@@ -7,7 +7,7 @@
 | S1 | `call_00_80r089xtote4t91v12nv1uon` | 375 | [Part 1](subagent-1-001.md) · [Part 2](subagent-1-002.md) · [Part 3](subagent-1-003.md) |
 
 <details>
-<summary>Delegation · source event #56</summary>
+<summary>Delegation · source event 56</summary>
 
 
 ```text

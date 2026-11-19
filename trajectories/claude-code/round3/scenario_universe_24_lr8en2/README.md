@@ -1,6 +1,8 @@
 # Claude Code · scenario_universe_24_lr8en2
 
-[Round index](../README.md) · [Claude Code rounds](../../README.md) · [PORCHESTRA task](../../../round3/scenario_universe_24_lr8en2/README.md)
+[Round index](../README.md) · [Claude Code rounds](../../README.md)
+
+**Compare systems:** [PORCHESTRA](../../../round3/scenario_universe_24_lr8en2/README.md) · Claude Code · [Codex](../../../codex/round3/scenario_universe_24_lr8en2/README.md) · [OpenCode](../../../opencode/round3/scenario_universe_24_lr8en2/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Duration:** 24.2 seconds
 

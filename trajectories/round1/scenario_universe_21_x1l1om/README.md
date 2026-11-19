@@ -1,6 +1,8 @@
 # scenario_universe_21_x1l1om
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_21_x1l1om/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_21_x1l1om/README.md) · [Codex](../../codex/round1/scenario_universe_21_x1l1om/README.md) · [OpenCode](../../opencode/round1/scenario_universe_21_x1l1om/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to create the requested event and cancel all other events on the same day. I need to capture the details of the cancelled events in case they need to be restored later.
 
@@ -86,7 +88,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #21
+**Harness configuration updated** · Source event 21
 
 **1. Sub-agent revision request**
 
@@ -95,7 +97,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Subtasks 1-4 completed: created Brand Partnership Meeting (e4657cd1b75ef061b9fbfd037e80abd6) on 2024-10-21 09:00-14:00 at Zoom Meeting with attendee Luís Pimentel; deleted Content Creation Session (8822dd753a8e4728abe46cbd63977d20) and Yoga Class (23ff2e41249940288e488a0fb8f5a756); sent user message 'I have created the Brand Partnership Meeting event.'. A new environment notification block arrived reporting two calendar event deletions (by Linnea Åström and by Luís Pimentel). Reporting to MainAgent before any further side effects.
 ```
 <details>
-<summary>Request and evidence · source event #19</summary>
+<summary>Request and evidence · source event 19</summary>
 
 
 ```text
@@ -170,7 +172,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The &#x27;Brand Partnership Meeting&#x27; was created and other events were cancelled, but environment notifications indicate Luís Pimentel deleted an event, triggering the conditional logic in the original task. I need to grant the SubAgent access to Messages, Emails, and Contacts to message Luís, restore the cancelled events, and email attendees of the restored events.
 
@@ -297,7 +299,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

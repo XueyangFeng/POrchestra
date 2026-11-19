@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #18 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 18 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -24,7 +24,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #19 · Sub-agent 1: model output
+## Source event 19 · Sub-agent 1: model output
 
 ```text
 I'll check the current time and list recent emails to find the new email from nalani.jensen@lawfirm.com.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #20 · Sub-agent 1: tool result</summary>
+<summary>Source event 20 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 </details>
 
 
-## Source event #21 · Sub-agent 1: model output
+## Source event 21 · Sub-agent 1: model output
 
 ```text
 Current time is 07:01:26. I need to find the new email from nalani.jensen@lawfirm.com in the inbox.
@@ -72,7 +72,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 1: tool result</summary>
+<summary>Source event 22 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ ReturnedEmails(emails=[Email(sender='nalani.jensen@lawfirm.com', recipients=['au
 </details>
 
 
-## Source event #23 · Sub-agent 1: model output
+## Source event 23 · Sub-agent 1: model output
 
 ```text
 The new email from nalani.jensen@lawfirm.com is a confirmation ("I'll be there on Sunday. Nalani") — but it's from Nalani Jensen, NOT Deniz Öztürk. It's unrelated to our Deniz confirmation requirement. Now I'll monitor for a confirmation from deniz.ozturk@gaia2mail.com until ~07:04:10. Current time is 07:01:26, so I'll wait for notifications.
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 1: tool result</summary>
+<summary>Source event 24 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -118,7 +118,7 @@ None
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 25 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -131,7 +131,7 @@ Environment notifications:
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 A new email notification arrived from aurelia.silvacastro@gaia2mail.com — not from Deniz Öztürk. Let me check the inbox to confirm whether any email from Deniz has arrived.
@@ -150,7 +150,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -164,7 +164,7 @@ ReturnedEmails(emails=[Email(sender='aurelia.silvacastro@gaia2mail.com', recipie
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Still no email from Deniz Öztürk — the new email is from aurelia.silvacastro@gaia2mail.com, unrelated. I'll continue waiting for a notification until the 3-minute window closes at ~07:04:10.
@@ -181,7 +181,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -196,7 +196,7 @@ None
 
 
 <details>
-<summary>Source event #30 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 30 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -209,7 +209,7 @@ Environment notifications:
 </details>
 
 
-## Source event #31 · Sub-agent 1: model output
+## Source event 31 · Sub-agent 1: model output
 
 ```text
 A new email has arrived from deniz.ozturk@gaia2mail.com. Let me check the current time and read it.
@@ -224,7 +224,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: tool result</summary>
+<summary>Source event 32 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -238,7 +238,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 1: model output
+## Source event 33 · Sub-agent 1: model output
 
 ```text
 Current time is 07:02:27 — within the 3-minute window. Let me read Deniz's email.
@@ -257,7 +257,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: tool result</summary>
+<summary>Source event 34 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -271,7 +271,7 @@ ReturnedEmails(emails=[Email(sender='deniz.ozturk@gaia2mail.com', recipients=['a
 </details>
 
 
-## Source event #35 · Sub-agent 1: model output
+## Source event 35 · Sub-agent 1: model output
 
 ```text
 Deniz Öztürk has CONFIRMED her attendance within the 3-minute window! Her email (received 07:02:27): "Thanks Aurélien, I'll be there on Sunday at 5 PM. Looking forward to it!" Now I'll immediately execute the follow-up actions. First, booking the premium cab.
@@ -291,7 +291,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -314,7 +314,7 @@ Ride ID: c3de44121c4644ae524e7f6470b6f5f7
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 Premium cab booked successfully (Ride ID: c3de44121c4644ae524e7f6470b6f5f7, timestamp 1729441800.0 = 2024-10-20 16:30). Now finding yesterday's 'Staff Training: Wine and Food Pairing' event.
@@ -331,7 +331,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -345,7 +345,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 Found the event with attendees: Aurélien LaFleur (the user), Nalani Jensen, and Kaia Nakamura. I need user IDs for Nalani and Kaia to create the group conversation.
@@ -362,7 +362,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -376,7 +376,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 Got Nalani Jensen's ID. Now looking up Kaia Nakamura.
@@ -393,7 +393,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -407,7 +407,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 1: model output
+## Source event 43 · Sub-agent 1: model output
 
 ```text
 Both attendee IDs found. Now creating the group conversation titled 'Client Confirmation'.
@@ -425,7 +425,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -439,7 +439,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 1: model output
+## Source event 45 · Sub-agent 1: model output
 
 ```text
 Group conversation created (ID: 56e20023bb96e3c889a232bb7f19645a). Now sending the message.
@@ -459,7 +459,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -473,7 +473,7 @@ Action:
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 All follow-up actions completed successfully. The message was sent to the group conversation. Since the allowed user-message side effect was already used in the prior step, I'll hand control back to MainAgent.
@@ -551,7 +551,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -722,7 +722,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #49 · Sub-agent 1: model output
+## Source event 49 · Sub-agent 1: model output
 
 ```text
 There was a typo in my JSON. Let me retry the finish action correctly.
@@ -800,7 +800,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 1: tool result</summary>
+<summary>Source event 50 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #115 · Main agent: Tool result: call_01_wx2w2pwjr6yo1zz6bww14m2h (is_error=False)</summary>
+<summary>Source event 115 · Main agent: Tool result: call_01_wx2w2pwjr6yo1zz6bww14m2h (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #116 · Main agent: Model message
+## Source event 116 · Main agent: Model message
 
 ```text
 All 4 events deleted (57 → 53). All remaining Social events are 12:00+ or evening.
@@ -58,7 +58,7 @@ I'll finalize.
 
 
 
-## Source event #117 · Main agent: Model message
+## Source event 117 · Main agent: Model message
 
 ```text
 Done. Here's what I did:
@@ -85,7 +85,7 @@ One caveat worth flagging: your calendar also has other Social events in this wi
 
 
 <details>
-<summary>Source event #118 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 118 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -115,7 +115,7 @@ One caveat worth flagging: your calendar also has other Social events in this wi
 
 
 <details>
-<summary>Source event #119 · Judge: Judge rationale</summary>
+<summary>Source event 119 · Judge: Judge rationale</summary>
 
 
 ```text

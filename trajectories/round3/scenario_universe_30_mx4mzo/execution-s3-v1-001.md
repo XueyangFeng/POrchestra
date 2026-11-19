@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #30 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 30 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #31 · Sub-agent 3: model output
+## Source event 31 · Sub-agent 3: model output
 
 ```text
 I'll start by searching for the product in the shopping app.
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 3: tool result</summary>
+<summary>Source event 32 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 3: model output
+## Source event 33 · Sub-agent 3: model output
 
 ```text
 The search returned a single product with 5 variants. Let me check for additional results and get product details to confirm.
@@ -73,7 +73,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 3: tool result</summary>
+<summary>Source event 34 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -87,7 +87,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 3: model output
+## Source event 35 · Sub-agent 3: model output
 
 ```text
 No additional results. Let me get the product details to confirm the variant information.
@@ -104,7 +104,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 3: tool result</summary>
+<summary>Source event 36 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -118,7 +118,7 @@ Product(name='Airfield Concrete Tarmac Section 1/48', product_id='c5b4aa349f8d03
 </details>
 
 
-## Source event #37 · Sub-agent 3: model output
+## Source event 37 · Sub-agent 3: model output
 
 ```text
 The matching Resin + Grey variants are:
@@ -146,7 +146,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 3: tool result</summary>
+<summary>Source event 38 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -160,7 +160,7 @@ Action:
 </details>
 
 
-## Source event #39 · Sub-agent 3: model output
+## Source event 39 · Sub-agent 3: model output
 
 ```text
 Item added. Now checking the cart and available discount codes.
@@ -175,7 +175,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 3: tool result</summary>
+<summary>Source event 40 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -189,7 +189,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 3: model output
+## Source event 41 · Sub-agent 3: model output
 
 ```text
 Cart confirmed with 2 units. Now retrieving all discount codes.
@@ -204,7 +204,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 3: tool result</summary>
+<summary>Source event 42 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -218,7 +218,7 @@ Action:
 </details>
 
 
-## Source event #43 · Sub-agent 3: model output
+## Source event 43 · Sub-agent 3: model output
 
 ```text
 No discount code lists item `22a2e159083b41c18bbb2ea3b0d38513`. Let me verify the format of the discount code info to be certain.
@@ -235,7 +235,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 3: tool result</summary>
+<summary>Source event 44 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -250,7 +250,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 3: tool result</summary>
+<summary>Source event 45 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -268,7 +268,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #46 · Sub-agent 3: model output
+## Source event 46 · Sub-agent 3: model output
 
 ```text
 Confirmed: `get_discount_code_info` returns an item_id → discount% mapping, and scanning all 20 discount codes' item lists, none contains our item id `22a2e159083b41c18bbb2ea3b0d38513`. So no discount code is valid for this item. Proceeding to checkout without a code.
@@ -283,7 +283,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 3: tool result</summary>
+<summary>Source event 47 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -297,7 +297,7 @@ ddf4adaf9315475d9c6f33f5cfbc41d7
 </details>
 
 
-## Source event #48 · Sub-agent 3: model output
+## Source event 48 · Sub-agent 3: model output
 
 ```text
 Checkout succeeded with order id `ddf4adaf9315475d9c6f33f5cfbc41d7`. Verifying the cart state.
@@ -312,7 +312,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 3: tool result</summary>
+<summary>Source event 49 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -326,7 +326,7 @@ Action:
 </details>
 
 
-## Source event #50 · Sub-agent 3: model output
+## Source event 50 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -374,7 +374,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 3: tool result</summary>
+<summary>Source event 51 · Sub-agent 3: tool result</summary>
 
 
 ```text

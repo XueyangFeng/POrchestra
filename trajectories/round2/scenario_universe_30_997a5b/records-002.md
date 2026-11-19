@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #48 · Sub-agent 2: tool result</summary>
+<summary>Source event 48 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -30,7 +30,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #49 · Sub-agent 2: model output</summary>
+<summary>Source event 49 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: tool result</summary>
+<summary>Source event 50 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -66,7 +66,7 @@ None
 
 
 <details>
-<summary>Source event #51 · Sub-agent 2: model output</summary>
+<summary>Source event 51 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -87,7 +87,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 2: tool result</summary>
+<summary>Source event 52 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 2: model output</summary>
+<summary>Source event 53 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -121,7 +121,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 2: tool result</summary>
+<summary>Source event 54 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -136,7 +136,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 2: model output</summary>
+<summary>Source event 55 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -157,7 +157,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 2: tool result</summary>
+<summary>Source event 56 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -172,7 +172,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 2: model output</summary>
+<summary>Source event 57 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 2: tool result</summary>
+<summary>Source event 58 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -203,7 +203,7 @@ Action:
 
 
 <details>
-<summary>Source event #59 · Sub-agent 2: tool result</summary>
+<summary>Source event 59 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -222,7 +222,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #60 · Sub-agent 2: model output</summary>
+<summary>Source event 60 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -243,7 +243,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 2: tool result</summary>
+<summary>Source event 61 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -258,7 +258,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 2: model output</summary>
+<summary>Source event 62 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -281,7 +281,7 @@ Action:
 
 
 <details>
-<summary>Source event #63 · Sub-agent 2: tool result</summary>
+<summary>Source event 63 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -305,7 +305,7 @@ Ride ID: ca5380b0fb5d30db43b4905d14d91312
 
 
 <details>
-<summary>Source event #64 · Sub-agent 2: model output</summary>
+<summary>Source event 64 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -373,7 +373,7 @@ Action:
 
 
 <details>
-<summary>Source event #65 · Sub-agent 2: tool result</summary>
+<summary>Source event 65 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -388,7 +388,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Judge rationale</summary>
+<summary>Source event 66 · Judge rationale</summary>
 
 
 ```text

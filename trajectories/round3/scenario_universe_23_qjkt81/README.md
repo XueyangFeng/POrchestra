@@ -1,6 +1,8 @@
 # scenario_universe_23_qjkt81
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_23_qjkt81/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_23_qjkt81/README.md) · [Codex](../../codex/round3/scenario_universe_23_qjkt81/README.md) · [OpenCode](../../opencode/round3/scenario_universe_23_qjkt81/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the person from yesterday&#x27;s &#x27;Coffee Break&#x27; event, gather the necessary addresses and contact information, and then perform the initial set of actions: sending the email invitation, ordering the collection figure, and scheduling the cab. I will then notify the user as requested.
 
@@ -100,7 +102,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #26
+**Harness configuration updated** · Source event 26
 
 **1. Sub-agent revision request**
 
@@ -109,7 +111,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed all assigned subtask steps: found Coffee Break with Colleagues (2024-10-14 14:00–15:00) attendee Šárka Nováková; retrieved her email sarka.novakova@gaia2mail.com and address Korunní 105, 130 00 Prague 3, Czech Republic; user Matěj Nováček home address Božetěchova 3, 110 00 Prague 1; sent movie invitation email (result a7a6559237dfccab98f2b1970584c7a3); added resin variant item 00c22c8e927644b987be74cb0324731f and checked out (order 8047e79f507a4df68a5575bde9de6db2); booked Default cab ride c3de44121c4644ae524e7f6470b6f5f7 at 2024-10-18 17:00; sent user confirmation message. Then new environment notifications arrived about incoming emails, which must be reported to MainAgent before further side effects.
 ```
 <details>
-<summary>Request and evidence · source event #24</summary>
+<summary>Request and evidence · source event 24</summary>
 
 
 ```text
@@ -160,7 +162,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent completed the initial invitation and ordering phase and notified the user. Now, environment notifications indicate new emails have arrived. I need to expand the task to handle the conditional logic: checking for a decline from Šárka Nováková and, if she declines, contacting the user&#x27;s best friend and updating the orders.
 

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #115 · Sub-agent 4: user / environment input</summary>
+<summary>Source event 115 · Sub-agent 4: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #116 · Sub-agent 4: model output
+## Source event 116 · Sub-agent 4: model output
 
 ```text
 Action:
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #117 · Sub-agent 4: tool result</summary>
+<summary>Source event 117 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 
 
 <details>
-<summary>Source event #118 · Sub-agent 4: tool result</summary>
+<summary>Source event 118 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -76,7 +76,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #119 · Sub-agent 4: model output
+## Source event 119 · Sub-agent 4: model output
 
 ```text
 Action:
@@ -91,7 +91,7 @@ Action:
 
 
 <details>
-<summary>Source event #120 · Sub-agent 4: tool result</summary>
+<summary>Source event 120 · Sub-agent 4: tool result</summary>
 
 
 ```text

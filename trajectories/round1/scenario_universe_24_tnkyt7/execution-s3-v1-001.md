@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #91 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 91 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #92 · Sub-agent 3: model output
+## Source event 92 · Sub-agent 3: model output
 
 ```text
 Thought: Need to read the conversation to check for any messages from Elodie Vandenberghe sent after 2024-10-15 07:00:00.
@@ -43,7 +43,7 @@ Action:
 
 
 <details>
-<summary>Source event #93 · Sub-agent 3: tool result</summary>
+<summary>Source event 93 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -57,7 +57,7 @@ Action:
 </details>
 
 
-## Source event #94 · Sub-agent 3: model output
+## Source event 94 · Sub-agent 3: model output
 
 ```text
 The conversation contains no messages from Elodie Vandenberghe (user 'e44ae54d-7536-4902-a535-68df1a894d2d'). The replies ("Of course I'm alive!!!" and "Oh sorry, you meant Elodie...") came from a different user '18970a61-80db-4b1c-a1dd-4b9ad20fe552'. Therefore Elodie has NOT replied, so I proceed with the fallback actions.
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #95 · Sub-agent 3: tool result</summary>
+<summary>Source event 95 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ Action:
 </details>
 
 
-## Source event #96 · Sub-agent 3: model output
+## Source event 96 · Sub-agent 3: model output
 
 ```text
 Message sent successfully. Now removing Elodie from the conversation.
@@ -107,7 +107,7 @@ Action:
 
 
 <details>
-<summary>Source event #97 · Sub-agent 3: tool result</summary>
+<summary>Source event 97 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -121,7 +121,7 @@ Action:
 </details>
 
 
-## Source event #98 · Sub-agent 3: model output
+## Source event 98 · Sub-agent 3: model output
 
 ```text
 Participant removed successfully. Now sending the email.
@@ -140,7 +140,7 @@ Action:
 
 
 <details>
-<summary>Source event #99 · Sub-agent 3: tool result</summary>
+<summary>Source event 99 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -164,7 +164,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #100 · Sub-agent 3: model output
+## Source event 100 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -181,7 +181,7 @@ Action:
 
 
 <details>
-<summary>Source event #101 · Sub-agent 3: tool result</summary>
+<summary>Source event 101 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -195,7 +195,7 @@ e99491546510d319bc33d842063d8b97
 </details>
 
 
-## Source event #102 · Sub-agent 3: model output
+## Source event 102 · Sub-agent 3: model output
 
 ```text
 All required actions completed successfully. Elodie Vandenberghe did not reply, so I sent the fallback message, removed her from the chat, and sent the "Proof of Life" email.
@@ -244,7 +244,7 @@ Action:
 
 
 <details>
-<summary>Source event #103 · Sub-agent 3: tool result</summary>
+<summary>Source event 103 · Sub-agent 3: tool result</summary>
 
 
 ```text

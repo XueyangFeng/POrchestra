@@ -1,6 +1,8 @@
 # scenario_universe_25_cbckw0
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_25_cbckw0/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_25_cbckw0/README.md) · [Codex](../../codex/round1/scenario_universe_25_cbckw0/README.md) · [OpenCode](../../opencode/round1/scenario_universe_25_cbckw0/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify the date of the event with Åsa within the next two weeks. Once identified, I will book the cab, send the initial message to Åsa, and notify the user. I also need to be prepared to handle the contingency if the ride is canceled, but I&#x27;ll start with the primary tasks.
 

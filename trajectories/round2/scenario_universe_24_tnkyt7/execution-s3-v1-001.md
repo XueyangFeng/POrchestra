@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #97 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 97 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Execute the following two actions in order: 1) Remove Elodie Vandenberghe (user_
 </details>
 
 
-## Source event #98 · Sub-agent 3: model output
+## Source event 98 · Sub-agent 3: model output
 
 ```text
 I'll execute the two actions in order, starting with removing Elodie from the group chat.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #99 · Sub-agent 3: tool result</summary>
+<summary>Source event 99 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Action:
 
 
 <details>
-<summary>Source event #100 · Sub-agent 3: tool result</summary>
+<summary>Source event 100 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -70,7 +70,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #101 · Sub-agent 3: model output
+## Source event 101 · Sub-agent 3: model output
 
 ```text
 The removal succeeded. The email step failed due to an infrastructure error — retrying only the email now.
@@ -91,7 +91,7 @@ Action:
 
 
 <details>
-<summary>Source event #102 · Sub-agent 3: tool result</summary>
+<summary>Source event 102 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -105,7 +105,7 @@ Action:
 </details>
 
 
-## Source event #103 · Sub-agent 3: model output
+## Source event 103 · Sub-agent 3: model output
 
 ```text
 Both actions completed successfully. Reporting handoff.
@@ -152,7 +152,7 @@ Action:
 
 
 <details>
-<summary>Source event #104 · Sub-agent 3: tool result</summary>
+<summary>Source event 104 · Sub-agent 3: tool result</summary>
 
 
 ```text

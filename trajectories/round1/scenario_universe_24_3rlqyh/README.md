@@ -1,6 +1,8 @@
 # scenario_universe_24_3rlqyh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_24_3rlqyh/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_24_3rlqyh/README.md) · [Codex](../../codex/round1/scenario_universe_24_3rlqyh/README.md) · [OpenCode](../../opencode/round1/scenario_universe_24_3rlqyh/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user has multiple requests involving email organization and calendar management. I&#x27;ll delegate these environment-interaction tasks to a SubAgent to handle the specific search, reply, move, and delete operations required for emails and the calendar.
 
@@ -100,11 +102,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #30
+**Initial harness configuration** · Source event 30
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent completed all email and calendar tasks. Now I need to order the three specific products requested by the user.
 
@@ -172,7 +174,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

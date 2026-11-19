@@ -1,6 +1,8 @@
 # scenario_universe_30_69r1z7
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_30_69r1z7/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_30_69r1z7/README.md) · [Codex](../../codex/round3/scenario_universe_30_69r1z7/README.md) · [OpenCode](../../opencode/round3/scenario_universe_30_69r1z7/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the next calendar event with &#x27;meeting&#x27; in the title that has exactly one attendee and identify that attendee. This is the first logical step to fulfill the user&#x27;s request.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #13
+**Initial harness configuration** · Source event 13
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The attendee for the next qualifying meeting is Gerrit van der Meer. Now I need to count the 1:1 message threads with him on the Messages and Chats apps and report the result to the user.
 

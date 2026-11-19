@@ -1,6 +1,8 @@
 # scenario_universe_26_f4zp2l
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_26_f4zp2l/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_26_f4zp2l/README.md) · [Codex](../../codex/round1/scenario_universe_26_f4zp2l/README.md) · [OpenCode](../../opencode/round1/scenario_universe_26_f4zp2l/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to identify the location where they spent the most time for lunch in 2024 (up to 2024-10-15). This requires retrieving calendar events, filtering for &#x27;lunch&#x27;, calculating durations per location, and applying tie-breaking logic.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #14
+**Initial harness configuration** · Source event 14
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent identified the location with the most cumulative lunch time as &#x27;Lysverket&#x27;. We now need to report this answer to the user using the AgentUserInterface__send_message_to_user tool.
 

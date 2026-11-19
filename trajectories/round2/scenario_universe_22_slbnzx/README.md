@@ -1,6 +1,8 @@
 # scenario_universe_22_slbnzx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_22_slbnzx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_22_slbnzx/README.md) · [Codex](../../codex/round2/scenario_universe_22_slbnzx/README.md) · [OpenCode](../../opencode/round2/scenario_universe_22_slbnzx/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the current user&#x27;s identity to correctly filter calendar attendees, fetch all events for the remainder of the current week (starting from 2024-10-15 07:00:00 through Sunday), and then process the deletions and additions as requested. A single SubAgent with the appropriate tools can manage this sequence.
 

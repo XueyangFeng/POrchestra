@@ -1,6 +1,8 @@
 # scenario_universe_24_tnkyt7
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_24_tnkyt7/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_24_tnkyt7/README.md) · [Codex](../../codex/round1/scenario_universe_24_tnkyt7/README.md) · [OpenCode](../../opencode/round1/scenario_universe_24_tnkyt7/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify the user &#x27;Elodie Vandenberghe&#x27; and the group chat &#x27;Exploring Swiss Folk Music and Culture&#x27; to proceed with the messaging and removal tasks. I also need her email address for the potential follow-up.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #17
+**Initial harness configuration** · Source event 17
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 We need to execute the message loop checking for Elodie&#x27;s response and sending messages every 30 seconds, followed by the timeout action at 4 minutes if she has not responded.
 
@@ -159,11 +161,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #90
+**Initial harness configuration** · Source event 90
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The 4-minute window for Elodie Vandenberghe to reply has passed (current time is 07:04:00). I need to check the group chat history to see if she sent any messages after 07:00:00. Based on that, I will either finish or perform the final steps: notifying the group she didn&#x27;t make it, removing her, and emailing her.
 
@@ -233,7 +235,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

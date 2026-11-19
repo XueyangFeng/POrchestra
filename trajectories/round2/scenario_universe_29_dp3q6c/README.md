@@ -1,6 +1,8 @@
 # scenario_universe_29_dp3q6c
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_29_dp3q6c/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_29_dp3q6c/README.md) · [Codex](../../codex/round2/scenario_universe_29_dp3q6c/README.md) · [OpenCode](../../opencode/round2/scenario_universe_29_dp3q6c/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to coordinate the emergency request involving multiple timed messages, an email, and a potential cab booking. The SubAgent will handle the contact lookup, the messaging loop with 30-second intervals, and the conditional follow-ups (email and cab).
 
@@ -105,7 +107,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #2</summary>
+<summary>Source event 2</summary>
 
 
 ```text

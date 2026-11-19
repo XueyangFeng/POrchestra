@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result (continued, part 6)</summary>
+<summary>Source event 24 · Sub-agent 2: tool result (continued, part 6)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ s=['akuznetsova@gaia2mail.com'], subject='Exploring Historical Software Simulati
 </details>
 
 
-## Source event #25 · Sub-agent 2: model output
+## Source event 25 · Sub-agent 2: model output
 
 ```text
 The search returned many emails (it matches content too, so I need to filter by subject). Let me first explore the Contacts app structure to see if city_living is returned directly.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result</summary>
+<summary>Source event 26 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 2: tool result (continued, part 2)</summary>
+<summary>Source event 26 · Sub-agent 2: tool result (continued, part 2)</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_23_2gyolt
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_23_2gyolt/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_23_2gyolt/README.md) · [Codex](../../codex/round3/scenario_universe_23_2gyolt/README.md) · [OpenCode](../../opencode/round3/scenario_universe_23_2gyolt/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform calendar deletions, send an email, and gather information for the cab booking. These tasks involve Calendar, Contacts, and Emails.
 
@@ -95,11 +97,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #28
+**Initial harness configuration** · Source event 28
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent successfully deleted the events, sent the cancellation email, and retrieved the necessary details for the cab booking: the user&#x27;s home address (Božetěchova 3, 110 00 Prague 1) and the seminar start time (09:00). I now need to book the cab for 08:30 (30 minutes before the seminar) and purchase the specified book.
 
@@ -172,7 +174,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

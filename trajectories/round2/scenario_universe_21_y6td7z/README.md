@@ -1,6 +1,8 @@
 # scenario_universe_21_y6td7z
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_21_y6td7z/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_21_y6td7z/README.md) · [Codex](../../codex/round2/scenario_universe_21_y6td7z/README.md) · [OpenCode](../../opencode/round2/scenario_universe_21_y6td7z/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the specific emails and schedule the initial meetings as requested by the user. This involves interacting with the email and calendar apps, and then notifying the user.
 
@@ -94,7 +96,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #29
+**Harness configuration updated** · Source event 29
 
 **1. Sub-agent revision request**
 
@@ -103,7 +105,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Assigned subtask fully executed: 3 Collaboration emails found, 3 Zoom calendar events created (7:00-8:00 AM on 2024-10-16/17/18), 3 replies sent with meeting details requesting confirmation, and user notified via AgentUserInterface__send_message_to_user. Then three new emails arrived (Environment notifications) — all three recipients responded: Yuting Liang requests Oct 19 10-11am, Astrid Kjeldsen requests Oct 20 10-11am, João Silva cannot attend at all. No further side effects taken since notification arrived.
 ```
 <details>
-<summary>Request and evidence · source event #27</summary>
+<summary>Request and evidence · source event 27</summary>
 
 
 ```text
@@ -223,7 +225,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 Three responses have been received, satisfying the condition to proceed with rescheduling and the shopping checkout. I am providing instructions to handle the specific rescheduling requests, check for and delete calendar conflicts, and perform the shopping actions as all attendees have now responded.
 
@@ -341,7 +343,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

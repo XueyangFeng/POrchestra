@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #208 · Sub-agent 4: tool result</summary>
+<summary>Source event 208 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #209 · Sub-agent 4: model output</summary>
+<summary>Source event 209 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #210 · Sub-agent 4: tool result</summary>
+<summary>Source event 210 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 
 
 <details>
-<summary>Source event #211 · Sub-agent 4: model output</summary>
+<summary>Source event 211 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #212 · Sub-agent 4: tool result</summary>
+<summary>Source event 212 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ Action:
 
 
 <details>
-<summary>Source event #213 · Sub-agent 4: tool result</summary>
+<summary>Source event 213 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -106,7 +106,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #214 · Sub-agent 4: model output</summary>
+<summary>Source event 214 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -122,7 +122,7 @@ Action:
 
 
 <details>
-<summary>Source event #215 · Sub-agent 4: tool result</summary>
+<summary>Source event 215 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ Action:
 
 
 <details>
-<summary>Source event #216 · Sub-agent 4: model output</summary>
+<summary>Source event 216 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -153,7 +153,7 @@ Action:
 
 
 <details>
-<summary>Source event #217 · Sub-agent 4: tool result</summary>
+<summary>Source event 217 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -168,7 +168,7 @@ Action:
 
 
 <details>
-<summary>Source event #218 · Sub-agent 4: model output</summary>
+<summary>Source event 218 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -217,7 +217,7 @@ SUB-AGENT SESSION 5
 
 
 <details>
-<summary>Source event #219 · Sub-agent 5: Initial system configuration</summary>
+<summary>Source event 219 · Sub-agent 5: Initial system configuration</summary>
 
 
 ```text
@@ -438,7 +438,7 @@ the provided discount code. This is a strict all-or-nothing discount policy.
 
 
 <details>
-<summary>Source event #220 · Sub-agent 5: user / environment input</summary>
+<summary>Source event 220 · Sub-agent 5: user / environment input</summary>
 
 
 ```text
@@ -458,7 +458,7 @@ the provided discount code. This is a strict all-or-nothing discount policy.
 
 
 <details>
-<summary>Source event #221 · Sub-agent 5: model output</summary>
+<summary>Source event 221 · Sub-agent 5: model output</summary>
 
 
 ```text
@@ -476,7 +476,7 @@ Action:
 
 
 <details>
-<summary>Source event #222 · Sub-agent 5: tool result</summary>
+<summary>Source event 222 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -491,7 +491,7 @@ Action:
 
 
 <details>
-<summary>Source event #223 · Sub-agent 5: model output</summary>
+<summary>Source event 223 · Sub-agent 5: model output</summary>
 
 
 ```text
@@ -509,7 +509,7 @@ Action:
 
 
 <details>
-<summary>Source event #224 · Sub-agent 5: tool result</summary>
+<summary>Source event 224 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -524,7 +524,7 @@ Action:
 
 
 <details>
-<summary>Source event #225 · Sub-agent 5: model output</summary>
+<summary>Source event 225 · Sub-agent 5: model output</summary>
 
 
 ```text

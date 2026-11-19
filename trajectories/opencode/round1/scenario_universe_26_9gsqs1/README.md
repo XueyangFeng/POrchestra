@@ -1,0 +1,63 @@
+# OpenCode · scenario_universe_26_9gsqs1
+
+[Round index](../README.md) · [All OpenCode rounds](../../README.md) · [Download HTML/TXT](../../source/README.md)
+
+**Compare systems:** [PORCHESTRA](../../../round1/scenario_universe_26_9gsqs1/README.md) · [Claude Code](../../../claude-code/round1/scenario_universe_26_9gsqs1/README.md) · [Codex](../../../codex/round1/scenario_universe_26_9gsqs1/README.md) · OpenCode
+
+**Domain:** Time · **Result:** Incorrect / not passed · **Duration:** 420.8 seconds
+
+**Read the execution trace:** [Part 1](execution-001.md)
+
+## Task
+
+I don&#x27;t want my friends to wait, so you have a maximum of 200 seconds to complete the following task in its entirety: Create a new Messages group conversation titled &#x27;Friends Forever&#x27; with my contact who is a Branding Specialist and my contact who I had lunch with yesterday. Send a message to this new group chat asking them to add their best friends to this Messages conversation. Let me know once the message has been sent and exactly 3 minutes after that check and see who has been added to the aforementioned conversation and send a separate message in it to personally welcome each of them. After all the messages have been sent welcoming the new participants, notify me how many total participants including myself are in the &#x27;Friends Forever&#x27; Messages group conversation.
+
+## Execution overview
+
+| Recorded item | Count |
+| --- | ---: |
+| Source events | 74 |
+| Turns | 1 |
+| Tool calls | 30 |
+| Distinct tools | 15 |
+| Notification ledgers | 2 |
+
+## Tool usage
+
+| Tool | Calls |
+| --- | ---: |
+| `gaia2_Chats__lookup_user_id` | 6 |
+| `gaia2_Messages__lookup_user_id` | 4 |
+| `gaia2_Contacts__search_contacts` | 3 |
+| `gaia2_Chats__get_user_id` | 3 |
+| `gaia2_Messages__get_user_id` | 3 |
+| `gaia2_Contacts__get_contacts` | 2 |
+| `gaia2_Contacts__get_current_user_details` | 1 |
+| `gaia2_SystemApp__get_current_time` | 1 |
+| `gaia2_Calendar__get_calendar_events_from_to` | 1 |
+| `gaia2_Calendar__get_calendar_event` | 1 |
+| `gaia2_Messages__get_user_name_from_id` | 1 |
+| `gaia2_Messages__create_group_conversation` | 1 |
+| `gaia2_Messages__send_message_to_group_conversation` | 1 |
+| `gaia2_AgentUserInterface__send_message_to_user` | 1 |
+| `gaia2_SystemApp__wait_for_notification` | 1 |
+
+## Final judging record
+
+<details>
+<summary>Judging rationale</summary>
+
+
+```text
+Failure: 
+Agent and oracle counters do not match for the following tools:
+- Tool 'MessagingAppV2__send_message_to_group_conversation': Agent count 0, Oracle count 6
+Oracle sent 1 more message(s) than agent.
+```
+
+
+</details>
+
+## Complete execution
+
+[Part 1](execution-001.md)

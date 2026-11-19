@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 I'll start by getting the current user's contact details to find their address.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ Address: Frognerveien 34, 0266 Oslo, Norway
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 Got the user's address: Frognerveien 34, 0266 Oslo, Norway. Now let me find Kofi Ogunlesi's chat user ID.
@@ -82,7 +82,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -96,7 +96,7 @@ Action:
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Found Kofi Ogunlesi's user ID: `1b800fa6-2085-4bdd-a015-596069548f14`. Now I'll send him the chat message including the user's address.
@@ -114,7 +114,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -128,7 +128,7 @@ Action:
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 The message was sent to Kofi. Before messaging the user (which ends the turn), I'll complete the authorized cab order first.
@@ -148,7 +148,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -171,7 +171,7 @@ Ride ID: c3de44121c4644ae524e7f6470b6f5f7
 </details>
 
 
-## Source event #13 · Sub-agent 1: model output
+## Source event 13 · Sub-agent 1: model output
 
 ```text
 Cab is booked (Ride ID: c3de44121c4644ae524e7f6470b6f5f7, Status: BOOKED). Now I'll report to the User exactly what was sent to Kofi, including the cab confirmation.
@@ -188,7 +188,7 @@ Action:
 
 
 <details>
-<summary>Source event #14 · Sub-agent 1: tool result</summary>
+<summary>Source event 14 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -203,7 +203,7 @@ None
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 15 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -217,7 +217,7 @@ Environment notifications:
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 The cab is ordered and the user was notified. However, environment notifications just arrived about new calendar events added by Kofi Ogunlesi (and Kofi Owusu). Per protocol I must report this to MainAgent before any further side effects, since the original turn has conditional follow-up logic depending on the event's title and location.
@@ -269,7 +269,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text

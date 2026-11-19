@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 33 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ ReturnedEmails(emails=[Email(sender='yuting.liang@emarketingpro.com', recipients
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 33 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -29,7 +29,7 @@ ReturnedEmails(emails=[Email(sender='yuting.liang@emarketingpro.com', recipients
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 33 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -41,7 +41,7 @@ call or a visit to our school?\n\nLooking forward to hearing from you.\n\nMed ve
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result (continued, part 5)</summary>
+<summary>Source event 33 · Sub-agent 1: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ call or a visit to our school?\n\nLooking forward to hearing from you.\n\nMed ve
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result (continued, part 6)</summary>
+<summary>Source event 33 · Sub-agent 1: tool result (continued, part 6)</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ find it fascinating.\n\nPlease let me know if you're interested, and we can sche
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Now let me get the remaining emails (127 total).

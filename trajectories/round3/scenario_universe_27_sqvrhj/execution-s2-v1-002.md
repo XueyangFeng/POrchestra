@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #87 · Sub-agent 2: tool result</summary>
+<summary>Source event 87 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #88 · Sub-agent 2: model output
+## Source event 88 · Sub-agent 2: model output
 
 ```text
 All 121 contacts reviewed. History teachers identified (excluding current user Anastasiya Kuznetsova):
@@ -48,7 +48,7 @@ Action:
 
 
 <details>
-<summary>Source event #89 · Sub-agent 2: tool result</summary>
+<summary>Source event 89 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -62,7 +62,7 @@ Action:
 </details>
 
 
-## Source event #90 · Sub-agent 2: model output
+## Source event 90 · Sub-agent 2: model output
 
 ```text
 Group conversation created. Now sharing the file.
@@ -82,7 +82,7 @@ Action:
 
 
 <details>
-<summary>Source event #91 · Sub-agent 2: tool result</summary>
+<summary>Source event 91 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -96,7 +96,7 @@ Action:
 </details>
 
 
-## Source event #92 · Sub-agent 2: model output
+## Source event 92 · Sub-agent 2: model output
 
 ```text
 File shared on Messages. Now sending the separate email to the history teacher not on Messages (Aidan O'Connor).
@@ -122,7 +122,7 @@ Action:
 
 
 <details>
-<summary>Source event #93 · Sub-agent 2: tool result</summary>
+<summary>Source event 93 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -136,7 +136,7 @@ ce025aebc06aec5cea39dd7fb817bee5
 </details>
 
 
-## Source event #94 · Sub-agent 2: model output
+## Source event 94 · Sub-agent 2: model output
 
 ```text
 All steps are complete. Let me report the final state.
@@ -199,7 +199,7 @@ Action:
 
 
 <details>
-<summary>Source event #95 · Sub-agent 2: tool result</summary>
+<summary>Source event 95 · Sub-agent 2: tool result</summary>
 
 
 ```text

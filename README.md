@@ -133,10 +133,12 @@ The implementation builds on [AOrchestra](https://github.com/FoundationAgents/AO
 
 | System | Browse | Download |
 | --- | --- | --- |
-| PORCHESTRA | [Configuration and execution traces](trajectories/README.md#porchestra) | [HTML/TXT](trajectories/source/README.md) |
-| Claude Code | [Execution traces](trajectories/claude-code/README.md) | [HTML/TXT](trajectories/claude-code/source/README.md) |
+| PORCHESTRA | [Trajectories](trajectories/README.md#porchestra) | [HTML/TXT](trajectories/source/README.md) |
+| Claude Code | [Trajectories](trajectories/claude-code/README.md) | [HTML/TXT](trajectories/claude-code/source/README.md) |
+| Codex | [Trajectories](trajectories/codex/README.md) | [HTML/TXT](trajectories/codex/source/README.md) |
+| OpenCode | [Trajectories](trajectories/opencode/README.md) | [HTML/TXT](trajectories/opencode/source/README.md) |
 
-Each collection contains 384 runs across three rounds. Task pages link to the matching task in the other collection.
+Each collection contains 384 runs across three rounds. Task pages link to the matching task in the other collections.
 
 ## Statistical-reporting audit
 

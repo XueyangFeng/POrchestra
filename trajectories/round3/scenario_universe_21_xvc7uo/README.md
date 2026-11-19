@@ -1,6 +1,8 @@
 # scenario_universe_21_xvc7uo
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_21_xvc7uo/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_21_xvc7uo/README.md) · [Codex](../../codex/round3/scenario_universe_21_xvc7uo/README.md) · [OpenCode](../../opencode/round3/scenario_universe_21_xvc7uo/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial cleanup of the saved apartments list and then monitor for new listings for 4 minutes to notify Linnea Svensson. The monitoring period starts from the message receipt time (07:00:00) and ends at 07:04:00.
 
@@ -99,7 +101,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #2</summary>
+<summary>Source event 2</summary>
 
 
 ```text

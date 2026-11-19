@@ -1,6 +1,8 @@
 # scenario_universe_21_powgzh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_21_powgzh/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_21_powgzh/README.md) · [Codex](../../codex/round3/scenario_universe_21_powgzh/README.md) · [OpenCode](../../opencode/round3/scenario_universe_21_powgzh/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify the relevant contacts and their most common job. I need to get the current user&#x27;s details to exclude them, then fetch all contacts to find those who are employed and living in Stockholm. From that list, I&#x27;ll determine the most common job with the specified tie-breaking rule and identify the contacts who hold that job.
 
@@ -82,11 +84,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #36
+**Initial harness configuration** · Source event 36
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent identified the target job (&#x27;Marketing Manager&#x27;) and the two candidate contacts: Axel Lindqvist and Astrid Svensson. Now I need to determine which of these two has the most events scheduled with the user this month, then compare conversation volumes on Messages vs. Chats for that person, and finally report the date of their most recent one-on-one conversation on the winning app.
 
@@ -164,7 +166,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_22_c1o49t
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_22_c1o49t/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_22_c1o49t/README.md) · [Codex](../../codex/round1/scenario_universe_22_c1o49t/README.md) · [OpenCode](../../opencode/round1/scenario_universe_22_c1o49t/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Decompose the request: First, find the latest wine tasting event on Friday, 2024-10-18, delete it, and recreate it on Saturday, 2024-10-19, at the same time. Then, lookup the email addresses of all attendees, email each attendee with the subject &#x27;Rescheduling&#x27; about the change, and ask if Saturday works. Finally, return the details of the event and attendees.
 
@@ -87,11 +89,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #28
+**Initial harness configuration** · Source event 28
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The wine tasting event has been successfully rescheduled and all attendees have been emailed. According to the original task, the user wants to be notified once these actions are finished. I am delegating a subtask to send this notification to the user.
 

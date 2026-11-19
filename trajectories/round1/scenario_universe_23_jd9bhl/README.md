@@ -1,6 +1,8 @@
 # scenario_universe_23_jd9bhl
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_23_jd9bhl/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_23_jd9bhl/README.md) · [Codex](../../codex/round1/scenario_universe_23_jd9bhl/README.md) · [OpenCode](../../opencode/round1/scenario_universe_23_jd9bhl/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to manage the user&#x27;s schedule for the next three Saturdays (Oct 19, Oct 26, and Nov 2, 2024). I need to cancel overlapping events between 9 AM and 5 PM and schedule the &#x27;Work From Home&#x27; blocks.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #30
+**Initial harness configuration** · Source event 30
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 SubAgent 1 has already managed the calendar events for the next three Saturdays. Now, I need to address the communication parts: sending a group email to family members and a message to a contact in the Prague Police Department.
 
@@ -163,7 +165,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

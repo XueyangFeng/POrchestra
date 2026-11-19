@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 42 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #43 · Sub-agent 1: model output
+## Source event 43 · Sub-agent 1: model output
 
 ```text
 I'll read the latest email from Kaidën Rylan and check the current time.
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ ReturnedEmails(emails=[Email(sender='kaiden@rylanrecording.com', recipients=['au
 </details>
 
 
-## Source event #45 · Sub-agent 1: model output
+## Source event 45 · Sub-agent 1: model output
 
 ```text
 The most recent email from Kaidën (timestamp 1728975870.6157794 ≈ 2024-10-15 07:04:30) says he's "checking out the cart now... will email you if I get them" — which is neither a clear yes nor no. Let me check the current time and see if a definitive follow-up arrives.
@@ -70,7 +70,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -84,7 +84,7 @@ Action:
 </details>
 
 
-## Source event #47 · Sub-agent 1: model output
+## Source event 47 · Sub-agent 1: model output
 
 ```text
 Current time is 07:04:41. Kaidën's email arrived at ~07:04:30 (timestamp 1728975870.6), within one minute of my notification — but its content is ambiguous ("checking out the cart now... I will email you if I get them"), neither yes nor no. He indicated he'd email again if he gets them, so let me wait briefly for a definitive follow-up.
@@ -101,7 +101,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -120,7 +120,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 49 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -133,7 +133,7 @@ Environment notifications:
 </details>
 
 
-## Source event #50 · Sub-agent 1: model output
+## Source event 50 · Sub-agent 1: model output
 
 ```text
 A new email notification arrived. Let me check the inbox for it.
@@ -152,7 +152,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 1: tool result</summary>
+<summary>Source event 51 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -166,7 +166,7 @@ ReturnedEmails(emails=[Email(sender='kaiden@rylanrecording.com', recipients=['au
 </details>
 
 
-## Source event #52 · Sub-agent 1: model output
+## Source event 52 · Sub-agent 1: model output
 
 ```text
 Kaidën replied "Yes! I did!" (email_id 08f61014574140a4300d5bf6086fed85, timestamp 1728975886.06 ≈ 07:04:45) — within 1 minute of the user notification (~07:04:30). This is a "yes" within the first minute, so I'll reply immediately with "Awesome, see you there!".
@@ -185,7 +185,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 1: tool result</summary>
+<summary>Source event 53 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -199,7 +199,7 @@ e3d904acf7ae01db77f9ece59f415993
 </details>
 
 
-## Source event #54 · Sub-agent 1: model output
+## Source event 54 · Sub-agent 1: model output
 
 ```text
 Reply sent. Now adding the 'Wine Event' to the calendar for December 1, 2024, 9am-5pm.
@@ -218,7 +218,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 1: tool result</summary>
+<summary>Source event 55 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -232,7 +232,7 @@ acea4a8d991e2e64e9a43daa76d19dd2
 </details>
 
 
-## Source event #56 · Sub-agent 1: model output
+## Source event 56 · Sub-agent 1: model output
 
 ```text
 Calendar event added. Now notifying the user that everything is complete.
@@ -249,7 +249,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 1: tool result</summary>
+<summary>Source event 57 · Sub-agent 1: tool result</summary>
 
 
 ```text

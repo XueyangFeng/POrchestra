@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #274 · Sub-agent 5: tool result</summary>
+<summary>Source event 274 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #275 · Sub-agent 5: model output
+## Source event 275 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #276 · Sub-agent 5: tool result</summary>
+<summary>Source event 276 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #277 · Sub-agent 5: model output
+## Source event 277 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #278 · Sub-agent 5: tool result</summary>
+<summary>Source event 278 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ Action:
 </details>
 
 
-## Source event #279 · Sub-agent 5: model output
+## Source event 279 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -101,7 +101,7 @@ Action:
 
 
 <details>
-<summary>Source event #280 · Sub-agent 5: tool result</summary>
+<summary>Source event 280 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -115,7 +115,7 @@ Action:
 </details>
 
 
-## Source event #281 · Sub-agent 5: model output
+## Source event 281 · Sub-agent 5: model output
 
 ```text
 {

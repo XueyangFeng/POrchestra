@@ -1,6 +1,8 @@
 # scenario_universe_22_txmcil
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_22_txmcil/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_22_txmcil/README.md) · [Codex](../../codex/round1/scenario_universe_22_txmcil/README.md) · [OpenCode](../../opencode/round1/scenario_universe_22_txmcil/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to find the properties matching the user&#x27;s criteria (NYC, 2 bathrooms, &lt;$3000) and save them. I also need to find the contact information for Kaitlyn Nakamura and Jamila Patel to prepare for the next step.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #20
+**Initial harness configuration** · Source event 20
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 We need to email Kaitlyn Nakamura and Jamila Patel individually with the specified subject and content, including the name and address of each saved property. After that, we must inform the user that the properties have been saved and the emails have been sent.
 
@@ -150,7 +152,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S2 configuration v2
 
-**Harness configuration updated** · Source event #31
+**Harness configuration updated** · Source event 31
 
 **1. Sub-agent revision request**
 
@@ -159,7 +161,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 Two emails have been sent (to Kaitlyn Nakamura and Jamila Patel) and the user has been notified. Now two new emails have arrived, but I have no email-reading tool to inspect their contents.
 ```
 <details>
-<summary>Request and evidence · source event #29</summary>
+<summary>Request and evidence · source event 29</summary>
 
 
 ```text
@@ -203,7 +205,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #3
+`revise_task` · Source event 3
 
 The SubAgent has successfully saved properties and sent the initial invitations. Two replies have arrived. I need to grant the SubAgent tools to read those replies and execute the conditional logic (property removal and date rescheduling) defined in the original task.
 

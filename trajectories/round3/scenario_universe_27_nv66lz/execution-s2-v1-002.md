@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #17 · Sub-agent 2: tool result (continued, part 6)</summary>
+<summary>Source event 17 · Sub-agent 2: tool result (continued, part 6)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ s=['akuznetsova@gaia2mail.com'], subject='Exploring Historical Software Simulati
 </details>
 
 
-## Source event #18 · Sub-agent 2: model output
+## Source event 18 · Sub-agent 2: model output
 
 ```text
 Large result. I need to search the other folders too, then filter by subject containing 'History'.
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 2: tool result</summary>
+<summary>Source event 19 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 2: tool result (continued, part 2)</summary>
+<summary>Source event 19 · Sub-agent 2: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -61,7 +61,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 2: tool result (continued, part 3)</summary>
+<summary>Source event 19 · Sub-agent 2: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 2: tool result (continued, part 4)</summary>
+<summary>Source event 19 · Sub-agent 2: tool result (continued, part 4)</summary>
 
 
 ```text

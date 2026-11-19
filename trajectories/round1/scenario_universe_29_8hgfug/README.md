@@ -1,6 +1,8 @@
 # scenario_universe_29_8hgfug
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_29_8hgfug/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_29_8hgfug/README.md) · [Codex](../../codex/round1/scenario_universe_29_8hgfug/README.md) · [OpenCode](../../opencode/round1/scenario_universe_29_8hgfug/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to determine the schedule for the two focus group sessions and create the calendar events. This involves finding the first day free at 9 AM for three hours starting from today (2024-10-15) and calculating the second Sunday of next month for the second session.
 
@@ -84,11 +86,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #29
+**Initial harness configuration** · Source event 29
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The two focus group sessions have been successfully scheduled for 2024-10-22 (9 AM - 12 PM) and 2024-11-10 (1 PM - 4 PM) at the Community Center. Now I need to notify the relevant group chats about these details.
 
@@ -155,11 +157,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #61
+**Initial harness configuration** · Source event 61
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The calendar events have been scheduled and the messages have been sent. The final requirement is to purchase the most expensive Mega Bloks Green Race Car Building Set available.
 
@@ -225,7 +227,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

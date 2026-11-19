@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #127 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 127 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Search the Calendar to find the soonest upcoming event starting on or after 2024
 </details>
 
 
-## Source event #128 · Sub-agent 3: model output
+## Source event 128 · Sub-agent 3: model output
 
 ```text
 I'll start by searching the calendar for events involving Akira Kaur.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #129 · Sub-agent 3: tool result</summary>
+<summary>Source event 129 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #130 · Sub-agent 3: model output
+## Source event 130 · Sub-agent 3: model output
 
 ```text
 The search shows a candidate: "Meeting with Students" on 2024-10-22. Let me verify there are no earlier upcoming events in the range that include Akira Kaur as an attendee.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #131 · Sub-agent 3: tool result</summary>
+<summary>Source event 131 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ Action:
 </details>
 
 
-## Source event #132 · Sub-agent 3: model output
+## Source event 132 · Sub-agent 3: model output
 
 ```text
 The range query confirms: between 2024-10-15 07:00:00 and the candidate event, there are 25 events total (all returned), and the only one with 'Akira Kaur' as an attendee is the soonest upcoming one: "Meeting with Students" on Tuesday 2024-10-22 10:00–12:00. Now I'll report the title to the user.
@@ -99,7 +99,7 @@ Action:
 
 
 <details>
-<summary>Source event #133 · Sub-agent 3: tool result</summary>
+<summary>Source event 133 · Sub-agent 3: tool result</summary>
 
 
 ```text

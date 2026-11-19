@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #65 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 65 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Search for calendar events starting after 2024-10-15 07:00:00 where 'Akira Kaur'
 
 
 <details>
-<summary>Source event #66 · Sub-agent 2: tool result</summary>
+<summary>Source event 66 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #67 · Sub-agent 2: model output
+## Source event 67 · Sub-agent 2: model output
 
 ```text
 Thought: I'll search the calendar for events involving Akira Kaur starting after 2024-10-15 07:00:00. Let me first check current time and search events.
@@ -55,7 +55,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 2: tool result</summary>
+<summary>Source event 68 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -69,7 +69,7 @@ Action:
 </details>
 
 
-## Source event #69 · Sub-agent 2: model output
+## Source event 69 · Sub-agent 2: model output
 
 ```text
 Thought: The search returned events with Akira Kaur as attendee. The soonest event after 2024-10-15 07:00:00 appears to be 'Meeting with Students' on 2024-10-22 10:00:00. Let me verify by querying the date range to ensure no earlier events were missed.
@@ -88,7 +88,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 2: tool result</summary>
+<summary>Source event 70 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -102,7 +102,7 @@ Action:
 </details>
 
 
-## Source event #71 · Sub-agent 2: model output
+## Source event 71 · Sub-agent 2: model output
 
 ```text
 Thought: The search confirmed the events with Akira Kaur. The soonest one starting after 2024-10-15 07:00:00 is 'Meeting with Students' on Tuesday, 2024-10-22 10:00:00 (the range query confirms no Akira Kaur events between Oct 15 and Oct 21). Now I'll send the title to the user.
@@ -119,7 +119,7 @@ Action:
 
 
 <details>
-<summary>Source event #72 · Sub-agent 2: tool result</summary>
+<summary>Source event 72 · Sub-agent 2: tool result</summary>
 
 
 ```text

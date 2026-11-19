@@ -1,6 +1,8 @@
 # scenario_universe_22_c1o49t
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_22_c1o49t/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_22_c1o49t/README.md) · [Codex](../../codex/round2/scenario_universe_22_c1o49t/README.md) · [OpenCode](../../opencode/round2/scenario_universe_22_c1o49t/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The initial request requires finding a specific event, rescheduling it, and emailing attendees. This is the first phase of the task. I will delegate this work to a SubAgent.
 
@@ -96,7 +98,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #33
+**Harness configuration updated** · Source event 33
 
 **1. Sub-agent revision request**
 
@@ -105,7 +107,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Subtask complete: found latest Friday wine tasting (19:00–21:00, id 49835add11344f388c81f6e65b6a75ed), deleted it, created Saturday 2024-10-19 19:00–21:00 replacement (id dcf191829913b81220f38262b28ec53c), emailed both external attendees with subject 'Rescheduling', and sent the user a completion message. New environment notifications now report 3 incoming emails that I cannot read (no email-listing/reading tool assigned).
 ```
 <details>
-<summary>Request and evidence · source event #31</summary>
+<summary>Request and evidence · source event 31</summary>
 
 
 ```text
@@ -191,7 +193,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent successfully rescheduled the event to Saturday and emailed the attendees. New emails have arrived, which may be replies from the attendees declining the new time. The SubAgent needs email reading tools to check these replies and, if necessary, perform the conditional rescheduling logic as specified in the original task.
 

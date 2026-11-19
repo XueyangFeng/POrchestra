@@ -1,6 +1,8 @@
 # scenario_universe_23_0wpjds
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_23_0wpjds/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_23_0wpjds/README.md) · [Codex](../../codex/round1/scenario_universe_23_0wpjds/README.md) · [OpenCode](../../opencode/round1/scenario_universe_23_0wpjds/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to find the most common zip code in the end locations of the user&#x27;s booked cab rides in September 2024 (last month). We will delegate this specific retrieval and calculation to a SubAgent.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #13
+**Initial harness configuration** · Source event 13
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 We have determined that the most common zip code in the user&#x27;s cab ride history for last month (September 2024) is 60200. Now we need to find contacts living in this zip code, retrieve calendar events for September 2024, determine who appears most frequently as an attendee, resolve ties using their ages, and report the name of the final contact to the user.
 

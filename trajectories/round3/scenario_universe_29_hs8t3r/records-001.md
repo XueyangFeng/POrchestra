@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #1 · Main agent — decision 1: delegate_task</summary>
+<summary>Source event 1 · Main agent — decision 1: delegate_task</summary>
 
 
 ```text
@@ -32,7 +32,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #2 · Main agent — decision 2: delegate_task</summary>
+<summary>Source event 2 · Main agent — decision 2: delegate_task</summary>
 
 
 ```text
@@ -58,7 +58,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #3 · Main agent — decision 3: finalize_task</summary>
+<summary>Source event 3 · Main agent — decision 3: finalize_task</summary>
 
 
 ```text
@@ -80,7 +80,7 @@ SUB-AGENT SESSION 1
 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: Initial system configuration</summary>
+<summary>Source event 4 · Sub-agent 1: Initial system configuration</summary>
 
 
 ```text
@@ -238,7 +238,7 @@ The search looks for partial matches in first name, last name, phone number, and
 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -254,7 +254,7 @@ The search looks for partial matches in first name, last name, phone number, and
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: model output</summary>
+<summary>Source event 6 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -272,7 +272,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result</summary>
+<summary>Source event 7 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -286,7 +286,7 @@ Action:
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 7 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -298,7 +298,7 @@ ReturnedEmails(emails=[Email(sender='rohankumar.advocate@gaia2mail.com', recipie
 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 7 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -311,7 +311,7 @@ ients=['kaia.papadopoulos@student.unimelb.edu.au'], subject='Exploring the Inter
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: model output</summary>
+<summary>Source event 8 · Sub-agent 1: model output</summary>
 
 
 ```text

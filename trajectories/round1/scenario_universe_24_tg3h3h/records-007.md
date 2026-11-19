@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #229 · Sub-agent 4: tool result (continued, part 5)</summary>
+<summary>Source event 229 · Sub-agent 4: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ b032d816246c69963a1dc35025daf', parent_id=None, cc=[], attachments={}, timestamp
 
 
 <details>
-<summary>Source event #229 · Sub-agent 4: tool result (continued, part 6)</summary>
+<summary>Source event 229 · Sub-agent 4: tool result (continued, part 6)</summary>
 
 
 ```text
@@ -30,7 +30,7 @@ b032d816246c69963a1dc35025daf', parent_id=None, cc=[], attachments={}, timestamp
 
 
 <details>
-<summary>Source event #230 · Sub-agent 4: model output</summary>
+<summary>Source event 230 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 
 
 <details>
-<summary>Source event #231 · Sub-agent 4: tool result</summary>
+<summary>Source event 231 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #232 · Sub-agent 4: model output</summary>
+<summary>Source event 232 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ Action:
 
 
 <details>
-<summary>Source event #233 · Sub-agent 4: tool result</summary>
+<summary>Source event 233 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -98,7 +98,7 @@ Action:
 
 
 <details>
-<summary>Source event #234 · Sub-agent 4: model output</summary>
+<summary>Source event 234 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -119,7 +119,7 @@ Action:
 
 
 <details>
-<summary>Source event #235 · Sub-agent 4: tool result</summary>
+<summary>Source event 235 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -134,7 +134,7 @@ Action:
 
 
 <details>
-<summary>Source event #236 · Sub-agent 4: model output</summary>
+<summary>Source event 236 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -152,7 +152,7 @@ Action:
 
 
 <details>
-<summary>Source event #237 · Sub-agent 4: tool result</summary>
+<summary>Source event 237 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -167,7 +167,7 @@ Action:
 
 
 <details>
-<summary>Source event #238 · Sub-agent 4: model output</summary>
+<summary>Source event 238 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -187,7 +187,7 @@ Action:
 
 
 <details>
-<summary>Source event #239 · Sub-agent 4: tool result</summary>
+<summary>Source event 239 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -202,7 +202,7 @@ Action:
 
 
 <details>
-<summary>Source event #240 · Sub-agent 4: model output</summary>
+<summary>Source event 240 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -221,7 +221,7 @@ Action:
 
 
 <details>
-<summary>Source event #241 · Sub-agent 4: tool result</summary>
+<summary>Source event 241 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -236,7 +236,7 @@ Action:
 
 
 <details>
-<summary>Source event #242 · Sub-agent 4: model output</summary>
+<summary>Source event 242 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -256,7 +256,7 @@ Action:
 
 
 <details>
-<summary>Source event #243 · Sub-agent 4: tool result</summary>
+<summary>Source event 243 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -271,7 +271,7 @@ Action:
 
 
 <details>
-<summary>Source event #244 · Sub-agent 4: model output</summary>
+<summary>Source event 244 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -291,7 +291,7 @@ Action:
 
 
 <details>
-<summary>Source event #245 · Sub-agent 4: tool result</summary>
+<summary>Source event 245 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -306,7 +306,7 @@ Action:
 
 
 <details>
-<summary>Source event #246 · Sub-agent 4: model output</summary>
+<summary>Source event 246 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -324,7 +324,7 @@ Action:
 
 
 <details>
-<summary>Source event #247 · Sub-agent 4: tool result</summary>
+<summary>Source event 247 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -339,7 +339,7 @@ Action:
 
 
 <details>
-<summary>Source event #248 · Sub-agent 4: model output</summary>
+<summary>Source event 248 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -357,7 +357,7 @@ Action:
 
 
 <details>
-<summary>Source event #249 · Sub-agent 4: tool result</summary>
+<summary>Source event 249 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -372,7 +372,7 @@ Action:
 
 
 <details>
-<summary>Source event #250 · Sub-agent 4: model output</summary>
+<summary>Source event 250 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -390,7 +390,7 @@ Action:
 
 
 <details>
-<summary>Source event #251 · Sub-agent 4: tool result</summary>
+<summary>Source event 251 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -405,7 +405,7 @@ Action:
 
 
 <details>
-<summary>Source event #252 · Sub-agent 4: model output</summary>
+<summary>Source event 252 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -424,7 +424,7 @@ Action:
 
 
 <details>
-<summary>Source event #253 · Sub-agent 4: tool result</summary>
+<summary>Source event 253 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -439,7 +439,7 @@ Action:
 
 
 <details>
-<summary>Source event #254 · Sub-agent 4: model output</summary>
+<summary>Source event 254 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -460,7 +460,7 @@ Action:
 
 
 <details>
-<summary>Source event #255 · Sub-agent 4: tool result</summary>
+<summary>Source event 255 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -488,7 +488,7 @@ Ursula Wiederkehr
 
 
 <details>
-<summary>Source event #256 · Sub-agent 4: model output</summary>
+<summary>Source event 256 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -508,7 +508,7 @@ Action:
 
 
 <details>
-<summary>Source event #257 · Sub-agent 4: tool result</summary>
+<summary>Source event 257 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -523,7 +523,7 @@ Action:
 
 
 <details>
-<summary>Source event #258 · Sub-agent 4: model output</summary>
+<summary>Source event 258 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -544,7 +544,7 @@ Action:
 
 
 <details>
-<summary>Source event #259 · Sub-agent 4: tool result</summary>
+<summary>Source event 259 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -559,7 +559,7 @@ Action:
 
 
 <details>
-<summary>Source event #260 · Sub-agent 4: model output</summary>
+<summary>Source event 260 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -579,7 +579,7 @@ Action:
 
 
 <details>
-<summary>Source event #261 · Sub-agent 4: tool result</summary>
+<summary>Source event 261 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -594,7 +594,7 @@ Action:
 
 
 <details>
-<summary>Source event #262 · Sub-agent 4: model output</summary>
+<summary>Source event 262 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -614,7 +614,7 @@ Action:
 
 
 <details>
-<summary>Source event #263 · Sub-agent 4: tool result</summary>
+<summary>Source event 263 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -629,7 +629,7 @@ Action:
 
 
 <details>
-<summary>Source event #264 · Sub-agent 4: model output</summary>
+<summary>Source event 264 · Sub-agent 4: model output</summary>
 
 
 ```text

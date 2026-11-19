@@ -1,6 +1,8 @@
 # scenario_universe_30_erta5d
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_30_erta5d/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_30_erta5d/README.md) · [Codex](../../codex/round2/scenario_universe_30_erta5d/README.md) · [OpenCode](../../opencode/round2/scenario_universe_30_erta5d/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to monitor messages for 4 minutes and perform specific actions based on the content. I am delegating the entire 4-minute monitoring and processing task to a SubAgent. The SubAgent will use SystemApp tools to manage the timing and the respective app tools to handle calendar, emails, messages, and shopping.
 
@@ -124,11 +126,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #111
+**Initial harness configuration** · Source event 111
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The 4-minute monitoring window is nearly complete (current time 07:03:42). One unread message from Helga Müller-Schmidt was received at 07:03:42. I need a SubAgent to process this message, perform the final 1-minute check at 07:04:00, and provide a comprehensive summary of all actions taken during the spontaneous session.
 

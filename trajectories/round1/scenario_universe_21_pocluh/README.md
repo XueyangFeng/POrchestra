@@ -1,6 +1,8 @@
 # scenario_universe_21_pocluh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_21_pocluh/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_21_pocluh/README.md) · [Codex](../../codex/round1/scenario_universe_21_pocluh/README.md) · [OpenCode](../../opencode/round1/scenario_universe_21_pocluh/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #8
+**Initial harness configuration** · Source event 8
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the zip code of the starting location of the user&#x27;s most expensive cab ride this month (October 2024) and then identify and save the largest property in that zip code.
 
@@ -91,11 +93,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #21
+**Initial harness configuration** · Source event 21
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The first subtask successfully identified the zip code (411 19) and the largest property (Göteborg Glamour, Price: 1500). Now I need to identify the relevant conversations in Messages and Chats, send the inquiry message, and purchase the &#x27;Herbaceous&#x27; gifts for the participants.
 
@@ -185,11 +187,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #87
+**Initial harness configuration** · Source event 87
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 Attempt 2 reached the step limit without completing the messaging and ordering tasks. I am delegating a new task to identify the relevant conversations, send the messages, and order the gifts using the information found in Attempt 1 (Zip code 411 19, Property &#x27;Göteborg Glamour&#x27;, Price 1500).
 
@@ -277,11 +279,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #153
+**Initial harness configuration** · Source event 153
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 The previous agent correctly identified the zip code (411 19) and the largest property (Göteborg Glamour, price 1500), saving it to favorites. However, it failed to map conversation participants to contacts because it didn&#x27;t use the search tool. I will now coordinate a subtask to resolve the contact mapping using search, identify the qualifying conversations, send the required messages, and order the gifts.
 
@@ -373,11 +375,11 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 
 ### S5 configuration v1
 
-**Initial harness configuration** · Source event #219
+**Initial harness configuration** · Source event 219
 
 **Initial delegation**
 
-`delegate_task` · Source event #5
+`delegate_task` · Source event 5
 
 The previous agent identified the target zip code (411 19) and the property to inquire about (Göteborg Glamour at 1500), but reached its step limit while trying to resolve participants. I will now coordinate a SubAgent to identify contacts in that zip code, match them to conversations, send the required messages, and order the gifts.
 
@@ -473,11 +475,11 @@ Full system configuration: [Part 1](config-s5-v1-01.md)
 
 ### S6 configuration v1
 
-**Initial harness configuration** · Source event #282
+**Initial harness configuration** · Source event 282
 
 **Initial delegation**
 
-`delegate_task` · Source event #6
+`delegate_task` · Source event 6
 
 The previous SubAgents have identified the target zip code (411 19), the property to inquire about (Göteborg Glamour, price 1500), and the only contact whose home address is in that zip code (Göran Lundström, phone +46311234567). I now need to find all conversations in Messages and Chats involving this contact, send the specified message to those conversations, and order the &#x27;Herbaceous&#x27; gifts for all participants in those conversations (excluding the user).
 
@@ -563,7 +565,7 @@ Full system configuration: [Part 1](config-s6-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #7</summary>
+<summary>Source event 7</summary>
 
 
 ```text

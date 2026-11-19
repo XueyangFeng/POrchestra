@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #84 · Sub-agent 5: user / environment input</summary>
+<summary>Source event 84 · Sub-agent 5: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #85 · Sub-agent 5: model output
+## Source event 85 · Sub-agent 5: model output
 
 ```text
 I'll start by searching for three-bedroom property listings in London.
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #86 · Sub-agent 5: tool result</summary>
+<summary>Source event 86 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Action:
 </details>
 
 
-## Source event #87 · Sub-agent 5: model output
+## Source event 87 · Sub-agent 5: model output
 
 ```text
 The search returned one listing. Let me verify its details.
@@ -69,7 +69,7 @@ Action:
 
 
 <details>
-<summary>Source event #88 · Sub-agent 5: tool result</summary>
+<summary>Source event 88 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -83,7 +83,7 @@ Apartment(name='London Luxury', location='901 Oxford Street, London, W1C 1DA', z
 </details>
 
 
-## Source event #89 · Sub-agent 5: model output
+## Source event 89 · Sub-agent 5: model output
 
 ```text
 Location confirmed: 901 Oxford Street, London, W1C 1DA. Let me verify the route with a quotation before ordering.
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #90 · Sub-agent 5: tool result</summary>
+<summary>Source event 90 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -126,7 +126,7 @@ Ride ID: c3de44121c4644ae524e7f6470b6f5f7
 </details>
 
 
-## Source event #91 · Sub-agent 5: model output
+## Source event 91 · Sub-agent 5: model output
 
 ```text
 Quotation confirmed for Premium service. Now ordering the ride.
@@ -146,7 +146,7 @@ Action:
 
 
 <details>
-<summary>Source event #92 · Sub-agent 5: tool result</summary>
+<summary>Source event 92 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -169,7 +169,7 @@ Ride ID: f2b176c2b9442bcd8166419c847a3869
 </details>
 
 
-## Source event #93 · Sub-agent 5: model output
+## Source event 93 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -218,7 +218,7 @@ Action:
 
 
 <details>
-<summary>Source event #94 · Sub-agent 5: tool result</summary>
+<summary>Source event 94 · Sub-agent 5: tool result</summary>
 
 
 ```text

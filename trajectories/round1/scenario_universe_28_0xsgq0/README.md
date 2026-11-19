@@ -1,6 +1,8 @@
 # scenario_universe_28_0xsgq0
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_28_0xsgq0/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_28_0xsgq0/README.md) · [Codex](../../codex/round1/scenario_universe_28_0xsgq0/README.md) · [OpenCode](../../opencode/round1/scenario_universe_28_0xsgq0/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to find the user&#x27;s name, August 2024 calendar events, filter them by &#x27;Free Time&#x27; and &#x27;Networking Event&#x27; on the same days, look up the attendees&#x27; ages in contacts (excluding the user), compute the average, round it, and find the number of contacts within 3 years of that age.
 
@@ -88,7 +90,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #2</summary>
+<summary>Source event 2</summary>
 
 
 ```text

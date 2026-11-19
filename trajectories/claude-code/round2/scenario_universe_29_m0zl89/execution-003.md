@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #261 · Main agent: Tool result: call_00_7rj14szbi7r0n98v7yz15yb1 (is_error=False)</summary>
+<summary>Source event 261 · Main agent: Tool result: call_00_7rj14szbi7r0n98v7yz15yb1 (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #262 · Main agent: Tool result: call_01_59x4wwrrd8fq1lpz11l7hxzm (is_error=False)</summary>
+<summary>Source event 262 · Main agent: Tool result: call_01_59x4wwrrd8fq1lpz11l7hxzm (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #263 · Main agent: Tool result: call_02_7q60l0vc4ds52pk68932fyh5 (is_error=False)</summary>
+<summary>Source event 263 · Main agent: Tool result: call_02_7q60l0vc4ds52pk68932fyh5 (is_error=False)</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #264 · Main agent: Tool result: call_03_ivg5tch7uh99tl47byl0665b (is_error=False)</summary>
+<summary>Source event 264 · Main agent: Tool result: call_03_ivg5tch7uh99tl47byl0665b (is_error=False)</summary>
 
 
 ```text
@@ -72,7 +72,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #265 · Main agent: Model message
+## Source event 265 · Main agent: Model message
 
 ```text
 All verified:
@@ -261,7 +261,7 @@ Let me produce concise summary.
 
 
 
-## Source event #266 · Main agent: Model message
+## Source event 266 · Main agent: Model message
 
 ```text
 All tasks are complete and verified. Here's a summary:
@@ -302,7 +302,7 @@ Created group **"Living in Bengaluru"** with those 5 and sent: *"Hi everyone! I'
 
 
 <details>
-<summary>Source event #267 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 267 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -346,7 +346,7 @@ Created group **"Living in Bengaluru"** with those 5 and sent: *"Hi everyone! I'
 
 
 <details>
-<summary>Source event #268 · Judge: Judge rationale</summary>
+<summary>Source event 268 · Judge: Judge rationale</summary>
 
 
 ```text

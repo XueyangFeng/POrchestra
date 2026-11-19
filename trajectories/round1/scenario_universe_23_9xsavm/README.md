@@ -1,6 +1,8 @@
 # scenario_universe_23_9xsavm
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_23_9xsavm/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_23_9xsavm/README.md) · [Codex](../../codex/round1/scenario_universe_23_9xsavm/README.md) · [OpenCode](../../opencode/round1/scenario_universe_23_9xsavm/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, we need to schedule the &#x27;Game Night&#x27; event in the calendar for Friday, October 18, 2024 from 7:00 PM to 11:00 PM with the tag &#x27;social&#x27; and location &#x27;home&#x27;. Then, we need to lookup Eliška Nováková, Luiza Oliveira Silva, and Saskia König in Messages (and fallback to Chats if not found in Messages) and send each of them an individual invite. Finally, we need to notify the user that these invites have been sent.
 

@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #424 · Sub-agent 7: tool result</summary>
+<summary>Source event 424 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #425 · Sub-agent 7: model output</summary>
+<summary>Source event 425 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #426 · Sub-agent 7: tool result</summary>
+<summary>Source event 426 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 
 
 <details>
-<summary>Source event #427 · Sub-agent 7: model output</summary>
+<summary>Source event 427 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -71,7 +71,7 @@ Action:
 
 
 <details>
-<summary>Source event #428 · Sub-agent 7: tool result</summary>
+<summary>Source event 428 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Action:
 
 
 <details>
-<summary>Source event #429 · Sub-agent 7: model output</summary>
+<summary>Source event 429 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -104,7 +104,7 @@ Action:
 
 
 <details>
-<summary>Source event #430 · Sub-agent 7: tool result</summary>
+<summary>Source event 430 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -119,7 +119,7 @@ Action:
 
 
 <details>
-<summary>Source event #431 · Sub-agent 7: model output</summary>
+<summary>Source event 431 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ Action:
 
 
 <details>
-<summary>Source event #432 · Sub-agent 7: tool result</summary>
+<summary>Source event 432 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -152,7 +152,7 @@ Action:
 
 
 <details>
-<summary>Source event #433 · Sub-agent 7: model output</summary>
+<summary>Source event 433 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ Action:
 
 
 <details>
-<summary>Source event #434 · Sub-agent 7: tool result</summary>
+<summary>Source event 434 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -185,7 +185,7 @@ b''
 
 
 <details>
-<summary>Source event #435 · Sub-agent 7: model output</summary>
+<summary>Source event 435 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -203,7 +203,7 @@ Action:
 
 
 <details>
-<summary>Source event #436 · Sub-agent 7: tool result</summary>
+<summary>Source event 436 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -228,7 +228,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #437 · Sub-agent 7: model output</summary>
+<summary>Source event 437 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -246,7 +246,7 @@ Action:
 
 
 <details>
-<summary>Source event #438 · Sub-agent 7: tool result</summary>
+<summary>Source event 438 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -261,7 +261,7 @@ Action:
 
 
 <details>
-<summary>Source event #439 · Sub-agent 7: model output</summary>
+<summary>Source event 439 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -279,7 +279,7 @@ Action:
 
 
 <details>
-<summary>Source event #440 · Sub-agent 7: tool result</summary>
+<summary>Source event 440 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -294,7 +294,7 @@ Action:
 
 
 <details>
-<summary>Source event #441 · Sub-agent 7: model output</summary>
+<summary>Source event 441 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -310,7 +310,7 @@ Action:
 
 
 <details>
-<summary>Source event #442 · Sub-agent 7: tool result</summary>
+<summary>Source event 442 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -325,7 +325,7 @@ Action:
 
 
 <details>
-<summary>Source event #443 · Sub-agent 7: tool result</summary>
+<summary>Source event 443 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -344,7 +344,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #444 · Sub-agent 7: model output</summary>
+<summary>Source event 444 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -360,7 +360,7 @@ Action:
 
 
 <details>
-<summary>Source event #445 · Sub-agent 7: tool result</summary>
+<summary>Source event 445 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -375,7 +375,7 @@ Action:
 
 
 <details>
-<summary>Source event #446 · Sub-agent 7: model output</summary>
+<summary>Source event 446 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -393,7 +393,7 @@ Action:
 
 
 <details>
-<summary>Source event #447 · Sub-agent 7: tool result</summary>
+<summary>Source event 447 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -421,7 +421,7 @@ Ursula Wiederkehr
 
 
 <details>
-<summary>Source event #448 · Sub-agent 7: model output</summary>
+<summary>Source event 448 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -439,7 +439,7 @@ Action:
 
 
 <details>
-<summary>Source event #449 · Sub-agent 7: tool result</summary>
+<summary>Source event 449 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -467,7 +467,7 @@ Ursula Wiederkehr
 
 
 <details>
-<summary>Source event #450 · Sub-agent 7: tool result</summary>
+<summary>Source event 450 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -486,7 +486,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #451 · Sub-agent 7: model output</summary>
+<summary>Source event 451 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -504,7 +504,7 @@ Action:
 
 
 <details>
-<summary>Source event #452 · Sub-agent 7: tool result</summary>
+<summary>Source event 452 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -532,7 +532,7 @@ Alethea Fothergill
 
 
 <details>
-<summary>Source event #453 · Sub-agent 7: model output</summary>
+<summary>Source event 453 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -550,7 +550,7 @@ Action:
 
 
 <details>
-<summary>Source event #454 · Sub-agent 7: tool result</summary>
+<summary>Source event 454 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -578,7 +578,7 @@ Elara von Allmen
 
 
 <details>
-<summary>Source event #455 · Sub-agent 7: model output</summary>
+<summary>Source event 455 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -596,7 +596,7 @@ Action:
 
 
 <details>
-<summary>Source event #456 · Sub-agent 7: tool result</summary>
+<summary>Source event 456 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -611,7 +611,7 @@ Action:
 
 
 <details>
-<summary>Source event #457 · Sub-agent 7: model output</summary>
+<summary>Source event 457 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -629,7 +629,7 @@ Action:
 
 
 <details>
-<summary>Source event #458 · Sub-agent 7: tool result</summary>
+<summary>Source event 458 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -644,7 +644,7 @@ Action:
 
 
 <details>
-<summary>Source event #459 · Sub-agent 7: model output</summary>
+<summary>Source event 459 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -662,7 +662,7 @@ Action:
 
 
 <details>
-<summary>Source event #460 · Sub-agent 7: tool result</summary>
+<summary>Source event 460 · Sub-agent 7: tool result</summary>
 
 
 ```text
@@ -677,7 +677,7 @@ Action:
 
 
 <details>
-<summary>Source event #461 · Sub-agent 7: model output</summary>
+<summary>Source event 461 · Sub-agent 7: model output</summary>
 
 
 ```text
@@ -728,7 +728,7 @@ SUB-AGENT SESSION 8
 
 
 <details>
-<summary>Source event #462 · Sub-agent 8: Initial system configuration</summary>
+<summary>Source event 462 · Sub-agent 8: Initial system configuration</summary>
 
 
 ```text
@@ -925,7 +925,7 @@ Returns the Ids of the matching conversations. Returns: list[str]
 
 
 <details>
-<summary>Source event #463 · Sub-agent 8: user / environment input</summary>
+<summary>Source event 463 · Sub-agent 8: user / environment input</summary>
 
 
 ```text
@@ -942,7 +942,7 @@ Returns the Ids of the matching conversations. Returns: list[str]
 
 
 <details>
-<summary>Source event #464 · Sub-agent 8: model output</summary>
+<summary>Source event 464 · Sub-agent 8: model output</summary>
 
 
 ```text
@@ -961,7 +961,7 @@ Action:
 
 
 <details>
-<summary>Source event #465 · Sub-agent 8: tool result</summary>
+<summary>Source event 465 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -976,7 +976,7 @@ Action:
 
 
 <details>
-<summary>Source event #466 · Sub-agent 8: tool result</summary>
+<summary>Source event 466 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -1001,7 +1001,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #467 · Sub-agent 8: model output</summary>
+<summary>Source event 467 · Sub-agent 8: model output</summary>
 
 
 ```text
@@ -1020,7 +1020,7 @@ Action:
 
 
 <details>
-<summary>Source event #468 · Sub-agent 8: tool result</summary>
+<summary>Source event 468 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -1035,7 +1035,7 @@ Action:
 
 
 <details>
-<summary>Source event #469 · Sub-agent 8: model output</summary>
+<summary>Source event 469 · Sub-agent 8: model output</summary>
 
 
 ```text
@@ -1054,7 +1054,7 @@ Action:
 
 
 <details>
-<summary>Source event #470 · Sub-agent 8: tool result</summary>
+<summary>Source event 470 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -1069,7 +1069,7 @@ Action:
 
 
 <details>
-<summary>Source event #471 · Sub-agent 8: model output</summary>
+<summary>Source event 471 · Sub-agent 8: model output</summary>
 
 
 ```text

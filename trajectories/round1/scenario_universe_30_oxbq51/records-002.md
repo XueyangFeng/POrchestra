@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: model output</summary>
+<summary>Source event 28 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -42,7 +42,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -57,7 +57,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 1: model output</summary>
+<summary>Source event 30 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -90,7 +90,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: tool result</summary>
+<summary>Source event 32 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -114,7 +114,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -138,7 +138,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: model output</summary>
+<summary>Source event 34 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -156,7 +156,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -171,7 +171,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: model output</summary>
+<summary>Source event 36 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -208,7 +208,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result</summary>
+<summary>Source event 37 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -223,7 +223,7 @@ None
 
 
 <details>
-<summary>Source event #38 · Judge rationale</summary>
+<summary>Source event 38 · Judge rationale</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_28_238kfx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_28_238kfx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_28_238kfx/README.md) · [Codex](../../codex/round1/scenario_universe_28_238kfx/README.md) · [OpenCode](../../opencode/round1/scenario_universe_28_238kfx/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to find the city where the user took a cab on October 5th, 2024, and then update their saved properties in that city according to the specified price criteria ($1800).
 

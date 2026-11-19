@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #82 · Sub-agent 2: tool result</summary>
+<summary>Source event 82 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #83 · Sub-agent 2: model output</summary>
+<summary>Source event 83 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #84 · Sub-agent 2: tool result</summary>
+<summary>Source event 84 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Event 8fce113de00ea4a218ab94f8a582ba16 successfully deleted.
 
 
 <details>
-<summary>Source event #85 · Sub-agent 2: tool result</summary>
+<summary>Source event 85 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -74,7 +74,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #86 · Sub-agent 2: model output</summary>
+<summary>Source event 86 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -95,7 +95,7 @@ Action:
 
 
 <details>
-<summary>Source event #87 · Sub-agent 2: tool result</summary>
+<summary>Source event 87 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -110,7 +110,7 @@ Action:
 
 
 <details>
-<summary>Source event #88 · Sub-agent 2: model output</summary>
+<summary>Source event 88 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -133,7 +133,7 @@ Action:
 
 
 <details>
-<summary>Source event #89 · Sub-agent 2: tool result</summary>
+<summary>Source event 89 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -148,7 +148,7 @@ Action:
 
 
 <details>
-<summary>Source event #90 · Sub-agent 2: model output</summary>
+<summary>Source event 90 · Sub-agent 2: model output</summary>
 
 
 ```text
@@ -221,7 +221,7 @@ Action:
 
 
 <details>
-<summary>Source event #91 · Sub-agent 2: tool result</summary>
+<summary>Source event 91 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -236,7 +236,7 @@ Action:
 
 
 <details>
-<summary>Source event #92 · Judge rationale</summary>
+<summary>Source event 92 · Judge rationale</summary>
 
 
 ```text

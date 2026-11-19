@@ -1,6 +1,8 @@
 # scenario_universe_28_k31e8j
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_28_k31e8j/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_28_k31e8j/README.md) · [Codex](../../codex/round1/scenario_universe_28_k31e8j/README.md) · [OpenCode](../../opencode/round1/scenario_universe_28_k31e8j/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to monitor calendar events for the upcoming weekend (Friday Oct 18 to Sunday Oct 20, 2024) for the next 4 minutes. If any events are canceled by someone else, the agent must immediately message that person (on Messages first, then Chats) asking &#x27;why they removed the event&#x27;. If at least 4 events are removed, the user must be notified at 07:04:10. I am delegating this monitoring and communication task to a SubAgent.
 

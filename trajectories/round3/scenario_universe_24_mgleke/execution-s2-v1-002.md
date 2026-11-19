@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #95 · Sub-agent 2: tool result</summary>
+<summary>Source event 95 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #96 · Sub-agent 2: model output
+## Source event 96 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -36,7 +36,7 @@ Action:
 
 
 <details>
-<summary>Source event #97 · Sub-agent 2: tool result</summary>
+<summary>Source event 97 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 </details>
 
 
-## Source event #98 · Sub-agent 2: model output
+## Source event 98 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -67,7 +67,7 @@ Action:
 
 
 <details>
-<summary>Source event #99 · Sub-agent 2: tool result</summary>
+<summary>Source event 99 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Action:
 </details>
 
 
-## Source event #100 · Sub-agent 2: model output
+## Source event 100 · Sub-agent 2: model output
 
 ```text
 Continuing to page through all Chats conversations.
@@ -100,7 +100,7 @@ Action:
 
 
 <details>
-<summary>Source event #101 · Sub-agent 2: tool result</summary>
+<summary>Source event 101 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -114,7 +114,7 @@ Action:
 </details>
 
 
-## Source event #102 · Sub-agent 2: model output
+## Source event 102 · Sub-agent 2: model output
 
 ```text
 Thought: I could not find Akua Nkrumah in Chats after exhaustive lookup (name, phone, email, first name, last name variants all returned `{}`/`None`), despite the fuzzy lookup working correctly for a control contact ("Lukas Rieder"). The Chats app's conversation corpus belongs to a different persona (Ursula, id `84908bb6-c5c9-4973-8a38-4f9f331d0e2c`) and contains no Akua. In Messages, Akua's exact-match ID is `+32479128456` and she appears in exactly 5 conversations (offset 5 returned empty). Total = 5. Handing off to MainAgent since the final user message has not yet been sent.

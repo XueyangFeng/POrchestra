@@ -1,6 +1,8 @@
 # scenario_universe_23_h61xk3
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_23_h61xk3/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_23_h61xk3/README.md) · [Codex](../../codex/round3/scenario_universe_23_h61xk3/README.md) · [OpenCode](../../opencode/round3/scenario_universe_23_h61xk3/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to purchase the requested balloons and email Eliška Nováková to verify the purchase. This involves searching for the product, completing the checkout, finding the contact&#x27;s email, and communicating with both the contact and the user.
 
@@ -87,7 +89,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #22
+**Harness configuration updated** · Source event 22
 
 **1. Sub-agent revision request**
 
@@ -96,7 +98,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Subtask steps 1-4 completed: purchased 1 × Bollovi Confetti Balloons (latex, air-filled, individual bags, $8.98), Order ID e042d12db6e54342adf440fde6efc010; found Eliška Nováková (elnovakova@student.cuni.cz); sent her the confirmation email (message id a7a6559237dfccab98f2b1970584c7a3); user notified via AgentUserInterface. Immediately after, three new email-received notifications arrived. I have no tool to read emails or cancel orders, so I cannot check whether Eliška replied that the item was wrong.
 ```
 <details>
-<summary>Request and evidence · source event #20</summary>
+<summary>Request and evidence · source event 20</summary>
 
 
 ```text
@@ -148,7 +150,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent successfully performed the initial purchase and sent the inquiry email. New email notifications have arrived, and according to the original task, the agent must check if Eliška replied that the purchase was incorrect. I am granting the necessary tools to read emails and cancel the order, and extending the task to handle Eliška&#x27;s potential response.
 

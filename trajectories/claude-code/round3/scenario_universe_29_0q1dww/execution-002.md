@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #47 · Main agent: Model message
+## Source event 47 · Main agent: Model message
 
 ```text
 Hmm, "Rohini Kumar" contact is 62, Australian, Melbourne, Former Librarian. That doesn't sound like sister of Indian Rohan Kumar in Mumbai. And "Rohini Naidu" 67, Bengaluru, retired museum curator. Neither obviously a sister. The calendar events might be generated filler with random names, not actual sisters. Hmm.
@@ -32,7 +32,7 @@ Let me checkout now.
 
 
 
-## Source event #48 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_kou33rimw0jvnr8kqpyl9rg9)
+## Source event 48 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_kou33rimw0jvnr8kqpyl9rg9)
 
 ```text
 {
@@ -43,7 +43,7 @@ Let me checkout now.
 
 
 <details>
-<summary>Source event #49 · Main agent: Tool result: call_00_kou33rimw0jvnr8kqpyl9rg9 (is_error=False)</summary>
+<summary>Source event 49 · Main agent: Tool result: call_00_kou33rimw0jvnr8kqpyl9rg9 (is_error=False)</summary>
 
 
 ```text
@@ -59,7 +59,7 @@ Let me checkout now.
 </details>
 
 
-## Source event #50 · Main agent: Model message
+## Source event 50 · Main agent: Model message
 
 ```text
 Order created. Let me get order details.
@@ -67,7 +67,7 @@ Order created. Let me get order details.
 
 
 
-## Source event #51 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_ldx4bjn4a43l30fl7y0nss53)
+## Source event 51 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_ldx4bjn4a43l30fl7y0nss53)
 
 ```text
 {
@@ -77,7 +77,7 @@ Order created. Let me get order details.
 
 
 
-## Source event #52 · Main agent: Model tool call: mcp__gaia2__Messages__list_recent_conversations (call_01_tp7vxcv8peuhcx8v56dvcu1f)
+## Source event 52 · Main agent: Model tool call: mcp__gaia2__Messages__list_recent_conversations (call_01_tp7vxcv8peuhcx8v56dvcu1f)
 
 ```text
 {
@@ -89,7 +89,7 @@ Order created. Let me get order details.
 
 
 <details>
-<summary>Source event #53 · Main agent: Tool result: call_00_ldx4bjn4a43l30fl7y0nss53 (is_error=False)</summary>
+<summary>Source event 53 · Main agent: Tool result: call_00_ldx4bjn4a43l30fl7y0nss53 (is_error=False)</summary>
 
 
 ```text
@@ -106,7 +106,7 @@ Order created. Let me get order details.
 
 
 <details>
-<summary>Source event #54 · Main agent: Tool result: call_01_tp7vxcv8peuhcx8v56dvcu1f (is_error=True)</summary>
+<summary>Source event 54 · Main agent: Tool result: call_01_tp7vxcv8peuhcx8v56dvcu1f (is_error=True)</summary>
 
 
 ```text
@@ -124,7 +124,7 @@ e.g. list_recent_conversations(0, 5) will list the 5 most recent conversations. 
 </details>
 
 
-## Source event #55 · Main agent: Model message
+## Source event 55 · Main agent: Model message
 
 ```text
 Order total 39.5901 → rounds to 39.59. Order status processed.
@@ -140,7 +140,7 @@ Let me list recent conversations (limit 5) and lookup Rohini Naidu / Rohini Kuma
 
 
 
-## Source event #56 · Main agent: Model tool call: mcp__gaia2__Messages__list_recent_conversations (call_00_cea233wk3kztu4njw5od2cmy)
+## Source event 56 · Main agent: Model tool call: mcp__gaia2__Messages__list_recent_conversations (call_00_cea233wk3kztu4njw5od2cmy)
 
 ```text
 {
@@ -151,7 +151,7 @@ Let me list recent conversations (limit 5) and lookup Rohini Naidu / Rohini Kuma
 
 
 
-## Source event #57 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_01_o9ek5i87ipzpjp89z5eiba4v)
+## Source event 57 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_01_o9ek5i87ipzpjp89z5eiba4v)
 
 ```text
 {
@@ -161,7 +161,7 @@ Let me list recent conversations (limit 5) and lookup Rohini Naidu / Rohini Kuma
 
 
 
-## Source event #58 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_02_bok6kygvef8pli1bhvqa2gxh)
+## Source event 58 · Main agent: Model tool call: mcp__gaia2__Messages__lookup_user_id (call_02_bok6kygvef8pli1bhvqa2gxh)
 
 ```text
 {
@@ -172,7 +172,7 @@ Let me list recent conversations (limit 5) and lookup Rohini Naidu / Rohini Kuma
 
 
 <details>
-<summary>Source event #59 · Main agent: Tool result: call_00_cea233wk3kztu4njw5od2cmy (is_error=False)</summary>
+<summary>Source event 59 · Main agent: Tool result: call_00_cea233wk3kztu4njw5od2cmy (is_error=False)</summary>
 
 
 ```text
@@ -189,7 +189,7 @@ Let me list recent conversations (limit 5) and lookup Rohini Naidu / Rohini Kuma
 
 
 <details>
-<summary>Source event #60 · Main agent: Tool result: call_01_o9ek5i87ipzpjp89z5eiba4v (is_error=False)</summary>
+<summary>Source event 60 · Main agent: Tool result: call_01_o9ek5i87ipzpjp89z5eiba4v (is_error=False)</summary>
 
 
 ```text
@@ -206,7 +206,7 @@ Let me list recent conversations (limit 5) and lookup Rohini Naidu / Rohini Kuma
 
 
 <details>
-<summary>Source event #61 · Main agent: Tool result: call_02_bok6kygvef8pli1bhvqa2gxh (is_error=False)</summary>
+<summary>Source event 61 · Main agent: Tool result: call_02_bok6kygvef8pli1bhvqa2gxh (is_error=False)</summary>
 
 
 ```text
@@ -222,7 +222,7 @@ Let me list recent conversations (limit 5) and lookup Rohini Naidu / Rohini Kuma
 </details>
 
 
-## Source event #62 · Main agent: Model message
+## Source event 62 · Main agent: Model message
 
 ```text
 Both found in Messages:
@@ -246,7 +246,7 @@ Let me send.
 
 
 
-## Source event #63 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_mtlfa1x0z5ufmazyz4chplcd)
+## Source event 63 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_mtlfa1x0z5ufmazyz4chplcd)
 
 ```text
 {
@@ -257,7 +257,7 @@ Let me send.
 
 
 <details>
-<summary>Source event #64 · Main agent: Tool result: call_00_mtlfa1x0z5ufmazyz4chplcd (is_error=False)</summary>
+<summary>Source event 64 · Main agent: Tool result: call_00_mtlfa1x0z5ufmazyz4chplcd (is_error=False)</summary>
 
 
 ```text
@@ -273,7 +273,7 @@ Let me send.
 </details>
 
 
-## Source event #65 · Main agent: Model message
+## Source event 65 · Main agent: Model message
 
 ```text
 Now the turn ended? I can continue in same response? Tool returned None. Let me wait for notification to see if cancelled. Use SystemApp.wait_for_notification with timeout maybe 60s. But the environment's simulated time may advance. Let me wait.
@@ -283,7 +283,7 @@ Actually, note the current time in environment is 2024-10-15T07:00. Order placed
 
 
 
-## Source event #66 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_fx5ly5ke7mwqh2n0lpcvs4yl)
+## Source event 66 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_fx5ly5ke7mwqh2n0lpcvs4yl)
 
 ```text
 {
@@ -294,7 +294,7 @@ Actually, note the current time in environment is 2024-10-15T07:00. Order placed
 
 
 <details>
-<summary>Source event #67 · Main agent: Tool result: call_00_fx5ly5ke7mwqh2n0lpcvs4yl (is_error=True)</summary>
+<summary>Source event 67 · Main agent: Tool result: call_00_fx5ly5ke7mwqh2n0lpcvs4yl (is_error=True)</summary>
 
 
 ```text
@@ -305,7 +305,7 @@ The ARE user turn has ended. Return your final response; further app actions are
 </details>
 
 
-## Source event #68 · Main agent: Model message
+## Source event 68 · Main agent: Model message
 
 ```text
 The turn has ended. So I need to output a final response, and then presumably the system will re-invoke me with notifications? Hmm. The harness says user-message notifications update the user task; application observations arrive. Since the user turn ended, I must end my response. Maybe on next turn I'll get the cancellation notification.
@@ -317,7 +317,7 @@ Wait but this is an agentic eval; they will inject notifications as new user mes
 
 
 
-## Source event #69 · Main agent: Model message
+## Source event 69 · Main agent: Model message
 
 ```text
 Order placed for 3 costumes (Size Medium, Spandex, helmet included) with the best code **KK5MNXMN8Q** — 67% off, total **$39.59**.
@@ -326,7 +326,7 @@ Order placed for 3 costumes (Size Medium, Spandex, helmet included) with the bes
 
 
 <details>
-<summary>Source event #70 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 70 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -337,7 +337,7 @@ Order placed for 3 costumes (Size Medium, Spandex, helmet included) with the bes
 </details>
 
 
-## Source event #71 · Main agent: Model message
+## Source event 71 · Main agent: Model message
 
 ```text
 First order cancelled. Now try next best code: AAJUZ938RK (49% off), same item 85b94f26, quantity 3.
@@ -355,7 +355,7 @@ Let me add.
 
 
 
-## Source event #72 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_0zlp8xrmxhoim2pwgvcexlgr)
+## Source event 72 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_0zlp8xrmxhoim2pwgvcexlgr)
 
 ```text
 {
@@ -367,7 +367,7 @@ Let me add.
 
 
 <details>
-<summary>Source event #73 · Main agent: Tool result: call_00_0zlp8xrmxhoim2pwgvcexlgr (is_error=False)</summary>
+<summary>Source event 73 · Main agent: Tool result: call_00_0zlp8xrmxhoim2pwgvcexlgr (is_error=False)</summary>
 
 
 ```text
@@ -383,7 +383,7 @@ Let me add.
 </details>
 
 
-## Source event #74 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_92ssu73bxzl1vjvwpyrcbw40)
+## Source event 74 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_92ssu73bxzl1vjvwpyrcbw40)
 
 ```text
 {}
@@ -392,7 +392,7 @@ Let me add.
 
 
 <details>
-<summary>Source event #75 · Main agent: Tool result: call_00_92ssu73bxzl1vjvwpyrcbw40 (is_error=False)</summary>
+<summary>Source event 75 · Main agent: Tool result: call_00_92ssu73bxzl1vjvwpyrcbw40 (is_error=False)</summary>
 
 
 ```text
@@ -408,7 +408,7 @@ Let me add.
 </details>
 
 
-## Source event #76 · Main agent: Model message
+## Source event 76 · Main agent: Model message
 
 ```text
 Checkout with AAJUZ938RK.
@@ -416,7 +416,7 @@ Checkout with AAJUZ938RK.
 
 
 
-## Source event #77 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_zgnyfeeiwtkookxw2tt7g8zs)
+## Source event 77 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_zgnyfeeiwtkookxw2tt7g8zs)
 
 ```text
 {
@@ -427,7 +427,7 @@ Checkout with AAJUZ938RK.
 
 
 <details>
-<summary>Source event #78 · Main agent: Tool result: call_00_zgnyfeeiwtkookxw2tt7g8zs (is_error=False)</summary>
+<summary>Source event 78 · Main agent: Tool result: call_00_zgnyfeeiwtkookxw2tt7g8zs (is_error=False)</summary>
 
 
 ```text
@@ -443,7 +443,7 @@ Checkout with AAJUZ938RK.
 </details>
 
 
-## Source event #79 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_brtmmky1l5lkyd752vcjjrsk)
+## Source event 79 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_brtmmky1l5lkyd752vcjjrsk)
 
 ```text
 {
@@ -454,7 +454,7 @@ Checkout with AAJUZ938RK.
 
 
 <details>
-<summary>Source event #80 · Main agent: Tool result: call_00_brtmmky1l5lkyd752vcjjrsk (is_error=False)</summary>
+<summary>Source event 80 · Main agent: Tool result: call_00_brtmmky1l5lkyd752vcjjrsk (is_error=False)</summary>
 
 
 ```text
@@ -470,7 +470,7 @@ Checkout with AAJUZ938RK.
 </details>
 
 
-## Source event #81 · Main agent: Model message
+## Source event 81 · Main agent: Model message
 
 ```text
 Second order total $61.18, 49% off. Now, since first order cancelled, after second order: create group conversation with two sisters and send message "I may not be able to get what our nephews wanted."
@@ -498,7 +498,7 @@ Let me do it.
 
 
 
-## Source event #82 · Main agent: Model tool call: mcp__gaia2__Messages__create_group_conversation (call_00_7hxhflznigprbyglh2l81qbj)
+## Source event 82 · Main agent: Model tool call: mcp__gaia2__Messages__create_group_conversation (call_00_7hxhflznigprbyglh2l81qbj)
 
 ```text
 {
@@ -513,7 +513,7 @@ Let me do it.
 
 
 <details>
-<summary>Source event #83 · Main agent: Tool result: call_00_7hxhflznigprbyglh2l81qbj (is_error=False)</summary>
+<summary>Source event 83 · Main agent: Tool result: call_00_7hxhflznigprbyglh2l81qbj (is_error=False)</summary>
 
 
 ```text
@@ -529,7 +529,7 @@ Let me do it.
 </details>
 
 
-## Source event #84 · Main agent: Model message
+## Source event 84 · Main agent: Model message
 
 ```text
 Now send message to group. Then message user about order 2.
@@ -541,7 +541,7 @@ Let me send.
 
 
 
-## Source event #85 · Main agent: Model tool call: mcp__gaia2__Messages__send_message_to_group_conversation (call_00_9uy8slppa9otfp7lcrg9f6p4)
+## Source event 85 · Main agent: Model tool call: mcp__gaia2__Messages__send_message_to_group_conversation (call_00_9uy8slppa9otfp7lcrg9f6p4)
 
 ```text
 {
@@ -553,7 +553,7 @@ Let me send.
 
 
 <details>
-<summary>Source event #86 · Main agent: Tool result: call_00_9uy8slppa9otfp7lcrg9f6p4 (is_error=False)</summary>
+<summary>Source event 86 · Main agent: Tool result: call_00_9uy8slppa9otfp7lcrg9f6p4 (is_error=False)</summary>
 
 
 ```text
@@ -569,7 +569,7 @@ Let me send.
 </details>
 
 
-## Source event #87 · Main agent: Model message
+## Source event 87 · Main agent: Model message
 
 ```text
 Now message the user about the second order, mentioning cancellation. Then wait for potential cancellation of second order. But careful: if I send user message, turn ends. And if second order gets cancelled later, notification will come next turn.
@@ -583,7 +583,7 @@ So message: discount 49%, total $61.18, mention previous cancelled.
 
 
 
-## Source event #88 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_ktjcveaz91bkk595kdfs9rjh)
+## Source event 88 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_ktjcveaz91bkk595kdfs9rjh)
 
 ```text
 {
@@ -594,7 +594,7 @@ So message: discount 49%, total $61.18, mention previous cancelled.
 
 
 <details>
-<summary>Source event #89 · Main agent: Tool result: call_00_ktjcveaz91bkk595kdfs9rjh (is_error=False)</summary>
+<summary>Source event 89 · Main agent: Tool result: call_00_ktjcveaz91bkk595kdfs9rjh (is_error=False)</summary>
 
 
 ```text
@@ -610,7 +610,7 @@ So message: discount 49%, total $61.18, mention previous cancelled.
 </details>
 
 
-## Source event #90 · Main agent: Model message
+## Source event 90 · Main agent: Model message
 
 ```text
 Now turn ends; need final response. But wait, the last discount code order is placed. If it gets cancelled, I'll get notification next turn and need to send "Last try, fingers crossed" to group. Since all codes exhausted, no more orders.
@@ -620,7 +620,7 @@ Let me end turn with brief text.
 
 
 
-## Source event #91 · Main agent: Model message
+## Source event 91 · Main agent: Model message
 
 ```text
 Previous order with the 67% code was cancelled; re-ordered with the next best code (49% off), total **$61.18**, and messaged your sisters.
@@ -629,7 +629,7 @@ Previous order with the 67% code was cancelled; re-ordered with the next best co
 
 
 <details>
-<summary>Source event #92 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 92 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -640,7 +640,7 @@ Previous order with the 67% code was cancelled; re-ordered with the next best co
 </details>
 
 
-## Source event #93 · Main agent: Model message
+## Source event 93 · Main agent: Model message
 
 ```text
 Second order cancelled. It was the last discount code (AAJUZ938RK). Orders kept getting cancelled, so send "Last try, fingers crossed" to the group chat.
@@ -817,7 +817,7 @@ Let me proceed.
 
 
 
-## Source event #94 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_e1ayjaz64qc0fumqo9rc3i71)
+## Source event 94 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_e1ayjaz64qc0fumqo9rc3i71)
 
 ```text
 {
@@ -829,7 +829,7 @@ Let me proceed.
 
 
 <details>
-<summary>Source event #95 · Main agent: Tool result: call_00_e1ayjaz64qc0fumqo9rc3i71 (is_error=False)</summary>
+<summary>Source event 95 · Main agent: Tool result: call_00_e1ayjaz64qc0fumqo9rc3i71 (is_error=False)</summary>
 
 
 ```text
@@ -845,7 +845,7 @@ Let me proceed.
 </details>
 
 
-## Source event #96 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_bwouj7ngy9f8fdrkv967pe2e)
+## Source event 96 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_bwouj7ngy9f8fdrkv967pe2e)
 
 ```text
 {}
@@ -854,7 +854,7 @@ Let me proceed.
 
 
 <details>
-<summary>Source event #97 · Main agent: Tool result: call_00_bwouj7ngy9f8fdrkv967pe2e (is_error=False)</summary>
+<summary>Source event 97 · Main agent: Tool result: call_00_bwouj7ngy9f8fdrkv967pe2e (is_error=False)</summary>
 
 
 ```text
@@ -870,7 +870,7 @@ Let me proceed.
 </details>
 
 
-## Source event #98 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_2bn1yb7ac08ur63evcapk7kw)
+## Source event 98 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_2bn1yb7ac08ur63evcapk7kw)
 
 ```text
 {
@@ -881,7 +881,7 @@ Let me proceed.
 
 
 <details>
-<summary>Source event #99 · Main agent: Tool result: call_00_2bn1yb7ac08ur63evcapk7kw (is_error=False)</summary>
+<summary>Source event 99 · Main agent: Tool result: call_00_2bn1yb7ac08ur63evcapk7kw (is_error=False)</summary>
 
 
 ```text
@@ -897,7 +897,7 @@ Let me proceed.
 </details>
 
 
-## Source event #100 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_oauqdcle48v5hqw1t1lx817v)
+## Source event 100 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_oauqdcle48v5hqw1t1lx817v)
 
 ```text
 {
@@ -908,7 +908,7 @@ Let me proceed.
 
 
 <details>
-<summary>Source event #101 · Main agent: Tool result: call_00_oauqdcle48v5hqw1t1lx817v (is_error=False)</summary>
+<summary>Source event 101 · Main agent: Tool result: call_00_oauqdcle48v5hqw1t1lx817v (is_error=False)</summary>
 
 
 ```text
@@ -924,7 +924,7 @@ Let me proceed.
 </details>
 
 
-## Source event #102 · Main agent: Model message
+## Source event 102 · Main agent: Model message
 
 ```text
 Order 3 total $98.67, 6% off. This is the last discount code. Since orders kept getting cancelled (first two), send "Last try, fingers crossed" to the group chat. Then message user about order 3 (6%, $98.67, mention cancellation).
@@ -938,7 +938,7 @@ Let me send group message then user message.
 
 
 
-## Source event #103 · Main agent: Model tool call: mcp__gaia2__Messages__send_message_to_group_conversation (call_00_uolfiy43pfhkp4cw82wptzju)
+## Source event 103 · Main agent: Model tool call: mcp__gaia2__Messages__send_message_to_group_conversation (call_00_uolfiy43pfhkp4cw82wptzju)
 
 ```text
 {
@@ -950,7 +950,7 @@ Let me send group message then user message.
 
 
 <details>
-<summary>Source event #104 · Main agent: Tool result: call_00_uolfiy43pfhkp4cw82wptzju (is_error=False)</summary>
+<summary>Source event 104 · Main agent: Tool result: call_00_uolfiy43pfhkp4cw82wptzju (is_error=False)</summary>
 
 
 ```text
@@ -966,7 +966,7 @@ Let me send group message then user message.
 </details>
 
 
-## Source event #105 · Main agent: Model message
+## Source event 105 · Main agent: Model message
 
 ```text
 Now message user about order 3. Then end turn. If order 3 gets cancelled, no more codes; nothing else to do except maybe tell user. But the task says repeat until last code tried. Done.
@@ -976,7 +976,7 @@ Let me send user message.
 
 
 
-## Source event #106 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_y6ystbjw45ojwsdixdzzkkmw)
+## Source event 106 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_y6ystbjw45ojwsdixdzzkkmw)
 
 ```text
 {
@@ -987,7 +987,7 @@ Let me send user message.
 
 
 <details>
-<summary>Source event #107 · Main agent: Tool result: call_00_y6ystbjw45ojwsdixdzzkkmw (is_error=False)</summary>
+<summary>Source event 107 · Main agent: Tool result: call_00_y6ystbjw45ojwsdixdzzkkmw (is_error=False)</summary>
 
 
 ```text
@@ -1003,7 +1003,7 @@ Let me send user message.
 </details>
 
 
-## Source event #108 · Main agent: Model message
+## Source event 108 · Main agent: Model message
 
 ```text
 Now final response. End turn. If order 3 cancelled, notification may come; but there are no more codes. We might then just inform user. Let me output final text.
@@ -1011,7 +1011,7 @@ Now final response. End turn. If order 3 cancelled, notification may come; but t
 
 
 
-## Source event #109 · Main agent: Model message
+## Source event 109 · Main agent: Model message
 
 ```text
 Second order (49%) was also cancelled. I placed the order with the last discount code — **6% off, total $98.67** — and sent “Last try, fingers crossed” to the group chat with your sisters.
@@ -1020,7 +1020,7 @@ Second order (49%) was also cancelled. I placed the order with the last discount
 
 
 <details>
-<summary>Source event #110 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 110 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -1032,7 +1032,7 @@ Second order (49%) was also cancelled. I placed the order with the last discount
 
 
 <details>
-<summary>Source event #111 · Judge: Judge rationale</summary>
+<summary>Source event 111 · Judge: Judge rationale</summary>
 
 
 ```text

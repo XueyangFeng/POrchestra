@@ -4,7 +4,7 @@
 
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
-## Source event #74 · Sub-agent 2: model output
+## Source event 74 · Sub-agent 2: model output
 
 ```text
 I have identified all the attendees and the police contact. Now let me send the group email to all unique attendees from the October 1-15 "Dinner with Family" events.
@@ -44,7 +44,7 @@ Action:
 
 
 <details>
-<summary>Source event #75 · Sub-agent 2: tool result</summary>
+<summary>Source event 75 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -58,7 +58,7 @@ e99491546510d319bc33d842063d8b97
 </details>
 
 
-## Source event #76 · Sub-agent 2: model output
+## Source event 76 · Sub-agent 2: model output
 
 ```text
 The email was sent successfully. Now I need to find Vladimíra Nováková on Chats. Let me check her user ID on Chats first.
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #77 · Sub-agent 2: tool result</summary>
+<summary>Source event 77 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ Action:
 </details>
 
 
-## Source event #78 · Sub-agent 2: model output
+## Source event 78 · Sub-agent 2: model output
 
 ```text
 Vladimíra Nováková is on Chats. Let me send her a private message.
@@ -107,7 +107,7 @@ Action:
 
 
 <details>
-<summary>Source event #79 · Sub-agent 2: tool result</summary>
+<summary>Source event 79 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -121,7 +121,7 @@ Action:
 </details>
 
 
-## Source event #80 · Sub-agent 2: model output
+## Source event 80 · Sub-agent 2: model output
 
 ```text
 Both communication tasks are complete. Let me finish with a handoff to MainAgent.
@@ -163,7 +163,7 @@ Action:
 
 
 <details>
-<summary>Source event #81 · Sub-agent 2: tool result</summary>
+<summary>Source event 81 · Sub-agent 2: tool result</summary>
 
 
 ```text

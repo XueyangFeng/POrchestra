@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #96 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_03_8mkigcjiv1vh6ppedy91zol8 (is_error=False)</summary>
+<summary>Source event 96 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_03_8mkigcjiv1vh6ppedy91zol8 (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #97 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_04_gxl00e9hxjby2lwkt1fnvs4d (is_error=False)</summary>
+<summary>Source event 97 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_04_gxl00e9hxjby2lwkt1fnvs4d (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #98 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_05_bxsncc3ewirem6s3q32k3z77 (is_error=False)</summary>
+<summary>Source event 98 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_05_bxsncc3ewirem6s3q32k3z77 (is_error=False)</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #99 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_06_iqscap0d0nkvpit6u6fcouvp (is_error=False)</summary>
+<summary>Source event 99 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_06_iqscap0d0nkvpit6u6fcouvp (is_error=False)</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #100 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_07_9tnjm2nx3j2bzxx6xe3c9mzd (is_error=False)</summary>
+<summary>Source event 100 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_07_9tnjm2nx3j2bzxx6xe3c9mzd (is_error=False)</summary>
 
 
 ```text
@@ -90,7 +90,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #101 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_08_4g3wmf2ilwouuqxf2kqb1sbu (is_error=False)</summary>
+<summary>Source event 101 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_08_4g3wmf2ilwouuqxf2kqb1sbu (is_error=False)</summary>
 
 
 ```text
@@ -107,7 +107,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #102 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_09_wjk78wmygh7zv2hmwsk5trl9 (is_error=False)</summary>
+<summary>Source event 102 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_09_wjk78wmygh7zv2hmwsk5trl9 (is_error=False)</summary>
 
 
 ```text
@@ -124,7 +124,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #103 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_10_9uca7q81y3s4hossazxbyefj (is_error=False)</summary>
+<summary>Source event 103 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_10_9uca7q81y3s4hossazxbyefj (is_error=False)</summary>
 
 
 ```text
@@ -141,7 +141,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #104 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_11_gmx5j85lh1jqk3ak01jcewtv (is_error=False)</summary>
+<summary>Source event 104 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_11_gmx5j85lh1jqk3ak01jcewtv (is_error=False)</summary>
 
 
 ```text
@@ -158,7 +158,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #105 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_12_jtoz1cjn68mgoa1k72sorpoj (is_error=False)</summary>
+<summary>Source event 105 · Subagent (parent call call_00_3qxp092un44m70g5ngnq8ia1): Tool result: call_12_jtoz1cjn68mgoa1k72sorpoj (is_error=False)</summary>
 
 
 ```text
@@ -175,7 +175,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #106 · Main agent: Tool result: call_00_3qxp092un44m70g5ngnq8ia1 (is_error=False)</summary>
+<summary>Source event 106 · Main agent: Tool result: call_00_3qxp092un44m70g5ngnq8ia1 (is_error=False)</summary>
 
 
 ```text
@@ -191,7 +191,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #107 · Main agent: Model message
+## Source event 107 · Main agent: Model message
 
 ```text
 Oldest female: Helga Fuchs, 79.
@@ -221,7 +221,7 @@ Let me verify boundary and also double check gender assignment by listing all 23
 
 
 
-## Source event #108 · Main agent: Model tool call: Bash (call_00_txxe12lcqrmcv21i5doo2y7y)
+## Source event 108 · Main agent: Model tool call: Bash (call_00_txxe12lcqrmcv21i5doo2y7y)
 
 ```text
 {
@@ -233,7 +233,7 @@ Let me verify boundary and also double check gender assignment by listing all 23
 
 
 <details>
-<summary>Source event #109 · Main agent: Tool result: call_00_txxe12lcqrmcv21i5doo2y7y (is_error=False)</summary>
+<summary>Source event 109 · Main agent: Tool result: call_00_txxe12lcqrmcv21i5doo2y7y (is_error=False)</summary>
 
 
 ```text
@@ -250,7 +250,7 @@ Shell cwd was reset to /workspace
 </details>
 
 
-## Source event #110 · Main agent: Model message
+## Source event 110 · Main agent: Model message
 
 ```text
 So emails jump from Sep 1 10:00 to Aug 27 07:38. No emails Sept 1 00:00-10:00 missing. Good.
@@ -300,7 +300,7 @@ Let me verify Helga Fuchs.
 
 
 
-## Source event #111 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_00_uk1m0897v3i8noduvx5y23x1)
+## Source event 111 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_00_uk1m0897v3i8noduvx5y23x1)
 
 ```text
 {
@@ -310,7 +310,7 @@ Let me verify Helga Fuchs.
 
 
 
-## Source event #112 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_01_lcey6ssuck0s8ggu7efd8oo2)
+## Source event 112 · Main agent: Model tool call: mcp__gaia2__Contacts__search_contacts (call_01_lcey6ssuck0s8ggu7efd8oo2)
 
 ```text
 {
@@ -321,7 +321,7 @@ Let me verify Helga Fuchs.
 
 
 <details>
-<summary>Source event #113 · Main agent: Tool result: call_00_uk1m0897v3i8noduvx5y23x1 (is_error=False)</summary>
+<summary>Source event 113 · Main agent: Tool result: call_00_uk1m0897v3i8noduvx5y23x1 (is_error=False)</summary>
 
 
 ```text
@@ -338,7 +338,7 @@ Let me verify Helga Fuchs.
 
 
 <details>
-<summary>Source event #114 · Main agent: Tool result: call_01_lcey6ssuck0s8ggu7efd8oo2 (is_error=False)</summary>
+<summary>Source event 114 · Main agent: Tool result: call_01_lcey6ssuck0s8ggu7efd8oo2 (is_error=False)</summary>
 
 
 ```text
@@ -354,7 +354,7 @@ Let me verify Helga Fuchs.
 </details>
 
 
-## Source event #115 · Main agent: Model message
+## Source event 115 · Main agent: Model message
 
 ```text
 Confirmed: Helga Fuchs, Female, 79. And the next oldest female is 78.
@@ -372,7 +372,7 @@ Send via AgentUserInterface.
 
 
 
-## Source event #116 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_fxox4aps7r6fxtzyxebbg27c)
+## Source event 116 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_fxox4aps7r6fxtzyxebbg27c)
 
 ```text
 {
@@ -383,7 +383,7 @@ Send via AgentUserInterface.
 
 
 <details>
-<summary>Source event #117 · Main agent: Tool result: call_00_fxox4aps7r6fxtzyxebbg27c (is_error=False)</summary>
+<summary>Source event 117 · Main agent: Tool result: call_00_fxox4aps7r6fxtzyxebbg27c (is_error=False)</summary>
 
 
 ```text
@@ -399,7 +399,7 @@ Send via AgentUserInterface.
 </details>
 
 
-## Source event #118 · Main agent: Model message
+## Source event 118 · Main agent: Model message
 
 ```text
 **Answer sent to the user.**
@@ -419,7 +419,7 @@ Result: **Female** sent the most, and the oldest woman in the address book is **
 
 
 <details>
-<summary>Source event #119 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 119 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -442,7 +442,7 @@ Result: **Female** sent the most, and the oldest woman in the address book is **
 
 
 <details>
-<summary>Source event #120 · Judge: Judge rationale</summary>
+<summary>Source event 120 · Judge: Judge rationale</summary>
 
 
 ```text

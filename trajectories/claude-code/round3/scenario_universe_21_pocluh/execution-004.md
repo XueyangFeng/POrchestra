@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #252 · Main agent: Tool result: call_01_2luyfhng810v9pylx2kek7yj (is_error=False)</summary>
+<summary>Source event 252 · Main agent: Tool result: call_01_2luyfhng810v9pylx2kek7yj (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #253 · Main agent: Tool result: call_02_pcmq1rt3trnrwl42kgz8tgh6 (is_error=False)</summary>
+<summary>Source event 253 · Main agent: Tool result: call_02_pcmq1rt3trnrwl42kgz8tgh6 (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #254 · Main agent: Tool result: call_03_66l503u2uiuukwetmv3fzjgp (is_error=False)</summary>
+<summary>Source event 254 · Main agent: Tool result: call_03_66l503u2uiuukwetmv3fzjgp (is_error=False)</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #255 · Main agent: Tool result: call_04_1sapdzyezm4mp25an1dvxoew (is_error=False)</summary>
+<summary>Source event 255 · Main agent: Tool result: call_04_1sapdzyezm4mp25an1dvxoew (is_error=False)</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #256 · Main agent: Tool result: call_05_m3yox2b2dxwozwy7qc9vsuun (is_error=False)</summary>
+<summary>Source event 256 · Main agent: Tool result: call_05_m3yox2b2dxwozwy7qc9vsuun (is_error=False)</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #257 · Main agent: Model message
+## Source event 257 · Main agent: Model message
 
 ```text
 All good. Saved apartment confirmed. Messages sent to all 6 Chats conversations.
@@ -287,7 +287,7 @@ Let me now send final user message. Load AgentUserInterface. Also list orders fi
 
 
 
-## Source event #258 · Main agent: Model tool call: mcp__gaia2__Shopping__list_orders (call_00_3ifirxmwku9dingzvhkjxajw)
+## Source event 258 · Main agent: Model tool call: mcp__gaia2__Shopping__list_orders (call_00_3ifirxmwku9dingzvhkjxajw)
 
 ```text
 {}
@@ -295,7 +295,7 @@ Let me now send final user message. Load AgentUserInterface. Also list orders fi
 
 
 
-## Source event #259 · Main agent: Model tool call: ToolSearch (call_01_g7p1ynh1ouyk5q4l3kbb0i5j)
+## Source event 259 · Main agent: Model tool call: ToolSearch (call_01_g7p1ynh1ouyk5q4l3kbb0i5j)
 
 ```text
 {
@@ -307,7 +307,7 @@ Let me now send final user message. Load AgentUserInterface. Also list orders fi
 
 
 <details>
-<summary>Source event #260 · Main agent: Tool result: call_00_3ifirxmwku9dingzvhkjxajw (is_error=False)</summary>
+<summary>Source event 260 · Main agent: Tool result: call_00_3ifirxmwku9dingzvhkjxajw (is_error=False)</summary>
 
 
 ```text
@@ -324,7 +324,7 @@ Let me now send final user message. Load AgentUserInterface. Also list orders fi
 
 
 <details>
-<summary>Source event #261 · Main agent: Tool result: call_01_g7p1ynh1ouyk5q4l3kbb0i5j (is_error=False)</summary>
+<summary>Source event 261 · Main agent: Tool result: call_01_g7p1ynh1ouyk5q4l3kbb0i5j (is_error=False)</summary>
 
 
 ```text
@@ -340,7 +340,7 @@ Let me now send final user message. Load AgentUserInterface. Also list orders fi
 </details>
 
 
-## Source event #262 · Main agent: Model message
+## Source event 262 · Main agent: Model message
 
 ```text
 Now send final message. But wait, let me reconsider the quantity one final time. If I'm wrong, could adjust? Order processed; could cancel via cancel_order tool (deferred). But we would need to decide. Let me think about the evaluation design deeper.
@@ -374,7 +374,7 @@ Let me send final message.
 
 
 
-## Source event #263 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_zqm6nx96x473drxjdh05wz34)
+## Source event 263 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_zqm6nx96x473drxjdh05wz34)
 
 ```text
 {
@@ -385,7 +385,7 @@ Let me send final message.
 
 
 <details>
-<summary>Source event #264 · Main agent: Tool result: call_00_zqm6nx96x473drxjdh05wz34 (is_error=False)</summary>
+<summary>Source event 264 · Main agent: Tool result: call_00_zqm6nx96x473drxjdh05wz34 (is_error=False)</summary>
 
 
 ```text
@@ -401,7 +401,7 @@ Let me send final message.
 </details>
 
 
-## Source event #265 · Main agent: Model message
+## Source event 265 · Main agent: Model message
 
 ```text
 Done. Here's a summary of the actions taken in the GAIA2 environment:
@@ -427,7 +427,7 @@ Done. Here's a summary of the actions taken in the GAIA2 environment:
 
 
 <details>
-<summary>Source event #266 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 266 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -456,7 +456,7 @@ Done. Here's a summary of the actions taken in the GAIA2 environment:
 
 
 <details>
-<summary>Source event #267 · Judge: Judge rationale</summary>
+<summary>Source event 267 · Judge: Judge rationale</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: model output</summary>
+<summary>Source event 28 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 1: model output</summary>
+<summary>Source event 30 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -90,7 +90,7 @@ ReturnedEmails(emails=[Email(sender='yuting.liang@emarketingpro.com', recipients
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: model output</summary>
+<summary>Source event 32 · Sub-agent 1: model output</summary>
 
 
 ```text

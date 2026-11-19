@@ -1,6 +1,8 @@
 # scenario_universe_21_ycoch2
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_21_ycoch2/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_21_ycoch2/README.md) · [Codex](../../codex/round2/scenario_universe_21_ycoch2/README.md) · [OpenCode](../../opencode/round2/scenario_universe_21_ycoch2/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to create the group conversation with the specified friends and title. Once created, I must notify the user. This is the first step in the sequence.
 
@@ -81,7 +83,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #23
+**Harness configuration updated** · Source event 23
 
 **1. Sub-agent revision request**
 
@@ -90,7 +92,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Group conversation 'Happy Astrid Day!' created in Chats with all 5 participants; confirmation sent to user. A new environment notification reports a message received in MessagingAppV2 conversation ID fbcc8b1b3a6444ebad021e424ec7bd2c, which may be relevant to the follow-up monitoring task.
 ```
 <details>
-<summary>Request and evidence · source event #21</summary>
+<summary>Request and evidence · source event 21</summary>
 
 
 ```text
@@ -139,7 +141,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The group conversation has been successfully created in the &#x27;Chats&#x27; app with the ID &#x27;9f674a180b8a45581b8f0e51dcf52fd5&#x27;. I now need the SubAgent to monitor this specific conversation for incoming messages from at least 3 distinct participants within the 5-minute window (until 2024-10-15 07:05:00). If this condition is met, the SubAgent must proceed with the conditional actions: ordering the van ride, messaging the group, and clearing the evening calendar. The environment notification regarding &#x27;MessagingAppV2&#x27; should be noted, but the monitoring must focus on the conversation created in &#x27;Chats&#x27; as requested.
 
@@ -247,7 +249,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

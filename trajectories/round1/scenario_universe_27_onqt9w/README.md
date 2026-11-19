@@ -1,6 +1,8 @@
 # scenario_universe_27_onqt9w
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_27_onqt9w/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_27_onqt9w/README.md) · [Codex](../../codex/round1/scenario_universe_27_onqt9w/README.md) · [OpenCode](../../opencode/round1/scenario_universe_27_onqt9w/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to retrieve the cab ride history and filter the records according to the user&#x27;s specific criteria (date range, duration, and destination for premium rides) to determine which service type had the highest total expenditure.
 

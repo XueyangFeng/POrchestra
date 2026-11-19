@@ -1,6 +1,8 @@
 # scenario_universe_21_rxo9gu
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_21_rxo9gu/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_21_rxo9gu/README.md) · [Codex](../../codex/round1/scenario_universe_21_rxo9gu/README.md) · [OpenCode](../../opencode/round1/scenario_universe_21_rxo9gu/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires monitoring the store for a specific time window (3 minutes), performing time-sensitive additions to the cart, and then executing a checkout exactly 45 seconds after the last addition. This is an environment-interaction subtask that depends on the state of the shopping app over time.
 
@@ -93,11 +95,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #76
+**Initial harness configuration** · Source event 76
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The shopping sequence is complete. I now need to identify the user&#x27;s &#x27;Fashion Designer friend&#x27; and send them a message via Chats regarding the Pokémon merchandise and the total cost of $249.86, as specified in the original task.
 
@@ -163,7 +165,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

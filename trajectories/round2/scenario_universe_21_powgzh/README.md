@@ -1,6 +1,8 @@
 # scenario_universe_21_powgzh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_21_powgzh/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_21_powgzh/README.md) · [Codex](../../codex/round2/scenario_universe_21_powgzh/README.md) · [OpenCode](../../opencode/round2/scenario_universe_21_powgzh/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify the target contacts based on employment, location (Stockholm), and the most common job among them. This requires fetching contact details and performing the frequency analysis.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #36
+**Initial harness configuration** · Source event 36
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 Identify the winner among the relevant contacts (Axel Lindqvist and Astrid Svensson) based on event counts for October 2024, determine which communication app has more conversations with that winner, and find the date of the most recent one-on-one conversation on that app.
 

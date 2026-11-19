@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #5 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 5 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -42,7 +42,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 Thought: I need to verify the date of 'this Friday' relative to the known current date, then schedule the event. I'll first check the current time/date from the system to confirm the context.
@@ -57,7 +57,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -71,7 +71,7 @@ Action:
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Thought: The current date/time confirms it is Tuesday 2024-10-15. This Friday is therefore 2024-10-18. Now I will schedule the two-hour Reading Session event from 14:00 to 16:00 on that date, adding Eliška Nováková as an attendee.
@@ -91,7 +91,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -105,7 +105,7 @@ e4657cd1b75ef061b9fbfd037e80abd6
 </details>
 
 
-## Source event #11 · Sub-agent 1: model output
+## Source event 11 · Sub-agent 1: model output
 
 ```text
 Thought: The calendar event was created successfully (ID e4657cd1b75ef061b9fbfd037e80abd6). I now need to inform the user that the event is scheduled, then report completion. Since the send_message tool ends the turn, I'll send the confirmation now.
@@ -122,7 +122,7 @@ Action:
 
 
 <details>
-<summary>Source event #12 · Sub-agent 1: tool result</summary>
+<summary>Source event 12 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ None
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 13 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -151,7 +151,7 @@ Environment notifications:
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 Thought: The event was created and the user was informed, but now environment notifications report that the calendar event was deleted by Šárka Nováková and by Eliška Nováková. Per my instructions, I must report this notification to MainAgent before taking further side effects, and I must preserve all relevant exact values for the follow-up decision. The original user task contains a conditional flow in case the attendee cancels the reading session, which may now apply.
@@ -198,7 +198,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text

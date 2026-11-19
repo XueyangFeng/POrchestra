@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result (continued, part 2)</summary>
+<summary>Source event 47 · Sub-agent 2: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result (continued, part 3)</summary>
+<summary>Source event 47 · Sub-agent 2: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -29,7 +29,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result (continued, part 4)</summary>
+<summary>Source event 47 · Sub-agent 2: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -41,7 +41,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result (continued, part 5)</summary>
+<summary>Source event 47 · Sub-agent 2: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ ne), Email(sender='leonhard.krueger@museum.de', recipients=['akuznetsova@gaia2ma
 
 
 <details>
-<summary>Source event #47 · Sub-agent 2: tool result (continued, part 6)</summary>
+<summary>Source event 47 · Sub-agent 2: tool result (continued, part 6)</summary>
 
 
 ```text

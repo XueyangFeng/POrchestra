@@ -1,6 +1,8 @@
 # scenario_universe_21_bdn1w8
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_21_bdn1w8/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_21_bdn1w8/README.md) · [Codex](../../codex/round3/scenario_universe_21_bdn1w8/README.md) · [OpenCode](../../opencode/round3/scenario_universe_21_bdn1w8/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to send the sponsorship email to Amscan and purchase the two specific products requested by the user. This is the first step of the overall task.
 
@@ -87,11 +89,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #23
+**Initial harness configuration** · Source event 23
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The sponsorship email has been sent and the products purchased in Attempt 1. The next requirement is to wait exactly 1 minute after those actions and then notify the user. Following that, a 4-minute monitoring period for a reply from Amscan begins. I will first delegate the 1-minute wait and the user notification. Once the user is notified, I will handle the subsequent monitoring and scheduling in a separate step to ensure the turn-ending nature of the user message tool is managed correctly.
 
@@ -152,11 +154,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #41
+**Initial harness configuration** · Source event 41
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The user has been notified of the initial actions (email sent, products purchased) at 07:01:30. I now need to monitor for an Amscan reply within a 4-minute window (until 07:05:30). New emails arrived at 07:03:32, including one from SCHLEICH which must be ignored. I need a SubAgent to check if the other new email is from Amscan and contains an agreement. If so, it must handle the email reply, calendar scheduling, and messaging the strategist. If no agreement is reached by the deadline, it must inform the strategist that the deal was not secured.
 
@@ -242,7 +244,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

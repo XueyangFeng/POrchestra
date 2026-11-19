@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 36 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result (continued, part 5)</summary>
+<summary>Source event 36 · Sub-agent 1: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -30,7 +30,7 @@ mail='kvido.novacek@seznam.cz', address='Křídlovická 17, 603 00 Brno'), Conta
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: model output</summary>
+<summary>Source event 37 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: model output</summary>
+<summary>Source event 39 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -101,7 +101,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: model output</summary>
+<summary>Source event 41 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -119,7 +119,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -134,7 +134,7 @@ Ride has been cancelled, sorry to see you go.
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: model output</summary>
+<summary>Source event 43 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -157,7 +157,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -181,7 +181,7 @@ Ride ID: e192c5fb8a318bdb627cf6d71152ec19
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: model output</summary>
+<summary>Source event 45 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -201,7 +201,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -216,7 +216,7 @@ None
 
 
 <details>
-<summary>Source event #47 · Judge rationale</summary>
+<summary>Source event 47 · Judge rationale</summary>
 
 
 ```text

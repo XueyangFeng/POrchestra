@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #135 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_02_dqz3nl42uybsaurg23s9nuz1)
+## Source event 135 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_02_dqz3nl42uybsaurg23s9nuz1)
 
 ```text
 {
@@ -18,7 +18,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 
-## Source event #136 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_03_9wde3lasv5dsggr7bh20jgtl)
+## Source event 136 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_03_9wde3lasv5dsggr7bh20jgtl)
 
 ```text
 {
@@ -33,7 +33,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #137 · Main agent: Tool result: call_00_5btf11j7xz6lr59nmh59ubrt (is_error=False)</summary>
+<summary>Source event 137 · Main agent: Tool result: call_00_5btf11j7xz6lr59nmh59ubrt (is_error=False)</summary>
 
 
 ```text
@@ -50,7 +50,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #138 · Main agent: Tool result: call_01_pxnn2hwqkvuxw4sls7e9s0r4 (is_error=False)</summary>
+<summary>Source event 138 · Main agent: Tool result: call_01_pxnn2hwqkvuxw4sls7e9s0r4 (is_error=False)</summary>
 
 
 ```text
@@ -67,7 +67,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #139 · Main agent: Tool result: call_02_dqz3nl42uybsaurg23s9nuz1 (is_error=False)</summary>
+<summary>Source event 139 · Main agent: Tool result: call_02_dqz3nl42uybsaurg23s9nuz1 (is_error=False)</summary>
 
 
 ```text
@@ -84,7 +84,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #140 · Main agent: Tool result: call_03_9wde3lasv5dsggr7bh20jgtl (is_error=False)</summary>
+<summary>Source event 140 · Main agent: Tool result: call_03_9wde3lasv5dsggr7bh20jgtl (is_error=False)</summary>
 
 
 ```text
@@ -100,7 +100,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #141 · Main agent: Model message
+## Source event 141 · Main agent: Model message
 
 ```text
 Now verify calendar state: remaining events today and new event.
@@ -108,7 +108,7 @@ Now verify calendar state: remaining events today and new event.
 
 
 
-## Source event #142 · Main agent: Model tool call: mcp__gaia2__Calendar__read_today_calendar_events (call_00_flca7htawfxbkbzoq6rs9zxu)
+## Source event 142 · Main agent: Model tool call: mcp__gaia2__Calendar__read_today_calendar_events (call_00_flca7htawfxbkbzoq6rs9zxu)
 
 ```text
 {}
@@ -116,7 +116,7 @@ Now verify calendar state: remaining events today and new event.
 
 
 
-## Source event #143 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_event (call_01_zop8ppltx89f35ezs4mx76x7)
+## Source event 143 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_event (call_01_zop8ppltx89f35ezs4mx76x7)
 
 ```text
 {
@@ -127,7 +127,7 @@ Now verify calendar state: remaining events today and new event.
 
 
 <details>
-<summary>Source event #144 · Main agent: Tool result: call_00_flca7htawfxbkbzoq6rs9zxu (is_error=False)</summary>
+<summary>Source event 144 · Main agent: Tool result: call_00_flca7htawfxbkbzoq6rs9zxu (is_error=False)</summary>
 
 
 ```text
@@ -144,7 +144,7 @@ Now verify calendar state: remaining events today and new event.
 
 
 <details>
-<summary>Source event #145 · Main agent: Tool result: call_01_zop8ppltx89f35ezs4mx76x7 (is_error=False)</summary>
+<summary>Source event 145 · Main agent: Tool result: call_01_zop8ppltx89f35ezs4mx76x7 (is_error=False)</summary>
 
 
 ```text
@@ -160,7 +160,7 @@ Now verify calendar state: remaining events today and new event.
 </details>
 
 
-## Source event #146 · Main agent: Model message
+## Source event 146 · Main agent: Model message
 
 ```text
 Calendar state is correct: only events at 15:00, 18:00, 20:00 plus rescheduled viewing 08:45-09:45.
@@ -202,7 +202,7 @@ Let me send.
 
 
 
-## Source event #147 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_sw5h9sn9hzdi5zl1icr5jrsa)
+## Source event 147 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_sw5h9sn9hzdi5zl1icr5jrsa)
 
 ```text
 {
@@ -213,7 +213,7 @@ Let me send.
 
 
 <details>
-<summary>Source event #148 · Main agent: Tool result: call_00_sw5h9sn9hzdi5zl1icr5jrsa (is_error=False)</summary>
+<summary>Source event 148 · Main agent: Tool result: call_00_sw5h9sn9hzdi5zl1icr5jrsa (is_error=False)</summary>
 
 
 ```text
@@ -229,7 +229,7 @@ Let me send.
 </details>
 
 
-## Source event #149 · Main agent: Model message
+## Source event 149 · Main agent: Model message
 
 ```text
 I've completed the task:
@@ -243,7 +243,7 @@ I've completed the task:
 
 
 <details>
-<summary>Source event #150 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 150 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -260,7 +260,7 @@ I've completed the task:
 
 
 <details>
-<summary>Source event #151 · Judge: Judge rationale</summary>
+<summary>Source event 151 · Judge: Judge rationale</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_30_j7xcfc
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_30_j7xcfc/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_30_j7xcfc/README.md) · [Codex](../../codex/round3/scenario_universe_30_j7xcfc/README.md) · [OpenCode](../../opencode/round3/scenario_universe_30_j7xcfc/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify the contacts who are &#x27;Librarian&#x27; or &#x27;Former Librarian&#x27; and find the &#x27;The Dead of Night&#x27; ebook in the shopping catalog to proceed with the purchase.
 
@@ -83,11 +85,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #40
+**Initial harness configuration** · Source event 40
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The matching contacts (5 people) and the specific ebook item ID (0e76335b32ab4a57aec1ee72d87041b8) have been identified. Now I need to perform the purchase (by adding 5 copies to the cart and checking out) and send the individual notification emails as requested.
 
@@ -153,7 +155,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_30_2o57pu
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_30_2o57pu/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_30_2o57pu/README.md) · [Codex](../../codex/round1/scenario_universe_30_2o57pu/README.md) · [OpenCode](../../opencode/round1/scenario_universe_30_2o57pu/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Delegate the first part of the task: monitoring incoming emails for 3 minutes (from 07:00:00 to 07:03:00), responding to emails that have full schedule details, managing calendar events/interferences, messaging any attendees of deleted events, and recording emails that ask to schedule but lack details.
 
@@ -97,11 +99,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #74
+**Initial harness configuration** · Source event 74
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The email monitoring window (07:00-07:03) has passed, and previous processing has identified one email (from Helmut Kruger) that asked to schedule a meeting but lacked specific details, as well as two others (Akira Tanaka and Kavita) that were successfully handled. The remaining part of the user&#x27;s request is to wait until exactly 07:05:00 (5 minutes after the 07:00:00 start time) and then notify the user about any scheduling requests that lacked details. I need a SubAgent to manage this wait and provide the final report.
 

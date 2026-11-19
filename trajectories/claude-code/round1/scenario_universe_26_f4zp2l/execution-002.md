@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #67 · Main agent: Model message
+## Source event 67 · Main agent: Model message
 
 ```text
 The "lunch" matches are about the film "The Lunchbox", not actual lunches. So chats don't add lunch events. Good — calendar is the source.
@@ -65,7 +65,7 @@ Let me look at all locations in the calendar to see naming patterns. If "Lysverk
 
 
 
-## Source event #68 · Main agent: Model tool call: Bash (call_00_c24m1s2rgpw2ohk4zma6oj4x)
+## Source event 68 · Main agent: Model tool call: Bash (call_00_c24m1s2rgpw2ohk4zma6oj4x)
 
 ```text
 {
@@ -76,7 +76,7 @@ Let me look at all locations in the calendar to see naming patterns. If "Lysverk
 
 
 <details>
-<summary>Source event #69 · Main agent: Tool result: call_00_c24m1s2rgpw2ohk4zma6oj4x (is_error=False)</summary>
+<summary>Source event 69 · Main agent: Tool result: call_00_c24m1s2rgpw2ohk4zma6oj4x (is_error=False)</summary>
 
 
 ```text
@@ -129,7 +129,7 @@ All events titled with breakfast/dinner around midday? (sanity)
 </details>
 
 
-## Source event #70 · Main agent: Model message
+## Source event 70 · Main agent: Model message
 
 ```text
 The location strings are messy, with variants ("Café Opus, Oslo", "Café Opus"; "Café"; "Restaurant Schrøder, Oslo"). This is designed so that naive string grouping vs normalization matters! The user asks "What location do I spend the most time... for lunch?" The world may have canonical venues with alias variants. Hmm.
@@ -163,7 +163,7 @@ Let me load Cabs ride history and list.
 
 
 
-## Source event #71 · Main agent: Model tool call: mcp__gaia2__Cabs__get_ride_history (call_00_o4kmah053pift2jcy8u5gaku)
+## Source event 71 · Main agent: Model tool call: mcp__gaia2__Cabs__get_ride_history (call_00_o4kmah053pift2jcy8u5gaku)
 
 ```text
 {
@@ -175,7 +175,7 @@ Let me load Cabs ride history and list.
 
 
 <details>
-<summary>Source event #72 · Main agent: Tool result: call_00_o4kmah053pift2jcy8u5gaku (is_error=False)</summary>
+<summary>Source event 72 · Main agent: Tool result: call_00_o4kmah053pift2jcy8u5gaku (is_error=False)</summary>
 
 
 ```text
@@ -191,7 +191,7 @@ Let me load Cabs ride history and list.
 </details>
 
 
-## Source event #73 · Main agent: Model message
+## Source event 73 · Main agent: Model message
 
 ```text
 Cabs irrelevant (no lunch, cities across Norway).
@@ -217,7 +217,7 @@ Let me check if any events have description with "lunch" but title not "lunch" (
 
 
 
-## Source event #74 · Main agent: Model tool call: Bash (call_00_g3iptc5kt6g2ob9wvbt6dn8p)
+## Source event 74 · Main agent: Model tool call: Bash (call_00_g3iptc5kt6g2ob9wvbt6dn8p)
 
 ```text
 {
@@ -228,7 +228,7 @@ Let me check if any events have description with "lunch" but title not "lunch" (
 
 
 <details>
-<summary>Source event #75 · Main agent: Tool result: call_00_g3iptc5kt6g2ob9wvbt6dn8p (is_error=False)</summary>
+<summary>Source event 75 · Main agent: Tool result: call_00_g3iptc5kt6g2ob9wvbt6dn8p (is_error=False)</summary>
 
 
 ```text
@@ -239,7 +239,7 @@ Let me check if any events have description with "lunch" but title not "lunch" (
 </details>
 
 
-## Source event #76 · Main agent: Model message
+## Source event 76 · Main agent: Model message
 
 ```text
 No extra. Good.
@@ -423,7 +423,7 @@ I'll send message.
 
 
 
-## Source event #77 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_cfy6n9mcmote1o66urf8zgfr)
+## Source event 77 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_cfy6n9mcmote1o66urf8zgfr)
 
 ```text
 {
@@ -434,7 +434,7 @@ I'll send message.
 
 
 <details>
-<summary>Source event #78 · Main agent: Tool result: call_00_cfy6n9mcmote1o66urf8zgfr (is_error=False)</summary>
+<summary>Source event 78 · Main agent: Tool result: call_00_cfy6n9mcmote1o66urf8zgfr (is_error=False)</summary>
 
 
 ```text
@@ -450,7 +450,7 @@ I'll send message.
 </details>
 
 
-## Source event #79 · Main agent: Model message
+## Source event 79 · Main agent: Model message
 
 ```text
 The message sent. The turn ends. I should provide final response? The tool call ends ARE turn; my output is the message. In this harness, I've sent the user message. I think that's it. But maybe I need a final text? The instructions: send_message_to_user sends a real user reply and ends turn. Done.
@@ -462,7 +462,7 @@ Final output in chat: brief.
 
 
 
-## Source event #80 · Main agent: Model message
+## Source event 80 · Main agent: Model message
 
 ```text
 I answered the user: **Lysverket** (listed in the calendar as both "Lysverket" and "Lysverket Restaurant") is where they've spent the most time on lunch this year — 690 minutes (11.5 hours) across 7 lunches, ahead of Café Opus and Restaurant in Grünerløkka (270 min each).
@@ -471,7 +471,7 @@ I answered the user: **Lysverket** (listed in the calendar as both "Lysverket" a
 
 
 <details>
-<summary>Source event #81 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 81 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -483,7 +483,7 @@ I answered the user: **Lysverket** (listed in the calendar as both "Lysverket" a
 
 
 <details>
-<summary>Source event #82 · Judge: Judge rationale</summary>
+<summary>Source event 82 · Judge: Judge rationale</summary>
 
 
 ```text

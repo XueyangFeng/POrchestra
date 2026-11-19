@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 23 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -25,7 +25,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 I need to read Kåre's reply in the conversation to determine whether he can attend or needs a different time.
@@ -42,7 +42,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Action:
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 Kåre cannot attend Friday but suggests next Monday (2024-10-21) at the same time (20:00-22:00). I need to reschedule: delete the Friday event, check Monday for conflicts with buffer (19:30-22:30), add the new event, rebook the cab, and notify the user. First, delete the old dinner event.
@@ -73,7 +73,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -87,7 +87,7 @@ Event e4657cd1b75ef061b9fbfd037e80abd6 successfully deleted.
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Now I'll check the calendar on Monday, 2024-10-21, for any events overlapping with the new timeslot plus 30-minute buffers (19:30-22:30).
@@ -105,7 +105,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -119,7 +119,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 A conflicting event (Film Festival Screening, 18:00-20:00 on Monday) overlaps with the 30-minute buffer before the dinner (19:30-20:00). I must delete it to ensure the 30-minute gap.
@@ -136,7 +136,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -150,7 +150,7 @@ Event 42e0483ed32a48ceb23ba41bce63766e successfully deleted.
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 Now I'll add the rescheduled dinner event on Monday, 2024-10-21 from 20:00 to 22:00.
@@ -169,7 +169,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -183,7 +183,7 @@ e03b534af959899d9ca5c1d3e342f522
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 The rescheduled event was added. Now I'll cancel the previously booked cab (Friday 19:30) and rebook for Monday 30 minutes before the new dinner time.
@@ -198,7 +198,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -212,7 +212,7 @@ Ride has been cancelled, sorry to see you go.
 </details>
 
 
-## Source event #36 · Sub-agent 1: model output
+## Source event 36 · Sub-agent 1: model output
 
 ```text
 Old cab cancelled. Now I'll book the new default cab for Monday, 2024-10-21 at 19:30 (30 minutes before the rescheduled dinner).
@@ -232,7 +232,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result</summary>
+<summary>Source event 37 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -255,7 +255,7 @@ Ride ID: e192c5fb8a318bdb627cf6d71152ec19
 </details>
 
 
-## Source event #38 · Sub-agent 1: model output
+## Source event 38 · Sub-agent 1: model output
 
 ```text
 All rescheduling is complete. Now I'll send the final confirmation message to the user.
@@ -272,7 +272,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: tool result</summary>
+<summary>Source event 39 · Sub-agent 1: tool result</summary>
 
 
 ```text

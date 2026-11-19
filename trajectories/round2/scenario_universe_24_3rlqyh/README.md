@@ -1,6 +1,8 @@
 # scenario_universe_24_3rlqyh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_24_3rlqyh/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_24_3rlqyh/README.md) · [Codex](../../codex/round2/scenario_universe_24_3rlqyh/README.md) · [OpenCode](../../opencode/round2/scenario_universe_24_3rlqyh/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I will start by addressing the email organization tasks: responding to Yumi Nakahara, deleting Katarzyna Zielińska&#x27;s email, and moving Leon Vandenberghe&#x27;s email to the trash.
 
@@ -87,11 +89,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #27
+**Initial harness configuration** · Source event 27
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The email organization tasks are completed. Now I need to address the calendar cancellation for today, October 15.
 
@@ -154,11 +156,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #39
+**Initial harness configuration** · Source event 39
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The email and calendar tasks have been successfully completed. I now need to order the three specific items requested for Yumi: the Wild Republic Cuddlekins Golden Tamarin Lion, the PROLINE Ram 2500 Clear Body, and the Fantasy Flight Games Adventure. This requires searching for the exact products, verifying their specifications (plush variant, polycarbonate material, and new condition respectively), and completing the checkout process.
 
@@ -224,7 +226,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

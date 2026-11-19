@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #34 · Sub-agent 1: tool result</summary>
+<summary>Source event 34 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Main-agent decisions and sub-agent sessions are listed in source order.
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: model output</summary>
+<summary>Source event 35 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: model output</summary>
+<summary>Source event 37 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -97,7 +97,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -112,7 +112,7 @@ CrimeDataPoint(violent_crime=20.95, property_crime=47.02)
 
 
 <details>
-<summary>Source event #39 · Sub-agent 1: model output</summary>
+<summary>Source event 39 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -130,7 +130,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -145,7 +145,7 @@ CrimeDataPoint(violent_crime=15.11, property_crime=25.66)
 
 
 <details>
-<summary>Source event #41 · Sub-agent 1: model output</summary>
+<summary>Source event 41 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -161,7 +161,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: model output</summary>
+<summary>Source event 43 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -206,7 +206,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -221,7 +221,7 @@ CrimeDataPoint(violent_crime=12.54, property_crime=33.16)
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: model output</summary>
+<summary>Source event 45 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -239,7 +239,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -254,7 +254,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: model output</summary>
+<summary>Source event 47 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -303,7 +303,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 1: tool result</summary>
+<summary>Source event 48 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -318,7 +318,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Judge rationale</summary>
+<summary>Source event 49 · Judge rationale</summary>
 
 
 ```text

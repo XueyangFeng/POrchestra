@@ -1,6 +1,8 @@
 # scenario_universe_22_ci06m6
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_22_ci06m6/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_22_ci06m6/README.md) · [Codex](../../codex/round3/scenario_universe_22_ci06m6/README.md) · [OpenCode](../../opencode/round3/scenario_universe_22_ci06m6/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial setup: create the calendar event, send the messages to Guillermo and Alexandra, and notify the user as requested. I will then need to monitor for replies to handle potential rescheduling.
 
@@ -94,7 +96,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #20
+**Harness configuration updated** · Source event 20
 
 **1. Sub-agent revision request**
 
@@ -103,7 +105,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Initial setup complete: Calendar event 'Dinner with Buddies' created for 2024-10-19 18:00-20:00 (event id acea4a8d991e2e64e9a43daa76d19dd2). Messages sent to Guillermo Reyes (+523312345698, conversation c18b476fd48446cc9adc5e6042b4376e) and Alexandra Popescu (+90722123456, conversation c0a08f050c7f44318986ba3e1554df9e). User notified. Then received 3 new message notifications in conversations c73068d6fb7c4bd7a96bb71ced930fe1, c18b476fd48446cc9adc5e6042b4376e, a550d7bff4dd4434a6a370e84e1e72c2. I have no tool to read conversation contents.
 ```
 <details>
-<summary>Request and evidence · source event #18</summary>
+<summary>Request and evidence · source event 18</summary>
 
 
 ```text
@@ -152,7 +154,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent has successfully set up the initial event and messaged the participants. New message notifications have arrived, but the SubAgent lacks the tools to read them and handle the rescheduling logic. I am expanding the task scope to include reading replies, finding a new slot if needed, and updating the schedule.
 

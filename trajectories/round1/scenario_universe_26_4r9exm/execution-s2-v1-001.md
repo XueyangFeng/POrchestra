@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #72 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 72 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Create a calendar event titled 'Cinema Paradiso Watch-along' for this Sunday, Oc
 
 
 <details>
-<summary>Source event #73 · Sub-agent 2: tool result</summary>
+<summary>Source event 73 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -45,7 +45,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #74 · Sub-agent 2: model output
+## Source event 74 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -64,7 +64,7 @@ Action:
 
 
 <details>
-<summary>Source event #75 · Sub-agent 2: tool result</summary>
+<summary>Source event 75 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -78,7 +78,7 @@ e4657cd1b75ef061b9fbfd037e80abd6
 </details>
 
 
-## Source event #76 · Sub-agent 2: model output
+## Source event 76 · Sub-agent 2: model output
 
 ```text
 Thought: The calendar event was created successfully; the tool returned event ID e4657cd1b75ef061b9fbfd037e80abd6. The subtask is complete.
@@ -121,7 +121,7 @@ Action:
 
 
 <details>
-<summary>Source event #77 · Sub-agent 2: tool result</summary>
+<summary>Source event 77 · Sub-agent 2: tool result</summary>
 
 
 ```text

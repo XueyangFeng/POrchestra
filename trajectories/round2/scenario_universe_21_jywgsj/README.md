@@ -1,6 +1,8 @@
 # scenario_universe_21_jywgsj
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_21_jywgsj/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_21_jywgsj/README.md) · [Codex](../../codex/round2/scenario_universe_21_jywgsj/README.md) · [OpenCode](../../opencode/round2/scenario_universe_21_jywgsj/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #6
+**Initial harness configuration** · Source event 6
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user has multiple requests. I will start by addressing the calendar-related tasks: canceling an existing meeting and scheduling a new one on 10/19.
 
@@ -85,11 +87,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #18
+**Initial harness configuration** · Source event 18
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The calendar tasks for 10/19 (canceling the brand partnership meeting and creating the gym session) have been completed and verified by the previous SubAgent. I am now delegating the next set of tasks related to the saved property list: removing &#x27;Lund Living&#x27; and saving &#x27;Uppsala Urban&#x27;.
 
@@ -152,11 +154,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #33
+**Initial harness configuration** · Source event 33
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The calendar and property list modifications are complete. Now I need to purchase the specified product.
 
@@ -223,11 +225,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #47
+**Initial harness configuration** · Source event 47
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 I need to complete the last part of the original request, which is removing Åke Svensson from the contact list.
 
@@ -287,7 +289,7 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #5</summary>
+<summary>Source event 5</summary>
 
 
 ```text

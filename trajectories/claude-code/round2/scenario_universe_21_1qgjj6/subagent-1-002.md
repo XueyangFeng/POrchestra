@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #137 · Subagent (parent call call_00_qrmyaqh26s2ufehwzdaxo4ji): Model tool call: mcp__gaia2__Contacts__search_contacts (call_02_fzewoarwkfhx8ybubbr0wv6s)
+## Source event 137 · Subagent (parent call call_00_qrmyaqh26s2ufehwzdaxo4ji): Model tool call: mcp__gaia2__Contacts__search_contacts (call_02_fzewoarwkfhx8ybubbr0wv6s)
 
 ```text
 {
@@ -15,7 +15,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #140 · Subagent (parent call call_00_qrmyaqh26s2ufehwzdaxo4ji): Tool result: call_00_34xjccv3nawb3mf7z4vpoj7j (is_error=False)</summary>
+<summary>Source event 140 · Subagent (parent call call_00_qrmyaqh26s2ufehwzdaxo4ji): Tool result: call_00_34xjccv3nawb3mf7z4vpoj7j (is_error=False)</summary>
 
 
 ```text
@@ -32,7 +32,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #142 · Subagent (parent call call_00_qrmyaqh26s2ufehwzdaxo4ji): Tool result: call_01_vqv14add8k7ztj6900hypwu3 (is_error=False)</summary>
+<summary>Source event 142 · Subagent (parent call call_00_qrmyaqh26s2ufehwzdaxo4ji): Tool result: call_01_vqv14add8k7ztj6900hypwu3 (is_error=False)</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #143 · Subagent (parent call call_00_qrmyaqh26s2ufehwzdaxo4ji): Tool result: call_02_fzewoarwkfhx8ybubbr0wv6s (is_error=False)</summary>
+<summary>Source event 143 · Subagent (parent call call_00_qrmyaqh26s2ufehwzdaxo4ji): Tool result: call_02_fzewoarwkfhx8ybubbr0wv6s (is_error=False)</summary>
 
 
 ```text
@@ -65,7 +65,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #144 · Subagent (parent call call_00_qrmyaqh26s2ufehwzdaxo4ji): Model message
+## Source event 144 · Subagent (parent call call_00_qrmyaqh26s2ufehwzdaxo4ji): Model message
 
 ```text
 Search tool only searches names/phone/email (per description), so empty for "assistant"/"photo" is expected.
@@ -88,7 +88,7 @@ Report exact snippets.
 
 
 
-## Source event #145 · Subagent (parent call call_00_qrmyaqh26s2ufehwzdaxo4ji): Model message
+## Source event 145 · Subagent (parent call call_00_qrmyaqh26s2ufehwzdaxo4ji): Model message
 
 ```text
 I paged through all 125 contacts (offsets 0–120; total reported 125, last page had 5). Here are the findings.

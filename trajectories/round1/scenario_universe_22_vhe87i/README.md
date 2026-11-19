@@ -1,6 +1,8 @@
 # scenario_universe_22_vhe87i
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_22_vhe87i/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_22_vhe87i/README.md) · [Codex](../../codex/round1/scenario_universe_22_vhe87i/README.md) · [OpenCode](../../opencode/round1/scenario_universe_22_vhe87i/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 3
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial setup: finding the contact, scheduling the calendar event, and sending the confirmation email. These are the first steps required before the 3-minute waiting period starts.
 
@@ -86,7 +88,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #21
+**Harness configuration updated** · Source event 21
 
 **1. Sub-agent revision request**
 
@@ -95,7 +97,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Assigned subtask completed: found Deniz Öztürk contact (deniz.ozturk@gaia2mail.com), created calendar event e4657cd1b75ef061b9fbfd037e80abd6 (Exclusive Wine Bar, 2024-10-20 17:00-19:00, tag work, attendee Deniz Öztürk), sent email e99491546510d319bc33d842063d8b97 (Reservation Confirmed to deniz.ozturk@gaia2mail.com), and notified the user. A new environment notification arrived after completion and has not been acted on.
 ```
 <details>
-<summary>Request and evidence · source event #19</summary>
+<summary>Request and evidence · source event 19</summary>
 
 
 ```text
@@ -139,7 +141,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent has completed the initial scheduling and email tasks and notified the user. A new email notification from a different sender has arrived. I need to instruct the SubAgent to monitor for Deniz Öztürk&#x27;s response within the 3-minute window and execute the conditional follow-up tasks (cab booking and group messaging) if she confirms. The email from Nalani Jensen should be checked briefly to ensure no relevance, but the focus is on the 3-minute deadline from the &#x27;Reservation Confirmed&#x27; email.
 
@@ -250,7 +252,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 
 ### S1 configuration v3
 
-**Harness configuration updated** · Source event #30
+**Harness configuration updated** · Source event 30
 
 **1. Sub-agent revision request**
 
@@ -259,7 +261,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 Checked new email from nalani.jensen@lawfirm.com: it confirms Nalani 'will be there on Sunday' and is unrelated to Deniz Öztürk's reservation, so it should be ignored. Waited 190 seconds for notifications; the wait ended with no confirmation from Deniz Öztürk. A new environment notification then arrived from aurelia.silvacastro@gaia2mail.com, which has not been acted on.
 ```
 <details>
-<summary>Request and evidence · source event #28</summary>
+<summary>Request and evidence · source event 28</summary>
 
 
 ```text
@@ -307,7 +309,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #3
+`revise_task` · Source event 3
 
 A new email from aurelia.silvacastro@gaia2mail.com arrived within the 3-minute window (at 07:02:18). I need to determine if this or any other email received by 07:04:18 constitutes a confirmation of Deniz Öztürk&#x27;s attendance. If confirmed, the conditional actions (cab booking and group message) must be executed.
 
@@ -427,7 +429,7 @@ Full system configuration: [Part 1](config-s1-v3-01.md)
 
 ### S1 configuration v4
 
-**Harness configuration updated** · Source event #39
+**Harness configuration updated** · Source event 39
 
 **1. Sub-agent revision request**
 
@@ -436,7 +438,7 @@ Full system configuration: [Part 1](config-s1-v3-01.md)
 Deadline for Deniz Öztürk's confirmation (approx 07:04:20) has passed. Waited 145 extra seconds with no notification; no Deniz confirmation email had been observed in the inbox listing. A new environment notification has now arrived: 'EmailClientV2: New email received from deniz.ozturk@ga2mail.com'. No side effects taken on this notification.
 ```
 <details>
-<summary>Request and evidence · source event #37</summary>
+<summary>Request and evidence · source event 37</summary>
 
 
 ```text
@@ -485,7 +487,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #4
+`revise_task` · Source event 4
 
 The email from Deniz Öztürk was received at 07:02:36, which is within the 3-minute window (ending at 07:04:18) following the initial email sent at 07:01:18. Therefore, the conditional actions (cab booking and group messaging) must be evaluated based on the content of that email. If Deniz confirmed her attendance in that email, the SubAgent must proceed with booking the premium cab and messaging the staff training attendees.
 

@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #187 · Main agent: Model message
+## Source event 187 · Main agent: Model message
 
 ```text
 I sent the answer to the user: **Vladimíra Nováková**.
@@ -23,7 +23,7 @@ Vladimíra Nováková had the most time, so no tie-break was needed.
 
 
 <details>
-<summary>Source event #188 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 188 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -45,7 +45,7 @@ Vladimíra Nováková had the most time, so no tie-break was needed.
 
 
 <details>
-<summary>Source event #189 · Judge: Judge rationale</summary>
+<summary>Source event 189 · Judge: Judge rationale</summary>
 
 
 ```text

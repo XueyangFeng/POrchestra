@@ -1,6 +1,8 @@
 # scenario_universe_27_fcbx0i
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_27_fcbx0i/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_27_fcbx0i/README.md) · [Codex](../../codex/round1/scenario_universe_27_fcbx0i/README.md) · [OpenCode](../../opencode/round1/scenario_universe_27_fcbx0i/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task involves a sequence of time-sensitive actions: waiting 4 minutes, replying to emails received during that window, waiting 30 seconds, shopping for items based on the number of unique recipients, and finally setting a calendar reminder. These steps are strictly sequential and depend on precise timing relative to the current time (2024-10-15 07:00:00).
 
@@ -100,7 +102,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #2</summary>
+<summary>Source event 2</summary>
 
 
 ```text

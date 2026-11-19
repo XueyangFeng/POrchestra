@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #132 · Sub-agent 3: Initial system configuration</summary>
+<summary>Source event 132 · Sub-agent 3: Initial system configuration</summary>
 
 
 ```text
@@ -160,7 +160,7 @@ The search looks for partial matches in first name, last name, phone number, and
 
 
 <details>
-<summary>Source event #133 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 133 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -179,7 +179,7 @@ Identify which of the following four candidates from the Chats app (interacted w
 
 
 <details>
-<summary>Source event #134 · Sub-agent 3: model output</summary>
+<summary>Source event 134 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -199,7 +199,7 @@ Action:
 
 
 <details>
-<summary>Source event #135 · Sub-agent 3: tool result</summary>
+<summary>Source event 135 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -214,7 +214,7 @@ Action:
 
 
 <details>
-<summary>Source event #136 · Sub-agent 3: model output</summary>
+<summary>Source event 136 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -232,7 +232,7 @@ Action:
 
 
 <details>
-<summary>Source event #137 · Sub-agent 3: tool result</summary>
+<summary>Source event 137 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -247,7 +247,7 @@ Action:
 
 
 <details>
-<summary>Source event #138 · Sub-agent 3: model output</summary>
+<summary>Source event 138 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -265,7 +265,7 @@ Action:
 
 
 <details>
-<summary>Source event #139 · Sub-agent 3: tool result</summary>
+<summary>Source event 139 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -280,7 +280,7 @@ Action:
 
 
 <details>
-<summary>Source event #140 · Sub-agent 3: model output</summary>
+<summary>Source event 140 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -296,7 +296,7 @@ Action:
 
 
 <details>
-<summary>Source event #141 · Sub-agent 3: tool result</summary>
+<summary>Source event 141 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -311,7 +311,7 @@ Action:
 
 
 <details>
-<summary>Source event #142 · Sub-agent 3: model output</summary>
+<summary>Source event 142 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -330,7 +330,7 @@ Action:
 
 
 <details>
-<summary>Source event #143 · Sub-agent 3: tool result</summary>
+<summary>Source event 143 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -345,7 +345,7 @@ Action:
 
 
 <details>
-<summary>Source event #144 · Sub-agent 3: model output</summary>
+<summary>Source event 144 · Sub-agent 3: model output</summary>
 
 
 ```text
@@ -398,7 +398,7 @@ Action:
 
 
 <details>
-<summary>Source event #145 · Sub-agent 3: tool result</summary>
+<summary>Source event 145 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -413,7 +413,7 @@ Action:
 
 
 <details>
-<summary>Source event #146 · Judge rationale</summary>
+<summary>Source event 146 · Judge rationale</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_29_bv0gwh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_29_bv0gwh/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_29_bv0gwh/README.md) · [Codex](../../codex/round3/scenario_universe_29_bv0gwh/README.md) · [OpenCode](../../opencode/round3/scenario_universe_29_bv0gwh/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the set of people the user has interacted with in Chats since October 10 and in Messages since October 1. This is the first step in filtering the candidates based on the last name and interaction criteria.
 
@@ -87,11 +89,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #66
+**Initial harness configuration** · Source event 66
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous agent identified Chat contacts from Oct 10 and Message contact last names from Oct 1. Four candidates (Kaida Kaur, Rémi LaFleur, Archibald McTavish, Kalyan Rao) already have last name overlaps. I need to: 1. Resolve names for the remaining phone numbers from Messages to find more overlaps. 2. Find the &#x27;city of residence&#x27; for all Chat contacts whose last names overlap with any Message contact. 3. Check Cabs ride history to see if a ride was booked to any of those cities. 4. Return the first name alphabetically in case of a tie.
 
@@ -159,7 +161,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

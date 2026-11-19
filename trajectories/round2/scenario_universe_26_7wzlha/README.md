@@ -1,6 +1,8 @@
 # scenario_universe_26_7wzlha
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_26_7wzlha/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_26_7wzlha/README.md) · [Codex](../../codex/round2/scenario_universe_26_7wzlha/README.md) · [OpenCode](../../opencode/round2/scenario_universe_26_7wzlha/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify the user&#x27;s city, find the cousin (former environmental consultant), determine the next available day with no scheduled events after 4 PM, and find retirees in the same city. Then, I must send the invitation emails and notify the user to start the 4-minute timer for responses.
 
@@ -95,7 +97,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #52
+**Harness configuration updated** · Source event 52
 
 **1. Sub-agent revision request**
 
@@ -104,7 +106,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Subtasks 1-7 complete. User Åse Kjellstad (Oslo, Norway). Cousin identified as Åshild Nystad (former environmental consultant), 23 Kirkegata, 9008 Tromsø, Norway. First day with no events after 16:00 = Friday 2024-10-18 (events only 09:00–12:00 and 13:00–15:00). Four Oslo retirees emailed invitations for 2024-10-18 17:00–21:00 at cousin's address: Kåre Fjellstad, Kåre Østensen, Kåre Sørensen, Oleksandr Hrynchenko. User notified at 2024-10-15 07:00:13 (epoch 1728975613.550956). A new notification just arrived: an email from kare.sorensen@gaia2mail.com (likely a reply to the invitation, received after user notification, within the 4-minute reply window 07:00:13–07:04:13).
 ```
 <details>
-<summary>Request and evidence · source event #50</summary>
+<summary>Request and evidence · source event 50</summary>
 
 
 ```text
@@ -157,7 +159,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The first phase (finding the date, retirees, and sending invitations) is complete. A reply has already arrived from one of the retirees within the 4-minute window. I am now authorizing the follow-up conditional phase: monitoring for all four replies, booking a cab for the first replier immediately, and if all four confirm, creating the calendar event and messaging the cousin.
 
@@ -272,7 +274,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #4 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 4 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Identify Danish contacts who sent an email last month (September 2024). For thes
 </details>
 
 
-## Source event #5 · Sub-agent 1: model output
+## Source event 5 · Sub-agent 1: model output
 
 ```text
 I'll start by retrieving the contacts list and September emails.
@@ -32,7 +32,7 @@ Action:
 
 
 <details>
-<summary>Source event #6 · Sub-agent 1: tool result</summary>
+<summary>Source event 6 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -46,7 +46,7 @@ Action:
 </details>
 
 
-## Source event #7 · Sub-agent 1: model output
+## Source event 7 · Sub-agent 1: model output
 
 ```text
 I have the first 10 contacts of 104. Let me page through the rest.
@@ -62,7 +62,7 @@ Action:
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -76,7 +76,7 @@ Action:
 </details>
 
 
-## Source event #9 · Sub-agent 1: model output
+## Source event 9 · Sub-agent 1: model output
 
 ```text
 Let me check the inbox emails to identify senders from September 2024.
@@ -92,7 +92,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -106,7 +106,7 @@ Action:
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 10 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -118,7 +118,7 @@ ReturnedEmails(emails=[Email(sender='rohan.deshpande@adwave.in', recipients=['so
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 10 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -130,7 +130,7 @@ volutionize the banking industry. As a computer science student at Aarhus Univer
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 10 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -142,7 +142,7 @@ ortunities and learn more about your mobile application. Would you be available 
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result (continued, part 5)</summary>
+<summary>Source event 10 · Sub-agent 1: tool result (continued, part 5)</summary>
 
 
 ```text

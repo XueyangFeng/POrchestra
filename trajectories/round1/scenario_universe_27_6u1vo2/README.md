@@ -1,6 +1,8 @@
 # scenario_universe_27_6u1vo2
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_27_6u1vo2/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_27_6u1vo2/README.md) · [Codex](../../codex/round1/scenario_universe_27_6u1vo2/README.md) · [OpenCode](../../opencode/round1/scenario_universe_27_6u1vo2/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The initial request requires several calendar and messaging actions for &#x27;tomorrow&#x27; (2024-10-16). I need to identify the office hours, cancel them, schedule a new meeting with Helga Müller in that slot, send her a message, and report back to the user.
 
@@ -96,7 +98,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #23
+**Harness configuration updated** · Source event 23
 
 **1. Sub-agent revision request**
 
@@ -105,7 +107,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Initial tasks completed: deleted Office Hours 2024-10-16 14:00-16:00, created Meeting with Helga Müller in same slot, sent reschedule-request message to Helga (conversation 81c6c8da192240959b29545344878050), notified user. Now received environment notification that 2 new messages arrived in that conversation, but the available toolset has no tool to read Messages content, so I cannot see Helga's reply.
 ```
 <details>
-<summary>Request and evidence · source event #21</summary>
+<summary>Request and evidence · source event 21</summary>
 
 
 ```text
@@ -156,7 +158,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The initial tasks are complete, and Helga Müller has replied. I will now provide the SubAgent with the necessary tools to read her reply and perform the follow-up actions specified in the original task, such as rescheduling, cancelling other events, and potentially purchasing a toy.
 
@@ -273,7 +275,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

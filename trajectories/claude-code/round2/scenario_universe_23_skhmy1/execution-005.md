@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #270 · Main agent: Model message
+## Source event 270 · Main agent: Model message
 
 ```text
 Top single chat: Fatima Al-Khaja 283. Second: Elian Toledano (newer) 278 — only 5 words apart! That's uncomfortably close. I need to double-check the transcription of those two chats carefully, and confirm the "first 6 messages" selection.
@@ -248,7 +248,7 @@ Let me send the answer.
 
 
 
-## Source event #271 · Main agent: Model tool call: ToolSearch (call_00_a9wjdxa6wzqo9jlu2ky18t81)
+## Source event 271 · Main agent: Model tool call: ToolSearch (call_00_a9wjdxa6wzqo9jlu2ky18t81)
 
 ```text
 {
@@ -260,7 +260,7 @@ Let me send the answer.
 
 
 <details>
-<summary>Source event #272 · Main agent: Tool result: call_00_a9wjdxa6wzqo9jlu2ky18t81 (is_error=False)</summary>
+<summary>Source event 272 · Main agent: Tool result: call_00_a9wjdxa6wzqo9jlu2ky18t81 (is_error=False)</summary>
 
 
 ```text
@@ -276,7 +276,7 @@ Let me send the answer.
 </details>
 
 
-## Source event #273 · Main agent: Model message
+## Source event 273 · Main agent: Model message
 
 ```text
 Send the answer only with the full name, as requested ("Answer only with the full name").
@@ -284,7 +284,7 @@ Send the answer only with the full name, as requested ("Answer only with the ful
 
 
 
-## Source event #274 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_nzsvgxa3efrn0fcgqmljn187)
+## Source event 274 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_nzsvgxa3efrn0fcgqmljn187)
 
 ```text
 {
@@ -295,7 +295,7 @@ Send the answer only with the full name, as requested ("Answer only with the ful
 
 
 <details>
-<summary>Source event #275 · Main agent: Tool result: call_00_nzsvgxa3efrn0fcgqmljn187 (is_error=False)</summary>
+<summary>Source event 275 · Main agent: Tool result: call_00_nzsvgxa3efrn0fcgqmljn187 (is_error=False)</summary>
 
 
 ```text
@@ -311,7 +311,7 @@ Send the answer only with the full name, as requested ("Answer only with the ful
 </details>
 
 
-## Source event #276 · Main agent: Model message
+## Source event 276 · Main agent: Model message
 
 ```text
 I analyzed all 160 conversations in Messages, isolated the 30 that are true 1:1 chats (exactly one other participant, none with fewer than 6 messages), and counted whitespace-split words across the first 6 messages of each chat.
@@ -329,7 +329,7 @@ Top chats by words in their first 6 messages:
 
 
 <details>
-<summary>Source event #277 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 277 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -350,7 +350,7 @@ Top chats by words in their first 6 messages:
 
 
 <details>
-<summary>Source event #278 · Judge: Judge rationale</summary>
+<summary>Source event 278 · Judge: Judge rationale</summary>
 
 
 ```text

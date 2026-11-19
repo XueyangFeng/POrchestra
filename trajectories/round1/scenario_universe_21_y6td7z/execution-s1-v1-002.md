@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 23 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ elopment manager with a focus on industrial robotics, I've been following your w
 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 23 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -29,7 +29,7 @@ r Instagram profile and was impressed by your passion for social causes and your
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 The initial subtask is complete, and three new replies have arrived from all invitees. Per my instructions, I must report this notification to MainAgent before any further side effects.
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text

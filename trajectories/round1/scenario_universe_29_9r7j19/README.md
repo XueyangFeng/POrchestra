@@ -1,6 +1,8 @@
 # scenario_universe_29_9r7j19
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_29_9r7j19/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_29_9r7j19/README.md) · [Codex](../../codex/round1/scenario_universe_29_9r7j19/README.md) · [OpenCode](../../opencode/round1/scenario_universe_29_9r7j19/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The initial part of the request requires finding contact and user information, booking a cab for the specified date, and sending a confirmation email. The user explicitly requested to be notified once these actions are complete.
 
@@ -89,7 +91,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #20
+**Harness configuration updated** · Source event 20
 
 **1. Sub-agent revision request**
 
@@ -98,7 +100,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Assigned subtask completed: Ryder McKenzie contact found (email ryder.mckenzie@gaia2mail.com), user home address obtained (14, Sahyadri Apartments, Bandra West, Mumbai, Maharashtra 400050), Default cab booked for 2024-11-24 10:00:00 from the airport to home (Ride ID 6acbe88d2e50cc6bc7af2e04429d65f0, status BOOKED), email 'Confirming Your Arrival Date' sent to Ryder (email ID e99491546510d319bc33d842063d8b97), and user notified. A new environment notification arrived: 'EmailClientV2: New email received'. I have no email-reading tool or calendar tool available, so I cannot inspect the new email or execute the conditional follow-up (rebook cab to a new 10AM date and cancel calendar events for that day) from the Original Turn.
 ```
 <details>
-<summary>Request and evidence · source event #18</summary>
+<summary>Request and evidence · source event 18</summary>
 
 
 ```text
@@ -144,7 +146,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 A new email has been received, likely from Ryder McKenzie. The SubAgent needs to inspect this email to handle the conditional logic of the original task (rebooking the cab and canceling calendar events if the date changed). I am expanding the toolset to include email-reading and calendar management tools.
 

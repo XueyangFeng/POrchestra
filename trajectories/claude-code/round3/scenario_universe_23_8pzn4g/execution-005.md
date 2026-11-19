@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #218 · Main agent: Tool result: call_00_chrkk9szrkhn29j5wpburl91 (is_error=False)</summary>
+<summary>Source event 218 · Main agent: Tool result: call_00_chrkk9szrkhn29j5wpburl91 (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #219 · Main agent: Tool result: call_01_szq5ds705vncsbvws7uepe8g (is_error=False)</summary>
+<summary>Source event 219 · Main agent: Tool result: call_01_szq5ds705vncsbvws7uepe8g (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #220 · Main agent: Tool result: call_02_3vst7y93i108f2y0wyf2p2vv (is_error=False)</summary>
+<summary>Source event 220 · Main agent: Tool result: call_02_3vst7y93i108f2y0wyf2p2vv (is_error=False)</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #221 · Main agent: Tool result: call_03_y0vp1c1cx8gps7sh78qcqfhv (is_error=False)</summary>
+<summary>Source event 221 · Main agent: Tool result: call_03_y0vp1c1cx8gps7sh78qcqfhv (is_error=False)</summary>
 
 
 ```text
@@ -73,7 +73,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #222 · Main agent: Tool result: call_04_ym4jjh0b8d0ru716elehg45w (is_error=False)</summary>
+<summary>Source event 222 · Main agent: Tool result: call_04_ym4jjh0b8d0ru716elehg45w (is_error=False)</summary>
 
 
 ```text
@@ -90,7 +90,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #223 · Main agent: Tool result: call_05_t3n0t5u8rkzzs8rgrw2tasdz (is_error=False)</summary>
+<summary>Source event 223 · Main agent: Tool result: call_05_t3n0t5u8rkzzs8rgrw2tasdz (is_error=False)</summary>
 
 
 ```text
@@ -106,7 +106,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #224 · Main agent: Model message
+## Source event 224 · Main agent: Model message
 
 ```text
 Found:
@@ -167,7 +167,7 @@ Let me load the schema.
 
 
 
-## Source event #225 · Main agent: Model tool call: ToolSearch (call_00_tbz7u0jxew5gomchkhp9lhxf)
+## Source event 225 · Main agent: Model tool call: ToolSearch (call_00_tbz7u0jxew5gomchkhp9lhxf)
 
 ```text
 {
@@ -179,7 +179,7 @@ Let me load the schema.
 
 
 <details>
-<summary>Source event #226 · Main agent: Tool result: call_00_tbz7u0jxew5gomchkhp9lhxf (is_error=False)</summary>
+<summary>Source event 226 · Main agent: Tool result: call_00_tbz7u0jxew5gomchkhp9lhxf (is_error=False)</summary>
 
 
 ```text
@@ -195,7 +195,7 @@ Let me load the schema.
 </details>
 
 
-## Source event #227 · Main agent: Model message
+## Source event 227 · Main agent: Model message
 
 ```text
 Let me do one final verification of Kaisa's other potential events and also confirm no events for Ursula/Kaarina by direct full scan. I have all 246 events in context now (page 0 in first output, pages 100-200, 200-246). I could grep page 0 but it's not saved. Let me re-fetch page 0 to a file? The output may be huge; but maybe I can use a smaller date range covering Aug 1-Sep 2 (0-100) with limit 100 and inspect. It'll be same size.
@@ -231,7 +231,7 @@ Let me also consider whether to mention methodology. Keep just the name.
 
 
 
-## Source event #228 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_cnpwwkkoy2mcz4e11z4pq0yo)
+## Source event 228 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_cnpwwkkoy2mcz4e11z4pq0yo)
 
 ```text
 {
@@ -242,7 +242,7 @@ Let me also consider whether to mention methodology. Keep just the name.
 
 
 <details>
-<summary>Source event #229 · Main agent: Tool result: call_00_cnpwwkkoy2mcz4e11z4pq0yo (is_error=False)</summary>
+<summary>Source event 229 · Main agent: Tool result: call_00_cnpwwkkoy2mcz4e11z4pq0yo (is_error=False)</summary>
 
 
 ```text
@@ -258,7 +258,7 @@ Let me also consider whether to mention methodology. Keep just the name.
 </details>
 
 
-## Source event #230 · Main agent: Model message
+## Source event 230 · Main agent: Model message
 
 ```text
 Vladimíra Nováková
@@ -267,7 +267,7 @@ Vladimíra Nováková
 
 
 <details>
-<summary>Source event #231 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 231 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -279,7 +279,7 @@ Vladimíra Nováková
 
 
 <details>
-<summary>Source event #232 · Judge: Judge rationale</summary>
+<summary>Source event 232 · Judge: Judge rationale</summary>
 
 
 ```text

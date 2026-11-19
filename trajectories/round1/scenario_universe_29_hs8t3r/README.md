@@ -1,6 +1,8 @@
 # scenario_universe_29_hs8t3r
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_29_hs8t3r/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_29_hs8t3r/README.md) · [Codex](../../codex/round1/scenario_universe_29_hs8t3r/README.md) · [OpenCode](../../opencode/round1/scenario_universe_29_hs8t3r/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to collect all sent emails for the month of October 2024, identify the male contacts among the recipients, and then determine if these male contacts are participants in at least one Chats conversation. Finally, we calculate the percentage.
 
@@ -93,11 +95,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #72
+**Initial harness configuration** · Source event 72
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent hit the step limit while trying to gather and correlate data from Emails, Contacts, and Chats. I am delegating a fresh attempt to determine the percentage of male contacts emailed in October 2024 who are also in Chats conversations. The SubAgent will need to list sent emails, identify male recipients from Contacts, check their participation in Chats, and then report the results.
 
@@ -180,11 +182,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #139
+**Initial harness configuration** · Source event 139
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The previous attempt identified 9 male contacts emailed this month but only checked 6 of them for Chats presence. Only one (Kaito Nakamura) was found to have a Chats ID, but his participation in a conversation wasn&#x27;t confirmed. I need to complete the lookups for the remaining 3 male contacts, verify conversation participation for all found IDs, and calculate the final percentage.
 

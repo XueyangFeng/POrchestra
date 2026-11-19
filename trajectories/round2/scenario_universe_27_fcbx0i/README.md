@@ -1,6 +1,8 @@
 # scenario_universe_27_fcbx0i
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_27_fcbx0i/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_27_fcbx0i/README.md) · [Codex](../../codex/round2/scenario_universe_27_fcbx0i/README.md) · [OpenCode](../../opencode/round2/scenario_universe_27_fcbx0i/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to wait until 07:04:00 to identify and reply to all emails received between 07:00:00 and 07:04:00. This is the first step of the temporal sequence.
 
@@ -92,11 +94,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #44
+**Initial harness configuration** · Source event 44
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The first phase of waiting for and replying to emails received between 07:00 and 07:04 is complete. Three unique senders were replied to at 07:04:00. Now I need to wait until exactly 07:04:30 (30 seconds later) to add 3 &#x27;mini blue mattel magic 8 ball&#x27; items to the cart, checkout, and then set the calendar reminder for October 31st.
 
@@ -169,7 +171,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

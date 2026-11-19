@@ -1,6 +1,8 @@
 # scenario_universe_22_0byq1g
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_22_0byq1g/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_22_0byq1g/README.md) · [Codex](../../codex/round2/scenario_universe_22_0byq1g/README.md) · [OpenCode](../../opencode/round2/scenario_universe_22_0byq1g/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #6
+**Initial harness configuration** · Source event 6
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first part of the user request is to save properties priced at $3200 if they are not already saved. This is a discrete task involving the RentAFlat application.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #20
+**Initial harness configuration** · Source event 20
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The property saving task is complete. Now I need to send the requested email to Luís Silva. This requires finding his contact information and then using the email tool.
 
@@ -144,11 +146,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #30
+**Initial harness configuration** · Source event 30
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 Tasks 1 and 2 are complete. Now I need to create the calendar event for the wine tasting as requested in the third part of the original task.
 
@@ -205,11 +207,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #36
+**Initial harness configuration** · Source event 36
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 The first three subtasks (saving properties, sending the chess coaching email, and creating the calendar event) are successfully completed. The remaining subtask is to delete the most recent email from Astrid Nakamura.
 
@@ -273,7 +275,7 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #5</summary>
+<summary>Source event 5</summary>
 
 
 ```text

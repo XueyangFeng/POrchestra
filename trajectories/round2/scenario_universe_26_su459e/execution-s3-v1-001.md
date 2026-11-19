@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #93 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 93 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #94 · Sub-agent 3: model output
+## Source event 94 · Sub-agent 3: model output
 
 ```text
 I'll start by checking the current time to determine if we've reached the scheduled 07:04:00 moment.
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #95 · Sub-agent 3: tool result</summary>
+<summary>Source event 95 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Action:
 </details>
 
 
-## Source event #96 · Sub-agent 3: model output
+## Source event 96 · Sub-agent 3: model output
 
 ```text
 Current time is 07:03:43 — I need to wait ~17 seconds until 07:04:00.
@@ -66,7 +66,7 @@ Action:
 
 
 <details>
-<summary>Source event #97 · Sub-agent 3: tool result</summary>
+<summary>Source event 97 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ None
 
 
 <details>
-<summary>Source event #98 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 98 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -94,7 +94,7 @@ Environment notifications:
 </details>
 
 
-## Source event #99 · Sub-agent 3: model output
+## Source event 99 · Sub-agent 3: model output
 
 ```text
 Wait completed. Let me verify the current time.
@@ -109,7 +109,7 @@ Action:
 
 
 <details>
-<summary>Source event #100 · Sub-agent 3: tool result</summary>
+<summary>Source event 100 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -124,7 +124,7 @@ Action:
 
 
 <details>
-<summary>Source event #101 · Sub-agent 3: tool result</summary>
+<summary>Source event 101 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -142,7 +142,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #102 · Sub-agent 3: model output
+## Source event 102 · Sub-agent 3: model output
 
 ```text
 It's exactly 07:04:00. Now fetching calendar events for the range 2024-10-15 to 2024-10-20.
@@ -161,7 +161,7 @@ Action:
 
 
 <details>
-<summary>Source event #103 · Sub-agent 3: tool result</summary>
+<summary>Source event 103 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -175,7 +175,7 @@ Action:
 </details>
 
 
-## Source event #104 · Sub-agent 3: model output
+## Source event 104 · Sub-agent 3: model output
 
 ```text
 All 18 events fetched. Comparing against the 17 baseline IDs, exactly one event is new: `f7af3c683953f40822cf7da5a5df7046` — "Event created by Kaida Rylan: Romantic night" (Fri 2024-10-18 21:00–23:30, attendees Åse Kjellstad & Kaida Rylan). All other events match baseline IDs. Deleting it now.
@@ -192,7 +192,7 @@ Action:
 
 
 <details>
-<summary>Source event #105 · Sub-agent 3: tool result</summary>
+<summary>Source event 105 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -206,7 +206,7 @@ Event f7af3c683953f40822cf7da5a5df7046 successfully deleted.
 </details>
 
 
-## Source event #106 · Sub-agent 3: model output
+## Source event 106 · Sub-agent 3: model output
 
 ```text
 Deletion succeeded. Let me verify the calendar state now matches the baseline exactly.
@@ -225,7 +225,7 @@ Action:
 
 
 <details>
-<summary>Source event #107 · Sub-agent 3: tool result</summary>
+<summary>Source event 107 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -239,7 +239,7 @@ Action:
 </details>
 
 
-## Source event #108 · Sub-agent 3: model output
+## Source event 108 · Sub-agent 3: model output
 
 ```text
 Verification confirms the calendar now contains exactly the 17 baseline events — the Kaida Rylan event is gone and nothing else changed.
@@ -320,7 +320,7 @@ Action:
 
 
 <details>
-<summary>Source event #109 · Sub-agent 3: tool result</summary>
+<summary>Source event 109 · Sub-agent 3: tool result</summary>
 
 
 ```text

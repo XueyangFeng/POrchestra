@@ -1,6 +1,8 @@
 # scenario_universe_25_h0h9fx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_25_h0h9fx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_25_h0h9fx/README.md) · [Codex](../../codex/round3/scenario_universe_25_h0h9fx/README.md) · [OpenCode](../../opencode/round3/scenario_universe_25_h0h9fx/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to set up the initial lunch invitation and reply to Nalinee&#x27;s email as requested. This involves creating a calendar event, finding and replying to a specific email, and notifying the user of the progress.
 
@@ -89,7 +91,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #18
+**Harness configuration updated** · Source event 18
 
 **1. Sub-agent revision request**
 
@@ -98,7 +100,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed original subtask: verified contact Nalinee Srisombat (nalinee.srisombat@cmu.ac.th), created calendar event 'Lunch with Nalinee Srisombat' 2024-10-26 13:00-15:00 (event id acea4a8d991e2e64e9a43daa76d19dd2), found her 2024-10-13 email (email_id 3f6ae2058f1d43f9b52f88eaf5774a8f, subject 'Research on Sustainable Architecture in Thailand', timestamp 1728857650.97), replied (reply email id a7a6559237dfccab98f2b1970584c7a3), and messaged the user confirming. Now environment notifications report Nalinee deleted the calendar event and a new email arrived.
 ```
 <details>
-<summary>Request and evidence · source event #16</summary>
+<summary>Request and evidence · source event 16</summary>
 
 
 ```text
@@ -150,7 +152,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 Nalinee has deleted the 10/26 event, triggering the conditional branch for the 10/20 lunch date. I need to expand the SubAgent&#x27;s scope to handle the 10/20 event creation, cab booking, gift order, and property saving, while providing the necessary app tools.
 

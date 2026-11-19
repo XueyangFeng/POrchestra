@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #199 · Main agent: Model message
+## Source event 199 · Main agent: Model message
 
 ```text
 Final state correct: event Friday 07:00-08:00 at "42 Valhallavägen 30, Stockholm" with Åke; ride at 06:40 to same, Premium, booked.
@@ -22,7 +22,7 @@ But note send_message_to_user ends turn; after that maybe no further actions. Do
 
 
 
-## Source event #200 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_rqub6xdxjesvyl99yrxl9bji)
+## Source event 200 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_rqub6xdxjesvyl99yrxl9bji)
 
 ```text
 {
@@ -33,7 +33,7 @@ But note send_message_to_user ends turn; after that maybe no further actions. Do
 
 
 <details>
-<summary>Source event #201 · Main agent: Tool result: call_00_rqub6xdxjesvyl99yrxl9bji (is_error=False)</summary>
+<summary>Source event 201 · Main agent: Tool result: call_00_rqub6xdxjesvyl99yrxl9bji (is_error=False)</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ But note send_message_to_user ends turn; after that maybe no further actions. Do
 </details>
 
 
-## Source event #202 · Main agent: Model message
+## Source event 202 · Main agent: Model message
 
 ```text
 Now final response summarizing. Turn may end. Provide final answer.
@@ -57,7 +57,7 @@ Now final response summarizing. Turn may end. Provide final answer.
 
 
 
-## Source event #203 · Main agent: Model message
+## Source event 203 · Main agent: Model message
 
 ```text
 Luísa's reply corrected both details, and I've applied the updates:
@@ -75,7 +75,7 @@ Luísa's reply corrected both details, and I've applied the updates:
 
 
 <details>
-<summary>Source event #204 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 204 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -96,7 +96,7 @@ Luísa's reply corrected both details, and I've applied the updates:
 
 
 <details>
-<summary>Source event #205 · Judge: Judge rationale</summary>
+<summary>Source event 205 · Judge: Judge rationale</summary>
 
 
 ```text

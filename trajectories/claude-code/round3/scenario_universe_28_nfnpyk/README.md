@@ -1,6 +1,8 @@
 # Claude Code · scenario_universe_28_nfnpyk
 
-[Round index](../README.md) · [Claude Code rounds](../../README.md) · [PORCHESTRA task](../../../round3/scenario_universe_28_nfnpyk/README.md)
+[Round index](../README.md) · [Claude Code rounds](../../README.md)
+
+**Compare systems:** [PORCHESTRA](../../../round3/scenario_universe_28_nfnpyk/README.md) · Claude Code · [Codex](../../../codex/round3/scenario_universe_28_nfnpyk/README.md) · [OpenCode](../../../opencode/round3/scenario_universe_28_nfnpyk/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Duration:** 12.2 seconds
 

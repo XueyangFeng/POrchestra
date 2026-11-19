@@ -1,6 +1,8 @@
 # scenario_universe_26_9gsqs1
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_26_9gsqs1/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_26_9gsqs1/README.md) · [Codex](../../codex/round1/scenario_universe_26_9gsqs1/README.md) · [OpenCode](../../opencode/round1/scenario_universe_26_9gsqs1/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task involves a time-sensitive sequence: finding specific contacts from Contacts and Calendar, creating a Messages group, sending an initial message, notifying the user, waiting exactly 3 minutes, welcoming new participants, and providing a final participant count. A single SubAgent is best suited to maintain the conversation state and manage the tight 200-second window (which includes a 180-second mandatory wait).
 
@@ -93,7 +95,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #23
+**Harness configuration updated** · Source event 23
 
 **1. Sub-agent revision request**
 
@@ -102,7 +104,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Group 'Friends Forever' created (conversation_id=4e11770c965b3d23247e58a802fa3cc7) with Kaitlyn Nadeau (Branding Specialist, id=fd62d6fcf449432cb418dc2e01e55f99) and Kaja Fjellstad (lunch 2024-10-14, id=7f706173bbd245568dd9820fc6b20919). Initial message 'Please add your best friends to this Messages conversation.' sent. Next steps: notify user of send, wait 180s, check participants, welcome new members, report total participants.
 ```
 <details>
-<summary>Request and evidence · source event #21</summary>
+<summary>Request and evidence · source event 21</summary>
 
 
 ```text
@@ -149,7 +151,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent needs to notify the user that the message has been sent, which will end the current turn. The remaining steps (waiting 3 minutes, checking for new participants, welcoming them, and reporting the final participant count) will be handled in the subsequent turn.
 

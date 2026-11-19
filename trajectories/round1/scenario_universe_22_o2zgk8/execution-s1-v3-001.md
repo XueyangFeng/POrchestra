@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #65 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 65 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #66 · Sub-agent 1: model output
+## Source event 66 · Sub-agent 1: model output
 
 ```text
 I cannot proceed because the required Messages__read_conversation tool is missing from my current toolset. I'll request it from MainAgent before taking any side effects.
@@ -64,7 +64,7 @@ Action:
 
 
 <details>
-<summary>Source event #67 · Sub-agent 1: tool result</summary>
+<summary>Source event 67 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_27_sqvrhj
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_27_sqvrhj/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_27_sqvrhj/README.md) · [Codex](../../codex/round1/scenario_universe_27_sqvrhj/README.md) · [OpenCode](../../opencode/round1/scenario_universe_27_sqvrhj/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires several steps: file management, finding specific contacts based on email history and contact details, and sending communications via email and messages. I will start by setting up the directory, moving the file, and identifying all the necessary recipients.
 
@@ -97,11 +99,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #68
+**Initial harness configuration** · Source event 68
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent exhausted its step budget during the information gathering phase. I am delegating a new SubAgent to complete the entire sequence of required side effects: creating the directory, moving the file, and performing the multi-channel communication (Emails and Messages) to the identified recipients.
 
@@ -192,11 +194,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #131
+**Initial harness configuration** · Source event 131
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The previous agent successfully prepared the environment (folder created, file moved) and identified all recipients. I now need a SubAgent to perform the final delivery steps: creating the Messages group for the history teachers who are on the platform, sending them the document, and emailing the document to the history teacher who is not on Messages.
 
@@ -260,7 +262,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

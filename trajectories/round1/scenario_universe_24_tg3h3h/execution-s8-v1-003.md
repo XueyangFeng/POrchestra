@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #510 · Sub-agent 8: tool result</summary>
+<summary>Source event 510 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -19,7 +19,7 @@ ReturnedEmails(emails=[Email(sender='ursula.wiederkehr@gaia2mail.com', recipient
 </details>
 
 
-## Source event #511 · Sub-agent 8: model output
+## Source event 511 · Sub-agent 8: model output
 
 ```text
 SENT folder emails don't contain Aberdeen/Wikipedia. Let me search the remaining folders and messages.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #512 · Sub-agent 8: tool result</summary>
+<summary>Source event 512 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #513 · Sub-agent 8: model output
+## Source event 513 · Sub-agent 8: model output
 
 ```text
 Let me verify whether the filesystem actually returns content for non-empty files, and continue the search.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #514 · Sub-agent 8: tool result</summary>
+<summary>Source event 514 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ b''
 </details>
 
 
-## Source event #515 · Sub-agent 8: model output
+## Source event 515 · Sub-agent 8: model output
 
 ```text
 Let me check more email folders and the message app systematically.
@@ -101,7 +101,7 @@ Action:
 
 
 <details>
-<summary>Source event #516 · Sub-agent 8: tool result</summary>
+<summary>Source event 516 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -115,7 +115,7 @@ ReturnedEmails(emails=[], emails_range=(0, 0), total_returned_emails=0, total_em
 </details>
 
 
-## Source event #517 · Sub-agent 8: model output
+## Source event 517 · Sub-agent 8: model output
 
 ```text
 Action:
@@ -130,7 +130,7 @@ Action:
 
 
 <details>
-<summary>Source event #518 · Sub-agent 8: tool result</summary>
+<summary>Source event 518 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -144,7 +144,7 @@ b''
 </details>
 
 
-## Source event #519 · Sub-agent 8: model output
+## Source event 519 · Sub-agent 8: model output
 
 ```text
 The filesystem files appear empty. Let me systematically check the remaining email folders and messages for the Aberdeen wiki file.
@@ -163,7 +163,7 @@ Action:
 
 
 <details>
-<summary>Source event #520 · Sub-agent 8: tool result</summary>
+<summary>Source event 520 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -177,7 +177,7 @@ ReturnedEmails(emails=[], emails_range=(0, 0), total_returned_emails=0, total_em
 </details>
 
 
-## Source event #521 · Sub-agent 8: model output
+## Source event 521 · Sub-agent 8: model output
 
 ```text
 Action:

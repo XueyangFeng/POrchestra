@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #49 · Sub-agent 4: tool result</summary>
+<summary>Source event 49 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ ReturnedEmails(emails=[Email(sender='astridnakamura@gaia2mail.com', recipients=[
 
 
 <details>
-<summary>Source event #50 · Sub-agent 4: model output</summary>
+<summary>Source event 50 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #51 · Sub-agent 4: tool result</summary>
+<summary>Source event 51 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 4: model output</summary>
+<summary>Source event 52 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -78,7 +78,7 @@ Action:
 
 
 <details>
-<summary>Source event #53 · Sub-agent 4: tool result</summary>
+<summary>Source event 53 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -93,7 +93,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 4: model output</summary>
+<summary>Source event 54 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Action:
 
 
 <details>
-<summary>Source event #55 · Sub-agent 4: tool result</summary>
+<summary>Source event 55 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -128,7 +128,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 4: model output</summary>
+<summary>Source event 56 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -150,7 +150,7 @@ Action:
 
 
 <details>
-<summary>Source event #57 · Sub-agent 4: tool result</summary>
+<summary>Source event 57 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -165,7 +165,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 4: model output</summary>
+<summary>Source event 58 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -187,7 +187,7 @@ Action:
 
 
 <details>
-<summary>Source event #59 · Sub-agent 4: tool result</summary>
+<summary>Source event 59 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -202,7 +202,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 4: model output</summary>
+<summary>Source event 60 · Sub-agent 4: model output</summary>
 
 
 ```text
@@ -259,7 +259,7 @@ Action:
 
 
 <details>
-<summary>Source event #61 · Sub-agent 4: tool result</summary>
+<summary>Source event 61 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -274,7 +274,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Judge rationale</summary>
+<summary>Source event 62 · Judge rationale</summary>
 
 
 ```text

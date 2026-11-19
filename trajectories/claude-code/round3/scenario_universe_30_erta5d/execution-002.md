@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #163 · Main agent: Model message
+## Source event 163 · Main agent: Model message
 
 ```text
 Order processed for $7.95 red hat. Good.
@@ -18,7 +18,7 @@ Let me use Emails list_emails or search. Let me search SENT for "Apology". I'll 
 
 
 
-## Source event #164 · Main agent: Model message
+## Source event 164 · Main agent: Model message
 
 ```text
 Order processed ($7.95). Let me verify the apology emails in the SENT folder.
@@ -26,7 +26,7 @@ Order processed ($7.95). Let me verify the apology emails in the SENT folder.
 
 
 
-## Source event #165 · Main agent: Model tool call: mcp__gaia2__Emails__search_emails (call_00_yhbuj9syi7lv4r7u20cmptb8)
+## Source event 165 · Main agent: Model tool call: mcp__gaia2__Emails__search_emails (call_00_yhbuj9syi7lv4r7u20cmptb8)
 
 ```text
 {
@@ -38,7 +38,7 @@ Order processed ($7.95). Let me verify the apology emails in the SENT folder.
 
 
 <details>
-<summary>Source event #166 · Main agent: Tool result: call_00_yhbuj9syi7lv4r7u20cmptb8 (is_error=False)</summary>
+<summary>Source event 166 · Main agent: Tool result: call_00_yhbuj9syi7lv4r7u20cmptb8 (is_error=False)</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Order processed ($7.95). Let me verify the apology emails in the SENT folder.
 </details>
 
 
-## Source event #167 · Main agent: Model message
+## Source event 167 · Main agent: Model message
 
 ```text
 All 3 emails sent. Sender is rohini.deshpande@cam.ac.uk. Good.
@@ -282,7 +282,7 @@ Let me finalize.
 
 
 
-## Source event #168 · Main agent: Model message
+## Source event 168 · Main agent: Model message
 
 ```text
 All actions are complete and verified. Here's a summary of what happened during the four-minute window (07:00–07:04):
@@ -309,7 +309,7 @@ Friday's calendar now contains exactly the three new events with Akira, and the 
 
 
 <details>
-<summary>Source event #169 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 169 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -339,7 +339,7 @@ Friday's calendar now contains exactly the three new events with Akira, and the 
 
 
 <details>
-<summary>Source event #170 · Judge: Judge rationale</summary>
+<summary>Source event 170 · Judge: Judge rationale</summary>
 
 
 ```text

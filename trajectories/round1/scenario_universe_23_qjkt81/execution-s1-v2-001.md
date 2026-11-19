@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 28 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -24,7 +24,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #29 · Sub-agent 1: model output
+## Source event 29 · Sub-agent 1: model output
 
 ```text
 I will check the latest emails in the inbox to see whether Šárka has replied or declined.
@@ -43,7 +43,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 1: tool result</summary>
+<summary>Source event 30 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -57,7 +57,7 @@ ReturnedEmails(emails=[Email(sender='kvido.novacek@seznam.cz', recipients=['mate
 </details>
 
 
-## Source event #31 · Sub-agent 1: model output
+## Source event 31 · Sub-agent 1: model output
 
 ```text
 Šárka declined. I'll now execute the decline branch: cancel the shopping order first.
@@ -74,7 +74,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 1: tool result</summary>
+<summary>Source event 32 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -88,7 +88,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 1: model output
+## Source event 33 · Sub-agent 1: model output
 
 ```text
 Order cancelled. Now find the best friend: Male, lives in Prague, closest age to user (19). Let me search contacts.
@@ -105,7 +105,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: tool result</summary>
+<summary>Source event 34 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -119,7 +119,7 @@ Action:
 </details>
 
 
-## Source event #35 · Sub-agent 1: model output
+## Source event 35 · Sub-agent 1: model output
 
 ```text
 The best friend needs to be male, lives in Prague, with age closest to the user (19). Among Nováček contacts, Kryštof (41, Prague) is male and in Prague, but I need to check all contacts for a closer-age friend. Let me search more broadly.
@@ -136,7 +136,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -150,7 +150,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 36 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -162,7 +162,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 36 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ s.EMPLOYED: 'Employed'>, job="Small Business Owner (Owner of Oliveira's Brazilia
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 36 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text

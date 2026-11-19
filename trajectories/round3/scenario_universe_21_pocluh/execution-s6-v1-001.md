@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #274 · Sub-agent 6: user / environment input</summary>
+<summary>Source event 274 · Sub-agent 6: user / environment input</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Message: 'I am interested in moving to the area. Do you think the price of 1500 
 </details>
 
 
-## Source event #275 · Sub-agent 6: model output
+## Source event 275 · Sub-agent 6: model output
 
 ```text
 I'll start by sending the exact message to each of the 6 Chats conversations.
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #276 · Sub-agent 6: tool result</summary>
+<summary>Source event 276 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Action:
 </details>
 
 
-## Source event #277 · Sub-agent 6: model output
+## Source event 277 · Sub-agent 6: model output
 
 ```text
 First message sent. Continuing with the next conversation.
@@ -75,7 +75,7 @@ Action:
 
 
 <details>
-<summary>Source event #278 · Sub-agent 6: tool result</summary>
+<summary>Source event 278 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ Action:
 </details>
 
 
-## Source event #279 · Sub-agent 6: model output
+## Source event 279 · Sub-agent 6: model output
 
 ```text
 Sending to conversation 3.
@@ -109,7 +109,7 @@ Action:
 
 
 <details>
-<summary>Source event #280 · Sub-agent 6: tool result</summary>
+<summary>Source event 280 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -123,7 +123,7 @@ c95e2a1aa7024f47b68a584f71a22f27
 </details>
 
 
-## Source event #281 · Sub-agent 6: model output
+## Source event 281 · Sub-agent 6: model output
 
 ```text
 Sending to conversation 4.
@@ -143,7 +143,7 @@ Action:
 
 
 <details>
-<summary>Source event #282 · Sub-agent 6: tool result</summary>
+<summary>Source event 282 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -157,7 +157,7 @@ Action:
 </details>
 
 
-## Source event #283 · Sub-agent 6: model output
+## Source event 283 · Sub-agent 6: model output
 
 ```text
 Sending to conversation 5.
@@ -177,7 +177,7 @@ Action:
 
 
 <details>
-<summary>Source event #284 · Sub-agent 6: tool result</summary>
+<summary>Source event 284 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -191,7 +191,7 @@ Action:
 </details>
 
 
-## Source event #285 · Sub-agent 6: model output
+## Source event 285 · Sub-agent 6: model output
 
 ```text
 Sending to conversation 6.
@@ -211,7 +211,7 @@ Action:
 
 
 <details>
-<summary>Source event #286 · Sub-agent 6: tool result</summary>
+<summary>Source event 286 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -225,7 +225,7 @@ Action:
 </details>
 
 
-## Source event #287 · Sub-agent 6: model output
+## Source event 287 · Sub-agent 6: model output
 
 ```text
 All 6 messages sent. Now searching for the Herbaceous product.
@@ -245,7 +245,7 @@ Action:
 
 
 <details>
-<summary>Source event #288 · Sub-agent 6: tool result</summary>
+<summary>Source event 288 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -259,7 +259,7 @@ Action:
 </details>
 
 
-## Source event #289 · Sub-agent 6: model output
+## Source event 289 · Sub-agent 6: model output
 
 ```text
 Found the product. Variants: 14.01 (avail), 16.50 (avail), 15.25 (avail), 17.99 (**unavailable**). The most expensive **available** variant is `056a9f96c4714f419dbc21554ac481a2` at 16.50. Let me verify its details.
@@ -278,7 +278,7 @@ Action:
 
 
 <details>
-<summary>Source event #290 · Sub-agent 6: tool result</summary>
+<summary>Source event 290 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -292,7 +292,7 @@ Product(name='Herbaceous', product_id='43cf83baf4862cb9f887c7dd08650162', varian
 </details>
 
 
-## Source event #291 · Sub-agent 6: model output
+## Source event 291 · Sub-agent 6: model output
 
 ```text
 Confirmed: the 17.99 variant is unavailable, so the most expensive available variant is `056a9f96c4714f419dbc21554ac481a2` (Medium, Green, Mild) at 16.50. Adding 12 units.
@@ -312,7 +312,7 @@ Action:
 
 
 <details>
-<summary>Source event #292 · Sub-agent 6: tool result</summary>
+<summary>Source event 292 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -326,7 +326,7 @@ Action:
 </details>
 
 
-## Source event #293 · Sub-agent 6: model output
+## Source event 293 · Sub-agent 6: model output
 
 ```text
 Added 12 units. Now performing checkout.
@@ -343,7 +343,7 @@ Action:
 
 
 <details>
-<summary>Source event #294 · Sub-agent 6: tool result</summary>
+<summary>Source event 294 · Sub-agent 6: tool result</summary>
 
 
 ```text
@@ -357,7 +357,7 @@ a89c2eb3c22a4e2e8362c0dc8110c817
 </details>
 
 
-## Source event #295 · Sub-agent 6: model output
+## Source event 295 · Sub-agent 6: model output
 
 ```text
 Order completed. Let me report the results.
@@ -413,7 +413,7 @@ Action:
 
 
 <details>
-<summary>Source event #296 · Sub-agent 6: tool result</summary>
+<summary>Source event 296 · Sub-agent 6: tool result</summary>
 
 
 ```text

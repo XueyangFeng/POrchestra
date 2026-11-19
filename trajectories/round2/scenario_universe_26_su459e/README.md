@@ -1,6 +1,8 @@
 # scenario_universe_26_su459e
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_26_su459e/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_26_su459e/README.md) · [Codex](../../codex/round2/scenario_universe_26_su459e/README.md) · [OpenCode](../../opencode/round2/scenario_universe_26_su459e/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to schedule the &#x27;Film Critic&#x27; event and ensure the 13-hour post-event buffer is clear by deleting any conflicting events.
 
@@ -82,11 +84,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #21
+**Initial harness configuration** · Source event 21
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The calendar event scheduling and buffer clearing are complete. Now I need a SubAgent to monitor for new communications and calendar events received/added since 2024-10-15 07:00:00 and perform the requested actions at the 3-minute and 4-minute marks.
 
@@ -171,11 +173,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #92
+**Initial harness configuration** · Source event 92
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The previous SubAgent successfully scheduled the &#x27;Film Critic&#x27; event, cleared the 13-hour buffer, and sent the &#x27;Sorry, not interested.&#x27; replies at the 3-minute mark (07:03:00). A new calendar event notification from Kaida Rylan was received at 07:03:30. This final subtask is to wait until the 4-minute mark (07:04:00), identify the newly added calendar event(s) by comparing against the baseline, and delete them as requested.
 
@@ -242,7 +244,7 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

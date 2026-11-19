@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #61 · Main agent: Tool result: call_00_cfqzagyswpkx0kqc0a4rxm2z (is_error=False)</summary>
+<summary>Source event 61 · Main agent: Tool result: call_00_cfqzagyswpkx0kqc0a4rxm2z (is_error=False)</summary>
 
 
 ```text
@@ -21,7 +21,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #62 · Main agent: Model message
+## Source event 62 · Main agent: Model message
 
 ```text
 All four now saved=True. Time is 07:02:51. Window ends 07:03:00. Wait ~15s more to cover the end of window, then verify nothing new, then wait 1 min from last save (~07:02:25 → 07:03:25) and send message.
@@ -31,7 +31,7 @@ Let me wait 15s.
 
 
 
-## Source event #63 · Main agent: Model message
+## Source event 63 · Main agent: Model message
 
 ```text
 All four confirmed saved. Waiting out the final seconds of the monitoring window.
@@ -39,7 +39,7 @@ All four confirmed saved. Waiting out the final seconds of the monitoring window
 
 
 
-## Source event #64 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_zw518flz0v1xdxkc2zmyt78s)
+## Source event 64 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_zw518flz0v1xdxkc2zmyt78s)
 
 ```text
 {
@@ -50,7 +50,7 @@ All four confirmed saved. Waiting out the final seconds of the monitoring window
 
 
 <details>
-<summary>Source event #65 · Main agent: Tool result: call_00_zw518flz0v1xdxkc2zmyt78s (is_error=False)</summary>
+<summary>Source event 65 · Main agent: Tool result: call_00_zw518flz0v1xdxkc2zmyt78s (is_error=False)</summary>
 
 
 ```text
@@ -70,7 +70,7 @@ All four confirmed saved. Waiting out the final seconds of the monitoring window
 </details>
 
 
-## Source event #66 · Main agent: Model message
+## Source event 66 · Main agent: Model message
 
 ```text
 07:03:11 — window over. Final check for any last-second arrivals via list_all_apartments count / search. Let me do a search of all condos 2BR/1BA again — already done at 07:02:51. Let me do one final check to be safe, then wait 1 minute after last save (~07:02:25 + 60 = 07:03:25). So wait ~15s then send.
@@ -82,7 +82,7 @@ Final check then wait.
 
 
 
-## Source event #67 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_00_fa242sm0msksxg6qw9n9hnsy)
+## Source event 67 · Main agent: Model tool call: mcp__gaia2__RentAFlat__search_apartments (call_00_fa242sm0msksxg6qw9n9hnsy)
 
 ```text
 {
@@ -96,7 +96,7 @@ Final check then wait.
 
 
 <details>
-<summary>Source event #68 · Main agent: Tool result: call_00_fa242sm0msksxg6qw9n9hnsy (is_error=False)</summary>
+<summary>Source event 68 · Main agent: Tool result: call_00_fa242sm0msksxg6qw9n9hnsy (is_error=False)</summary>
 
 
 ```text
@@ -112,7 +112,7 @@ Final check then wait.
 </details>
 
 
-## Source event #69 · Main agent: Model message
+## Source event 69 · Main agent: Model message
 
 ```text
 8 saved 2BR/1BA condos: 4 baseline + 4 new. Good.
@@ -124,7 +124,7 @@ Note the name 'Round House\n' has a trailing newline. I'll present it as "Round 
 
 
 
-## Source event #70 · Main agent: Model message
+## Source event 70 · Main agent: Model message
 
 ```text
 Monitoring window complete. Waiting one minute after the last save before reporting.
@@ -132,7 +132,7 @@ Monitoring window complete. Waiting one minute after the last save before report
 
 
 
-## Source event #71 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_2htvpn15kjh5vnih9otdpxuh)
+## Source event 71 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_2htvpn15kjh5vnih9otdpxuh)
 
 ```text
 {
@@ -143,7 +143,7 @@ Monitoring window complete. Waiting one minute after the last save before report
 
 
 <details>
-<summary>Source event #72 · Main agent: Tool result: call_00_2htvpn15kjh5vnih9otdpxuh (is_error=False)</summary>
+<summary>Source event 72 · Main agent: Tool result: call_00_2htvpn15kjh5vnih9otdpxuh (is_error=False)</summary>
 
 
 ```text
@@ -163,7 +163,7 @@ Monitoring window complete. Waiting one minute after the last save before report
 </details>
 
 
-## Source event #73 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_fz6b0aaxtzpfa52nyv0q8jqz)
+## Source event 73 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_fz6b0aaxtzpfa52nyv0q8jqz)
 
 ```text
 {
@@ -174,7 +174,7 @@ Monitoring window complete. Waiting one minute after the last save before report
 
 
 <details>
-<summary>Source event #74 · Main agent: Tool result: call_00_fz6b0aaxtzpfa52nyv0q8jqz (is_error=False)</summary>
+<summary>Source event 74 · Main agent: Tool result: call_00_fz6b0aaxtzpfa52nyv0q8jqz (is_error=False)</summary>
 
 
 ```text
@@ -190,7 +190,7 @@ Monitoring window complete. Waiting one minute after the last save before report
 </details>
 
 
-## Source event #75 · Main agent: Model message
+## Source event 75 · Main agent: Model message
 
 ```text
 Task complete.
@@ -211,7 +211,7 @@ I verified the saved state afterward (all four show `saved=True`, and no 1-bedro
 
 
 <details>
-<summary>Source event #76 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 76 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -235,7 +235,7 @@ I verified the saved state afterward (all four show `saved=True`, and no 1-bedro
 
 
 <details>
-<summary>Source event #77 · Judge: Judge rationale</summary>
+<summary>Source event 77 · Judge: Judge rationale</summary>
 
 
 ```text

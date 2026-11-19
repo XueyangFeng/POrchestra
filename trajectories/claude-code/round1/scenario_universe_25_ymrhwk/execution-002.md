@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #109 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 109 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -36,7 +36,7 @@ All steps are complete. Here's the summary:
 
 
 <details>
-<summary>Source event #110 · Judge: Judge rationale</summary>
+<summary>Source event 110 · Judge: Judge rationale</summary>
 
 
 ```text

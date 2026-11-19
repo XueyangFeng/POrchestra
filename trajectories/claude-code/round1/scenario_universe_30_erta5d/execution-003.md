@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #221 · Judge: Judge rationale</summary>
+<summary>Source event 221 · Judge: Judge rationale</summary>
 
 
 ```text

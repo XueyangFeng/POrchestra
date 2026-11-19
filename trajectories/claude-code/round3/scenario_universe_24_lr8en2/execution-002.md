@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #87 · Main agent: Model message
+## Source event 87 · Main agent: Model message
 
 ```text
 All 4 Social events that started before 12pm are gone; 53 remain (57-4). No Social events remain before 12pm (checking: all Social events now start at 12:00 or later). Confirm: 10/15 12:00, 10/16 12:00, 10/17 12:00 & 19:30, 10/18 12:00 & 19:00, 10/19 12:00, 10/21 19:30, 10/22 12:00, 10/23 19:00, 10/24 12:00, 10/24 19:30, 10/26 19:00, 10/28 19:00, 10/29 18:00, 10/30 18:00, 10/31 15:00. Yes all ≥12:00.
@@ -24,7 +24,7 @@ Let me quickly verify the Chats message and then report.
 
 
 
-## Source event #88 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_00_a2uiev5c2sa0i0r1siieg1od)
+## Source event 88 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_00_a2uiev5c2sa0i0r1siieg1od)
 
 ```text
 {
@@ -36,7 +36,7 @@ Let me quickly verify the Chats message and then report.
 
 
 <details>
-<summary>Source event #89 · Main agent: Tool result: call_00_a2uiev5c2sa0i0r1siieg1od (is_error=False)</summary>
+<summary>Source event 89 · Main agent: Tool result: call_00_a2uiev5c2sa0i0r1siieg1od (is_error=False)</summary>
 
 
 ```text
@@ -52,7 +52,7 @@ Let me quickly verify the Chats message and then report.
 </details>
 
 
-## Source event #90 · Main agent: Model message
+## Source event 90 · Main agent: Model message
 
 ```text
 Everything is done. Now notify the user via AgentUserInterface__send_message_to_user? The instruction says sending a real user reply ends the ARE turn. Typically for these GAIA2 tasks, I should report completion. Let me load that tool and send a summary.
@@ -66,7 +66,7 @@ Actually, if I call it, the turn ends. Let me provide the summary text in the me
 
 
 
-## Source event #91 · Main agent: Model tool call: ToolSearch (call_00_qrwnf5hlcpsx3ulh4whqyffw)
+## Source event 91 · Main agent: Model tool call: ToolSearch (call_00_qrwnf5hlcpsx3ulh4whqyffw)
 
 ```text
 {
@@ -78,7 +78,7 @@ Actually, if I call it, the turn ends. Let me provide the summary text in the me
 
 
 <details>
-<summary>Source event #92 · Main agent: Tool result: call_00_qrwnf5hlcpsx3ulh4whqyffw (is_error=False)</summary>
+<summary>Source event 92 · Main agent: Tool result: call_00_qrwnf5hlcpsx3ulh4whqyffw (is_error=False)</summary>
 
 
 ```text
@@ -94,7 +94,7 @@ Actually, if I call it, the turn ends. Let me provide the summary text in the me
 </details>
 
 
-## Source event #93 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_9ir3advqlheeiwa1qpzqlsji)
+## Source event 93 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_9ir3advqlheeiwa1qpzqlsji)
 
 ```text
 {
@@ -105,7 +105,7 @@ Actually, if I call it, the turn ends. Let me provide the summary text in the me
 
 
 <details>
-<summary>Source event #94 · Main agent: Tool result: call_00_9ir3advqlheeiwa1qpzqlsji (is_error=False)</summary>
+<summary>Source event 94 · Main agent: Tool result: call_00_9ir3advqlheeiwa1qpzqlsji (is_error=False)</summary>
 
 
 ```text
@@ -121,7 +121,7 @@ Actually, if I call it, the turn ends. Let me provide the summary text in the me
 </details>
 
 
-## Source event #95 · Main agent: Model message
+## Source event 95 · Main agent: Model message
 
 ```text
 Task complete.
@@ -143,7 +143,7 @@ Verified: the calendar now has 53 events (down from 57) and no remaining Social 
 
 
 <details>
-<summary>Source event #96 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 96 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -168,7 +168,7 @@ Verified: the calendar now has 53 events (down from 57) and no remaining Social 
 
 
 <details>
-<summary>Source event #97 · Judge: Judge rationale</summary>
+<summary>Source event 97 · Judge: Judge rationale</summary>
 
 
 ```text

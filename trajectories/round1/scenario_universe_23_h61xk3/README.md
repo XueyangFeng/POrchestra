@@ -1,6 +1,8 @@
 # scenario_universe_23_h61xk3
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_23_h61xk3/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_23_h61xk3/README.md) · [Codex](../../codex/round1/scenario_universe_23_h61xk3/README.md) · [OpenCode](../../opencode/round1/scenario_universe_23_h61xk3/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to search for Eliška Nováková&#x27;s email, purchase the latex, air-filled Bollovi Confetti Balloons, send her an email inquiring if it&#x27;s the correct item, and notify the user when the purchase is complete and the email is sent.
 
@@ -95,7 +97,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #26
+**Harness configuration updated** · Source event 26
 
 **1. Sub-agent revision request**
 
@@ -104,7 +106,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Subtask steps 1-5 completed successfully: found Eliška Nováková (elnovakova@student.cuni.cz), purchased latex/air-filled Bollovi Confetti Balloons (order ID 52404cbb2e464a2e9ce94e4c01a2e72c), sent the confirmation email to Eliška (email ID e99491546510d319bc33d842063d8b97), and notified the user. New environment notification received indicating incoming emails, including from tereza.novakova@gaia2mail.com and lucie.novakova@kosmetika.cz; no email-reading tool is available in this subtask to inspect them.
 ```
 <details>
-<summary>Request and evidence · source event #24</summary>
+<summary>Request and evidence · source event 24</summary>
 
 
 ```text
@@ -150,7 +152,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent successfully completed the initial purchase and sent the email, but needs to handle the conditional logic of Eliška&#x27;s reply. Since new emails have arrived, the SubAgent needs tools to read them and wait for further notifications if Eliška&#x27;s reply is not among them.
 

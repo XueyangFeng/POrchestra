@@ -1,6 +1,8 @@
 # scenario_universe_30_69r1z7
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_30_69r1z7/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_30_69r1z7/README.md) · [Codex](../../codex/round1/scenario_universe_30_69r1z7/README.md) · [OpenCode](../../opencode/round1/scenario_universe_30_69r1z7/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to find the attendee of the next event with &#x27;meeting&#x27; in the title and only one attendee, and then find the number of 1:1 direct message threads with them on Messages and Chats. Since this requires calendar lookup and message thread searching, we delegate this to a SubAgent with the relevant tools.
 

@@ -1,6 +1,8 @@
 # scenario_universe_21_44vlco
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_21_44vlco/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_21_44vlco/README.md) · [Codex](../../codex/round2/scenario_universe_21_44vlco/README.md) · [OpenCode](../../opencode/round2/scenario_universe_21_44vlco/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to gather information from the calendar, contacts, and user details to schedule the photoshoot, book the cab, and email the strategist. Then I will perform those actions and notify the user.
 

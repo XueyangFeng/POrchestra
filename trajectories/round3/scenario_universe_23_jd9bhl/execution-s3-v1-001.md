@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #48 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 48 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Identify the contact who works in the Prague Police Department. Send a private m
 </details>
 
 
-## Source event #49 · Sub-agent 3: model output
+## Source event 49 · Sub-agent 3: model output
 
 ```text
 I'll start by searching for the contact associated with the Prague Police Department.
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 3: tool result</summary>
+<summary>Source event 50 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #51 · Sub-agent 3: model output
+## Source event 51 · Sub-agent 3: model output
 
 ```text
 No results for that query. Let me try broader searches.
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 3: tool result</summary>
+<summary>Source event 52 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 3: model output
+## Source event 53 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -94,7 +94,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 3: tool result</summary>
+<summary>Source event 54 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -108,7 +108,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 3: model output
+## Source event 55 · Sub-agent 3: model output
 
 ```text
 That's a brewer, not police. Let me try other terms.
@@ -125,7 +125,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 3: tool result</summary>
+<summary>Source event 56 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -139,7 +139,7 @@ Action:
 </details>
 
 
-## Source event #57 · Sub-agent 3: model output
+## Source event 57 · Sub-agent 3: model output
 
 ```text
 Search may only match names/phone/email. Let me enumerate contacts with broad queries.
@@ -156,7 +156,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 3: tool result</summary>
+<summary>Source event 58 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -170,7 +170,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 3: tool result (continued, part 2)</summary>
+<summary>Source event 58 · Sub-agent 3: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -182,7 +182,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 3: tool result (continued, part 3)</summary>
+<summary>Source event 58 · Sub-agent 3: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -194,7 +194,7 @@ s.EMPLOYED: 'Employed'>, job="Small Business Owner (Owner of Oliveira's Brazilia
 
 
 <details>
-<summary>Source event #58 · Sub-agent 3: tool result (continued, part 4)</summary>
+<summary>Source event 58 · Sub-agent 3: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -206,7 +206,7 @@ s.EMPLOYED: 'Employed'>, job="Small Business Owner (Owner of Oliveira's Brazilia
 
 
 <details>
-<summary>Source event #58 · Sub-agent 3: tool result (continued, part 5)</summary>
+<summary>Source event 58 · Sub-agent 3: tool result (continued, part 5)</summary>
 
 
 ```text
@@ -218,7 +218,7 @@ mail='kvido.novacek@seznam.cz', address='Křídlovická 17, 603 00 Brno'), Conta
 </details>
 
 
-## Source event #59 · Sub-agent 3: model output
+## Source event 59 · Sub-agent 3: model output
 
 ```text
 Found the target: **Vladimíra Nováková — Detective Inspector, Prague Police Department**. Now let me look her up in Chats.
@@ -235,7 +235,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 3: tool result</summary>
+<summary>Source event 60 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -249,7 +249,7 @@ Action:
 </details>
 
 
-## Source event #61 · Sub-agent 3: model output
+## Source event 61 · Sub-agent 3: model output
 
 ```text
 Found her on Chats. Now sending the private message.
@@ -267,7 +267,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 3: tool result</summary>
+<summary>Source event 62 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -281,7 +281,7 @@ dbc071791593dd4085e85e41968a9208
 </details>
 
 
-## Source event #63 · Sub-agent 3: model output
+## Source event 63 · Sub-agent 3: model output
 
 ```text
 The message was sent successfully to Vladimíra Nováková on Chats.
@@ -322,7 +322,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 3: tool result</summary>
+<summary>Source event 64 · Sub-agent 3: tool result</summary>
 
 
 ```text

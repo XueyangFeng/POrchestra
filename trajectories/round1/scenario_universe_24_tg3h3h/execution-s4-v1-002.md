@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #225 · Sub-agent 4: tool result (continued, part 6)</summary>
+<summary>Source event 225 · Sub-agent 4: tool result (continued, part 6)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Untold Stories of Brussels' Past", content="Dear Ursula,\n\nI hope this email fi
 </details>
 
 
-## Source event #226 · Sub-agent 4: model output
+## Source event 226 · Sub-agent 4: model output
 
 ```text
 The INBOX has many emails but none mention Aberdeen or Wikipedia attachments. Let me check other email folders and Messages more broadly.
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #227 · Sub-agent 4: tool result</summary>
+<summary>Source event 227 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Action:
 </details>
 
 
-## Source event #228 · Sub-agent 4: model output
+## Source event 228 · Sub-agent 4: model output
 
 ```text
 Action:
@@ -65,7 +65,7 @@ Action:
 
 
 <details>
-<summary>Source event #229 · Sub-agent 4: tool result</summary>
+<summary>Source event 229 · Sub-agent 4: tool result</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ Action:
 
 
 <details>
-<summary>Source event #229 · Sub-agent 4: tool result (continued, part 2)</summary>
+<summary>Source event 229 · Sub-agent 4: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -91,7 +91,7 @@ Action:
 
 
 <details>
-<summary>Source event #229 · Sub-agent 4: tool result (continued, part 3)</summary>
+<summary>Source event 229 · Sub-agent 4: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #229 · Sub-agent 4: tool result (continued, part 4)</summary>
+<summary>Source event 229 · Sub-agent 4: tool result (continued, part 4)</summary>
 
 
 ```text

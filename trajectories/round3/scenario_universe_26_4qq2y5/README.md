@@ -1,6 +1,8 @@
 # scenario_universe_26_4qq2y5
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_26_4qq2y5/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_26_4qq2y5/README.md) · [Codex](../../codex/round3/scenario_universe_26_4qq2y5/README.md) · [OpenCode](../../opencode/round3/scenario_universe_26_4qq2y5/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to coordinate the deletion of properties, the selection of the target property, and the conditional messaging loop. A single SubAgent can perform these steps sequentially, using the wait tool for the required intervals and checking for replies.
 

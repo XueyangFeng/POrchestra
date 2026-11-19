@@ -1,6 +1,8 @@
 # scenario_universe_30_vd0bz3
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_30_vd0bz3/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_30_vd0bz3/README.md) · [Codex](../../codex/round3/scenario_universe_30_vd0bz3/README.md) · [OpenCode](../../opencode/round3/scenario_universe_30_vd0bz3/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 3
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires a sequence of actions: canceling a specific dinner event, sending two individual emails with a brunch invitation, notifying the user, waiting for exactly 4 minutes, and then performing conditional actions based on replies. This entire workflow is best handled by a single SubAgent who can maintain the state of the conversation and timing, especially the 4-minute wait and subsequent check.
 
@@ -104,7 +106,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #24
+**Harness configuration updated** · Source event 24
 
 **1. Sub-agent revision request**
 
@@ -113,7 +115,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Deleted dinner event 'Dinner with Friends' (id a3ada45a20174136b7dfe6a7a915cbad, Sat 2024-10-19 19:00-21:00, The Pint Shop, Cambridge, attendees Evangelia Papadopoulos & Kaidën Nakamura). Sent individual emails to evangelia.papadopoulos@student.tum.de (id a7a6559237dfccab98f2b1970584c7a3) and kaidennakamura@gaia2mail.com (id ce025aebc06aec5cea39dd7fb817bee5) canceling Saturday dinner and inviting brunch Sun 2024-10-20 10:00-13:00 at Jamun Gulab Cafe. Notified user via AgentUserInterface__send_message_to_user. Next steps pending: wait 240s, check INBOX for replies, then schedule 'Brunch' if both agree or send joint dinner email (Sun 2024-10-20 19:00-21:00, The Pint Shop, Cambridge) if one/both decline. An environment notification arrived before the wait/inbox check.
 ```
 <details>
-<summary>Request and evidence · source event #22</summary>
+<summary>Request and evidence · source event 22</summary>
 
 
 ```text
@@ -161,7 +163,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The email from kaidenjanssen@gaia2mail.com is indeed from a different contact (Kaidën Janssen) than the dinner attendee (Kaidën Nakamura). It should be ignored for the purposes of the brunch/dinner coordination. The SubAgent should proceed with the 4-minute wait and then check for replies specifically from Evangelia Papadopoulos and Kaidën Nakamura.
 
@@ -274,7 +276,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 
 ### S1 configuration v3
 
-**Harness configuration updated** · Source event #29
+**Harness configuration updated** · Source event 29
 
 **1. Sub-agent revision request**
 
@@ -283,7 +285,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 Authorized plan resumed but a new environment notification arrived before I could wait/check INBOX. Completed so far: deleted event a3ada45a20174136b7dfe6a7a915cbad ('Dinner with Friends', Sat 2024-10-19 19:00-21:00, The Pint Shop, Cambridge, attendees Evangelia Papadopoulos & Kaidën Nakamura); sent individual emails to evangelia.papadopoulos@student.tum.de (id a7a6559237dfccab98f2b1970584c7a3) and kaidennakamura@gaia2mail.com (id ce025aebc06aec5cea39dd7fb817bee5) with subject 'Canceling our Saturday dinner - brunch invitation?' inviting brunch Sun 2024-10-20 10:00-13:00 at Jamun Gulab Cafe; notified user via AgentUserInterface__send_message_to_user. New notification now received from kaiden.mctavish@3AW.com.au (contact Kaidën McTavish, Radio Show Host, Melbourne), which is NOT the invitee Kaidën Nakamura.
 ```
 <details>
-<summary>Request and evidence · source event #27</summary>
+<summary>Request and evidence · source event 27</summary>
 
 
 ```text
@@ -331,7 +333,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #3
+`revise_task` · Source event 3
 
 Confirming that the emails from kaidenjanssen@gaia2mail.com and kaiden.mctavish@3AW.com.au are indeed from the wrong Kaidëns and should be ignored. The SubAgent should proceed with the original plan: waiting for the remainder of the 4 minutes since the user notification, checking the INBOX for replies specifically from &#x27;evangelia.papadopoulos@student.tum.de&#x27; and &#x27;kaidennakamura@gaia2mail.com&#x27;, and then either scheduling the brunch or sending the joint dinner email as specified.
 
@@ -457,7 +459,7 @@ Full system configuration: [Part 1](config-s1-v3-01.md)
 
 ### S1 configuration v4
 
-**Harness configuration updated** · Source event #47
+**Harness configuration updated** · Source event 47
 
 **1. Sub-agent revision request**
 
@@ -466,7 +468,7 @@ Full system configuration: [Part 1](config-s1-v3-01.md)
 Waiting out the 240 seconds since the user was notified (~07:00:00). Current time 2024-10-15 07:02:23; wait ends ~07:04:00. Wait attempts were repeatedly interrupted by email notifications. Deleted event a3ada45a20174136b7dfe6a7a915cbad; sent individual emails to evangelia.papadopoulos@student.tum.de (id a7a6559237dfccab98f2b1970584c7a3) and kaidennakamura@gaia2mail.com (id ce025aebc06aec5cea39dd7fb817bee5); user notified. Notifications received: from kaidennakamura@gaia2mail.com (invitee) and now from evangelia.papadopoulos@student.tum.de (invitee). INBOX not yet read; no brunch event added and no joint dinner email sent yet.
 ```
 <details>
-<summary>Request and evidence · source event #45</summary>
+<summary>Request and evidence · source event 45</summary>
 
 
 ```text
@@ -522,7 +524,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #4
+`revise_task` · Source event 4
 
 A new email from the correct invitee (Evangelia) was received. I am authorizing the SubAgent to finish the 4-minute wait, then evaluate the replies from both Kaidën Nakamura and Evangelia Papadopoulos to determine whether to schedule the brunch or send the joint dinner email.
 

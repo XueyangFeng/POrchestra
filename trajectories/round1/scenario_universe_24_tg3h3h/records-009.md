@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #304 · Sub-agent 5: tool result</summary>
+<summary>Source event 304 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ ReturnedEmails(emails=[Email(sender='kwojciechowski@gaia2mail.com', recipients=[
 
 
 <details>
-<summary>Source event #305 · Sub-agent 5: model output</summary>
+<summary>Source event 305 · Sub-agent 5: model output</summary>
 
 
 ```text
@@ -41,7 +41,7 @@ Action:
 
 
 <details>
-<summary>Source event #306 · Sub-agent 5: tool result</summary>
+<summary>Source event 306 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -56,7 +56,7 @@ Action:
 
 
 <details>
-<summary>Source event #307 · Sub-agent 5: model output</summary>
+<summary>Source event 307 · Sub-agent 5: model output</summary>
 
 
 ```text
@@ -77,7 +77,7 @@ Action:
 
 
 <details>
-<summary>Source event #308 · Sub-agent 5: tool result</summary>
+<summary>Source event 308 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -92,7 +92,7 @@ Action:
 
 
 <details>
-<summary>Source event #309 · Sub-agent 5: model output</summary>
+<summary>Source event 309 · Sub-agent 5: model output</summary>
 
 
 ```text
@@ -114,7 +114,7 @@ Action:
 
 
 <details>
-<summary>Source event #310 · Sub-agent 5: tool result</summary>
+<summary>Source event 310 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -129,7 +129,7 @@ Action:
 
 
 <details>
-<summary>Source event #311 · Sub-agent 5: model output</summary>
+<summary>Source event 311 · Sub-agent 5: model output</summary>
 
 
 ```text
@@ -151,7 +151,7 @@ Action:
 
 
 <details>
-<summary>Source event #312 · Sub-agent 5: tool result</summary>
+<summary>Source event 312 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -166,7 +166,7 @@ Action:
 
 
 <details>
-<summary>Source event #313 · Sub-agent 5: model output</summary>
+<summary>Source event 313 · Sub-agent 5: model output</summary>
 
 
 ```text
@@ -188,7 +188,7 @@ Action:
 
 
 <details>
-<summary>Source event #314 · Sub-agent 5: tool result</summary>
+<summary>Source event 314 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -203,7 +203,7 @@ Action:
 
 
 <details>
-<summary>Source event #315 · Sub-agent 5: model output</summary>
+<summary>Source event 315 · Sub-agent 5: model output</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_26_naxywx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_26_naxywx/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_26_naxywx/README.md) · [Codex](../../codex/round1/scenario_universe_26_naxywx/README.md) · [OpenCode](../../opencode/round1/scenario_universe_26_naxywx/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to get the user&#x27;s address, find Kofi Ogunlesi&#x27;s details, read Chats history with Kofi to find the discussed apartment search details/address, send a Chats message to Kofi asking him to add the apartment search to the calendar, order the initial cab to Fosswinckels gate 10, Bergen, and report the message content back to the user.
 
@@ -95,11 +97,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #70
+**Initial harness configuration** · Source event 70
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The initial investigation found the user&#x27;s home address and Kofi Ogunlesi&#x27;s ID, but the &#x27;apartment search&#x27; address discussed with Kofi hasn&#x27;t been found in the first batch of Chat conversations. I need to check the remaining 7 identified conversation IDs with Kofi to find the address, then proceed with sending the chat message, ordering the cab, and handling the calendar-based ride update logic.
 
@@ -174,11 +176,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #134
+**Initial harness configuration** · Source event 134
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 We need to find the address of the &#x27;apartment search we discussed&#x27; by searching the remaining unexamined Chats, RentAFlat saved apartments, and Emails. Once found, we must send a Chats message to Kofi with the address, report the message content to the user, order the default cab at 12 PM to Fosswinckels gate 10, and check/wait for the calendar event to potentially update the cab destination, email Kofi, and notify the user.
 
@@ -273,11 +275,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #201
+**Initial harness configuration** · Source event 201
 
 **Initial delegation**
 
-`delegate_task` · Source event #4
+`delegate_task` · Source event 4
 
 A calendar event titled &#x27;Apartment Search&#x27; has been added by Kofi Ogunlesi with a location (&#x27;Filipstad Brygge 2, Oslo&#x27;) that differs from the initial cab destination (&#x27;Fosswinckels gate 10, Bergen&#x27;). According to the persistent contract, I must now cancel the original cab ride, order a new one to the updated location, email Kofi about the new cab, and notify the user of the change.
 

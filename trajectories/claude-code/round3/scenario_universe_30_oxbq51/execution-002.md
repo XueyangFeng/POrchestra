@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #38 · Main agent: Tool result: call_00_epin6jhypc40gqe73o3unn3o (is_error=False)</summary>
+<summary>Source event 38 · Main agent: Tool result: call_00_epin6jhypc40gqe73o3unn3o (is_error=False)</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #39 · Main agent: Tool result: call_01_23c754aqucjgtwxt3pq1badu (is_error=False)</summary>
+<summary>Source event 39 · Main agent: Tool result: call_01_23c754aqucjgtwxt3pq1badu (is_error=False)</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #40 · Main agent: Tool result: call_02_tqz8fivb0z0ezxl8jve2w9wk (is_error=False)</summary>
+<summary>Source event 40 · Main agent: Tool result: call_02_tqz8fivb0z0ezxl8jve2w9wk (is_error=False)</summary>
 
 
 ```text
@@ -55,7 +55,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #41 · Main agent: Model message
+## Source event 41 · Main agent: Model message
 
 ```text
 Page 100-109: Gulab Shahzad (London), Luana Silva (London) = 2 → total 12
@@ -67,7 +67,7 @@ Remaining 130-131.
 
 
 
-## Source event #42 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_dgccnl6qpp1548z9eglfnoy6)
+## Source event 42 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contacts (call_00_dgccnl6qpp1548z9eglfnoy6)
 
 ```text
 {
@@ -78,7 +78,7 @@ Remaining 130-131.
 
 
 <details>
-<summary>Source event #43 · Main agent: Tool result: call_00_dgccnl6qpp1548z9eglfnoy6 (is_error=False)</summary>
+<summary>Source event 43 · Main agent: Tool result: call_00_dgccnl6qpp1548z9eglfnoy6 (is_error=False)</summary>
 
 
 ```text
@@ -94,7 +94,7 @@ Remaining 130-131.
 </details>
 
 
-## Source event #44 · Main agent: Model message
+## Source event 44 · Main agent: Model message
 
 ```text
 Final count London: let me re-verify all pages carefully.
@@ -327,7 +327,7 @@ Now send to user, number only.
 
 
 
-## Source event #45 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_xu3rctri55ypvn4g3oh76e9e)
+## Source event 45 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_xu3rctri55ypvn4g3oh76e9e)
 
 ```text
 {
@@ -338,7 +338,7 @@ Now send to user, number only.
 
 
 <details>
-<summary>Source event #46 · Main agent: Tool result: call_00_xu3rctri55ypvn4g3oh76e9e (is_error=False)</summary>
+<summary>Source event 46 · Main agent: Tool result: call_00_xu3rctri55ypvn4g3oh76e9e (is_error=False)</summary>
 
 
 ```text
@@ -354,7 +354,7 @@ Now send to user, number only.
 </details>
 
 
-## Source event #47 · Main agent: Model message
+## Source event 47 · Main agent: Model message
 
 ```text
 Done. Let me summarize for the user briefly (terminal output). Actually the reply is already sent. I'll give a short summary outside.
@@ -362,7 +362,7 @@ Done. Let me summarize for the user briefly (terminal output). Actually the repl
 
 
 
-## Source event #48 · Main agent: Model message
+## Source event 48 · Main agent: Model message
 
 ```text
 Done.
@@ -377,7 +377,7 @@ Sent "12" to the user as the reply.
 
 
 <details>
-<summary>Source event #49 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 49 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -395,7 +395,7 @@ Sent "12" to the user as the reply.
 
 
 <details>
-<summary>Source event #50 · Judge: Judge rationale</summary>
+<summary>Source event 50 · Judge: Judge rationale</summary>
 
 
 ```text

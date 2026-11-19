@@ -1,6 +1,8 @@
 # scenario_universe_21_2m6akl
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_21_2m6akl/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_21_2m6akl/README.md) · [Codex](../../codex/round2/scenario_universe_21_2m6akl/README.md) · [OpenCode](../../opencode/round2/scenario_universe_21_2m6akl/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #10
+**Initial harness configuration** · Source event 10
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the user&#x27;s details and the two friends to send the file to, then locate the file and send it before moving it. This subtask covers the messaging and file moving portion of the request.
 
@@ -100,11 +102,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #74
+**Initial harness configuration** · Source event 74
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous attempt successfully identified the current user (Astrid Lundqvist) and the two friends (Axel Lindqvist and Jian Li). However, it failed to locate the Copa América 2024 file in &#x27;Documents/news&#x27; due to a 100-entry listing limit and hasn&#x27;t started the &#x27;Family&#x27; folder tasks. I need a new agent to locate the file (perhaps using Files__tree or different search patterns), perform the messaging and moving, and then handle the file deletions and counts in the &#x27;Family&#x27; folder.
 
@@ -184,11 +186,11 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S3 configuration v1
 
-**Initial harness configuration** · Source event #136
+**Initial harness configuration** · Source event 136
 
 **Initial delegation**
 
-`delegate_task` · Source event #3
+`delegate_task` · Source event 3
 
 The previous SubAgent was unable to locate the &#x27;Copa América 2024&#x27; txt file in &#x27;/Documents/news&#x27; because the directory listing is capped at 100 entries and the folder contains approximately 290 files. Since the user mentioned &#x27;this is the news I was talking about&#x27;, there is likely a reference to this file in the user&#x27;s messages or emails. I will instruct the SubAgent to search for &#x27;Copa América&#x27; in Messages, Chats, and Emails to find the filename, then proceed with the sending, moving, and reporting tasks. The Family folder deletions and file count are already completed and verified.
 
@@ -263,11 +265,11 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 ### S4 configuration v1
 
-**Initial harness configuration** · Source event #197
+**Initial harness configuration** · Source event 197
 
 **Initial delegation**
 
-`delegate_task` · Source event #5
+`delegate_task` · Source event 5
 
 Previous attempts were blocked by a file-listing limit in &#x27;/Documents/news&#x27; and failed to find the &#x27;Copa América 2024&#x27; filename. However, a search for &#x27;America&#x27; in Messages and Chats returned several conversation IDs that have not yet been inspected. These conversations likely contain the filename or the file itself. I am delegating a SubAgent to read these specific conversations to identify the file, then proceed with the sending, moving, and reporting tasks.
 
@@ -344,11 +346,11 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 
 ### S5 configuration v1
 
-**Initial harness configuration** · Source event #261
+**Initial harness configuration** · Source event 261
 
 **Initial delegation**
 
-`delegate_task` · Source event #6
+`delegate_task` · Source event 6
 
 The previous attempts to locate the &#x27;Copa América 2024&#x27; news file in the &#x27;/Documents/news&#x27; folder have been blocked because the directory listing is truncated and common filename guesses have failed. However, the user mentioned that this is the news they &#x27;were talking about&#x27;, implying that a mention of the file or its content likely exists in their communication history. Previous searches for &#x27;news&#x27;, &#x27;tournament&#x27;, and &#x27;football&#x27; in the Messages app returned several conversation IDs that haven&#x27;t been read yet. This SubAgent will read those conversations to identify the exact filename, then proceed with the sending, moving, and final reporting.
 
@@ -430,11 +432,11 @@ Full system configuration: [Part 1](config-s5-v1-01.md)
 
 ### S6 configuration v1
 
-**Initial harness configuration** · Source event #322
+**Initial harness configuration** · Source event 322
 
 **Initial delegation**
 
-`delegate_task` · Source event #7
+`delegate_task` · Source event 7
 
 The previous attempts identified the recipients (Axel Lindqvist and Jian Li) and their Messages IDs, and completed the Family folder tasks (deleting 2 &#x27;Night&#x27; pictures, counting 4 &#x27;First&#x27; files). However, the &#x27;Copa América 2024&#x27; news file in &#x27;/Documents/news&#x27; remains elusive due to a directory listing limit of 100 entries and failed filename guesses. Searching for &#x27;Copa América&#x27; in Messages and Emails also failed. The next logical step is to read the specific conversations with Axel and Jian discovered in the last turn, as the user&#x27;s message implies a prior discussion about this news. I will also broaden the search to include &#x27;2024&#x27; and check Email TRASH.
 
@@ -518,11 +520,11 @@ Full system configuration: [Part 1](config-s6-v1-01.md)
 
 ### S7 configuration v1
 
-**Initial harness configuration** · Source event #384
+**Initial harness configuration** · Source event 384
 
 **Initial delegation**
 
-`delegate_task` · Source event #8
+`delegate_task` · Source event 8
 
 The core blocker is identifying the &#x27;Copa América 2024&#x27; .txt filename in &#x27;/Documents/news&#x27;, as the directory listing is capped at 100 entries and ignores filtering/pagination. Previous attempts to find the filename in messages and emails were partially exhaustive but missed several leads. I will assign a SubAgent to check the remaining unread &#x27;news&#x27; conversations, search the Calendar for any mentions, and search Emails and Messages for &#x27;football&#x27;, &#x27;soccer&#x27;, &#x27;tournament&#x27;, and &#x27;attachment&#x27; to locate the filename. Once the filename is found, the SubAgent will complete the sending, moving, and reporting tasks.
 
@@ -610,11 +612,11 @@ Full system configuration: [Part 1](config-s7-v1-01.md)
 
 ### S8 configuration v1
 
-**Initial harness configuration** · Source event #448
+**Initial harness configuration** · Source event 448
 
 **Initial delegation**
 
-`delegate_task` · Source event #9
+`delegate_task` · Source event 9
 
 SubAgent 7 identified one remaining unread lead in the Messages app (conversation ID &#x27;79562e5dbaf84919a0779d1070097f9b&#x27;) that matched the term &#x27;America&#x27;. Previous searches and directory listings have been unsuccessful due to tool limits and negative search results. Identifying the filename is the primary blocker for sending the news to the identified friends (Axel Lindqvist and Jian Li) and moving the file. The Family folder subtasks are already completed.
 
@@ -700,7 +702,7 @@ Full system configuration: [Part 1](config-s8-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

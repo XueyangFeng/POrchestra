@@ -1,6 +1,8 @@
 # scenario_universe_24_x1gk8n
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_24_x1gk8n/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_24_x1gk8n/README.md) · [Codex](../../codex/round2/scenario_universe_24_x1gk8n/README.md) · [OpenCode](../../opencode/round2/scenario_universe_24_x1gk8n/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires multiple steps of data retrieval and calculation across the RentAFlat and City apps, followed by a specific messaging requirement. A single SubAgent with the appropriate tools can perform the search, extract the zip codes, fetch crime rates, perform the comparison, and send the final message to the user.
 

@@ -1,6 +1,8 @@
 # scenario_universe_30_qhxkqu
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_30_qhxkqu/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_30_qhxkqu/README.md) · [Codex](../../codex/round3/scenario_universe_30_qhxkqu/README.md) · [OpenCode](../../opencode/round3/scenario_universe_30_qhxkqu/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to perform the initial calendar modifications for tomorrow (2024-10-16): cancelling specific events, scheduling the new project event, and notifying the user. I need the subagent to find the events to be deleted, record their details (to allow for future restoration), delete them, create the new event, and then inform the user.
 
@@ -91,7 +93,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #26
+**Harness configuration updated** · Source event 26
 
 **1. Sub-agent revision request**
 
@@ -100,7 +102,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Original subtask completed: Yoga Class (8180386637544c6bbe9440df687d219d) and Paper Review (5d8b2184e3f44755baf7a75e0b354d4b) on 2024-10-16 were deleted; 'Nightly Project' (acea4a8d991e2e64e9a43daa76d19dd2) was created 2024-10-16 18:00-23:00 at University of Cambridge, Department of Physics with Helmut Eisenstadt and Gerrit van der Meer, and the user was messaged. Then two environment notifications arrived: event deleted by Saskia Müller, event deleted by Helmut Eisenstadt. Read-only verification shows both 'Nightly Project' and 'Lab Meeting' are no longer present on 2024-10-16; Oct 16 is now empty. No new side effects were taken after the notifications.
 ```
 <details>
-<summary>Request and evidence · source event #24</summary>
+<summary>Request and evidence · source event 24</summary>
 
 
 ```text
@@ -205,7 +207,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #2</summary>
+<summary>Source event 2</summary>
 
 
 ```text
@@ -240,7 +242,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 </details>
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

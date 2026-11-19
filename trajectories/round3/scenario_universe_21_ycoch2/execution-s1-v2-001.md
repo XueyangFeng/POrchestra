@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 23 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -24,7 +24,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 I'll first check the current time and list recent conversations to verify the group conversation ID.
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 
 
 <details>
-<summary>Source event #26 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 26 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -68,7 +68,7 @@ Environment notifications updates:
 </details>
 
 
-## Source event #27 · Sub-agent 1: model output
+## Source event 27 · Sub-agent 1: model output
 
 ```text
 Notification shows a new message in conversation `99430469ecc438818c4d18e2045fa10d` — that matches my created group. Let me read it.
@@ -88,7 +88,7 @@ Action:
 
 
 <details>
-<summary>Source event #28 · Sub-agent 1: tool result</summary>
+<summary>Source event 28 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -102,7 +102,7 @@ Action:
 </details>
 
 
-## Source event #29 · Sub-agent 1: model output
+## Source event 29 · Sub-agent 1: model output
 
 ```text
 Conversation ID verified: `99430469ecc438818c4d18e2045fa10d` with title 'Happy Astrid Day!'. Message 1 from Lianhua Wei at 07:01:10. Now waiting for further messages until 07:05:00.
@@ -119,7 +119,7 @@ Action:
 
 
 <details>
-<summary>Source event #30 · Sub-agent 1: tool result</summary>
+<summary>Source event 30 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -134,7 +134,7 @@ None
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 31 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -147,7 +147,7 @@ Environment notifications:
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 A message arrived in a different conversation (`0efb45ef...`), not my group. Let me check the current time and re-read my group conversation.
@@ -162,7 +162,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -176,7 +176,7 @@ Action:
 </details>
 
 
-## Source event #34 · Sub-agent 1: model output
+## Source event 34 · Sub-agent 1: model output
 
 ```text
 Let me check my group conversation again and list recent conversations to see what's happening.
@@ -195,7 +195,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 1: tool result</summary>
+<summary>Source event 35 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -209,7 +209,7 @@ Action:
 </details>
 
 
-## Source event #36 · Sub-agent 1: model output
+## Source event 36 · Sub-agent 1: model output
 
 ```text
 The group conversation 'Happy Astrid Day!' (99430469ecc438818c4d18e2045fa10d) has only 1 message so far, from Lianhua Wei (12aa065a-82fd-4e30-83a8-0728c2a35b94). The other notifications came from unrelated conversations. I'll keep waiting for messages until 07:05:00.
@@ -226,7 +226,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 1: tool result</summary>
+<summary>Source event 37 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -241,7 +241,7 @@ None
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 38 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -254,7 +254,7 @@ Environment notifications:
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 A message arrived in my group conversation. Let me read it.
@@ -274,7 +274,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -288,7 +288,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 Two distinct senders so far (Lianhua Wei, Åsa Lundgren). Waiting for a third before 07:05:00.
@@ -305,7 +305,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -320,7 +320,7 @@ None
 
 
 <details>
-<summary>Source event #43 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 43 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -333,7 +333,7 @@ Environment notifications:
 </details>
 
 
-## Source event #44 · Sub-agent 1: model output
+## Source event 44 · Sub-agent 1: model output
 
 ```text
 Another group message. Let me check the time and read the conversation.
@@ -353,7 +353,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 1: tool result</summary>
+<summary>Source event 45 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -367,7 +367,7 @@ Action:
 </details>
 
 
-## Source event #46 · Sub-agent 1: model output
+## Source event 46 · Sub-agent 1: model output
 
 ```text
 Condition met! 3 distinct senders (Lianhua Wei at 07:01:10, Åsa Lundgren at 07:01:28, Akira Lundström at 07:01:35) messaged within the window. Let me verify the time and then execute the actions.
@@ -382,7 +382,7 @@ Action:
 
 
 <details>
-<summary>Source event #47 · Sub-agent 1: tool result</summary>
+<summary>Source event 47 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -396,7 +396,7 @@ Action:
 </details>
 
 
-## Source event #48 · Sub-agent 1: model output
+## Source event 48 · Sub-agent 1: model output
 
 ```text
 Condition met: 3 distinct senders messaged within the window (Lianhua Wei 07:01:10, Åsa Lundgren 07:01:28, Akira Lundström 07:01:35). Now executing the actions — first, booking the van ride.
@@ -416,7 +416,7 @@ Action:
 
 
 <details>
-<summary>Source event #49 · Sub-agent 1: tool result</summary>
+<summary>Source event 49 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -440,7 +440,7 @@ Ride ID: c3de44121c4644ae524e7f6470b6f5f7
 
 
 <details>
-<summary>Source event #50 · Sub-agent 1: tool result</summary>
+<summary>Source event 50 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -458,7 +458,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #51 · Sub-agent 1: model output
+## Source event 51 · Sub-agent 1: model output
 
 ```text
 The van ride was booked successfully (Ride ID `c3de44121c4644ae524e7f6470b6f5f7`). Now sending the message to the group.
@@ -476,7 +476,7 @@ Action:
 
 
 <details>
-<summary>Source event #52 · Sub-agent 1: tool result</summary>
+<summary>Source event 52 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -490,7 +490,7 @@ Action:
 </details>
 
 
-## Source event #53 · Sub-agent 1: model output
+## Source event 53 · Sub-agent 1: model output
 
 ```text
 Message sent to the group. Now let me get today's calendar events starting at or after 20:00:00.
@@ -509,7 +509,7 @@ Action:
 
 
 <details>
-<summary>Source event #54 · Sub-agent 1: tool result</summary>
+<summary>Source event 54 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -523,7 +523,7 @@ Action:
 </details>
 
 
-## Source event #55 · Sub-agent 1: model output
+## Source event 55 · Sub-agent 1: model output
 
 ```text
 One event found: 'Self-Care Routine' starting at 20:00:00 tonight (exactly at 8pm, which qualifies as "at or after 8pm"). Deleting it.
@@ -540,7 +540,7 @@ Action:
 
 
 <details>
-<summary>Source event #56 · Sub-agent 1: tool result</summary>
+<summary>Source event 56 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -554,7 +554,7 @@ Event 9daa4008ccb14c48a7fd156b953b5c3a successfully deleted.
 </details>
 
 
-## Source event #57 · Sub-agent 1: model output
+## Source event 57 · Sub-agent 1: model output
 
 ```text
 Event deleted. Let me verify no other events remain tonight at or after 8pm by checking a broader range into the next morning.
@@ -573,7 +573,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 1: tool result</summary>
+<summary>Source event 58 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -587,7 +587,7 @@ Action:
 </details>
 
 
-## Source event #59 · Sub-agent 1: model output
+## Source event 59 · Sub-agent 1: model output
 
 ```text
 All side effects are complete. The monitoring window closes at 07:05:00, so I'll wait until then before notifying the user.
@@ -604,7 +604,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 1: tool result</summary>
+<summary>Source event 60 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -619,7 +619,7 @@ None
 
 
 <details>
-<summary>Source event #61 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 61 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -632,7 +632,7 @@ Environment notifications:
 </details>
 
 
-## Source event #62 · Sub-agent 1: model output
+## Source event 62 · Sub-agent 1: model output
 
 ```text
 The wait timed out — let me verify the window has closed.
@@ -647,7 +647,7 @@ Action:
 
 
 <details>
-<summary>Source event #63 · Sub-agent 1: tool result</summary>
+<summary>Source event 63 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -661,7 +661,7 @@ Action:
 </details>
 
 
-## Source event #64 · Sub-agent 1: model output
+## Source event 64 · Sub-agent 1: model output
 
 ```text
 The window has closed at 07:05:05. Notifying the user with the final summary.
@@ -678,7 +678,7 @@ Action:
 
 
 <details>
-<summary>Source event #65 · Sub-agent 1: tool result</summary>
+<summary>Source event 65 · Sub-agent 1: tool result</summary>
 
 
 ```text

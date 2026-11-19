@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #67 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 67 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Find the soonest upcoming calendar event where 'Akira Kaur' is listed as an atte
 </details>
 
 
-## Source event #68 · Sub-agent 2: model output
+## Source event 68 · Sub-agent 2: model output
 
 ```text
 Thought: Need find calendar events with Akira Kaur as attendee. Use Calendar search with query "Akira Kaur".
@@ -34,7 +34,7 @@ Action:
 
 
 <details>
-<summary>Source event #69 · Sub-agent 2: tool result</summary>
+<summary>Source event 69 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -48,7 +48,7 @@ Action:
 </details>
 
 
-## Source event #70 · Sub-agent 2: model output
+## Source event 70 · Sub-agent 2: model output
 
 ```text
 Action:
@@ -63,7 +63,7 @@ Action:
 
 
 <details>
-<summary>Source event #71 · Sub-agent 2: tool result</summary>
+<summary>Source event 71 · Sub-agent 2: tool result</summary>
 
 
 ```text

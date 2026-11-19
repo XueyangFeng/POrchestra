@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #56 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 56 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Purchase the most expensive 'Mega Bloks Green Race Car Building Set' available. 
 </details>
 
 
-## Source event #57 · Sub-agent 3: model output
+## Source event 57 · Sub-agent 3: model output
 
 ```text
 I'll search for the product first.
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #58 · Sub-agent 3: tool result</summary>
+<summary>Source event 58 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Action:
 </details>
 
 
-## Source event #59 · Sub-agent 3: model output
+## Source event 59 · Sub-agent 3: model output
 
 ```text
 The search returned one matching product with 5 variants. Let me confirm there aren't additional matching products.
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #60 · Sub-agent 3: tool result</summary>
+<summary>Source event 60 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ Action:
 </details>
 
 
-## Source event #61 · Sub-agent 3: model output
+## Source event 61 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -99,7 +99,7 @@ Action:
 
 
 <details>
-<summary>Source event #62 · Sub-agent 3: tool result</summary>
+<summary>Source event 62 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -113,7 +113,7 @@ Action:
 </details>
 
 
-## Source event #63 · Sub-agent 3: model output
+## Source event 63 · Sub-agent 3: model output
 
 ```text
 Only one matching product with 5 variants. Let me get its details to confirm the variant data.
@@ -130,7 +130,7 @@ Action:
 
 
 <details>
-<summary>Source event #64 · Sub-agent 3: tool result</summary>
+<summary>Source event 64 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -144,7 +144,7 @@ Product(name='Mega Bloks Green Race Car Building Set', product_id='a318c64a86c78
 </details>
 
 
-## Source event #65 · Sub-agent 3: model output
+## Source event 65 · Sub-agent 3: model output
 
 ```text
 The highest-price variant is $7.99 (6-8 years, 200 pieces, no battery). Adding it to cart.
@@ -162,7 +162,7 @@ Action:
 
 
 <details>
-<summary>Source event #66 · Sub-agent 3: tool result</summary>
+<summary>Source event 66 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -176,7 +176,7 @@ Action:
 </details>
 
 
-## Source event #67 · Sub-agent 3: model output
+## Source event 67 · Sub-agent 3: model output
 
 ```text
 Item added to cart. Now checking out.
@@ -191,7 +191,7 @@ Action:
 
 
 <details>
-<summary>Source event #68 · Sub-agent 3: tool result</summary>
+<summary>Source event 68 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -205,7 +205,7 @@ b87b73368bf44428880655f323f54b81
 </details>
 
 
-## Source event #69 · Sub-agent 3: model output
+## Source event 69 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -259,7 +259,7 @@ Action:
 
 
 <details>
-<summary>Source event #70 · Sub-agent 3: tool result</summary>
+<summary>Source event 70 · Sub-agent 3: tool result</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_28_e3yyyp
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_28_e3yyyp/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_28_e3yyyp/README.md) · [Codex](../../codex/round3/scenario_universe_28_e3yyyp/README.md) · [OpenCode](../../opencode/round3/scenario_universe_28_e3yyyp/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify all contacts who are &#x27;managers&#x27; but not &#x27;former managers&#x27; and retrieve their email addresses.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #33
+**Initial harness configuration** · Source event 33
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The manager contacts have been identified. Now I need to find the latest email for each of these 9 contacts and reply according to the user&#x27;s logic (answering questions with &#x27;Yes, I would...&#x27; or replying &#x27;Sure!&#x27; if no question is found).
 
@@ -149,7 +151,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

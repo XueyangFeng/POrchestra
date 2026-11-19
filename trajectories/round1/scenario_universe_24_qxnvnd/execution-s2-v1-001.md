@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #20 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 20 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Count the number of emails received in October 2024 (from 2024-10-01 to 2024-10-
 </details>
 
 
-## Source event #21 · Sub-agent 2: model output
+## Source event 21 · Sub-agent 2: model output
 
 ```text
 Thought: I need to count emails received in October 2024 from three specific senders. Let me search the INBOX for each email address to see the returned emails and their details.
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #22 · Sub-agent 2: tool result</summary>
+<summary>Source event 22 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Action:
 </details>
 
 
-## Source event #23 · Sub-agent 2: model output
+## Source event 23 · Sub-agent 2: model output
 
 ```text
 Thought: I only got one email from the search for adumont@lyon-career-advice.fr, but that may not be complete. Search may return partial matches. Let me use list_emails to review the INBOX to count all emails from these senders received in October 2024. But first, let me search for each sender to get all their emails. The search may return only some results. Let me list all emails in INBOX to be thorough.
@@ -72,7 +72,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result</summary>
+<summary>Source event 24 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Action:
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result (continued, part 2)</summary>
+<summary>Source event 24 · Sub-agent 2: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -98,7 +98,7 @@ ReturnedEmails(emails=[Email(sender='aurelie.wyss@ethz.ch', recipients=['ursula.
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result (continued, part 3)</summary>
+<summary>Source event 24 · Sub-agent 2: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -110,7 +110,7 @@ ow it might intersect with our initiatives?\n\nBest regards,\nKatarzyna Kwiatkow
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result (continued, part 4)</summary>
+<summary>Source event 24 · Sub-agent 2: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -122,7 +122,7 @@ egards,\nKrzysztof Zieliński", email_id='14b1295db1224debaddcf264c7f3d891', par
 
 
 <details>
-<summary>Source event #24 · Sub-agent 2: tool result (continued, part 5)</summary>
+<summary>Source event 24 · Sub-agent 2: tool result (continued, part 5)</summary>
 
 
 ```text

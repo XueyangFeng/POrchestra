@@ -1,6 +1,8 @@
 # scenario_universe_24_qxnvnd
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_24_qxnvnd/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_24_qxnvnd/README.md) · [Codex](../../codex/round2/scenario_universe_24_qxnvnd/README.md) · [OpenCode](../../opencode/round2/scenario_universe_24_qxnvnd/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to identify the participants of the most recently updated group conversation in the Messages app (excluding the current user) and find their contact information (specifically email addresses) to proceed with counting their emails.
 
@@ -89,11 +91,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #31
+**Initial harness configuration** · Source event 31
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent identified the participants of the most recently updated Messages group conversation and their email addresses. Now I need to count the emails sent by each of them in October 2024 to find the top sender.
 

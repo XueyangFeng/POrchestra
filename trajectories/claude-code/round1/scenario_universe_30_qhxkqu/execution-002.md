@@ -5,7 +5,7 @@
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
 <details>
-<summary>Source event #85 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 85 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -37,7 +37,7 @@ All conditionals in your request have been fully executed.
 
 
 <details>
-<summary>Source event #86 · Judge: Judge rationale</summary>
+<summary>Source event 86 · Judge: Judge rationale</summary>
 
 
 ```text

@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #35 · Main agent: Model message
+## Source event 35 · Main agent: Model message
 
 ```text
 Now I need all contacts living in zip code 9000 (Ghent). Zip code extraction from address: last part after city. Note city_living = 'Ghent' but address may be "9000 Ghent". Let me collect all with 9000.
@@ -189,7 +189,7 @@ Let me get contact details for the 5 candidates to confirm ages/addresses.
 
 
 
-## Source event #36 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contact (call_00_flz9lpgaszm7f3z6nv04lgbp)
+## Source event 36 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contact (call_00_flz9lpgaszm7f3z6nv04lgbp)
 
 ```text
 {
@@ -199,7 +199,7 @@ Let me get contact details for the 5 candidates to confirm ages/addresses.
 
 
 
-## Source event #37 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contact (call_01_awepjh2gyh8a7tx1wprilvt9)
+## Source event 37 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contact (call_01_awepjh2gyh8a7tx1wprilvt9)
 
 ```text
 {
@@ -209,7 +209,7 @@ Let me get contact details for the 5 candidates to confirm ages/addresses.
 
 
 
-## Source event #38 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contact (call_02_wrbfjtdijvtx01iebdm5c6tp)
+## Source event 38 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contact (call_02_wrbfjtdijvtx01iebdm5c6tp)
 
 ```text
 {
@@ -219,7 +219,7 @@ Let me get contact details for the 5 candidates to confirm ages/addresses.
 
 
 
-## Source event #39 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contact (call_03_ljqomy4qnyyir8sdu96zn8bg)
+## Source event 39 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contact (call_03_ljqomy4qnyyir8sdu96zn8bg)
 
 ```text
 {
@@ -229,7 +229,7 @@ Let me get contact details for the 5 candidates to confirm ages/addresses.
 
 
 
-## Source event #40 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contact (call_04_zyzzsfgjhs69v2jpwnegmjb2)
+## Source event 40 · Main agent: Model tool call: mcp__gaia2__Contacts__get_contact (call_04_zyzzsfgjhs69v2jpwnegmjb2)
 
 ```text
 {
@@ -240,7 +240,7 @@ Let me get contact details for the 5 candidates to confirm ages/addresses.
 
 
 <details>
-<summary>Source event #41 · Main agent: Tool result: call_00_flz9lpgaszm7f3z6nv04lgbp (is_error=False)</summary>
+<summary>Source event 41 · Main agent: Tool result: call_00_flz9lpgaszm7f3z6nv04lgbp (is_error=False)</summary>
 
 
 ```text
@@ -257,7 +257,7 @@ Let me get contact details for the 5 candidates to confirm ages/addresses.
 
 
 <details>
-<summary>Source event #42 · Main agent: Tool result: call_01_awepjh2gyh8a7tx1wprilvt9 (is_error=False)</summary>
+<summary>Source event 42 · Main agent: Tool result: call_01_awepjh2gyh8a7tx1wprilvt9 (is_error=False)</summary>
 
 
 ```text
@@ -274,7 +274,7 @@ Let me get contact details for the 5 candidates to confirm ages/addresses.
 
 
 <details>
-<summary>Source event #43 · Main agent: Tool result: call_02_wrbfjtdijvtx01iebdm5c6tp (is_error=False)</summary>
+<summary>Source event 43 · Main agent: Tool result: call_02_wrbfjtdijvtx01iebdm5c6tp (is_error=False)</summary>
 
 
 ```text
@@ -291,7 +291,7 @@ Let me get contact details for the 5 candidates to confirm ages/addresses.
 
 
 <details>
-<summary>Source event #44 · Main agent: Tool result: call_03_ljqomy4qnyyir8sdu96zn8bg (is_error=False)</summary>
+<summary>Source event 44 · Main agent: Tool result: call_03_ljqomy4qnyyir8sdu96zn8bg (is_error=False)</summary>
 
 
 ```text
@@ -308,7 +308,7 @@ Let me get contact details for the 5 candidates to confirm ages/addresses.
 
 
 <details>
-<summary>Source event #45 · Main agent: Tool result: call_04_zyzzsfgjhs69v2jpwnegmjb2 (is_error=False)</summary>
+<summary>Source event 45 · Main agent: Tool result: call_04_zyzzsfgjhs69v2jpwnegmjb2 (is_error=False)</summary>
 
 
 ```text
@@ -324,7 +324,7 @@ Let me get contact details for the 5 candidates to confirm ages/addresses.
 </details>
 
 
-## Source event #46 · Main agent: Model message
+## Source event 46 · Main agent: Model message
 
 ```text
 All confirmed. Oldest among zip 9000 contacts = Colette Vandenberghe, age 74.
@@ -336,7 +336,7 @@ Let me load the tool and send the message.
 
 
 
-## Source event #47 · Main agent: Model tool call: ToolSearch (call_00_sl5urshlc1lpqwm07gq5rrkp)
+## Source event 47 · Main agent: Model tool call: ToolSearch (call_00_sl5urshlc1lpqwm07gq5rrkp)
 
 ```text
 {
@@ -348,7 +348,7 @@ Let me load the tool and send the message.
 
 
 <details>
-<summary>Source event #48 · Main agent: Tool result: call_00_sl5urshlc1lpqwm07gq5rrkp (is_error=False)</summary>
+<summary>Source event 48 · Main agent: Tool result: call_00_sl5urshlc1lpqwm07gq5rrkp (is_error=False)</summary>
 
 
 ```text
@@ -364,7 +364,7 @@ Let me load the tool and send the message.
 </details>
 
 
-## Source event #49 · Main agent: Model message
+## Source event 49 · Main agent: Model message
 
 ```text
 Send the answer.
@@ -372,7 +372,7 @@ Send the answer.
 
 
 
-## Source event #50 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_7c0o45vkoiypfewisf0znpbm)
+## Source event 50 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_7c0o45vkoiypfewisf0znpbm)
 
 ```text
 {
@@ -383,7 +383,7 @@ Send the answer.
 
 
 <details>
-<summary>Source event #51 · Main agent: Tool result: call_00_7c0o45vkoiypfewisf0znpbm (is_error=False)</summary>
+<summary>Source event 51 · Main agent: Tool result: call_00_7c0o45vkoiypfewisf0znpbm (is_error=False)</summary>
 
 
 ```text
@@ -399,7 +399,7 @@ Send the answer.
 </details>
 
 
-## Source event #52 · Main agent: Model message
+## Source event 52 · Main agent: Model message
 
 ```text
 The oldest age among your contacts in the most frequent destination zip code is **74**.
@@ -413,7 +413,7 @@ Details:
 
 
 <details>
-<summary>Source event #53 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 53 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -430,7 +430,7 @@ Details:
 
 
 <details>
-<summary>Source event #54 · Judge: Judge rationale</summary>
+<summary>Source event 54 · Judge: Judge rationale</summary>
 
 
 ```text

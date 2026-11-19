@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #123 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 123 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #124 · Sub-agent 3: model output
+## Source event 124 · Sub-agent 3: model output
 
 ```text
 I'll start by checking the API call limit and current count before making the crime rate queries.
@@ -37,7 +37,7 @@ Action:
 
 
 <details>
-<summary>Source event #125 · Sub-agent 3: tool result</summary>
+<summary>Source event 125 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -51,7 +51,7 @@ Action:
 </details>
 
 
-## Source event #126 · Sub-agent 3: model output
+## Source event 126 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -64,7 +64,7 @@ Action:
 
 
 <details>
-<summary>Source event #127 · Sub-agent 3: tool result</summary>
+<summary>Source event 127 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -78,7 +78,7 @@ Action:
 </details>
 
 
-## Source event #128 · Sub-agent 3: model output
+## Source event 128 · Sub-agent 3: model output
 
 ```text
 API limit is 100, current count is 50, so 50 calls remaining. I'll query the 23 zip codes. Starting now:
@@ -95,7 +95,7 @@ Action:
 
 
 <details>
-<summary>Source event #129 · Sub-agent 3: tool result</summary>
+<summary>Source event 129 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -109,7 +109,7 @@ CrimeDataPoint(violent_crime=2.92, property_crime=5.53)
 </details>
 
 
-## Source event #130 · Sub-agent 3: model output
+## Source event 130 · Sub-agent 3: model output
 
 ```text
 500038: property_crime=5.53 (higher than 1.54). Continuing.
@@ -126,7 +126,7 @@ Action:
 
 
 <details>
-<summary>Source event #131 · Sub-agent 3: tool result</summary>
+<summary>Source event 131 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -140,7 +140,7 @@ CrimeDataPoint(violent_crime=46.45, property_crime=42.85)
 </details>
 
 
-## Source event #132 · Sub-agent 3: model output
+## Source event 132 · Sub-agent 3: model output
 
 ```text
 302015: 42.85. Continuing.
@@ -157,7 +157,7 @@ Action:
 
 
 <details>
-<summary>Source event #133 · Sub-agent 3: tool result</summary>
+<summary>Source event 133 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -171,7 +171,7 @@ CrimeDataPoint(violent_crime=13.2, property_crime=10.48)
 </details>
 
 
-## Source event #134 · Sub-agent 3: model output
+## Source event 134 · Sub-agent 3: model output
 
 ```text
 700012: 10.48. Continuing.
@@ -188,7 +188,7 @@ Action:
 
 
 <details>
-<summary>Source event #135 · Sub-agent 3: tool result</summary>
+<summary>Source event 135 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -202,7 +202,7 @@ CrimeDataPoint(violent_crime=13.03, property_crime=10.47)
 </details>
 
 
-## Source event #136 · Sub-agent 3: model output
+## Source event 136 · Sub-agent 3: model output
 
 ```text
 411045: 10.47. Continuing.
@@ -219,7 +219,7 @@ Action:
 
 
 <details>
-<summary>Source event #137 · Sub-agent 3: tool result</summary>
+<summary>Source event 137 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -233,7 +233,7 @@ CrimeDataPoint(violent_crime=48.22, property_crime=38.88)
 </details>
 
 
-## Source event #138 · Sub-agent 3: model output
+## Source event 138 · Sub-agent 3: model output
 
 ```text
 394510: 38.88. Continuing.
@@ -250,7 +250,7 @@ Action:
 
 
 <details>
-<summary>Source event #139 · Sub-agent 3: tool result</summary>
+<summary>Source event 139 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -264,7 +264,7 @@ CrimeDataPoint(violent_crime=30.79, property_crime=9.41)
 </details>
 
 
-## Source event #140 · Sub-agent 3: model output
+## Source event 140 · Sub-agent 3: model output
 
 ```text
 400018: 9.41. Continuing.
@@ -281,7 +281,7 @@ Action:
 
 
 <details>
-<summary>Source event #141 · Sub-agent 3: tool result</summary>
+<summary>Source event 141 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -295,7 +295,7 @@ CrimeDataPoint(violent_crime=7.66, property_crime=31.24)
 </details>
 
 
-## Source event #142 · Sub-agent 3: model output
+## Source event 142 · Sub-agent 3: model output
 
 ```text
 560087: 31.24. Continuing.
@@ -312,7 +312,7 @@ Action:
 
 
 <details>
-<summary>Source event #143 · Sub-agent 3: tool result</summary>
+<summary>Source event 143 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -326,7 +326,7 @@ CrimeDataPoint(violent_crime=20.97, property_crime=46.97)
 </details>
 
 
-## Source event #144 · Sub-agent 3: model output
+## Source event 144 · Sub-agent 3: model output
 
 ```text
 500034: 46.97. Continuing.
@@ -343,7 +343,7 @@ Action:
 
 
 <details>
-<summary>Source event #145 · Sub-agent 3: tool result</summary>
+<summary>Source event 145 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -357,7 +357,7 @@ CrimeDataPoint(violent_crime=4.67, property_crime=4.86)
 </details>
 
 
-## Source event #146 · Sub-agent 3: model output
+## Source event 146 · Sub-agent 3: model output
 
 ```text
 110075: 4.86. Continuing.
@@ -374,7 +374,7 @@ Action:
 
 
 <details>
-<summary>Source event #147 · Sub-agent 3: tool result</summary>
+<summary>Source event 147 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -388,7 +388,7 @@ CrimeDataPoint(violent_crime=3.43, property_crime=16.5)
 </details>
 
 
-## Source event #148 · Sub-agent 3: model output
+## Source event 148 · Sub-agent 3: model output
 
 ```text
 500085: 16.5. Continuing.
@@ -405,7 +405,7 @@ Action:
 
 
 <details>
-<summary>Source event #149 · Sub-agent 3: tool result</summary>
+<summary>Source event 149 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -419,7 +419,7 @@ CrimeDataPoint(violent_crime=18.81, property_crime=14.01)
 </details>
 
 
-## Source event #150 · Sub-agent 3: model output
+## Source event 150 · Sub-agent 3: model output
 
 ```text
 382010: 14.01. Continuing.
@@ -436,7 +436,7 @@ Action:
 
 
 <details>
-<summary>Source event #151 · Sub-agent 3: tool result</summary>
+<summary>Source event 151 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -450,7 +450,7 @@ CrimeDataPoint(violent_crime=45.49, property_crime=2.3)
 </details>
 
 
-## Source event #152 · Sub-agent 3: model output
+## Source event 152 · Sub-agent 3: model output
 
 ```text
 302004: 2.30 (higher than 1.54). Continuing.
@@ -467,7 +467,7 @@ Action:
 
 
 <details>
-<summary>Source event #153 · Sub-agent 3: tool result</summary>
+<summary>Source event 153 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -481,7 +481,7 @@ CrimeDataPoint(violent_crime=17.63, property_crime=35.33)
 </details>
 
 
-## Source event #154 · Sub-agent 3: model output
+## Source event 154 · Sub-agent 3: model output
 
 ```text
 395007: 35.33. Continuing.
@@ -498,7 +498,7 @@ Action:
 
 
 <details>
-<summary>Source event #155 · Sub-agent 3: tool result</summary>
+<summary>Source event 155 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -512,7 +512,7 @@ CrimeDataPoint(violent_crime=25.83, property_crime=25.16)
 </details>
 
 
-## Source event #156 · Sub-agent 3: model output
+## Source event 156 · Sub-agent 3: model output
 
 ```text
 380060: 25.16. Continuing.
@@ -530,7 +530,7 @@ Action:
 
 
 <details>
-<summary>Source event #157 · Sub-agent 3: tool result</summary>
+<summary>Source event 157 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -544,7 +544,7 @@ CrimeDataPoint(violent_crime=22.2, property_crime=30.69)
 </details>
 
 
-## Source event #158 · Sub-agent 3: model output
+## Source event 158 · Sub-agent 3: model output
 
 ```text
 122003: 30.69. Continuing.
@@ -561,7 +561,7 @@ Action:
 
 
 <details>
-<summary>Source event #159 · Sub-agent 3: tool result</summary>
+<summary>Source event 159 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -575,7 +575,7 @@ CrimeDataPoint(violent_crime=3.55, property_crime=33.33)
 </details>
 
 
-## Source event #160 · Sub-agent 3: model output
+## Source event 160 · Sub-agent 3: model output
 
 ```text
 700016: 33.33. Continuing.
@@ -593,7 +593,7 @@ Action:
 
 
 <details>
-<summary>Source event #161 · Sub-agent 3: tool result</summary>
+<summary>Source event 161 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -607,7 +607,7 @@ CrimeDataPoint(violent_crime=12.27, property_crime=9.41)
 </details>
 
 
-## Source event #162 · Sub-agent 3: model output
+## Source event 162 · Sub-agent 3: model output
 
 ```text
 500019: 9.41. Continuing.
@@ -625,7 +625,7 @@ Action:
 
 
 <details>
-<summary>Source event #163 · Sub-agent 3: tool result</summary>
+<summary>Source event 163 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -639,7 +639,7 @@ CrimeDataPoint(violent_crime=21, property_crime=47.37)
 </details>
 
 
-## Source event #164 · Sub-agent 3: model output
+## Source event 164 · Sub-agent 3: model output
 
 ```text
 452001: 47.37. Continuing.
@@ -657,7 +657,7 @@ Action:
 
 
 <details>
-<summary>Source event #165 · Sub-agent 3: tool result</summary>
+<summary>Source event 165 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -671,7 +671,7 @@ CrimeDataPoint(violent_crime=37.97, property_crime=35.8)
 </details>
 
 
-## Source event #166 · Sub-agent 3: model output
+## Source event 166 · Sub-agent 3: model output
 
 ```text
 302006: 35.8. Continuing.
@@ -689,7 +689,7 @@ Action:
 
 
 <details>
-<summary>Source event #167 · Sub-agent 3: tool result</summary>
+<summary>Source event 167 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -703,7 +703,7 @@ CrimeDataPoint(violent_crime=19.79, property_crime=21.48)
 </details>
 
 
-## Source event #168 · Sub-agent 3: model output
+## Source event 168 · Sub-agent 3: model output
 
 ```text
 560035: 21.48. Continuing.
@@ -721,7 +721,7 @@ Action:
 
 
 <details>
-<summary>Source event #169 · Sub-agent 3: tool result</summary>
+<summary>Source event 169 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -735,7 +735,7 @@ CrimeDataPoint(violent_crime=19.63, property_crime=31.84)
 </details>
 
 
-## Source event #170 · Sub-agent 3: model output
+## Source event 170 · Sub-agent 3: model output
 
 ```text
 560042: 31.84. Two zip codes remain.
@@ -753,7 +753,7 @@ Action:
 
 
 <details>
-<summary>Source event #171 · Sub-agent 3: tool result</summary>
+<summary>Source event 171 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -767,7 +767,7 @@ CrimeDataPoint(violent_crime=10.06, property_crime=37.84)
 </details>
 
 
-## Source event #172 · Sub-agent 3: model output
+## Source event 172 · Sub-agent 3: model output
 
 ```text
 400610: 37.84. Final zip: 400076.
@@ -785,7 +785,7 @@ Action:
 
 
 <details>
-<summary>Source event #173 · Sub-agent 3: tool result</summary>
+<summary>Source event 173 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -799,7 +799,7 @@ CrimeDataPoint(violent_crime=31.8, property_crime=8.79)
 </details>
 
 
-## Source event #174 · Sub-agent 3: model output
+## Source event 174 · Sub-agent 3: model output
 
 ```text
 All 23 zip codes checked. Lowest in this batch is 302004 (2.30), still higher than 1.54. Winner remains **560043 (Bengaluru)**. Now searching for 2-bedroom apartments with Parking in 560043.
@@ -818,7 +818,7 @@ Action:
 
 
 <details>
-<summary>Source event #175 · Sub-agent 3: tool result</summary>
+<summary>Source event 175 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -832,7 +832,7 @@ Action:
 </details>
 
 
-## Source event #176 · Sub-agent 3: model output
+## Source event 176 · Sub-agent 3: model output
 
 ```text
 Found 2. Let me verify completeness by searching all 2-bedroom apartments in 560043 without the amenities filter.
@@ -851,7 +851,7 @@ Action:
 
 
 <details>
-<summary>Source event #177 · Sub-agent 3: tool result</summary>
+<summary>Source event 177 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -865,7 +865,7 @@ Action:
 </details>
 
 
-## Source event #178 · Sub-agent 3: model output
+## Source event 178 · Sub-agent 3: model output
 
 ```text
 Confirmed: these are the only 2-bedroom apartments in 560043, and both include Parking. Saving both now.
@@ -883,7 +883,7 @@ Action:
 
 
 <details>
-<summary>Source event #179 · Sub-agent 3: tool result</summary>
+<summary>Source event 179 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -897,7 +897,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #180 · Sub-agent 3: model output
+## Source event 180 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -913,7 +913,7 @@ Action:
 
 
 <details>
-<summary>Source event #181 · Sub-agent 3: tool result</summary>
+<summary>Source event 181 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -927,7 +927,7 @@ Successfully saved apartment
 </details>
 
 
-## Source event #182 · Sub-agent 3: model output
+## Source event 182 · Sub-agent 3: model output
 
 ```text
 Both saved. Verifying with a saved-only search:
@@ -948,7 +948,7 @@ Action:
 
 
 <details>
-<summary>Source event #183 · Sub-agent 3: tool result</summary>
+<summary>Source event 183 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -962,7 +962,7 @@ Action:
 </details>
 
 
-## Source event #184 · Sub-agent 3: model output
+## Source event 184 · Sub-agent 3: model output
 
 ```text
 Thought: All 23 zip codes checked; none had property_crime below 1.54, so 560043 (Bengaluru) remains the winner. Both 2-bedroom Parking apartments in 560043 were found (verified complete via unfiltered 2BR search) and saved, confirmed via saved_only search.

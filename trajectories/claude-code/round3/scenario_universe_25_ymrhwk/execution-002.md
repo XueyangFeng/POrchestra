@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #106 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_01_1kgfw2v3fm0ckyh6d0a2yg0c)
+## Source event 106 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_01_1kgfw2v3fm0ckyh6d0a2yg0c)
 
 ```text
 {
@@ -22,7 +22,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 
-## Source event #107 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_02_kxfbr429exa3dogtm83i8zpl)
+## Source event 107 · Main agent: Model tool call: mcp__gaia2__Calendar__add_calendar_event (call_02_kxfbr429exa3dogtm83i8zpl)
 
 ```text
 {
@@ -41,7 +41,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #108 · Main agent: Tool result: call_00_2v6co5vnxlv6f4ox56v833uq (is_error=False)</summary>
+<summary>Source event 108 · Main agent: Tool result: call_00_2v6co5vnxlv6f4ox56v833uq (is_error=False)</summary>
 
 
 ```text
@@ -58,7 +58,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #109 · Main agent: Tool result: call_01_1kgfw2v3fm0ckyh6d0a2yg0c (is_error=False)</summary>
+<summary>Source event 109 · Main agent: Tool result: call_01_1kgfw2v3fm0ckyh6d0a2yg0c (is_error=False)</summary>
 
 
 ```text
@@ -75,7 +75,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 
 
 <details>
-<summary>Source event #110 · Main agent: Tool result: call_02_kxfbr429exa3dogtm83i8zpl (is_error=False)</summary>
+<summary>Source event 110 · Main agent: Tool result: call_02_kxfbr429exa3dogtm83i8zpl (is_error=False)</summary>
 
 
 ```text
@@ -91,7 +91,7 @@ Messages and tool calls are shown directly. Expand observations to read tool ret
 </details>
 
 
-## Source event #111 · Main agent: Model message
+## Source event 111 · Main agent: Model message
 
 ```text
 Now send 1:1 messages to each relevant attendee about the time changes: Chats for Karel and Émile, Messages for Aurélien (since not on Chats).
@@ -114,7 +114,7 @@ Send now.
 
 
 
-## Source event #112 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_00_mturbcyb3zovfz9l6in6oukp)
+## Source event 112 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_00_mturbcyb3zovfz9l6in6oukp)
 
 ```text
 {
@@ -125,7 +125,7 @@ Send now.
 
 
 
-## Source event #113 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_01_kcrvmcyr2r3ru5nbnk0tgdln)
+## Source event 113 · Main agent: Model tool call: mcp__gaia2__Chats__send_message (call_01_kcrvmcyr2r3ru5nbnk0tgdln)
 
 ```text
 {
@@ -136,7 +136,7 @@ Send now.
 
 
 
-## Source event #114 · Main agent: Model tool call: mcp__gaia2__Messages__send_message (call_02_5l3rchsyv5koeyiwst7dg3sn)
+## Source event 114 · Main agent: Model tool call: mcp__gaia2__Messages__send_message (call_02_5l3rchsyv5koeyiwst7dg3sn)
 
 ```text
 {
@@ -148,7 +148,7 @@ Send now.
 
 
 <details>
-<summary>Source event #115 · Main agent: Tool result: call_00_mturbcyb3zovfz9l6in6oukp (is_error=False)</summary>
+<summary>Source event 115 · Main agent: Tool result: call_00_mturbcyb3zovfz9l6in6oukp (is_error=False)</summary>
 
 
 ```text
@@ -165,7 +165,7 @@ Send now.
 
 
 <details>
-<summary>Source event #116 · Main agent: Tool result: call_01_kcrvmcyr2r3ru5nbnk0tgdln (is_error=False)</summary>
+<summary>Source event 116 · Main agent: Tool result: call_01_kcrvmcyr2r3ru5nbnk0tgdln (is_error=False)</summary>
 
 
 ```text
@@ -182,7 +182,7 @@ Send now.
 
 
 <details>
-<summary>Source event #117 · Main agent: Tool result: call_02_5l3rchsyv5koeyiwst7dg3sn (is_error=False)</summary>
+<summary>Source event 117 · Main agent: Tool result: call_02_5l3rchsyv5koeyiwst7dg3sn (is_error=False)</summary>
 
 
 ```text
@@ -198,7 +198,7 @@ Send now.
 </details>
 
 
-## Source event #118 · Main agent: Model message
+## Source event 118 · Main agent: Model message
 
 ```text
 Now verify all changes: calendar events have new times; messages sent. Let me verify:
@@ -211,7 +211,7 @@ Let me verify calendar and messages.
 
 
 
-## Source event #119 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_event (call_00_32lugysvkyvzoxan23al23zl)
+## Source event 119 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_event (call_00_32lugysvkyvzoxan23al23zl)
 
 ```text
 {
@@ -221,7 +221,7 @@ Let me verify calendar and messages.
 
 
 
-## Source event #120 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_event (call_01_tp2o9fj6v3qqhse8katby4rr)
+## Source event 120 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_event (call_01_tp2o9fj6v3qqhse8katby4rr)
 
 ```text
 {
@@ -231,7 +231,7 @@ Let me verify calendar and messages.
 
 
 
-## Source event #121 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_event (call_02_sxyrzmfrx46plcslci85bkn9)
+## Source event 121 · Main agent: Model tool call: mcp__gaia2__Calendar__get_calendar_event (call_02_sxyrzmfrx46plcslci85bkn9)
 
 ```text
 {
@@ -241,7 +241,7 @@ Let me verify calendar and messages.
 
 
 
-## Source event #122 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_03_jc7lmtc6wzm6hcmcs69ihtl3)
+## Source event 122 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_03_jc7lmtc6wzm6hcmcs69ihtl3)
 
 ```text
 {
@@ -253,7 +253,7 @@ Let me verify calendar and messages.
 
 
 <details>
-<summary>Source event #123 · Main agent: Tool result: call_00_32lugysvkyvzoxan23al23zl (is_error=False)</summary>
+<summary>Source event 123 · Main agent: Tool result: call_00_32lugysvkyvzoxan23al23zl (is_error=False)</summary>
 
 
 ```text
@@ -270,7 +270,7 @@ Let me verify calendar and messages.
 
 
 <details>
-<summary>Source event #124 · Main agent: Tool result: call_01_tp2o9fj6v3qqhse8katby4rr (is_error=False)</summary>
+<summary>Source event 124 · Main agent: Tool result: call_01_tp2o9fj6v3qqhse8katby4rr (is_error=False)</summary>
 
 
 ```text
@@ -287,7 +287,7 @@ Let me verify calendar and messages.
 
 
 <details>
-<summary>Source event #125 · Main agent: Tool result: call_02_sxyrzmfrx46plcslci85bkn9 (is_error=False)</summary>
+<summary>Source event 125 · Main agent: Tool result: call_02_sxyrzmfrx46plcslci85bkn9 (is_error=False)</summary>
 
 
 ```text
@@ -304,7 +304,7 @@ Let me verify calendar and messages.
 
 
 <details>
-<summary>Source event #126 · Main agent: Tool result: call_03_jc7lmtc6wzm6hcmcs69ihtl3 (is_error=False)</summary>
+<summary>Source event 126 · Main agent: Tool result: call_03_jc7lmtc6wzm6hcmcs69ihtl3 (is_error=False)</summary>
 
 
 ```text
@@ -320,7 +320,7 @@ Let me verify calendar and messages.
 </details>
 
 
-## Source event #127 · Main agent: Model message
+## Source event 127 · Main agent: Model message
 
 ```text
 All done. Wait: the Messages conversation for Aurélien already existed, good. Note the user id '+32472123456' is Liesbeth's phone (current user). Message sent correctly.
@@ -346,7 +346,7 @@ Before that, double-check that the new events' times appear correctly and no dup
 
 
 
-## Source event #128 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_lq9fxbazw3ti53qmxoulzfj3)
+## Source event 128 · Main agent: Model tool call: mcp__gaia2__Calendar__search_events (call_00_lq9fxbazw3ti53qmxoulzfj3)
 
 ```text
 {
@@ -356,7 +356,7 @@ Before that, double-check that the new events' times appear correctly and no dup
 
 
 
-## Source event #129 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_01_45wp76ekfo3b79mfos9iphnp)
+## Source event 129 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_01_45wp76ekfo3b79mfos9iphnp)
 
 ```text
 {
@@ -367,7 +367,7 @@ Before that, double-check that the new events' times appear correctly and no dup
 
 
 
-## Source event #130 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_02_ei7ll8y4f9skub1dhlps69zv)
+## Source event 130 · Main agent: Model tool call: mcp__gaia2__Chats__read_conversation (call_02_ei7ll8y4f9skub1dhlps69zv)
 
 ```text
 {
@@ -379,7 +379,7 @@ Before that, double-check that the new events' times appear correctly and no dup
 
 
 <details>
-<summary>Source event #131 · Main agent: Tool result: call_00_lq9fxbazw3ti53qmxoulzfj3 (is_error=False)</summary>
+<summary>Source event 131 · Main agent: Tool result: call_00_lq9fxbazw3ti53qmxoulzfj3 (is_error=False)</summary>
 
 
 ```text
@@ -396,7 +396,7 @@ Before that, double-check that the new events' times appear correctly and no dup
 
 
 <details>
-<summary>Source event #132 · Main agent: Tool result: call_01_45wp76ekfo3b79mfos9iphnp (is_error=False)</summary>
+<summary>Source event 132 · Main agent: Tool result: call_01_45wp76ekfo3b79mfos9iphnp (is_error=False)</summary>
 
 
 ```text
@@ -413,7 +413,7 @@ Before that, double-check that the new events' times appear correctly and no dup
 
 
 <details>
-<summary>Source event #133 · Main agent: Tool result: call_02_ei7ll8y4f9skub1dhlps69zv (is_error=False)</summary>
+<summary>Source event 133 · Main agent: Tool result: call_02_ei7ll8y4f9skub1dhlps69zv (is_error=False)</summary>
 
 
 ```text
@@ -429,7 +429,7 @@ Before that, double-check that the new events' times appear correctly and no dup
 </details>
 
 
-## Source event #134 · Main agent: Model message
+## Source event 134 · Main agent: Model message
 
 ```text
 Everything verified. Note there's still a Follow-up Call with Aurélien on Nov 1 (different event, not among next 3). Fine.
@@ -446,7 +446,7 @@ Mention that none responded. Use send_message_to_user.
 
 
 
-## Source event #135 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_zwz0l9lqbv15qq01sjnwkxt1)
+## Source event 135 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_zwz0l9lqbv15qq01sjnwkxt1)
 
 ```text
 {
@@ -457,7 +457,7 @@ Mention that none responded. Use send_message_to_user.
 
 
 <details>
-<summary>Source event #136 · Main agent: Tool result: call_00_zwz0l9lqbv15qq01sjnwkxt1 (is_error=False)</summary>
+<summary>Source event 136 · Main agent: Tool result: call_00_zwz0l9lqbv15qq01sjnwkxt1 (is_error=False)</summary>
 
 
 ```text
@@ -473,7 +473,7 @@ Mention that none responded. Use send_message_to_user.
 </details>
 
 
-## Source event #137 · Main agent: Model message
+## Source event 137 · Main agent: Model message
 
 ```text
 I've completed the task. Here's what was done:
@@ -501,7 +501,7 @@ All calendar and messaging changes were verified in the apps.
 
 
 <details>
-<summary>Source event #138 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 138 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -532,7 +532,7 @@ All calendar and messaging changes were verified in the apps.
 
 
 <details>
-<summary>Source event #139 · Judge: Judge rationale</summary>
+<summary>Source event 139 · Judge: Judge rationale</summary>
 
 
 ```text

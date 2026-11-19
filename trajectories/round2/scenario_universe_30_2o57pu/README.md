@@ -1,6 +1,8 @@
 # scenario_universe_30_2o57pu
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_30_2o57pu/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_30_2o57pu/README.md) · [Codex](../../codex/round2/scenario_universe_30_2o57pu/README.md) · [OpenCode](../../opencode/round2/scenario_universe_30_2o57pu/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires monitoring for emails over a 3-minute window (until 07:03:00), processing them immediately based on content, and then sending a summary report to the user at exactly 07:05:00. This involves email, calendar, and messaging interactions.
 

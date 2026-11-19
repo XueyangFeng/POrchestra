@@ -1,6 +1,8 @@
 # scenario_universe_23_izo0ml
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_23_izo0ml/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_23_izo0ml/README.md) · [Codex](../../codex/round1/scenario_universe_23_izo0ml/README.md) · [OpenCode](../../opencode/round1/scenario_universe_23_izo0ml/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to schedule an event and be notified. I need to first determine the date of &#x27;this Friday&#x27; relative to the current date (Tuesday, 2024-10-15), which is Friday, 2024-10-18. Then I will schedule the event and send the required confirmation message to the user. The conditional logic regarding cancellation will be handled in subsequent steps or turns if a cancellation occurs.
 
@@ -84,7 +86,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #16
+**Harness configuration updated** · Source event 16
 
 **1. Sub-agent revision request**
 
@@ -93,7 +95,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Event 'Reading Session' created on 2024-10-18 14:00-16:00 with attendee Eliška Nováková, and the user was informed. Environment notifications now report that the calendar event was deleted by Šárka Nováková and by Eliška Nováková. Awaiting MainAgent instruction before any further side effects.
 ```
 <details>
-<summary>Request and evidence · source event #14</summary>
+<summary>Request and evidence · source event 14</summary>
 
 
 ```text
@@ -143,7 +145,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 Since Eliška Nováková canceled the event, the conditional cancellation flow must be executed. I will revise the SubAgent to send a message to Eliška Nováková on Messages asking what time is convenient, schedule the two Reading Sessions on Friday at 3pm and 8pm, and email Fatima Al-Khateeb asking to join the 8pm session.
 
@@ -247,7 +249,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

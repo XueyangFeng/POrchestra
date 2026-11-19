@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #23 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 23 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -22,7 +22,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #24 · Sub-agent 1: model output
+## Source event 24 · Sub-agent 1: model output
 
 ```text
 I'll execute the follow-up plan. First, restore the 'Yoga Class' event on Wednesday, Oct 16.
@@ -45,7 +45,7 @@ Action:
 
 
 <details>
-<summary>Source event #25 · Sub-agent 1: tool result</summary>
+<summary>Source event 25 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -59,7 +59,7 @@ f7af3c683953f40822cf7da5a5df7046
 </details>
 
 
-## Source event #26 · Sub-agent 1: model output
+## Source event 26 · Sub-agent 1: model output
 
 ```text
 Yoga Class restored. Now restoring the 'Paper Review' event.
@@ -82,7 +82,7 @@ Action:
 
 
 <details>
-<summary>Source event #27 · Sub-agent 1: tool result</summary>
+<summary>Source event 27 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -96,7 +96,7 @@ Action:
 </details>
 
 
-## Source event #28 · Sub-agent 1: model output
+## Source event 28 · Sub-agent 1: model output
 
 ```text
 Paper Review restored. Now creating the 'Nightly Project' for Thursday, Oct 17.
@@ -117,7 +117,7 @@ Action:
 
 
 <details>
-<summary>Source event #29 · Sub-agent 1: tool result</summary>
+<summary>Source event 29 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -131,7 +131,7 @@ Action:
 </details>
 
 
-## Source event #30 · Sub-agent 1: model output
+## Source event 30 · Sub-agent 1: model output
 
 ```text
 Nightly Project created for Thursday. Now deleting the conflicting 'Dinner with Family' event.
@@ -148,7 +148,7 @@ Action:
 
 
 <details>
-<summary>Source event #31 · Sub-agent 1: tool result</summary>
+<summary>Source event 31 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -162,7 +162,7 @@ Event 5e1bf77565414199abe87a472c4d56c6 successfully deleted.
 </details>
 
 
-## Source event #32 · Sub-agent 1: model output
+## Source event 32 · Sub-agent 1: model output
 
 ```text
 All side effects complete. Now notifying the user that the Nightly Project has been rescheduled for Thursday.
@@ -179,7 +179,7 @@ Action:
 
 
 <details>
-<summary>Source event #33 · Sub-agent 1: tool result</summary>
+<summary>Source event 33 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -194,7 +194,7 @@ None
 
 
 <details>
-<summary>Source event #34 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 34 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -207,7 +207,7 @@ Environment notifications:
 </details>
 
 
-## Source event #35 · Sub-agent 1: model output
+## Source event 35 · Sub-agent 1: model output
 
 ```text
 A new notification arrived: an attendee (Gerrit van der Meer) deleted a calendar event. Let me verify the current state with read-only queries before reporting to MainAgent.
@@ -226,7 +226,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 1: tool result</summary>
+<summary>Source event 36 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -240,7 +240,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 1: model output
+## Source event 37 · Sub-agent 1: model output
 
 ```text
 The Thursday 'Nightly Project' (id `02d916ed91b54851a5f86203437bc8fe`) is indeed gone from the calendar — deleted by attendee Gerrit van der Meer. The restored Yoga Class and Paper Review on Oct 16 are intact. This triggers the pre-authorized final conditional: delete all events from 2024-10-15 to 2024-10-31 where BOTH Helmut Eisenstadt and Gerrit van der Meer are attendees.
@@ -259,7 +259,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 1: tool result</summary>
+<summary>Source event 38 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -273,7 +273,7 @@ Event d0492712e2c54aceb793e2acc7133095 successfully deleted.
 </details>
 
 
-## Source event #39 · Sub-agent 1: model output
+## Source event 39 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -288,7 +288,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 1: tool result</summary>
+<summary>Source event 40 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -302,7 +302,7 @@ Event e2a9bb2e01d448b8bc5833da42e0c105 successfully deleted.
 </details>
 
 
-## Source event #41 · Sub-agent 1: model output
+## Source event 41 · Sub-agent 1: model output
 
 ```text
 Action:
@@ -317,7 +317,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 1: tool result</summary>
+<summary>Source event 42 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -331,7 +331,7 @@ Event 6a29004e83f04b009a53b9ded4023ed6 successfully deleted.
 </details>
 
 
-## Source event #43 · Sub-agent 1: model output
+## Source event 43 · Sub-agent 1: model output
 
 ```text
 All three matching events deleted. Let me verify the final state with a read-only query.
@@ -350,7 +350,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 1: tool result</summary>
+<summary>Source event 44 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -364,7 +364,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 1: model output
+## Source event 45 · Sub-agent 1: model output
 
 ```text
 The final conditional has been executed. Verification confirms no remaining events from 2024-10-15 to 2024-10-31 have both Helmut Eisenstadt and Gerrit van der Meer as attendees. Now I'll inform the user about this final action.
@@ -381,7 +381,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 1: tool result</summary>
+<summary>Source event 46 · Sub-agent 1: tool result</summary>
 
 
 ```text

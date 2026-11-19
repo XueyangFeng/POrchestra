@@ -1,6 +1,8 @@
 # scenario_universe_30_oxbq51
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_30_oxbq51/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_30_oxbq51/README.md) · [Codex](../../codex/round3/scenario_universe_30_oxbq51/README.md) · [OpenCode](../../opencode/round3/scenario_universe_30_oxbq51/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to collect data from both the RentAFlat app and the Contacts app. First, I will list the saved properties to calculate the average price per city. Then, I will find the city with the highest average and count the contacts living there. Finally, I will report that count to the user.
 

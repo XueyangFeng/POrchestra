@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #38 · Main agent: Model message
+## Source event 38 · Main agent: Model message
 
 ```text
 Total 132 contacts, all viewed. Librarian-related jobs:
@@ -46,7 +46,7 @@ Let's do it.
 
 
 
-## Source event #39 · Main agent: Model message
+## Source event 39 · Main agent: Model message
 
 ```text
 All 132 contacts reviewed. Librarian-role contacts: 5 found. Now adding ebook copies to cart.
@@ -54,7 +54,7 @@ All 132 contacts reviewed. Librarian-role contacts: 5 found. Now adding ebook co
 
 
 
-## Source event #40 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_4moubazf1c54164b68jtd9z0)
+## Source event 40 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_4moubazf1c54164b68jtd9z0)
 
 ```text
 {}
@@ -63,7 +63,7 @@ All 132 contacts reviewed. Librarian-role contacts: 5 found. Now adding ebook co
 
 
 <details>
-<summary>Source event #41 · Main agent: Tool result: call_00_4moubazf1c54164b68jtd9z0 (is_error=False)</summary>
+<summary>Source event 41 · Main agent: Tool result: call_00_4moubazf1c54164b68jtd9z0 (is_error=False)</summary>
 
 
 ```text
@@ -79,7 +79,7 @@ All 132 contacts reviewed. Librarian-role contacts: 5 found. Now adding ebook co
 </details>
 
 
-## Source event #42 · Main agent: Model message
+## Source event 42 · Main agent: Model message
 
 ```text
 Cart empty. Add 5 copies of ebook item.
@@ -87,7 +87,7 @@ Cart empty. Add 5 copies of ebook item.
 
 
 
-## Source event #43 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_mtbbcpfw0b3ojyncnc9t4yns)
+## Source event 43 · Main agent: Model tool call: mcp__gaia2__Shopping__add_to_cart (call_00_mtbbcpfw0b3ojyncnc9t4yns)
 
 ```text
 {
@@ -99,7 +99,7 @@ Cart empty. Add 5 copies of ebook item.
 
 
 <details>
-<summary>Source event #44 · Main agent: Tool result: call_00_mtbbcpfw0b3ojyncnc9t4yns (is_error=False)</summary>
+<summary>Source event 44 · Main agent: Tool result: call_00_mtbbcpfw0b3ojyncnc9t4yns (is_error=False)</summary>
 
 
 ```text
@@ -115,7 +115,7 @@ Cart empty. Add 5 copies of ebook item.
 </details>
 
 
-## Source event #45 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_ckrckjyyvlkt4l943059tn7b)
+## Source event 45 · Main agent: Model tool call: mcp__gaia2__Shopping__list_cart (call_00_ckrckjyyvlkt4l943059tn7b)
 
 ```text
 {}
@@ -124,7 +124,7 @@ Cart empty. Add 5 copies of ebook item.
 
 
 <details>
-<summary>Source event #46 · Main agent: Tool result: call_00_ckrckjyyvlkt4l943059tn7b (is_error=False)</summary>
+<summary>Source event 46 · Main agent: Tool result: call_00_ckrckjyyvlkt4l943059tn7b (is_error=False)</summary>
 
 
 ```text
@@ -140,7 +140,7 @@ Cart empty. Add 5 copies of ebook item.
 </details>
 
 
-## Source event #47 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_0mcr2qtns1ilamfs5qtg4ncl)
+## Source event 47 · Main agent: Model tool call: mcp__gaia2__Shopping__checkout (call_00_0mcr2qtns1ilamfs5qtg4ncl)
 
 ```text
 {}
@@ -149,7 +149,7 @@ Cart empty. Add 5 copies of ebook item.
 
 
 <details>
-<summary>Source event #48 · Main agent: Tool result: call_00_0mcr2qtns1ilamfs5qtg4ncl (is_error=False)</summary>
+<summary>Source event 48 · Main agent: Tool result: call_00_0mcr2qtns1ilamfs5qtg4ncl (is_error=False)</summary>
 
 
 ```text
@@ -165,7 +165,7 @@ Cart empty. Add 5 copies of ebook item.
 </details>
 
 
-## Source event #49 · Main agent: Model message
+## Source event 49 · Main agent: Model message
 
 ```text
 Order placed. Now send 5 individual emails. Bridget MacTavish email is 'bmac tavish@gaia2mail.com' with a space — likely intentional typo in dataset. I'll try that first; if it fails, use without space.
@@ -175,7 +175,7 @@ Let me send all 5.
 
 
 
-## Source event #50 · Main agent: Model message
+## Source event 50 · Main agent: Model message
 
 ```text
 Order placed. Now sending individual emails.
@@ -183,7 +183,7 @@ Order placed. Now sending individual emails.
 
 
 
-## Source event #51 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_r822poyt4bq4gzwozyy7qxet)
+## Source event 51 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_00_r822poyt4bq4gzwozyy7qxet)
 
 ```text
 {
@@ -197,7 +197,7 @@ Order placed. Now sending individual emails.
 
 
 
-## Source event #52 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_01_k8rvpr1xrcdpluabkxhzm5oy)
+## Source event 52 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_01_k8rvpr1xrcdpluabkxhzm5oy)
 
 ```text
 {
@@ -211,7 +211,7 @@ Order placed. Now sending individual emails.
 
 
 
-## Source event #53 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_02_fan42274u6nc8k3wavpnoh71)
+## Source event 53 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_02_fan42274u6nc8k3wavpnoh71)
 
 ```text
 {
@@ -225,7 +225,7 @@ Order placed. Now sending individual emails.
 
 
 
-## Source event #54 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_03_cwmy43royj554p04rwben4dp)
+## Source event 54 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_03_cwmy43royj554p04rwben4dp)
 
 ```text
 {
@@ -239,7 +239,7 @@ Order placed. Now sending individual emails.
 
 
 
-## Source event #55 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_04_ceqelg0r9vn53b6mj7el6azr)
+## Source event 55 · Main agent: Model tool call: mcp__gaia2__Emails__send_email (call_04_ceqelg0r9vn53b6mj7el6azr)
 
 ```text
 {
@@ -254,7 +254,7 @@ Order placed. Now sending individual emails.
 
 
 <details>
-<summary>Source event #56 · Main agent: Tool result: call_00_r822poyt4bq4gzwozyy7qxet (is_error=False)</summary>
+<summary>Source event 56 · Main agent: Tool result: call_00_r822poyt4bq4gzwozyy7qxet (is_error=False)</summary>
 
 
 ```text
@@ -271,7 +271,7 @@ Order placed. Now sending individual emails.
 
 
 <details>
-<summary>Source event #57 · Main agent: Tool result: call_01_k8rvpr1xrcdpluabkxhzm5oy (is_error=False)</summary>
+<summary>Source event 57 · Main agent: Tool result: call_01_k8rvpr1xrcdpluabkxhzm5oy (is_error=False)</summary>
 
 
 ```text
@@ -288,7 +288,7 @@ Order placed. Now sending individual emails.
 
 
 <details>
-<summary>Source event #58 · Main agent: Tool result: call_02_fan42274u6nc8k3wavpnoh71 (is_error=False)</summary>
+<summary>Source event 58 · Main agent: Tool result: call_02_fan42274u6nc8k3wavpnoh71 (is_error=False)</summary>
 
 
 ```text
@@ -305,7 +305,7 @@ Order placed. Now sending individual emails.
 
 
 <details>
-<summary>Source event #59 · Main agent: Tool result: call_03_cwmy43royj554p04rwben4dp (is_error=False)</summary>
+<summary>Source event 59 · Main agent: Tool result: call_03_cwmy43royj554p04rwben4dp (is_error=False)</summary>
 
 
 ```text
@@ -322,7 +322,7 @@ Order placed. Now sending individual emails.
 
 
 <details>
-<summary>Source event #60 · Main agent: Tool result: call_04_ceqelg0r9vn53b6mj7el6azr (is_error=False)</summary>
+<summary>Source event 60 · Main agent: Tool result: call_04_ceqelg0r9vn53b6mj7el6azr (is_error=False)</summary>
 
 
 ```text
@@ -338,7 +338,7 @@ Order placed. Now sending individual emails.
 </details>
 
 
-## Source event #61 · Main agent: Model message
+## Source event 61 · Main agent: Model message
 
 ```text
 All 5 emails sent, including the one with a space in the address (accepted). Let me verify the order details quickly.
@@ -346,7 +346,7 @@ All 5 emails sent, including the one with a space in the address (accepted). Let
 
 
 
-## Source event #62 · Main agent: Model tool call: ToolSearch (call_00_p0me7uj5zxruayhszn81fxzb)
+## Source event 62 · Main agent: Model tool call: ToolSearch (call_00_p0me7uj5zxruayhszn81fxzb)
 
 ```text
 {
@@ -358,7 +358,7 @@ All 5 emails sent, including the one with a space in the address (accepted). Let
 
 
 <details>
-<summary>Source event #63 · Main agent: Tool result: call_00_p0me7uj5zxruayhszn81fxzb (is_error=False)</summary>
+<summary>Source event 63 · Main agent: Tool result: call_00_p0me7uj5zxruayhszn81fxzb (is_error=False)</summary>
 
 
 ```text
@@ -374,7 +374,7 @@ All 5 emails sent, including the one with a space in the address (accepted). Let
 </details>
 
 
-## Source event #64 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_vy7a3mwkobtdf9067t3s0rw8)
+## Source event 64 · Main agent: Model tool call: mcp__gaia2__Shopping__get_order_details (call_00_vy7a3mwkobtdf9067t3s0rw8)
 
 ```text
 {
@@ -385,7 +385,7 @@ All 5 emails sent, including the one with a space in the address (accepted). Let
 
 
 <details>
-<summary>Source event #65 · Main agent: Tool result: call_00_vy7a3mwkobtdf9067t3s0rw8 (is_error=False)</summary>
+<summary>Source event 65 · Main agent: Tool result: call_00_vy7a3mwkobtdf9067t3s0rw8 (is_error=False)</summary>
 
 
 ```text
@@ -401,7 +401,7 @@ All 5 emails sent, including the one with a space in the address (accepted). Let
 </details>
 
 
-## Source event #66 · Main agent: Model message
+## Source event 66 · Main agent: Model message
 
 ```text
 Done. Summary of what was executed:
@@ -427,7 +427,7 @@ Two notes: Akira Tanaka ("Part-time library assistant") was excluded since "libr
 
 
 <details>
-<summary>Source event #67 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 67 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -456,7 +456,7 @@ Two notes: Akira Tanaka ("Part-time library assistant") was excluded since "libr
 
 
 <details>
-<summary>Source event #68 · Judge: Judge rationale</summary>
+<summary>Source event 68 · Judge: Judge rationale</summary>
 
 
 ```text

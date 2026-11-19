@@ -1,6 +1,8 @@
 # scenario_universe_26_9724nb
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_26_9724nb/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_26_9724nb/README.md) · [Codex](../../codex/round3/scenario_universe_26_9724nb/README.md) · [OpenCode](../../opencode/round3/scenario_universe_26_9724nb/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial setup: search for Kåre Sørensen&#x27;s contact info, clean the calendar for the dinner timeslot (including the 30-minute buffer), add the dinner event, send a message to Kåre, and book the cab. Once these are done, the user needs to be notified as requested.
 
@@ -93,7 +95,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #25
+**Harness configuration updated** · Source event 25
 
 **1. Sub-agent revision request**
 
@@ -102,7 +104,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 All initially assigned steps completed: found Kåre Sørensen (Contacts contact_id e05455af123948518ad1ae2fba0afb86; Messages user ID '+4090123456'), current user Åse Kjellstad (home: Frognerveien 34, 0266 Oslo, Norway), verified 2024-10-18 19:30-22:30 had zero calendar events, added event 'Dinner with Kåre Sørensen' 2024-10-18 20:00-22:00 (event ID acea4a8d991e2e64e9a43daa76d19dd2), sent the dinner-confirmation message (message ID 192acd91b0f940bea9d197006d5dc4f5), booked Default cab at 19:30 (Ride ID c3de44121c4644ae524e7f6470b6f5f7), and notified the user. A new environment notification now reports a new inbound message in Kåre's conversation, but no read-message tool is available to me, so I cannot determine whether he accepted or declined.
 ```
 <details>
-<summary>Request and evidence · source event #23</summary>
+<summary>Request and evidence · source event 23</summary>
 
 
 ```text
@@ -151,7 +153,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 A new message from Kåre Sørensen has been received. I need to grant the SubAgent the tool to read this message and then follow the user&#x27;s contingency instructions: if Kåre cannot attend, the SubAgent must reschedule the dinner, rebook the cab, and ensure the 30-minute calendar buffer is maintained by deleting any conflicting events.
 

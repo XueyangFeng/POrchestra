@@ -1,6 +1,8 @@
 # scenario_universe_25_ymrhwk
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_25_ymrhwk/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_25_ymrhwk/README.md) · [Codex](../../codex/round3/scenario_universe_25_ymrhwk/README.md) · [OpenCode](../../opencode/round3/scenario_universe_25_ymrhwk/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The task requires a coordinated sequence of searching, contacting, waiting, checking for replies, and potentially modifying calendar events. A single SubAgent can manage this flow using the provided tools, ensuring the time-sensitive &#x27;3-minute&#x27; constraint is handled correctly.
 
@@ -111,7 +113,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #58
+**Harness configuration updated** · Source event 58
 
 **1. Sub-agent revision request**
 
@@ -120,7 +122,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 All calendar reschedules and attendee notifications are complete. Next 3 'Follow-up call' events identified: (1) Follow-up Call with Karel — Karel Vandenberghe, 2024-10-16 10:00-11:00, old event_id a4c127f4a42240c08ec4155b1bfcf344, rescheduled to 10:30-11:30 (new id acea4a8d991e2e64e9a43daa76d19dd2); on Chats user_id 0e7c0fe1-22b1-4dfa-966a-c24075de1428. (2) Follow-up Call with Aurélien — Aurélien Dumont, 2024-10-23 10:00-11:00, old event_id 8bb53dba3b6849268890472c4b591328, rescheduled to 10:30-11:30 (new id 8fce113de00ea4a218ab94f8a582ba16); NOT on Chats, emailed awrelien at aurelien.dumont@kuleuven.be, SMS user_id 1dce254f099648a590cd0cf923f8891f. (3) Follow-up Call with Émile — Émile Vandenberghe, 2024-10-29 10:00-11:00, old event_id 1b7292e8923247e988e2f4145035bc87, rescheduled to 10:30-11:30 (new id 576be8c662bc8988993f0b72e114568a); on Chats user_id 9175e705-7825-43f2-9989-4737e3d86276. Waited exactly 3 minutes (07:00:22 → 07:03:22); no replies from any attendee in Chats or Email. In-app time-change notices sent to all three (Chats for Karel and Émile; Messages/SMS for Aurélien).
 ```
 <details>
-<summary>Request and evidence · source event #56</summary>
+<summary>Request and evidence · source event 56</summary>
 
 
 ```text
@@ -168,7 +170,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent has successfully identified the next three &#x27;Follow-up call&#x27; events, sent outreach messages, waited the required 3 minutes, verified that no replies were received, rescheduled the events 30 minutes later, and notified the attendees of the changes. The only remaining requirement from the original task is to report to the user whether the attendees responded or not. Per the protocol rules, when a task requires a report to the user, the AgentUserInterface__send_message_to_user tool must be assigned to the SubAgent with explicit instructions to perform the reporting.
 

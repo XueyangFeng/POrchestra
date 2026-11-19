@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #220 · Sub-agent 5: user / environment input</summary>
+<summary>Source event 220 · Sub-agent 5: user / environment input</summary>
 
 
 ```text
@@ -24,7 +24,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #221 · Sub-agent 5: model output
+## Source event 221 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -39,7 +39,7 @@ Action:
 
 
 <details>
-<summary>Source event #222 · Sub-agent 5: tool result</summary>
+<summary>Source event 222 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 </details>
 
 
-## Source event #223 · Sub-agent 5: model output
+## Source event 223 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -68,7 +68,7 @@ Action:
 
 
 <details>
-<summary>Source event #224 · Sub-agent 5: tool result</summary>
+<summary>Source event 224 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -82,7 +82,7 @@ Action:
 </details>
 
 
-## Source event #225 · Sub-agent 5: model output
+## Source event 225 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -97,7 +97,7 @@ Action:
 
 
 <details>
-<summary>Source event #226 · Sub-agent 5: tool result</summary>
+<summary>Source event 226 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -111,7 +111,7 @@ Action:
 </details>
 
 
-## Source event #227 · Sub-agent 5: model output
+## Source event 227 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -126,7 +126,7 @@ Action:
 
 
 <details>
-<summary>Source event #228 · Sub-agent 5: tool result</summary>
+<summary>Source event 228 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -140,7 +140,7 @@ Action:
 </details>
 
 
-## Source event #229 · Sub-agent 5: model output
+## Source event 229 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -155,7 +155,7 @@ Action:
 
 
 <details>
-<summary>Source event #230 · Sub-agent 5: tool result</summary>
+<summary>Source event 230 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -169,7 +169,7 @@ Action:
 </details>
 
 
-## Source event #231 · Sub-agent 5: model output
+## Source event 231 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -184,7 +184,7 @@ Action:
 
 
 <details>
-<summary>Source event #232 · Sub-agent 5: tool result</summary>
+<summary>Source event 232 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -198,7 +198,7 @@ Action:
 </details>
 
 
-## Source event #233 · Sub-agent 5: model output
+## Source event 233 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -213,7 +213,7 @@ Action:
 
 
 <details>
-<summary>Source event #234 · Sub-agent 5: tool result</summary>
+<summary>Source event 234 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -227,7 +227,7 @@ Action:
 </details>
 
 
-## Source event #235 · Sub-agent 5: model output
+## Source event 235 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -242,7 +242,7 @@ Action:
 
 
 <details>
-<summary>Source event #236 · Sub-agent 5: tool result</summary>
+<summary>Source event 236 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -256,7 +256,7 @@ Action:
 </details>
 
 
-## Source event #237 · Sub-agent 5: model output
+## Source event 237 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -271,7 +271,7 @@ Action:
 
 
 <details>
-<summary>Source event #238 · Sub-agent 5: tool result</summary>
+<summary>Source event 238 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -285,7 +285,7 @@ Action:
 </details>
 
 
-## Source event #239 · Sub-agent 5: model output
+## Source event 239 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -300,7 +300,7 @@ Action:
 
 
 <details>
-<summary>Source event #240 · Sub-agent 5: tool result</summary>
+<summary>Source event 240 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -314,7 +314,7 @@ Action:
 </details>
 
 
-## Source event #241 · Sub-agent 5: model output
+## Source event 241 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -329,7 +329,7 @@ Action:
 
 
 <details>
-<summary>Source event #242 · Sub-agent 5: tool result</summary>
+<summary>Source event 242 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -343,7 +343,7 @@ Action:
 </details>
 
 
-## Source event #243 · Sub-agent 5: model output
+## Source event 243 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -358,7 +358,7 @@ Action:
 
 
 <details>
-<summary>Source event #244 · Sub-agent 5: tool result</summary>
+<summary>Source event 244 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -372,7 +372,7 @@ Action:
 </details>
 
 
-## Source event #245 · Sub-agent 5: model output
+## Source event 245 · Sub-agent 5: model output
 
 ```text
 Action:
@@ -387,7 +387,7 @@ Action:
 
 
 <details>
-<summary>Source event #246 · Sub-agent 5: tool result</summary>
+<summary>Source event 246 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -401,7 +401,7 @@ Action:
 </details>
 
 
-## Source event #247 · Sub-agent 5: model output
+## Source event 247 · Sub-agent 5: model output
 
 ```text
 I have retrieved all 125 contacts. Only one contact has the zip code '411 19' in their address:
@@ -424,7 +424,7 @@ Action:
 
 
 <details>
-<summary>Source event #248 · Sub-agent 5: tool result</summary>
+<summary>Source event 248 · Sub-agent 5: tool result</summary>
 
 
 ```text
@@ -449,7 +449,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #249 · Sub-agent 5: model output
+## Source event 249 · Sub-agent 5: model output
 
 ```text
 Action:

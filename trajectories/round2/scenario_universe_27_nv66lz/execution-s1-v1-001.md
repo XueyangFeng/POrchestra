@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #7 · Sub-agent 1: user / environment input</summary>
+<summary>Source event 7 · Sub-agent 1: user / environment input</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ Identify the subject the user teaches. Check the current user's contact details 
 
 
 <details>
-<summary>Source event #8 · Sub-agent 1: tool result</summary>
+<summary>Source event 8 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -39,7 +39,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #9 · Sub-agent 1: tool result</summary>
+<summary>Source event 9 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -60,7 +60,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #10 · Sub-agent 1: tool result</summary>
+<summary>Source event 10 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -81,7 +81,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 <details>
-<summary>Source event #11 · Sub-agent 1: tool result</summary>
+<summary>Source event 11 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -101,7 +101,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #12 · Sub-agent 1: model output
+## Source event 12 · Sub-agent 1: model output
 
 ```text
 I'll start by checking the current user's contact details.
@@ -116,7 +116,7 @@ Action:
 
 
 <details>
-<summary>Source event #13 · Sub-agent 1: tool result</summary>
+<summary>Source event 13 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -144,7 +144,7 @@ Address: Ulitsa Bolshaya Dmitrovka, 15/1, Moscow, 127006
 </details>
 
 
-## Source event #14 · Sub-agent 1: model output
+## Source event 14 · Sub-agent 1: model output
 
 ```text
 I found the user's details: Anastasiya Kuznetsova, Job: **History Teacher**. The subject appears to be "History". Let me confirm with a quick search in messages/emails.
@@ -161,7 +161,7 @@ Action:
 
 
 <details>
-<summary>Source event #15 · Sub-agent 1: tool result</summary>
+<summary>Source event 15 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -175,7 +175,7 @@ Action:
 </details>
 
 
-## Source event #16 · Sub-agent 1: model output
+## Source event 16 · Sub-agent 1: model output
 
 ```text
 Contact details show Job: "History Teacher". Let me verify with an email search.
@@ -193,7 +193,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result</summary>
+<summary>Source event 17 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -207,7 +207,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result (continued, part 2)</summary>
+<summary>Source event 17 · Sub-agent 1: tool result (continued, part 2)</summary>
 
 
 ```text
@@ -219,7 +219,7 @@ Action:
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 17 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -231,7 +231,7 @@ ga@gaia2mail.com', recipients=['akuznetsova@gaia2mail.com'], subject='Sharing St
 
 
 <details>
-<summary>Source event #17 · Sub-agent 1: tool result (continued, part 4)</summary>
+<summary>Source event 17 · Sub-agent 1: tool result (continued, part 4)</summary>
 
 
 ```text
@@ -243,7 +243,7 @@ als that highlight the historical significance of environmental conservation. I 
 </details>
 
 
-## Source event #18 · Sub-agent 1: model output
+## Source event 18 · Sub-agent 1: model output
 
 ```text
 The current user's contact details directly answer this: Job is "History Teacher", and the Description confirms she is a history teacher. The search results corroborate — nearly every message/email refers to her as a "history teacher" teaching "history".
@@ -296,7 +296,7 @@ Action:
 
 
 <details>
-<summary>Source event #19 · Sub-agent 1: tool result</summary>
+<summary>Source event 19 · Sub-agent 1: tool result</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_23_9xsavm
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_23_9xsavm/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_23_9xsavm/README.md) · [Codex](../../codex/round2/scenario_universe_23_9xsavm/README.md) · [OpenCode](../../opencode/round2/scenario_universe_23_9xsavm/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to schedule the initial event and contact the friends as requested. I will also check for their availability to handle the conditional rescheduling requirement.
 
@@ -99,7 +101,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #59
+**Harness configuration updated** · Source event 59
 
 **1. Sub-agent revision request**
 
@@ -108,7 +110,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Game Night scheduled Oct 18 19:00-23:00 (event_id dcf191829913b81220f38262b28ec53c). Invites sent to all three friends and user informed. New replies now show none of the three can attend Friday Oct 18; common available day is Saturday Oct 19, 2024. On Sat Oct 19 the user has a conflicting event 'Hiking Trip' 18:00-20:00 (overlaps 19:00-20:00). No calendar delete/cancel tool is available to me, so cancel/reschedule cannot be executed from this subtask.
 ```
 <details>
-<summary>Request and evidence · source event #57</summary>
+<summary>Request and evidence · source event 57</summary>
 
 
 ```text
@@ -159,7 +161,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent correctly identified that Friday Oct 18 is not suitable for any of the friends and found that Saturday Oct 19 is the earliest alternative. I am now providing the necessary calendar deletion tool and instructions to proceed with the user&#x27;s contingency plan: canceling the original event and any Saturday conflicts, rescheduling for Saturday, and sending follow-up confirmations.
 
@@ -267,7 +269,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

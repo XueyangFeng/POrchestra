@@ -4,7 +4,7 @@
 
 Messages and tool calls are shown directly. Expand observations to read tool returns.
 
-## Source event #52 · Main agent: Model message
+## Source event 52 · Main agent: Model message
 
 ```text
 Now notify user that message has been sent. The user said "Let me know once the message has been sent and exactly 3 minutes after that check..." So send message to user now, then wait 3 minutes (simulated). But AgentUserInterface send_message ends the turn — hmm, "sends a real user reply and ends the current ARE turn." If it ends the turn, will I continue? In GAIA2, sending a message to user ends turn but then I can get another turn? The instructions say it ends the current turn. Hmm, but our task includes continuing after. Perhaps the harness re-invokes us. Risky.
@@ -98,7 +98,7 @@ Let me read conversation.
 
 
 
-## Source event #53 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_wwic0x1rac0d7gbr2u2ytwmg)
+## Source event 53 · Main agent: Model tool call: mcp__gaia2__Messages__read_conversation (call_00_wwic0x1rac0d7gbr2u2ytwmg)
 
 ```text
 {
@@ -110,7 +110,7 @@ Let me read conversation.
 
 
 <details>
-<summary>Source event #54 · Main agent: Tool result: call_00_wwic0x1rac0d7gbr2u2ytwmg (is_error=False)</summary>
+<summary>Source event 54 · Main agent: Tool result: call_00_wwic0x1rac0d7gbr2u2ytwmg (is_error=False)</summary>
 
 
 ```text
@@ -126,7 +126,7 @@ Let me read conversation.
 </details>
 
 
-## Source event #55 · Main agent: Model message
+## Source event 55 · Main agent: Model message
 
 ```text
 No participants list in read. Need another way to get participants. list_conversations_by_participant takes user_id maybe. Or list_recent_conversations returns ConversationV2 with participants. Let me load those schemas later.
@@ -140,7 +140,7 @@ Let me send user message now.
 
 
 
-## Source event #56 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_7mjkgo67iobnlbjsx1scjgi1)
+## Source event 56 · Main agent: Model tool call: mcp__gaia2__AgentUserInterface__send_message_to_user (call_00_7mjkgo67iobnlbjsx1scjgi1)
 
 ```text
 {
@@ -151,7 +151,7 @@ Let me send user message now.
 
 
 <details>
-<summary>Source event #57 · Main agent: Tool result: call_00_7mjkgo67iobnlbjsx1scjgi1 (is_error=False)</summary>
+<summary>Source event 57 · Main agent: Tool result: call_00_7mjkgo67iobnlbjsx1scjgi1 (is_error=False)</summary>
 
 
 ```text
@@ -167,7 +167,7 @@ Let me send user message now.
 </details>
 
 
-## Source event #58 · Main agent: Model message
+## Source event 58 · Main agent: Model message
 
 ```text
 It returned None, and I'm still in the same turn. Great. Now wait 180 seconds. Let's call wait_for_notification(timeout=180). It may return early if notification arrives. Then check.
@@ -179,7 +179,7 @@ Let me call wait.
 
 
 
-## Source event #59 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_dt5mvydyaxlpfr39vx2cr50i)
+## Source event 59 · Main agent: Model tool call: mcp__gaia2__SystemApp__wait_for_notification (call_00_dt5mvydyaxlpfr39vx2cr50i)
 
 ```text
 {
@@ -190,7 +190,7 @@ Let me call wait.
 
 
 <details>
-<summary>Source event #60 · Main agent: Tool result: call_00_dt5mvydyaxlpfr39vx2cr50i (is_error=True)</summary>
+<summary>Source event 60 · Main agent: Tool result: call_00_dt5mvydyaxlpfr39vx2cr50i (is_error=True)</summary>
 
 
 ```text
@@ -201,7 +201,7 @@ The ARE user turn has ended. Return your final response; further app actions are
 </details>
 
 
-## Source event #61 · Main agent: Model message
+## Source event 61 · Main agent: Model message
 
 ```text
 The turn ended. Hmm. The send_message_to_user did end the turn, and now wait is unavailable. "Return your final response; further app actions are unavailable in this turn."
@@ -217,7 +217,7 @@ Let me just end.
 
 
 
-## Source event #62 · Main agent: Model message
+## Source event 62 · Main agent: Model message
 
 ```text
 Message sent to the 'Friends Forever' group. I'll check back in exactly 3 minutes for new participants and welcome each of them.
@@ -226,7 +226,7 @@ Message sent to the 'Friends Forever' group. I'll check back in exactly 3 minute
 
 
 <details>
-<summary>Source event #63 · Main agent: Final response / turn result (is_error=False)</summary>
+<summary>Source event 63 · Main agent: Final response / turn result (is_error=False)</summary>
 
 
 ```text
@@ -238,7 +238,7 @@ Message sent to the 'Friends Forever' group. I'll check back in exactly 3 minute
 
 
 <details>
-<summary>Source event #64 · Judge: Judge rationale</summary>
+<summary>Source event 64 · Judge: Judge rationale</summary>
 
 
 ```text

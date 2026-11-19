@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #30 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 30 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ Perform the following shopping task: 1) Search for 'Airfield Concrete Tarmac Sec
 </details>
 
 
-## Source event #31 · Sub-agent 3: model output
+## Source event 31 · Sub-agent 3: model output
 
 ```text
 I'll start by searching for the product.
@@ -35,7 +35,7 @@ Action:
 
 
 <details>
-<summary>Source event #32 · Sub-agent 3: tool result</summary>
+<summary>Source event 32 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -49,7 +49,7 @@ Action:
 </details>
 
 
-## Source event #33 · Sub-agent 3: model output
+## Source event 33 · Sub-agent 3: model output
 
 ```text
 The search returned one product with 5 variants. Analyzing for Material='Resin' AND Color='Grey':
@@ -72,7 +72,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 3: tool result</summary>
+<summary>Source event 34 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Product(name='Airfield Concrete Tarmac Section 1/48', product_id='c5b4aa349f8d03
 </details>
 
 
-## Source event #35 · Sub-agent 3: model output
+## Source event 35 · Sub-agent 3: model output
 
 ```text
 Confirmed. Cheapest available Resin+Grey variant is `22a2e159083b41c18bbb2ea3b0d38513` at $24.99 (single piece). Adding 2 units to cart.
@@ -104,7 +104,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 3: tool result</summary>
+<summary>Source event 36 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -119,7 +119,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 3: tool result</summary>
+<summary>Source event 37 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -137,7 +137,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #38 · Sub-agent 3: model output
+## Source event 38 · Sub-agent 3: model output
 
 ```text
 Add-to-cart succeeded (item id 22a2e159083b41c18bbb2ea3b0d38513). Now let's verify the cart and check discount codes.
@@ -152,7 +152,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 3: tool result</summary>
+<summary>Source event 39 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -166,7 +166,7 @@ Action:
 </details>
 
 
-## Source event #40 · Sub-agent 3: model output
+## Source event 40 · Sub-agent 3: model output
 
 ```text
 Cart confirmed with 2 units at $24.99 each. Now checking discount codes.
@@ -181,7 +181,7 @@ Action:
 
 
 <details>
-<summary>Source event #41 · Sub-agent 3: tool result</summary>
+<summary>Source event 41 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -195,7 +195,7 @@ Action:
 </details>
 
 
-## Source event #42 · Sub-agent 3: model output
+## Source event 42 · Sub-agent 3: model output
 
 ```text
 No discount code lists include our item id `22a2e159083b41c18bbb2ea3b0d38513`, so no code applies to this cart. Proceeding to checkout without a code (applying an invalid code would fail the entire checkout).
@@ -210,7 +210,7 @@ Action:
 
 
 <details>
-<summary>Source event #43 · Sub-agent 3: tool result</summary>
+<summary>Source event 43 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -224,7 +224,7 @@ a1cb3bcff85948cca4e3f52d1280c576
 </details>
 
 
-## Source event #44 · Sub-agent 3: model output
+## Source event 44 · Sub-agent 3: model output
 
 ```text
 Checkout completed successfully. The cart had 2 units of the cheapest available Resin/Grey variant, and no available discount code applied to that item (so checkout proceeded without a code, since applying an invalid code would fail the whole order).
@@ -269,7 +269,7 @@ Action:
 
 
 <details>
-<summary>Source event #45 · Sub-agent 3: tool result</summary>
+<summary>Source event 45 · Sub-agent 3: tool result</summary>
 
 
 ```text

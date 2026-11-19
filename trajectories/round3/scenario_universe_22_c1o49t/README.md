@@ -1,6 +1,8 @@
 # scenario_universe_22_c1o49t
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_22_c1o49t/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_22_c1o49t/README.md) · [Codex](../../codex/round3/scenario_universe_22_c1o49t/README.md) · [OpenCode](../../opencode/round3/scenario_universe_22_c1o49t/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first phase is to identify the specific event, reschedule it, and notify the attendees as requested by the user.
 
@@ -97,7 +99,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #29
+**Harness configuration updated** · Source event 29
 
 **1. Sub-agent revision request**
 
@@ -106,7 +108,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed initial rescheduling: deleted Friday 'Wine Tasting' event (latest, 19:00-21:00) and created Saturday 2024-10-19 19:00-21:00 event with same details/attendees; emailed Luís Marques and Jamila Fernandes with subject 'Rescheduling'; sent user confirmation. New notifications indicate 3 new emails received, including one from luis.silva.chess@gaia2mail.com.
 ```
 <details>
-<summary>Request and evidence · source event #27</summary>
+<summary>Request and evidence · source event 27</summary>
 
 
 ```text
@@ -160,7 +162,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 New emails have arrived which may contain attendee responses to the rescheduling. The SubAgent needs email reading tools to check if any attendee is unable to attend the Saturday slot and, if so, execute the conditional rescheduling logic as per the original task.
 

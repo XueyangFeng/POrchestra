@@ -1,6 +1,8 @@
 # scenario_universe_22_5ao19r
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_22_5ao19r/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_22_5ao19r/README.md) · [Codex](../../codex/round3/scenario_universe_22_5ao19r/README.md) · [OpenCode](../../opencode/round3/scenario_universe_22_5ao19r/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #2
+**Initial harness configuration** · Source event 2
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to monitor the user&#x27;s inbox for a specific email and then perform a series of dependent actions (calendar management and ride booking) based on the email&#x27;s content. A single SubAgent can handle this flow linearly.
 

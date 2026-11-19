@@ -1,6 +1,8 @@
 # Claude Code · scenario_universe_27_ikcimu
 
-[Round index](../README.md) · [Claude Code rounds](../../README.md) · [PORCHESTRA task](../../../round2/scenario_universe_27_ikcimu/README.md)
+[Round index](../README.md) · [Claude Code rounds](../../README.md)
+
+**Compare systems:** [PORCHESTRA](../../../round2/scenario_universe_27_ikcimu/README.md) · Claude Code · [Codex](../../../codex/round2/scenario_universe_27_ikcimu/README.md) · [OpenCode](../../../opencode/round2/scenario_universe_27_ikcimu/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Duration:** 252.8 seconds
 

@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #33 · Sub-agent 2: tool result (continued, part 6)</summary>
+<summary>Source event 33 · Sub-agent 2: tool result (continued, part 6)</summary>
 
 
 ```text
@@ -17,7 +17,7 @@ ubject="Exploring the Untold Stories of Brussels' Past", content="Dear Ursula,\n
 </details>
 
 
-## Source event #34 · Sub-agent 2: model output
+## Source event 34 · Sub-agent 2: model output
 
 ```text
 I've seen 100 of 101 inbox emails. Let me check the last one.
@@ -32,7 +32,7 @@ Action:
 
 
 <details>
-<summary>Source event #35 · Sub-agent 2: tool result</summary>
+<summary>Source event 35 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -46,7 +46,7 @@ ReturnedEmails(emails=[Email(sender='alethea.fothergill@gaia2mail.com', recipien
 </details>
 
 
-## Source event #36 · Sub-agent 2: model output
+## Source event 36 · Sub-agent 2: model output
 
 ```text
 Each sender had exactly one email. Let me verify there are no additional emails under variant spellings, and confirm the October date window.
@@ -61,7 +61,7 @@ Action:
 
 
 <details>
-<summary>Source event #37 · Sub-agent 2: tool result</summary>
+<summary>Source event 37 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -75,7 +75,7 @@ Action:
 </details>
 
 
-## Source event #38 · Sub-agent 2: model output
+## Source event 38 · Sub-agent 2: model output
 
 ```text
 Verified all 101 inbox emails. Converting exact timestamps (UTC):
@@ -96,7 +96,7 @@ Action:
 
 
 <details>
-<summary>Source event #39 · Sub-agent 2: tool result</summary>
+<summary>Source event 39 · Sub-agent 2: tool result</summary>
 
 
 ```text

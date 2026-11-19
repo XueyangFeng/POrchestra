@@ -1,6 +1,8 @@
 # Claude Code · scenario_universe_23_8pzn4g
 
-[Round index](../README.md) · [Claude Code rounds](../../README.md) · [PORCHESTRA task](../../../round2/scenario_universe_23_8pzn4g/README.md)
+[Round index](../README.md) · [Claude Code rounds](../../README.md)
+
+**Compare systems:** [PORCHESTRA](../../../round2/scenario_universe_23_8pzn4g/README.md) · Claude Code · [Codex](../../../codex/round2/scenario_universe_23_8pzn4g/README.md) · [OpenCode](../../../opencode/round2/scenario_universe_23_8pzn4g/README.md)
 
 **Domain:** Search · **Result:** Correct · **Duration:** 4.6 seconds
 

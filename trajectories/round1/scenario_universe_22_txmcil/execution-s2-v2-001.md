@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #32 · Sub-agent 2: user / environment input</summary>
+<summary>Source event 32 · Sub-agent 2: user / environment input</summary>
 
 
 ```text
@@ -24,7 +24,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #33 · Sub-agent 2: model output
+## Source event 33 · Sub-agent 2: model output
 
 ```text
 I'll list the emails in the inbox to find the replies from Kaitlyn and Jamila.
@@ -43,7 +43,7 @@ Action:
 
 
 <details>
-<summary>Source event #34 · Sub-agent 2: tool result</summary>
+<summary>Source event 34 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -57,7 +57,7 @@ ReturnedEmails(emails=[Email(sender='jpatel@nycboutique.com', recipients=['aurel
 </details>
 
 
-## Source event #35 · Sub-agent 2: model output
+## Source event 35 · Sub-agent 2: model output
 
 ```text
 I'll read the replies and take follow-up actions. First, let me check the current date and time to anchor the "soonest" calculations.
@@ -72,7 +72,7 @@ Action:
 
 
 <details>
-<summary>Source event #36 · Sub-agent 2: tool result</summary>
+<summary>Source event 36 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -86,7 +86,7 @@ Action:
 </details>
 
 
-## Source event #37 · Sub-agent 2: model output
+## Source event 37 · Sub-agent 2: model output
 
 ```text
 Both are unavailable on the original dates. Common availability: Kaitlyn (Nov 9-10, 16-17) and Jamila (Nov 16-17, 23-24) → new date = November 16-17. Jamila also requested removal of Soho Oasis. Let me first remove that property.
@@ -103,7 +103,7 @@ Action:
 
 
 <details>
-<summary>Source event #38 · Sub-agent 2: tool result</summary>
+<summary>Source event 38 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -117,7 +117,7 @@ Successfully removed apartment from favorites
 </details>
 
 
-## Source event #39 · Sub-agent 2: model output
+## Source event 39 · Sub-agent 2: model output
 
 ```text
 Soho Oasis removed. Now I'll reply to Kaitlyn and Jamila with the new dates. First, Kaitlyn.
@@ -136,7 +136,7 @@ Action:
 
 
 <details>
-<summary>Source event #40 · Sub-agent 2: tool result</summary>
+<summary>Source event 40 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -150,7 +150,7 @@ Action:
 </details>
 
 
-## Source event #41 · Sub-agent 2: model output
+## Source event 41 · Sub-agent 2: model output
 
 ```text
 Now I'll reply to Jamila with the new dates.
@@ -169,7 +169,7 @@ Action:
 
 
 <details>
-<summary>Source event #42 · Sub-agent 2: tool result</summary>
+<summary>Source event 42 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -183,7 +183,7 @@ da5d5697217549f5df5fe0363e7b36ce
 </details>
 
 
-## Source event #43 · Sub-agent 2: model output
+## Source event 43 · Sub-agent 2: model output
 
 ```text
 Now I need to delete all calendar events for the rescheduled dates, November 16-17, 2024. Let me query the calendar for that weekend.
@@ -203,7 +203,7 @@ Action:
 
 
 <details>
-<summary>Source event #44 · Sub-agent 2: tool result</summary>
+<summary>Source event 44 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -217,7 +217,7 @@ Action:
 </details>
 
 
-## Source event #45 · Sub-agent 2: model output
+## Source event 45 · Sub-agent 2: model output
 
 ```text
 I'll delete both calendar events on November 16-17.
@@ -234,7 +234,7 @@ Action:
 
 
 <details>
-<summary>Source event #46 · Sub-agent 2: tool result</summary>
+<summary>Source event 46 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -248,7 +248,7 @@ Event a51b54fa25f74951b8ac840921cdc5ec successfully deleted.
 </details>
 
 
-## Source event #47 · Sub-agent 2: model output
+## Source event 47 · Sub-agent 2: model output
 
 ```text
 Now I'll delete the second event.
@@ -265,7 +265,7 @@ Action:
 
 
 <details>
-<summary>Source event #48 · Sub-agent 2: tool result</summary>
+<summary>Source event 48 · Sub-agent 2: tool result</summary>
 
 
 ```text
@@ -279,7 +279,7 @@ Event 652ad018ec0b48f592d5bdb48e40fd5f successfully deleted.
 </details>
 
 
-## Source event #49 · Sub-agent 2: model output
+## Source event 49 · Sub-agent 2: model output
 
 ```text
 Both calendar events were deleted. Now I'll notify the user of the reschedule, the replies sent, and the property removal.
@@ -296,7 +296,7 @@ Action:
 
 
 <details>
-<summary>Source event #50 · Sub-agent 2: tool result</summary>
+<summary>Source event 50 · Sub-agent 2: tool result</summary>
 
 
 ```text

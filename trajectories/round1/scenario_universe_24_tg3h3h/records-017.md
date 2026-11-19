@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #522 · Sub-agent 8: tool result</summary>
+<summary>Source event 522 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -20,7 +20,7 @@ ReturnedEmails(emails=[Email(sender='kwojciechowski@gaia2mail.com', recipients=[
 
 
 <details>
-<summary>Source event #523 · Sub-agent 8: model output</summary>
+<summary>Source event 523 · Sub-agent 8: model output</summary>
 
 
 ```text
@@ -42,7 +42,7 @@ Action:
 
 
 <details>
-<summary>Source event #524 · Sub-agent 8: tool result</summary>
+<summary>Source event 524 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -57,7 +57,7 @@ ReturnedEmails(emails=[Email(sender='alethea.fothergill@gaia2mail.com', recipien
 
 
 <details>
-<summary>Source event #525 · Sub-agent 8: model output</summary>
+<summary>Source event 525 · Sub-agent 8: model output</summary>
 
 
 ```text
@@ -78,7 +78,7 @@ Action:
 
 
 <details>
-<summary>Source event #526 · Sub-agent 8: tool result</summary>
+<summary>Source event 526 · Sub-agent 8: tool result</summary>
 
 
 ```text
@@ -93,7 +93,7 @@ Action:
 
 
 <details>
-<summary>Source event #527 · Sub-agent 8: model output</summary>
+<summary>Source event 527 · Sub-agent 8: model output</summary>
 
 
 ```text
@@ -150,7 +150,7 @@ Action:
 
 
 <details>
-<summary>Source event #528 · Judge rationale</summary>
+<summary>Source event 528 · Judge rationale</summary>
 
 
 ```text

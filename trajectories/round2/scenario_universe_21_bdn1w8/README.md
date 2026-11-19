@@ -1,6 +1,8 @@
 # scenario_universe_21_bdn1w8
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_21_bdn1w8/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_21_bdn1w8/README.md) · [Codex](../../codex/round2/scenario_universe_21_bdn1w8/README.md) · [OpenCode](../../opencode/round2/scenario_universe_21_bdn1w8/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to perform the initial actions: purchasing the specific items and sending the sponsorship inquiry email to Amscan. These are the prerequisites for the subsequent timed tasks.
 
@@ -91,11 +93,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #26
+**Initial harness configuration** · Source event 26
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The purchase and initial sponsorship email were completed at 07:00:12. The user requires a notification exactly 1 minute after these tasks. I will delegate a SubAgent to wait until 07:01:12 and then send the required confirmation message to the user. This message also establishes the start of the 4-minute window for monitoring Amscan&#x27;s reply.
 

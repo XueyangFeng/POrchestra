@@ -1,6 +1,8 @@
 # scenario_universe_29_0q1dww
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_29_0q1dww/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_29_0q1dww/README.md) · [Codex](../../codex/round2/scenario_universe_29_0q1dww/README.md) · [OpenCode](../../opencode/round2/scenario_universe_29_0q1dww/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 2
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to identify the target product, determine the sequence of discount codes, prepare the shopping cart, and identify the user&#x27;s sisters before proceeding with the purchase and communication logic.
 
@@ -97,11 +99,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #33
+**Initial harness configuration** · Source event 33
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous agent identified the product, ranked the discount codes, added the best variant to the cart, and identified the sisters. Now we need to execute the ordering logic, including handling potential cancellations, retries with fallback codes, and sending required messages to the user and the sisters&#x27; group chat.
 
@@ -176,7 +178,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S2 configuration v2
 
-**Harness configuration updated** · Source event #53
+**Harness configuration updated** · Source event 53
 
 **1. Sub-agent revision request**
 
@@ -185,7 +187,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 First order 6c5521ef43e54c8591e0228e319d4d56 (3x variant 85b94f26d29b46e9aea3899c9f839695, code KK5MNXMN8Q, 67%, total $39.59) was placed, verified 'processed', user already messaged. New environment notification now reports this order was CANCELLED. Awaiting go-ahead for fallback step 3 (code AAJUZ938RK).
 ```
 <details>
-<summary>Request and evidence · source event #51</summary>
+<summary>Request and evidence · source event 51</summary>
 
 
 ```text
@@ -242,7 +244,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #3
+`revise_task` · Source event 3
 
 The environment notification confirmed that the first order (6c5521ef43e54c8591e0228e319d4d56) was cancelled. I am authorizing the SubAgent to proceed with the pre-defined fallback logic: trying the second discount code, setting up the sisters&#x27; group chat, and communicating the status to the user and the sisters as required by the original task.
 
@@ -356,7 +358,7 @@ Full system configuration: [Part 1](config-s2-v2-01.md)
 
 ### S2 configuration v3
 
-**Harness configuration updated** · Source event #81
+**Harness configuration updated** · Source event 81
 
 **1. Sub-agent revision request**
 
@@ -365,7 +367,7 @@ Full system configuration: [Part 1](config-s2-v2-01.md)
 Second order 03206aeb86d142179c50e9ec5e8191ec (3x variant 85b94f26d29b46e9aea3899c9f839695, code AAJUZ938RK, 49% off, order_total=61.1847) was placed and verified 'processed'. Sisters' group conversation d96ffd24fe99eb60e265f1312f4c0bc6 created with Rohini Naidu (+918023456783) and Rohini Kumar (+61412045678) and message 'I may not be able to get what our nephews wanted.' sent. User already messaged with 49% and $61.18. NEW notification: order 03206aeb86d142179c50e9ec5e8191ec has now been CANCELLED. Awaiting go-ahead/budget to execute the final fallback (cart was emptied by the prior cancellation; add 3x variant 8c1fafc088354608be9357fc01f74a71, checkout with 6YCFMQRCGE at 6%, report to user, send 'Last try, fingers crossed' to group d96ffd24fe99eb60e265f1312f4c0bc6).
 ```
 <details>
-<summary>Request and evidence · source event #79</summary>
+<summary>Request and evidence · source event 79</summary>
 
 
 ```text
@@ -426,7 +428,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #4
+`revise_task` · Source event 4
 
 Both the first and second orders have been cancelled as reported by the environment notifications. The SubAgent has already established the sisters&#x27; group chat and sent the first warning message. I am now authorizing the final fallback step using the last available discount code &#x27;6YCFMQRCGE&#x27; (6% off) for the alternative variant &#x27;8c1fafc088354608be9357fc01f74a71&#x27;.
 

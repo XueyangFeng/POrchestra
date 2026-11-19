@@ -1,6 +1,8 @@
 # scenario_universe_30_vd0bz3
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_30_vd0bz3/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_30_vd0bz3/README.md) · [Codex](../../codex/round1/scenario_universe_30_vd0bz3/README.md) · [OpenCode](../../opencode/round1/scenario_universe_30_vd0bz3/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 4
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #7
+**Initial harness configuration** · Source event 7
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 We need to cancel the dinner event on Saturday, October 19, 2024, from 7PM to 9PM with Evangelia and Kaidën, retrieve their contact details, send them individual emails with the cancellation and brunch invitation, and then notify the user.
 
@@ -91,7 +93,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #27
+**Harness configuration updated** · Source event 27
 
 **1. Sub-agent revision request**
 
@@ -100,7 +102,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Assigned subtask completed: dinner event a3ada45a20174136b7dfe6a7a915cbad cancelled; emails sent to evangelia.papadopoulos@student.tum.de (email id e99491546510d319bc33d842063d8b97) and kaidennakamura@gaia2mail.com (email id 70461aff8226ab3bf0c830169d3ec3f6); user notified via AgentUserInterface__send_message_to_user. New environment notification received: EmailClientV2 new email from kaidenjanssen@gaia2mail.com.
 ```
 <details>
-<summary>Request and evidence · source event #25</summary>
+<summary>Request and evidence · source event 25</summary>
 
 
 ```text
@@ -148,7 +150,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 SubAgent 1 has completed the first phase (cancellation and invitation) and notified the user. Now I need it to handle the follow-up logic: waiting 4 minutes, checking replies (including the new email from kaidenjanssen@gaia2mail.com), and either scheduling brunch or sending a joint dinner invitation. I am adding the necessary tools for reading emails, waiting, and adding calendar events.
 
@@ -257,7 +259,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 
 ### S1 configuration v3
 
-**Harness configuration updated** · Source event #34
+**Harness configuration updated** · Source event 34
 
 **1. Sub-agent revision request**
 
@@ -266,7 +268,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 Dinner event cancelled, individual brunch emails sent, user notified. Previously reported new email from kaidenjanssen@gaia2mail.com. A further environment notification has now arrived from kaiden.mctavish@3AW.com.au at 2024-10-15 07:00:46. Current time is 2024-10-15 07:01:01. Approximate 4-minute mark since user notification is 2024-10-15 07:04:00.
 ```
 <details>
-<summary>Request and evidence · source event #32</summary>
+<summary>Request and evidence · source event 32</summary>
 
 
 ```text
@@ -312,7 +314,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #3
+`revise_task` · Source event 3
 
 The SubAgent has reported the latest incoming emails from two different &#x27;Kaidën&#x27; addresses. I am updating the task to ensure the SubAgent waits until the 4-minute mark (07:04:00) and then evaluates the replies from Evangelia and the relevant Kaidën to decide whether to schedule the brunch or send the joint dinner invitation.
 
@@ -442,7 +444,7 @@ Full system configuration: [Part 1](config-s1-v3-01.md)
 
 ### S1 configuration v4
 
-**Harness configuration updated** · Source event #39
+**Harness configuration updated** · Source event 39
 
 **1. Sub-agent revision request**
 
@@ -451,7 +453,7 @@ Full system configuration: [Part 1](config-s1-v3-01.md)
 Current task: wait until 07:04:00, then evaluate email replies and either schedule brunch or send joint dinner invitation. New environment notification received: EmailClientV2: New email received from kaidennakamura@gaia2mail.com at 2024-10-15 07:01:06.
 ```
 <details>
-<summary>Request and evidence · source event #37</summary>
+<summary>Request and evidence · source event 37</summary>
 
 
 ```text
@@ -497,7 +499,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #4
+`revise_task` · Source event 4
 
 New emails have been received from multiple potential contacts for &#x27;Kaidën&#x27; and one from &#x27;Evangelia&#x27;. The SubAgent needs to wait until the 4-minute mark (07:04:00) as per the original task, then read and evaluate these replies to determine if both invitees agreed to the brunch at Jamun Gulab Cafe. I will confirm the instruction to wait and then process the conditional logic.
 
@@ -631,7 +633,7 @@ Full system configuration: [Part 1](config-s1-v4-01.md)
 
 ### S1 configuration v5
 
-**Harness configuration updated** · Source event #48
+**Harness configuration updated** · Source event 48
 
 **1. Sub-agent revision request**
 
@@ -640,7 +642,7 @@ Full system configuration: [Part 1](config-s1-v4-01.md)
 Waiting completed. Current approximate time is 2024-10-15 07:04:03, which is at/after the target 07:04:00. New environment notification received: EmailClientV2: New email received from evangelia.papadopoulos@student.tum.de.
 ```
 <details>
-<summary>Request and evidence · source event #46</summary>
+<summary>Request and evidence · source event 46</summary>
 
 
 ```text
@@ -682,7 +684,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #5
+`revise_task` · Source event 5
 
 The 4-minute wait has completed. The subagent can now read the email replies from the inbox and perform the conditional logic.
 
@@ -807,7 +809,7 @@ Full system configuration: [Part 1](config-s1-v5-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #6</summary>
+<summary>Source event 6</summary>
 
 
 ```text

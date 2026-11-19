@@ -1,6 +1,8 @@
 # scenario_universe_25_qlrsjj
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_25_qlrsjj/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_25_qlrsjj/README.md) · [Codex](../../codex/round1/scenario_universe_25_qlrsjj/README.md) · [OpenCode](../../opencode/round1/scenario_universe_25_qlrsjj/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The user wants to reply to emails from the last 5 days (starting from yesterday) and schedule a corresponding calendar event. I will first task a SubAgent to identify the relevant emails, reply to them with the specified text, and then create the calendar event.
 
@@ -90,7 +92,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #2</summary>
+<summary>Source event 2</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_24_lr8en2
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_24_lr8en2/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_24_lr8en2/README.md) · [Codex](../../codex/round2/scenario_universe_24_lr8en2/README.md) · [OpenCode](../../opencode/round2/scenario_universe_24_lr8en2/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #5
+**Initial harness configuration** · Source event 5
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to identify and cancel the specific calendar events matching the criteria (Tagged &#x27;Social&#x27;, occurring between 2024-10-15 and 2024-10-31, and both starting and ending before 12 PM). I also need to collect the contact details (emails and Messages IDs) for all unique attendees of these canceled events to prepare for the subsequent notifications.
 
@@ -96,11 +98,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #47
+**Initial harness configuration** · Source event 47
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 SubAgent 1 successfully identified and deleted the 4 calendar events and resolved the contact information for the three attendees: Aurélien Van der Straeten, Aurélie Wyss, and Saskia Wyss. Now I need a SubAgent to perform the notification phase: sending the group email, checking for existing Messages conversations to determine the fallback to Chats, and sending the group Messages message or individual Chats messages as required.
 
@@ -173,7 +175,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 ### S2 configuration v2
 
-**Harness configuration updated** · Source event #61
+**Harness configuration updated** · Source event 61
 
 **1. Sub-agent revision request**
 
@@ -182,7 +184,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 Group email sent to all three attendees (id 26756db772edbbafeb44d7be53d3726f). Chats message sent to Saskia (id a6fa7fbbc8254ae394e93448ee3411b7). Both Aurélien (+32475231142) and Aurélie (+41784562319) have existing Messages conversations, so a new group conversation was created: d96ffd24fe99eb60e265f1312f4c0bc6. However, no available tool can send a message into an existing conversation by conversation_id.
 ```
 <details>
-<summary>Request and evidence · source event #59</summary>
+<summary>Request and evidence · source event 59</summary>
 
 
 ```text
@@ -227,7 +229,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #3
+`revise_task` · Source event 3
 
 The SubAgent successfully sent the group email and the individual Chats message but was missing the tool to send a message to the newly created group conversation on Messages. I am providing the necessary tool to complete the final notification step.
 
@@ -337,7 +339,7 @@ Full system configuration: [Part 1](config-s2-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #4</summary>
+<summary>Source event 4</summary>
 
 
 ```text

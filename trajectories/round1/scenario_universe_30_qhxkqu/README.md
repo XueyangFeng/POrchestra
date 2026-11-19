@@ -1,6 +1,8 @@
 # scenario_universe_30_qhxkqu
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_30_qhxkqu/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_30_qhxkqu/README.md) · [Codex](../../codex/round1/scenario_universe_30_qhxkqu/README.md) · [OpenCode](../../opencode/round1/scenario_universe_30_qhxkqu/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to manage the calendar events for tomorrow (2024-10-16). I need to identify and delete the &#x27;Yoga Class&#x27; and &#x27;Paper Review&#x27; events while preserving their details for potential restoration, then create the new &#x27;Nightly Project&#x27; event and notify the user.
 
@@ -90,7 +92,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #25
+**Harness configuration updated** · Source event 25
 
 **1. Sub-agent revision request**
 
@@ -99,7 +101,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Completed assigned steps 1-6: recorded details of Yoga Class (2024-10-16 18:00-19:00) and Paper Review (2024-10-16 20:00-22:00), deleted both, created Nightly Project event e4657cd1b75ef061b9fbfd037e80abd6 for 2024-10-16 18:00-23:00 at University of Cambridge, Department of Physics with attendees Helmut Eisenstadt and Gerrit van der Meer, and notified the user. Environment notification now reports calendar events deleted by Saskia Müller and Helmut Eisenstadt. Verification search for 'Nightly Project' returned [] and get_calendar_events for 2024-10-16 returned 0 events, indicating the newly created event was deleted/canceled.
 ```
 <details>
-<summary>Request and evidence · source event #23</summary>
+<summary>Request and evidence · source event 23</summary>
 
 
 ```text
@@ -167,7 +169,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The &#x27;Nightly Project&#x27; event for 2024-10-16 was canceled by an attendee (Helmut Eisenstadt). According to the original task, I must now restore the previously deleted events for 2024-10-16, reschedule the &#x27;Nightly Project&#x27; for Thursday, 2024-10-17, and handle potential conflicts. I also need to monitor for a second cancellation to trigger the final deletion logic.
 
@@ -286,7 +288,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

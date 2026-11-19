@@ -1,6 +1,8 @@
 # scenario_universe_29_2rzj8j
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_29_2rzj8j/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round1/scenario_universe_29_2rzj8j/README.md) · [Codex](../../codex/round1/scenario_universe_29_2rzj8j/README.md) · [OpenCode](../../opencode/round1/scenario_universe_29_2rzj8j/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 Identify the 4-bedroom property in Mumbai from the saved list to get its name, price, and address. Also, retrieve the current user&#x27;s home address to facilitate ordering the cab.
 
@@ -81,11 +83,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #14
+**Initial harness configuration** · Source event 14
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The property and user details have been retrieved. Now I need to schedule the appointment, order the cab, check for delays, and handle the conditional rescheduling and emails if necessary.
 

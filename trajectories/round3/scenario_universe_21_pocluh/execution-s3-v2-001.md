@@ -5,7 +5,7 @@
 Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
-<summary>Source event #69 · Sub-agent 3: user / environment input</summary>
+<summary>Source event 69 · Sub-agent 3: user / environment input</summary>
 
 
 ```text
@@ -23,7 +23,7 @@ Sub-agent outputs, reasoning, and actions are shown directly. Expand observation
 </details>
 
 
-## Source event #70 · Sub-agent 3: model output
+## Source event 70 · Sub-agent 3: model output
 
 ```text
 Now I have the needed tools. Let me fetch all contacts.
@@ -40,7 +40,7 @@ Action:
 
 
 <details>
-<summary>Source event #71 · Sub-agent 3: tool result</summary>
+<summary>Source event 71 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -54,7 +54,7 @@ Action:
 </details>
 
 
-## Source event #72 · Sub-agent 3: model output
+## Source event 72 · Sub-agent 3: model output
 
 ```text
 125 contacts total, 10 per page. Let me paginate through all of them.
@@ -71,7 +71,7 @@ Action:
 
 
 <details>
-<summary>Source event #73 · Sub-agent 3: tool result</summary>
+<summary>Source event 73 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -85,7 +85,7 @@ Action:
 </details>
 
 
-## Source event #74 · Sub-agent 3: model output
+## Source event 74 · Sub-agent 3: model output
 
 ```text
 Found one: Göran Lundström (phone +46311234567, 'Kungsgatan 12, 411 19 Göteborg'). Continuing pagination.
@@ -102,7 +102,7 @@ Action:
 
 
 <details>
-<summary>Source event #75 · Sub-agent 3: tool result</summary>
+<summary>Source event 75 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -116,7 +116,7 @@ Action:
 </details>
 
 
-## Source event #76 · Sub-agent 3: model output
+## Source event 76 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -131,7 +131,7 @@ Action:
 
 
 <details>
-<summary>Source event #77 · Sub-agent 3: tool result</summary>
+<summary>Source event 77 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -145,7 +145,7 @@ Action:
 </details>
 
 
-## Source event #78 · Sub-agent 3: model output
+## Source event 78 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -160,7 +160,7 @@ Action:
 
 
 <details>
-<summary>Source event #79 · Sub-agent 3: tool result</summary>
+<summary>Source event 79 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -174,7 +174,7 @@ Action:
 </details>
 
 
-## Source event #80 · Sub-agent 3: model output
+## Source event 80 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -189,7 +189,7 @@ Action:
 
 
 <details>
-<summary>Source event #81 · Sub-agent 3: tool result</summary>
+<summary>Source event 81 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -203,7 +203,7 @@ Action:
 </details>
 
 
-## Source event #82 · Sub-agent 3: model output
+## Source event 82 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -218,7 +218,7 @@ Action:
 
 
 <details>
-<summary>Source event #83 · Sub-agent 3: tool result</summary>
+<summary>Source event 83 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -232,7 +232,7 @@ Action:
 </details>
 
 
-## Source event #84 · Sub-agent 3: model output
+## Source event 84 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -247,7 +247,7 @@ Action:
 
 
 <details>
-<summary>Source event #85 · Sub-agent 3: tool result</summary>
+<summary>Source event 85 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -261,7 +261,7 @@ Action:
 </details>
 
 
-## Source event #86 · Sub-agent 3: model output
+## Source event 86 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -276,7 +276,7 @@ Action:
 
 
 <details>
-<summary>Source event #87 · Sub-agent 3: tool result</summary>
+<summary>Source event 87 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -290,7 +290,7 @@ Action:
 </details>
 
 
-## Source event #88 · Sub-agent 3: model output
+## Source event 88 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -305,7 +305,7 @@ Action:
 
 
 <details>
-<summary>Source event #89 · Sub-agent 3: tool result</summary>
+<summary>Source event 89 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -319,7 +319,7 @@ Action:
 </details>
 
 
-## Source event #90 · Sub-agent 3: model output
+## Source event 90 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -334,7 +334,7 @@ Action:
 
 
 <details>
-<summary>Source event #91 · Sub-agent 3: tool result</summary>
+<summary>Source event 91 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -349,7 +349,7 @@ Action:
 
 
 <details>
-<summary>Source event #92 · Sub-agent 3: tool result</summary>
+<summary>Source event 92 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -367,7 +367,7 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 </details>
 
 
-## Source event #93 · Sub-agent 3: model output
+## Source event 93 · Sub-agent 3: model output
 
 ```text
 Continuing contacts pagination.
@@ -384,7 +384,7 @@ Action:
 
 
 <details>
-<summary>Source event #94 · Sub-agent 3: tool result</summary>
+<summary>Source event 94 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -398,7 +398,7 @@ Action:
 </details>
 
 
-## Source event #95 · Sub-agent 3: model output
+## Source event 95 · Sub-agent 3: model output
 
 ```text
 Action:
@@ -413,7 +413,7 @@ Action:
 
 
 <details>
-<summary>Source event #96 · Sub-agent 3: tool result</summary>
+<summary>Source event 96 · Sub-agent 3: tool result</summary>
 
 
 ```text
@@ -427,7 +427,7 @@ Action:
 </details>
 
 
-## Source event #97 · Sub-agent 3: model output
+## Source event 97 · Sub-agent 3: model output
 
 ```text
 Now let me finish enumerating Messages conversations (from offset 60) and all Chats.
@@ -447,7 +447,7 @@ Action:
 
 
 <details>
-<summary>Source event #98 · Sub-agent 3: tool result</summary>
+<summary>Source event 98 · Sub-agent 3: tool result</summary>
 
 
 ```text

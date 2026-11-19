@@ -1,6 +1,8 @@
 # scenario_universe_26_jkd7el
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_26_jkd7el/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_26_jkd7el/README.md) · [Codex](../../codex/round2/scenario_universe_26_jkd7el/README.md) · [OpenCode](../../opencode/round2/scenario_universe_26_jkd7el/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #3
+**Initial harness configuration** · Source event 3
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The subtask aims to gather all necessary data points: identification of the user&#x27;s Oslo contacts, their presence on the Messages and Chats platforms, the total budget available based on the specified rates, and the price of the most expensive LEGO item in the shopping catalog. This information is needed to compute the final answer.
 
@@ -96,11 +98,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #62
+**Initial harness configuration** · Source event 62
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The previous SubAgent identified the current user (Åse Kjellstad) and 9 other contacts in Oslo. It verified the app presence and budget contribution for 7 of them (Total $85). I need to check the remaining 2 contacts, search for the most expensive LEGO item, and calculate the final result.
 

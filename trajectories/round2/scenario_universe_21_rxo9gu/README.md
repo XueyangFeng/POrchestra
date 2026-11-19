@@ -1,6 +1,8 @@
 # scenario_universe_21_rxo9gu
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_21_rxo9gu/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round2/scenario_universe_21_rxo9gu/README.md) · [Codex](../../codex/round2/scenario_universe_21_rxo9gu/README.md) · [OpenCode](../../opencode/round2/scenario_universe_21_rxo9gu/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 The first step is to handle the shopping requirement: identifying and adding Poke Ball 3-Ring Binders to the cart, monitoring for new ones for 3 minutes, and checking out 45 seconds after the last addition. I will also need to retrieve the total cost for subsequent tasks.
 
@@ -97,11 +99,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #93
+**Initial harness configuration** · Source event 93
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The shopping portion of the task is complete. I now need to identify the user&#x27;s &#x27;Fashion Designer&#x27; friend and message them the total cost of $249.86 via Chats, as requested. After that, I will provide the final report to the user.
 
@@ -171,7 +173,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

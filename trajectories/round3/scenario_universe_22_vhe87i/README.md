@@ -1,6 +1,8 @@
 # scenario_universe_22_vhe87i
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_22_vhe87i/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_22_vhe87i/README.md) · [Codex](../../codex/round3/scenario_universe_22_vhe87i/README.md) · [OpenCode](../../opencode/round3/scenario_universe_22_vhe87i/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 I need to begin by scheduling the calendar event and sending the confirmation email to Deniz Öztürk. I will also need to inform the user once these initial steps are completed, as requested.
 
@@ -86,7 +88,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S1 configuration v2
 
-**Harness configuration updated** · Source event #17
+**Harness configuration updated** · Source event 17
 
 **1. Sub-agent revision request**
 
@@ -95,7 +97,7 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 Assigned subtask completed: Found Deniz Öztürk (deniz.ozturk@gaia2mail.com); created calendar event 'Exclusive Wine Bar' 2024-10-20 17:00:00-19:00:00 tagged 'work' with Deniz Öztürk as attendee (id acea4a8d991e2e64e9a43daa76d19dd2); sent email subject 'Reservation Confirmed' (id a7a6559237dfccab98f2b1970584c7a3); sent user completion message. New external notification received: EmailClientV2: New email received from nalani.jensen@lawfirm.com — needs MainAgent decision on follow-up.
 ```
 <details>
-<summary>Request and evidence · source event #15</summary>
+<summary>Request and evidence · source event 15</summary>
 
 
 ```text
@@ -150,7 +152,7 @@ Action:
 
 **2. Main-agent decision**
 
-`revise_task` · Source event #2
+`revise_task` · Source event 2
 
 The SubAgent has successfully scheduled the event and sent the email. A new email was received which needs inspection. I am revising the task to handle the conditional 3-minute confirmation window and the subsequent actions (cab booking and group messaging) if the VIP confirms.
 
@@ -266,7 +268,7 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

@@ -1,6 +1,8 @@
 # scenario_universe_22_bv95nt
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_22_bv95nt/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+
+**Compare systems:** PORCHESTRA · [Claude Code](../../claude-code/round3/scenario_universe_22_bv95nt/README.md) · [Codex](../../codex/round3/scenario_universe_22_bv95nt/README.md) · [OpenCode](../../opencode/round3/scenario_universe_22_bv95nt/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -16,11 +18,11 @@ Configuration changes are organized by sub-agent session.
 
 ### S1 configuration v1
 
-**Initial harness configuration** · Source event #4
+**Initial harness configuration** · Source event 4
 
 **Initial delegation**
 
-`delegate_task` · Source event #1
+`delegate_task` · Source event 1
 
 First, I need to remove the 4 specific properties from the saved list as requested. I also need to find Kaitlyn McAllister&#x27;s email address for the final step.
 
@@ -85,11 +87,11 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 ### S2 configuration v1
 
-**Initial harness configuration** · Source event #21
+**Initial harness configuration** · Source event 21
 
 **Initial delegation**
 
-`delegate_task` · Source event #2
+`delegate_task` · Source event 2
 
 The 4 specified properties have been removed and Kaitlyn&#x27;s email has been retrieved. Now I need to monitor for price changes for the next 4 minutes, save any properties not already in the favorites that change price, and then send the summary email at exactly 07:04:00.
 
@@ -162,7 +164,7 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 ## Other main-agent decisions
 
 <details>
-<summary>Source event #3</summary>
+<summary>Source event 3</summary>
 
 
 ```text

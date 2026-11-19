@@ -5,7 +5,7 @@
 Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
-<summary>Source event #74 · Sub-agent 1: tool result (continued, part 3)</summary>
+<summary>Source event 74 · Sub-agent 1: tool result (continued, part 3)</summary>
 
 
 ```text
@@ -18,7 +18,7 @@ ionate about the sport and loyal supporters of the team, often watching matches 
 
 
 <details>
-<summary>Source event #75 · Sub-agent 1: model output</summary>
+<summary>Source event 75 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -38,7 +38,7 @@ Action:
 
 
 <details>
-<summary>Source event #76 · Sub-agent 1: tool result</summary>
+<summary>Source event 76 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -53,7 +53,7 @@ Action:
 
 
 <details>
-<summary>Source event #77 · Sub-agent 1: model output</summary>
+<summary>Source event 77 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -74,7 +74,7 @@ Action:
 
 
 <details>
-<summary>Source event #78 · Sub-agent 1: tool result</summary>
+<summary>Source event 78 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -89,7 +89,7 @@ Action:
 
 
 <details>
-<summary>Source event #79 · Sub-agent 1: model output</summary>
+<summary>Source event 79 · Sub-agent 1: model output</summary>
 
 
 ```text
@@ -142,7 +142,7 @@ Action:
 
 
 <details>
-<summary>Source event #80 · Sub-agent 1: tool result</summary>
+<summary>Source event 80 · Sub-agent 1: tool result</summary>
 
 
 ```text
@@ -157,7 +157,7 @@ Action:
 
 
 <details>
-<summary>Source event #81 · Judge rationale</summary>
+<summary>Source event 81 · Judge rationale</summary>
 
 
 ```text
