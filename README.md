@@ -134,3 +134,9 @@ The implementation builds on [AOrchestra](https://github.com/FoundationAgents/AO
 [Browse trajectories on GitHub](trajectories/README.md) · [Download HTML/TXT trajectories](trajectories/source/README.md)
 
 Explore 384 runs across three rounds, including 113 harness configuration updates. Each trajectory includes revision requests, main-agent decisions, configuration comparisons, and sub-agent execution records.
+
+## Statistical-reporting audit
+
+[ICLR and vendor benchmark statistical-reporting audit](ICLR_and_vendor_benchmark_statistical_audit_EN.md)
+
+The report covers statistical reporting in ICLR 2024–2026 papers and official vendor evaluations using GAIA, Gaia2, and SWE-bench.
