@@ -1,0 +1,16 @@
+{
+  "files": 1162,
+  "trajectories": 384,
+  "configuration_updates": 113,
+  "replacement_counts": {
+    "identity_headers": 768,
+    "provider_fields": 180,
+    "credentials": 0,
+    "endpoints": 0,
+    "host_paths": 49,
+    "identities": 0,
+    "provider_names": 0
+  },
+  "original_archives_included": false,
+  "git_history_included": false
+}

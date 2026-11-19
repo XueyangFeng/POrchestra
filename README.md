@@ -128,3 +128,9 @@ Release status: inference code for all three benchmarks is available. OPOD train
 ## Acknowledgments
 
 The implementation builds on [AOrchestra](https://github.com/FoundationAgents/AOrchestra), and GAIA2 uses [Meta Agents Research Environments](https://github.com/facebookresearch/meta-agents-research-environments). Source attribution and upstream licenses are preserved in [THIRD_PARTY.md](THIRD_PARTY.md) and `licenses/`.
+
+## GAIA2 trajectory browser
+
+[Browse the trajectory files](docs/trajectories/index.html) to inspect 384 runs across three rounds, including 113 recorded harness configuration updates. The browser shows revision requests, main-agent decisions, before/after configuration changes, and subsequent execution.
+
+The viewer is static and can be opened locally or served with GitHub Pages. Public source links contain sanitized records; see [presentation and redaction notes](TRAJECTORY_BROWSER.md).
