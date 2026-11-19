@@ -1,6 +1,6 @@
 # scenario_universe_23_0wpjds
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Determine the zip code that is most commonly found in the end locations of my booked cab rides last month. Find my contacts who live in that zip code (if there is a tie in the zip codes, then find the contacts in all the tied zip codes), and tell me the name of the one who appears as an attendee the most times in my calendar events last month. If there is a tie, then tell me the name of the youngest one of those who are tied.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

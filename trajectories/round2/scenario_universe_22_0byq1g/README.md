@@ -1,6 +1,6 @@
 # scenario_universe_22_0byq1g
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Save all the properties that are priced at $3200 if they are not saved yet. Send an email to Luís Silva titled &#x27;Request for Chess Coaching&#x27; asking him to be my chess coach. Create a calendar event for tomorrow 2024/10/16 at 12pm for one hour titled &#x27;Tasting New Wines&#x27;. Delete the most recent email from Astrid Nakamura.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

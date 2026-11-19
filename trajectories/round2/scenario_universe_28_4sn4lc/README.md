@@ -1,6 +1,6 @@
 # scenario_universe_28_4sn4lc
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Add together the ages of all my contacts in Dublin. Do the same for my contacts in Galway, and find the absolute difference between the 2 total age numbers. Add together the digits of the difference, and find the zip code with the closest violent crime rate to this number (if there is a tie, use the zip code that is the biggest number). Tell me the combined square footage of all properties in this zip code.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

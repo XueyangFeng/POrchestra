@@ -1,6 +1,6 @@
 # scenario_universe_30_69r1z7
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Find the attendee of the next event with &quot;meeting&quot; in the title, that I have scheduled with only one attendee. Tell me how many direct message threads (1:1) with them I have on Messages and Chats, making sure to let me know the number, or &quot;None&quot; in case of a zero. If there is no such meeting, tell me &quot;no meeting.&quot; 
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

@@ -1,6 +1,6 @@
 # scenario_universe_27_onqt9w
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 From the start of September until today, which cab service type have I spent the most money on, excluding rides lasting less than 10 minutes? Additionally, premium cab rides with airports as the destination should not be included in this comparison.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

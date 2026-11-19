@@ -1,6 +1,6 @@
 # scenario_universe_21_uig9ac
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Create a new contact in my contact list with the first name Arnold, the last name Schwarzenegger, and the email address arnold@fitness.com. After you have him added, send him an email with the subject &quot;Biceps Exercises?&quot; and in the content, ask him for his top 5 biceps exercises. This coming Sunday, create an event titled &quot;Apartment Tour&quot; from 2:00 to 4:00 that afternoon. Find the lowest priced property on my saved apartments list in the 211 43 zip code that has a Gym as an amenity and let me know the name of that property. Order me a default cab ride to pick me up from my Home at 1:00 PM on this coming Sunday and take me to that property. Send a private message to Vasco Pinto on Chats and ask him if he knows of any good gyms in the 211 43 zip code.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

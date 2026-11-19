@@ -1,6 +1,6 @@
 # scenario_universe_24_x1gk8n
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Find the 3 most expensive available properties. If there is a tie, include the tied properties. Find the average overall crime rate (property crime plus violent crime) for each of the zip codes of those properties. Choose the zip code with the highest average overall crime rate and send me a message with the square footage of the most expensive property there (only send me the square footage, don&#x27;t send me any other information). If there is a tie, choose the zip code that comes first numerically.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

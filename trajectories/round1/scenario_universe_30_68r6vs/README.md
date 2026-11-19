@@ -1,6 +1,6 @@
 # scenario_universe_30_68r6vs
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I am supposed to meet with some colleagues during lunch break later today and one of us is supposed to order a cab, although I cannot remember who. Send individual Messages messages to the colleagues I am supposed to meet today, asking who is supposed to order the cab. If after 3 minutes there is no response, order a default cab from the location of the event immediately preceding the lunch event to the location of the lunch event. The cab should pick up 15 minutes before the start of the lunch event. After ordering the cab, send individual Messages messages to the same colleagues informing them that I have ordered a cab and include the details of the ride.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

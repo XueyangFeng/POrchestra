@@ -1,6 +1,6 @@
 # scenario_universe_23_h61xk3
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 I have to get supplies for my friend&#x27;s daughter&#x27;s party. Purchase the latex, air-filled Bollovi Confetti Balloons. I&#x27;m not sure if these are the right balloons, send an email to Eliška Nováková asking if I am purchasing the right item. If Eliška replies that I have purchased the wrong item, cancel the order and purchase the ones that Eliška tells me to. Let me know when the item is purchased and the email is sent.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

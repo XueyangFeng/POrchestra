@@ -1,6 +1,6 @@
 # scenario_universe_24_3rlqyh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I need to organize my emails. Respond to Yumi Nakahara&#x27;s email. Ask for more information about the parallels between Japanese and European cuisine. Delete Katarzyna Zielińska&#x27;s only email and move Leon Vandenberghe&#x27;s only email from inbox to trash. Cancel the Research Collaboration with Kazimierz Wojciechowski later today, October 15. Order the the plush variant Wild Republic Cuddlekins 12&quot; Golden Tamarin Lion, one PROLINE 344100 Ram 2500 Clear Body made of polycarbonate, and one Fantasy Flight Games The Ghost of Framsburg Adventure in new condition, both for Yumi.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

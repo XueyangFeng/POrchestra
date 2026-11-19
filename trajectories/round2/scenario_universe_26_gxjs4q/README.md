@@ -1,6 +1,6 @@
 # scenario_universe_26_gxjs4q
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 If any new variants of the existing products with Great Eastern Entertainment in their names that cost less than 34.5 dollars are added in the next 3.5 minutes, add them to the cart exactly after 3.5 minutes from now have passed. Immediately after adding all the items to the cart, checkout the cart and then send a group email to the contacts from Trondheim to tell them how many new products I bought. After everything is done, notify me the total number of variants bought and the total amount spent.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

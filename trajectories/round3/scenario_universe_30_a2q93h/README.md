@@ -1,6 +1,6 @@
 # scenario_universe_30_a2q93h
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I have $50 to spend. Tell me how much money I will have left after paying for the premium cab I got a quote for on August 23, have bought the most expensive vinyl variant among all products with the text &#x27;action figure&#x27; in their title available in the shop, rounded to the nearest whole number. I just need the final dollar amount, no need for pleasantries.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

@@ -1,6 +1,6 @@
 # scenario_universe_30_vd0bz3
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Cancel my dinner with Evangelia and Kaidën on Saturday, October 19, 2024 from 7PM to 9PM. Then send an individual email to each them letting them know I had to cancel the dinner as I will not be able to make it on that time, and invite each one of them to join me for brunch the next day (Sunday) from 10AM to 1PM at Jamun Gulab Cafe. Let me know once you send the emails. Exactly 4 minutes after notifying me check if they have replied, and if they both agree to brunch, schedule the brunch in my calendar; if one or both decline, send one joint email to both of them asking about a dinner together this Sunday, October 20, from 7PM to 9PM at The Pint Shop, Cambridge.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

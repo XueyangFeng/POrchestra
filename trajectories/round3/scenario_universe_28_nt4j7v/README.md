@@ -1,6 +1,6 @@
 # scenario_universe_28_nt4j7v
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 Send a group email to all of my contacts who are aged 78 or older (excluding myself) asking what they would like for Christmas this year. Let me know once the email has been sent. 3 minutes after you let me know, check who has replied back to the email. If any one replied back requesting a product, please add the requested product to the cart and complete one order with all the requested items. If they don&#x27;t provide enough details to select a variant, select the cheapest variant. After completing the purchase, send separate emails to each person confirming that I&#x27;ve ordered the item they requested.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

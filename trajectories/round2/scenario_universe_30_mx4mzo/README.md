@@ -1,6 +1,6 @@
 # scenario_universe_30_mx4mzo
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Reschedule the research meeting at 4pm on October 18th to October 20th using the same times an details. Then, send an email to klaus.peter.mueller@berlin.de with the subject &quot;Rescheduling of research meeting&quot;. CC in saskia.mueller.design@gaia2mail.com. Tell them I have rescheduled our research meeting to Sunday 20th. Time and place is the same. Book a cab on October 20th for 3:30pm going from &quot;Home&quot; to &quot;Cavendish Laboratory, 19 JJ Thomson Ave, Cambridge CB3 0DY&quot;. Use premium service. Add 2 of the cheapest available Resin material, Grey color variants of Airfield Concrete Tarmac Section 1/48 to cart. If there are multiple ones of the same cheapest price, then just add 2 of the first item alphabetically. Checkout the cart using any discount codes that may be available.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

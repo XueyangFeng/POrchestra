@@ -1,6 +1,6 @@
 # scenario_universe_29_2rzj8j
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I have an exclusive viewing appointment for the 4 bedroom property in Mumbai on my saved list. Add the 1-hour viewing appointment to my calendar. It starts at 7:45am today and set the location as the property&#x27;s address. Order a default cab for now to take me from my home to the property. Please tell me the name and price of the property when you are done.  If the cab ride is delayed, please delete all events scheduled to start before 12pm today, including the one you just made but reschedule it to start one hour later, and then send individual emails to the affected attendees apologizing that I am unable to attend whatever event was deleted and they are a part of due to an unexpected delay.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

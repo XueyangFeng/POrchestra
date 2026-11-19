@@ -1,6 +1,6 @@
 # scenario_universe_22_o2zgk8
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 5
 
@@ -10,7 +10,7 @@
 
 Order a van from my home to 1945 SE Water Ave, Portland, OR 97214, pick up at 11AM tomorrow. Send a Messages message in the Wine, Art and Technology conversation asking for updates about the Wine Ceremony tomorrow and let me know when that&#x27;s been sent. If any of the participants in that conversation reply with changes about the time, schedule or reschedule the &quot;Wine Ceremony&quot; in my calendar according to changes in specified in the most recent message in that conversation by timestamp. If there are any conflicting events, move those to the next available weekday with the same time of day and with same details and inform the attendees that the event has been rescheduled via a group email. Also adjust the van booking by cancelling the ride then book another one for one hour prior to the event. Tell me about any updates to the event or van booking after you&#x27;ve made the changes.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

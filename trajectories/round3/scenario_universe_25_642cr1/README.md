@@ -1,6 +1,6 @@
 # scenario_universe_25_642cr1
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Add 1 hour daily dinner time reminders at 7pm until Friday of next week to my calendar, canceling events that conflict, and emailing attendees if an event canceled impacts them. If a dinner event is already scheduled at 7pm, leave it be and don&#x27;t add the reminder for these days
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

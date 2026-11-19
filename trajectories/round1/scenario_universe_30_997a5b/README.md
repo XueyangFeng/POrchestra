@@ -1,6 +1,6 @@
 # scenario_universe_30_997a5b
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Delete all the &quot;meeting with students&quot; events currently scheduled in my calendar for the rest of this month. After canceling, send one group email with the subject &quot;Our Meetings Are Cancelled&quot; to all the attendees of these events advising them to contact other professors for assistance. Reply to the email in my inbox from the former climatologist in my contacts, stating that I no longer wish to inspire future scientists. Remove the &quot;news&quot; directory and all its contents from my files. Purchase the cheapest Wordspiel Card Game for adults. Order a premium cab for tomorrow at 7 AM from &#x27;Home&#x27; to the location of the three-bedroom property listing in London. Update the job for my own contact information to &quot;Never Working Again&quot;.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

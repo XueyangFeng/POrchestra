@@ -1,6 +1,6 @@
 # scenario_universe_29_m0zl89
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Find me all 2-bedroom apartments that include parking in the zip code with the lowest property crime rate, and save them. Add my realtor named Avinash Kuldeep, email avkuldeep@email.com to my contacts and then send him an email with the property names. Check my contacts for everyone in that city. Start a new Messages group with all those contacts who are on Messages and ask how they like living in that city.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

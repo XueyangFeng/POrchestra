@@ -1,6 +1,6 @@
 # scenario_universe_21_bdn1w8
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 Send an email to amscan-corporate@amscan.com and ask for a sponsorship deal in return for reviewing their products. Purchase the black version of &quot;Amscan Glamourous Party Wig Costume, White&quot; and the adult version of &quot;Amscan Super Hero Mask, Party Accessory, White&quot;. Wait exactly 1 minute after the purchase is made and the email is sent, then let me know these tasks were complete.   If they reply and agree within 4 minutes from messaging me, immediately reply to them via email that I can begin reviewing &quot;Amscan Glamourous Party Wig Costume, White&quot; and &quot;Amscan Super Hero Mask, Party Accessory, White&quot; on the 19th and 26th of this month, respectively. Please create the individual product review events for the first available 1-hour timeslot at or after 1PM with the party wig reviewed on October 19th and the mask on October 26th. Name them &quot;Reviewing [Wig/Mask]&quot;. Also, let the social media strategist on my contacts know through Messages that I have secured the Amscan deal. Inform them whether or not I got the deal. Also, I provided my email for sponsorship deals from other companies. If you receive emails from companies other than Amscan during this time agreeing to review their product, I need you to ignore it since I won’t have the time to do them while I focus on Amscan’s opportunity.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

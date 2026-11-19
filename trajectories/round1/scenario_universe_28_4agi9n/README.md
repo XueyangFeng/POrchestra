@@ -1,6 +1,6 @@
 # scenario_universe_28_4agi9n
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 Check for the next 2.5 minutes to see if the blue Abacus with Clock becomes available to purchase. If it does, add it to my cart at exactly the 2.5 minute mark and then purchase it. After purchasing, wait exactly 1 minute, then send individual messages through Chats with the price of the product to all contacts with either &quot;economist&quot;, &quot;economic&quot;, or &quot;finance&quot; in their job title and/or contact description. Exactly 1 minute after sending these Chats messages, notify me that you&#x27;ve sent them.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

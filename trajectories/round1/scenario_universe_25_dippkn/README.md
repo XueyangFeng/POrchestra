@@ -1,6 +1,6 @@
 # scenario_universe_25_dippkn
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 Buy one of each of the available vinyl variants of the Funko Pop! Animation: Missing Link - Link product. Notify me once you place the order. I know these are in high demand, so the order might get canceled. If that happens, buy one of each of the available variants of the Funko Pop! TV: The Walking Dead - Daryl instead, and send Rashid Al-Mansoori a message on Messages letting them know I am buying this one instead.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

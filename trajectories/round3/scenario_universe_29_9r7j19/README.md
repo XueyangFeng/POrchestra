@@ -1,6 +1,6 @@
 # scenario_universe_29_9r7j19
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Ryder McKenzie is coming to visit; I think he&#x27;s coming on Nov. 24. Book a default cab at 10AM that day to pick him up at the airport (Chhatrapati Shivaji Maharaj International Airport, Mumbai, Maharashtra 400099) and bring him to my home address. Send him an email titled &quot;Confirming Your Arrival Date&quot;, asking him to confirm the date of his arrival. Tell me when you&#x27;ve booked the cab and sent the email. If he replies that he&#x27;s coming a different day than I thought, then change the cab ride to 10AM on the day that he says, and cancel all my calendar events for that day.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

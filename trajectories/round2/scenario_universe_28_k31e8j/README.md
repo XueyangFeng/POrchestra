@@ -1,6 +1,6 @@
 # scenario_universe_28_k31e8j
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 If any of my events scheduled for this weekend (Friday, Saturday, Sunday) are canceled by someone else within the next 4 minutes, message that person immediately on Messages asking why they removed the event. Use Chats if they are not on Messages. After you sent the messages, if at least 4 events got removed let me know 10 seconds after the initial 4 minutes are up.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

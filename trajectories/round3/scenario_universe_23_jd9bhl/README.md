@@ -1,6 +1,6 @@
 # scenario_universe_23_jd9bhl
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I&#x27;m freaking out– I just got a $400 speeding ticket and have no idea how I&#x27;m going to pay it. Cancel all events that overlap with 9 AM to 5 PM on the next three Saturdays and schedule a single &#x27;Work From Home&#x27; event for that full time block each Saturday so I can start making money fast. Send a group email with the subject &#x27;Help Me Out, Fam?&#x27; to everyone I attended &#x27;Dinner with Family&#x27; with so far this month, asking if any of them can lend me money to cover this fine. Send a private message on Chats (or Messages if they&#x27;re not on Chats) to my contact who works in the Prague Police Department, asking if there&#x27;s any way to lower or contest my fine since I&#x27;m completely broke.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

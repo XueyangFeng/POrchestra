@@ -1,6 +1,6 @@
 # scenario_universe_22_vhe87i
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 Please schedule an event titled &quot;Exclusive Wine Bar&quot; with Deniz Öztürk in my calendar for this upcoming Sunday, starting at 5 PM, lasting for 2 hours, and tagged as work, then send her an email titled &quot;Reservation Confirmed,&quot; confirming her booking. Let me know once all that is done. If, within 3 minutes of sending the email, she hasn’t responded to confirm, take no action. If she responds and confirms her attendance within the 3 minutes, stop checking for any further responses and immediately book a premium cab for the same day as the newly scheduled event at 4:30 PM, from 9012 Park Ave, New York to 4567 Broadway, New York, create a new Messages group conversation titled &quot;Client Confirmation&quot; with all listed attendees of yesterday&#x27;s &#x27;Staff Training: Wine and Food Pairing&#x27; event, and send a message in this newly-created conversation informing them that the VIP has confirmed and preparations should begin.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

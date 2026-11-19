@@ -1,6 +1,6 @@
 # scenario_universe_25_zp7eup
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I need to clean my contacts. Remove all contacts who live in the same city as the person I have a phone call with tomorrow tagged as personal, but keep that person on my contacts list. Send separate emails with the number of deleted contacts to each attendee of my next upcoming project update meeting, telling them we&#x27;ll review the deleted contacts and check if maybe I should keep some. Then, forward all the emails received from the attendee of the phone call event previously found, to the retired lawyer I know and tell me how many emails were forwarded.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

@@ -1,6 +1,6 @@
 # scenario_universe_21_xvc7uo
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I need to move out, but my budget is tight at the moment. Delete all properties in Stockholm from my saved apartments list that are not in the 1000-1800 price range. Save all unsaved properties in Stockholm within that price range to my list. If any properties matching my criteria are listed within 4 minutes from now, immediately send a Messages to my friend Linnea Svensson each time a new property within their budget is listed, as she is also looking to move out. Don&#x27;t notify me, I&#x27;ll check my list later.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

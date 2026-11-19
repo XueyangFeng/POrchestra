@@ -1,6 +1,6 @@
 # scenario_universe_29_bv0gwh
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Who is the person I have interacted with through Chats (1-on-1 or group chat) since October 10, who has the same last name as a contact that I have interacted with in Messages (1-on-1 or group chat) this month, and for whom I have booked at least one ride to their city of residence at any time? Give me the full name only. If there&#x27;s a tie, sort alphabetically by first name and return the first one.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

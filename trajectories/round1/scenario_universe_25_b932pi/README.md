@@ -1,6 +1,6 @@
 # scenario_universe_25_b932pi
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 Book a default cab 10 minutes before the earliest event scheduled today for the attendee of that event, picking them up at their address. If the event is tagged work, have the drop-off location be Tiensestraat 57, 3000 Leuven, Belgium. If it is not tagged work, the drop off is my home. Send the attendee a Messages message confirming the cab pickup. Then, let me know when these tasks are done. Monitor the cab booking for the following 4 minutes to see if the driver cancels the ride. Exactly 4 minutes after letting me know, if the driver cancels the ride, delete the earliest event scheduled for today and then re-schedule it with the same details but without the attendee. Then, send the attendee a Messages message confirming their ride and event cancellation and notify me of the changes.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

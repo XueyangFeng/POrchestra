@@ -1,6 +1,6 @@
 # scenario_universe_22_bv95nt
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Remove 4 of my saved properties: The Vue at Zip Code 10013, Willow Creek Apartments at Zip Code 85053, Riverwalk Condos at Zip Code 19123, and Harbor Heights at Zip Code 92101. If any property not currently in my saved property list experiences a price change in the next 4 minutes, immediately add it to my saved property list. Exaclty 4 minutes from now, send an email to Kaitlyn McAllister telling her the number of properties that changed prices, set the subject as &quot;Property price changes&quot;.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

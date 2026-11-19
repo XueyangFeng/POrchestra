@@ -1,6 +1,6 @@
 # scenario_universe_25_ox2z4y
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 In what country are most of the participants (excluding me) in my Messages conversations with &quot;Net-Zero Energy&quot; in the title from the last five days, excluding today, based? If a person is included in multiple conversations, only count them once. If more than ten of my contacts live in this identified country, return just the name of the oldest one in that country to me instead of the country&#x27;s name. If there&#x27;s a tie in the age, return the tied one who is a participant in more Messages conversations than the other.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

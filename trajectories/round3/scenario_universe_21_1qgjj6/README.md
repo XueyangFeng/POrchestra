@@ -1,6 +1,6 @@
 # scenario_universe_21_1qgjj6
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Go ahead and remove all the properties with zip codes starting with 1, as I don&#x27;t really like that part of Stockholm. Then, create a new group chat with Aurélie Dumont and Vasco Sousa via Messages and let them know that the properties have been removed. Let me know when the message has been sent. If either of them respond with more properties to remove or ask to add previously removed properties back to the saved list again, please do so. If you had to remove more properties, then, after removing them, email the assistant who I had a photoshoot with last Sunday to go ahead and scout out more locations.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

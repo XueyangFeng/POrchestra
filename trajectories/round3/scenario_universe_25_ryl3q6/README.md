@@ -1,6 +1,6 @@
 # scenario_universe_25_ryl3q6
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I&#x27;m trying to get an idea of my contact&#x27;s demographics. What is the oldest age among my contacts who live in the same zip code as the most frequent destination zip code from my cab rides last month. If there is a tie among zip codes, use the one with the lowest numerical value?
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

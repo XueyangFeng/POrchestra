@@ -1,6 +1,6 @@
 # scenario_universe_28_5sca8a
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Find all the properties in the safest zip code (lowest sum of violent crime and property crime rates) that cost less than $2000 and send a separate email to each of the participants (excluding myself) of the Messages conversation &quot;Startup Updates and Fintech Discussion&quot; with the names of the properties. Save all of the properties that cost under $2000 in that zip code that aren&#x27;t already saved.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

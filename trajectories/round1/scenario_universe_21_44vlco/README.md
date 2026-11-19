@@ -1,6 +1,6 @@
 # scenario_universe_21_44vlco
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I have a photoshoot this Friday from 7pm-8pm with a bakery brand called Sheryl&#x27;s Sweets, can you schedule the event and add the person I had a brand partnership meeting with yesterday. I think I recall that the location of the photoshoot will be at the Östermalm Oasis property so book a premium ride there from my house 20 minutes before the photoshoot, but also check with my social media strategist Luísa Silva e Sousa in an email to make sure I heard her right about the location and time of the photoshoot. Let me know when you send the email. If it&#x27;s not right, update the cab booking and the calendar event.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

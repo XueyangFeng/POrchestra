@@ -1,6 +1,6 @@
 # scenario_universe_24_lr8en2
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 Looking at events from today until the end of this month, cancel the ones that are tagged &quot;Social&quot; which are also starting and ending before 12pm. After cancelling them, send a group email and group Messages message to the attendees, informing them that I am no longer a morning person, so I&#x27;ve canceled all the social events that start before 12PM this month. The Messages message must be sent in a new group conversation. If I don&#x27;t have any conversations with some of these attendees on Messages, send them individual messages on Chats instead.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

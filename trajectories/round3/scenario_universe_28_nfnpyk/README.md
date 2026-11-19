@@ -1,6 +1,6 @@
 # scenario_universe_28_nfnpyk
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 To organize my emails, create a folder called &#x27;Attachments&#x27; within my Downloads folder and move any png files I have on the Downloads folder to this new one. Also, check all emails I received this month and move to trash those with &#x27;Seeking advice&#x27; in the subject. Additionally, reply to the email received from my Social Media Manager contact and ask if we can schedule a meeting to discuss further.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

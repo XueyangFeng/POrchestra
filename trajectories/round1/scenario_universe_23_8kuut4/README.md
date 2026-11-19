@@ -1,6 +1,6 @@
 # scenario_universe_23_8kuut4
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Find the zip codes of the home addresses of everyone living in the same city as me. Among these, identify the zip code where the violent crime rate and property crime rate add up to the highest number, excluding zip codes with no available crime rates. What is the lowest price among all available properties in this zip code? Just let me know the price, even if there are multiple properties with that price.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

@@ -1,6 +1,6 @@
 # scenario_universe_22_5ao19r
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 Wait for 60 seconds maximum to see if I will receive an email from emma.sommeliers84@winemail.com. If I do, immediately send me the details from the email, and add any events mentioned in the email to my calendar, remove any events that conflict with the mentioned events, and book a default ride to the venue (1234 NW Davis St, Portland, OR 97209) from my home for 10 minutes before the earliest event&#x27;s start time.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

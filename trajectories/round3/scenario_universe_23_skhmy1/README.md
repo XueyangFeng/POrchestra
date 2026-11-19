@@ -1,6 +1,6 @@
 # scenario_universe_23_skhmy1
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I&#x27;m collecting some interesting statistics to share with my contacts. Among all my 1:1 Messages chats, tell me the full name (first and last) of the contact with whom I&#x27;ve exchanged the most words, including both my messages and theirs. To make it comparable across different contacts, consider only the first 6 messages in each chat, and ignore conversations with fewer than 6 messages. To count words, simply split the messages by whitespace, that will be enough. I can&#x27;t wait to find out who you find, I&#x27;ll surprise them with this interesting fact. Answer only with the full name.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

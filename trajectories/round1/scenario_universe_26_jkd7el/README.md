@@ -1,6 +1,6 @@
 # scenario_universe_26_jkd7el
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 My Oslo friends and I are going to have a Lego night sometime soon but some of my Oslo friends are chipping in more money towards the Lego sets than others. How many times could I buy the most expensive item available with &quot;LEGO&quot; in its name if I had $15 for each of my contacts (apart from me) living in Oslo who are on Messages but not on Chats, and $10 for those who are on Chats but not on Messages? Please respond with the number only, rounded down to the nearest whole number.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

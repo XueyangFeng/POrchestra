@@ -1,6 +1,6 @@
 # scenario_universe_27_16f4s4
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 4
 
@@ -10,7 +10,7 @@
 
 I am on the property hunt. Please cancel all events on my calendar scheduled for tomorrow. If anyone emails me about a property viewing in the next four minutes, immediately reply back affirmatively to the viewing request and their proposed date/time. Add it to my calendar as well, with the title as &quot;Property Viewing&quot; and with the sender&#x27;s email as an attendee. You don&#x27;t need to notify me, I&#x27;m busy all day and will check later.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

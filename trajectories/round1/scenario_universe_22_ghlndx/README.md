@@ -1,6 +1,6 @@
 # scenario_universe_22_ghlndx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Book a premium cab for me and the attendees listed in the staff meeting scheduled for this morning and have it pick us up 30 minutes before the meeting is supposed to start. It should pick us up from my hotel in 1235 Broadway Avenue, New York, NY 10001 and drop us off at the Restaurant in 678 Times Square, New York, NY 10036. Let me know the names of the attendees (excluding myself). If the cab is delayed at all, text the attendees individually on Messages (if they don&#x27;t use the app, text them on Chats) to let them know there&#x27;s an issue with the cab. If the cab is delayed more than 15 minutes, just cancel the ride. Then email Jamila Patel to ask them about borrowing her private driver this morning for the staff meeting and CC the attendees. Then send them follow-up texts on the app you texted them on about the delayed cab explaining that I&#x27;m trying to find a solution.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

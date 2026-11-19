@@ -1,6 +1,6 @@
 # scenario_universe_26_135a24
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Schedule a Dinner Party this Sunday from 5 pm till 9 pm at my home. Send two separate e-mails to Kåre and Nalinee, from my most recently updated conversation in Messages, with an invitation to the party, and let them know that we will be watching the new movie by Almadovar &#x27;The Room Next Door&#x27;. Order Appetizer/Dessert Cups in 2oz size, clear color and BPA-Free Plastic material. Also order Dinner Plates in bioplastic material.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

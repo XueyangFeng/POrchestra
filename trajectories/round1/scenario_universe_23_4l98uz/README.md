@@ -1,6 +1,6 @@
 # scenario_universe_23_4l98uz
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 Please change the location of the Dinner with Family event in the calendar for the day after tomorrow to Bohumil&#x27;s home address, and book a premium ride to depart five minutes after this event ends, from the event location to Božetěchova 5, 602 00 Brno, Czech Republic. Notify me once you have booked the taxi and created the event.  If Bohumil cancels this event, send an email to Bohumil asking if it&#x27;s inconvenient for him to host the dinner at his home that day. Recreate this cancelled Dinner with Family event, but change the location to the other attendee&#x27;s home address, and then create a Chats group conversation and send a message there to all attendees informing them of the latest location for this event. Change the taxi&#x27;s pickup location from Bohumil&#x27;s address to the other attendee&#x27;s home address.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

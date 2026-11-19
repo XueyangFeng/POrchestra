@@ -1,6 +1,6 @@
 # scenario_universe_24_yg1yh5
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Among the starting locations&#x27; zip codes of my top 3 most expensive cab rides, what is the name of the most expensive housing unit available between all these zip codes in a zip code where any contact of mine also lives? If there&#x27;s a tie for the property, provide the first one alphabetically.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

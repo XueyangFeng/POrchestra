@@ -1,6 +1,6 @@
 # scenario_universe_30_j7xcfc
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Purchase one ebook copy of &#x27;The Dead of Night&#x27; for each of my contacts whose listed job includes the word &#x27;Librarian&#x27; or the phrase &#x27;Former Librarian&#x27;, and send each of those contacts an individual email with the subject &#x27;New Book&#x27;, notifying them that I bought them a new book for their collection.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

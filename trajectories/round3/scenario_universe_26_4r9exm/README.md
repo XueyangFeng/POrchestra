@@ -1,6 +1,6 @@
 # scenario_universe_26_4r9exm
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Send a 1:1 direct message to each of my contacts who live in the same city as me and are 40 and over inviting them to a watch-along of Cinema Paradiso at my house this Sunday from 7:00 PM to 9:40 PM and ask them to confirm their attendance. Use Messages if they’re on it, otherwise Chats. Create a calendar event for the watch-along, but don’t add attendees since I’m not sure who’s coming. Buy 50 round paper dinner plates so I have something to serve snacks on.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

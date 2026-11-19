@@ -1,6 +1,6 @@
 # scenario_universe_26_4qq2y5
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Delete all of my saved properties with less than 2 bedrooms. Afterwards, send a Messages containing only the details of the saved property with the most square footage to Kaitlyn Nakamura. If there is a tie for square footage, select the one at the highest price. If there is still a tie, select the one whose name comes first alphabetically. If she doesn&#x27;t reply in 1 minute and 30 seconds after sending her the details, send the details again, and following that, every 30 seconds, 5 more times. If she still hasn&#x27;t replied by the 7th total message, let me know after you&#x27;ve sent that 7th message. Otherwise, do not inform me.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

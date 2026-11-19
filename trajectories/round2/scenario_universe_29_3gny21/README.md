@@ -1,6 +1,6 @@
 # scenario_universe_29_3gny21
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 Reschedule the last &quot;Project Update Meeting&quot; event this month to Nov 01, 2pm-4pm, with other details remaining unchanged. Then, send an email to inform the attendees of this event about the change and ask for their confirmation of attendance. Buy one English version of the PC platform &quot;Snake Oil Game&quot; for me and one for each of the attendees of the &quot;Project Update Meeting&quot; event and apply the discount code if one is available. Let me know after you finish the purchase. 
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

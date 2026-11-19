@@ -1,6 +1,6 @@
 # scenario_universe_21_jywgsj
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 On my calendar, cancel the brand partnership meeting on 10/19 at 2 PM. Create a calendar event for a gym session on 10/19 from 9 AM to 10 AM. Remove Lund Living from my saved property list. Save Uppsala Urban to my saved list. Purchase the Rubie&#x27;s Adult Star Wars Stormtrooper Glovelettes in latex material. Remove Åke Svensson from my contact list.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

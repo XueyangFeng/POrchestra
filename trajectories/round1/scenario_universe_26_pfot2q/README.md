@@ -1,6 +1,6 @@
 # scenario_universe_26_pfot2q
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I&#x27;m going to celebrate a surprise birthday party for myself! I want it to be on Friday, October 18th, but don&#x27;t tell me the exact time. Please individually email only my good friends: Nalinee Wongcharee, Rohan Sengupta, and Aurélie Desjardins that I want to have a surprise birthday party and ask them what time they are free on Friday. Title the email &quot;Surprise Birthday Party&quot;. Only let me know once you&#x27;ve sent those emails. In exactly 4 minutes of notifying me, see who has responded, and immediately schedule the event for 2 hours at the earliest 2 hour time slot they are all available at, based on their email replies. If any of them responded they are not able to come, remove them from my contacts and reply to the email saying they are not my real friend and I never want to talk to them again. Please place the event on my calendar for &quot;Surprise Birthday&quot; with confirmed attendees at the agreed time, deleting all existing events in that time slot.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

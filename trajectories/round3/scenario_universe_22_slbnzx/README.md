@@ -1,6 +1,6 @@
 # scenario_universe_22_slbnzx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Delete all future events with the word &quot;Wine&quot; in the title from my calendar for the rest of this week, except the ones where there are any attendees other than me. After each deletion, immediately add a new event titled &quot;Private Project&quot; with the exact same date, time and duration. After this is done, let me know how many &quot;Private Project&quot; events were created.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

@@ -1,6 +1,6 @@
 # scenario_universe_23_9xsavm
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I want to host a board game night with my friends. Schedule in the calendar as &quot;Game Night&quot; (Tag &#x27;social&#x27;, location &#x27;home&#x27;) on Friday, October 18, 2024 at 7:00 PM-11:00 PM. After you&#x27;ve scheduled it, send individual invites via Messages to my friends Eliška Nováková, Luiza Oliveira Silva and Saskia König. If they aren&#x27;t on Messages, use Chats. Let me know once you&#x27;ve sent the messages. If the date doesn&#x27;t work for them, go with the first day that all of them are available and cancel anything on my calendar that conflicts with the 7pm-11pm timeslot on that day. Cancel the original Game Night, and reschedule with the new date. Send them each a follow up Messages or message confirming the final scheduled event details.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

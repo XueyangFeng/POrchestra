@@ -1,6 +1,6 @@
 # scenario_universe_28_znpabl
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Add Herning Hytte to my saved list, and afterwards, create a new 1-hour entry in my calendar for this Friday at 3 PM titled &quot;View the apartment,&quot; with the location set to the apartment&#x27;s address. Tag it as Work, with no description. Set Nonglak Srisawat as the attendee for the event. After creating the event, send her an email asking her to confirm that the time works to view the apartment. Let me know when you send the initial email to her. If she suggests a different time, reschedule the apartment viewing event in my calendar to the time she suggests, and afterwards, send her a confirmation email. If you had to reschedule, notify me of the new time after you&#x27;ve sent the confirmaton email to her. Don’t respond to any other emails received that aren’t related to this apartment viewing.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

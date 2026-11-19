@@ -1,6 +1,6 @@
 # scenario_universe_21_rxo9gu
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 For the next 3 minutes, immediately add 2 of each variant of Poke Ball 3-Ring Binder that gets added to the store and becomes available, and also add two each of ones that are already available as well to the shopping cart (you can do this now as they are already available). Checkout the cart exactly 45 seconds after the last addition of Poke Ball 3-Ring Binderalls to the cart within this 3 minute window. Then tell my Fashion Designer friend that I got him the Pokémon merchandise that he asked for, along with the total cost via Chats. After everything is finished, let me know how much it all costs.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

@@ -1,6 +1,6 @@
 # scenario_universe_29_ivo8et
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Wait 2 minutes from now, to make sure I don&#x27;t get a new email from Kaitlyn Nguyen-Tran, and then reply to her email regarding energy access in correctional facilities on 10/13 offering to schedule a phone call on 10/22 from 9 AM to 10 AM. If there is an email from her within those two minutes, don&#x27;t do anything. Wait one more minute after the 2 you just waited and reply to the email from Kaya Nakoda regarding sharing wisdom on restorative justice on 10/13 offering to schedule a call from 1 PM to 2 PM on 10/22. Wait one more minute after the 3 minutes you just waited, and reply to Rémi LaFleur&#x27;s email regarding inspiring stories of redemption on 10/13 offering to schedule a call from 3 PM to 4 PM on 10/22. After you reply to the three emails, I need you to add those calls to my calendar including the email recipient of each call as an attendee. You do not need to notify me for any of this.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

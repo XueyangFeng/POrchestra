@@ -1,6 +1,6 @@
 # scenario_universe_27_ikcimu
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Please delete all 1-bedroom condos from my saved listings. For the next 3 minutes starting now, monitor RentAFlat and immediately save any new 2-bedroom, 1-bathroom condos that appear in the property listings during that time. One minute after saving the last one, send me the names of all newly saved property listings. If none are saved, you are done.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

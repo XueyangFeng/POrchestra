@@ -1,6 +1,6 @@
 # scenario_universe_29_8hgfug
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I will host two focus group sessions, with previous clients. Schedule the first event titled &quot;Focus Group Session&quot; for the first day I am free at 9AM for three hours, and the next event with the same name for the second Sunday of the next month at 1 pm for three hours. The location for both sessions will be at the Community Center. No attendees need to be listed. Send a group message in Messages to the group chats that have the phrase &quot;prison reform&quot; in the title and were last active this month on the 10th or later, with details of the sessions. I also need a Mega Bloks Green Race Car Building Set for the Focus Group, please buy the most expensive one that is available.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

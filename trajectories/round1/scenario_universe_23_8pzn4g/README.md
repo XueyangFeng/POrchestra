@@ -1,6 +1,6 @@
 # scenario_universe_23_8pzn4g
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Find all participants (excluding myself) in group conversations in Messages or Chats where Frantz Fanon was mentioned by anyone in the conversation, and all contacts who sent me an e-mail with a title that includes the words &quot;Power Dynamics&quot;. With which of those people have I spent the most amount of time, based on the duration of calendar events that list them as participants from the beginning of August this year until today? Just give me the first name and the last name of the person. If there&#x27;s a tie, tell me the oldest person among those tied.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

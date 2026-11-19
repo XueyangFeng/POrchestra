@@ -1,6 +1,6 @@
 # scenario_universe_26_9724nb
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 I’m going to have dinner with Kåre Sørensen this Friday from 8 PM to 10 PM. Add it to my calendar and send a Messages to him asking if everything’s okay for us to go have dinner. Book me a default cab from my home to Tøyengata 2, 0578 Oslo, 30 minutes before the dinner. Notify me once these tasks are completed. If somehow he won’t be able to attend, reschedule the calendar event on the time slot that works best for him &amp; rebook the cab for 30 minutes before this new timeslot. I want to make sure I have 30 minutes in between events so if needed, delete other calendar events happening in this timeslot or within 30 minutes of it.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

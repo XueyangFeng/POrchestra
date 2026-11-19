@@ -1,6 +1,6 @@
 # scenario_universe_25_cbckw0
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I have an event with Åsa within the next two weeks, starting today. Can you book me a premium cab from Kasteelpark Arenberg, 3001 Leuven to Home, at 1PM on that date? Send a message to Åsa in Messages asking her if she can still make that phone call with me and telling her I&#x27;m not sure I can make it. Notify me when you book the ride and send the message.  If the the cab booking gets canceled, send Åsa a Messages message saying I&#x27;m sad but we won&#x27;t be able to talk that day. Then, delete my event with her in the next two weeks, and add Yoga Class in its place. Keep the date and time the same. Let me know if you&#x27;ve changed the event to yoga.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

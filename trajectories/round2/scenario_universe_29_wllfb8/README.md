@@ -1,6 +1,6 @@
 # scenario_universe_29_wllfb8
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Create a Messages chat with Kaito Rao, Kavita Rao, and Žiga Kovačič. Title the chat &quot;Costumes for the staff party&quot;. Add 3 small Mens Vintage Hollywood Tuxedo Costume to my cart. Send a message into the chat telling everyone that I am going to purchase the costumes for the party for everyone in size small. Also add the event to my calendar, it starts at 8PM this Friday and it&#x27;s meant to finish at 11PM. Confirm with me after these actions have been finished.   If anyone send a Messages message, changing their mind, or wants a different version of the costume, remove the added item from the cart and add the versions they want instead. When everyone decides what they want, purchase the items (if they don&#x27;t send a message keep the original item). If there are any updates on the time or date of the party, move the event in my calendar accordingly. If there are conflicts, delete the conflicting events.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

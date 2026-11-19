@@ -1,6 +1,6 @@
 # scenario_universe_25_qlrsjj
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Reply to the emails I received within the last 5 days, starting from yesterday, and let the senders know that I will be accepting phone calls to answer questions and discuss projects this Friday from 9 am, for 2 hours long, from my home. Schedule this time in calendar.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

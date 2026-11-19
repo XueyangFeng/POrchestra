@@ -1,6 +1,6 @@
 # scenario_universe_28_e3yyyp
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Find all managers in my contacts, these are contacts where their Job includes the title of &quot;manager&quot; (not &quot;former&quot;). Reply to each person&#x27;s latest email, answering the question asked, &quot;Yes, I would [whatever is asked in the content].&quot; If there are no questions in the email, reply with &quot;Sure!&quot;
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

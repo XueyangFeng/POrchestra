@@ -1,6 +1,6 @@
 # scenario_universe_22_ottdy5
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 Save all properties that are located in the 5 zip codes with the lowest property crime. Write a Messages to Nalani Jensen telling the zip codes and how many properties you saved.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

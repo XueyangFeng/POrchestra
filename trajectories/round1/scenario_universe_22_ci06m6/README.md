@@ -1,6 +1,6 @@
 # scenario_universe_22_ci06m6
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 Create an event titled &quot;Dinner with Buddies&quot; for Saturday the 19th from 6:00 PM to 8:00 PM. Send a Messages message to Guillermo Reyes asking if he can attend dinner this Saturday the 19th from 6:00 PM to 8:00 PM. Send a Messages message to Alexandra Popescu asking if she can attend dinner this Saturday the 19th from 6:00 PM to 8:00 PM. Let me know when you have scheduled the event and the messages have been sent. If the attendees are unable to attend the event at that time, reschedule the event by choosing the earliest 2-hour time-slot on Saturday 19th after 5pm where they are both available. Afterwards, send a Messages to each of them with the updated schedule.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

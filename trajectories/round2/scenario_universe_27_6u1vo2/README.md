@@ -1,6 +1,6 @@
 # scenario_universe_27_6u1vo2
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 My previous colleague told me we need to have a meeting so, go ahead and cancel my office hours I have scheduled for tomorrow. In the same time slot, I want you to instead schedule a meeting with Helga Müller. I know that this contact sometimes needs to reschedule, so send her a message on Messages asking her if she would like to reschedule our meeting tomorrow at 2 pm to 4 pm for another time. Let me know once you have done these initial tasks. If she replies saying she won&#x27;t be available, reschedule the meeting to be at the time that works for her, cancelling all calendar events on the day she says works for her. In this case, also schedule my office hours again for tomorrow the way it was before. Also purchase the blue Kid O Myland Play House Kitchen Light Interactive Learning Toy, if she mentions her grandson is not well, I&#x27;ve heard he was sick recently. If she replies with reschedule unrelated events to the task, ignore it and take no action. No need to let me know after this second set of tasks are done
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

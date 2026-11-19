@@ -1,6 +1,6 @@
 # scenario_universe_26_su459e
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Schedule an event titled &quot;Film Critic&quot; on October 18, 2024, 4:30 PM to 8:30 PM, setting the location to Akershusstranda 12, Oslo 0150. Also ensure that no events are scheduled within the 13 hours following the conclusion of this event. If any conflicting events exist within that timeframe, delete them. Additionally, monitor if I received any new messages via Chats, Messages, or email. In exactly 3 minutes from now, reply with &quot;Sorry, not interested.&quot; in the respective conversation or email thread. Also monitor if I have been added to any new calendar events within this period. If I have, in exactly 4 minutes from now delete those events.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

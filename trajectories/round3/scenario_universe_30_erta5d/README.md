@@ -1,6 +1,6 @@
 # scenario_universe_30_erta5d
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 I&#x27;m trying to be more spontaneous. I posted on my Instagram story that I&#x27;ll do whatever people Messages me for the next four minutes. Check my messages every minute for four minutes. If someone asks to do something with me, add it to my calendar. Delete anything that is already there at that time and then send an email to anyone on a cancelled event and apologize for the cancellation, offer to reschedule at their convenience (if there are multiple people on an event, send a group email). If another person asks to do something at that time, reply with &quot;Sorry, raincheck?&quot;. If someone asks for me to buy them something, do so if it costs less than $50, if it&#x27;s more, respond with &quot;Are you crazy?&quot;.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

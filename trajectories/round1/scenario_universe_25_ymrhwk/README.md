@@ -1,6 +1,6 @@
 # scenario_universe_25_ymrhwk
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
@@ -10,7 +10,7 @@
 
 Find my next 3 &#x27;Follow-up call&#x27; events and send separate messages to the attendees via Chats if they are on the app to ask them if we could reschedule the events. If they are not in the app, send them an email instead. If they don&#x27;t reply in the next 3 minutes after reaching out to them, exactly after 3 minutes reschedule their particular event to start 30 minutes later and end 30 minutes later and then send 1:1 messages to each relevant attendee to tell them about the time changes for their events. Use Chats if they use Chats, and Messages if they don&#x27;t. After all of that, let me know if they responded or not.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

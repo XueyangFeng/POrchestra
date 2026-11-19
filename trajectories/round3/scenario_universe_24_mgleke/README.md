@@ -1,6 +1,6 @@
 # scenario_universe_24_mgleke
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Find all emails I&#x27;ve received with &quot;Seeking&quot; in the subject and identify the youngest sender. If there&#x27;s a tie, choose the one whose first name comes first alphabetically. Then count the total number of private and group conversations I have had with that person on Messages and Chats combined. Send me a message with the number only.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 

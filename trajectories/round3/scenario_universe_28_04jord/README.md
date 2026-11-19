@@ -1,6 +1,6 @@
 # scenario_universe_28_04jord
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Original-format export](../../source_exports/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
@@ -10,7 +10,7 @@
 
 Check the RentAFlat app every second for 4 minutes. If a property listing in the 8000 zip code appears, immediately save it to Save Apartments. Exactly 1 minute after saving the last one, if two or more new listings have been saved during this time, delete all saved properties in the 9000 zip code.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original export. Runtime configuration updates do not establish source-code changes or enforcement details.
+This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
 
 ## Configuration history
 
