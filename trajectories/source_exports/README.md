@@ -1,6 +1,6 @@
 # Original-format trajectory export
 
-[Download the privacy-filtered original-format archive](gaia2_original_format_privacy_filtered.zip?raw=true) · [SHA-256 checksum](SHA256SUMS) · [Configuration-history browser](../README.md)
+[Download the privacy-filtered original-format archive](gaia2_original_format_privacy_filtered.zip?raw=true)
 
 The archive contains all 384 task trajectories across three rounds in the supplied HTML and TXT format, together with the original index pages and statistics. Model identifiers, tool-call formatting, system configurations, observations, execution errors, and judge results are retained. Open `gaia2_porch/index.html` after extraction to browse the original-format HTML edition.
 
