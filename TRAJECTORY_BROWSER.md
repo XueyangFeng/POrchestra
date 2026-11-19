@@ -8,15 +8,15 @@ Long configurations and source records are split into small Markdown pages. The 
 
 This release reorganizes supplied trajectory exports into configuration histories. Main-agent decisions are associated with configurations using the links in the supplied export. Session-local order is preserved; no global timestamps are invented.
 
-Presentation source links point to sanitized copies. Provider identifiers, host-local paths, credential patterns, and known personal identifiers are removed or replaced. Repeated host paths use stable placeholders. These public copies are not byte-for-byte originals. Benchmark task identities and observations remain part of the task records. Original archives are not included.
+Presentation source links point to sanitized copies. Identifying metadata, host-local paths, credential patterns, and known personal identifiers are removed or replaced. Repeated host paths use stable placeholders. These public copies are not byte-for-byte originals. Benchmark task identities and observations remain part of the task records. Original archives are not included.
 
 Configuration changes describe recorded task instructions, context, available tools, and budget fields. They do not establish framework source-code changes or independently verify enforcement. Budget fields retain their recorded meaning; cumulative and remaining budgets are not inferred.
 
 ## Original-format source export
 
-The [downloadable source export](trajectories/source_exports/README.md) retains the supplied HTML/TXT layout, model identifiers, event ordering, system configurations, tool inputs and outputs, execution errors, and judge results. It uses minimal privacy filtering for host-local paths, known personal identifiers, credential patterns, and provider support contacts. It is separate from the presentation edition described above.
+The [downloadable source export](trajectories/source_exports/README.md) retains the supplied HTML/TXT layout, event ordering, system configurations, tool inputs and outputs, execution errors, and judge results. It uses minimal privacy filtering for host-local paths, known personal identifiers, credential patterns, and provider support contacts. It is separate from the presentation edition described above.
 
-The distributed archive is not byte-for-byte identical to the private original. Its internal manifest identifies modified files and includes checksums. Simulated benchmark task data is retained.
+The distributed archive is not byte-for-byte identical to the private original. Its internal manifest identifies modified files. Simulated benchmark task data is retained.
 
 ## Repository integration
 
