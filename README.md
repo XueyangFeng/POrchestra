@@ -133,4 +133,4 @@ The implementation builds on [AOrchestra](https://github.com/FoundationAgents/AO
 
 [Browse the trajectories directly on GitHub](trajectories/README.md) to inspect 384 runs across three rounds, including 113 recorded harness configuration updates. Each trajectory shows revision requests, main-agent decisions, before/after configuration changes, and subsequent execution.
 
-The Markdown version includes collapsible records and paginated full configurations and source events. It requires no external website or JavaScript. All published records are sanitized; see [presentation and redaction notes](TRAJECTORY_BROWSER.md).
+The Markdown version includes collapsible records and paginated full configurations and source events. It requires no external website or JavaScript. The presentation records are sanitized; see [presentation and redaction notes](TRAJECTORY_BROWSER.md). A separate [original-format HTML/TXT export](trajectories/source_exports/README.md) retains source metadata with minimal privacy filtering.

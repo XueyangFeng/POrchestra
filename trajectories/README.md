@@ -2,7 +2,9 @@
 
 Browse all trajectories directly on GitHub. No external website or JavaScript is required. Expand the details in each trajectory to inspect requests, decisions, and configuration changes.
 
-These records are sanitized. Provider identifiers, host-local paths, credentials, and known personal identifiers are removed or replaced. Task content and recorded configuration changes are retained.
+The Markdown presentation records are sanitized. Provider identifiers, host-local paths, credentials, and known personal identifiers are removed or replaced. Task content and recorded configuration changes are retained.
+
+[Download the original-format export](source_exports/README.md) for the supplied HTML/TXT layout with minimal privacy filtering. Its retained metadata differs from this presentation edition; see the export notes.
 
 Every task has a prominent **Read the sub-agent execution traces** link. Dedicated execution pages show sub-agent outputs, reasoning, and tool actions directly, with expandable tool observations and context.
 
