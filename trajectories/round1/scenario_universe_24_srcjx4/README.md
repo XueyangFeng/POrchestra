@@ -1,6 +1,6 @@
 # scenario_universe_24_srcjx4
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_24_srcjx4/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 

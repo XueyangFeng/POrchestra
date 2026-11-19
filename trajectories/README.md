@@ -1,4 +1,11 @@
-# GAIA2 harness configuration trajectories
+# GAIA2 trajectories
+
+| System | Rounds | Trajectories | Browse |
+| --- | ---: | ---: | --- |
+| PORCHESTRA | 3 | 384 | [Configuration and execution](#porchestra) |
+| Claude Code | 3 | 384 | [Execution traces](claude-code/README.md) |
+
+## PORCHESTRA
 
 Browse 384 trajectories across three rounds. Expand each trajectory to inspect requests, decisions, and configuration changes.
 

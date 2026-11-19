@@ -1,6 +1,6 @@
 # scenario_universe_23_9xsavm
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_23_9xsavm/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 

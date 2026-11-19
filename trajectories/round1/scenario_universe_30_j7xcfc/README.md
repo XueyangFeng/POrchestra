@@ -1,6 +1,6 @@
 # scenario_universe_30_j7xcfc
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_30_j7xcfc/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 

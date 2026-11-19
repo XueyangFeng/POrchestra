@@ -1,6 +1,6 @@
 # scenario_universe_23_izo0ml
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_23_izo0ml/README.md)
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 

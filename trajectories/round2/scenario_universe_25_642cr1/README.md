@@ -1,6 +1,6 @@
 # scenario_universe_25_642cr1
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_25_642cr1/README.md)
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 

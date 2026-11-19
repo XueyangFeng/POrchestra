@@ -1,6 +1,6 @@
 # scenario_universe_22_c1o49t
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_22_c1o49t/README.md)
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 

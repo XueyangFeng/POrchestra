@@ -1,6 +1,6 @@
 # round3 · Trajectory index
 
-[All rounds](../README.md)
+[All rounds](../README.md) · [Claude Code round](../claude-code/round3/README.md)
 
 ## Adaptability
 

@@ -1,6 +1,6 @@
 # scenario_universe_23_w5th2a
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_23_w5th2a/README.md)
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 

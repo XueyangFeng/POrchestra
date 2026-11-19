@@ -1,6 +1,6 @@
 # scenario_universe_21_ycoch2
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round1/scenario_universe_21_ycoch2/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 

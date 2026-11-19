@@ -1,6 +1,6 @@
 # scenario_universe_27_9yg3xx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_27_9yg3xx/README.md)
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 

@@ -1,6 +1,6 @@
 # scenario_universe_21_rxo9gu
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round2/scenario_universe_21_rxo9gu/README.md)
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 

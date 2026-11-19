@@ -131,9 +131,12 @@ The implementation builds on [AOrchestra](https://github.com/FoundationAgents/AO
 
 ## GAIA2 trajectory browser
 
-[Browse trajectories on GitHub](trajectories/README.md) · [Download HTML/TXT trajectories](trajectories/source/README.md)
+| System | Browse | Download |
+| --- | --- | --- |
+| PORCHESTRA | [Configuration and execution traces](trajectories/README.md#porchestra) | [HTML/TXT](trajectories/source/README.md) |
+| Claude Code | [Execution traces](trajectories/claude-code/README.md) | [HTML/TXT](trajectories/claude-code/source/README.md) |
 
-Explore 384 runs across three rounds, including 113 harness configuration updates. Each trajectory includes revision requests, main-agent decisions, configuration comparisons, and sub-agent execution records.
+Each collection contains 384 runs across three rounds. Task pages link to the matching task in the other collection.
 
 ## Statistical-reporting audit
 

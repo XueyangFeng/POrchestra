@@ -1,6 +1,6 @@
 # scenario_universe_28_238kfx
 
-[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md)
+[Round index](../README.md) · [All rounds](../../README.md) · [Source trajectories](../../source/README.md) · [Claude Code task](../../claude-code/round3/scenario_universe_28_238kfx/README.md)
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
