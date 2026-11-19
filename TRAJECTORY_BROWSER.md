@@ -1,6 +1,8 @@
 # GAIA2 trajectory browser
 
-The static browser is in `docs/trajectories/`. Open `docs/index.html` locally or publish `docs/` with GitHub Pages. GitHub Pages publishes from the `main` branch and `/docs` directory. No custom workflow is required.
+The primary browser is the GitHub-native [Markdown trajectory index](trajectories/README.md). It contains all 384 trajectories with configuration changes, collapsible details, and complete paginated source records. Open it directly in GitHub; no external host or JavaScript is required.
+
+Long configurations and source records are split into small Markdown pages. The task summaries may show excerpts, with links to full records. The existing static HTML edition remains in `docs/trajectories/` as a separate format.
 
 ## Presentation and redactions
 
@@ -12,6 +14,6 @@ Configuration changes describe recorded task instructions, context, available to
 
 ## Repository integration
 
-Copy `docs/trajectories/` into the intended repository. Preserve any existing `docs/index.html` and Pages workflow; integrate the new browser as a subdirectory if a site is already present. This bundle contains no Git history or personal Git configuration. Repository ownership and commit identity remain visible on GitHub and must be chosen separately.
+Copy `trajectories/` into the intended repository. Preserve any existing `docs/index.html` and Pages workflow; integrate the new browser as a subdirectory if a site is already present. This bundle contains no Git history or personal Git configuration. Repository ownership and commit identity remain visible on GitHub and must be chosen separately.
 
 GitHub Pages documentation: https://docs.github.com/en/get-started/start-your-journey/deploying-your-website-automatically
