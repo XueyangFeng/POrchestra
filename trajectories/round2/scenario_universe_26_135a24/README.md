@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Schedule a Dinner Party this Sunday from 5 pm till 9 pm at my home. Send two separate e-mails to Kåre and Nalinee, from my most recently updated conversation in Messages, with an invitation to the party, and let them know that we will be watching the new movie by Almadovar &#x27;The Room Next Door&#x27;. Order Appetizer/Dessert Cups in 2oz size, clear color and BPA-Free Plastic material. Also order Dinner Plates in bioplastic material.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -80,7 +80,7 @@ Report all found information (Sunday's date, message context, emails, and home a
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -144,7 +144,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -216,7 +216,7 @@ Search for these products, verify their specifications (size, color, material) u
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
@@ -278,7 +278,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 57 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

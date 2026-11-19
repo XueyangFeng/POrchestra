@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Find all managers in my contacts, these are contacts where their Job includes the title of &quot;manager&quot; (not &quot;former&quot;). Reply to each person&#x27;s latest email, answering the question asked, &quot;Yes, I would [whatever is asked in the content].&quot; If there are no questions in the email, reply with &quot;Sure!&quot;
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -77,7 +77,7 @@ Find all contacts whose 'job' field includes the word 'manager' (case-insensitiv
 
 </details>
 
-**Initial step_budget: 50.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 50.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -121,7 +121,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 71 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

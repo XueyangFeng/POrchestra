@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 On my calendar, cancel the brand partnership meeting on 10/19 at 2 PM. Create a calendar event for a gym session on 10/19 from 9 AM to 10 AM. Remove Lund Living from my saved property list. Save Uppsala Urban to my saved list. Purchase the Rubie&#x27;s Adult Star Wars Stormtrooper Glovelettes in latex material. Remove Åke Svensson from my contact list.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -75,7 +75,7 @@ Perform the following calendar actions for the date 2024-10-19: 1) Find and canc
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -142,7 +142,7 @@ Modify the saved property list: 1) Remove the property 'Lund Living' from the sa
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -213,7 +213,7 @@ Purchase the 'Rubie's Adult Star Wars Stormtrooper Glovelettes' in 'latex materi
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
@@ -276,7 +276,7 @@ Remove Åke Svensson from the contact list. First, search for the contact to fin
 
 </details>
 
-**Initial step_budget: 10.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 10.**
 
 Full system configuration: [Part 1](config-s4-v1-01.md)
 
@@ -320,7 +320,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 57 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

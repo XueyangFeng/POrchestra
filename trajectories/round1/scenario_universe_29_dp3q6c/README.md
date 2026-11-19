@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I&#x27;ve hurt myself and need to go to the hospital. Send a Messages message to my roommate,	 Nalini Rao, asking her to take me to the hospital. Message her every 30 seconds, until you have messaged her a total of 5 times, starting 1 second from now. If she responds that she can help, send me a message and let me know. If she doesn&#x27;t respond, wait for exactly 60 more seconds after the 5th message then send her an email asking why she&#x27;s not answering my messages. Wait for exactly 60 more seconds after the email and if she still hasn&#x27;t responded or says that she can&#x27;t help, order a default cab for 7:30 am today to pick me up at home and take me to the hospital at New Marine Lines, Marine Lines, Mumbai, Maharashtra 400020. Do not inform me about anything as I need to really focus on getting to the hospital.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -71,7 +71,7 @@ Search for a contact named 'Nalini Rao'. Retrieve her user ID for the Messages a
 
 </details>
 
-**Initial step_budget: 10.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 10.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -158,7 +158,7 @@ Coordinate communication with Nalini Rao (+918023456789, nalini.rao@gaia2mail.co
 
 </details>
 
-**Initial step_budget: 50.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 50.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -215,7 +215,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 70 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Send a 1:1 direct message to each of my contacts who live in the same city as me and are 40 and over inviting them to a watch-along of Cinema Paradiso at my house this Sunday from 7:00 PM to 9:40 PM and ask them to confirm their attendance. Use Messages if they’re on it, otherwise Chats. Create a calendar event for the watch-along, but don’t add attendees since I’m not sure who’s coming. Buy 50 round paper dinner plates so I have something to serve snacks on.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -86,7 +86,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -147,7 +147,7 @@ Create a calendar event titled 'Cinema Paradiso Watch-along' for this Sunday, Oc
 
 </details>
 
-**Initial step_budget: 10.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 10.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -216,7 +216,7 @@ Search for and purchase 50 round paper dinner plates. Search for the product, ch
 
 </details>
 
-**Initial step_budget: 15.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 15.**
 
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
@@ -260,7 +260,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 90 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Please change the location of the Dinner with Family event in the calendar for the day after tomorrow to Bohumil&#x27;s home address, and book a premium ride to depart five minutes after this event ends, from the event location to Božetěchova 5, 602 00 Brno, Czech Republic. Notify me once you have booked the taxi and created the event.  If Bohumil cancels this event, send an email to Bohumil asking if it&#x27;s inconvenient for him to host the dinner at his home that day. Recreate this cancelled Dinner with Family event, but change the location to the other attendee&#x27;s home address, and then create a Chats group conversation and send a message there to all attendees informing them of the latest location for this event. Change the taxi&#x27;s pickup location from Bohumil&#x27;s address to the other attendee&#x27;s home address.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -79,7 +79,7 @@ Find the calendar event 'Dinner with Family' on 2024-10-17. Retrieve Bohumil's h
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -247,7 +247,7 @@ Additional step budget: 30
 
 </details>
 
-**Additional step budget (recorded configuration): 30.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 30.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -268,7 +268,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 45 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

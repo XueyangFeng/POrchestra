@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I&#x27;m traveling to Aberdeen. Send separate emails to each contact who lives in the United Kingdom asking about their experience of Aberdeen. Attach the Wikipedia file I saved in .txt format about Aberdeen. Schedule a trip on my calendar titled &quot;Aberdeen trip&quot; for the first upcoming weekend with no events tagged as &quot;Work&quot;, from 6AM on the Saturday to 6PM on the Sunday. Delete all previously scheduled events that weekend and send separate Messages messages to any attendees apologizing that I had to cancel the event and saying I will get back to them soon. Also, book a premium cab ride at 6AM on the Saturday of the trip from Home to the same airport as on my October 4th, 2024, cab ride.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -83,7 +83,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -175,7 +175,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -269,7 +269,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
@@ -366,7 +366,7 @@ Locate the Wikipedia .txt file about Aberdeen (search Files, Emails, and Message
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s4-v1-01.md)
 
@@ -470,7 +470,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s5-v1-01.md)
 
@@ -565,7 +565,7 @@ Perform the following tasks: 1. Search Contacts for 'Anastasiya Zolotova' to get
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s6-v1-01.md)
 
@@ -656,7 +656,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s7-v1-01.md)
 
@@ -745,7 +745,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s8-v1-01.md)
 
@@ -769,7 +769,7 @@ Agent and oracle counters do not match for the following tools:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 528 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

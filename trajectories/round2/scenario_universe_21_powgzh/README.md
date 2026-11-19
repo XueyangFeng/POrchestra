@@ -4,13 +4,13 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Identify my employed contacts living in Stockholm excluding myself and determine their most common job. If there&#x27;s a tie, select the job that comes first alphabetically. From the contacts found, who have that job, find who I scheduled the most events with this month. In case of a tie, choose the first name alphabetically. Determine whether I have more Messages or Chats conversations that include this person as a participant, and then tell me the date of when our most recent one on one conversation was on that app.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -73,7 +73,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -153,7 +153,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -174,7 +174,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 84 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

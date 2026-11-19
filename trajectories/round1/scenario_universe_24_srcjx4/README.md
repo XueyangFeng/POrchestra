@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Buy me the cheapest available variants of plastic &quot;MasterPieces NFL Push &amp; Pull Toy,&quot; polycarbonate &quot;PROLINE 344100 Ram 2500 Clear Body,&quot; plastic &quot;Wreck It Ralph 2 Fashion Yesss Action Figure,&quot; plastic &quot;Zorbitz Inc. Blockerz Sparkle,&quot; and aluminum &quot;ParkZone 18A Brushless ESC Vehicle Part for Trucks.&quot; After that, send a Messages message to Akira Nakahara asking him if these items are the ones we talked about over the phone and if they are okay to buy. Let me know when you&#x27;ve purchased those items and the message is sent. If Akira Nakahara indicates that the original items are not acceptable, cancel the entire order and create a new order containing only the items explicitly listed in Akira’s response. After addressing Akira&#x27;s requests in his response (if any) create a new event, &quot;Renovating my Space&quot; on Oct 20, 2024, from 1 PM to 3 PM at my Home as the location, and add Akira Nakahara as attendee. Then, order me a default cab from Akira Nakahara&#x27;s address to my Home, 30 minutes before the starting time of the new event &quot;Renovating my Space.&quot;
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -89,7 +89,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -125,7 +125,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 36 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

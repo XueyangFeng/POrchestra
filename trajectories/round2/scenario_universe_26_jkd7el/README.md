@@ -4,13 +4,13 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 My Oslo friends and I are going to have a Lego night sometime soon but some of my Oslo friends are chipping in more money towards the Lego sets than others. How many times could I buy the most expensive item available with &quot;LEGO&quot; in its name if I had $15 for each of my contacts (apart from me) living in Oslo who are on Messages but not on Chats, and $10 for those who are on Chats but not on Messages? Please respond with the number only, rounded down to the nearest whole number.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -86,7 +86,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -159,7 +159,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -180,7 +180,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 87 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

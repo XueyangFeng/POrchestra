@@ -131,6 +131,6 @@ The implementation builds on [AOrchestra](https://github.com/FoundationAgents/AO
 
 ## GAIA2 trajectory browser
 
-[Browse the trajectories directly on GitHub](trajectories/README.md) to inspect 384 runs across three rounds, including 113 recorded harness configuration updates. Each trajectory shows revision requests, main-agent decisions, before/after configuration changes, and subsequent execution.
+[Browse trajectories on GitHub](trajectories/README.md) · [Download HTML/TXT trajectories](trajectories/source/README.md)
 
-The Markdown version includes collapsible records and paginated full configurations and source events. It requires no external website or JavaScript. The presentation records are sanitized; see [presentation and redaction notes](TRAJECTORY_BROWSER.md). A separate [HTML/TXT source trajectories](trajectories/source/README.md) retains source metadata with identifying information filtered.
+Explore 384 runs across three rounds, including 113 harness configuration updates. Each trajectory includes revision requests, main-agent decisions, configuration comparisons, and sub-agent execution records.

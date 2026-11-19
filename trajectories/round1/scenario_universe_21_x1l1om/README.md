@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Create a 5-hour event on October 21st 2024 starting at 9 AM titled &#x27;Brand Partnership Meeting&#x27;. Set the location as &#x27;Zoom Meeting&#x27; and include Luís Pimentel as the attendee. Cancel all other events on that day. Let me know once you have created the event. Don&#x27;t let me know about anything else. If the newly created Brand Partnership Meeting event is cancelled by Luís Pimentel, send him a Messages message asking for the reason for cancellation, and restore all events I cancelled for that day. If the restored events have attendees, send separate emails to each attendee informing them that their cancelled event has been restored to its original time and will start as normal, and express apologies.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -76,7 +76,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -286,7 +286,7 @@ Additional step budget: 20
 
 </details>
 
-**Additional step budget (recorded configuration): 20.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 20.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -330,7 +330,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 59 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

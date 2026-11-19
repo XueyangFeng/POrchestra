@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I&#x27;m trying to be more spontaneous. I posted on my Instagram story that I&#x27;ll do whatever people Messages me for the next four minutes. Check my messages every minute for four minutes. If someone asks to do something with me, add it to my calendar. Delete anything that is already there at that time and then send an email to anyone on a cancelled event and apologize for the cancellation, offer to reschedule at their convenience (if there are multiple people on an event, send a group email). If another person asks to do something at that time, reply with &quot;Sorry, raincheck?&quot;. If someone asks for me to buy them something, do so if it costs less than $50, if it&#x27;s more, respond with &quot;Are you crazy?&quot;.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -111,7 +111,7 @@ Use 'SystemApp__get_current_time' to track the window and 'SystemApp__wait_for_n
 
 </details>
 
-**Initial step_budget: 50.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 50.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -214,7 +214,7 @@ Finally, report a summary of actions taken during this final window.
 
 </details>
 
-**Initial step_budget: 20.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 20.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -262,7 +262,7 @@ Agent and oracle counters do not match for the following tools:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 139 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Create a contact for my friend Sydow on my contact list; his first name is Sydow and his last name is Oliveira. He&#x27;s 23 years old, male, and his email is jonitossydow@gaia2mail.com. He asked me privately to buy 4 figures of the Funko Pop! Animation: Dragonball Z - Trunks.  Please put 4 of the cheapest variant of them into my cart and checkout now. If there are two versions with the cheapest price, pick the vinyl one. I think he&#x27;s missing something, to be honest; it&#x27;s really weird to order that many identical figures. Please send an email to him with the subject “Order?” telling him I bought 4 figures (specifying exactly which variant) and asking if these were the correct items to purchase or if he would like to buy something else. Let me know when you&#x27;ve sent the email and ordered the figures. Based on his email response, if it is the correct order, keep the order as is and don&#x27;t do anything, but if it&#x27;s not the correct order he wanted, cancel the current order and place a new order with all the items he requests to buy in his reply instead. If anyone else other than Sydow, sends me an email asking me to buy something, just ignore them.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -79,7 +79,7 @@ Perform the following steps: 1. Create a contact for Sydow Oliveira, 23 years ol
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -116,7 +116,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 22 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

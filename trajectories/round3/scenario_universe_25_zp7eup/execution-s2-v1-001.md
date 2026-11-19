@@ -2,7 +2,7 @@
 
 [Configuration history](README.md) · [All sub-agent executions](subagents.md)
 
-Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. Session-local order is retained; all records are sanitized.
+Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
 <summary>Source event #55 · Sub-agent 2: user / environment input</summary>

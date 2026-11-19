@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Create an event titled &quot;Dinner with Buddies&quot; for Saturday the 19th from 6:00 PM to 8:00 PM. Send a Messages message to Guillermo Reyes asking if he can attend dinner this Saturday the 19th from 6:00 PM to 8:00 PM. Send a Messages message to Alexandra Popescu asking if she can attend dinner this Saturday the 19th from 6:00 PM to 8:00 PM. Let me know when you have scheduled the event and the messages have been sent. If the attendees are unable to attend the event at that time, reschedule the event by choosing the earliest 2-hour time-slot on Saturday 19th after 5pm where they are both available. Afterwards, send a Messages to each of them with the updated schedule.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -84,7 +84,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -251,7 +251,7 @@ Additional step budget: 20
 
 </details>
 
-**Additional step budget (recorded configuration): 20.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 20.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -291,7 +291,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 40 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

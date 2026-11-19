@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 If any new variants of the existing products with Great Eastern Entertainment in their names that cost less than 34.5 dollars are added in the next 3.5 minutes, add them to the cart exactly after 3.5 minutes from now have passed. Immediately after adding all the items to the cart, checkout the cart and then send a group email to the contacts from Trondheim to tell them how many new products I bought. After everything is done, notify me the total number of variants bought and the total amount spent.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -71,7 +71,7 @@ Search for and list all existing products with 'Great Eastern Entertainment' in 
 
 </details>
 
-**Initial step_budget: 15.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 15.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -150,7 +150,7 @@ Perform the following steps exactly:
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -219,7 +219,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
@@ -242,7 +242,7 @@ Agent and oracle counters do not match for the following tools:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 80 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

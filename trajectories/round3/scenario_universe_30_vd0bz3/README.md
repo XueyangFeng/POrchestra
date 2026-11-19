@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 3
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Cancel my dinner with Evangelia and Kaidën on Saturday, October 19, 2024 from 7PM to 9PM. Then send an individual email to each them letting them know I had to cancel the dinner as I will not be able to make it on that time, and invite each one of them to join me for brunch the next day (Sunday) from 10AM to 1PM at Jamun Gulab Cafe. Let me know once you send the emails. Exactly 4 minutes after notifying me check if they have replied, and if they both agree to brunch, schedule the brunch in my calendar; if one or both decline, send one joint email to both of them asking about a dinner together this Sunday, October 20, from 7PM to 9PM at The Pint Shop, Cambridge.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -94,7 +94,7 @@ Perform the following steps:
 
 </details>
 
-**Initial step_budget: 50.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 50.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -266,7 +266,7 @@ Additional step budget: 30
 
 </details>
 
-**Additional step budget (recorded configuration): 30.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 30.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -447,7 +447,7 @@ Context: Confirmed: ignore any emails not from evangelia.papadopoulos@student.tu
 
 </details>
 
-**Additional step budget (recorded configuration): 30.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 30.**
 
 Full system configuration: [Part 1](config-s1-v3-01.md)
 
@@ -645,7 +645,7 @@ Additional
 
 </details>
 
-**Additional step budget (recorded configuration): 30.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 30.**
 
 Full system configuration: [Part 1](config-s1-v4-01.md)
 
@@ -687,7 +687,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 60 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

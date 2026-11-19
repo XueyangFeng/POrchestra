@@ -4,13 +4,13 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Determine the zip code that is most commonly found in the end locations of my booked cab rides last month. Find my contacts who live in that zip code (if there is a tie in the zip codes, then find the contacts in all the tied zip codes), and tell me the name of the one who appears as an attendee the most times in my calendar events last month. If there is a tie, then tell me the name of the youngest one of those who are tied.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -83,7 +83,7 @@ stop
 
 </details>
 
-**Initial step_budget: 50.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 50.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -127,7 +127,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 44 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

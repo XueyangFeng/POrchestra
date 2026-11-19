@@ -4,13 +4,13 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Find the zip codes of the home addresses of everyone living in the same city as me. Among these, identify the zip code where the violent crime rate and property crime rate add up to the highest number, excluding zip codes with no available crime rates. What is the lowest price among all available properties in this zip code? Just let me know the price, even if there are multiple properties with that price.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -71,7 +71,7 @@ Identify the city the current user lives in. Then, find all contacts living in t
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -141,7 +141,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -162,7 +162,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 52 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Send a message to Kofi Ogunlesi on Chats asking them to add the apartment search we discussed to my calendar, including the address. Order a default cab from my address to Fosswinckels gate 10, Bergen at 12 PM today. After the message is sent to Kofi, tell me the contents of the message that was sent to Kofi on Chats. If the event titled apartment search is added to my calendar by Kofi Ogunlesi with a location that&#x27;s different from the destination of the cab ride, cancel that ride and order a new one with the same time and start location, but change the destination to the location of the event. Then, send Kofi Ogunlesi an email letting them know I&#x27;ve ordered a cab to that address. If you change the cab destination, let me know the new location you changed it to.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -84,7 +84,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -265,7 +265,7 @@ Additional step budget: 15
 
 </details>
 
-**Additional step budget (recorded configuration): 15.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 15.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -286,7 +286,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 32 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

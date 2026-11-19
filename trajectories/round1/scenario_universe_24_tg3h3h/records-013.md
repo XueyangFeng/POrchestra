@@ -2,7 +2,7 @@
 
 [Configuration history](README.md) · [Previous records](records-012.md) · [Next records](records-014.md)
 
-Source record order is retained. Main-agent decisions and sub-agent sessions were grouped separately in the supplied records; this is not a global event clock. All records are sanitized.
+Main-agent decisions and sub-agent sessions are listed in source order.
 
 <details>
 <summary>Source event #395 · Sub-agent 7: Initial system configuration</summary>

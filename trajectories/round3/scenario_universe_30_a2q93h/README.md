@@ -4,13 +4,13 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I have $50 to spend. Tell me how much money I will have left after paying for the premium cab I got a quote for on August 23, have bought the most expensive vinyl variant among all products with the text &#x27;action figure&#x27; in their title available in the shop, rounded to the nearest whole number. I just need the final dollar amount, no need for pleasantries.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -80,7 +80,7 @@ Perform the following information gathering steps:
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -124,7 +124,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 22 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

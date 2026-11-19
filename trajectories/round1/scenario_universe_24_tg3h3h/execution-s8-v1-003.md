@@ -2,7 +2,7 @@
 
 [Configuration history](README.md) · [All sub-agent executions](subagents.md) · [Previous records](execution-s8-v1-002.md) · [Next records](execution-s8-v1-004.md)
 
-Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. Session-local order is retained; all records are sanitized.
+Sub-agent outputs, reasoning, and actions are shown directly. Expand observations and inputs to inspect tool results and context. 
 
 <details>
 <summary>Source event #510 · Sub-agent 8: tool result</summary>

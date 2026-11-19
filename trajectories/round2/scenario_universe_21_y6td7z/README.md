@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Find the three most recent emails that have Collaboration within the subject line. In order of most recent to third most recent, schedule a meeting every day for the next three days beginning tomorrow using each email&#x27;s subject line as the title of the calendar event. The time for each event is 7am for one hour via Zoom. After creating the event, then reply to those emails letting them know the details of their respective scheduled meeting, to let me know if the date and time works, and to reply with their preferred date and time if applicable. Send me a message letting me know when the emails have been sent.  If the dates and times do not work for them, please reschedule the meeting based on their response and if needed, delete all of my currently scheduled events that would conflict with their preferred meeting time based on their responses. For each person who responds, individually add 1 copy of the Num Noms Snackables Silly Shakes- Candy Corn Smoothie, gluten free for 7-10 years old to cart and checkout once all are added. If you do not receive a response from all attendees, do not check out and leave the items in the cart.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -84,7 +84,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -330,7 +330,7 @@ Additional step budget: 30
 
 </details>
 
-**Additional step budget (recorded configuration): 30.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 30.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -376,7 +376,7 @@ Agent and oracle counters do not match for the following tools:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 57 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

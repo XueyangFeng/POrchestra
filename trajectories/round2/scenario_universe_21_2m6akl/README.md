@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 In my news folder find the txt file about Copa América 2024. Send it individually via Messages to two of my friends letting them know that this is the news I was talking about. If they don&#x27;t use Messages with me, send it via Chats. The first one is Swedish and he has the same initials as myself, lives in the same city as me, his phone number ends with &#x27;456&#x27; and he is in his middle 30s. The second one is export manager form China, and his last name starts with the same letter as mine. After you send them the news, move the file from the news folder to downloads. In my Family folder, delete any pictures that include &#x27;Night&#x27; in their names. Also, let me know how many files I have in that folder which names start with the word &#x27;First&#x27;.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -90,7 +90,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -174,7 +174,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -253,7 +253,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
@@ -334,7 +334,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s4-v1-01.md)
 
@@ -420,7 +420,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s5-v1-01.md)
 
@@ -508,7 +508,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s6-v1-01.md)
 
@@ -600,7 +600,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s7-v1-01.md)
 
@@ -689,7 +689,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s8-v1-01.md)
 
@@ -727,7 +727,7 @@ Oracle sent 1 more message(s) than agent.
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 512 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

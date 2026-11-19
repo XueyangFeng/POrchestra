@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Ryder McKenzie is coming to visit; I think he&#x27;s coming on Nov. 24. Book a default cab at 10AM that day to pick him up at the airport (Chhatrapati Shivaji Maharaj International Airport, Mumbai, Maharashtra 400099) and bring him to my home address. Send him an email titled &quot;Confirming Your Arrival Date&quot;, asking him to confirm the date of his arrival. Tell me when you&#x27;ve booked the cab and sent the email. If he replies that he&#x27;s coming a different day than I thought, then change the cab ride to 10AM on the day that he says, and cancel all my calendar events for that day.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -77,7 +77,7 @@ Perform the following actions: 1) Find the email address for 'Ryder McKenzie' an
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -255,7 +255,7 @@ Additional step budget: 20
 
 </details>
 
-**Additional step budget (recorded configuration): 20.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 20.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -276,7 +276,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 41 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

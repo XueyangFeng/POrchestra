@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Purchase one ebook copy of &#x27;The Dead of Night&#x27; for each of my contacts whose listed job includes the word &#x27;Librarian&#x27; or the phrase &#x27;Former Librarian&#x27;, and send each of those contacts an individual email with the subject &#x27;New Book&#x27;, notifying them that I bought them a new book for their collection.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -75,7 +75,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -150,7 +150,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -171,7 +171,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 59 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

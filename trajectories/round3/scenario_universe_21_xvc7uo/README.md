@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I need to move out, but my budget is tight at the moment. Delete all properties in Stockholm from my saved apartments list that are not in the 1000-1800 price range. Save all unsaved properties in Stockholm within that price range to my list. If any properties matching my criteria are listed within 4 minutes from now, immediately send a Messages to my friend Linnea Svensson each time a new property within their budget is listed, as she is also looking to move out. Don&#x27;t notify me, I&#x27;ll check my list later.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -88,7 +88,7 @@ stop
 
 </details>
 
-**Initial step_budget: 50.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 50.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -134,7 +134,7 @@ Agent and oracle counters do not match for the following tools:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 72 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

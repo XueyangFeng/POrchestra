@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Add Herning Hytte to my saved list, and afterwards, create a new 1-hour entry in my calendar for this Friday at 3 PM titled &quot;View the apartment,&quot; with the location set to the apartment&#x27;s address. Tag it as Work, with no description. Set Nonglak Srisawat as the attendee for the event. After creating the event, send her an email asking her to confirm that the time works to view the apartment. Let me know when you send the initial email to her. If she suggests a different time, reschedule the apartment viewing event in my calendar to the time she suggests, and afterwards, send her a confirmation email. If you had to reschedule, notify me of the new time after you&#x27;ve sent the confirmaton email to her. Don’t respond to any other emails received that aren’t related to this apartment viewing.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -81,7 +81,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -120,7 +120,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 19 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

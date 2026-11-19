@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I&#x27;m trying to find a property with my three friends, so we need at least 4 bedrooms. Every property I have saved so far has been no good. My friends I&#x27;m referring to are the ones in my most recently updated group chat on Chats. Find the most expensive 4+ bedroom properties and save them if they are not already saved. If there are multiple properties with the same price, save them all if they are not already saved. Then, with the saved property with the largest square footage out of the ones saved, message the group chat with its details (name, price, bedrooms, furnished status, and pet policy), and ask if they are happy with it, and if not, whether they have any specifications for a property. Let me know when you send the message to my friends. If all my friends say no reject the recommended property, remove it from my saved list and then save all properties (that aren&#x27;t already saved) that meet every requirement specified by everyone and have at least four bedrooms. Reply to my friends with the names of all of these properties that you found (regardless if they were saved or not), stating that these match their specifications. Once everything is done, tell me how many properties I have saved now.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -87,7 +87,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -265,7 +265,7 @@ Additional step budget: 20
 
 </details>
 
-**Additional step budget (recorded configuration): 20.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 20.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -286,7 +286,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 44 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

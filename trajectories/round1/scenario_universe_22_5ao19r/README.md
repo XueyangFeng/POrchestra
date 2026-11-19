@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Wait for 60 seconds maximum to see if I will receive an email from emma.sommeliers84@winemail.com. If I do, immediately send me the details from the email, and add any events mentioned in the email to my calendar, remove any events that conflict with the mentioned events, and book a default ride to the venue (1234 NW Davis St, Portland, OR 97209) from my home for 10 minutes before the earliest event&#x27;s start time.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -75,7 +75,7 @@ Check the inbox for any email from emma.sommeliers84@winemail.com. If no such em
 
 </details>
 
-**Initial step_budget: 15.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 15.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -230,7 +230,7 @@ Additional step budget: 10
 
 </details>
 
-**Additional step budget (recorded configuration): 10.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 10.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -293,7 +293,7 @@ stop
 
 </details>
 
-**Initial step_budget: 10.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 10.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -318,7 +318,7 @@ Agent and oracle counters do not match for the following tools:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 32 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

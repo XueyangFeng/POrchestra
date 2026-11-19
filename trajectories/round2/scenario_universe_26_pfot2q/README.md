@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I&#x27;m going to celebrate a surprise birthday party for myself! I want it to be on Friday, October 18th, but don&#x27;t tell me the exact time. Please individually email only my good friends: Nalinee Wongcharee, Rohan Sengupta, and Aurélie Desjardins that I want to have a surprise birthday party and ask them what time they are free on Friday. Title the email &quot;Surprise Birthday Party&quot;. Only let me know once you&#x27;ve sent those emails. In exactly 4 minutes of notifying me, see who has responded, and immediately schedule the event for 2 hours at the earliest 2 hour time slot they are all available at, based on their email replies. If any of them responded they are not able to come, remove them from my contacts and reply to the email saying they are not my real friend and I never want to talk to them again. Please place the event on my calendar for &quot;Surprise Birthday&quot; with confirmed attendees at the agreed time, deleting all existing events in that time slot.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -74,7 +74,7 @@ stop
 
 </details>
 
-**Initial step_budget: 20.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 20.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -113,7 +113,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 21 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

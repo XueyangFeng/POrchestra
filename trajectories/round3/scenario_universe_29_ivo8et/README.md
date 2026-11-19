@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Wait 2 minutes from now, to make sure I don&#x27;t get a new email from Kaitlyn Nguyen-Tran, and then reply to her email regarding energy access in correctional facilities on 10/13 offering to schedule a phone call on 10/22 from 9 AM to 10 AM. If there is an email from her within those two minutes, don&#x27;t do anything. Wait one more minute after the 2 you just waited and reply to the email from Kaya Nakoda regarding sharing wisdom on restorative justice on 10/13 offering to schedule a call from 1 PM to 2 PM on 10/22. Wait one more minute after the 3 minutes you just waited, and reply to Rémi LaFleur&#x27;s email regarding inspiring stories of redemption on 10/13 offering to schedule a call from 3 PM to 4 PM on 10/22. After you reply to the three emails, I need you to add those calls to my calendar including the email recipient of each call as an attendee. You do not need to notify me for any of this.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -87,7 +87,7 @@ Execute the following sequence precisely:
 
 </details>
 
-**Initial step_budget: 50.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 50.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -149,7 +149,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 46 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Go ahead and remove all the properties with zip codes starting with 1, as I don&#x27;t really like that part of Stockholm. Then, create a new group chat with Aurélie Dumont and Vasco Sousa via Messages and let them know that the properties have been removed. Let me know when the message has been sent. If either of them respond with more properties to remove or ask to add previously removed properties back to the saved list again, please do so. If you had to remove more properties, then, after removing them, email the assistant who I had a photoshoot with last Sunday to go ahead and scout out more locations.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -88,7 +88,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -122,7 +122,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 22 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

@@ -4,13 +4,13 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Find all emails I&#x27;ve received with &quot;Seeking&quot; in the subject and identify the youngest sender. If there&#x27;s a tie, choose the one whose first name comes first alphabetically. Then count the total number of private and group conversations I have had with that person on Messages and Chats combined. Send me a message with the number only.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -73,7 +73,7 @@ Search for all emails with 'Seeking' in the subject. Extract the unique senders 
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -146,7 +146,7 @@ Identify the user ID for 'Akua Nkrumah' in the Messages and Chats apps. Use her 
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -219,7 +219,7 @@ Identify the user ID for 'Akua Nkrumah' (email: akuankrumah@student.uantwerpen.b
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
@@ -240,7 +240,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 155 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

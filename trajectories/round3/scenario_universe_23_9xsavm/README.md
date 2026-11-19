@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I want to host a board game night with my friends. Schedule in the calendar as &quot;Game Night&quot; (Tag &#x27;social&#x27;, location &#x27;home&#x27;) on Friday, October 18, 2024 at 7:00 PM-11:00 PM. After you&#x27;ve scheduled it, send individual invites via Messages to my friends Eliška Nováková, Luiza Oliveira Silva and Saskia König. If they aren&#x27;t on Messages, use Chats. Let me know once you&#x27;ve sent the messages. If the date doesn&#x27;t work for them, go with the first day that all of them are available and cancel anything on my calendar that conflicts with the 7pm-11pm timeslot on that day. Cancel the original Game Night, and reschedule with the new date. Send them each a follow up Messages or message confirming the final scheduled event details.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -94,7 +94,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -170,7 +170,7 @@ Reschedule 'Game Night' to Saturday, October 19, 2024:
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -213,7 +213,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 85 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

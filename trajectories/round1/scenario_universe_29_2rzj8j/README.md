@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I have an exclusive viewing appointment for the 4 bedroom property in Mumbai on my saved list. Add the 1-hour viewing appointment to my calendar. It starts at 7:45am today and set the location as the property&#x27;s address. Order a default cab for now to take me from my home to the property. Please tell me the name and price of the property when you are done.  If the cab ride is delayed, please delete all events scheduled to start before 12pm today, including the one you just made but reschedule it to start one hour later, and then send individual emails to the affected attendees apologizing that I am unable to attend whatever event was deleted and they are a part of due to an unexpected delay.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -71,7 +71,7 @@ Find the '4 bedroom property in Mumbai' in the saved apartments list. Retrieve i
 
 </details>
 
-**Initial step_budget: 10.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 10.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -144,7 +144,7 @@ Perform the following actions: 1) Add a 1-hour calendar event titled 'Viewing Ap
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -175,7 +175,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 27 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

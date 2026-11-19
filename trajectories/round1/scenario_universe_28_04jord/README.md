@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 10
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Check the RentAFlat app every second for 4 minutes. If a property listing in the 8000 zip code appears, immediately save it to Save Apartments. Exactly 1 minute after saving the last one, if two or more new listings have been saved during this time, delete all saved properties in the 9000 zip code.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -75,7 +75,7 @@ Establish a baseline of apartments in the 8000 zip code. Monitor the RentAFlat a
 
 </details>
 
-**Initial step_budget: 80.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 80.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -226,7 +226,7 @@ Additional step budget: 293
 
 </details>
 
-**Additional step budget (recorded configuration): 293.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 293.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -393,7 +393,7 @@ Context: Baseline apartments in zip 8000: ['04a9a58b00394871a28e7113ea042220', '
 
 </details>
 
-**Additional step budget (recorded configuration): 293.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 293.**
 
 Full system configuration: [Part 1](config-s1-v3-01.md)
 
@@ -568,7 +568,7 @@ Resource: {'operation': 'request', 'object': 'budget', 'details': 'Inc
 
 </details>
 
-**Additional step budget (recorded configuration): 293.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 293.**
 
 Full system configuration: [Part 1](config-s1-v4-01.md)
 
@@ -736,7 +736,7 @@ Tools: ['RentAFlat__search_apartments', 'RentAFlat__save_apartment', 'RentAFlat_
 
 </details>
 
-**Additional step budget (recorded configuration): 293.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 293.**
 
 Full system configuration: [Part 1](config-s1-v5-01.md)
 
@@ -904,7 +904,7 @@ Context: Continue using the baseline of 16 apartments in zip 8000 established at
 
 </details>
 
-**Additional step budget (recorded configuration): 293.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 293.**
 
 Full system configuration: [Part 1](config-s1-v6-01.md)
 
@@ -1071,7 +1071,7 @@ Task scope: {'operation': 'keep', 'object': 'monitoring and conditional deletion
 
 </details>
 
-**Additional step budget (recorded configuration): 293.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 293.**
 
 Full system configuration: [Part 1](config-s1-v7-01.md)
 
@@ -1235,7 +1235,7 @@ Current time is approx 07:02:00. Monitoring window ends at 07:04:00. One new lis
 
 </details>
 
-**Additional step budget (recorded configuration): 293.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 293.**
 
 Full system configuration: [Part 1](config-s1-v8-01.md)
 
@@ -1397,7 +1397,7 @@ Current time is approx 07:02:00. Monitoring window ends at 07:04:00. One new lis
 
 </details>
 
-**Additional step budget (recorded configuration): 293.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 293.**
 
 Full system configuration: [Part 1](config-s1-v9-01.md)
 
@@ -1461,7 +1461,7 @@ Action:
 
 **2. Main-agent decision**
 
-No explicit decision-to-configuration link was supplied.
+Decision link: —
 
 **3. Applied configuration changes**
 
@@ -1684,7 +1684,7 @@ Current time is approx 07:02:00. Monitoring window ends at 07:04:00. One new lis
 
 </details>
 
-**Additional step budget (recorded configuration): 293.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 293.**
 
 Full system configuration: [Part 1](config-s1-v11-01.md)
 
@@ -1766,7 +1766,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 536 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Reschedule the research meeting at 4pm on October 18th to October 20th using the same times an details. Then, send an email to klaus.peter.mueller@berlin.de with the subject &quot;Rescheduling of research meeting&quot;. CC in saskia.mueller.design@gaia2mail.com. Tell them I have rescheduled our research meeting to Sunday 20th. Time and place is the same. Book a cab on October 20th for 3:30pm going from &quot;Home&quot; to &quot;Cavendish Laboratory, 19 JJ Thomson Ave, Cambridge CB3 0DY&quot;. Use premium service. Add 2 of the cheapest available Resin material, Grey color variants of Airfield Concrete Tarmac Section 1/48 to cart. If there are multiple ones of the same cheapest price, then just add 2 of the first item alphabetically. Checkout the cart using any discount codes that may be available.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -75,7 +75,7 @@ Find the calendar event titled 'research meeting' scheduled for October 18th, 20
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -140,7 +140,7 @@ Perform two subtasks: 1) Send an email to 'klaus.peter.mueller@berlin.de' with C
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -213,7 +213,7 @@ Perform the following shopping task: 1) Search for 'Airfield Concrete Tarmac Sec
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
@@ -257,7 +257,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 46 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

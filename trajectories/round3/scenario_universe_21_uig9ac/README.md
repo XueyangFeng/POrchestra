@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Create a new contact in my contact list with the first name Arnold, the last name Schwarzenegger, and the email address arnold@fitness.com. After you have him added, send him an email with the subject &quot;Biceps Exercises?&quot; and in the content, ask him for his top 5 biceps exercises. This coming Sunday, create an event titled &quot;Apartment Tour&quot; from 2:00 to 4:00 that afternoon. Find the lowest priced property on my saved apartments list in the 211 43 zip code that has a Gym as an amenity and let me know the name of that property. Order me a default cab ride to pick me up from my Home at 1:00 PM on this coming Sunday and take me to that property. Send a private message to Vasco Pinto on Chats and ask him if he knows of any good gyms in the 211 43 zip code.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -69,7 +69,7 @@ Create a new contact for 'Arnold Schwarzenegger' with the email 'arnold@fitness.
 
 </details>
 
-**Initial step_budget: 10.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 10.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -152,7 +152,7 @@ Perform the following steps:
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -173,7 +173,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 29 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

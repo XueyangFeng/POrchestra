@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 At exactly 4 minutes from now, reply to each new email I received during these 4 minutes with &quot;You&#x27;ve been blessed by the powerful witch Baba Yaga. She has gifted you one of her rare magical artifacts: Magic 8 Ball.&quot; Exactly 30 seconds after you have sent these replies, add to my cart a mini blue mattel magic 8 ball for each unique email address you replied to, and then check out. Then, set a reminder on my calendar titled &quot;Reminder: Hand Out Gifts,&quot; for all day on the 31st of this month so I remember to hand out these gifts to the winners.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -89,7 +89,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -133,7 +133,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 58 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

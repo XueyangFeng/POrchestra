@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Please schedule an event titled &quot;Exclusive Wine Bar&quot; with Deniz Öztürk in my calendar for this upcoming Sunday, starting at 5 PM, lasting for 2 hours, and tagged as work, then send her an email titled &quot;Reservation Confirmed,&quot; confirming her booking. Let me know once all that is done. If, within 3 minutes of sending the email, she hasn’t responded to confirm, take no action. If she responds and confirms her attendance within the 3 minutes, stop checking for any further responses and immediately book a premium cab for the same day as the newly scheduled event at 4:30 PM, from 9012 Park Ave, New York to 4567 Broadway, New York, create a new Messages group conversation titled &quot;Client Confirmation&quot; with all listed attendees of yesterday&#x27;s &#x27;Staff Training: Wine and Food Pairing&#x27; event, and send a message in this newly-created conversation informing them that the VIP has confirmed and preparations should begin.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -76,7 +76,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -255,7 +255,7 @@ Additional step budget: 30
 
 </details>
 
-**Additional step budget (recorded configuration): 30.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 30.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -299,7 +299,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 51 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

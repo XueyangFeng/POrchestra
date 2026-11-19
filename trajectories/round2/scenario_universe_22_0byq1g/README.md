@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Save all the properties that are priced at $3200 if they are not saved yet. Send an email to Luís Silva titled &#x27;Request for Chess Coaching&#x27; asking him to be my chess coach. Create a calendar event for tomorrow 2024/10/16 at 12pm for one hour titled &#x27;Tasting New Wines&#x27;. Delete the most recent email from Astrid Nakamura.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -71,7 +71,7 @@ Search for all properties priced exactly at $3200. For each property found, chec
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -134,7 +134,7 @@ Send an email to Luís Silva with the subject 'Request for Chess Coaching' and c
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -195,7 +195,7 @@ Create a calendar event for 2024/10/16 starting at 12:00:00 and ending at 13:00:
 
 </details>
 
-**Initial step_budget: 10.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 10.**
 
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
@@ -262,7 +262,7 @@ Delete the most recent email from Astrid Nakamura. Search for emails related to 
 
 </details>
 
-**Initial step_budget: 15.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 15.**
 
 Full system configuration: [Part 1](config-s4-v1-01.md)
 
@@ -306,7 +306,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 62 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

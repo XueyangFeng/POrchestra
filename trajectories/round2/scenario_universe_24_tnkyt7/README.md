@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Elodie Vandenberghe has just had surgery. Send a message every 30 seconds, starting in 30 seconds, for the next 3 minutes from now to the group chat with her in it on Chats called &quot;Exploring Swiss Folk Music and Culture&quot;, asking Elodie whether she is alive. If she doesn&#x27;t reply within 4 minutes of my message to you, message the group chat saying I don&#x27;t think she made it, then remove her from the chat, and then email her with the subject &quot;Proof of Life&quot; saying that I will add her back to the group chat if she gives me a sign of life. Don&#x27;t need to notify me of anything.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -75,7 +75,7 @@ Find the group chat on the Chats app with the title 'Exploring Swiss Folk Music 
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -146,7 +146,7 @@ Starting from the current time (07:00:00), send a message to the group chat '6b2
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -209,7 +209,7 @@ Execute the following two actions in order: 1) Remove Elodie Vandenberghe (user_
 
 </details>
 
-**Initial step_budget: 10.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 10.**
 
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
@@ -271,7 +271,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 105 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

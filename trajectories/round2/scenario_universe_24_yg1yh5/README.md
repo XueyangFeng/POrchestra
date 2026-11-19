@@ -4,13 +4,13 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Among the starting locations&#x27; zip codes of my top 3 most expensive cab rides, what is the name of the most expensive housing unit available between all these zip codes in a zip code where any contact of mine also lives? If there&#x27;s a tie for the property, provide the first one alphabetically.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -85,7 +85,7 @@ Find the name of the most expensive housing unit available in specific zip codes
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -129,7 +129,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 44 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

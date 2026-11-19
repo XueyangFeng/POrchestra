@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Check for the next 2.5 minutes to see if the blue Abacus with Clock becomes available to purchase. If it does, add it to my cart at exactly the 2.5 minute mark and then purchase it. After purchasing, wait exactly 1 minute, then send individual messages through Chats with the price of the product to all contacts with either &quot;economist&quot;, &quot;economic&quot;, or &quot;finance&quot; in their job title and/or contact description. Exactly 1 minute after sending these Chats messages, notify me that you&#x27;ve sent them.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -92,7 +92,7 @@ stop
 
 </details>
 
-**Initial step_budget: 50.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 50.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -113,7 +113,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 98 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

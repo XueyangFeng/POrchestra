@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Create a folder inside the &quot;Documents&quot; directory named &quot;Cold War&quot;, then, move the file &quot;names+achievements.xlsx&quot; to &quot;Cold War&quot;, then send it in a single email to the sender of the email with the subject &quot;Historical Accuracy in Spy Novels&quot; and to the former military pilot from Russia, also, create a new group conversation on Messages and share the document with the other history teachers (excluding myself), former or not, on Messages. If one or more of them is not on Messages, send the file to those individuals together in a single email, and still share it on Messages with the others.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -89,7 +89,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -163,7 +163,7 @@ Perform the following communication tasks:
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -217,7 +217,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 89 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

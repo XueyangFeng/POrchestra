@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Delete all events from my calendar on the day this week that has the most events, as I need time to prepare for my RPG session. Additionally, order a plastic translucent Alien RPG: stress dice set in the collectible tin packaging.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -71,7 +71,7 @@ Identify the day this week (Monday 2024-10-14 to Sunday 2024-10-20) that has the
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -142,7 +142,7 @@ Search for and order one 'plastic translucent Alien RPG: stress dice set' in the
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -163,7 +163,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 38 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

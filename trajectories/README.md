@@ -1,10 +1,10 @@
 # GAIA2 harness configuration trajectories
 
-Browse all trajectories directly on GitHub. No external website or JavaScript is required. Expand the details in each trajectory to inspect requests, decisions, and configuration changes.
+Browse 384 trajectories across three rounds. Expand each trajectory to inspect requests, decisions, and configuration changes.
 
-The Markdown presentation records are sanitized. Provider identifiers, host-local paths, credentials, and known personal identifiers are removed or replaced. Task content and recorded configuration changes are retained.
 
-[Download the source trajectories](source/README.md) for the supplied HTML/TXT layout with identifying information filtered. Its retained metadata differs from this presentation edition; see the source notes.
+
+[Download the trajectories in HTML/TXT format](source/README.md).
 
 Every task has a prominent **Read the sub-agent execution traces** link. Dedicated execution pages show sub-agent outputs, reasoning, and tool actions directly, with expandable tool observations and context.
 
@@ -25,4 +25,4 @@ Every task has a prominent **Read the sub-agent execution traces** link. Dedicat
 
 Each trajectory shows the initial harness configuration, the sub-agent revision request, the corresponding main-agent decision, applied configuration differences, and subsequent actions. Full system configurations and every source event are available through Markdown links.
 
-Configuration histories preserve session-local order; they do not reconstruct missing global timestamps or establish framework source-code changes. Budget fields retain their recorded meaning. Excerpts in summaries link to complete records.
+

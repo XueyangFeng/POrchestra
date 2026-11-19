@@ -4,13 +4,13 @@
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Add together the ages of all my contacts in Dublin. Do the same for my contacts in Galway, and find the absolute difference between the 2 total age numbers. Add together the digits of the difference, and find the zip code with the closest violent crime rate to this number (if there is a tie, use the zip code that is the biggest number). Tell me the combined square footage of all properties in this zip code.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -76,7 +76,7 @@ stop
 
 </details>
 
-**Initial step_budget: 20.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 20.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -155,7 +155,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -206,7 +206,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 93 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

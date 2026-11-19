@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I’m going to have dinner with Kåre Sørensen this Friday from 8 PM to 10 PM. Add it to my calendar and send a Messages to him asking if everything’s okay for us to go have dinner. Book me a default cab from my home to Tøyengata 2, 0578 Oslo, 30 minutes before the dinner. Notify me once these tasks are completed. If somehow he won’t be able to attend, reschedule the calendar event on the time slot that works best for him &amp; rebook the cab for 30 minutes before this new timeslot. I want to make sure I have 30 minutes in between events so if needed, delete other calendar events happening in this timeslot or within 30 minutes of it.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -82,7 +82,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -167,7 +167,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -188,7 +188,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 61 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

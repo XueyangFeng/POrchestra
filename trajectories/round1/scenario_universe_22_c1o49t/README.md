@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Reschedule the wine tasting event this Friday that is latest in the day for this Saturday at the same time. Email each of the attendees notifying them that I have to reschedule the event for this Saturday at the same time and ask them if that day works for them using the subject &quot;Rescheduling&quot;. Let me know once you have finished these actions. If any of the attendees reply and mention that they are unable to attend during that time/date, delete the event and reschedule it for the earliest time and date that works for everyone, including myself (no conflicts in my calendar). After rescheduling the event, reply to the attendees emails informing them of the new time and date.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -77,7 +77,7 @@ Find the latest 'wine tasting' event on Friday, 2024-10-18. Record its details (
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -138,7 +138,7 @@ Send a message to the user using the AgentUserInterface__send_message_to_user to
 
 </details>
 
-**Initial step_budget: 10.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 10.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -161,7 +161,7 @@ Agent and oracle counters do not match for the following tools:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 34 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

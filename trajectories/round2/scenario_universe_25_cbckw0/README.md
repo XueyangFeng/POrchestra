@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I have an event with Åsa within the next two weeks, starting today. Can you book me a premium cab from Kasteelpark Arenberg, 3001 Leuven to Home, at 1PM on that date? Send a message to Åsa in Messages asking her if she can still make that phone call with me and telling her I&#x27;m not sure I can make it. Notify me when you book the ride and send the message.  If the the cab booking gets canceled, send Åsa a Messages message saying I&#x27;m sad but we won&#x27;t be able to talk that day. Then, delete my event with her in the next two weeks, and add Yoga Class in its place. Keep the date and time the same. Let me know if you&#x27;ve changed the event to yoga.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -85,7 +85,7 @@ Search for a calendar event with 'Åsa' in the title, description, or attendees 
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -115,7 +115,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 18 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

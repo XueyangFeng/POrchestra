@@ -4,13 +4,13 @@
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I&#x27;m collecting some interesting statistics to share with my contacts. Among all my 1:1 Messages chats, tell me the full name (first and last) of the contact with whom I&#x27;ve exchanged the most words, including both my messages and theirs. To make it comparable across different contacts, consider only the first 6 messages in each chat, and ignore conversations with fewer than 6 messages. To count words, simply split the messages by whitespace, that will be enough. I can&#x27;t wait to find out who you find, I&#x27;ll surprise them with this interesting fact. Answer only with the full name.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -77,7 +77,7 @@ Find the contact in 1:1 'Messages' chats with whom the user has exchanged the mo
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -154,7 +154,7 @@ Identify the contact with the highest word count in 1:1 Messages chats based on 
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -205,7 +205,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 130 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

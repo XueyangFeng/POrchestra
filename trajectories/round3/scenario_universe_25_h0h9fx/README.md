@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Create a lunch event on my calendar for 10/26/24 from 1 to 3 pm. Add Nalinee Srisombat as an attendee. After that, reply to her email dated 10/13/24. Tell her I have scheduled lunch at 1 pm on 10/26/24 for the two of us to get together and discuss sustainable architecture in Thailand. Tell her that if she needs to reschedule I am also available on 10/20/24 at 1 pm and she can delete the lunch event if that is the case, otherwise I would like her to send a reply email to confirm that she is available for 10/26/24. Send me a message once you have replied to her email.   If Nalinee deletes the calendar event, create another lunch event on 10/20/24 from 1 to 3 pm and add Nalinee as an attendee. If she sends a reply email confirming that she is available on the 26th, send a reply email with &quot;Thanks! See you then.&quot; I would also like you to do the following things after she deletes the event or sends a reply email confirming her available date: book a premium cab to pick me up at home on her preferred date (based on whether she deletes the event or replies to the email) at 12 pm and take me to Sint-Pietersnieuwstraat 133, 9000 Gent; order 1 of the Stephen Joseph Mini Sidekick Backpack in green as I want to get a little gift for Nalinee; and add the &quot;Brussels Bliss&quot; to my saved list, as it is a property I think she will like, and I want to tell her about it since she is moving to this area.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -79,7 +79,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -256,7 +256,7 @@ Additional step budget: 30
 
 </details>
 
-**Additional step budget (recorded configuration): 30.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 30.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -277,7 +277,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 48 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

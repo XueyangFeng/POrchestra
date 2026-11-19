@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Buy one of each of the available vinyl variants of the Funko Pop! Animation: Missing Link - Link product. Notify me once you place the order. I know these are in high demand, so the order might get canceled. If that happens, buy one of each of the available variants of the Funko Pop! TV: The Walking Dead - Daryl instead, and send Rashid Al-Mansoori a message on Messages letting them know I am buying this one instead.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -84,7 +84,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -249,7 +249,7 @@ Additional step budget: 30
 
 </details>
 
-**Additional step budget (recorded configuration): 30.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 30.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -270,7 +270,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 51 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

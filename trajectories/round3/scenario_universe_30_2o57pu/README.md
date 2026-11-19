@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 If I get any emails within the next 3 minutes asking me to schedule an event and they specify a date, time and duration, immediately reply back to them saying &quot;Yes.&quot; Then, add the corresponding event to my calendar based on the event details they provide in their email; delete any pre-existing events interfering with the time-frame provided and in case they have any attendees, send them individual Messages messages saying I won&#x27;t be able to attend. If anyone emails me within the next 3 minutes about scheduling an event and they don&#x27;t specify a date, time and duration, do not respond to them. Instead, in exactly 5 minutes from now, only let me know if anyone sent me an email asking to schedule but did not include time, date and duration.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -98,7 +98,7 @@ stop
 
 </details>
 
-**Initial step_budget: 50.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 50.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -132,7 +132,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 96 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

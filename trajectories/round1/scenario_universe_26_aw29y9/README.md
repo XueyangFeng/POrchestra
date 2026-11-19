@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 My husband left me. His name is Kjetil Østensen. Send him a message on Chats six times, starting now, with 30 seconds of interval of each other, saying &quot;Please talk to me! I love you&quot;. In exactly 4 minutes from now, check if he messaged me back on Chats. If he didn&#x27;t messaged me, schedule an appointment in my calendar titled &quot;Zoom Meeting&quot; with my only lawyer contact for tomorrow morning at 8 am - 9 am, via zoom, then email her saying it&#x27;s time to start the divorce papers, the marriage is over and that I&#x27;ve scheduled a zoom meeting for tomorrow morning. Let me know if the email has been sent to my lawyer and don’t notify me about anything else.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -85,7 +85,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -157,7 +157,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -198,7 +198,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 85 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

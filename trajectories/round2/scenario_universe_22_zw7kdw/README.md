@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 The tickets to the biggest wine event of the year go on sale in 4 minutes and I don&#x27;t want to miss it. Send myself an email every minute for the next four minutes with the subject and content &quot;REMINDER - TICKETS&quot;. Send five emails in total, one right away, and then the next four after each subsequent minute. In 4 minutes after the first email is sent, email Kaidën Rylan asking if he got tickets to the wine event and let me know once this email has been sent. If he responds yes within one minute after your notification, reply right away &quot;Awesome, see you there!&quot;. If he responds no during the next minute, reply right away &quot;You&#x27;re in luck, I have an extra ticket!&quot;. Then, add the wine event to my calendar on the first Sunday of December from 9am-5pm, if he replies either yes or no.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -94,7 +94,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -131,7 +131,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 57 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

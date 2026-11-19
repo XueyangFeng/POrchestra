@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Delete all the events I have from today to the 19th of October with Kvido Nováček. Send an email to Kvido notifying him our meetings are canceled. Book a default service type cab from home to the Global Governance Seminar at Charles University located in Opletalova 38, 110 00 Staré Město, Prague today 30 minutes before it starts. Since I have more free time now, buy a hardcover copy of Conan - Book of Skelos.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -85,7 +85,7 @@ Perform the following steps:
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -161,7 +161,7 @@ Execute the following environment-interaction steps:
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -205,7 +205,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 45 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

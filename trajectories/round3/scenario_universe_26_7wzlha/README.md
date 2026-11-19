@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Find the next day where I have nothing else scheduled after 4 pm. Find retired people in the same city as me and send each of them an email inviting them to a film showing at my cousin&#x27;s house on the day you identified from 5pm to 9 pm. The cousin I am referring to is a former environmental consultant. Ask the retirees to confirm their availability and let them know that I will book a cab to facilitate their transportation to the location. Let me know once all invitations have been sent and tell me what day you selected.  If all of them reply within the next 4 minutes after notifying me, as soon as the last one replies, create a calendar event for the film showing with my cousin&#x27;s home address as the location and include all people that will have confirmed their attendance as attendees. Book a default cab only for the first one who replies immediately after they reply, from their home addresses to my cousin&#x27;s home address, 30 minutes before the film event is scheduled to start and send them an individual Messages message with details about their cab ride. After doing all that, message my cousin via Chats and let her know the date and time of the event and the expected number of attendees, excluding me.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -79,7 +79,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -172,7 +172,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -204,7 +204,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 57 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

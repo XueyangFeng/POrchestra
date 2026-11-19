@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Save all the properties that are priced at $3200 if they are not saved yet. Send an email to Luís Silva titled &#x27;Request for Chess Coaching&#x27; asking him to be my chess coach. Create a calendar event for tomorrow 2024/10/16 at 12pm for one hour titled &#x27;Tasting New Wines&#x27;. Delete the most recent email from Astrid Nakamura.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -71,7 +71,7 @@ Search for all properties priced at exactly $3200. Check which of them are not c
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -142,7 +142,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -205,7 +205,7 @@ Create a calendar event titled 'Tasting New Wines' for 2024-10-16 from 12:00:00 
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
@@ -249,7 +249,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 45 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

@@ -4,7 +4,7 @@
 
 Task: `scenario_universe_24_mgleke`
 
-Read each sub-agent execution under its active configuration. Outputs, reasoning, and actions are visible by default; tool observations and context are expandable. Full execution includes all recorded actions, not just the configuration-change summary.
+Read each sub-agent execution under its active configuration. Outputs, reasoning, and actions are visible by default; tool observations and context are expandable. 
 
 | Sub-agent | Configuration | Events | Outputs | Tool observations | Full execution |
 | --- | --- | ---: | ---: | ---: | --- |

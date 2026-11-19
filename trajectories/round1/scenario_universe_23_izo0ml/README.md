@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I need a student partner. Schedule an event titled &quot;Reading Session&quot; for this Friday from 2pm for 2 hours. Add Eliška Nováková as an attendee. Inform me after scheduling the event that the event is scheduled. If the attendee should cancel the reading session, send a message to her on Messages asking what time would be convenient and schedule &quot;Reading Session&quot; on this Friday for me at 3 pm for 2 hours and another at 8 pm for 2 hours. Send an email to Fatima Al-Khateeb with the subject &quot;Reading&quot; asking if she would be free to join me for the 8pm reading session
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -74,7 +74,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -236,7 +236,7 @@ Additional step budget: 20
 
 </details>
 
-**Additional step budget (recorded configuration): 20.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 20.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -280,7 +280,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 32 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

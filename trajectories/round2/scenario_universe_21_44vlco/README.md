@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I have a photoshoot this Friday from 7pm-8pm with a bakery brand called Sheryl&#x27;s Sweets, can you schedule the event and add the person I had a brand partnership meeting with yesterday. I think I recall that the location of the photoshoot will be at the Östermalm Oasis property so book a premium ride there from my house 20 minutes before the photoshoot, but also check with my social media strategist Luísa Silva e Sousa in an email to make sure I heard her right about the location and time of the photoshoot. Let me know when you send the email. If it&#x27;s not right, update the cab booking and the calendar event.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -87,7 +87,7 @@ Perform the following steps:
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -119,7 +119,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 18 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

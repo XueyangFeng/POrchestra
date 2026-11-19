@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Send a group email to all of my contacts who are aged 78 or older (excluding myself) asking what they would like for Christmas this year. Let me know once the email has been sent. 3 minutes after you let me know, check who has replied back to the email. If any one replied back requesting a product, please add the requested product to the cart and complete one order with all the requested items. If they don&#x27;t provide enough details to select a variant, select the cheapest variant. After completing the purchase, send separate emails to each person confirming that I&#x27;ve ordered the item they requested.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -76,7 +76,7 @@ stop
 
 </details>
 
-**Initial step_budget: 20.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 20.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -247,7 +247,7 @@ Additional step budget: 30
 
 </details>
 
-**Additional step budget (recorded configuration): 30.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 30.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -293,7 +293,7 @@ Agent and oracle counters do not match for the following tools:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 81 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

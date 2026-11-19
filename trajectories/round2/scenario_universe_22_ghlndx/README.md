@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Book a premium cab for me and the attendees listed in the staff meeting scheduled for this morning and have it pick us up 30 minutes before the meeting is supposed to start. It should pick us up from my hotel in 1235 Broadway Avenue, New York, NY 10001 and drop us off at the Restaurant in 678 Times Square, New York, NY 10036. Let me know the names of the attendees (excluding myself). If the cab is delayed at all, text the attendees individually on Messages (if they don&#x27;t use the app, text them on Chats) to let them know there&#x27;s an issue with the cab. If the cab is delayed more than 15 minutes, just cancel the ride. Then email Jamila Patel to ask them about borrowing her private driver this morning for the staff meeting and CC the attendees. Then send them follow-up texts on the app you texted them on about the delayed cab explaining that I&#x27;m trying to find a solution.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -88,7 +88,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -113,7 +113,7 @@ Agent and oracle counters do not match for the following tools:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 23 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

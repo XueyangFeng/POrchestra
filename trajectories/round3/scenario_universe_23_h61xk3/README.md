@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I have to get supplies for my friend&#x27;s daughter&#x27;s party. Purchase the latex, air-filled Bollovi Confetti Balloons. I&#x27;m not sure if these are the right balloons, send an email to Eliška Nováková asking if I am purchasing the right item. If Eliška replies that I have purchased the wrong item, cancel the order and purchase the ones that Eliška tells me to. Let me know when the item is purchased and the email is sent.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -77,7 +77,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -248,7 +248,7 @@ Additional step budget: 22
 
 </details>
 
-**Additional step budget (recorded configuration): 22.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 22.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -269,7 +269,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 46 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

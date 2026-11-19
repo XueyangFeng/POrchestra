@@ -4,13 +4,13 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Find all participants (excluding myself) in group conversations in Messages or Chats where Frantz Fanon was mentioned by anyone in the conversation, and all contacts who sent me an e-mail with a title that includes the words &quot;Power Dynamics&quot;. With which of those people have I spent the most amount of time, based on the duration of calendar events that list them as participants from the beginning of August this year until today? Just give me the first name and the last name of the person. If there&#x27;s a tie, tell me the oldest person among those tied.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -81,7 +81,7 @@ Identify a unique list of full names of candidates based on two criteria: 1. Par
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -148,7 +148,7 @@ Calculate the total time spent with each of the following people based on calend
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -192,7 +192,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 97 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 If any of my events scheduled for this weekend (Friday, Saturday, Sunday) are canceled by someone else within the next 4 minutes, message that person immediately on Messages asking why they removed the event. Use Chats if they are not on Messages. After you sent the messages, if at least 4 events got removed let me know 10 seconds after the initial 4 minutes are up.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -92,7 +92,7 @@ stop
 
 </details>
 
-**Initial step_budget: 50.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 50.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -113,7 +113,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 76 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

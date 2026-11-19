@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Reply to the emails I received within the last 5 days, starting from yesterday, and let the senders know that I will be accepting phone calls to answer questions and discuss projects this Friday from 9 am, for 2 hours long, from my home. Schedule this time in calendar.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -73,7 +73,7 @@ Search for all emails received between 2024-10-10 00:00:00 and 2024-10-14 23:59:
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -136,7 +136,7 @@ Schedule a calendar event for Friday, 2024-10-18, from 09:00:00 to 11:00:00. The
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -193,7 +193,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 41 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

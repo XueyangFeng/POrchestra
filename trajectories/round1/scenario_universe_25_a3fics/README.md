@@ -4,13 +4,13 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Please re-schedule the 9am meeting today for 10 AM today in the main conference room, instead of zoom call. The meeting should last for 1 hour. Add everyone from the &#x27;Net-Zero Energy Buildings and Sustainable Communities&#x27; Messages group to the attendee list (and include myself) and then send a message to the group inviting them to the meeting. Once you&#x27;ve rescheduled the meeting and sent the invitations, please confirm with me. If any attendee from the group cancels the event, reschedule the meeting for the same day next week at 2 PM. Remove any events that start at the same time on that day before rescheduling. After rescheduling again, send a Messages message to everyone in the group with the updated time. Let me know once the meeting has been rescheduled and the group has been notified.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -87,7 +87,7 @@ Reschedule today's 9am meeting to 10am today. Specifically: 1. Get current time 
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -121,7 +121,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 27 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

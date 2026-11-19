@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I need to organize my emails. Respond to Yumi Nakahara&#x27;s email. Ask for more information about the parallels between Japanese and European cuisine. Delete Katarzyna Zielińska&#x27;s only email and move Leon Vandenberghe&#x27;s only email from inbox to trash. Cancel the Research Collaboration with Kazimierz Wojciechowski later today, October 15. Order the the plush variant Wild Republic Cuddlekins 12&quot; Golden Tamarin Lion, one PROLINE 344100 Ram 2500 Clear Body made of polycarbonate, and one Fantasy Flight Games The Ghost of Framsburg Adventure in new condition, both for Yumi.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -90,7 +90,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -161,7 +161,7 @@ Search for and order the following three items: 1) Wild Republic Cuddlekins 12" 
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -205,7 +205,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 52 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

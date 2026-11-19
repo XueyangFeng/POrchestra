@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I am on the property hunt. Please cancel all events on my calendar scheduled for tomorrow. If anyone emails me about a property viewing in the next four minutes, immediately reply back affirmatively to the viewing request and their proposed date/time. Add it to my calendar as well, with the title as &quot;Property Viewing&quot; and with the sender&#x27;s email as an attendee. You don&#x27;t need to notify me, I&#x27;m busy all day and will check later.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -69,7 +69,7 @@ Cancel all events on the calendar scheduled for tomorrow, October 16, 2024 (from
 
 </details>
 
-**Initial step_budget: 20.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 20.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -143,7 +143,7 @@ Continue checking/waiting for emails until the 4-minute window has expired. Do n
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -187,7 +187,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 63 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

@@ -4,13 +4,13 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Please tell me the average age of the people in my contacts who live in the city that appears most frequently among my contacts (if there is a tie, sort alphabetically and use the first one) considering only those who have ever emailed me. Round to the nearest whole number.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -75,7 +75,7 @@ Calculate the average age of contacts who live in the most frequent city among a
 
 </details>
 
-**Initial step_budget: 50.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 50.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -96,7 +96,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 38 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

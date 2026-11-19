@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 As soon as you receive any emails from my contact with College Mathematics Professor in their job title, or from anyone mentioning &#x27;project update&#x27; in the subject line, send a reply email after 30 seconds asking if there are any updates about the project. But, if in these emails they ask me specifically if I&#x27;ve heard anything about project updates, instead tell them in my reply that I don&#x27;t have any information on the project updates and will let them know about any updates soon. If an email is received from the College Mathematics Professor in my contacts containing a date for the project, please create a calendar event for the project using the day and time specified in the email, immediately after receiving the email. If I don&#x27;t receive an email from anyone within 5 minutes, send an email to the College Mathematics Professor in my contacts, with the subject &quot;Updates&quot;, asking for any updates on their work or upcoming events, with a polite tone.  For each email that is replied to, immediately after replying to it, send an email to aurelien.lafleur@gaia2mail.com, with the sender’s name as the subject and the reply you write to them as the body of the email, so I can have a record of this in my sent email folder. 
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -71,7 +71,7 @@ Search for a contact with the job title 'College Mathematics Professor'. Record 
 
 </details>
 
-**Initial step_budget: 10.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 10.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -144,7 +144,7 @@ Monitor the inbox for 5 minutes starting from 2024-10-15 07:00:00. Check if any 
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -206,7 +206,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 87 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

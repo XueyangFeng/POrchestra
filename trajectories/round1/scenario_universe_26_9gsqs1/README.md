@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I don&#x27;t want my friends to wait, so you have a maximum of 200 seconds to complete the following task in its entirety: Create a new Messages group conversation titled &#x27;Friends Forever&#x27; with my contact who is a Branding Specialist and my contact who I had lunch with yesterday. Send a message to this new group chat asking them to add their best friends to this Messages conversation. Let me know once the message has been sent and exactly 3 minutes after that check and see who has been added to the aforementioned conversation and send a separate message in it to personally welcome each of them. After all the messages have been sent welcoming the new participants, notify me how many total participants including myself are in the &#x27;Friends Forever&#x27; Messages group conversation.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -83,7 +83,7 @@ stop
 
 </details>
 
-**Initial step_budget: 40.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 40.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -234,7 +234,7 @@ Additional step budget: 5
 
 </details>
 
-**Additional step budget (recorded configuration): 5.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 5.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -263,7 +263,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 27 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Delete all of my saved properties with less than 2 bedrooms. Afterwards, send a Messages containing only the details of the saved property with the most square footage to Kaitlyn Nakamura. If there is a tie for square footage, select the one at the highest price. If there is still a tie, select the one whose name comes first alphabetically. If she doesn&#x27;t reply in 1 minute and 30 seconds after sending her the details, send the details again, and following that, every 30 seconds, 5 more times. If she still hasn&#x27;t replied by the 7th total message, let me know after you&#x27;ve sent that 7th message. Otherwise, do not inform me.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -75,7 +75,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -153,7 +153,7 @@ Perform the following messaging and monitoring sequence with Kaitlyn Nakamura (u
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -194,7 +194,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 75 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

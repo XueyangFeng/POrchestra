@@ -2,7 +2,7 @@
 
 [Configuration history](README.md)
 
-Source event #296. Sanitized system configuration.
+Source event #296. System configuration.
 
 ```text
 You are a specialized SubAgent in POrchestra for GAIA2.

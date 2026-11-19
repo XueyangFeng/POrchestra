@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I&#x27;m freaking out– I just got a $400 speeding ticket and have no idea how I&#x27;m going to pay it. Cancel all events that overlap with 9 AM to 5 PM on the next three Saturdays and schedule a single &#x27;Work From Home&#x27; event for that full time block each Saturday so I can start making money fast. Send a group email with the subject &#x27;Help Me Out, Fam?&#x27; to everyone I attended &#x27;Dinner with Family&#x27; with so far this month, asking if any of them can lend me money to cover this fine. Send a private message on Chats (or Messages if they&#x27;re not on Chats) to my contact who works in the Prague Police Department, asking if there&#x27;s any way to lower or contest my fine since I&#x27;m completely broke.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -80,7 +80,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -251,7 +251,7 @@ Additional step budget: 30
 
 </details>
 
-**Additional step budget (recorded configuration): 30.** Remaining and cumulative budgets are not inferred.
+**Additional step budget (recorded configuration): 30.**
 
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
@@ -292,7 +292,7 @@ List of matching attempts:
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 66 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

@@ -4,13 +4,13 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 Could you save all the properties priced at $1800 located in the city in which I took a cab on the 5th of this month for me? Also, remove any saved properties in that city that are not at that price point. Let me know when you&#x27;re done.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -86,7 +86,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -107,7 +107,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 32 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 

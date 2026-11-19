@@ -4,13 +4,13 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
-**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-source-records)
 
 ## Task
 
 I am supposed to meet with some colleagues during lunch break later today and one of us is supposed to order a cab, although I cannot remember who. Send individual Messages messages to the colleagues I am supposed to meet today, asking who is supposed to order the cab. If after 3 minutes there is no response, order a default cab from the location of the event immediately preceding the lunch event to the location of the lunch event. The cab should pick up 15 minutes before the start of the lunch event. After ordering the cab, send individual Messages messages to the same colleagues informing them that I have ordered a cab and include the details of the ride.
 
-This view follows configuration changes within each sub-agent session. Decision links come from the original records. Runtime configuration updates do not establish source-code changes or enforcement details.
+Configuration changes are organized by sub-agent session.
 
 ## Configuration history
 
@@ -71,7 +71,7 @@ stop
 
 </details>
 
-**Initial step_budget: 10.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 10.**
 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
@@ -152,7 +152,7 @@ stop
 
 </details>
 
-**Initial step_budget: 30.** Remaining and cumulative budgets are not inferred.
+**Initial step_budget: 30.**
 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
@@ -196,7 +196,7 @@ None
 
 </details>
 
-## Complete sanitized source records
+## Complete source records
 
 All 40 source events are included, split into small Markdown pages for GitHub rendering. Expand individual records to inspect their contents.
 
