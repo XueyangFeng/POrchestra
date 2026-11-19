@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 On my calendar, cancel the brand partnership meeting on 10/19 at 2 PM. Create a calendar event for a gym session on 10/19 from 9 AM to 10 AM. Remove Lund Living from my saved property list. Save Uppsala Urban to my saved list. Purchase the Rubie&#x27;s Adult Star Wars Stormtrooper Glovelettes in latex material. Remove Åke Svensson from my contact list.
@@ -77,6 +79,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__search_events` → `Calendar__delete_calendar_event` → `Calendar__add_calendar_event` → `Calendar__get_calendar_events_from_to`
 
+**Full sub-agent execution · 11 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #18
@@ -141,6 +145,8 @@ Remove 'Lund Living' from the saved property list and save 'Uppsala Urban' to th
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__list_saved_apartments` → `RentAFlat__search_apartments` → `RentAFlat__remove_saved_apartment` → `RentAFlat__save_apartment` → `RentAFlat__list_saved_apartments`
+
+**Full sub-agent execution · 13 events:** [Part 1](execution-s2-v1-001.md)
 
 ### S3 configuration v1
 
@@ -209,6 +215,8 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `Shopping__add_to_cart` → `Shopping__list_cart` → `Shopping__checkout`
 
+**Full sub-agent execution · 12 events:** [Part 1](execution-s3-v1-001.md)
+
 ### S4 configuration v1
 
 **Initial harness configuration** · Source event #45
@@ -269,6 +277,8 @@ Remove 'Åke Svensson' from the contact list. Search for the contact to find the
 Full system configuration: [Part 1](config-s4-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Contacts__delete_contact` → `Contacts__search_contacts`
+
+**Full sub-agent execution · 9 events:** [Part 1](execution-s4-v1-001.md)
 
 ## Other main-agent decisions
 

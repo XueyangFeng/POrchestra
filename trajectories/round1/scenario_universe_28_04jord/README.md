@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 10
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Check the RentAFlat app every second for 4 minutes. If a property listing in the 8000 zip code appears, immediately save it to Save Apartments. Exactly 1 minute after saving the last one, if two or more new listings have been saved during this time, delete all saved properties in the 9000 zip code.
@@ -78,6 +80,8 @@ Establish a baseline of apartments in the 8000 zip code. Monitor the RentAFlat a
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `RentAFlat__search_apartments` → `SystemApp__wait_for_notification` → `RentAFlat__search_apartments` → `SystemApp__wait_for_notification`
+
+**Full sub-agent execution · 18 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -227,6 +231,8 @@ Additional step budget: 293
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `SystemApp__wait_for_notification` → `RentAFlat__search_apartments`
+
+**Full sub-agent execution · 8 events:** [Part 1](execution-s1-v2-001.md)
 
 ### S1 configuration v3
 
@@ -392,6 +398,8 @@ Context: Baseline apartments in zip 8000: ['04a9a58b00394871a28e7113ea042220', '
 Full system configuration: [Part 1](config-s1-v3-01.md)
 
 **4. Execution after the update:** `SystemApp__wait_for_notification` → `RentAFlat__search_apartments` → `SystemApp__wait_for_notification` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time`
+
+**Full sub-agent execution · 47 events:** [Part 1](execution-s1-v3-001.md)
 
 ### S1 configuration v4
 
@@ -564,6 +572,8 @@ Resource: {'operation': 'request', 'object': 'budget', 'details': 'Inc
 
 Full system configuration: [Part 1](config-s1-v4-01.md)
 
+**Full sub-agent execution · 3 events:** [Part 1](execution-s1-v4-001.md)
+
 ### S1 configuration v5
 
 **Harness configuration updated** · Source event #93
@@ -732,6 +742,8 @@ Full system configuration: [Part 1](config-s1-v5-01.md)
 
 **4. Execution after the update:** `SystemApp__wait_for_notification` → `RentAFlat__search_apartments` → `SystemApp__wait_for_notification` → `RentAFlat__search_apartments` → `RentAFlat__save_apartment`
 
+**Full sub-agent execution · 55 events:** [Part 1](execution-s1-v5-001.md)
+
 ### S1 configuration v6
 
 **Harness configuration updated** · Source event #149
@@ -898,6 +910,8 @@ Full system configuration: [Part 1](config-s1-v6-01.md)
 
 **4. Execution after the update:** `SystemApp__wait_for_notification` → `RentAFlat__search_apartments` → `SystemApp__wait_for_notification` → `SystemApp__wait_for_notification` → `RentAFlat__search_apartments`
 
+**Full sub-agent execution · 19 events:** [Part 1](execution-s1-v6-001.md)
+
 ### S1 configuration v7
 
 **Harness configuration updated** · Source event #169
@@ -1063,6 +1077,8 @@ Full system configuration: [Part 1](config-s1-v7-01.md)
 
 **4. Execution after the update:** `SystemApp__wait_for_notification` → `RentAFlat__search_apartments` → `SystemApp__wait_for_notification` → `SystemApp__wait_for_notification`
 
+**Full sub-agent execution · 14 events:** [Part 1](execution-s1-v7-001.md)
+
 ### S1 configuration v8
 
 **Harness configuration updated** · Source event #184
@@ -1225,6 +1241,8 @@ Full system configuration: [Part 1](config-s1-v8-01.md)
 
 **4. Execution after the update:** `SystemApp__wait_for_notification` → `RentAFlat__search_apartments` → `SystemApp__wait_for_notification` → `SystemApp__wait_for_notification` → `RentAFlat__search_apartments`
 
+**Full sub-agent execution · 45 events:** [Part 1](execution-s1-v8-001.md)
+
 ### S1 configuration v9
 
 **Harness configuration updated** · Source event #230
@@ -1385,6 +1403,8 @@ Full system configuration: [Part 1](config-s1-v9-01.md)
 
 **4. Execution after the update:** `SystemApp__wait_for_notification` → `RentAFlat__search_apartments` → `SystemApp__wait_for_notification` → `RentAFlat__search_apartments`
 
+**Full sub-agent execution · 13 events:** [Part 1](execution-s1-v9-001.md)
+
 ### S1 configuration v10
 
 **Harness configuration updated** · Source event #244
@@ -1507,6 +1527,8 @@ Current time is approx 07:02:00. Monitoring window ends at 07:04:00. One new lis
 Full system configuration: [Part 1](config-s1-v10-01.md)
 
 **4. Execution after the update:** `SystemApp__wait_for_notification` → `RentAFlat__search_apartments` → `SystemApp__wait_for_notification` → `RentAFlat__search_apartments` → `SystemApp__wait_for_notification`
+
+**Full sub-agent execution · 51 events:** [Part 1](execution-s1-v10-001.md)
 
 ### S1 configuration v11
 
@@ -1667,6 +1689,8 @@ Current time is approx 07:02:00. Monitoring window ends at 07:04:00. One new lis
 Full system configuration: [Part 1](config-s1-v11-01.md)
 
 **4. Execution after the update:** `SystemApp__get_current_time` → `SystemApp__wait_for_notification` → `RentAFlat__search_apartments` → `SystemApp__wait_for_notification` → `RentAFlat__search_apartments`
+
+**Full sub-agent execution · 239 events:** [Part 1](execution-s1-v11-001.md) · [Part 2](execution-s1-v11-002.md) · [Part 3](execution-s1-v11-003.md)
 
 ## Other main-agent decisions
 

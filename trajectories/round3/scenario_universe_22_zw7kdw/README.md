@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 The tickets to the biggest wine event of the year go on sale in 4 minutes and I don&#x27;t want to miss it. Send myself an email every minute for the next four minutes with the subject and content &quot;REMINDER - TICKETS&quot;. Send five emails in total, one right away, and then the next four after each subsequent minute. In 4 minutes after the first email is sent, email Kaidën Rylan asking if he got tickets to the wine event and let me know once this email has been sent. If he responds yes within one minute after your notification, reply right away &quot;Awesome, see you there!&quot;. If he responds no during the next minute, reply right away &quot;You&#x27;re in luck, I have an extra ticket!&quot;. Then, add the wine event to my calendar on the first Sunday of December from 9am-5pm, if he replies either yes or no.
@@ -86,6 +88,8 @@ Perform the following sequence of email tasks and notify the user upon completio
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Contacts__search_contacts` → `Emails__send_email` → `Emails__send_email` → `SystemApp__wait_for_notification`
+
+**Full sub-agent execution · 37 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -268,6 +272,8 @@ Additional step budget: 15
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Emails__list_emails` → `SystemApp__get_current_time` → `SystemApp__wait_for_notification` → `Emails__list_emails` → `Emails__reply_to_email`
+
+**Full sub-agent execution · 16 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Final judging record
 

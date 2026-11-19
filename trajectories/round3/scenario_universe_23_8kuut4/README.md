@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Find the zip codes of the home addresses of everyone living in the same city as me. Among these, identify the zip code where the violent crime rate and property crime rate add up to the highest number, excluding zip codes with no available crime rates. What is the lowest price among all available properties in this zip code? Just let me know the price, even if there are multiple properties with that price.
@@ -88,6 +90,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 45 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

@@ -30,6 +30,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #2 · Main agent — decision 2: revise_task</summary>
 
@@ -75,6 +77,8 @@ SUB-AGENT SESSION 1
 
 
 </details>
+
+
 <details>
 <summary>Source event #3 · Sub-agent 1: Initial system configuration</summary>
 
@@ -235,6 +239,8 @@ The search looks for partial matches in sender, recipients, subject, and content
 
 
 </details>
+
+
 <details>
 <summary>Source event #4 · Sub-agent 1: user / environment input</summary>
 
@@ -249,6 +255,8 @@ The search looks for partial matches in sender, recipients, subject, and content
 
 
 </details>
+
+
 <details>
 <summary>Source event #5 · Sub-agent 1: model output</summary>
 
@@ -268,6 +276,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #6 · Sub-agent 1: tool result</summary>
 
@@ -280,6 +290,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #6 · Sub-agent 1: tool result (continued, part 2)</summary>
 
@@ -290,6 +302,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #6 · Sub-agent 1: tool result (continued, part 3)</summary>
 
@@ -300,6 +314,8 @@ orite Portuguese recipes. Let me know if this is something that interests you, a
 
 
 </details>
+
+
 <details>
 <summary>Source event #6 · Sub-agent 1: tool result (continued, part 4)</summary>
 
@@ -311,6 +327,8 @@ tention.\n\nI'm reaching out to propose a collaboration opportunity that I belie
 
 
 </details>
+
+
 <details>
 <summary>Source event #7 · Sub-agent 1: model output</summary>
 
@@ -338,6 +356,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #8 · Sub-agent 1: tool result</summary>
 
@@ -351,6 +371,8 @@ e4657cd1b75ef061b9fbfd037e80abd6
 
 
 </details>
+
+
 <details>
 <summary>Source event #9 · Sub-agent 1: model output</summary>
 
@@ -373,6 +395,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #10 · Sub-agent 1: tool result</summary>
 
@@ -386,6 +410,8 @@ e03b534af959899d9ca5c1d3e342f522
 
 
 </details>
+
+
 <details>
 <summary>Source event #11 · Sub-agent 1: model output</summary>
 
@@ -408,6 +434,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #12 · Sub-agent 1: tool result</summary>
 
@@ -421,6 +449,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #13 · Sub-agent 1: model output</summary>
 
@@ -441,6 +471,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #14 · Sub-agent 1: tool result</summary>
 
@@ -454,6 +486,8 @@ e99491546510d319bc33d842063d8b97
 
 
 </details>
+
+
 <details>
 <summary>Source event #15 · Sub-agent 1: model output</summary>
 
@@ -474,6 +508,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #16 · Sub-agent 1: tool result</summary>
 
@@ -487,6 +523,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #17 · Sub-agent 1: model output</summary>
 
@@ -507,6 +545,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #18 · Sub-agent 1: tool result</summary>
 
@@ -520,6 +560,8 @@ eac429b410b76e2c8d5408beefc4019b
 
 
 </details>
+
+
 <details>
 <summary>Source event #19 · Sub-agent 1: model output</summary>
 
@@ -538,6 +580,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #20 · Sub-agent 1: tool result</summary>
 
@@ -551,6 +595,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #21 · Sub-agent 1: user / environment input</summary>
 
@@ -565,6 +611,8 @@ Environment notifications:
 
 
 </details>
+
+
 <details>
 <summary>Source event #22 · Sub-agent 1: model output</summary>
 
@@ -584,6 +632,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #23 · Sub-agent 1: tool result</summary>
 

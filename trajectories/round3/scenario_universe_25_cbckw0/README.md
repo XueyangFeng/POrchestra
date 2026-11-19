@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I have an event with Åsa within the next two weeks, starting today. Can you book me a premium cab from Kasteelpark Arenberg, 3001 Leuven to Home, at 1PM on that date? Send a message to Åsa in Messages asking her if she can still make that phone call with me and telling her I&#x27;m not sure I can make it. Notify me when you book the ride and send the message.  If the the cab booking gets canceled, send Åsa a Messages message saying I&#x27;m sad but we won&#x27;t be able to talk that day. Then, delete my event with her in the next two weeks, and add Yoga Class in its place. Keep the date and time the same. Let me know if you&#x27;ve changed the event to yoga.
@@ -74,6 +76,8 @@ Find an event with 'Åsa' occurring between 2024-10-15 and 2024-10-29. Identify 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__search_events` → `Calendar__get_calendar_events_from_to`
+
+**Full sub-agent execution · 7 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S2 configuration v1
 
@@ -152,6 +156,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Cabs__order_ride` → `Messages__lookup_user_id` → `Messages__send_message` → `Cabs__get_current_ride_status` → `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 11 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

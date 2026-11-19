@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I am on the property hunt. Please cancel all events on my calendar scheduled for tomorrow. If anyone emails me about a property viewing in the next four minutes, immediately reply back affirmatively to the viewing request and their proposed date/time. Add it to my calendar as well, with the title as &quot;Property Viewing&quot; and with the sender&#x27;s email as an attendee. You don&#x27;t need to notify me, I&#x27;m busy all day and will check later.
@@ -73,6 +75,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event`
 
+**Full sub-agent execution · 15 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #20
@@ -141,6 +145,8 @@ Monitor and process emails about property viewings received between 2024-10-15 0
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Emails__list_emails` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time` → `Emails__list_emails`
+
+**Full sub-agent execution · 58 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

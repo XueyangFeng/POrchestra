@@ -34,6 +34,8 @@ SUB-AGENT SESSION 1
 
 
 </details>
+
+
 <details>
 <summary>Source event #2 · Sub-agent 1: Initial system configuration</summary>
 
@@ -189,6 +191,8 @@ The search looks for partial matches in first name, last name, phone number, and
 
 
 </details>
+
+
 <details>
 <summary>Source event #3 · Sub-agent 1: user / environment input</summary>
 
@@ -200,6 +204,8 @@ Determine which gender sent the most emails between 2024-09-01 and 2024-09-15 (i
 
 
 </details>
+
+
 <details>
 <summary>Source event #4 · Sub-agent 1: model output</summary>
 
@@ -220,6 +226,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #5 · Sub-agent 1: tool result</summary>
 
@@ -233,6 +241,8 @@ ReturnedEmails(emails=[Email(sender='juhani.korhonen@fbl.fi', recipients=['matej
 
 
 </details>
+
+
 <details>
 <summary>Source event #6 · Sub-agent 1: model output</summary>
 

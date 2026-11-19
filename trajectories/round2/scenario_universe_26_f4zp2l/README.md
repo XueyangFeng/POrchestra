@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 What location do I spend the most time this year up till now for lunch? If there is a tie, sort the locations alphabetically and give me the top answer.
@@ -74,6 +76,8 @@ Retrieve all calendar events from 2024-01-01 00:00:00 to 2024-10-15 07:00:00. Id
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__get_calendar_events_from_to` → `Calendar__get_calendar_events_from_to` → `Calendar__search_events`
+
+**Full sub-agent execution · 14 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Other main-agent decisions
 

@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #58 · Sub-agent 2: model output</summary>
 
@@ -35,6 +37,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #59 · Sub-agent 2: tool result</summary>
 
@@ -48,6 +52,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #60 · Sub-agent 2: model output</summary>
 
@@ -66,6 +72,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #61 · Sub-agent 2: tool result</summary>
 
@@ -79,6 +87,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #62 · Sub-agent 2: model output</summary>
 
@@ -97,6 +107,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #63 · Sub-agent 2: tool result</summary>
 
@@ -110,6 +122,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #64 · Sub-agent 2: model output</summary>
 
@@ -128,6 +142,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #65 · Sub-agent 2: tool result</summary>
 
@@ -141,6 +157,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #66 · Sub-agent 2: model output</summary>
 
@@ -165,6 +183,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #67 · Sub-agent 2: tool result</summary>
 
@@ -178,6 +198,8 @@ a7a6559237dfccab98f2b1970584c7a3
 
 
 </details>
+
+
 <details>
 <summary>Source event #68 · Sub-agent 2: model output</summary>
 
@@ -196,6 +218,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #69 · Sub-agent 2: tool result</summary>
 
@@ -209,6 +233,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #70 · Judge rationale</summary>
 

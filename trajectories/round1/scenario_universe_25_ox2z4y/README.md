@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 In what country are most of the participants (excluding me) in my Messages conversations with &quot;Net-Zero Energy&quot; in the title from the last five days, excluding today, based? If a person is included in multiple conversations, only count them once. If more than ten of my contacts live in this identified country, return just the name of the oldest one in that country to me instead of the country&#x27;s name. If there&#x27;s a tie in the age, return the tied one who is a participant in more Messages conversations than the other.
@@ -94,6 +96,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Messages__search` → `Messages__read_conversation` → `Messages__read_conversation` → `Messages__list_conversations_by_participant`
 
+**Full sub-agent execution · 105 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #109
@@ -160,6 +164,8 @@ Determine the country with most participants (excluding the user) in 'Net-Zero E
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 31 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

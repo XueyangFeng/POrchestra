@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 For the next 3 minutes, immediately add 2 of each variant of Poke Ball 3-Ring Binder that gets added to the store and becomes available, and also add two each of ones that are already available as well to the shopping cart (you can do this now as they are already available). Checkout the cart exactly 45 seconds after the last addition of Poke Ball 3-Ring Binderalls to the cart within this 3 minute window. Then tell my Fashion Designer friend that I got him the Pokémon merchandise that he asked for, along with the total cost via Chats. After everything is finished, let me know how much it all costs.
@@ -91,6 +93,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `Shopping__list_all_products` → `SystemApp__get_current_time` → `Shopping__search_product` → `Shopping__add_to_cart`
 
+**Full sub-agent execution · 88 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #93
@@ -161,6 +165,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Contacts__get_contacts` → `Contacts__search_contacts` → `Chats__lookup_user_id` → `Chats__list_recent_conversations`
+
+**Full sub-agent execution · 32 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

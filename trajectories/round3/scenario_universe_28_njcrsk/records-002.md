@@ -17,6 +17,8 @@ ReturnedEmails(emails=[Email(sender='rohan.deshpande@adwave.in', recipients=['so
 
 
 </details>
+
+
 <details>
 <summary>Source event #30 · Sub-agent 1: model output</summary>
 
@@ -33,6 +35,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #31 · Sub-agent 1: tool result</summary>
 

@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Delete all events from my calendar on the day this week that has the most events, as I need time to prepare for my RPG session. Additionally, order a plastic translucent Alien RPG: stress dice set in the collectible tin packaging.
@@ -75,6 +77,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event`
 
+**Full sub-agent execution · 18 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #22
@@ -143,6 +147,8 @@ Search for and order one 'plastic translucent Alien RPG: stress dice set' in the
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `Shopping__search_product` → `Shopping__search_product` → `Shopping__add_to_cart` → `Shopping__list_cart`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

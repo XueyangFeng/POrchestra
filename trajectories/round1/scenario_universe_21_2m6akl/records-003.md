@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #75 · Sub-agent 2: tool result</summary>
 
@@ -41,6 +43,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #76 · Sub-agent 2: tool result</summary>
 
@@ -63,6 +67,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #77 · Sub-agent 2: tool result</summary>
 
@@ -87,6 +93,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #78 · Sub-agent 2: tool result</summary>
 
@@ -109,6 +117,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #79 · Sub-agent 2: model output</summary>
 
@@ -127,6 +137,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #80 · Sub-agent 2: tool result</summary>
 
@@ -140,6 +152,8 @@ b''
 
 
 </details>
+
+
 <details>
 <summary>Source event #81 · Sub-agent 2: model output</summary>
 
@@ -156,6 +170,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #82 · Sub-agent 2: tool result</summary>
 
@@ -169,6 +185,8 @@ b''
 
 
 </details>
+
+
 <details>
 <summary>Source event #83 · Sub-agent 2: model output</summary>
 
@@ -188,6 +206,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #84 · Sub-agent 2: tool result</summary>
 
@@ -214,6 +234,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #85 · Sub-agent 2: model output</summary>
 
@@ -233,6 +255,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #86 · Sub-agent 2: tool result</summary>
 
@@ -246,6 +270,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #87 · Sub-agent 2: model output</summary>
 
@@ -264,6 +290,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #88 · Sub-agent 2: tool result</summary>
 
@@ -277,6 +305,8 @@ b''
 
 
 </details>
+
+
 <details>
 <summary>Source event #89 · Sub-agent 2: model output</summary>
 
@@ -296,6 +326,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #90 · Sub-agent 2: tool result</summary>
 
@@ -309,6 +341,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #91 · Sub-agent 2: model output</summary>
 
@@ -328,6 +362,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #92 · Sub-agent 2: tool result</summary>
 
@@ -341,6 +377,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #93 · Sub-agent 2: model output</summary>
 
@@ -360,6 +398,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #94 · Sub-agent 2: tool result</summary>
 
@@ -373,6 +413,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #95 · Sub-agent 2: model output</summary>
 
@@ -390,6 +432,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #96 · Sub-agent 2: tool result</summary>
 
@@ -403,6 +447,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #97 · Sub-agent 2: model output</summary>
 
@@ -422,6 +468,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #98 · Sub-agent 2: tool result</summary>
 
@@ -435,6 +483,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #99 · Sub-agent 2: model output</summary>
 
@@ -452,6 +502,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #100 · Sub-agent 2: tool result</summary>
 
@@ -465,6 +517,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #101 · Sub-agent 2: model output</summary>
 
@@ -484,6 +538,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #102 · Sub-agent 2: tool result</summary>
 
@@ -497,6 +553,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #103 · Sub-agent 2: model output</summary>
 
@@ -516,6 +574,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #104 · Sub-agent 2: tool result</summary>
 
@@ -529,6 +589,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #105 · Sub-agent 2: model output</summary>
 
@@ -548,6 +610,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #106 · Sub-agent 2: tool result</summary>
 
@@ -561,6 +625,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #107 · Sub-agent 2: model output</summary>
 
@@ -580,6 +646,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #108 · Sub-agent 2: tool result</summary>
 
@@ -603,6 +671,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #109 · Sub-agent 2: model output</summary>
 
@@ -619,6 +689,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #110 · Sub-agent 2: tool result</summary>
 
@@ -642,6 +714,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #111 · Sub-agent 2: model output</summary>
 
@@ -661,6 +735,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #112 · Sub-agent 2: tool result</summary>
 
@@ -684,6 +760,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #113 · Sub-agent 2: model output</summary>
 
@@ -702,6 +780,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #114 · Sub-agent 2: tool result</summary>
 
@@ -715,6 +795,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #115 · Sub-agent 2: model output</summary>
 
@@ -734,6 +816,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #116 · Sub-agent 2: tool result</summary>
 
@@ -747,6 +831,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #117 · Sub-agent 2: model output</summary>
 
@@ -766,6 +852,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #118 · Sub-agent 2: tool result</summary>
 
@@ -789,6 +877,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #119 · Sub-agent 2: model output</summary>
 
@@ -808,6 +898,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #120 · Sub-agent 2: tool result</summary>
 
@@ -831,6 +923,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #121 · Sub-agent 2: model output</summary>
 
@@ -850,6 +944,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #122 · Sub-agent 2: tool result</summary>
 
@@ -863,6 +959,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #123 · Sub-agent 2: model output</summary>
 
@@ -882,6 +980,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #124 · Sub-agent 2: tool result</summary>
 
@@ -905,6 +1005,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #125 · Sub-agent 2: model output</summary>
 
@@ -924,6 +1026,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #126 · Sub-agent 2: tool result</summary>
 
@@ -947,6 +1051,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #127 · Sub-agent 2: model output</summary>
 
@@ -965,6 +1071,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #128 · Sub-agent 2: tool result</summary>
 
@@ -978,6 +1086,8 @@ b''
 
 
 </details>
+
+
 <details>
 <summary>Source event #129 · Sub-agent 2: model output</summary>
 
@@ -996,6 +1106,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #130 · Sub-agent 2: tool result</summary>
 
@@ -1009,6 +1121,8 @@ b''
 
 
 </details>
+
+
 <details>
 <summary>Source event #131 · Sub-agent 2: model output</summary>
 
@@ -1028,6 +1142,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #132 · Sub-agent 2: tool result</summary>
 
@@ -1054,6 +1170,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #133 · Sub-agent 2: model output</summary>
 
@@ -1074,6 +1192,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #134 · Sub-agent 2: tool result</summary>
 
@@ -1097,6 +1217,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #135 · Sub-agent 2: model output</summary>
 
@@ -1116,6 +1238,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #136 · Sub-agent 2: tool result</summary>
 

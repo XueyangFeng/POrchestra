@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Check for the next 2.5 minutes to see if the blue Abacus with Clock becomes available to purchase. If it does, add it to my cart at exactly the 2.5 minute mark and then purchase it. After purchasing, wait exactly 1 minute, then send individual messages through Chats with the price of the product to all contacts with either &quot;economist&quot;, &quot;economic&quot;, or &quot;finance&quot; in their job title and/or contact description. Exactly 1 minute after sending these Chats messages, notify me that you&#x27;ve sent them.
@@ -107,6 +109,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Shopping__search_product` → `SystemApp__wait_for_notification` → `Shopping__search_product` → `SystemApp__wait_for_notification`
 
+**Full sub-agent execution · 22 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S1 configuration v2
 
 **Harness configuration updated** · Source event #26
@@ -199,6 +203,8 @@ Additional step budget: 40
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `SystemApp__wait_for_notification` → `SystemApp__get_current_time` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time` → `Shopping__search_product`
+
+**Full sub-agent execution · 16 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Other main-agent decisions
 

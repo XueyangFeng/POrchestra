@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Create a group convo on Chats with my friends Åsa Lundgren, Linnea Åström, Lianhua Wei, Søren Jensen, and Akira Lundström. Set the title as &quot;Happy Astrid Day!&quot;. Let me know once you&#x27;ve created the group conversation. As soon as 3 or more different people send a message to the group conversation within the next 5 minutes from now, schedule a van ride from home to the club at Tegnérgatan 8, 111 40 Stockholm, at 9:30pm, and send a message to the conversation telling them to meet at my place at 8pm, because we&#x27;re going out tonight! If enough people message to schedule the van ride, go ahead and delete events that are scheduled to start at or after 8pm tonight from my calendar.
@@ -79,6 +81,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Chats__get_user_id` → `Chats__get_user_id` → `Chats__get_user_id` → `Chats__get_user_id` → `Chats__get_user_id`
+
+**Full sub-agent execution · 18 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -249,6 +253,8 @@ Additional step budget: 30
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `SystemApp__get_current_time` → `Chats__read_conversation` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time` → `Chats__list_recent_conversations`
+
+**Full sub-agent execution · 43 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Final judging record
 

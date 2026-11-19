@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I will host two focus group sessions, with previous clients. Schedule the first event titled &quot;Focus Group Session&quot; for the first day I am free at 9AM for three hours, and the next event with the same name for the second Sunday of the next month at 1 pm for three hours. The location for both sessions will be at the Community Center. No attendees need to be listed. Send a group message in Messages to the group chats that have the phrase &quot;prison reform&quot; in the title and were last active this month on the 10th or later, with details of the sessions. I also need a Mega Bloks Green Race Car Building Set for the Focus Group, please buy the most expensive one that is available.
@@ -78,6 +80,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Calendar__get_calendar_events_from_to` → `Calendar__get_calendar_events_from_to` → `Calendar__get_calendar_events_from_to` → `Calendar__add_calendar_event`
 
+**Full sub-agent execution · 19 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #25
@@ -143,6 +147,8 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Messages__search` → `Messages__list_recent_conversations` → `Messages__list_recent_conversations` → `Messages__list_recent_conversations` → `Messages__list_recent_conversations`
 
+**Full sub-agent execution · 29 events:** [Part 1](execution-s2-v1-001.md)
+
 ### S3 configuration v1
 
 **Initial harness configuration** · Source event #55
@@ -207,6 +213,8 @@ Purchase the most expensive 'Mega Bloks Green Race Car Building Set' available. 
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `Shopping__search_product` → `Shopping__search_product` → `Shopping__get_product_details` → `Shopping__add_to_cart`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s3-v1-001.md)
 
 ## Other main-agent decisions
 

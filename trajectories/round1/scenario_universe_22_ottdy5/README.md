@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Save all properties that are located in the 5 zip codes with the lowest property crime. Write a Messages to Nalani Jensen telling the zip codes and how many properties you saved.
@@ -85,6 +87,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__list_all_apartments` → `City__get_api_call_limit` → `City__get_api_call_count` → `City__get_crime_rate` → `City__get_crime_rate`
 
+**Full sub-agent execution · 103 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #108
@@ -155,6 +159,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `City__get_crime_rate` → `City__get_crime_rate` → `City__get_crime_rate` → `City__get_crime_rate` → `City__get_crime_rate`
+
+**Full sub-agent execution · 87 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I have $50 to spend. Tell me how much money I will have left after paying for the premium cab I got a quote for on August 23, have bought the most expensive vinyl variant among all products with the text &#x27;action figure&#x27; in their title available in the shop, rounded to the nearest whole number. I just need the final dollar amount, no need for pleasantries.
@@ -75,6 +77,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Cabs__get_ride_history_length` → `Cabs__get_ride_history` → `Cabs__get_ride`
 
+**Full sub-agent execution · 9 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #14
@@ -137,6 +141,8 @@ Search the shop for all products containing the text 'action figure' in their ti
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `Shopping__list_all_products` → `Shopping__list_all_products` → `Shopping__list_all_products` → `Shopping__list_all_products`
+
+**Full sub-agent execution · 22 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I’m going to have dinner with Kåre Sørensen this Friday from 8 PM to 10 PM. Add it to my calendar and send a Messages to him asking if everything’s okay for us to go have dinner. Book me a default cab from my home to Tøyengata 2, 0578 Oslo, 30 minutes before the dinner. Notify me once these tasks are completed. If somehow he won’t be able to attend, reschedule the calendar event on the time slot that works best for him &amp; rebook the cab for 30 minutes before this new timeslot. I want to make sure I have 30 minutes in between events so if needed, delete other calendar events happening in this timeslot or within 30 minutes of it.
@@ -93,6 +95,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Messages__get_user_id` → `Calendar__get_calendar_events_from_to` → `Calendar__add_calendar_event` → `Messages__send_message`
+
+**Full sub-agent execution · 18 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -263,6 +267,8 @@ Additional step budget: 20
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Messages__read_conversation` → `Calendar__delete_calendar_event` → `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Calendar__add_calendar_event`
+
+**Full sub-agent execution · 17 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Final judging record
 

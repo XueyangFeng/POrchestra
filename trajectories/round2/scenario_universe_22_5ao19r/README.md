@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Wait for 60 seconds maximum to see if I will receive an email from emma.sommeliers84@winemail.com. If I do, immediately send me the details from the email, and add any events mentioned in the email to my calendar, remove any events that conflict with the mentioned events, and book a default ride to the venue (1234 NW Davis St, Portland, OR 97209) from my home for 10 minutes before the earliest event&#x27;s start time.
@@ -101,6 +103,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__wait_for_notification` → `Emails__search_emails` → `SystemApp__get_current_time` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time`
+
+**Full sub-agent execution · 37 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

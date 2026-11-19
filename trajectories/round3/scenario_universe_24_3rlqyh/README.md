@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I need to organize my emails. Respond to Yumi Nakahara&#x27;s email. Ask for more information about the parallels between Japanese and European cuisine. Delete Katarzyna Zielińska&#x27;s only email and move Leon Vandenberghe&#x27;s only email from inbox to trash. Cancel the Research Collaboration with Kazimierz Wojciechowski later today, October 15. Order the the plush variant Wild Republic Cuddlekins 12&quot; Golden Tamarin Lion, one PROLINE 344100 Ram 2500 Clear Body made of polycarbonate, and one Fantasy Flight Games The Ghost of Framsburg Adventure in new condition, both for Yumi.
@@ -81,6 +83,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Emails__search_emails` → `Emails__list_emails` → `Emails__list_emails` → `Emails__reply_to_email` → `Emails__delete_email`
 
+**Full sub-agent execution · 19 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #25
@@ -145,6 +149,8 @@ Find and cancel (delete) the calendar event titled 'Research Collaboration' with
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Calendar__read_today_calendar_events` → `Calendar__delete_calendar_event` → `Calendar__get_calendar_event` → `Calendar__read_today_calendar_events`
+
+**Full sub-agent execution · 11 events:** [Part 1](execution-s2-v1-001.md)
 
 ### S3 configuration v1
 
@@ -214,6 +220,8 @@ Order the following three items for Yumi: 1) One 'Wild Republic Cuddlekins 12" G
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `Shopping__search_product` → `Shopping__add_to_cart` → `Shopping__search_product` → `Shopping__add_to_cart`
+
+**Full sub-agent execution · 23 events:** [Part 1](execution-s3-v1-001.md)
 
 ## Other main-agent decisions
 

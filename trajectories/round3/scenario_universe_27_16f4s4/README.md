@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 4
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I am on the property hunt. Please cancel all events on my calendar scheduled for tomorrow. If anyone emails me about a property viewing in the next four minutes, immediately reply back affirmatively to the viewing request and their proposed date/time. Add it to my calendar as well, with the title as &quot;Property Viewing&quot; and with the sender&#x27;s email as an attendee. You don&#x27;t need to notify me, I&#x27;m busy all day and will check later.
@@ -90,6 +92,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event`
+
+**Full sub-agent execution · 20 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -260,6 +264,8 @@ Additional step budget: 20
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Emails__list_emails` → `Emails__get_email_by_id` → `Emails__reply_to_email` → `Calendar__add_calendar_event` → `SystemApp__get_current_time`
+
+**Full sub-agent execution · 16 events:** [Part 1](execution-s1-v2-001.md)
 
 ### S1 configuration v3
 
@@ -463,6 +469,8 @@ Context: You have already deleted tomorrow's events and processed the email from
 Full system configuration: [Part 1](config-s1-v3-01.md)
 
 **4. Execution after the update:** `Emails__list_emails` → `Emails__get_email_by_id` → `Emails__reply_to_email` → `Calendar__add_calendar_event` → `SystemApp__get_current_time`
+
+**Full sub-agent execution · 16 events:** [Part 1](execution-s1-v3-001.md)
 
 ### S1 configuration v4
 
@@ -684,6 +692,8 @@ Full system configuration: [Part 1](config-s1-v4-01.md)
 
 **4. Execution after the update:** `Emails__list_emails` → `SystemApp__get_current_time` → `SystemApp__wait_for_notification`
 
+**Full sub-agent execution · 10 events:** [Part 1](execution-s1-v4-001.md)
+
 ### S1 configuration v5
 
 **Harness configuration updated** · Source event #73
@@ -902,6 +912,8 @@ Tools: ['Calendar__get_calendar_events_from_to', 'Calendar__delete_calendar_even
 Full system configuration: [Part 1](config-s1-v5-01.md)
 
 **4. Execution after the update:** `Emails__list_emails` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time` → `Emails__list_emails` → `SystemApp__wait_for_notification`
+
+**Full sub-agent execution · 19 events:** [Part 1](execution-s1-v5-001.md)
 
 ## Other main-agent decisions
 

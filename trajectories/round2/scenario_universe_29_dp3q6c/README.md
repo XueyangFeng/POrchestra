@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I&#x27;ve hurt myself and need to go to the hospital. Send a Messages message to my roommate,	 Nalini Rao, asking her to take me to the hospital. Message her every 30 seconds, until you have messaged her a total of 5 times, starting 1 second from now. If she responds that she can help, send me a message and let me know. If she doesn&#x27;t respond, wait for exactly 60 more seconds after the 5th message then send her an email asking why she&#x27;s not answering my messages. Wait for exactly 60 more seconds after the email and if she still hasn&#x27;t responded or says that she can&#x27;t help, order a default cab for 7:30 am today to pick me up at home and take me to the hospital at New Marine Lines, Marine Lines, Mumbai, Maharashtra 400020. Do not inform me about anything as I need to really focus on getting to the hospital.
@@ -97,6 +99,8 @@ Execute the following emergency response plan for Nalini Rao:
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Messages__lookup_user_id` → `SystemApp__get_current_time` → `Messages__send_message` → `SystemApp__wait_for_notification`
+
+**Full sub-agent execution · 55 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Other main-agent decisions
 

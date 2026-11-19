@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Send a message to Kofi Ogunlesi on Chats asking them to add the apartment search we discussed to my calendar, including the address. Order a default cab from my address to Fosswinckels gate 10, Bergen at 12 PM today. After the message is sent to Kofi, tell me the contents of the message that was sent to Kofi on Chats. If the event titled apartment search is added to my calendar by Kofi Ogunlesi with a location that&#x27;s different from the destination of the cab ride, cancel that ride and order a new one with the same time and start location, but change the destination to the location of the event. Then, send Kofi Ogunlesi an email letting them know I&#x27;ve ordered a cab to that address. If you change the cab destination, let me know the new location you changed it to.
@@ -89,6 +91,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Chats__lookup_user_id` → `Chats__list_conversations_by_participant` → `Chats__list_conversations_by_participant` → `Chats__search`
 
+**Full sub-agent execution · 64 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #70
@@ -165,6 +169,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Chats__search` → `Chats__read_conversation` → `Chats__read_conversation` → `Chats__read_conversation` → `Chats__read_conversation`
+
+**Full sub-agent execution · 63 events:** [Part 1](execution-s2-v1-001.md)
 
 ### S3 configuration v1
 
@@ -263,6 +269,8 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__list_saved_apartments` → `Chats__read_conversation` → `Chats__read_conversation` → `Chats__search` → `Chats__read_conversation`
 
+**Full sub-agent execution · 66 events:** [Part 1](execution-s3-v1-001.md)
+
 ### S4 configuration v1
 
 **Initial harness configuration** · Source event #201
@@ -327,6 +335,8 @@ Execute the following conditional steps: 1) Cancel the currently booked cab ride
 Full system configuration: [Part 1](config-s4-v1-01.md)
 
 **Subsequent execution:** `Cabs__user_cancel_ride` → `Cabs__order_ride` → `Emails__send_email` → `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 9 events:** [Part 1](execution-s4-v1-001.md)
 
 ## Final judging record
 

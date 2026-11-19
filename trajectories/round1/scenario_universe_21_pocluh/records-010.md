@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #279 · Sub-agent 5: model output</summary>
 
@@ -36,6 +38,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #280 · Sub-agent 5: tool result</summary>
 
@@ -49,6 +53,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #281 · Sub-agent 5: model output</summary>
 
@@ -93,6 +99,8 @@ SUB-AGENT SESSION 6
 
 
 </details>
+
+
 <details>
 <summary>Source event #282 · Sub-agent 6: Initial system configuration</summary>
 
@@ -286,6 +294,8 @@ the provided discount code. This is a strict all-or-nothing discount policy.
 
 
 </details>
+
+
 <details>
 <summary>Source event #283 · Sub-agent 6: user / environment input</summary>
 
@@ -303,6 +313,8 @@ the provided discount code. This is a strict all-or-nothing discount policy.
 
 
 </details>
+
+
 <details>
 <summary>Source event #284 · Sub-agent 6: model output</summary>
 
@@ -323,6 +335,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #285 · Sub-agent 6: tool result</summary>
 
@@ -336,6 +350,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #286 · Sub-agent 6: model output</summary>
 
@@ -354,6 +370,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #287 · Sub-agent 6: tool result</summary>
 
@@ -367,6 +385,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #288 · Sub-agent 6: model output</summary>
 
@@ -387,6 +407,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #289 · Sub-agent 6: tool result</summary>
 
@@ -400,6 +422,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #290 · Sub-agent 6: model output</summary>
 
@@ -420,6 +444,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #291 · Sub-agent 6: tool result</summary>
 
@@ -433,6 +459,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #292 · Sub-agent 6: model output</summary>
 
@@ -453,6 +481,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #293 · Sub-agent 6: tool result</summary>
 
@@ -466,6 +496,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #294 · Sub-agent 6: model output</summary>
 
@@ -484,6 +516,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #295 · Sub-agent 6: tool result</summary>
 
@@ -497,6 +531,8 @@ e7ab09f6-1fdf-420f-a28b-c67d4c34f43e
 
 
 </details>
+
+
 <details>
 <summary>Source event #296 · Sub-agent 6: model output</summary>
 
@@ -516,6 +552,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #297 · Sub-agent 6: tool result</summary>
 
@@ -529,6 +567,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #298 · Sub-agent 6: model output</summary>
 
@@ -546,6 +586,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #299 · Sub-agent 6: tool result</summary>
 
@@ -559,6 +601,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #300 · Sub-agent 6: model output</summary>
 
@@ -576,6 +620,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #301 · Sub-agent 6: tool result</summary>
 
@@ -589,6 +635,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #302 · Sub-agent 6: model output</summary>
 
@@ -606,6 +654,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #303 · Sub-agent 6: tool result</summary>
 
@@ -619,6 +669,8 @@ c95e2a1aa7024f47b68a584f71a22f27
 
 
 </details>
+
+
 <details>
 <summary>Source event #304 · Sub-agent 6: model output</summary>
 
@@ -636,6 +688,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #305 · Sub-agent 6: tool result</summary>
 
@@ -649,6 +703,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #306 · Sub-agent 6: model output</summary>
 
@@ -666,6 +722,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #307 · Sub-agent 6: tool result</summary>
 
@@ -679,6 +737,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #308 · Sub-agent 6: model output</summary>
 
@@ -699,6 +759,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #309 · Sub-agent 6: tool result</summary>
 
@@ -712,6 +774,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #310 · Sub-agent 6: model output</summary>
 
@@ -758,6 +822,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #311 · Sub-agent 6: tool result</summary>
 
@@ -771,6 +837,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #312 · Sub-agent 6: model output</summary>
 
@@ -787,6 +855,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #313 · Sub-agent 6: tool result</summary>
 
@@ -800,6 +870,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #314 · Sub-agent 6: model output</summary>
 
@@ -854,6 +926,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #315 · Sub-agent 6: tool result</summary>
 
@@ -867,6 +941,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #316 · Judge rationale</summary>
 

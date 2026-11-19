@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Could you save all the properties priced at $1800 located in the city in which I took a cab on the 5th of this month for me? Also, remove any saved properties in that city that are not at that price point. Let me know when you&#x27;re done.
@@ -73,6 +75,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Cabs__get_ride_history_length` → `Cabs__get_ride_history`
 
+**Full sub-agent execution · 10 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #15
@@ -139,6 +143,8 @@ In the RentAFlat app, perform the following for the city of Odense: 1) Save all 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__search_apartments` → `RentAFlat__list_saved_apartments` → `RentAFlat__search_apartments` → `RentAFlat__save_apartment` → `RentAFlat__save_apartment`
+
+**Full sub-agent execution · 27 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

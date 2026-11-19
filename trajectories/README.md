@@ -4,6 +4,8 @@ Browse all trajectories directly on GitHub. No external website or JavaScript is
 
 These records are sanitized. Provider identifiers, host-local paths, credentials, and known personal identifiers are removed or replaced. Task content and recorded configuration changes are retained.
 
+Every task has a prominent **Read the sub-agent execution traces** link. Dedicated execution pages show sub-agent outputs, reasoning, and tool actions directly, with expandable tool observations and context.
+
 ## Featured cases
 
 - [Order cancellation: task, tool, and budget revision](round1/scenario_universe_25_dippkn/README.md)

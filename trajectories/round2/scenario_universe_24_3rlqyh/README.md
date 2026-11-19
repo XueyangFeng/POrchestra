@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I need to organize my emails. Respond to Yumi Nakahara&#x27;s email. Ask for more information about the parallels between Japanese and European cuisine. Delete Katarzyna Zielińska&#x27;s only email and move Leon Vandenberghe&#x27;s only email from inbox to trash. Cancel the Research Collaboration with Kazimierz Wojciechowski later today, October 15. Order the the plush variant Wild Republic Cuddlekins 12&quot; Golden Tamarin Lion, one PROLINE 344100 Ram 2500 Clear Body made of polycarbonate, and one Fantasy Flight Games The Ghost of Framsburg Adventure in new condition, both for Yumi.
@@ -81,6 +83,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Emails__search_emails` → `Emails__search_emails` → `Emails__search_emails` → `Emails__search_emails` → `Emails__reply_to_email`
 
+**Full sub-agent execution · 21 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #27
@@ -145,6 +149,8 @@ Find the calendar event titled 'Research Collaboration with Kazimierz Wojciechow
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Calendar__search_events` → `Calendar__delete_calendar_event` → `Calendar__get_calendar_events_from_to`
+
+**Full sub-agent execution · 11 events:** [Part 1](execution-s2-v1-001.md)
 
 ### S3 configuration v1
 
@@ -212,6 +218,8 @@ Order the following three items from the Shopping app: 1. One 'Wild Republic Cud
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `Shopping__search_product` → `Shopping__search_product` → `Shopping__search_product` → `Shopping__search_product`
+
+**Full sub-agent execution · 29 events:** [Part 1](execution-s3-v1-001.md)
 
 ## Other main-agent decisions
 

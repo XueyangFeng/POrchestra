@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I need a student partner. Schedule an event titled &quot;Reading Session&quot; for this Friday from 2pm for 2 hours. Add Eliška Nováková as an attendee. Inform me after scheduling the event that the event is scheduled. If the attendee should cancel the reading session, send a message to her on Messages asking what time would be convenient and schedule &quot;Reading Session&quot; on this Friday for me at 3 pm for 2 hours and another at 8 pm for 2 hours. Send an email to Fatima Al-Khateeb with the subject &quot;Reading&quot; asking if she would be free to join me for the 8pm reading session
@@ -77,6 +79,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Calendar__add_calendar_event` → `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 11 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -237,6 +241,8 @@ Additional step budget: 20
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Messages__get_user_id` → `Messages__send_message` → `Calendar__add_calendar_event` → `Calendar__add_calendar_event` → `Contacts__search_contacts`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Other main-agent decisions
 

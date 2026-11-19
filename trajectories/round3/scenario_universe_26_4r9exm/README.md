@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Send a 1:1 direct message to each of my contacts who live in the same city as me and are 40 and over inviting them to a watch-along of Cinema Paradiso at my house this Sunday from 7:00 PM to 9:40 PM and ask them to confirm their attendance. Use Messages if they’re on it, otherwise Chats. Create a calendar event for the watch-along, but don’t add attendees since I’m not sure who’s coming. Buy 50 round paper dinner plates so I have something to serve snacks on.
@@ -96,6 +98,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
 
+**Full sub-agent execution · 59 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #65
@@ -164,6 +168,8 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Chats__lookup_user_id` → `Chats__lookup_user_id` → `Messages__send_message` → `Messages__send_message` → `Chats__send_message`
 
+**Full sub-agent execution · 21 events:** [Part 1](execution-s2-v1-001.md)
+
 ### S3 configuration v1
 
 **Initial harness configuration** · Source event #87
@@ -230,6 +236,8 @@ Search for 'round paper dinner plates', add 50 of them to the cart, and complete
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `Shopping__search_product` → `Shopping__get_product_details` → `Shopping__add_to_cart` → `Shopping__list_cart`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s3-v1-001.md)
 
 ## Other main-agent decisions
 

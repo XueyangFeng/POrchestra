@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 My Oslo friends and I are going to have a Lego night sometime soon but some of my Oslo friends are chipping in more money towards the Lego sets than others. How many times could I buy the most expensive item available with &quot;LEGO&quot; in its name if I had $15 for each of my contacts (apart from me) living in Oslo who are on Messages but not on Chats, and $10 for those who are on Chats but not on Messages? Please respond with the number only, rounded down to the nearest whole number.
@@ -90,6 +92,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
 
+**Full sub-agent execution · 58 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #62
@@ -160,6 +164,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Messages__get_user_id` → `Chats__get_user_id` → `Messages__get_user_id` → `Chats__get_user_id` → `Shopping__search_product`
+
+**Full sub-agent execution · 24 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

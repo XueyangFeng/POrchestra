@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Find all participants (excluding myself) in group conversations in Messages or Chats where Frantz Fanon was mentioned by anyone in the conversation, and all contacts who sent me an e-mail with a title that includes the words &quot;Power Dynamics&quot;. With which of those people have I spent the most amount of time, based on the duration of calendar events that list them as participants from the beginning of August this year until today? Just give me the first name and the last name of the person. If there&#x27;s a tie, tell me the oldest person among those tied.
@@ -89,6 +91,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Messages__get_user_id` → `Chats__get_user_id` → `Messages__search` → `Messages__search`
 
+**Full sub-agent execution · 62 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #67
@@ -155,6 +159,8 @@ Calculate the total duration of calendar events for each of the following candid
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__search_events` → `Calendar__search_events` → `Calendar__search_events` → `Calendar__search_events`
+
+**Full sub-agent execution · 37 events:** [Part 1](execution-s2-v1-001.md) · [Part 2](execution-s2-v1-002.md)
 
 ## Other main-agent decisions
 

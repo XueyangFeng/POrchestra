@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #9 · Sub-agent 1: model output</summary>
 
@@ -93,6 +95,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #10 · Sub-agent 1: tool result</summary>
 
@@ -106,6 +110,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #11 · Sub-agent 1: System configuration update</summary>
 
@@ -250,6 +256,8 @@ Read at: 2024-10-15 07:00:00
 
 
 </details>
+
+
 <details>
 <summary>Source event #12 · Sub-agent 1: user / environment input</summary>
 
@@ -261,6 +269,8 @@ Use the AgentUserInterface__send_message_to_user tool to inform the user that 'L
 
 
 </details>
+
+
 <details>
 <summary>Source event #13 · Sub-agent 1: model output</summary>
 
@@ -277,6 +287,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #14 · Sub-agent 1: tool result</summary>
 
@@ -290,6 +302,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #15 · Judge rationale</summary>
 

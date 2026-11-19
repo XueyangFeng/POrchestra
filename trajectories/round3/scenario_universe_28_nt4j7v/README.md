@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Send a group email to all of my contacts who are aged 78 or older (excluding myself) asking what they would like for Christmas this year. Let me know once the email has been sent. 3 minutes after you let me know, check who has replied back to the email. If any one replied back requesting a product, please add the requested product to the cart and complete one order with all the requested items. If they don&#x27;t provide enough details to select a variant, select the cheapest variant. After completing the purchase, send separate emails to each person confirming that I&#x27;ve ordered the item they requested.
@@ -79,6 +81,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 34 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -248,6 +252,8 @@ Additional step budget: 30
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `SystemApp__get_current_time` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time`
+
+**Full sub-agent execution · 41 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Other main-agent decisions
 

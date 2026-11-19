@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Please tell me the average age of the people in my contacts who live in the city that appears most frequently among my contacts (if there is a tie, sort alphabetically and use the first one) considering only those who have ever emailed me. Round to the nearest whole number.
@@ -78,6 +80,8 @@ Calculate the average age of contacts who live in the most frequent city among a
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 35 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md) · [Part 3](execution-s1-v1-003.md)
 
 ## Final judging record
 

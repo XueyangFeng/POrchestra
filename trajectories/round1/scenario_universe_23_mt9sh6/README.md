@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Email all my contacts who are former music teachers separately asking them if they’d like to start a band with me. Title the emails ‘Upcoming Band’. For the band practice events, schedule 2-hour calendar events on the 1st day of the next two months in the first time slot available from 9 AM, and title them ‘Band Practice’.
@@ -77,6 +79,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
 
+**Full sub-agent execution · 46 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #51
@@ -139,6 +143,8 @@ Schedule two 2-hour calendar events titled 'Band Practice'. One event should be 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Calendar__get_calendar_events_from_to` → `Calendar__add_calendar_event` → `Calendar__get_calendar_events_from_to` → `Calendar__add_calendar_event`
+
+**Full sub-agent execution · 14 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

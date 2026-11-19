@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 From the start of September until today, which cab service type have I spent the most money on, excluding rides lasting less than 10 minutes? Additionally, premium cab rides with airports as the destination should not be included in this comparison.
@@ -81,6 +83,8 @@ After calculating the totals, use AgentUserInterface__send_message_to_user to re
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Cabs__get_ride_history_length` → `Cabs__get_ride_history` → `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 7 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

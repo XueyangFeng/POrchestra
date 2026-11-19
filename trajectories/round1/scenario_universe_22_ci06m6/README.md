@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Create an event titled &quot;Dinner with Buddies&quot; for Saturday the 19th from 6:00 PM to 8:00 PM. Send a Messages message to Guillermo Reyes asking if he can attend dinner this Saturday the 19th from 6:00 PM to 8:00 PM. Send a Messages message to Alexandra Popescu asking if she can attend dinner this Saturday the 19th from 6:00 PM to 8:00 PM. Let me know when you have scheduled the event and the messages have been sent. If the attendees are unable to attend the event at that time, reschedule the event by choosing the earliest 2-hour time-slot on Saturday 19th after 5pm where they are both available. Afterwards, send a Messages to each of them with the updated schedule.
@@ -80,6 +82,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Messages__lookup_user_id` → `Messages__lookup_user_id` → `Calendar__add_calendar_event` → `Messages__send_message` → `Messages__send_message`
+
+**Full sub-agent execution · 16 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -252,6 +256,8 @@ Additional step budget: 30
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Messages__read_conversation` → `Messages__read_conversation` → `Messages__read_conversation` → `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event`
+
+**Full sub-agent execution · 19 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Final judging record
 

@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Create a new contact in my contact list with the first name Arnold, the last name Schwarzenegger, and the email address arnold@fitness.com. After you have him added, send him an email with the subject &quot;Biceps Exercises?&quot; and in the content, ask him for his top 5 biceps exercises. This coming Sunday, create an event titled &quot;Apartment Tour&quot; from 2:00 to 4:00 that afternoon. Find the lowest priced property on my saved apartments list in the 211 43 zip code that has a Gym as an amenity and let me know the name of that property. Order me a default cab ride to pick me up from my Home at 1:00 PM on this coming Sunday and take me to that property. Send a private message to Vasco Pinto on Chats and ask him if he knows of any good gyms in the 211 43 zip code.
@@ -72,6 +74,8 @@ Create a new contact with the first name 'Arnold', the last name 'Schwarzenegger
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__add_new_contact` → `Emails__send_email` → `Emails__send_email`
+
+**Full sub-agent execution · 9 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S2 configuration v1
 
@@ -154,6 +158,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `RentAFlat__list_saved_apartments` → `Calendar__add_calendar_event` → `Cabs__order_ride` → `Chats__get_user_id`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

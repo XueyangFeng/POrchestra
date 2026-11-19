@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 In one single order, purchase one unit of the most expensive variant available for purchase for each product with &#x27;Star Wars&#x27; in its name, without using any discount codes. If multiple variants available for purchase for a product share the same highest price, exclude that product from the order. After completing the purchase, send an email to the former pediatric nurse in my contacts with the subject line &#x27;Items Ordered,&#x27; including the total price of the order and confirming that the purchase has been successfully completed.
@@ -92,6 +94,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `Shopping__search_product` → `Shopping__get_product_details` → `Shopping__get_product_details` → `Shopping__get_product_details`
+
+**Full sub-agent execution · 44 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -248,6 +252,8 @@ Additional step budget: 10
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Emails__send_email`
+
+**Full sub-agent execution · 5 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Other main-agent decisions
 

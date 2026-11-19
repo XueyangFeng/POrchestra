@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 What location do I spend the most time this year up till now for lunch? If there is a tie, sort the locations alphabetically and give me the top answer.
@@ -76,6 +78,8 @@ Identify the location where the user spent the most time for 'lunch' in 2024 (up
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__search_events`
+
+**Full sub-agent execution · 7 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md)
 
 ### S1 configuration v2
 
@@ -256,6 +260,8 @@ Additional step budget: 5
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 3 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Final judging record
 

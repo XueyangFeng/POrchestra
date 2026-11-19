@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I&#x27;m traveling to Aberdeen. Send separate emails to each contact who lives in the United Kingdom asking about their experience of Aberdeen. Attach the Wikipedia file I saved in .txt format about Aberdeen. Schedule a trip on my calendar titled &quot;Aberdeen trip&quot; for the first upcoming weekend with no events tagged as &quot;Work&quot;, from 6AM on the Saturday to 6PM on the Sunday. Delete all previously scheduled events that weekend and send separate Messages messages to any attendees apologizing that I had to cancel the event and saying I will get back to them soon. Also, book a premium cab ride at 6AM on the Saturday of the trip from Home to the same airport as on my October 4th, 2024, cab ride.
@@ -86,6 +88,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 65 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md)
 
 ### S2 configuration v1
 
@@ -176,6 +180,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Files__tree` → `Files__ls` → `Files__cat` → `Files__cat` → `Files__ls`
+
+**Full sub-agent execution · 63 events:** [Part 1](execution-s2-v1-001.md) · [Part 2](execution-s2-v1-002.md)
 
 ### S3 configuration v1
 
@@ -268,6 +274,8 @@ stop
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Files__ls` → `Files__ls` → `Files__ls` → `Files__ls` → `Files__ls`
+
+**Full sub-agent execution · 62 events:** [Part 1](execution-s3-v1-001.md)
 
 ### S4 configuration v1
 
@@ -363,6 +371,8 @@ Locate the Wikipedia .txt file about Aberdeen (search Files, Emails, and Message
 Full system configuration: [Part 1](config-s4-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Files__ls` → `Files__ls` → `Files__ls` → `Emails__search_emails`
+
+**Full sub-agent execution · 62 events:** [Part 1](execution-s4-v1-001.md) · [Part 2](execution-s4-v1-002.md) · [Part 3](execution-s4-v1-003.md)
 
 ### S5 configuration v1
 
@@ -466,6 +476,8 @@ Full system configuration: [Part 1](config-s5-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__get_calendar_events_from_to` → `Calendar__add_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event`
 
+**Full sub-agent execution · 62 events:** [Part 1](execution-s5-v1-001.md) · [Part 2](execution-s5-v1-002.md) · [Part 3](execution-s5-v1-003.md) · [Part 4](execution-s5-v1-004.md)
+
 ### S6 configuration v1
 
 **Initial harness configuration** · Source event #328
@@ -559,6 +571,8 @@ Full system configuration: [Part 1](config-s6-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Messages__lookup_user_id` → `Messages__get_user_id` → `Messages__list_recent_conversations` → `Messages__list_recent_conversations`
 
+**Full sub-agent execution · 66 events:** [Part 1](execution-s6-v1-001.md) · [Part 2](execution-s6-v1-002.md)
+
 ### S7 configuration v1
 
 **Initial harness configuration** · Source event #395
@@ -648,6 +662,8 @@ Full system configuration: [Part 1](config-s7-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
 
+**Full sub-agent execution · 66 events:** [Part 1](execution-s7-v1-001.md) · [Part 2](execution-s7-v1-002.md)
+
 ### S8 configuration v1
 
 **Initial harness configuration** · Source event #462
@@ -734,6 +750,8 @@ stop
 Full system configuration: [Part 1](config-s8-v1-01.md)
 
 **Subsequent execution:** `Files__ls` → `Files__ls` → `Files__ls` → `Files__ls` → `Files__ls`
+
+**Full sub-agent execution · 65 events:** [Part 1](execution-s8-v1-001.md) · [Part 2](execution-s8-v1-002.md) · [Part 3](execution-s8-v1-003.md) · [Part 4](execution-s8-v1-004.md)
 
 ## Final judging record
 

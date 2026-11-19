@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 4
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Cancel my dinner with Evangelia and Kaidën on Saturday, October 19, 2024 from 7PM to 9PM. Then send an individual email to each them letting them know I had to cancel the dinner as I will not be able to make it on that time, and invite each one of them to join me for brunch the next day (Sunday) from 10AM to 1PM at Jamun Gulab Cafe. Let me know once you send the emails. Exactly 4 minutes after notifying me check if they have replied, and if they both agree to brunch, schedule the brunch in my calendar; if one or both decline, send one joint email to both of them asking about a dinner together this Sunday, October 20, from 7PM to 9PM at The Pint Shop, Cambridge.
@@ -84,6 +86,8 @@ Cancel the calendar event for dinner with Evangelia and Kaidën on Saturday, Oct
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Emails__send_email`
+
+**Full sub-agent execution · 19 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -248,6 +252,8 @@ Additional step budget: 30
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `SystemApp__get_current_time`
+
+**Full sub-agent execution · 6 events:** [Part 1](execution-s1-v2-001.md)
 
 ### S1 configuration v3
 
@@ -431,6 +437,8 @@ Context: The user was notified at approximately 07:00:00, so the check should ha
 **Additional step budget (recorded configuration): 30.** Remaining and cumulative budgets are not inferred.
 
 Full system configuration: [Part 1](config-s1-v3-01.md)
+
+**Full sub-agent execution · 4 events:** [Part 1](execution-s1-v3-001.md)
 
 ### S1 configuration v4
 
@@ -619,6 +627,8 @@ Full system configuration: [Part 1](config-s1-v4-01.md)
 
 **4. Execution after the update:** `SystemApp__get_current_time` → `SystemApp__wait_for_notification`
 
+**Full sub-agent execution · 8 events:** [Part 1](execution-s1-v4-001.md)
+
 ### S1 configuration v5
 
 **Harness configuration updated** · Source event #48
@@ -791,6 +801,8 @@ Context: The user was just notified. Wait until exactly 4 minutes have passed si
 Full system configuration: [Part 1](config-s1-v5-01.md)
 
 **4. Execution after the update:** `Emails__list_emails` → `Calendar__add_calendar_event`
+
+**Full sub-agent execution · 7 events:** [Part 1](execution-s1-v5-001.md)
 
 ## Other main-agent decisions
 

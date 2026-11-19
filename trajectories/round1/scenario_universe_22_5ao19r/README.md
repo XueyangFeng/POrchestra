@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Wait for 60 seconds maximum to see if I will receive an email from emma.sommeliers84@winemail.com. If I do, immediately send me the details from the email, and add any events mentioned in the email to my calendar, remove any events that conflict with the mentioned events, and book a default ride to the venue (1234 NW Davis St, Portland, OR 97209) from my home for 10 minutes before the earliest event&#x27;s start time.
@@ -78,6 +80,8 @@ Check the inbox for any email from emma.sommeliers84@winemail.com. If no such em
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Emails__list_emails` → `Emails__search_emails` → `SystemApp__wait_for_notification`
+
+**Full sub-agent execution · 13 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -232,6 +236,8 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Emails__search_emails`
 
+**Full sub-agent execution · 6 events:** [Part 1](execution-s1-v2-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #25
@@ -292,6 +298,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 6 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

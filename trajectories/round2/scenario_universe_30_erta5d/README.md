@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I&#x27;m trying to be more spontaneous. I posted on my Instagram story that I&#x27;ll do whatever people Messages me for the next four minutes. Check my messages every minute for four minutes. If someone asks to do something with me, add it to my calendar. Delete anything that is already there at that time and then send an email to anyone on a cancelled event and apologize for the cancellation, offer to reschedule at their convenience (if there are multiple people on an event, send a group email). If another person asks to do something at that time, reply with &quot;Sorry, raincheck?&quot;. If someone asks for me to buy them something, do so if it costs less than $50, if it&#x27;s more, respond with &quot;Are you crazy?&quot;.
@@ -118,6 +120,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Chats__list_recent_conversations` → `Chats__list_recent_conversations` → `Messages__list_recent_conversations` → `SystemApp__wait_for_notification`
 
+**Full sub-agent execution · 107 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #111
@@ -215,6 +219,8 @@ Complete the final leg of the 4-minute spontaneous message monitoring (until 07:
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Messages__read_conversation` → `Shopping__search_product` → `Shopping__add_to_cart` → `Shopping__checkout`
+
+**Full sub-agent execution · 30 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

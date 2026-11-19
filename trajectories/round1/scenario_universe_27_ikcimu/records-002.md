@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #24 · Sub-agent 1: model output</summary>
 
@@ -43,6 +45,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #25 · Sub-agent 1: tool result</summary>
 
@@ -56,6 +60,8 @@ Successfully saved apartment
 
 
 </details>
+
+
 <details>
 <summary>Source event #26 · Sub-agent 1: model output</summary>
 
@@ -72,6 +78,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #27 · Sub-agent 1: tool result</summary>
 
@@ -85,6 +93,8 @@ Successfully saved apartment
 
 
 </details>
+
+
 <details>
 <summary>Source event #28 · Sub-agent 1: model output</summary>
 
@@ -101,6 +111,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #29 · Sub-agent 1: tool result</summary>
 
@@ -114,6 +126,8 @@ Successfully saved apartment
 
 
 </details>
+
+
 <details>
 <summary>Source event #30 · Sub-agent 1: model output</summary>
 
@@ -130,6 +144,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #31 · Sub-agent 1: tool result</summary>
 
@@ -143,6 +159,8 @@ Successfully saved apartment
 
 
 </details>
+
+
 <details>
 <summary>Source event #32 · Sub-agent 1: model output</summary>
 
@@ -159,6 +177,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #33 · Sub-agent 1: tool result</summary>
 
@@ -172,6 +192,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #34 · Sub-agent 1: model output</summary>
 
@@ -188,6 +210,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #35 · Sub-agent 1: tool result</summary>
 
@@ -201,6 +225,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #36 · Sub-agent 1: user / environment input</summary>
 
@@ -213,6 +239,8 @@ Environment notifications:
 
 
 </details>
+
+
 <details>
 <summary>Source event #37 · Sub-agent 1: model output</summary>
 
@@ -227,6 +255,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #38 · Sub-agent 1: tool result</summary>
 
@@ -240,6 +270,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #39 · Sub-agent 1: model output</summary>
 
@@ -258,6 +290,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #40 · Sub-agent 1: tool result</summary>
 
@@ -271,6 +305,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #41 · Judge rationale</summary>
 

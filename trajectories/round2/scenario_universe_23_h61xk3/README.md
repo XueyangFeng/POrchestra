@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I have to get supplies for my friend&#x27;s daughter&#x27;s party. Purchase the latex, air-filled Bollovi Confetti Balloons. I&#x27;m not sure if these are the right balloons, send an email to Eliška Nováková asking if I am purchasing the right item. If Eliška replies that I have purchased the wrong item, cancel the order and purchase the ones that Eliška tells me to. Let me know when the item is purchased and the email is sent.
@@ -84,6 +86,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `Shopping__search_product` → `Shopping__search_product` → `Shopping__add_to_cart` → `Shopping__checkout`
+
+**Full sub-agent execution · 21 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -260,6 +264,8 @@ Additional step budget: 20
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Emails__list_emails` → `Emails__get_email_by_id` → `Shopping__cancel_order` → `Shopping__search_product` → `Shopping__search_product`
+
+**Full sub-agent execution · 23 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Final judging record
 

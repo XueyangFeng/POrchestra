@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Remove all properties in Liverpool that are on the saved apartments list, Akira Tanaka has me scared that&#x27;s not a safe place to live. Speaking of Akira, send her a Messages message in the most recent 1:1 conversation with her confirming that it was Liverpool she was talking about as being scary or another city. Let me know when you&#x27;ve sent her the message. If it wasn&#x27;t Liverpool, save the Liverpool properties again and remove any properties that are in the city she mentions.
@@ -94,6 +96,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__list_saved_apartments` → `RentAFlat__remove_saved_apartment` → `RentAFlat__remove_saved_apartment` → `RentAFlat__remove_saved_apartment` → `Messages__lookup_user_id`
+
+**Full sub-agent execution · 40 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -270,6 +274,8 @@ Additional step budget: 10
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `RentAFlat__save_apartment` → `RentAFlat__save_apartment` → `RentAFlat__save_apartment` → `RentAFlat__list_saved_apartments`
+
+**Full sub-agent execution · 11 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Other main-agent decisions
 

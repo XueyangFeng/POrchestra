@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I need to clean my contacts. Remove all contacts who live in the same city as the person I have a phone call with tomorrow tagged as personal, but keep that person on my contacts list. Send separate emails with the number of deleted contacts to each attendee of my next upcoming project update meeting, telling them we&#x27;ll review the deleted contacts and check if maybe I should keep some. Then, forward all the emails received from the attendee of the phone call event previously found, to the retired lawyer I know and tell me how many emails were forwarded.
@@ -81,6 +83,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Contacts__search_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
 
+**Full sub-agent execution · 50 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #54
@@ -155,6 +159,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Calendar__search_events` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts`
+
+**Full sub-agent execution · 29 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

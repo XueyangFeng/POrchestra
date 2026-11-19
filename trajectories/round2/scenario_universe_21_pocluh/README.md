@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I recently visited a nice neighborhood and I&#x27;m interested in moving to the area. It was in the same zip code as the starting location of my most expensive cab ride this month. Save the largest by square footage property with the same zip code and send a message to each Messages and Chats conversation with at least one participant whose home address is in the same zip code, asking if the price of that property is reasonable. Also order one unit of the most expensive available variant of the &quot;Herbaceous&quot; to each participant (excluding myself) of the conversations as an apology for spamming each conversation.
@@ -85,6 +87,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Cabs__get_ride_history_length` → `Cabs__get_ride_history` → `RentAFlat__search_apartments` → `RentAFlat__get_apartment_details`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S2 configuration v1
 
@@ -176,6 +180,8 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
 
+**Full sub-agent execution · 60 events:** [Part 1](execution-s2-v1-001.md) · [Part 2](execution-s2-v1-002.md)
+
 ### S3 configuration v1
 
 **Initial harness configuration** · Source event #84
@@ -262,6 +268,8 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Messages__list_recent_conversations` → `Messages__list_recent_conversations` → `Messages__list_recent_conversations` → `Messages__list_recent_conversations` → `Messages__list_recent_conversations`
 
+**Full sub-agent execution · 65 events:** [Part 1](execution-s3-v1-001.md)
+
 ### S4 configuration v1
 
 **Initial harness configuration** · Source event #150
@@ -337,6 +345,8 @@ Full system configuration: [Part 1](config-s4-v1-01.md)
 
 **Subsequent execution:** `Chats__list_recent_conversations` → `Chats__list_recent_conversations` → `Chats__list_recent_conversations` → `Chats__list_recent_conversations` → `Chats__list_recent_conversations`
 
+**Full sub-agent execution · 62 events:** [Part 1](execution-s4-v1-001.md)
+
 ### S5 configuration v1
 
 **Initial harness configuration** · Source event #213
@@ -401,6 +411,8 @@ Place 5 separate orders for one unit each of the 'Herbaceous' product variant (i
 Full system configuration: [Part 1](config-s5-v1-01.md)
 
 **Subsequent execution:** `Shopping__list_cart` → `Shopping__add_to_cart` → `Shopping__checkout` → `Shopping__list_cart` → `Shopping__add_to_cart`
+
+**Full sub-agent execution · 35 events:** [Part 1](execution-s5-v1-001.md)
 
 ## Other main-agent decisions
 

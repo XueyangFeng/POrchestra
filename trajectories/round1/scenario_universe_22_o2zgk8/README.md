@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 5
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Order a van from my home to 1945 SE Water Ave, Portland, OR 97214, pick up at 11AM tomorrow. Send a Messages message in the Wine, Art and Technology conversation asking for updates about the Wine Ceremony tomorrow and let me know when that&#x27;s been sent. If any of the participants in that conversation reply with changes about the time, schedule or reschedule the &quot;Wine Ceremony&quot; in my calendar according to changes in specified in the most recent message in that conversation by timestamp. If there are any conflicting events, move those to the next available weekday with the same time of day and with same details and inform the attendees that the event has been rescheduled via a group email. Also adjust the van booking by cancelling the ride then book another one for one hour prior to the event. Tell me about any updates to the event or van booking after you&#x27;ve made the changes.
@@ -82,6 +84,8 @@ Retrieve the current user's address from Contacts. Order a van (service_type='Va
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Cabs__order_ride` → `Messages__search` → `Messages__search` → `Messages__search`
+
+**Full sub-agent execution · 35 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -253,6 +257,8 @@ Additional step budget: 30
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Calendar__search_events` → `Calendar__add_calendar_event` → `Calendar__get_calendar_events_from_to` → `Cabs__user_cancel_ride` → `Cabs__order_ride`
+
+**Full sub-agent execution · 18 events:** [Part 1](execution-s1-v2-001.md)
 
 ### S1 configuration v3
 
@@ -444,6 +450,8 @@ Tools: ['Messages__read_conversation', 'Messages__search', 'Calendar__add_calend
 
 Full system configuration: [Part 1](config-s1-v3-01.md)
 
+**Full sub-agent execution · 3 events:** [Part 1](execution-s1-v3-001.md)
+
 ### S1 configuration v4
 
 **Harness configuration updated** · Source event #68
@@ -634,6 +642,8 @@ Context: The Wine Ceremony is currently scheduled for 2024-10-16 13:00-15:00. Th
 
 Full system configuration: [Part 1](config-s1-v4-01.md)
 
+**Full sub-agent execution · 3 events:** [Part 1](execution-s1-v4-001.md)
+
 ### S1 configuration v5
 
 **Harness configuration updated** · Source event #72
@@ -822,6 +832,8 @@ Additional step budget: 30
 
 Full system configuration: [Part 1](config-s1-v5-01.md)
 
+**Full sub-agent execution · 3 events:** [Part 1](execution-s1-v5-001.md)
+
 ### S1 configuration v6
 
 **Harness configuration updated** · Source event #76
@@ -1006,6 +1018,8 @@ Context: The new Wine Ceremony time is 2024-10-16
 
 Full system configuration: [Part 1](config-s1-v6-01.md)
 
+**Full sub-agent execution · 3 events:** [Part 1](execution-s1-v6-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #80
@@ -1086,6 +1100,8 @@ Read the conversation 'a962d7b4611143c9b9ffb494533ae0f3' using Messages tools. D
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Messages__read_conversation` → `Calendar__get_calendar_events_from_to` → `Calendar__search_events` → `Calendar__get_calendar_events_from_to` → `Calendar__get_calendar_events_from_to`
+
+**Full sub-agent execution · 92 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

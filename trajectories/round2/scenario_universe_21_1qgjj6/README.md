@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Go ahead and remove all the properties with zip codes starting with 1, as I don&#x27;t really like that part of Stockholm. Then, create a new group chat with Aurélie Dumont and Vasco Sousa via Messages and let them know that the properties have been removed. Let me know when the message has been sent. If either of them respond with more properties to remove or ask to add previously removed properties back to the saved list again, please do so. If you had to remove more properties, then, after removing them, email the assistant who I had a photoshoot with last Sunday to go ahead and scout out more locations.
@@ -88,6 +90,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__list_saved_apartments` → `RentAFlat__remove_saved_apartment` → `RentAFlat__remove_saved_apartment` → `RentAFlat__remove_saved_apartment` → `Messages__lookup_user_id`
 
+**Full sub-agent execution · 20 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #24
@@ -168,6 +172,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Messages__read_conversation` → `SystemApp__wait_for_notification` → `Messages__read_conversation` → `SystemApp__wait_for_notification` → `Messages__read_conversation`
+
+**Full sub-agent execution · 42 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

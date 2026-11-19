@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I&#x27;m traveling to Aberdeen. Send separate emails to each contact who lives in the United Kingdom asking about their experience of Aberdeen. Attach the Wikipedia file I saved in .txt format about Aberdeen. Schedule a trip on my calendar titled &quot;Aberdeen trip&quot; for the first upcoming weekend with no events tagged as &quot;Work&quot;, from 6AM on the Saturday to 6PM on the Sunday. Delete all previously scheduled events that weekend and send separate Messages messages to any attendees apologizing that I had to cancel the event and saying I will get back to them soon. Also, book a premium cab ride at 6AM on the Saturday of the trip from Home to the same airport as on my October 4th, 2024, cab ride.
@@ -82,6 +84,8 @@ Find the file saved in .txt format about Aberdeen. Then, identify all contacts w
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Files__tree` → `Files__ls` → `Files__cat` → `Files__ls` → `Files__cat`
+
+**Full sub-agent execution · 65 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S2 configuration v1
 
@@ -163,6 +167,8 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__get_calendar_events_from_to` → `Calendar__add_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event`
 
+**Full sub-agent execution · 61 events:** [Part 1](execution-s2-v1-001.md)
+
 ### S3 configuration v1
 
 **Initial harness configuration** · Source event #134
@@ -233,6 +239,8 @@ stop
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Messages__lookup_user_id` → `Contacts__search_contacts` → `Messages__lookup_user_id` → `Messages__get_user_id` → `Messages__lookup_user_id`
+
+**Full sub-agent execution · 37 events:** [Part 1](execution-s3-v1-001.md)
 
 ### S4 configuration v1
 
@@ -305,6 +313,8 @@ stop
 Full system configuration: [Part 1](config-s4-v1-01.md)
 
 **Subsequent execution:** `Files__tree` → `Files__ls` → `Files__cat` → `Files__ls` → `Files__read_document`
+
+**Full sub-agent execution · 62 events:** [Part 1](execution-s4-v1-001.md) · [Part 2](execution-s4-v1-002.md)
 
 ## Other main-agent decisions
 

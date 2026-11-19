@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Schedule a Dinner Party this Sunday from 5 pm till 9 pm at my home. Send two separate e-mails to Kåre and Nalinee, from my most recently updated conversation in Messages, with an invitation to the party, and let them know that we will be watching the new movie by Almadovar &#x27;The Room Next Door&#x27;. Order Appetizer/Dessert Cups in 2oz size, clear color and BPA-Free Plastic material. Also order Dinner Plates in bioplastic material.
@@ -84,6 +86,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Messages__list_recent_conversations` → `Messages__read_conversation` → `Contacts__search_contacts` → `Contacts__search_contacts`
 
+**Full sub-agent execution · 15 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #21
@@ -145,6 +149,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Calendar__add_calendar_event` → `Emails__send_email` → `Emails__send_email`
+
+**Full sub-agent execution · 9 events:** [Part 1](execution-s2-v1-001.md)
 
 ### S3 configuration v1
 
@@ -215,6 +221,8 @@ Search for these products, verify their specifications (size, color, material) u
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `Shopping__search_product` → `Shopping__get_product_details` → `Shopping__search_product` → `Shopping__search_product`
+
+**Full sub-agent execution · 25 events:** [Part 1](execution-s3-v1-001.md)
 
 ## Other main-agent decisions
 

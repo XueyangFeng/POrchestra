@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Add together the ages of all my contacts in Dublin. Do the same for my contacts in Galway, and find the absolute difference between the 2 total age numbers. Add together the digits of the difference, and find the zip code with the closest violent crime rate to this number (if there is a tie, use the zip code that is the biggest number). Tell me the combined square footage of all properties in this zip code.
@@ -78,6 +80,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
 
+**Full sub-agent execution · 26 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #30
@@ -150,6 +154,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__list_all_apartments` → `City__get_api_call_limit` → `City__get_crime_rate` → `City__get_crime_rate` → `City__get_crime_rate`
+
+**Full sub-agent execution · 60 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

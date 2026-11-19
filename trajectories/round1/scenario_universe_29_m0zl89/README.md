@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Find me all 2-bedroom apartments that include parking in the zip code with the lowest property crime rate, and save them. Add my realtor named Avinash Kuldeep, email avkuldeep@email.com to my contacts and then send him an email with the property names. Check my contacts for everyone in that city. Start a new Messages group with all those contacts who are on Messages and ask how they like living in that city.
@@ -87,6 +89,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__list_all_apartments` → `City__get_api_call_limit` → `City__get_api_call_count` → `City__get_crime_rate` → `City__get_crime_rate`
 
+**Full sub-agent execution · 62 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #69
@@ -149,6 +153,8 @@ Continue checking property crime rates for the first 25 zip codes in the 'remain
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `City__get_api_call_count` → `City__get_api_call_limit` → `City__get_crime_rate` → `City__get_crime_rate` → `City__get_crime_rate`
+
+**Full sub-agent execution · 61 events:** [Part 1](execution-s2-v1-001.md)
 
 ### S3 configuration v1
 
@@ -224,6 +230,8 @@ Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `City__get_api_call_count` → `City__get_crime_rate` → `City__get_crime_rate` → `City__get_crime_rate` → `City__get_crime_rate`
 
+**Full sub-agent execution · 49 events:** [Part 1](execution-s3-v1-001.md)
+
 ### S4 configuration v1
 
 **Initial harness configuration** · Source event #181
@@ -298,6 +306,8 @@ stop
 Full system configuration: [Part 1](config-s4-v1-01.md)
 
 **Subsequent execution:** `Contacts__add_new_contact` → `Emails__send_email` → `Emails__send_email` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 58 events:** [Part 1](execution-s4-v1-001.md)
 
 ## Other main-agent decisions
 

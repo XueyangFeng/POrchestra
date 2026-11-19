@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Reschedule the wine tasting event this Friday that is latest in the day for this Saturday at the same time. Email each of the attendees notifying them that I have to reschedule the event for this Saturday at the same time and ask them if that day works for them using the subject &quot;Rescheduling&quot;. Let me know once you have finished these actions. If any of the attendees reply and mention that they are unable to attend during that time/date, delete the event and reschedule it for the earliest time and date that works for everyone, including myself (no conflicts in my calendar). After rescheduling the event, reply to the attendees emails informing them of the new time and date.
@@ -90,6 +92,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__get_calendar_event` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts`
+
+**Full sub-agent execution · 25 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -271,6 +275,8 @@ Additional step budget: 30
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Emails__list_emails` → `Emails__get_email_by_id` → `Emails__get_email_by_id` → `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event`
+
+**Full sub-agent execution · 19 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Final judging record
 

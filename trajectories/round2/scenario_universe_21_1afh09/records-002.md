@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #28 · Sub-agent 1: model output</summary>
 
@@ -33,6 +35,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #29 · Sub-agent 1: tool result</summary>
 
@@ -46,6 +50,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #30 · Sub-agent 1: model output</summary>
 
@@ -66,6 +72,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #31 · Sub-agent 1: tool result</summary>
 
@@ -79,6 +87,8 @@ ReturnedEmails(emails=[Email(sender='yuting.liang@emarketingpro.com', recipients
 
 
 </details>
+
+
 <details>
 <summary>Source event #32 · Sub-agent 1: model output</summary>
 

@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Check the RentAFlat app every second for 4 minutes. If a property listing in the 8000 zip code appears, immediately save it to Save Apartments. Exactly 1 minute after saving the last one, if two or more new listings have been saved during this time, delete all saved properties in the 9000 zip code.
@@ -88,6 +90,8 @@ Monitor the RentAFlat app for the next 4 minutes (starting from now). Perform th
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `RentAFlat__list_all_apartments` → `SystemApp__wait_for_notification` → `RentAFlat__list_all_apartments` → `SystemApp__wait_for_notification`
+
+**Full sub-agent execution · 120 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md) · [Part 3](execution-s1-v1-003.md) · [Part 4](execution-s1-v1-004.md) · [Part 5](execution-s1-v1-005.md) · [Part 6](execution-s1-v1-006.md) · [Part 7](execution-s1-v1-007.md)
 
 ## Other main-agent decisions
 

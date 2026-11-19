@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Buy one of each of the available vinyl variants of the Funko Pop! Animation: Missing Link - Link product. Notify me once you place the order. I know these are in high demand, so the order might get canceled. If that happens, buy one of each of the available variants of the Funko Pop! TV: The Walking Dead - Daryl instead, and send Rashid Al-Mansoori a message on Messages letting them know I am buying this one instead.
@@ -85,6 +87,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `Shopping__add_to_cart` → `Shopping__add_to_cart` → `Shopping__add_to_cart` → `Shopping__add_to_cart`
+
+**Full sub-agent execution · 22 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -262,6 +266,8 @@ Additional step budget: 30
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Shopping__search_product` → `Shopping__list_cart` → `Shopping__add_to_cart` → `Shopping__add_to_cart` → `Shopping__add_to_cart`
+
+**Full sub-agent execution · 21 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Final judging record
 

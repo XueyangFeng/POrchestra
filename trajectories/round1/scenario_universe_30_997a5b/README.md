@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Delete all the &quot;meeting with students&quot; events currently scheduled in my calendar for the rest of this month. After canceling, send one group email with the subject &quot;Our Meetings Are Cancelled&quot; to all the attendees of these events advising them to contact other professors for assistance. Reply to the email in my inbox from the former climatologist in my contacts, stating that I no longer wish to inspire future scientists. Remove the &quot;news&quot; directory and all its contents from my files. Purchase the cheapest Wordspiel Card Game for adults. Order a premium cab for tomorrow at 7 AM from &#x27;Home&#x27; to the location of the three-bedroom property listing in London. Update the job for my own contact information to &quot;Never Working Again&quot;.
@@ -91,6 +93,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__search_events` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts`
 
+**Full sub-agent execution · 25 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #30
@@ -177,6 +181,8 @@ Complete the following remaining tasks:
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Emails__search_emails` → `Emails__reply_to_email`
+
+**Full sub-agent execution · 30 events:** [Part 1](execution-s2-v1-001.md) · [Part 2](execution-s2-v1-002.md)
 
 ## Other main-agent decisions
 

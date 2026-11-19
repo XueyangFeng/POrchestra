@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Looking at events from today until the end of this month, cancel the ones that are tagged &quot;Social&quot; which are also starting and ending before 12pm. After cancelling them, send a group email and group Messages message to the attendees, informing them that I am no longer a morning person, so I&#x27;ve canceled all the social events that start before 12PM this month. The Messages message must be sent in a new group conversation. If I don&#x27;t have any conversations with some of these attendees on Messages, send them individual messages on Chats instead.
@@ -90,6 +92,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event`
 
+**Full sub-agent execution · 41 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #47
@@ -164,6 +168,8 @@ Send the required notifications to the attendees of the canceled events.
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Messages__list_conversations_by_participant` → `Messages__list_conversations_by_participant` → `Emails__send_email` → `Chats__send_message` → `Messages__create_group_conversation`
+
+**Full sub-agent execution · 13 events:** [Part 1](execution-s2-v1-001.md)
 
 ### S2 configuration v2
 
@@ -325,6 +331,8 @@ Additional step budget: 10
 Full system configuration: [Part 1](config-s2-v2-01.md)
 
 **4. Execution after the update:** `Messages__send_message_to_group_conversation`
+
+**Full sub-agent execution · 5 events:** [Part 1](execution-s2-v2-001.md)
 
 ## Other main-agent decisions
 

@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Find the next day where I have nothing else scheduled after 4 pm. Find retired people in the same city as me and send each of them an email inviting them to a film showing at my cousin&#x27;s house on the day you identified from 5pm to 9 pm. The cousin I am referring to is a former environmental consultant. Ask the retirees to confirm their availability and let them know that I will book a cab to facilitate their transportation to the location. Let me know once all invitations have been sent and tell me what day you selected.  If all of them reply within the next 4 minutes after notifying me, as soon as the last one replies, create a calendar event for the film showing with my cousin&#x27;s home address as the location and include all people that will have confirmed their attendance as attendees. Book a default cab only for the first one who replies immediately after they reply, from their home addresses to my cousin&#x27;s home address, 30 minutes before the film event is scheduled to start and send them an individual Messages message with details about their cab ride. After doing all that, message my cousin via Chats and let her know the date and time of the event and the expected number of attendees, excluding me.
@@ -86,6 +88,8 @@ Provide the following in the response: the user's city, the cousin's name and ad
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Contacts__get_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 44 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md)
 
 ### S2 configuration v1
 
@@ -180,6 +184,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Emails__send_email` → `Emails__send_email` → `Emails__send_email` → `Emails__send_email` → `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 11 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

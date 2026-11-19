@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Find me all 2-bedroom apartments that include parking in the zip code with the lowest property crime rate, and save them. Add my realtor named Avinash Kuldeep, email avkuldeep@email.com to my contacts and then send him an email with the property names. Check my contacts for everyone in that city. Start a new Messages group with all those contacts who are on Messages and ask how they like living in that city.
@@ -83,6 +85,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__list_all_apartments` → `City__get_crime_rate` → `City__get_api_call_limit` → `City__get_crime_rate` → `City__get_crime_rate`
+
+**Full sub-agent execution · 62 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S2 configuration v1
 
@@ -167,6 +171,8 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `City__get_crime_rate` → `City__get_crime_rate` → `City__get_crime_rate` → `City__get_crime_rate` → `City__get_crime_rate`
 
+**Full sub-agent execution · 58 events:** [Part 1](execution-s2-v1-001.md)
+
 ### S3 configuration v1
 
 **Initial harness configuration** · Source event #127
@@ -235,6 +241,8 @@ stop
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Messages__get_user_id` → `Messages__create_group_conversation` → `Messages__send_message_to_group_conversation`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s3-v1-001.md)
 
 ## Other main-agent decisions
 

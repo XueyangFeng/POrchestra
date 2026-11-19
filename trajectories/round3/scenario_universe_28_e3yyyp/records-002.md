@@ -153,6 +153,8 @@ The search looks for partial matches in sender, recipients, subject, and content
 
 
 </details>
+
+
 <details>
 <summary>Source event #34 · Sub-agent 2: user / environment input</summary>
 
@@ -164,6 +166,8 @@ Process the latest email for each of the following 9 manager contacts. For each 
 
 
 </details>
+
+
 <details>
 <summary>Source event #35 · Sub-agent 2: model output</summary>
 
@@ -184,6 +188,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #36 · Sub-agent 2: tool result</summary>
 
@@ -197,6 +203,8 @@ ReturnedEmails(emails=[Email(sender='rohan.deshpande@adwave.in', recipients=['so
 
 
 </details>
+
+
 <details>
 <summary>Source event #37 · Sub-agent 2: model output</summary>
 

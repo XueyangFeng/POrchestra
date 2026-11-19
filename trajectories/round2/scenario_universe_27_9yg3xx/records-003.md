@@ -15,6 +15,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #48 · Sub-agent 2: model output</summary>
 
@@ -32,6 +34,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #49 · Sub-agent 2: tool result</summary>
 
@@ -45,6 +49,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #50 · Sub-agent 2: tool result</summary>
 
@@ -62,6 +68,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #51 · Sub-agent 2: model output</summary>
 
@@ -87,6 +95,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #52 · Sub-agent 2: tool result</summary>
 
@@ -100,6 +110,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #53 · Judge rationale</summary>
 

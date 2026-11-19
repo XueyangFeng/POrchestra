@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 If any of my events scheduled for this weekend (Friday, Saturday, Sunday) are canceled by someone else within the next 4 minutes, message that person immediately on Messages asking why they removed the event. Use Chats if they are not on Messages. After you sent the messages, if at least 4 events got removed let me know 10 seconds after the initial 4 minutes are up.
@@ -91,6 +93,8 @@ Monitor calendar events for the upcoming weekend (Friday 2024-10-18, Saturday 20
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `SystemApp__get_current_time` → `SystemApp__wait_for_notification` → `Calendar__get_calendar_events_from_to` → `Messages__get_user_id`
+
+**Full sub-agent execution · 79 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

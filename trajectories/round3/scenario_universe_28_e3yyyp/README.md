@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Find all managers in my contacts, these are contacts where their Job includes the title of &quot;manager&quot; (not &quot;former&quot;). Reply to each person&#x27;s latest email, answering the question asked, &quot;Yes, I would [whatever is asked in the content].&quot; If there are no questions in the email, reply with &quot;Sure!&quot;
@@ -75,6 +77,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
 
+**Full sub-agent execution · 28 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #33
@@ -139,6 +143,8 @@ Process the latest email for each of the following 9 manager contacts. For each 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Emails__list_emails` → `Emails__list_emails` → `Emails__list_emails` → `Emails__list_emails` → `Emails__get_email_by_id`
+
+**Full sub-agent execution · 53 events:** [Part 1](execution-s2-v1-001.md) · [Part 2](execution-s2-v1-002.md) · [Part 3](execution-s2-v1-003.md) · [Part 4](execution-s2-v1-004.md)
 
 ## Other main-agent decisions
 

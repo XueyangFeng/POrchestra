@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Reschedule the last &quot;Project Update Meeting&quot; event this month to Nov 01, 2pm-4pm, with other details remaining unchanged. Then, send an email to inform the attendees of this event about the change and ask for their confirmation of attendance. Buy one English version of the PC platform &quot;Snake Oil Game&quot; for me and one for each of the attendees of the &quot;Project Update Meeting&quot; event and apply the discount code if one is available. Let me know after you finish the purchase. 
@@ -77,6 +79,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Calendar__get_calendar_events_from_to` → `Calendar__add_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__get_calendar_events_from_to`
 
+**Full sub-agent execution · 14 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #19
@@ -139,6 +143,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Contacts__search_contacts` → `Emails__send_email`
+
+**Full sub-agent execution · 9 events:** [Part 1](execution-s2-v1-001.md)
 
 ### S3 configuration v1
 
@@ -216,6 +222,8 @@ stop
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `Shopping__get_all_discount_codes` → `Shopping__get_discount_code_info` → `Shopping__add_to_cart` → `Shopping__list_cart`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s3-v1-001.md)
 
 ## Final judging record
 

@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 What percentage of the male contacts I emailed this month are also participants in at least one individual or group conversation with me on Chats?
@@ -92,6 +94,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Emails__list_emails` → `Emails__list_emails` → `Contacts__search_contacts` → `Chats__lookup_user_id`
+
+**Full sub-agent execution · 62 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md)
 
 ## Other main-agent decisions
 

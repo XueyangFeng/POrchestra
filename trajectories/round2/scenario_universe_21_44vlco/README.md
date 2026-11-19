@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I have a photoshoot this Friday from 7pm-8pm with a bakery brand called Sheryl&#x27;s Sweets, can you schedule the event and add the person I had a brand partnership meeting with yesterday. I think I recall that the location of the photoshoot will be at the Östermalm Oasis property so book a premium ride there from my house 20 minutes before the photoshoot, but also check with my social media strategist Luísa Silva e Sousa in an email to make sure I heard her right about the location and time of the photoshoot. Let me know when you send the email. If it&#x27;s not right, update the cab booking and the calendar event.
@@ -90,6 +92,8 @@ Perform the following steps:
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Contacts__search_contacts` → `Contacts__get_current_user_details` → `Calendar__add_calendar_event` → `Cabs__order_ride`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

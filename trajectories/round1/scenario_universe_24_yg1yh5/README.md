@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Among the starting locations&#x27; zip codes of my top 3 most expensive cab rides, what is the name of the most expensive housing unit available between all these zip codes in a zip code where any contact of mine also lives? If there&#x27;s a tie for the property, provide the first one alphabetically.
@@ -80,6 +82,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Cabs__get_ride_history_length` → `Cabs__get_ride_history` → `Cabs__get_ride_history` → `Cabs__get_ride_history` → `Cabs__get_ride_history`
 
+**Full sub-agent execution · 49 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #54
@@ -142,6 +146,8 @@ Search for all available housing units in zip codes 1201 and 3011. Identify the 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__search_apartments` → `RentAFlat__search_apartments` → `RentAFlat__list_all_apartments`
+
+**Full sub-agent execution · 9 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

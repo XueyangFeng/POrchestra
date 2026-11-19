@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Reply to the emails I received within the last 5 days, starting from yesterday, and let the senders know that I will be accepting phone calls to answer questions and discuss projects this Friday from 9 am, for 2 hours long, from my home. Schedule this time in calendar.
@@ -82,6 +84,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Emails__list_emails` → `Emails__reply_to_email` → `Emails__reply_to_email` → `Emails__reply_to_email`
+
+**Full sub-agent execution · 19 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Other main-agent decisions
 

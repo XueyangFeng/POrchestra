@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Book a premium cab for me and the attendees listed in the staff meeting scheduled for this morning and have it pick us up 30 minutes before the meeting is supposed to start. It should pick us up from my hotel in 1235 Broadway Avenue, New York, NY 10001 and drop us off at the Restaurant in 678 Times Square, New York, NY 10036. Let me know the names of the attendees (excluding myself). If the cab is delayed at all, text the attendees individually on Messages (if they don&#x27;t use the app, text them on Chats) to let them know there&#x27;s an issue with the cab. If the cab is delayed more than 15 minutes, just cancel the ride. Then email Jamila Patel to ask them about borrowing her private driver this morning for the staff meeting and CC the attendees. Then send them follow-up texts on the app you texted them on about the delayed cab explaining that I&#x27;m trying to find a solution.
@@ -87,6 +89,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__read_today_calendar_events` → `Contacts__get_current_user_details` → `Cabs__order_ride` → `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 9 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

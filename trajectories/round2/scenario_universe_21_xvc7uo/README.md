@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I need to move out, but my budget is tight at the moment. Delete all properties in Stockholm from my saved apartments list that are not in the 1000-1800 price range. Save all unsaved properties in Stockholm within that price range to my list. If any properties matching my criteria are listed within 4 minutes from now, immediately send a Messages to my friend Linnea Svensson each time a new property within their budget is listed, as she is also looking to move out. Don&#x27;t notify me, I&#x27;ll check my list later.
@@ -78,6 +80,8 @@ Clean up and update the saved apartments list: 1. List all currently saved apart
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__list_saved_apartments` → `RentAFlat__remove_saved_apartment` → `RentAFlat__search_apartments` → `RentAFlat__save_apartment` → `RentAFlat__save_apartment`
+
+**Full sub-agent execution · 19 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S2 configuration v1
 
@@ -155,6 +159,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Messages__lookup_user_id` → `SystemApp__get_current_time` → `RentAFlat__search_apartments` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time`
+
+**Full sub-agent execution · 46 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

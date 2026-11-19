@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Reschedule the last &quot;Project Update Meeting&quot; event this month to Nov 01, 2pm-4pm, with other details remaining unchanged. Then, send an email to inform the attendees of this event about the change and ask for their confirmation of attendance. Buy one English version of the PC platform &quot;Snake Oil Game&quot; for me and one for each of the attendees of the &quot;Project Update Meeting&quot; event and apply the discount code if one is available. Let me know after you finish the purchase. 
@@ -85,6 +87,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__get_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__add_calendar_event` → `Emails__send_email`
+
+**Full sub-agent execution · 13 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -269,6 +273,8 @@ Additional step budget: 20
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Contacts__search_contacts` → `Contacts__search_contacts` → `Emails__send_email` → `Contacts__get_current_user_details` → `Shopping__search_product`
+
+**Full sub-agent execution · 25 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Final judging record
 

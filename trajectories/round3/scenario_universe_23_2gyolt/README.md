@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Delete all the events I have from today to the 19th of October with Kvido Nováček. Send an email to Kvido notifying him our meetings are canceled. Book a default service type cab from home to the Global Governance Seminar at Charles University located in Opletalova 38, 110 00 Staré Město, Prague today 30 minutes before it starts. Since I have more free time now, buy a hardcover copy of Conan - Book of Skelos.
@@ -89,6 +91,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event`
 
+**Full sub-agent execution · 23 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #28
@@ -162,6 +166,8 @@ Execute the following environment-interaction steps:
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Cabs__order_ride` → `Shopping__search_product` → `Shopping__add_to_cart` → `Shopping__list_cart` → `Shopping__checkout`
+
+**Full sub-agent execution · 16 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #52 · Sub-agent 1: model output</summary>
 
@@ -39,6 +41,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #53 · Sub-agent 1: tool result</summary>
 
@@ -52,6 +56,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #54 · Sub-agent 1: model output</summary>
 
@@ -74,6 +80,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #55 · Sub-agent 1: tool result</summary>
 
@@ -87,6 +95,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #56 · Sub-agent 1: model output</summary>
 
@@ -109,6 +119,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #57 · Sub-agent 1: tool result</summary>
 
@@ -122,6 +134,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #58 · Sub-agent 1: model output</summary>
 
@@ -144,6 +158,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #59 · Sub-agent 1: tool result</summary>
 
@@ -157,6 +173,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #60 · Sub-agent 1: model output</summary>
 
@@ -179,6 +197,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #61 · Sub-agent 1: tool result</summary>
 
@@ -192,6 +212,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #62 · Sub-agent 1: model output</summary>
 
@@ -214,6 +236,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #63 · Sub-agent 1: tool result</summary>
 
@@ -227,6 +251,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #64 · Sub-agent 1: model output</summary>
 
@@ -285,6 +311,8 @@ SUB-AGENT SESSION 2
 
 
 </details>
+
+
 <details>
 <summary>Source event #65 · Sub-agent 2: Initial system configuration</summary>
 
@@ -454,6 +482,8 @@ If title is not provided, it will be set to the participant names.
 
 
 </details>
+
+
 <details>
 <summary>Source event #66 · Sub-agent 2: user / environment input</summary>
 
@@ -470,6 +500,8 @@ Perform the following communication tasks:
 
 
 </details>
+
+
 <details>
 <summary>Source event #67 · Sub-agent 2: model output</summary>
 
@@ -490,6 +522,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #68 · Sub-agent 2: tool result</summary>
 
@@ -503,6 +537,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #69 · Sub-agent 2: model output</summary>
 
@@ -523,6 +559,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #70 · Sub-agent 2: tool result</summary>
 
@@ -536,6 +574,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #71 · Sub-agent 2: model output</summary>
 
@@ -556,6 +596,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #72 · Sub-agent 2: tool result</summary>
 
@@ -569,6 +611,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #73 · Sub-agent 2: model output</summary>
 
@@ -589,6 +633,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #74 · Sub-agent 2: tool result</summary>
 
@@ -602,6 +648,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #75 · Sub-agent 2: model output</summary>
 
@@ -622,6 +670,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #76 · Sub-agent 2: tool result</summary>
 
@@ -635,6 +685,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #77 · Sub-agent 2: model output</summary>
 
@@ -655,6 +707,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #78 · Sub-agent 2: tool result</summary>
 
@@ -668,6 +722,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #79 · Sub-agent 2: model output</summary>
 
@@ -691,6 +747,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #80 · Sub-agent 2: tool result</summary>
 
@@ -704,6 +762,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #81 · Sub-agent 2: model output</summary>
 
@@ -725,6 +785,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #82 · Sub-agent 2: tool result</summary>
 
@@ -738,6 +800,8 @@ d96ffd24fe99eb60e265f1312f4c0bc6
 
 
 </details>
+
+
 <details>
 <summary>Source event #83 · Sub-agent 2: model output</summary>
 
@@ -760,6 +824,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #84 · Sub-agent 2: tool result</summary>
 
@@ -773,6 +839,8 @@ d96ffd24fe99eb60e265f1312f4c0bc6
 
 
 </details>
+
+
 <details>
 <summary>Source event #85 · Sub-agent 2: model output</summary>
 
@@ -796,6 +864,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #86 · Sub-agent 2: tool result</summary>
 
@@ -809,6 +879,8 @@ e4a308c5815d34fee3f197ba7494923c
 
 
 </details>
+
+
 <details>
 <summary>Source event #87 · Sub-agent 2: model output</summary>
 
@@ -861,6 +933,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #88 · Sub-agent 2: tool result</summary>
 
@@ -874,6 +948,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #89 · Judge rationale</summary>
 

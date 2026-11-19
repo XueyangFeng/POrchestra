@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Who from all my Danish contacts who sent me an email last month participates in most events scheduled for next month as an attendee? If there is a tie, choose the contact who is younger. Let me know their first and last name.
@@ -89,6 +91,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
 
+**Full sub-agent execution · 63 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md) · [Part 3](execution-s1-v1-003.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #67
@@ -149,6 +153,8 @@ Determine which of the 7 candidate contacts (Aksel Jensen, Astrid Kjær, Astrid 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 5 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

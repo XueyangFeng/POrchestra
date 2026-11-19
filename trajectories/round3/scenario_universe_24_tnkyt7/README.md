@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Elodie Vandenberghe has just had surgery. Send a message every 30 seconds, starting in 30 seconds, for the next 3 minutes from now to the group chat with her in it on Chats called &quot;Exploring Swiss Folk Music and Culture&quot;, asking Elodie whether she is alive. If she doesn&#x27;t reply within 4 minutes of my message to you, message the group chat saying I don&#x27;t think she made it, then remove her from the chat, and then email her with the subject &quot;Proof of Life&quot; saying that I will add her back to the group chat if she gives me a sign of life. Don&#x27;t need to notify me of anything.
@@ -96,6 +98,8 @@ Manage the 4-minute health check process for Elodie Vandenberghe in the 'Explori
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Chats__get_user_id` → `Chats__search` → `Chats__read_conversation` → `SystemApp__get_current_time`
+
+**Full sub-agent execution · 94 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Other main-agent decisions
 

@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Create a Messages chat with Kaito Rao, Kavita Rao, and Žiga Kovačič. Title the chat &quot;Costumes for the staff party&quot;. Add 3 small Mens Vintage Hollywood Tuxedo Costume to my cart. Send a message into the chat telling everyone that I am going to purchase the costumes for the party for everyone in size small. Also add the event to my calendar, it starts at 8PM this Friday and it&#x27;s meant to finish at 11PM. Confirm with me after these actions have been finished.   If anyone send a Messages message, changing their mind, or wants a different version of the costume, remove the added item from the cart and add the versions they want instead. When everyone decides what they want, purchase the items (if they don&#x27;t send a message keep the original item). If there are any updates on the time or date of the party, move the event in my calendar accordingly. If there are conflicts, delete the conflicting events.
@@ -96,6 +98,8 @@ Perform the following setup actions:
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Messages__lookup_user_id` → `Messages__lookup_user_id` → `Messages__lookup_user_id` → `Contacts__search_contacts` → `Contacts__search_contacts`
+
+**Full sub-agent execution · 47 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

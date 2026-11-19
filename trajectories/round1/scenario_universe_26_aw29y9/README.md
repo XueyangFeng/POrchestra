@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 My husband left me. His name is Kjetil Østensen. Send him a message on Chats six times, starting now, with 30 seconds of interval of each other, saying &quot;Please talk to me! I love you&quot;. In exactly 4 minutes from now, check if he messaged me back on Chats. If he didn&#x27;t messaged me, schedule an appointment in my calendar titled &quot;Zoom Meeting&quot; with my only lawyer contact for tomorrow morning at 8 am - 9 am, via zoom, then email her saying it&#x27;s time to start the divorce papers, the marriage is over and that I&#x27;ve scheduled a zoom meeting for tomorrow morning. Let me know if the email has been sent to my lawyer and don’t notify me about anything else.
@@ -89,6 +91,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Chats__get_user_id` → `Chats__send_message` → `SystemApp__get_current_time` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time`
 
+**Full sub-agent execution · 62 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #66
@@ -158,6 +162,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts`
+
+**Full sub-agent execution · 18 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Find the 3 most expensive available properties. If there is a tie, include the tied properties. Find the average overall crime rate (property crime plus violent crime) for each of the zip codes of those properties. Choose the zip code with the highest average overall crime rate and send me a message with the square footage of the most expensive property there (only send me the square footage, don&#x27;t send me any other information). If there is a tie, choose the zip code that comes first numerically.
@@ -75,6 +77,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__list_all_apartments` → `RentAFlat__get_apartment_details` → `RentAFlat__get_apartment_details` → `RentAFlat__search_apartments` → `RentAFlat__get_apartment_details`
 
+**Full sub-agent execution · 13 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #17
@@ -141,6 +145,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `City__get_crime_rate` → `City__get_crime_rate` → `RentAFlat__search_apartments` → `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 9 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

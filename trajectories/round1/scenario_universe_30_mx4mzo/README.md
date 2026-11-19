@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Reschedule the research meeting at 4pm on October 18th to October 20th using the same times an details. Then, send an email to klaus.peter.mueller@berlin.de with the subject &quot;Rescheduling of research meeting&quot;. CC in saskia.mueller.design@gaia2mail.com. Tell them I have rescheduled our research meeting to Sunday 20th. Time and place is the same. Book a cab on October 20th for 3:30pm going from &quot;Home&quot; to &quot;Cavendish Laboratory, 19 JJ Thomson Ave, Cambridge CB3 0DY&quot;. Use premium service. Add 2 of the cheapest available Resin material, Grey color variants of Airfield Concrete Tarmac Section 1/48 to cart. If there are multiple ones of the same cheapest price, then just add 2 of the first item alphabetically. Checkout the cart using any discount codes that may be available.
@@ -81,6 +83,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__add_calendar_event` → `Calendar__delete_calendar_event` → `Emails__send_email`
 
+**Full sub-agent execution · 14 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #19
@@ -157,6 +161,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Cabs__order_ride` → `Shopping__search_product` → `Shopping__add_to_cart` → `Shopping__get_all_discount_codes`
+
+**Full sub-agent execution · 17 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

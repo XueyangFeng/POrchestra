@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Determine the zip code that is most commonly found in the end locations of my booked cab rides last month. Find my contacts who live in that zip code (if there is a tie in the zip codes, then find the contacts in all the tied zip codes), and tell me the name of the one who appears as an attendee the most times in my calendar events last month. If there is a tie, then tell me the name of the youngest one of those who are tied.
@@ -72,6 +74,8 @@ Retrieve the cab ride history for the month of September 2024 (from 2024-09-01 0
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Cabs__get_ride_history_length` → `Cabs__get_ride_history`
+
+**Full sub-agent execution · 8 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S2 configuration v1
 
@@ -142,6 +146,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 34 events:** [Part 1](execution-s2-v1-001.md) · [Part 2](execution-s2-v1-002.md)
 
 ## Final judging record
 

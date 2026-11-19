@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Add Herning Hytte to my saved list, and afterwards, create a new 1-hour entry in my calendar for this Friday at 3 PM titled &quot;View the apartment,&quot; with the location set to the apartment&#x27;s address. Tag it as Work, with no description. Set Nonglak Srisawat as the attendee for the event. After creating the event, send her an email asking her to confirm that the time works to view the apartment. Let me know when you send the initial email to her. If she suggests a different time, reschedule the apartment viewing event in my calendar to the time she suggests, and afterwards, send her a confirmation email. If you had to reschedule, notify me of the new time after you&#x27;ve sent the confirmaton email to her. Don’t respond to any other emails received that aren’t related to this apartment viewing.
@@ -88,6 +90,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__search_apartments` → `RentAFlat__save_apartment` → `RentAFlat__get_apartment_details` → `Contacts__search_contacts` → `Calendar__add_calendar_event`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Other main-agent decisions
 

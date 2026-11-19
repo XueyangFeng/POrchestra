@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Delete all the &quot;meeting with students&quot; events currently scheduled in my calendar for the rest of this month. After canceling, send one group email with the subject &quot;Our Meetings Are Cancelled&quot; to all the attendees of these events advising them to contact other professors for assistance. Reply to the email in my inbox from the former climatologist in my contacts, stating that I no longer wish to inspire future scientists. Remove the &quot;news&quot; directory and all its contents from my files. Purchase the cheapest Wordspiel Card Game for adults. Order a premium cab for tomorrow at 7 AM from &#x27;Home&#x27; to the location of the three-bedroom property listing in London. Update the job for my own contact information to &quot;Never Working Again&quot;.
@@ -76,6 +78,8 @@ Find all calendar events with the title 'meeting with students' scheduled from t
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Emails__send_email`
+
+**Full sub-agent execution · 11 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -236,6 +240,8 @@ Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Emails__send_email`
 
+**Full sub-agent execution · 27 events:** [Part 1](execution-s1-v2-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #45
@@ -309,6 +315,8 @@ Perform the following three independent tasks:
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Files__rm` → `Files__rm` → `Shopping__search_product` → `Shopping__search_product` → `Shopping__add_to_cart`
+
+**Full sub-agent execution · 20 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

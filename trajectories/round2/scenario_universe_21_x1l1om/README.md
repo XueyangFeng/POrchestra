@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Create a 5-hour event on October 21st 2024 starting at 9 AM titled &#x27;Brand Partnership Meeting&#x27;. Set the location as &#x27;Zoom Meeting&#x27; and include Luís Pimentel as the attendee. Cancel all other events on that day. Let me know once you have created the event. Don&#x27;t let me know about anything else. If the newly created Brand Partnership Meeting event is cancelled by Luís Pimentel, send him a Messages message asking for the reason for cancellation, and restore all events I cancelled for that day. If the restored events have attendees, send separate emails to each attendee informing them that their cancelled event has been restored to its original time and will start as normal, and express apologies.
@@ -79,6 +81,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__add_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__get_calendar_events_from_to`
+
+**Full sub-agent execution · 18 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -285,6 +289,8 @@ Additional step budget: 30
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Messages__lookup_user_id` → `Messages__lookup_user_id` → `Messages__lookup_user_id` → `Contacts__search_contacts` → `Calendar__add_calendar_event`
+
+**Full sub-agent execution · 45 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Other main-agent decisions
 

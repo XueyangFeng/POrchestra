@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Please change the location of the Dinner with Family event in the calendar for the day after tomorrow to Bohumil&#x27;s home address, and book a premium ride to depart five minutes after this event ends, from the event location to Božetěchova 5, 602 00 Brno, Czech Republic. Notify me once you have booked the taxi and created the event.  If Bohumil cancels this event, send an email to Bohumil asking if it&#x27;s inconvenient for him to host the dinner at his home that day. Recreate this cancelled Dinner with Family event, but change the location to the other attendee&#x27;s home address, and then create a Chats group conversation and send a message there to all attendees informing them of the latest location for this event. Change the taxi&#x27;s pickup location from Bohumil&#x27;s address to the other attendee&#x27;s home address.
@@ -89,6 +91,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Cabs__order_ride` → `Calendar__get_calendar_event`
+
+**Full sub-agent execution · 21 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

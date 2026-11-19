@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 If any new variants of the existing products with Great Eastern Entertainment in their names that cost less than 34.5 dollars are added in the next 3.5 minutes, add them to the cart exactly after 3.5 minutes from now have passed. Immediately after adding all the items to the cart, checkout the cart and then send a group email to the contacts from Trondheim to tell them how many new products I bought. After everything is done, notify me the total number of variants bought and the total amount spent.
@@ -89,6 +91,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Shopping__search_product` → `SystemApp__get_current_time` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time` → `Shopping__search_product`
 
+**Full sub-agent execution · 28 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #33
@@ -156,6 +160,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 27 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

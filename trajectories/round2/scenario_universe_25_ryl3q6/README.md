@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I&#x27;m trying to get an idea of my contact&#x27;s demographics. What is the oldest age among my contacts who live in the same zip code as the most frequent destination zip code from my cab rides last month. If there is a tie among zip codes, use the one with the lowest numerical value?
@@ -75,6 +77,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Cabs__get_ride_history_length` → `Cabs__get_ride_history`
 
+**Full sub-agent execution · 8 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #12
@@ -139,6 +143,8 @@ Search for all contacts residing in zip code 9000. Identify the oldest age among
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 27 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

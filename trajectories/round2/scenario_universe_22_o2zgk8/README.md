@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Order a van from my home to 1945 SE Water Ave, Portland, OR 97214, pick up at 11AM tomorrow. Send a Messages message in the Wine, Art and Technology conversation asking for updates about the Wine Ceremony tomorrow and let me know when that&#x27;s been sent. If any of the participants in that conversation reply with changes about the time, schedule or reschedule the &quot;Wine Ceremony&quot; in my calendar according to changes in specified in the most recent message in that conversation by timestamp. If there are any conflicting events, move those to the next available weekday with the same time of day and with same details and inform the attendees that the event has been rescheduled via a group email. Also adjust the van booking by cancelling the ride then book another one for one hour prior to the event. Tell me about any updates to the event or van booking after you&#x27;ve made the changes.
@@ -84,6 +86,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Cabs__order_ride` → `Messages__search` → `Messages__search` → `Messages__search`
+
+**Full sub-agent execution · 16 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

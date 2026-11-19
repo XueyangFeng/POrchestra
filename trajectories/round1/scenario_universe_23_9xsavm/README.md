@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I want to host a board game night with my friends. Schedule in the calendar as &quot;Game Night&quot; (Tag &#x27;social&#x27;, location &#x27;home&#x27;) on Friday, October 18, 2024 at 7:00 PM-11:00 PM. After you&#x27;ve scheduled it, send individual invites via Messages to my friends Eliška Nováková, Luiza Oliveira Silva and Saskia König. If they aren&#x27;t on Messages, use Chats. Let me know once you&#x27;ve sent the messages. If the date doesn&#x27;t work for them, go with the first day that all of them are available and cancel anything on my calendar that conflicts with the 7pm-11pm timeslot on that day. Cancel the original Game Night, and reschedule with the new date. Send them each a follow up Messages or message confirming the final scheduled event details.
@@ -87,6 +89,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__add_calendar_event` → `Messages__get_user_id` → `Messages__get_user_id` → `Messages__get_user_id` → `Chats__get_user_id`
+
+**Full sub-agent execution · 19 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

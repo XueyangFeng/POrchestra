@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 What location do I spend the most time this year up till now for lunch? If there is a tie, sort the locations alphabetically and give me the top answer.
@@ -75,6 +77,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__get_calendar_events_from_to` → `Calendar__get_calendar_events_from_to`
 
+**Full sub-agent execution · 10 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #14
@@ -133,6 +137,8 @@ Send a message to the user stating that 'Lysverket' is the location where they s
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 3 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

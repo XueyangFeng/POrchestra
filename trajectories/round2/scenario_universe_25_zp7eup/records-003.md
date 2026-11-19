@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #69 · Sub-agent 2: model output</summary>
 
@@ -45,6 +47,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #70 · Sub-agent 2: tool result</summary>
 
@@ -58,6 +62,8 @@ Contact 5aa9b33655d74946a50aaca598586f07 successfully deleted.
 
 
 </details>
+
+
 <details>
 <summary>Source event #71 · Sub-agent 2: model output</summary>
 
@@ -76,6 +82,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #72 · Sub-agent 2: tool result</summary>
 
@@ -89,6 +97,8 @@ Contact 4c70fddc098b45b9b7f84cc540128175 successfully deleted.
 
 
 </details>
+
+
 <details>
 <summary>Source event #73 · Sub-agent 2: model output</summary>
 
@@ -107,6 +117,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #74 · Sub-agent 2: tool result</summary>
 
@@ -120,6 +132,8 @@ Contact c2d1ba32ff93419dbeaddc283878abe7 successfully deleted.
 
 
 </details>
+
+
 <details>
 <summary>Source event #75 · Sub-agent 2: model output</summary>
 
@@ -138,6 +152,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #76 · Sub-agent 2: tool result</summary>
 
@@ -151,6 +167,8 @@ Contact e84e36b0111346febff44ff52629ec47 successfully deleted.
 
 
 </details>
+
+
 <details>
 <summary>Source event #77 · Sub-agent 2: model output</summary>
 
@@ -169,6 +187,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #78 · Sub-agent 2: tool result</summary>
 
@@ -182,6 +202,8 @@ Contact 788d5a82be654684aac08e2f23338549 successfully deleted.
 
 
 </details>
+
+
 <details>
 <summary>Source event #79 · Sub-agent 2: model output</summary>
 
@@ -200,6 +222,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #80 · Sub-agent 2: tool result</summary>
 
@@ -213,6 +237,8 @@ Contact 2babb882fa734adc85f3b9b933aa57bd successfully deleted.
 
 
 </details>
+
+
 <details>
 <summary>Source event #81 · Sub-agent 2: model output</summary>
 
@@ -231,6 +257,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #82 · Sub-agent 2: tool result</summary>
 
@@ -244,6 +272,8 @@ Contact 879a90102f4a4ea184cfa632697df473 successfully deleted.
 
 
 </details>
+
+
 <details>
 <summary>Source event #83 · Sub-agent 2: model output</summary>
 
@@ -264,6 +294,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #84 · Sub-agent 2: tool result</summary>
 
@@ -277,6 +309,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #85 · Sub-agent 2: model output</summary>
 
@@ -297,6 +331,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #86 · Sub-agent 2: tool result</summary>
 
@@ -310,6 +346,8 @@ e4a308c5815d34fee3f197ba7494923c
 
 
 </details>
+
+
 <details>
 <summary>Source event #87 · Sub-agent 2: model output</summary>
 
@@ -329,6 +367,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #88 · Sub-agent 2: tool result</summary>
 
@@ -342,6 +382,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #89 · Sub-agent 2: model output</summary>
 
@@ -361,6 +403,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #90 · Sub-agent 2: tool result</summary>
 
@@ -374,6 +418,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #91 · Sub-agent 2: model output</summary>
 
@@ -395,6 +441,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #92 · Sub-agent 2: tool result</summary>
 
@@ -408,6 +456,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #93 · Sub-agent 2: model output</summary>
 
@@ -427,6 +477,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #94 · Sub-agent 2: tool result</summary>
 
@@ -440,6 +492,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #95 · Judge rationale</summary>
 

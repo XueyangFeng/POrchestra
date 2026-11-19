@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Ryder McKenzie is coming to visit; I think he&#x27;s coming on Nov. 24. Book a default cab at 10AM that day to pick him up at the airport (Chhatrapati Shivaji Maharaj International Airport, Mumbai, Maharashtra 400099) and bring him to my home address. Send him an email titled &quot;Confirming Your Arrival Date&quot;, asking him to confirm the date of his arrival. Tell me when you&#x27;ve booked the cab and sent the email. If he replies that he&#x27;s coming a different day than I thought, then change the cab ride to 10AM on the day that he says, and cancel all my calendar events for that day.
@@ -82,6 +84,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Contacts__get_current_user_details` → `Cabs__order_ride` → `Emails__send_email` → `Emails__send_email`
+
+**Full sub-agent execution · 16 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -246,6 +250,8 @@ Additional step budget: 20
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Emails__list_emails` → `Cabs__user_cancel_ride` → `Cabs__order_ride` → `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event`
+
+**Full sub-agent execution · 17 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Final judging record
 

@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #75 · Sub-agent 1: model output</summary>
 
@@ -33,6 +35,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #76 · Sub-agent 1: tool result</summary>
 
@@ -46,6 +50,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #77 · Sub-agent 1: model output</summary>
 
@@ -69,6 +75,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #78 · Sub-agent 1: tool result</summary>
 
@@ -82,6 +90,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #79 · Sub-agent 1: model output</summary>
 
@@ -98,6 +108,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #80 · Sub-agent 1: tool result</summary>
 
@@ -111,6 +123,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #81 · Sub-agent 1: model output</summary>
 
@@ -127,6 +141,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #82 · Sub-agent 1: tool result</summary>
 
@@ -140,6 +156,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #83 · Sub-agent 1: model output</summary>
 
@@ -159,6 +177,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #84 · Sub-agent 1: tool result</summary>
 
@@ -172,6 +192,8 @@ f5a52f795771435b9f5399ac92472a88
 
 
 </details>
+
+
 <details>
 <summary>Source event #85 · Sub-agent 1: model output</summary>
 
@@ -191,6 +213,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #86 · Sub-agent 1: tool result</summary>
 
@@ -204,6 +228,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #87 · Sub-agent 1: model output</summary>
 
@@ -221,6 +247,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #88 · Sub-agent 1: tool result</summary>
 
@@ -234,6 +262,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #89 · Sub-agent 1: model output</summary>
 
@@ -250,6 +280,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #90 · Sub-agent 1: tool result</summary>
 
@@ -263,6 +295,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #91 · Sub-agent 1: model output</summary>
 
@@ -281,6 +315,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #92 · Sub-agent 1: tool result</summary>
 
@@ -294,6 +330,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #93 · Sub-agent 1: user / environment input</summary>
 
@@ -306,6 +344,8 @@ Environment notifications:
 
 
 </details>
+
+
 <details>
 <summary>Source event #94 · Sub-agent 1: model output</summary>
 
@@ -320,6 +360,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #95 · Sub-agent 1: tool result</summary>
 
@@ -333,6 +375,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #96 · Sub-agent 1: model output</summary>
 
@@ -351,6 +395,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #97 · Sub-agent 1: tool result</summary>
 
@@ -364,6 +410,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #98 · Judge rationale</summary>
 

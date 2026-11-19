@@ -167,6 +167,8 @@ The search looks for partial matches in sender, recipients, subject, and content
 
 
 </details>
+
+
 <details>
 <summary>Source event #31 · Sub-agent 2: user / environment input</summary>
 
@@ -178,6 +180,8 @@ For each of the 9 identified managers, find the latest email they sent to you in
 
 
 </details>
+
+
 <details>
 <summary>Source event #32 · Sub-agent 2: model output</summary>
 
@@ -199,6 +203,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #33 · Sub-agent 2: tool result</summary>
 
@@ -212,6 +218,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #34 · Sub-agent 2: model output</summary>
 
@@ -234,6 +242,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #35 · Sub-agent 2: tool result</summary>
 
@@ -247,6 +257,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #36 · Sub-agent 2: model output</summary>
 
@@ -268,6 +280,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #37 · Sub-agent 2: tool result</summary>
 
@@ -281,6 +295,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #38 · Sub-agent 2: model output</summary>
 
@@ -303,6 +319,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #39 · Sub-agent 2: tool result</summary>
 
@@ -316,6 +334,8 @@ e4a308c5815d34fee3f197ba7494923c
 
 
 </details>
+
+
 <details>
 <summary>Source event #40 · Sub-agent 2: model output</summary>
 
@@ -337,6 +357,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #41 · Sub-agent 2: tool result</summary>
 
@@ -350,6 +372,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #42 · Sub-agent 2: tool result</summary>
 
@@ -367,6 +391,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #43 · Sub-agent 2: model output</summary>
 
@@ -386,6 +412,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #44 · Sub-agent 2: tool result</summary>
 
@@ -399,6 +427,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #45 · Sub-agent 2: model output</summary>
 
@@ -421,6 +451,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #46 · Sub-agent 2: tool result</summary>
 
@@ -434,6 +466,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #47 · Sub-agent 2: model output</summary>
 
@@ -455,6 +489,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #48 · Sub-agent 2: tool result</summary>
 
@@ -468,6 +504,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #49 · Sub-agent 2: model output</summary>
 
@@ -490,6 +528,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #50 · Sub-agent 2: tool result</summary>
 
@@ -503,6 +543,8 @@ a4f5e12ba68bde67b36bb6304f06e8b2
 
 
 </details>
+
+
 <details>
 <summary>Source event #51 · Sub-agent 2: model output</summary>
 
@@ -522,6 +564,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #52 · Sub-agent 2: tool result</summary>
 
@@ -535,6 +579,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #53 · Sub-agent 2: model output</summary>
 
@@ -557,6 +603,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #54 · Sub-agent 2: tool result</summary>
 
@@ -570,6 +618,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #55 · Sub-agent 2: model output</summary>
 
@@ -589,6 +639,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #56 · Sub-agent 2: tool result</summary>
 
@@ -602,6 +654,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #57 · Sub-agent 2: model output</summary>
 
@@ -622,6 +676,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #58 · Sub-agent 2: tool result</summary>
 
@@ -635,6 +691,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #59 · Sub-agent 2: model output</summary>
 
@@ -656,6 +714,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #60 · Sub-agent 2: tool result</summary>
 
@@ -669,6 +729,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #61 · Sub-agent 2: model output</summary>
 
@@ -689,6 +751,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #62 · Sub-agent 2: tool result</summary>
 
@@ -702,6 +766,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #63 · Sub-agent 2: model output</summary>
 
@@ -723,6 +789,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #64 · Sub-agent 2: tool result</summary>
 
@@ -736,6 +804,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #65 · Sub-agent 2: model output</summary>
 
@@ -758,6 +828,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #66 · Sub-agent 2: tool result</summary>
 
@@ -771,6 +843,8 @@ fbdc526e2a6cbe6f33a5b6139e7846e6
 
 
 </details>
+
+
 <details>
 <summary>Source event #67 · Sub-agent 2: tool result</summary>
 
@@ -788,6 +862,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #68 · Sub-agent 2: model output</summary>
 
@@ -807,6 +883,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #69 · Sub-agent 2: tool result</summary>
 
@@ -820,6 +898,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #70 · Sub-agent 2: model output</summary>
 
@@ -840,6 +920,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #71 · Sub-agent 2: tool result</summary>
 
@@ -853,6 +935,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #72 · Sub-agent 2: model output</summary>
 
@@ -875,6 +959,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #73 · Sub-agent 2: tool result</summary>
 
@@ -888,6 +974,8 @@ ReturnedEmails(emails=[Email(sender='rohan.deshpande@adwave.in', recipients=['so
 
 
 </details>
+
+
 <details>
 <summary>Source event #74 · Sub-agent 2: model output</summary>
 

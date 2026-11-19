@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Find all emails I&#x27;ve received with &quot;Seeking&quot; in the subject and identify the youngest sender. If there&#x27;s a tie, choose the one whose first name comes first alphabetically. Then count the total number of private and group conversations I have had with that person on Messages and Chats combined. Send me a message with the number only.
@@ -77,6 +79,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Emails__search_emails` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts`
 
+**Full sub-agent execution · 39 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #44
@@ -147,6 +151,8 @@ Find the user IDs for 'Akua Nkrumah' in both the Messages and Chats apps. Count 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Messages__get_user_id` → `Chats__get_user_id` → `Chats__lookup_user_id` → `Chats__lookup_user_id` → `Chats__lookup_user_id`
+
+**Full sub-agent execution · 63 events:** [Part 1](execution-s2-v1-001.md)
 
 ### S3 configuration v1
 
@@ -220,6 +226,8 @@ Count the total number of unique private and group conversations with Akua Nkrum
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Messages__list_conversations_by_participant` → `Chats__search` → `Chats__search` → `Chats__get_user_id` → `Chats__lookup_user_id`
+
+**Full sub-agent execution · 30 events:** [Part 1](execution-s3-v1-001.md)
 
 ## Final judging record
 

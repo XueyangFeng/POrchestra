@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #43 · Sub-agent 2: model output</summary>
 
@@ -36,6 +38,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #44 · Sub-agent 2: tool result</summary>
 
@@ -49,6 +53,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #45 · Sub-agent 2: model output</summary>
 
@@ -68,6 +74,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #46 · Sub-agent 2: tool result</summary>
 
@@ -81,6 +89,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #47 · Sub-agent 2: model output</summary>
 
@@ -100,6 +110,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #48 · Sub-agent 2: tool result</summary>
 
@@ -113,6 +125,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #49 · Sub-agent 2: model output</summary>
 
@@ -132,6 +146,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #50 · Sub-agent 2: tool result</summary>
 
@@ -145,6 +161,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #51 · Sub-agent 2: model output</summary>
 
@@ -164,6 +182,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #52 · Sub-agent 2: tool result</summary>
 
@@ -177,6 +197,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #53 · Sub-agent 2: tool result</summary>
 
@@ -202,6 +224,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #54 · Sub-agent 2: model output</summary>
 
@@ -221,6 +245,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #55 · Sub-agent 2: tool result</summary>
 
@@ -234,6 +260,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #56 · Sub-agent 2: model output</summary>
 
@@ -252,6 +280,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #57 · Sub-agent 2: tool result</summary>
 
@@ -275,6 +305,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #58 · Sub-agent 2: model output</summary>
 
@@ -294,6 +326,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #59 · Sub-agent 2: tool result</summary>
 
@@ -307,6 +341,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #60 · Sub-agent 2: model output</summary>
 
@@ -325,6 +361,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #61 · Sub-agent 2: tool result</summary>
 
@@ -348,6 +386,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #62 · Sub-agent 2: model output</summary>
 
@@ -364,6 +404,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #63 · Sub-agent 2: tool result</summary>
 
@@ -387,6 +429,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #64 · Sub-agent 2: model output</summary>
 
@@ -407,6 +451,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #65 · Sub-agent 2: tool result</summary>
 
@@ -420,6 +466,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #66 · Sub-agent 2: model output</summary>
 
@@ -440,6 +488,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #67 · Sub-agent 2: tool result</summary>
 
@@ -453,6 +503,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #68 · Sub-agent 2: model output</summary>
 
@@ -471,6 +523,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #69 · Sub-agent 2: tool result</summary>
 
@@ -494,6 +548,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #70 · Sub-agent 2: model output</summary>
 
@@ -512,6 +568,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #71 · Sub-agent 2: tool result</summary>
 
@@ -535,6 +593,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #72 · Sub-agent 2: model output</summary>
 
@@ -553,6 +613,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #73 · Sub-agent 2: tool result</summary>
 
@@ -576,6 +638,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #74 · Sub-agent 2: model output</summary>
 
@@ -594,6 +658,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #75 · Sub-agent 2: tool result</summary>
 
@@ -621,6 +687,8 @@ Address: Östermalmsgatan 12, 114 39 Stockholm, Sweden
 
 
 </details>
+
+
 <details>
 <summary>Source event #76 · Sub-agent 2: model output</summary>
 
@@ -639,6 +707,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #77 · Sub-agent 2: tool result</summary>
 
@@ -662,6 +732,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #78 · Sub-agent 2: model output</summary>
 
@@ -680,6 +752,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #79 · Sub-agent 2: tool result</summary>
 
@@ -703,6 +777,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #80 · Sub-agent 2: model output</summary>
 
@@ -721,6 +797,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #81 · Sub-agent 2: tool result</summary>
 
@@ -744,6 +822,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #82 · Sub-agent 2: model output</summary>
 
@@ -765,6 +845,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #83 · Sub-agent 2: tool result</summary>
 
@@ -778,6 +860,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #84 · Sub-agent 2: model output</summary>
 
@@ -796,6 +880,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #85 · Sub-agent 2: tool result</summary>
 
@@ -819,6 +905,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #86 · Sub-agent 2: model output</summary>
 
@@ -841,6 +929,8 @@ SUB-AGENT SESSION 3
 
 
 </details>
+
+
 <details>
 <summary>Source event #87 · Sub-agent 3: Initial system configuration</summary>
 
@@ -1045,6 +1135,8 @@ the provided discount code. This is a strict all-or-nothing discount policy.
 
 
 </details>
+
+
 <details>
 <summary>Source event #88 · Sub-agent 3: user / environment input</summary>
 
@@ -1061,6 +1153,8 @@ the provided discount code. This is a strict all-or-nothing discount policy.
 
 
 </details>
+
+
 <details>
 <summary>Source event #89 · Sub-agent 3: tool result</summary>
 
@@ -1086,6 +1180,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #90 · Sub-agent 3: tool result</summary>
 
@@ -1106,6 +1202,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #91 · Sub-agent 3: tool result</summary>
 
@@ -1126,6 +1224,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #92 · Sub-agent 3: model output</summary>
 
@@ -1144,6 +1244,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #93 · Sub-agent 3: tool result</summary>
 
@@ -1171,6 +1273,8 @@ Address: Östermalmsgatan 12, 114 39 Stockholm, Sweden
 
 
 </details>
+
+
 <details>
 <summary>Source event #94 · Sub-agent 3: model output</summary>
 
@@ -1193,6 +1297,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #95 · Sub-agent 3: tool result</summary>
 
@@ -1217,6 +1323,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #96 · Sub-agent 3: model output</summary>
 

@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Please re-schedule the 9am meeting today for 10 AM today in the main conference room, instead of zoom call. The meeting should last for 1 hour. Add everyone from the &#x27;Net-Zero Energy Buildings and Sustainable Communities&#x27; Messages group to the attendee list (and include myself) and then send a message to the group inviting them to the meeting. Once you&#x27;ve rescheduled the meeting and sent the invitations, please confirm with me. If any attendee from the group cancels the event, reschedule the meeting for the same day next week at 2 PM. Remove any events that start at the same time on that day before rescheduling. After rescheduling again, send a Messages message to everyone in the group with the updated time. Let me know once the meeting has been rescheduled and the group has been notified.
@@ -88,6 +90,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Calendar__read_today_calendar_events` → `Messages__search` → `Messages__read_conversation` → `Contacts__get_current_user_details`
+
+**Full sub-agent execution · 57 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -270,6 +274,8 @@ Additional step budget: 15
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Calendar__add_calendar_event` → `Calendar__get_calendar_events_from_to` → `Messages__send_message_to_group_conversation`
+
+**Full sub-agent execution · 17 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Final judging record
 

@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Delete all future events with the word &quot;Wine&quot; in the title from my calendar for the rest of this week, except the ones where there are any attendees other than me. After each deletion, immediately add a new event titled &quot;Private Project&quot; with the exact same date, time and duration. After this is done, let me know how many &quot;Private Project&quot; events were created.
@@ -85,6 +87,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Contacts__get_current_user_details` → `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Calendar__add_calendar_event`
+
+**Full sub-agent execution · 29 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

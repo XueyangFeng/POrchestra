@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Elodie Vandenberghe has just had surgery. Send a message every 30 seconds, starting in 30 seconds, for the next 3 minutes from now to the group chat with her in it on Chats called &quot;Exploring Swiss Folk Music and Culture&quot;, asking Elodie whether she is alive. If she doesn&#x27;t reply within 4 minutes of my message to you, message the group chat saying I don&#x27;t think she made it, then remove her from the chat, and then email her with the subject &quot;Proof of Life&quot; saying that I will add her back to the group chat if she gives me a sign of life. Don&#x27;t need to notify me of anything.
@@ -74,6 +76,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Chats__lookup_user_id` → `Chats__search` → `Contacts__search_contacts`
+
+**Full sub-agent execution · 11 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S2 configuration v1
 
@@ -151,6 +155,8 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `SystemApp__wait_for_notification` → `Chats__read_conversation` → `Chats__send_message_to_group_conversation` → `SystemApp__get_current_time`
 
+**Full sub-agent execution · 72 events:** [Part 1](execution-s2-v1-001.md)
+
 ### S3 configuration v1
 
 **Initial harness configuration** · Source event #90
@@ -221,6 +227,8 @@ stop
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Chats__read_conversation` → `Chats__send_message_to_group_conversation` → `Chats__remove_participant_from_conversation` → `Emails__send_email` → `Emails__send_email`
+
+**Full sub-agent execution · 13 events:** [Part 1](execution-s3-v1-001.md)
 
 ## Other main-agent decisions
 

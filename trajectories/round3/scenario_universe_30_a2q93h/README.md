@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I have $50 to spend. Tell me how much money I will have left after paying for the premium cab I got a quote for on August 23, have bought the most expensive vinyl variant among all products with the text &#x27;action figure&#x27; in their title available in the shop, rounded to the nearest whole number. I just need the final dollar amount, no need for pleasantries.
@@ -83,6 +85,8 @@ Perform the following information gathering steps:
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Cabs__get_ride_history_length` → `Cabs__get_ride_history` → `Cabs__get_ride` → `Shopping__search_product` → `Shopping__search_product`
+
+**Full sub-agent execution · 18 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Other main-agent decisions
 

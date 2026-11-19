@@ -24,6 +24,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #100 · Sub-agent 2: tool result</summary>
 
@@ -37,6 +39,8 @@ e4a308c5815d34fee3f197ba7494923c
 
 
 </details>
+
+
 <details>
 <summary>Source event #101 · Sub-agent 2: model output</summary>
 
@@ -57,6 +61,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #102 · Sub-agent 2: tool result</summary>
 
@@ -70,6 +76,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #103 · Sub-agent 2: model output</summary>
 
@@ -120,6 +128,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #104 · Sub-agent 2: tool result</summary>
 
@@ -133,6 +143,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #105 · Judge rationale</summary>
 

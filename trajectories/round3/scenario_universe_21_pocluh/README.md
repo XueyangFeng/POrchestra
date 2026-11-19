@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I recently visited a nice neighborhood and I&#x27;m interested in moving to the area. It was in the same zip code as the starting location of my most expensive cab ride this month. Save the largest by square footage property with the same zip code and send a message to each Messages and Chats conversation with at least one participant whose home address is in the same zip code, asking if the price of that property is reasonable. Also order one unit of the most expensive available variant of the &quot;Herbaceous&quot; to each participant (excluding myself) of the conversations as an apology for spamming each conversation.
@@ -75,6 +77,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Cabs__get_ride_history_length` → `Cabs__get_ride_history` → `SystemApp__get_current_time`
 
+**Full sub-agent execution · 11 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #21
@@ -137,6 +141,8 @@ Search for all properties in zip code 411 19. Identify the property with the lar
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__search_apartments` → `RentAFlat__save_apartment`
+
+**Full sub-agent execution · 7 events:** [Part 1](execution-s2-v1-001.md)
 
 ### S3 configuration v1
 
@@ -210,6 +216,8 @@ stop
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Messages__list_recent_conversations` → `Messages__list_recent_conversations` → `Messages__list_recent_conversations` → `Messages__list_recent_conversations`
+
+**Full sub-agent execution · 38 events:** [Part 1](execution-s3-v1-001.md)
 
 ### S3 configuration v2
 
@@ -378,6 +386,8 @@ Full system configuration: [Part 1](config-s3-v2-01.md)
 
 **4. Execution after the update:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
 
+**Full sub-agent execution · 80 events:** [Part 1](execution-s3-v2-001.md) · [Part 2](execution-s3-v2-002.md)
+
 ### S4 configuration v1
 
 **Initial harness configuration** · Source event #149
@@ -458,6 +468,8 @@ stop
 Full system configuration: [Part 1](config-s4-v1-01.md)
 
 **Subsequent execution:** `Chats__lookup_user_id` → `Chats__list_recent_conversations` → `Chats__list_recent_conversations` → `Chats__list_recent_conversations` → `Chats__list_recent_conversations`
+
+**Full sub-agent execution · 61 events:** [Part 1](execution-s4-v1-001.md) · [Part 2](execution-s4-v1-002.md)
 
 ### S5 configuration v1
 
@@ -542,6 +554,8 @@ Full system configuration: [Part 1](config-s5-v1-01.md)
 
 **Subsequent execution:** `Chats__list_recent_conversations` → `Chats__list_recent_conversations` → `Chats__list_recent_conversations` → `Chats__list_recent_conversations` → `Chats__list_recent_conversations`
 
+**Full sub-agent execution · 61 events:** [Part 1](execution-s5-v1-001.md)
+
 ### S6 configuration v1
 
 **Initial harness configuration** · Source event #273
@@ -612,6 +626,8 @@ Message: 'I am interested in moving to the area. Do you think the price of 1500 
 Full system configuration: [Part 1](config-s6-v1-01.md)
 
 **Subsequent execution:** `Chats__send_message_to_group_conversation` → `Chats__send_message_to_group_conversation` → `Chats__send_message_to_group_conversation` → `Chats__send_message_to_group_conversation` → `Chats__send_message_to_group_conversation`
+
+**Full sub-agent execution · 23 events:** [Part 1](execution-s6-v1-001.md)
 
 ## Other main-agent decisions
 

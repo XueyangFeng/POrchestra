@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Reply to the emails I received within the last 5 days, starting from yesterday, and let the senders know that I will be accepting phone calls to answer questions and discuss projects this Friday from 9 am, for 2 hours long, from my home. Schedule this time in calendar.
@@ -77,6 +79,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Emails__list_emails` → `Emails__list_emails` → `Emails__get_email_by_id` → `Emails__list_emails` → `Emails__search_emails`
 
+**Full sub-agent execution · 29 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #34
@@ -137,6 +141,8 @@ Schedule a calendar event for Friday, 2024-10-18, from 09:00:00 to 11:00:00. The
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Calendar__add_calendar_event`
+
+**Full sub-agent execution · 6 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

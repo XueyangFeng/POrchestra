@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Check for the next 2.5 minutes to see if the blue Abacus with Clock becomes available to purchase. If it does, add it to my cart at exactly the 2.5 minute mark and then purchase it. After purchasing, wait exactly 1 minute, then send individual messages through Chats with the price of the product to all contacts with either &quot;economist&quot;, &quot;economic&quot;, or &quot;finance&quot; in their job title and/or contact description. Exactly 1 minute after sending these Chats messages, notify me that you&#x27;ve sent them.
@@ -95,6 +97,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Shopping__search_product` → `Shopping__search_product` → `Shopping__get_product_details` → `SystemApp__wait_for_notification`
+
+**Full sub-agent execution · 95 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

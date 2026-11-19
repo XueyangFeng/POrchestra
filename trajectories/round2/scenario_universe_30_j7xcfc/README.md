@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Purchase one ebook copy of &#x27;The Dead of Night&#x27; for each of my contacts whose listed job includes the word &#x27;Librarian&#x27; or the phrase &#x27;Former Librarian&#x27;, and send each of those contacts an individual email with the subject &#x27;New Book&#x27;, notifying them that I bought them a new book for their collection.
@@ -83,6 +85,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 49 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md)
 
 ## Other main-agent decisions
 

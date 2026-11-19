@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Send a 1:1 direct message to each of my contacts who live in the same city as me and are 40 and over inviting them to a watch-along of Cinema Paradiso at my house this Sunday from 7:00 PM to 9:40 PM and ask them to confirm their attendance. Use Messages if they’re on it, otherwise Chats. Create a calendar event for the watch-along, but don’t add attendees since I’m not sure who’s coming. Buy 50 round paper dinner plates so I have something to serve snacks on.
@@ -88,6 +90,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Contacts__get_current_user_details` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
 
+**Full sub-agent execution · 62 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #67
@@ -157,6 +161,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Calendar__add_calendar_event` → `Shopping__search_product` → `Shopping__search_product` → `Shopping__add_to_cart` → `Shopping__list_cart`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

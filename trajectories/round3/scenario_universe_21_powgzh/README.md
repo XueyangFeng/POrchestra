@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Identify my employed contacts living in Stockholm excluding myself and determine their most common job. If there&#x27;s a tie, select the job that comes first alphabetically. From the contacts found, who have that job, find who I scheduled the most events with this month. In case of a tie, choose the first name alphabetically. Determine whether I have more Messages or Chats conversations that include this person as a participant, and then tell me the date of when our most recent one on one conversation was on that app.
@@ -75,6 +77,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 31 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md)
 
 ### S2 configuration v1
 
@@ -154,6 +158,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Messages__get_user_id` → `Chats__get_user_id` → `Messages__list_conversations_by_participant` → `Messages__list_conversations_by_participant`
+
+**Full sub-agent execution · 62 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

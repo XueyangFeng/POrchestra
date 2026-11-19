@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Please schedule an event titled &quot;Exclusive Wine Bar&quot; with Deniz Öztürk in my calendar for this upcoming Sunday, starting at 5 PM, lasting for 2 hours, and tagged as work, then send her an email titled &quot;Reservation Confirmed,&quot; confirming her booking. Let me know once all that is done. If, within 3 minutes of sending the email, she hasn’t responded to confirm, take no action. If she responds and confirms her attendance within the 3 minutes, stop checking for any further responses and immediately book a premium cab for the same day as the newly scheduled event at 4:30 PM, from 9012 Park Ave, New York to 4567 Broadway, New York, create a new Messages group conversation titled &quot;Client Confirmation&quot; with all listed attendees of yesterday&#x27;s &#x27;Staff Training: Wine and Food Pairing&#x27; event, and send a message in this newly-created conversation informing them that the VIP has confirmed and preparations should begin.
@@ -79,6 +81,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Calendar__add_calendar_event` → `Emails__send_email` → `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 12 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -256,6 +260,8 @@ Additional step budget: 30
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `SystemApp__get_current_time` → `Emails__list_emails` → `SystemApp__wait_for_notification` → `Emails__list_emails` → `SystemApp__wait_for_notification`
+
+**Full sub-agent execution · 33 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Other main-agent decisions
 

@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I&#x27;m freaking out– I just got a $400 speeding ticket and have no idea how I&#x27;m going to pay it. Cancel all events that overlap with 9 AM to 5 PM on the next three Saturdays and schedule a single &#x27;Work From Home&#x27; event for that full time block each Saturday so I can start making money fast. Send a group email with the subject &#x27;Help Me Out, Fam?&#x27; to everyone I attended &#x27;Dinner with Family&#x27; with so far this month, asking if any of them can lend me money to cover this fine. Send a private message on Chats (or Messages if they&#x27;re not on Chats) to my contact who works in the Prague Police Department, asking if there&#x27;s any way to lower or contest my fine since I&#x27;m completely broke.
@@ -77,6 +79,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event`
 
+**Full sub-agent execution · 27 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #33
@@ -144,6 +148,8 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Calendar__search_events` → `Calendar__get_calendar_events_from_to` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Emails__send_email`
 
+**Full sub-agent execution · 13 events:** [Part 1](execution-s2-v1-001.md)
+
 ### S3 configuration v1
 
 **Initial harness configuration** · Source event #47
@@ -210,6 +216,8 @@ Identify the contact who works in the Prague Police Department. Send a private m
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts`
+
+**Full sub-agent execution · 17 events:** [Part 1](execution-s3-v1-001.md)
 
 ## Other main-agent decisions
 

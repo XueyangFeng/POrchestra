@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #46 · Sub-agent 1: model output</summary>
 
@@ -35,6 +37,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #47 · Sub-agent 1: tool result</summary>
 
@@ -48,6 +52,8 @@ Successfully saved apartment
 
 
 </details>
+
+
 <details>
 <summary>Source event #48 · Sub-agent 1: model output</summary>
 
@@ -64,6 +70,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #49 · Sub-agent 1: tool result</summary>
 
@@ -77,6 +85,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #50 · Sub-agent 1: user / environment input</summary>
 
@@ -89,6 +99,8 @@ Environment notifications:
 
 
 </details>
+
+
 <details>
 <summary>Source event #51 · Sub-agent 1: model output</summary>
 
@@ -105,6 +117,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #52 · Sub-agent 1: tool result</summary>
 
@@ -118,6 +132,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #53 · Sub-agent 1: model output</summary>
 
@@ -138,6 +154,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #54 · Sub-agent 1: tool result</summary>
 
@@ -151,6 +169,8 @@ e99491546510d319bc33d842063d8b97
 
 
 </details>
+
+
 <details>
 <summary>Source event #55 · Sub-agent 1: model output</summary>
 
@@ -201,6 +221,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #56 · Sub-agent 1: tool result</summary>
 
@@ -214,6 +236,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #57 · Judge rationale</summary>
 

@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 At exactly 4 minutes from now, reply to each new email I received during these 4 minutes with &quot;You&#x27;ve been blessed by the powerful witch Baba Yaga. She has gifted you one of her rare magical artifacts: Magic 8 Ball.&quot; Exactly 30 seconds after you have sent these replies, add to my cart a mini blue mattel magic 8 ball for each unique email address you replied to, and then check out. Then, set a reminder on my calendar titled &quot;Reminder: Hand Out Gifts,&quot; for all day on the 31st of this month so I remember to hand out these gifts to the winners.
@@ -92,6 +94,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time`
+
+**Full sub-agent execution · 51 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Other main-agent decisions
 

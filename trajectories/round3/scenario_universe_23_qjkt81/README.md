@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Send an email to the person I had the Coffee Break event with yesterday. Ask her if she wants to go and see a movie with me this Friday at 18:00. Order her the Ubisoft Six Collection Figure – Ela made out of resin. Order a default cab for myself to pick me up at home and drive me to her address, one hour before we&#x27;re meeting for the movie. Let me know, once you wrote her and ordered the cab and collection figure. If she declines, write a Messages message to my best friend, if he wants to have a beer with me on Friday at 18:00. He lives in Prague and has the closest age to mine from all the guys. Cancel the order of the collection figure and change the location of the cab to the address of my best friend.
@@ -93,6 +95,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Contacts__search_contacts` → `Contacts__get_current_user_details` → `Emails__send_email` → `Shopping__search_product`
+
+**Full sub-agent execution · 22 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -271,6 +275,8 @@ Additional step budget: 30
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Emails__list_emails` → `Emails__get_email_by_id` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 43 events:** [Part 1](execution-s1-v2-001.md) · [Part 2](execution-s1-v2-002.md)
 
 ## Final judging record
 

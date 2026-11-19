@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I&#x27;m going to celebrate a surprise birthday party for myself! I want it to be on Friday, October 18th, but don&#x27;t tell me the exact time. Please individually email only my good friends: Nalinee Wongcharee, Rohan Sengupta, and Aurélie Desjardins that I want to have a surprise birthday party and ask them what time they are free on Friday. Title the email &quot;Surprise Birthday Party&quot;. Only let me know once you&#x27;ve sent those emails. In exactly 4 minutes of notifying me, see who has responded, and immediately schedule the event for 2 hours at the earliest 2 hour time slot they are all available at, based on their email replies. If any of them responded they are not able to come, remove them from my contacts and reply to the email saying they are not my real friend and I never want to talk to them again. Please place the event on my calendar for &quot;Surprise Birthday&quot; with confirmed attendees at the agreed time, deleting all existing events in that time slot.
@@ -89,6 +91,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Emails__send_email` → `Emails__send_email`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

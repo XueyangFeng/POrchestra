@@ -56,6 +56,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #86 · Sub-agent 2: tool result</summary>
 
@@ -69,6 +71,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #87 · Judge rationale</summary>
 

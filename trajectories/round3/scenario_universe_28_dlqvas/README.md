@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Based on my calendar, calculate how much time I spent with each person in the first week of September and identify their countries. Then, find which country, other than my own, has the highest total time (add each person&#x27;s time for that country&#x27;s total) and give me the email address of the person closest in age to me from that country. If there&#x27;s a tie, choose the person whose name comes first alphabetically.
@@ -82,6 +84,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Calendar__get_calendar_events_from_to` → `Contacts__get_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts`
+
+**Full sub-agent execution · 23 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Other main-agent decisions
 

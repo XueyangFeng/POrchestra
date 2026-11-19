@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Please delete all 1-bedroom condos from my saved listings. For the next 3 minutes starting now, monitor RentAFlat and immediately save any new 2-bedroom, 1-bathroom condos that appear in the property listings during that time. One minute after saving the last one, send me the names of all newly saved property listings. If none are saved, you are done.
@@ -89,6 +91,8 @@ Perform the following steps:
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `RentAFlat__list_saved_apartments` → `RentAFlat__remove_saved_apartment` → `RentAFlat__remove_saved_apartment` → `RentAFlat__list_all_apartments`
+
+**Full sub-agent execution · 38 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md)
 
 ## Final judging record
 

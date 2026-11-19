@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Looking at events from today until the end of this month, cancel the ones that are tagged &quot;Social&quot; which are also starting and ending before 12pm. After cancelling them, send a group email and group Messages message to the attendees, informing them that I am no longer a morning person, so I&#x27;ve canceled all the social events that start before 12PM this month. The Messages message must be sent in a new group conversation. If I don&#x27;t have any conversations with some of these attendees on Messages, send them individual messages on Chats instead.
@@ -76,6 +78,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S2 configuration v1
 
@@ -156,6 +160,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Messages__get_user_id` → `Messages__get_user_id`
+
+**Full sub-agent execution · 34 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

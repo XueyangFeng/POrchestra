@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 What is the age of the person who attended the most &quot;dinner with friends&quot; events (excluding myself) in the months of August, September and October 2024? If there is a tie, choose the one who sent me an email most recently.
@@ -86,6 +88,8 @@ Identify the age of the person who attended the most 'dinner with friends' event
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Calendar__get_calendar_events_from_to` → `Calendar__search_events` → `Calendar__get_calendar_events_from_to` → `Calendar__get_calendar_events_from_to`
+
+**Full sub-agent execution · 18 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md)
 
 ## Other main-agent decisions
 

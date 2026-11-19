@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #83 · Sub-agent 2: model output</summary>
 
@@ -35,6 +37,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #84 · Sub-agent 2: tool result</summary>
 
@@ -48,6 +52,8 @@ Event 8fce113de00ea4a218ab94f8a582ba16 successfully deleted.
 
 
 </details>
+
+
 <details>
 <summary>Source event #85 · Sub-agent 2: tool result</summary>
 
@@ -65,6 +71,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #86 · Sub-agent 2: model output</summary>
 
@@ -84,6 +92,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #87 · Sub-agent 2: tool result</summary>
 
@@ -97,6 +107,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #88 · Sub-agent 2: model output</summary>
 
@@ -118,6 +130,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #89 · Sub-agent 2: tool result</summary>
 
@@ -131,6 +145,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #90 · Sub-agent 2: model output</summary>
 
@@ -202,6 +218,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #91 · Sub-agent 2: tool result</summary>
 
@@ -215,6 +233,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #92 · Judge rationale</summary>
 

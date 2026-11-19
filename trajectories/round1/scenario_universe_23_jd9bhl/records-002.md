@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #64 · Sub-agent 2: model output</summary>
 
@@ -35,6 +37,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #65 · Sub-agent 2: tool result</summary>
 
@@ -48,6 +52,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #66 · Sub-agent 2: model output</summary>
 
@@ -66,6 +72,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #67 · Sub-agent 2: tool result</summary>
 
@@ -79,6 +87,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #68 · Sub-agent 2: model output</summary>
 
@@ -95,6 +105,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #69 · Sub-agent 2: tool result</summary>
 
@@ -108,6 +120,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #70 · Sub-agent 2: model output</summary>
 
@@ -126,6 +140,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #71 · Sub-agent 2: tool result</summary>
 
@@ -139,6 +155,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #72 · Sub-agent 2: model output</summary>
 
@@ -157,6 +175,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #73 · Sub-agent 2: tool result</summary>
 
@@ -170,6 +190,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #74 · Sub-agent 2: model output</summary>
 
@@ -211,6 +233,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #75 · Sub-agent 2: tool result</summary>
 
@@ -224,6 +248,8 @@ e99491546510d319bc33d842063d8b97
 
 
 </details>
+
+
 <details>
 <summary>Source event #76 · Sub-agent 2: model output</summary>
 
@@ -242,6 +268,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #77 · Sub-agent 2: tool result</summary>
 
@@ -255,6 +283,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #78 · Sub-agent 2: model output</summary>
 
@@ -274,6 +304,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #79 · Sub-agent 2: tool result</summary>
 
@@ -287,6 +319,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #80 · Sub-agent 2: model output</summary>
 
@@ -330,6 +364,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #81 · Sub-agent 2: tool result</summary>
 
@@ -343,6 +379,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #82 · Judge rationale</summary>
 

@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Find the attendee of the next event with &quot;meeting&quot; in the title, that I have scheduled with only one attendee. Tell me how many direct message threads (1:1) with them I have on Messages and Chats, making sure to let me know the number, or &quot;None&quot; in case of a zero. If there is no such meeting, tell me &quot;no meeting.&quot; 
@@ -77,6 +79,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Calendar__get_calendar_events_from_to` → `Calendar__get_calendar_event`
 
+**Full sub-agent execution · 9 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #13
@@ -147,6 +151,8 @@ Count the total number of 1:1 direct message threads with Gerrit van der Meer ac
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Messages__get_user_id` → `Chats__get_user_id` → `Chats__lookup_user_id` → `Messages__list_conversations_by_participant` → `Messages__list_conversations_by_participant`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

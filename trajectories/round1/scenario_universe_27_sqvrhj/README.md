@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Create a folder inside the &quot;Documents&quot; directory named &quot;Cold War&quot;, then, move the file &quot;names+achievements.xlsx&quot; to &quot;Cold War&quot;, then send it in a single email to the sender of the email with the subject &quot;Historical Accuracy in Spy Novels&quot; and to the former military pilot from Russia, also, create a new group conversation on Messages and share the document with the other history teachers (excluding myself), former or not, on Messages. If one or more of them is not on Messages, send the file to those individuals together in a single email, and still share it on Messages with the others.
@@ -90,6 +92,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Files__ls` → `Files__ls` → `Files__ls` → `Files__ls` → `Files__ls`
+
+**Full sub-agent execution · 62 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md)
 
 ### S2 configuration v1
 
@@ -184,6 +188,8 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Files__ls` → `Files__mkdir` → `Files__ls` → `Files__ls` → `Files__ls`
 
+**Full sub-agent execution · 62 events:** [Part 1](execution-s2-v1-001.md) · [Part 2](execution-s2-v1-002.md)
+
 ### S3 configuration v1
 
 **Initial harness configuration** · Source event #131
@@ -248,6 +254,8 @@ Complete the final delivery steps of the task:
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Messages__create_group_conversation` → `Messages__send_message_to_group_conversation` → `Emails__send_email`
+
+**Full sub-agent execution · 11 events:** [Part 1](execution-s3-v1-001.md)
 
 ## Other main-agent decisions
 

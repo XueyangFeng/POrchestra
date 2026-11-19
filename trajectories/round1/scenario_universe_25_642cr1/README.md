@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Add 1 hour daily dinner time reminders at 7pm until Friday of next week to my calendar, canceling events that conflict, and emailing attendees if an event canceled impacts them. If a dinner event is already scheduled at 7pm, leave it be and don&#x27;t add the reminder for these days
@@ -89,6 +91,8 @@ Perform the following calendar management task:
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event`
+
+**Full sub-agent execution · 34 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Other main-agent decisions
 

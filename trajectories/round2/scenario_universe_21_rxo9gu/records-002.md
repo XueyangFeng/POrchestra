@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #110 · Sub-agent 2: model output</summary>
 
@@ -33,6 +35,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #111 · Sub-agent 2: tool result</summary>
 
@@ -46,6 +50,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #112 · Sub-agent 2: model output</summary>
 
@@ -62,6 +68,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #113 · Sub-agent 2: tool result</summary>
 
@@ -75,6 +83,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #114 · Sub-agent 2: model output</summary>
 
@@ -91,6 +101,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #115 · Sub-agent 2: tool result</summary>
 
@@ -104,6 +116,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #116 · Sub-agent 2: model output</summary>
 
@@ -120,6 +134,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #117 · Sub-agent 2: tool result</summary>
 
@@ -133,6 +149,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #118 · Sub-agent 2: model output</summary>
 
@@ -149,6 +167,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #119 · Sub-agent 2: tool result</summary>
 
@@ -162,6 +182,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #120 · Sub-agent 2: model output</summary>
 
@@ -178,6 +200,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #121 · Sub-agent 2: tool result</summary>
 
@@ -191,6 +215,8 @@ d46960822cc74d4b8170cc865ffe492a
 
 
 </details>
+
+
 <details>
 <summary>Source event #122 · Sub-agent 2: model output</summary>
 
@@ -207,6 +233,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #123 · Sub-agent 2: tool result</summary>
 
@@ -220,6 +248,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #124 · Sub-agent 2: model output</summary>
 
@@ -261,6 +291,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #125 · Sub-agent 2: tool result</summary>
 
@@ -274,6 +306,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #126 · Judge rationale</summary>
 

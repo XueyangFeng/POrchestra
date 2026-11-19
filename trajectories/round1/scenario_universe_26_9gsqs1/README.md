@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I don&#x27;t want my friends to wait, so you have a maximum of 200 seconds to complete the following task in its entirety: Create a new Messages group conversation titled &#x27;Friends Forever&#x27; with my contact who is a Branding Specialist and my contact who I had lunch with yesterday. Send a message to this new group chat asking them to add their best friends to this Messages conversation. Let me know once the message has been sent and exactly 3 minutes after that check and see who has been added to the aforementioned conversation and send a separate message in it to personally welcome each of them. After all the messages have been sent welcoming the new participants, notify me how many total participants including myself are in the &#x27;Friends Forever&#x27; Messages group conversation.
@@ -86,6 +88,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Calendar__get_calendar_events_from_to` → `Contacts__search_contacts`
+
+**Full sub-agent execution · 19 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -235,6 +239,8 @@ Additional step budget: 5
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 3 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Final judging record
 

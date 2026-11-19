@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #64 · Sub-agent 1: model output</summary>
 
@@ -36,6 +38,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #65 · Sub-agent 1: tool result</summary>
 
@@ -49,6 +53,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #66 · Sub-agent 1: user / environment input</summary>
 
@@ -61,6 +67,8 @@ Environment notifications:
 
 
 </details>
+
+
 <details>
 <summary>Source event #67 · Sub-agent 1: model output</summary>
 
@@ -76,6 +84,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #68 · Sub-agent 1: tool result</summary>
 
@@ -89,6 +99,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #69 · Sub-agent 1: model output</summary>
 
@@ -104,6 +116,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #70 · Sub-agent 1: tool result</summary>
 
@@ -117,6 +131,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #71 · Sub-agent 1: model output</summary>
 
@@ -136,6 +152,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #72 · Sub-agent 1: tool result</summary>
 
@@ -149,6 +167,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #73 · Sub-agent 1: user / environment input</summary>
 
@@ -161,6 +181,8 @@ Environment notifications:
 
 
 </details>
+
+
 <details>
 <summary>Source event #74 · Sub-agent 1: model output</summary>
 

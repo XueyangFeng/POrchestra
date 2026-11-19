@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #45 · Sub-agent 1: model output</summary>
 
@@ -35,6 +37,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #46 · Sub-agent 1: tool result</summary>
 
@@ -48,6 +52,8 @@ None
 
 
 </details>
+
+
 <details>
 <summary>Source event #47 · Judge rationale</summary>
 

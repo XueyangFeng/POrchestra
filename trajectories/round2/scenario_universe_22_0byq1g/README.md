@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Save all the properties that are priced at $3200 if they are not saved yet. Send an email to Luís Silva titled &#x27;Request for Chess Coaching&#x27; asking him to be my chess coach. Create a calendar event for tomorrow 2024/10/16 at 12pm for one hour titled &#x27;Tasting New Wines&#x27;. Delete the most recent email from Astrid Nakamura.
@@ -75,6 +77,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__search_apartments` → `RentAFlat__list_saved_apartments` → `RentAFlat__save_apartment` → `RentAFlat__save_apartment` → `RentAFlat__search_apartments`
 
+**Full sub-agent execution · 13 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #20
@@ -136,6 +140,8 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Emails__send_email` → `Emails__send_email`
 
+**Full sub-agent execution · 9 events:** [Part 1](execution-s2-v1-001.md)
+
 ### S3 configuration v1
 
 **Initial harness configuration** · Source event #30
@@ -194,6 +200,8 @@ Create a calendar event for 2024/10/16 starting at 12:00:00 and ending at 13:00:
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Calendar__add_calendar_event`
+
+**Full sub-agent execution · 5 events:** [Part 1](execution-s3-v1-001.md)
 
 ### S4 configuration v1
 
@@ -259,6 +267,8 @@ Delete the most recent email from Astrid Nakamura. Search for emails related to 
 Full system configuration: [Part 1](config-s4-v1-01.md)
 
 **Subsequent execution:** `Emails__search_emails` → `Emails__search_emails` → `Emails__search_emails` → `Emails__search_emails` → `Emails__search_emails`
+
+**Full sub-agent execution · 25 events:** [Part 1](execution-s4-v1-001.md)
 
 ## Other main-agent decisions
 

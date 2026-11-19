@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Who is the person I have interacted with through Chats (1-on-1 or group chat) since October 10, who has the same last name as a contact that I have interacted with in Messages (1-on-1 or group chat) this month, and for whom I have booked at least one ride to their city of residence at any time? Give me the full name only. If there&#x27;s a tie, sort alphabetically by first name and return the first one.
@@ -81,6 +83,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Chats__list_recent_conversations` → `Chats__list_recent_conversations` → `Chats__list_recent_conversations` → `Chats__get_user_name_from_id` → `Chats__get_user_name_from_id`
 
+**Full sub-agent execution · 61 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #66
@@ -149,6 +153,8 @@ Identify the full name of the person who meets these criteria: 1. Interacted wit
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Cabs__get_ride_history_length`
+
+**Full sub-agent execution · 19 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

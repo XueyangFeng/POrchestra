@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Remove 4 of my saved properties: The Vue at Zip Code 10013, Willow Creek Apartments at Zip Code 85053, Riverwalk Condos at Zip Code 19123, and Harbor Heights at Zip Code 92101. If any property not currently in my saved property list experiences a price change in the next 4 minutes, immediately add it to my saved property list. Exaclty 4 minutes from now, send an email to Kaitlyn McAllister telling her the number of properties that changed prices, set the subject as &quot;Property price changes&quot;.
@@ -92,6 +94,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__list_saved_apartments` → `RentAFlat__remove_saved_apartment` → `RentAFlat__remove_saved_apartment` → `RentAFlat__remove_saved_apartment` → `RentAFlat__remove_saved_apartment`
 
+**Full sub-agent execution · 54 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md) · [Part 3](execution-s1-v1-003.md) · [Part 4](execution-s1-v1-004.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #58
@@ -153,6 +157,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Emails__send_email` → `AgentUserInterface__send_message_to_user`
+
+**Full sub-agent execution · 5 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Final judging record
 

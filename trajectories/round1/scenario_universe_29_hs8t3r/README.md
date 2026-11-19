@@ -4,6 +4,8 @@
 
 **Domain:** Search · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 What percentage of the male contacts I emailed this month are also participants in at least one individual or group conversation with me on Chats?
@@ -86,6 +88,8 @@ Determine the percentage of male contacts emailed in October 2024 (this month) w
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Emails__list_emails` → `Emails__list_emails` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 67 events:** [Part 1](execution-s1-v1-001.md) · [Part 2](execution-s1-v1-002.md) · [Part 3](execution-s1-v1-003.md)
 
 ### S2 configuration v1
 
@@ -172,6 +176,8 @@ Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Emails__list_emails` → `Emails__list_emails` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__search_contacts`
 
+**Full sub-agent execution · 66 events:** [Part 1](execution-s2-v1-001.md) · [Part 2](execution-s2-v1-002.md)
+
 ### S3 configuration v1
 
 **Initial harness configuration** · Source event #139
@@ -252,6 +258,8 @@ Reference list of 9 male contacts emailed this month:
 Full system configuration: [Part 1](config-s3-v1-01.md)
 
 **Subsequent execution:** `Chats__lookup_user_id` → `Chats__lookup_user_id` → `Chats__lookup_user_id` → `Chats__lookup_user_id` → `Chats__list_conversations_by_participant`
+
+**Full sub-agent execution · 18 events:** [Part 1](execution-s3-v1-001.md)
 
 ## Final judging record
 

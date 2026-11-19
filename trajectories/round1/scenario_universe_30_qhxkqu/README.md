@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Cancel my Yoga Class and Paper Review events for tomorrow. I have a nightly project with Helmut Eisenstadt and Gerrit van der Meer, so please add that to the calendar for tomorrow between 6 PM - 11 PM at the University of Cambridge, Department of Physics, adding them as attendees. Let me know when the event has been created. If any of the attendees cancels the event, restore the deleted events for tomorrow, schedule the Nightly Project again for Thursday at the same time, and cancel any overlapping/conflicting events happening on Thursday at that time. Let me know if it has been rescheduled for Thursday or not. In the case that any of the attendees cancels the event again, delete all calendar events from today until the end of this month where Helmut Eisenstadt and Gerrit van der Meer are both attendees.
@@ -83,6 +85,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__search_events` → `Calendar__search_events` → `Calendar__delete_calendar_event` → `Calendar__delete_calendar_event` → `Calendar__add_calendar_event`
+
+**Full sub-agent execution · 20 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -276,6 +280,8 @@ Additional step budget: 30
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `Calendar__add_calendar_event` → `Calendar__add_calendar_event` → `Calendar__get_calendar_events_from_to` → `Calendar__delete_calendar_event` → `Calendar__add_calendar_event`
+
+**Full sub-agent execution · 28 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Other main-agent decisions
 

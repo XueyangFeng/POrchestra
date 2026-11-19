@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Find my next 3 &#x27;Follow-up call&#x27; events and send separate messages to the attendees via Chats if they are on the app to ask them if we could reschedule the events. If they are not in the app, send them an email instead. If they don&#x27;t reply in the next 3 minutes after reaching out to them, exactly after 3 minutes reschedule their particular event to start 30 minutes later and end 30 minutes later and then send 1:1 messages to each relevant attendee to tell them about the time changes for their events. Use Chats if they use Chats, and Messages if they don&#x27;t. After all of that, let me know if they responded or not.
@@ -113,6 +115,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_current_user_details` → `Calendar__get_calendar_events_from_to` → `Chats__get_user_id` → `Chats__get_user_id` → `Chats__get_user_id`
+
+**Full sub-agent execution · 62 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Other main-agent decisions
 

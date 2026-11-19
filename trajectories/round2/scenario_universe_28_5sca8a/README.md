@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Find all the properties in the safest zip code (lowest sum of violent crime and property crime rates) that cost less than $2000 and send a separate email to each of the participants (excluding myself) of the Messages conversation &quot;Startup Updates and Fintech Discussion&quot; with the names of the properties. Save all of the properties that cost under $2000 in that zip code that aren&#x27;t already saved.
@@ -90,6 +92,8 @@ Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__list_all_apartments` → `City__get_api_call_limit` → `City__get_api_call_count` → `City__get_crime_rate` → `City__get_crime_rate`
 
+**Full sub-agent execution · 63 events:** [Part 1](execution-s1-v1-001.md)
+
 ### S2 configuration v1
 
 **Initial harness configuration** · Source event #68
@@ -164,6 +168,8 @@ stop
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__save_apartment` → `RentAFlat__save_apartment` → `RentAFlat__save_apartment` → `RentAFlat__save_apartment` → `Messages__search`
+
+**Full sub-agent execution · 36 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

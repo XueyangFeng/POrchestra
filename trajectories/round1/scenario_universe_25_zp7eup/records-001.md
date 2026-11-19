@@ -33,6 +33,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #2 · Main agent — decision 2: delegate_task</summary>
 
@@ -64,6 +66,8 @@ SUB-AGENT SESSION 1
 
 
 </details>
+
+
 <details>
 <summary>Source event #3 · Sub-agent 1: Initial system configuration</summary>
 
@@ -238,6 +242,8 @@ The search looks for partial matches in first name, last name, phone number, and
 
 
 </details>
+
+
 <details>
 <summary>Source event #4 · Sub-agent 1: user / environment input</summary>
 
@@ -254,6 +260,8 @@ The search looks for partial matches in first name, last name, phone number, and
 
 
 </details>
+
+
 <details>
 <summary>Source event #5 · Sub-agent 1: tool result</summary>
 
@@ -279,6 +287,8 @@ Now let's retry: take care not to repeat previous errors! If you have retried se
 
 
 </details>
+
+
 <details>
 <summary>Source event #6 · Sub-agent 1: model output</summary>
 
@@ -295,6 +305,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #7 · Sub-agent 1: tool result</summary>
 
@@ -308,6 +320,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #8 · Sub-agent 1: model output</summary>
 
@@ -324,6 +338,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #9 · Sub-agent 1: tool result</summary>
 
@@ -337,6 +353,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #10 · Sub-agent 1: model output</summary>
 
@@ -353,6 +371,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #11 · Sub-agent 1: tool result</summary>
 
@@ -366,6 +386,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #12 · Sub-agent 1: model output</summary>
 
@@ -382,6 +404,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #13 · Sub-agent 1: tool result</summary>
 
@@ -395,6 +419,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #14 · Sub-agent 1: model output</summary>
 
@@ -411,6 +437,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #15 · Sub-agent 1: tool result</summary>
 
@@ -424,6 +452,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #16 · Sub-agent 1: model output</summary>
 
@@ -440,6 +470,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #17 · Sub-agent 1: tool result</summary>
 
@@ -453,6 +485,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #18 · Sub-agent 1: model output</summary>
 
@@ -471,6 +505,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #19 · Sub-agent 1: tool result</summary>
 
@@ -484,6 +520,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #20 · Sub-agent 1: model output</summary>
 
@@ -500,6 +538,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #21 · Sub-agent 1: tool result</summary>
 
@@ -513,6 +553,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #22 · Sub-agent 1: model output</summary>
 
@@ -529,6 +571,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #23 · Sub-agent 1: tool result</summary>
 
@@ -542,6 +586,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #24 · Sub-agent 1: model output</summary>
 
@@ -558,6 +604,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #25 · Sub-agent 1: tool result</summary>
 
@@ -571,6 +619,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #26 · Sub-agent 1: model output</summary>
 
@@ -589,6 +639,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #27 · Sub-agent 1: tool result</summary>
 
@@ -602,6 +654,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #28 · Sub-agent 1: model output</summary>
 

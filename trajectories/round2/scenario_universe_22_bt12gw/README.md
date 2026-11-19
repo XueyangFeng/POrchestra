@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 As soon as you receive any emails from my contact with College Mathematics Professor in their job title, or from anyone mentioning &#x27;project update&#x27; in the subject line, send a reply email after 30 seconds asking if there are any updates about the project. But, if in these emails they ask me specifically if I&#x27;ve heard anything about project updates, instead tell them in my reply that I don&#x27;t have any information on the project updates and will let them know about any updates soon. If an email is received from the College Mathematics Professor in my contacts containing a date for the project, please create a calendar event for the project using the day and time specified in the email, immediately after receiving the email. If I don&#x27;t receive an email from anyone within 5 minutes, send an email to the College Mathematics Professor in my contacts, with the subject &quot;Updates&quot;, asking for any updates on their work or upcoming events, with a polite tone.  For each email that is replied to, immediately after replying to it, send an email to aurelien.lafleur@gaia2mail.com, with the sender’s name as the subject and the reply you write to them as the body of the email, so I can have a record of this in my sent email folder. 
@@ -74,6 +76,8 @@ Search for a contact with the job title 'College Mathematics Professor'. Return 
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts` → `Contacts__get_contacts`
+
+**Full sub-agent execution · 24 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S2 configuration v1
 
@@ -151,6 +155,8 @@ Stop once the 5-minute window has passed and any necessary actions for received 
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Emails__list_emails` → `SystemApp__wait_for_notification` → `Emails__list_emails` → `SystemApp__wait_for_notification`
+
+**Full sub-agent execution · 71 events:** [Part 1](execution-s2-v1-001.md)
 
 ## Other main-agent decisions
 

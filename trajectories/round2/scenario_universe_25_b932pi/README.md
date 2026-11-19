@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Correct · **Configuration updates:** 1
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 Book a default cab 10 minutes before the earliest event scheduled today for the attendee of that event, picking them up at their address. If the event is tagged work, have the drop-off location be Tiensestraat 57, 3000 Leuven, Belgium. If it is not tagged work, the drop off is my home. Send the attendee a Messages message confirming the cab pickup. Then, let me know when these tasks are done. Monitor the cab booking for the following 4 minutes to see if the driver cancels the ride. Exactly 4 minutes after letting me know, if the driver cancels the ride, delete the earliest event scheduled for today and then re-schedule it with the same details but without the attendee. Then, send the attendee a Messages message confirming their ride and event cancellation and notify me of the changes.
@@ -96,6 +98,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Calendar__read_today_calendar_events` → `Contacts__search_contacts` → `Contacts__get_current_user_details` → `SystemApp__get_current_time` → `Cabs__order_ride`
+
+**Full sub-agent execution · 24 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S1 configuration v2
 
@@ -294,6 +298,8 @@ Additional step budget: 30
 Full system configuration: [Part 1](config-s1-v2-01.md)
 
 **4. Execution after the update:** `SystemApp__wait_for_notification` → `SystemApp__get_current_time` → `Calendar__delete_calendar_event` → `Calendar__add_calendar_event` → `Calendar__get_calendar_event`
+
+**Full sub-agent execution · 19 events:** [Part 1](execution-s1-v2-001.md)
 
 ## Final judging record
 

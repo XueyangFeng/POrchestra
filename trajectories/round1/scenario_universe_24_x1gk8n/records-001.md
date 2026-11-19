@@ -27,6 +27,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #2 · Main agent — decision 2: delegate_task</summary>
 
@@ -56,6 +58,8 @@ SUB-AGENT SESSION 1
 
 
 </details>
+
+
 <details>
 <summary>Source event #3 · Sub-agent 1: Initial system configuration</summary>
 
@@ -198,6 +202,8 @@ Read at: 2024-10-15 07:00:00
 
 
 </details>
+
+
 <details>
 <summary>Source event #4 · Sub-agent 1: user / environment input</summary>
 
@@ -209,6 +215,8 @@ List all apartments in the RentAFlat catalog, check their details, and identify 
 
 
 </details>
+
+
 <details>
 <summary>Source event #5 · Sub-agent 1: model output</summary>
 
@@ -223,6 +231,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #6 · Sub-agent 1: tool result</summary>
 
@@ -236,6 +246,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #7 · Sub-agent 1: model output</summary>
 
@@ -254,6 +266,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #8 · Sub-agent 1: tool result</summary>
 
@@ -267,6 +281,8 @@ Apartment(name='Geneva Seaside', location='Quai du Général-Guisan, Geneva', zi
 
 
 </details>
+
+
 <details>
 <summary>Source event #9 · Sub-agent 1: model output</summary>
 
@@ -285,6 +301,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #10 · Sub-agent 1: tool result</summary>
 
@@ -298,6 +316,8 @@ Apartment(name='Geneva Luxury', location='Rue de Lausanne 45, Geneva', zip_code=
 
 
 </details>
+
+
 <details>
 <summary>Source event #11 · Sub-agent 1: model output</summary>
 
@@ -314,6 +334,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #12 · Sub-agent 1: tool result</summary>
 
@@ -327,6 +349,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #13 · Sub-agent 1: model output</summary>
 
@@ -343,6 +367,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #14 · Sub-agent 1: tool result</summary>
 

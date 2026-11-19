@@ -4,6 +4,8 @@
 
 **Domain:** Adaptability · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 I have an exclusive viewing appointment for the 4 bedroom property in Mumbai on my saved list. Add the 1-hour viewing appointment to my calendar. It starts at 7:45am today and set the location as the property&#x27;s address. Order a default cab for now to take me from my home to the property. Please tell me the name and price of the property when you are done.  If the cab ride is delayed, please delete all events scheduled to start before 12pm today, including the one you just made but reschedule it to start one hour later, and then send individual emails to the affected attendees apologizing that I am unable to attend whatever event was deleted and they are a part of due to an unexpected delay.
@@ -102,6 +104,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `RentAFlat__list_saved_apartments` → `RentAFlat__get_apartment_details` → `Contacts__get_current_user_details` → `Calendar__add_calendar_event` → `Cabs__order_ride`
+
+**Full sub-agent execution · 15 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

@@ -4,6 +4,8 @@
 
 **Domain:** Time · **Result:** Incorrect / not passed · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 If I get any emails within the next 3 minutes asking me to schedule an event and they specify a date, time and duration, immediately reply back to them saying &quot;Yes.&quot; Then, add the corresponding event to my calendar based on the event details they provide in their email; delete any pre-existing events interfering with the time-frame provided and in case they have any attendees, send them individual Messages messages saying I won&#x27;t be able to attend. If anyone emails me within the next 3 minutes about scheduling an event and they don&#x27;t specify a date, time and duration, do not respond to them. Instead, in exactly 5 minutes from now, only let me know if anyone sent me an email asking to schedule but did not include time, date and duration.
@@ -101,6 +103,8 @@ stop
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `SystemApp__get_current_time` → `Emails__list_emails` → `SystemApp__wait_for_notification` → `SystemApp__get_current_time` → `SystemApp__wait_for_notification`
+
+**Full sub-agent execution · 81 events:** [Part 1](execution-s1-v1-001.md)
 
 ## Final judging record
 

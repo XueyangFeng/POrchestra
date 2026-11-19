@@ -4,6 +4,8 @@
 
 **Domain:** Execution · **Result:** Correct · **Configuration updates:** 0
 
+**[Read the sub-agent execution traces](subagents.md)** · [Configuration changes](#configuration-history) · [All source records](#complete-sanitized-source-records)
+
 ## Task
 
 To organize my emails, create a folder called &#x27;Attachments&#x27; within my Downloads folder and move any png files I have on the Downloads folder to this new one. Also, check all emails I received this month and move to trash those with &#x27;Seeking advice&#x27; in the subject. Additionally, reply to the email received from my Social Media Manager contact and ask if we can schedule a meeting to discuss further.
@@ -74,6 +76,8 @@ Create a folder named 'Attachments' inside the 'Downloads' folder. Then, identif
 Full system configuration: [Part 1](config-s1-v1-01.md)
 
 **Subsequent execution:** `Files__ls` → `Files__mkdir` → `Files__mv` → `Files__ls` → `Files__ls`
+
+**Full sub-agent execution · 14 events:** [Part 1](execution-s1-v1-001.md)
 
 ### S2 configuration v1
 
@@ -147,6 +151,8 @@ Perform the following email and contact tasks: 1) Find the contact details for t
 Full system configuration: [Part 1](config-s2-v1-01.md)
 
 **Subsequent execution:** `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Contacts__search_contacts` → `Emails__list_emails`
+
+**Full sub-agent execution · 33 events:** [Part 1](execution-s2-v1-001.md) · [Part 2](execution-s2-v1-002.md)
 
 ## Other main-agent decisions
 

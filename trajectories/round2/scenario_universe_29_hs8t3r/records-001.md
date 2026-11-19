@@ -33,6 +33,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #2 · Main agent — decision 2: finalize_task</summary>
 
@@ -53,6 +55,8 @@ SUB-AGENT SESSION 1
 
 
 </details>
+
+
 <details>
 <summary>Source event #3 · Sub-agent 1: Initial system configuration</summary>
 
@@ -230,6 +234,8 @@ dictionary will be empty if no matches are found Returns: dict[str, str]
 
 
 </details>
+
+
 <details>
 <summary>Source event #4 · Sub-agent 1: user / environment input</summary>
 
@@ -247,6 +253,8 @@ dictionary will be empty if no matches are found Returns: dict[str, str]
 
 
 </details>
+
+
 <details>
 <summary>Source event #5 · Sub-agent 1: model output</summary>
 
@@ -263,6 +271,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #6 · Sub-agent 1: tool result</summary>
 
@@ -276,6 +286,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #7 · Sub-agent 1: model output</summary>
 
@@ -292,6 +304,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #8 · Sub-agent 1: tool result</summary>
 
@@ -304,6 +318,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #8 · Sub-agent 1: tool result (continued, part 2)</summary>
 
@@ -314,6 +330,8 @@ ReturnedEmails(emails=[Email(sender='rohankumar.advocate@gaia2mail.com', recipie
 
 
 </details>
+
+
 <details>
 <summary>Source event #8 · Sub-agent 1: tool result (continued, part 3)</summary>
 
@@ -325,6 +343,8 @@ ients=['kaia.papadopoulos@student.unimelb.edu.au'], subject='Exploring the Inter
 
 
 </details>
+
+
 <details>
 <summary>Source event #9 · Sub-agent 1: model output</summary>
 
@@ -341,6 +361,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #10 · Sub-agent 1: tool result</summary>
 
@@ -354,6 +376,8 @@ ReturnedEmails(emails=[Email(sender='rohankumar.advocate@gaia2mail.com', recipie
 
 
 </details>
+
+
 <details>
 <summary>Source event #11 · Sub-agent 1: model output</summary>
 
@@ -370,6 +394,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #12 · Sub-agent 1: tool result</summary>
 
@@ -382,6 +408,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #12 · Sub-agent 1: tool result (continued, part 2)</summary>
 

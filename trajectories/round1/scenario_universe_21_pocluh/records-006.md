@@ -17,6 +17,8 @@ Source export order is retained. Main-agent decisions and sub-agent sessions wer
 
 
 </details>
+
+
 <details>
 <summary>Source event #189 · Sub-agent 4: model output</summary>
 
@@ -31,6 +33,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #190 · Sub-agent 4: tool result</summary>
 
@@ -44,6 +48,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #191 · Sub-agent 4: model output</summary>
 
@@ -58,6 +64,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #192 · Sub-agent 4: tool result</summary>
 
@@ -71,6 +79,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #193 · Sub-agent 4: model output</summary>
 
@@ -85,6 +95,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #194 · Sub-agent 4: tool result</summary>
 
@@ -98,6 +110,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #195 · Sub-agent 4: model output</summary>
 
@@ -112,6 +126,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #196 · Sub-agent 4: tool result</summary>
 
@@ -125,6 +141,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #197 · Sub-agent 4: model output</summary>
 
@@ -139,6 +157,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #198 · Sub-agent 4: tool result</summary>
 
@@ -152,6 +172,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #199 · Sub-agent 4: model output</summary>
 
@@ -166,6 +188,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #200 · Sub-agent 4: tool result</summary>
 
@@ -179,6 +203,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #201 · Sub-agent 4: model output</summary>
 
@@ -193,6 +219,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #202 · Sub-agent 4: tool result</summary>
 
@@ -206,6 +234,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #203 · Sub-agent 4: model output</summary>
 
@@ -220,6 +250,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #204 · Sub-agent 4: tool result</summary>
 
@@ -233,6 +265,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #205 · Sub-agent 4: model output</summary>
 
@@ -247,6 +281,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #206 · Sub-agent 4: tool result</summary>
 
@@ -260,6 +296,8 @@ Action:
 
 
 </details>
+
+
 <details>
 <summary>Source event #207 · Sub-agent 4: model output</summary>
 
